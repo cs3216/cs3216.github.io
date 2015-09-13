@@ -4,13 +4,34 @@ layout: default
 <div class="post">
   <header class="post-header">
     <h1>Students</h1>
+    <hr>
   </header>
-  <article class="post-content">
-    {% for student in site.data.students %}
-      <div class="student-thumbnail" style="background-image: url(/img/students/{{ student.id }}.jpg);"></div>
-      <h3>{{ student.name }}</h3>
-      <p>{{ student.one_liner }}</p>
-      <p>{{ student.year }}</p>
-    {% endfor %}
+  <div class="row">
+    <div class="col-md-2">
+      <h4>Cohort</h4>
+      <ul>
+        <li>2015/16</li>
+        <li>2014/15</li>
+        <li>2013/14</li>
+      </ul>
+    </div>
+    <div class="col-md-10">
+      <div class="row">
+        {% for student in site.data.students %}
+          <div class="col-xs-6 col-md-3">
+            <div class="thumbnail">
+              <div class="student-thumbnail-container">
+                <div class="student-thumbnail" style="background-image: url(/img/students/{{ student.id }}.jpg);"></div>
+              </div>
+              <div class="caption">
+                <h3>{{ student.name }}</h3>
+                <p>{{ student.one_liner }}</p>
+                <!-- <small>{{ student.year }}</small> -->
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
   </article>
 </div>

@@ -1,7 +1,25 @@
-.student-thumbnail {
-    $size: 64px;
+.thumbnail {
+    padding: 20px;
 
-    background-size: cover;
-    height: $size;
-    width: $size;
+    .student-thumbnail-container {
+        position: relative;
+        width: 100%;
+
+        &:before {
+            content: '';
+            display: block;
+            padding-top: 100%;
+        }
+    }
+
+    .student-thumbnail {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-position: center center;
+        background-size: cover;
+        display: block;
+    }
 }
