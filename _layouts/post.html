@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="post">
+  <header class="post-header">
+    <div class="text-center">
+      <img class="post-author-thumbnail-large img-circle" src="http://graph.facebook.com/{{ page.author_thumbnail }}/picture?height=256&width=256">
+    </div>
+    <br>
+    <h1 class="post-title text-center">{{ page.title }}</h1>
+    <p class="post-meta text-center">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} by {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  </header>
+  <article class="post-content">
+    {{ content }}
+  </article>
+</div>

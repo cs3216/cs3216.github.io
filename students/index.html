@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="post">
+  <header class="post-header">
+    <h1>Students</h1>
+  </header>
+  <article class="post-content">
+    {% for student in site.data.students %}
+      <div class="student-thumbnail" style="background-image: url(/img/students/{{ student.id }}.jpg);"></div>
+      <h3>{{ student.name }}</h3>
+      <p>{{ student.one_liner }}</p>
+      <p>{{ student.year }}</p>
+    {% endfor %}
+  </article>
+</div>
