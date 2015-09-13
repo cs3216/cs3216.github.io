@@ -1,5 +1,6 @@
 .thumbnail {
     padding: 20px;
+    height: 300px;
 
     .student-thumbnail-container {
         position: relative;
@@ -21,5 +22,18 @@
         background-position: center center;
         background-size: cover;
         display: block;
+    }
+
+    .student-information {
+        padding: 15px 0;
+        text-align: center;
+
+        .student-name {
+            margin-bottom: 5px;
+        }
+
+        .student-one-liner {
+            font-size: 14px;
+        }
     }
 }
