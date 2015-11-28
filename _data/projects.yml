@@ -1,0 +1,87 @@
+- name: Griddit
+  id: 1
+  desc: Griddit is the best place to virtually create, invite, and share an eventful experience. Griddit allows fast and easy creation of a fully customised event page with a collection of widgets and tools in a few simple steps.
+  members:
+    - ang-ming-yi
+    - chen-jingwen
+    - gan-mei-lan
+    - yeo-quan-yang
+- name: Synthery
+  id: 2
+  desc: Synthery is a low cost and effortless solution to help amateur artists enhance their performance experience through the mode of visual communication. A web app with a "press play and forget" interface, it automatically generates graphics and visuals by live midi, manual or audio input, for the purpose of accompanying live music.
+  members:
+    - chia-wei-jie-keith
+    - haritha-ramesh
+    - rahij-ramsharan
+    - watt-yi-ting
+- name: FoodFlow
+  id: 3
+  desc: Many companies today still order food from external vendors for their employees. FoodFlow offers a platform for companies to manage their employees’ food order. It streamlines the food ordering workflow for both the company and the employees. It helps the company starting from choosing the available menus, collating the employees’ orders, and keeping track of order collection and payment by the employees. On the other hand, it allows the employees to view and choose their desired orders more easily.
+  members:
+    - andhieka-putra
+    - evan-sebastian
+    - nathan-azaria
+    - sharon-lynn
+- name: LikeSumo
+  id: 4
+  desc: LikeSumo is an embedded web widget for e-commerce sites to showcase customer reviews and feedback received from various channels, including email, Facebook, Twitter, and various other communication channels (Salesforce, etc.). The aim is to provide an easy and effective means of earning the customers' trust, which has incalculable value in converting prospective buyers into paying customers.
+  members:
+    - naomi-leow-wen-xin
+    - sue-zheng-hao
+    - tan-sei-yee
+    - yeo-zi-xian-justin
+- name: Letterbox
+  id: 5
+  desc: Letterbox is a dating app that aims to bring like-minded singles together and encourage them to meet up.
+  members:
+    - lei-mingyu
+    - ngiaw-ting-an-ian
+    - quek-chang-rong-sebastian
+    - xu-bili
+- name: NUSProjects
+  id: 6
+  desc: NUSProjects is a platform where students showcase their projects and other work they have done. Employers can search for and evaluate potential workers that suit their needs by looking at their portfolios and skills, and students can draw inspiration from the site and see what kind of work has been done for a certain module. Visitors can view the projects, see the people involved and their roles, then look at their profiles and contact them if interested. Student posters have a personal profile / portfolio, where people can look at the work they have done, their skills, their personal links such as their Github repository or design portfolios as well as their contributions to each project.
+  members:
+    - koh-wai-kit
+    - lai-hoang-dung
+    - tham-zheng-yi
+    - tjong-anthony
+- name: Graphite
+  id: 7
+  desc: Graphite is a centralized API that allows developers to easily build businesses / applications that sell printed products without having to handle the logistics of order management, printing and delivery. We are also building an application to make printing for businesses as easy as possible on top of this API to demonstrate its potential.
+  members:
+    - karen-ang-mei-yi
+    - le-ba-hieu-giang
+    - lim-kiang-teng
+    - patricia-wong-xi-wei
+- name: Paperbaton
+  id: 8
+  desc: Let your hard work through the semester reward you with more than just grades. Earn money by selling your helpsheets, study guides and past year mid-term and final paper solutions on Paperbaton. Paperbaton is a marketplace for students to buy/sell past year mid-term and final paper solutions, study guides and helpsheets. It aims to be the best platform for tertiary students to ace their studies and exams.
+  members:
+    - huang-yue
+    - liu-yang
+    - yong-shan-xian
+    - zheng-yuan
+- name: QuickDesk Android
+  id: 9
+  desc: QuickDesk is a simplified sales engagement customer relation management system. With QuickDesk, users are able to easily manage and track their sales leads and activities and better follow up with them based on their last point of contact. QuickDesk on Android will help you manage your contacts and close sales successfully on the go through an easy and hassle-free workflow whether you are a professional salesperson or just someone new to selling. There is no need for lengthy spreadsheets or any handwritten notes!
+  members:
+    - nguyen-cao-nhat-linh
+    - nguyen-tan-sy-nguyen
+    - nguyen-viet-dung
+    - wang-minwei
+- name: Travez
+  id: 10
+  desc: Travez empowers travelers to forgo the need to plan their itinerary and worry about logistical issues while ensuring that their trip experience is tailored to their needs and fulfilling. Through an intuitive messaging interface, travelers are connected to our Travez genies, who provide them with personalized recommendations for their travel needs and conduct tasks ranging from travel bookings to itinerary planning and finding travel deals. Travez disrupts the online travel services by creating an all-in-one experience that provides the last mile experience for all out travelers' needs that no other online service provides.
+  members:
+    - cheah-kit-weng
+    - leong-wei-ming
+    - qua-zi-xian
+    - tan-mun-aw
+- name: Garena Recruitment
+  id: 11
+  desc: Building a system for Garena to keep track of job applicants for developer positions, and a testing system to assess the aptitude and coding skills of applicants.
+  members:
+    - anand-sundaram
+    - ding-xiang-fei
+
