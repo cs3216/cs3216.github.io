@@ -2,26 +2,29 @@
 layout: default
 ---
 <div class="home">
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1 text-center">
+        <h1>Changing the world, one app at a time</h1>
+        <img class="img-responsive" src="img/class-photos/2015.jpg">
+        <br/>
         <div class="row">
-          <div class="col-md-2 text-center">
-            <img class="post-author-thumbnail img-circle" src="http://graph.facebook.com/{{ post.author_thumbnail }}/picture?height=256&width=256">
-            <div>
-              <span class="post-meta">by {{ post.author }}</span>
+          <div class="col-md-6">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <a href="projects">Our mindblowing projects</a>
+              </div>
             </div>
           </div>
-          <div class="col-md-10">
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <h2>
-              <a class="post-title" href="{{ post.url }}">{{ post.title }}</a>
-            </h2>
-            <div>{{ post.excerpt }}</div>
-            <a href="{{ post.url | prepend: site.baseurl }}" class="btn">Read more →</a>
+          <div class="col-md-6">
+            <div class="panel panel-default">
+              <div class="panel-body">
+                <a href="students">Our awesome students</a>
+              </div>
+            </div>
           </div>
         </div>
-      </li>
-    {% endfor %}
-  </ul>
+      </div>
+    </div>
+  </div>
 </div>
