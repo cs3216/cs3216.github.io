@@ -1,15 +1,17 @@
 .project-image {
-  max-width: 200px;
+  max-width: 160px;
 }
 
 .project-members {
+  display: inline-block;
   list-style-type: none;
+  margin-left: 0;
+
   li {
-    padding-left: 2px;
-    display: inline;
-    border-right: 1px solid $text-color;
-    &:last-child {
-      border-right: none;
+    display: inline-block;
+
+    &:not(:last-child):after {
+      content: ', '
     }
   }
 }

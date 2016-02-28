@@ -4,35 +4,39 @@ layout: default
 <div class="post">
   <header class="post-header">
     <h1>Projects</h1>
+    <hr>
   </header>
   <div class="row">
     <div class="col-md-2">
       <h4>Cohort</h4>
       <ul>
-        <li>2015/16</li>
-        <li>2014/15</li>
-        <li>2013/14</li>
+        {% for batch in site.data.projects %}
+          <li>
+            <a href="#{{ batch.year }}">{{ batch.year }}</a>
+          </li>
+        {% endfor %}
       </ul>
     </div>
     <div class="col-md-10">
-      {% for project in site.data.projects %}
-        <article class="media post-content">
-          <div class="media-left">
-            <img class="project-image" src="/img/projects/{{ project.id }}.png" alt="{{ project.name }}"/>
-          </div>
-          <div class="media-body">
-            <h3>{{ project.name }}</h3>
-            <p>{{ project.desc }}</p>
-            <h4>Members</h4>
-            <ul class="project-members">
-              {% for member in project.members %}
-                <li>
-                  {{ member }}
-                </li>
-              {% endfor %}
-            </ul>
-          </div>
-        </article>
+      {% for batch in site.data.projects %}
+        <h2 id="{{ batch.year }}">{{ batch.year }}</h2>
+        {% for project in batch.projects %}
+          <article class="media post-content">
+            <div class="media-left">
+              <img class="project-image" src="/img/projects/{{ project.id }}.png" alt="{{ project.name }}"/>
+            </div>
+            <div class="media-body">
+              <h3>{{ project.name }}</h3>
+              <p>{{ project.desc }}</p>
+              By:
+              <ul class="project-members">
+                {% for member in project.members %}
+                  <li>{{ member }}</li>
+                {% endfor %}
+              </ul>
+            </div>
+          </article>
+        {% endfor %}
       {% endfor %}
     </div>
   </div>
