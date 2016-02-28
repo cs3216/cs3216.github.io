@@ -10,27 +10,39 @@ layout: default
     <div class="col-md-2">
       <h4>Cohort</h4>
       <ul>
-        <li>2015/16</li>
-        <li>2014/15</li>
-        <li>2013/14</li>
+        {% for batch in site.data.students %}
+          <li>
+            <a href="#{{ batch.year }}">{{ batch.year }}</a>
+          </li>
+        {% endfor %}
       </ul>
     </div>
     <div class="col-md-10">
       <div class="row">
-        {% for student in site.data.students %}
-          <div class="col-xs-6 col-md-3">
-            <div class="thumbnail">
-              <div class="student-thumbnail-container">
-                <div class="student-thumbnail" style="background-image: url(/img/students/{{ student.id }}.jpg);"></div>
-              </div>
-              <div class="student-information">
-                <h3 class="student-name">{{ student.name }}</h3>
-                <p class="student-faculty">{{ student.faculty }}</p>
-                <!-- <small>{{ student.year }}</small> -->
-              </div>
+        <div class="col-md-12">
+          {% for batch in site.data.students %}
+            <h2 id="{{ batch.year }}">{{ batch.year }}</h2>
+            <div class="row">
+              {% for student in batch.students %}
+                <div class="col-xs-6 col-md-3">
+                  <div class="thumbnail">
+                    <div class="student-thumbnail-container">
+                      <div class="student-thumbnail" style="background-image: url(/img/students/{{ student.id }}.jpg);"></div>
+                    </div>
+                    <div class="student-information">
+                      <h3 class="student-name">
+                        <a href="{{ student.blog }}" target="_blank">{{ student.name }}</a>
+                      </h3>
+                      <p class="student-faculty">{{ student.faculty }}</p>
+                      <hr/>
+                      <small>{{ student.one_liner }}</small>
+                    </div>
+                  </div>
+                </div>
+              {% endfor %}
             </div>
-          </div>
-        {% endfor %}
+          {% endfor %}
+        </div>
       </div>
     </div>
   </article>
