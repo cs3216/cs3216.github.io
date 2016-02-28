@@ -23,6 +23,14 @@ layout: default
           <div class="media-body">
             <h3>{{ project.name }}</h3>
             <p>{{ project.desc }}</p>
+            <h4>Members</h4>
+            <ul class="project-members">
+              {% for member in project.members %}
+                <li>
+                  {{ member }}
+                </li>
+              {% endfor %}
+            </ul>
           </div>
         </article>
       {% endfor %}

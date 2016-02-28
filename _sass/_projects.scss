@@ -2,3 +2,15 @@
   max-width: 200px;
 }
 
+.project-members {
+  list-style-type: none;
+  li {
+    padding-left: 2px;
+    display: inline;
+    border-right: 1px solid $text-color;
+    &:last-child {
+      border-right: none;
+    }
+  }
+}
+
