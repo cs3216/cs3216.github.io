@@ -10,7 +10,6 @@ github_username: cs3216
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
 permalink: /:title
 paginate: 5
 encoding: UTF-8
