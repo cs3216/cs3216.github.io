@@ -1,10 +1,10 @@
 # Site settings
-title: CS3216 Software Development on Evolving Platforms
+title: CS3216 Software Product Engineering for Digital Markets
 email: cs3216-staff@googlegroups.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is the official homepage for CS3216: Software Development on Evolving Platforms.
+  This is the official homepage for CS3216 Software Product Engineering for Digital Markets.
   Subscribe to updates using the RSS button!
-url: http://cs3216.github.io # the base hostname & protocol for your site
+url: https://cs3216.github.io # the base hostname & protocol for your site
 facebook_username: cs3216
 github_username: cs3216
 github_repo: cs3216.github.io
