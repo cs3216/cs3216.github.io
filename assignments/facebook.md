@@ -1,6 +1,6 @@
 ---
 layout: assignment
-title: Facebook Assignment
+title: Life of a Facebook Application
 ---
 
 |Issue date &nbsp;| *Monday, 8 August 2016* |
@@ -21,7 +21,7 @@ able to access your content online. Remember, these may take a day or
 two to get right. You do not want to leave it to the last week.
 
 This assignment is highly open-ended. We provide milestones (in the form
-of aspirations) so that we can grade your application in a consistent
+of milestones) so that we can grade your application in a consistent
 way, even though everyone would be building different apps. This
 assignment is also designed to introduce you to the various elements of
 Facebook application development and the milestones are there to ensure
@@ -32,7 +32,7 @@ free to develop any application you choose. However, if some of the
 proposed milestones do not make sense for the application you intend to
 build, please submit a petition at least one week before the assignment
 is due. **Your petition may or may not be approved**. Furthermore, while
-the aspirations may be easy to meet, simply meeting them will not gain
+the milestones may be easy to meet, simply meeting them will not gain
 you maximum credit. We expect quality submissions, not run-of-the-mill
 work.
 
@@ -59,6 +59,10 @@ management, which are highly applicable to projects outside school!
 
 With that out of the way, let’s begin...
 
+<div class="box">
+  <strong>Reminder</strong>: Please read the entire assignment before starting.
+</div>
+
 ## Phase 0
 
 > *“If you wait to do everything until you’re sure it’s right, you’ll
@@ -73,7 +77,13 @@ inspiration a reality! While you are at it, we are here to guide you.
 To embark on this journey, you have to first install the Facebook
 Developer application.
 
-<span>**Note**</span>: During this process, Facebook may require you to
+<div class="box">
+  <strong class="milestone-counter"></strong> Install the Facebook Developer application
+  from <a href="http://developers.facebook.com/apps">http://developers.facebook.com/apps</a>.
+  (Not graded)
+</div>
+
+**Note**: During this process, Facebook may require you to
 verify your identity and confirm that you are not a spammer. You can
 choose to do so by either entering a one-time code, which they will send
 you via SMS, or by entering your credit card number.
@@ -95,7 +105,13 @@ you do not automatically get extra points for choosing to do both. If
 you choose to develop both a Facebook Canvas and a standalone
 application, and if your execution is poor, you will get lower grades
 compared to a team that only developed one type of application and did
-it well. Consider yourself warned.
+it well. Consider yourself warned. But of course, if you decide to do both and your
+execution is fantastic, you can expect a better grade.
+
+<div class="box">
+  <strong class="milestone-counter"></strong> Choose to do a Facebook Canvas application,
+  a standalone application, or both. Choose wisely and justify your choice with a short write-up.
+</div>
 
 To begin your journey with your Facebook Application, go to the Facebook
 Developer page, click on the **Apps** drop-down on the top navigation
@@ -127,7 +143,12 @@ this story, do we?)
 
 After you have read Facebook’s policies, it is time to name your
 Facebook application. By now, you should already have an idea of what
-your application will do, so pick a reasonable name.
+your application will do, so pick a reasonable name. Out of ideas? Check out
+http://www.whatalovelyname.com. :P
+
+<div class="box">
+  <strong class="milestone-counter"></strong> Your new baby needs a name! Give it one! (Not graded)
+</div>
 
 Once you have filled in your Facebook App name, click on **Create New
 Facebook App ID** and select a category for your new application. After
@@ -223,7 +244,7 @@ documentation](https://developers.facebook.com/docs/facebook-login/manually-buil
 **App Details - App Info**
 
 These sections essentially describe your application. These fields would
-be important when you are working on the next aspiration. We leave it to
+be important when you are working on the next milestone. We leave it to
 you to read the descriptions of the various fields before filling them
 up.
 
@@ -236,19 +257,13 @@ However, before you can add them to your app, they will first have to be
 your Facebook friends. For your benefit, here are links to their
 Facebook profiles:
 
-**Dr. Colin Tan** - <https://www.facebook.com/pbear1973>
-
-**Chin Su Yuen** - <https://www.facebook.com/suyuen>
-
-**Tay Yang Shun** - <https://www.facebook.com/yangshun>
-
-**Joel Low** - <https://www.facebook.com/lowjoel>
-
-**Chen Minqi** - <https://www.facebook.com/Chen.Minqi>
-
-**Lim Keng Kiat** - <https://www.facebook.com/kengkiatlim>
-
-**Sun Wang Jun** - <https://www.facebook.com/sunwangjun>
+- Dr. Colin Tan - <https://www.facebook.com/pbear1973>
+- Chin Su Yuen - <https://www.facebook.com/suyuen>
+- Tay Yang Shun - <https://www.facebook.com/yangshun>
+- Sun Wang Jun - <https://www.facebook.com/sunwangjun>
+- Sam Mauris Yong - <https://www.facebook.com/sam.yong>
+- Yeo Quan Yang - <https://www.facebook.com/quanyang>
+- Lin Xuanyi - <https://www.facebook.com/lin.yi.71653>
 
 **Open Graph:**
 
@@ -262,11 +277,16 @@ your mouse cursor over the <span>**\[?\]**</span> symbol if there is
 one. Do also consult the [Facebook
 documentation](http://developers.facebook.com/docs).
 
+<div class="box">
+  <strong class="milestone-counter"></strong> Give your newborn application some love.
+  Go to the <strong>App Details</strong> page and fill the page with as much appropriate information as
+  you can. And yes, we expect a nice application icon!
+</div>
+
 We have finally gotten that out of the way. Did you remember to click
 **Save Changes**?
 
-Sidetrack: Software development models and Facebook
----------------------------------------------------
+#### Sidetrack: Software development models and Facebook
 
 Okay, you are now perched on the threshold of the birth of your amazing
 Facebook application. Before you get down and dirty however, we would
@@ -320,8 +340,9 @@ as channels of communication with its users to gather feedback regarding
 the application and to determine which features were in demand.
 Improvements were then made based on the collected feedback. Today,
 NUSMods is practically used by the entire student population: in the
-month of July 2014 alone, NUSMods had over 40,000 users and 1.4 million
-page views.
+month of July 2016 alone, NUSMods had over 56,000 users and 1.8 million
+page views. P.S. The creators of NUSMods are CS3216 alumni and some of your classmates
+might have even contributed to the development of NUSMods. You have chosen the right module!
 
 This is the kind of story we want you to experience while developing on
 Facebook – a unique and successful relationship with real users.
@@ -373,8 +394,10 @@ API servers. Now, if your PHP scripts make ten API calls, one after
 another, the total execution time would be at least 3 seconds.
 Therefore, each time your user loads your web application or clicks on a
 link, he has to wait at least 3 seconds for a response. He will start
-complaining that your app is “laggy” and he may stop using your
-application altogether.
+complaining that your app is "laggy" and he may stop using your
+application altogether. Amazon Web Services has several geographical locations
+from which you can set up instances. How does the location of your instance affect
+the latency of your application?
 
 You have several ways of remedying this issue.
 
@@ -462,7 +485,9 @@ can read them later.
 
 Now, go to your application directory on your web server. Create a new
 directory named <span>php-sdk</span> and copy all the contents from the
-<span>facebook-php-sdk-v4</span> directory to new the directory. The
+<span>facebook-php-sdk-v4</span> directory to new the directory.
+The more experienced students might notice `composer.json`.
+Use Composer if you know how to: it will save you time managing dependencies.The
 final layout should look something as follows:
 
     your-app-dir/
@@ -636,6 +661,14 @@ to learning, these things should then not bother you too much. If you
 have any questions about what we have discussed, feel free to ask in the
 forums.
 
+<div class="box">
+  <strong class="milestone-counter"></strong> Integrate your application with Facebook.
+  If you are developing a Facebook canvas app, then users should be able to visit your app
+  and at least see their name (retrieved using the API) on the page. Similarly, if you are
+  developing a standalone app, users should be able to login to your app using their
+  Facebook account and see their own name appearing.
+</div>
+
 There is one last thing we would like to highlight. When creating a web
 application, you may often find that you need to control the visibility
 of certain elements. For example, you wouldn’t want to show the “login”
@@ -654,6 +687,11 @@ There are differences between both techniques and we could just state
 what they are, but that’s no fun. So we leave it to you to figure out
 and tell us.
 
+<div class="box">
+  <strong>Bonus:</strong> What are the pros and cons of each method of visibility control?
+  When should one use the JavaScript method and when should one use the PHP method? (1%)
+</div>
+
 ## Phase 3: Child
 
 > *You can learn many things from children. How much patience you have,
@@ -665,6 +703,7 @@ Now that you are familiar with the basic Facebook building blocks, it is
 time to graduate to the more complicated toys. In this phase, we will
 learn how to store persistent data! To be more precise, we are going to
 store data about our application’s users in a MySQL database.
+Well, actually any SQL-based database system will do.
 
 ### An Overview of Relational Databases
 
@@ -717,7 +756,13 @@ the <span>matric\_no</span> column in the <span>students</span> table.
 Note that a foreign key column set must reference a primary key column
 set of another table. Note also that our two-table set up allows
 students to become members of two faculties (e.g. when doing double
-degrees).
+degrees). This is a small space to attempt a proper introduction to
+relational database concepts. For better or further understanding,
+you might want to look up additional descriptions online.
+
+<div class="box">
+  <strong>Bonus:</strong> What is the primary key of the <code>home_faculties</code> table? (0.5%)
+</div>
 
 Other important concepts include *indexed columns* (allowing searches to
 be fast), *unique keys* (enforcing uniqueness for non-primary key
@@ -737,7 +782,13 @@ table names, column names/types, primary keys, and relationships.
 You should remember that as a rule of thumb, database schemas should be
 planned with a **design once use forever** principle in mind. You should
 spend a good amount of thinking on a good schema design, after which you
-should almost never need to touch the design again.
+should almost never need to touch the design again. No idea how to draw it out?
+Think simple. Annotated boxes and arrows are fine - just make sure the design is
+clearly communicated. Of course, we also accept proper entity-relationship diagrams.
+
+<div class="box">
+  <strong class="milestone-counter"></strong> Draw the database schema of your application.
+</div>
 
 ### SQL: Querying the Database
 
@@ -776,7 +827,14 @@ example:
 MySQL queries are handled using the command
 <span>mysqli::query</span>[^5]. Take care when constructing your queries
 for use with <span>mysqli::query</span> that they are **not** vulnerable
-to SQL Injection attacks.
+to SQL Injection attacks. If you wish to use a higher-level abstraction,
+such as PHP Data Objects, please do so.
+
+<div class="box">
+  <strong class="milestone-counter"></strong> Share with us some queries (at least 3)
+  in your application that require database access. Provide the actual SQL queries
+  you use and explain how it works.
+</div>
 
 ### Facebook Graph API
 
@@ -934,12 +992,22 @@ documentation](https://developers.facebook.com/docs/facebook-login/permissions/v
 You should try your best to only request a small number of permissions
 that are absolutely necessary. That way, a user is more likely to grant
 you those permissions. Requesting many permissions at one go tends to
-make users question the intent of your application. As a developer, you
+make users question the intent of your application. In general, it is a better idea to
+request permissions when the user triggers that feature. Requesting the permission to post
+on the user’s timeline only when the user enables such a feature is better than
+requesting the permission when the user first signs up for your application.
+This is because users can associate your permission request with what they are
+intending to do, and they are more likely to grant you that permission. As a developer, you
 should follow certain codes of conduct. When users give you permissions,
 they are actually trusting you. Do not betray that trust and do not
 misuse the power granted to you. Furthermore, if users elect not to
 grant those permissions, your application should continue being
 functional instead of completely breaking down.
+
+<div class="box">
+  <strong class="milestone-counter"></strong> Show us some of your most interesting Graph queries.
+  Explain what they are used for. (2-3 examples)
+</div>
 
 ## Phase 4: Teen
 
@@ -1018,6 +1086,11 @@ feed dialog to the user using the JavaScript SDK.[^8]:
       );
     </script>
 
+<div class="box">
+  <strong class="milestone-counter"></strong> We want some feeds! BUT remember to put thought into
+  this. Nuisance feeds will not only earn you no credit but may incur penalization!
+</div>
+
 ### The Like Button
 
 One of the interesting things that Facebook has gifted onto the world is
@@ -1059,6 +1132,12 @@ Do refer to the
 as it explains how to customize the Like button and how to also include
 a Share button to let users easily share things they find cool.
 
+<div class="box">
+  <strong class="milestone-counter"></strong> Your application should include the Like button
+  for your users to click on. Convince us why you think that is the best place you should
+  place the button.
+</div>
+
 ### Facebook and Privacy
 
 Since you are creating a social application, it is time to talk about a
@@ -1091,6 +1170,13 @@ do you do with the user’s data when he removes your application? Do you
 delete the data or do you still keep it in your database? If you decide
 to keep the data, are you violating Facebook’s Terms and Conditions?
 
+<div class="box">
+  <strong class="milestone-counter"></strong> Explain how you handle a user’s data when
+  he removes your application. Convince us that your approach is necessary and that it is
+  the most logical. Do also include an explanation on whether you violate Facebook’s terms and
+  conditions.
+</div>
+
 ### Google Analytics
 
 Web developers are often obsessed with the usage statistics of their
@@ -1114,7 +1200,9 @@ To add Google Analytics, start by exploring the [Google Analytics
 website](http://www.google.com/analytics/) and create an account. You
 might also want to take a look at the [Social
 Interactions](https://developers.google.com/analytics/devguides/platform/social-interactions)
-feature for additional metrics on your users.
+feature for additional metrics on your users. Note that you have to have
+installed Google Analytics for at least 48 hours before the submission deadline
+as Analytics only updates its reports once per day.
 
 Do note that Google Analytics is not the only tool to get metrics on
 your users. You can also use [Facebook
@@ -1123,6 +1211,11 @@ designed to work with Facebook applications. In certain cases, Facebook
 Insights can provide more information than Google Analytics about your
 application. We focus on Google Analytics here because it is more
 generic, but we want you to be aware of alternatives.
+
+<div class="box">
+  <strong class="milestone-counter"></strong> Embed Google Analytics on all your pages and
+  give us a screenshot of the report.
+</div>
 
 ### User Experience
 
@@ -1155,6 +1248,13 @@ If you have carefully considered the design of your application, this
 section should not be difficult to score well for, and would serve as a
 reminder that user experience plays a large role in determining how
 successful your application will be.
+
+<div class="box">
+  <strong class="milestone-counter"></strong> Describe 3 user interactions in your
+  application and show us that you have thought through those interactions.
+  You can even record gifs to demonstrate that interaction! It would be great if you
+  could also describe other alternatives that you decided to discard, if any.
+</div>
 
 ### jQuery
 
@@ -1264,6 +1364,11 @@ Thus, the structure for jQuery file will be as follows:
       // Your code here
     });
 
+<div class="box">
+  <strong class="milestone-counter"></strong> Show us an interesting DOM manipulation
+  through jQuery that occurs in your application.
+</div>
+
 ## Phase 5: Young Adult
 
 > *I look back five years ago, when I thought I was an adult and knew
@@ -1296,6 +1401,12 @@ process (generally a few days) for the stories they create. You should
 therefore submit these for approval early. Read more about this under
 the **Review Process** section on [this
 page](https://developers.facebook.com/docs/opengraph/overview/).
+
+<div class="box">
+  <strong class="milestone-counter"></strong> Implement at least one Story involving an
+  Action and Object in your application. Describe why you think it will create an engaging
+  experience for the users of your application.
+</div>
 
 ### jQuery Animations (Optional)
 
@@ -1353,7 +1464,13 @@ values to <span>.animate()</span>. In fact, the <span>.show()</span> and
 <span>.hide()</span> methods *are* actually shortcut methods for
 <span>.animate()</span>. Several other similar shortcut methods exist;
 thus, it would be wise to consult the jQuery documentation before
-proceeding to implement your own custom animation.
+proceeding to implement your own custom animation. If jQuery animations don’t rock your boat,
+you can use CSS3 animations instead.
+
+<div class="box">
+  <strong class="milestone-counter"></strong> Describe 2 or 3 animations used in your application
+  and explain how they add value to the context in which they are applied. (Optional)
+</div>
 
 ### AJAX (Optional)
 
@@ -1471,6 +1588,11 @@ main reason for choosing one method over the other is the size of data
 you wish to send to the server. GET usually has a much lower limit on
 the data size.
 
+<div class="box">
+  <strong class="milestone-counter"></strong> Describe how AJAX is utilised in your application,
+  and how it improves the user experience. (Optional)
+</div>
+
 ### jQuery Plugins (Optional)
 
 **This section is optional. Completing milestone(s) described in this
@@ -1496,27 +1618,33 @@ make use of the plugins.
 There are many plugins available: you can search for them at the [jQuery
 Plugins Repository](http://plugins.jquery.com/).
 
+<div class="box">
+  <strong class="milestone-counter"></strong> Tell us how you have made use of any existing jQuery
+  plugins to enhance your application functionality. Impress us further by writing your
+  own reusable jQuery plugin. (Optional)
+</div>
+
 ### Grading Scheme
 
 The grading of the assignment is divided into two components: satisfying
-the aspirations (65%) and the coolness factor (35%). Not including
-Aspiration 0, there are ** aspirations** in total: three are optional
-(Aspirations 15, 16, and 17) and one is not graded (Aspiration 2). That
-leaves you with 13 compulsory aspirations and each of them is worth 5%.
+the milestones (65%) and the coolness factor (35%). Not including
+Milestone 0, there are **17 milestones** in total: three are optional
+(Milestones 15, 16, and 17) and one is not graded (Milestone 2). That
+leaves you with 13 compulsory milestones and each of them is worth 5%.
 
-The bonus aspirations and the optional aspirations will contribute
+The bonus milestones and the optional milestones will contribute
 towards the remaining 35%.
 
-This assignment has 2 key deliverables: a mid-assignment milestones and
-the final application itself.
+This assignment has 2 key deliverables: a mid-assignment submission and
+the final submission itself.
 
 #### Mid-assignment Submission (due Friday, 19 August 2016, 23:59):
 
 -   A short write-up on your application idea and execution plans
-    (see Aspiration 1). **Restrictions:** no longer than a double-sided
+    (see Milestone 1). **Restrictions:** no longer than a double-sided
     A4 sheet of paper, 12 pt. font, Georgia or equivalent.
 
--   Make sure you have completed Aspiration 3 (and yes, we do want a
+-   Make sure you have completed Milestone 3 (and yes, we do want a
     pretty icon!)
 
 -   Application URL. Your application must already be online. Things
@@ -1525,17 +1653,17 @@ the final application itself.
     much time between the mid-assignment milestone and the
     final submission.
 
--   A SQL schema (for Aspiration 5). While your schema may change in the
+-   A SQL schema (for Milestone 5). While your schema may change in the
     following week, we will grade the SQL schema here. Be sure to
     plan well.
 
--   Answers to the bonus aspirations (if you decide to attempt them.)
+-   Answers to the bonus milestones (if you decide to attempt them.)
 
 #### Final Submission (due Friday, 2 September 2016, 23:59):
 
--   Completion of all compulsory aspirations (up to Aspiration 14).
+-   Completion of all compulsory milestones (up to Milestone 14).
     Submit your answers in a write-up and categorize your answers by the
-    aspirations they belong to.
+    milestones they belong to.
 
 -   Another separate write-up pitching your application to the teaching
     staff, i.e. convince us that your application is so good that it
@@ -1559,8 +1687,8 @@ contains the following:
     of changes that you have made to your original idea submitted in the
     mid-assignment write-up.
 
-2.  A write-up, <span>group-&lt;number&gt;-aspirations.pdf</span> containing
-    your answers to all compulsory aspirations that require
+2.  A write-up, `group-<number>-milestones.pdf` containing
+    your answers to all compulsory milestones that require
     written answers.
 
 3.  A one/two-page pitch of your application,
@@ -1577,9 +1705,8 @@ contains the following:
     your <span>README</span> file, or add all the teaching team members
     as co-developers of your application.
 
-As a reminder, there are a total of ** aspirations** (excluding
-Aspiration 0) in this assignment. 3 of these aspirations are optional
-and Aspiration 2 is not graded.
+As a reminder, there are a total of **17 milestones** (excluding Milestone 0)
+in this assignment. 3 of these milestones are optional and Milestone 2 is not graded.
 
 Clarifications and questions related to this assignment may be directed
 to the IVLE Forum under the header “Assignment 1: Life of a Facebook
