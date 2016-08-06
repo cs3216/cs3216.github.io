@@ -1458,8 +1458,7 @@ applies generally to web pages where this policy appears in the footer.
 By accepting the Privacy Policy, you express consent to our collection,
 storage, use and disclosure of your personal information as described in
 this Privacy Policy. This Privacy Policy is effective upon acceptance
-for new users and is otherwise effective on <span>Wednesday, 8 August
-2016</span>.
+for new users and is otherwise effective on Monday, 8 August 2016.
 
 ### Definitions
 
