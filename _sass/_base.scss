@@ -17,7 +17,7 @@ body {
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
-    font-weight: 300;
+    font-weight: $font-weight-normal;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
@@ -70,7 +70,7 @@ ul, ol {
 li {
     > ul,
     > ol {
-         margin-bottom: 0;
+        margin-bottom: 0;
     }
 }
 
@@ -80,7 +80,7 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+    font-weight: $font-weight-bold;
 }
 
 
@@ -210,7 +210,7 @@ pre {
     border: 1px solid $button-color;
     border-radius: 40px;
     color: $button-color;
-    font-weight: 300;
+    font-weight: $font-weight-normal;
     &:hover {
         background-color: $button-color;
         border-color: $button-color;
