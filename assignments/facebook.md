@@ -192,10 +192,12 @@ App Domain would be
 [ec2-174-129-70-144.compute-1.amazonaws.com](ec2-174-129-70-144.compute-1.amazonaws.com).
 
 **Contact Email:** Pray that you don't receive any emails from Facebook
-while building your application.\
+while building your application.
+
 Next, click on the huge **Add a Platform** button. Standalone
-applications should pick **Website** on this dialog.\
-<span>*For Facebook Canvas applications:*</span>
+applications should pick **Website** on this dialog.
+
+**For Facebook Canvas applications:**
 
 **Canvas Page:** This is your application page (those
 <http://apps.facebook.com/some-app>). Use something that is both related
@@ -224,8 +226,9 @@ application; otherwise you will see a blank page.
 **Mobile Site URL:** If you have a mobile-friendly version of the
 website you are building. We would advise you to adopt [responsive web
 design](http://en.wikipedia.org/wiki/Responsive_web_design) so that you
-don't spend too much time creating a whole new mobile-friendly version.\
-<span>*For Standalone applications:*</span>
+don't spend too much time creating a whole new mobile-friendly version.
+
+**For Standalone applications:**
 
 **Site URL:** This is the URL where your standalone app is located (such
 as [http://ec2-174-129-70-144.compute-1.amazonaws.
