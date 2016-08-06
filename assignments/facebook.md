@@ -112,9 +112,9 @@ execution is fantastic, you can expect a better grade.
   a standalone application, or both. Choose wisely and justify your choice with a short write-up.
 </div>
 
-To begin your journey with your Facebook Application, go to the Facebook
-Developer page, click on the **Apps** drop-down on the top navigation
-bar, and then the link that says **Add a New App**.
+To begin your journey with your Facebook Application, go to the [Facebook
+Developer page](https://developers.facebook.com/), click on the **My Apps** drop-down
+on the top navigation bar, and then the link that says **Add a New App**.
 
 Before you do anything else, click on the link that says [**Facebook
 Platform Policies**](https://developers.facebook.com/policy) and read
