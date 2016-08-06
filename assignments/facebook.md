@@ -1,6 +1,6 @@
 ---
 layout: assignment
-title: Life of a Facebook Application
+title: Assignment 1 - Life of a Facebook Application
 ---
 
 |Issue date &nbsp;| *Monday, 8 August 2016* |
@@ -20,9 +20,8 @@ set up PHP (or the programming language of your choice) and MySQL and be
 able to access your content online. Remember, these may take a day or
 two to get right. You do not want to leave it to the last week.
 
-This assignment is highly open-ended. We provide milestones (in the form
-of milestones) so that we can grade your application in a consistent
-way, even though everyone would be building different apps. This
+This assignment is highly open-ended. We provide milestones so that we can grade
+your application in a consistent way, even though everyone would be building different apps. This
 assignment is also designed to introduce you to the various elements of
 Facebook application development and the milestones are there to ensure
 that you learn about the elements in a structured way.
@@ -421,9 +420,13 @@ By now, you should have developed an intuition on what causes
 applications to be “slow”. Your application might appear to be more
 performant by offloading some API calls to the JavaScript SDK. However,
 in general performance is a complex issue and optimizations vary from
-case to case. Do note however that “premature optimization is the root
-of all evil”[^2]. Focus on the features first without being overly
+case to case. Do note however that "premature optimization is the root
+of all evil"[^2]. Focus on the features first without being overly
 worried about performance.
+
+Facebook's Developer site provides excellent documentation on how to get started with their [PHP
+and JS SDKs](https://developers.facebook.com/docs/apis-and-sdks). You'll be on your own here
+to learn how to use them, which is an important skill for picking up ever-changing technologies.
 
 In this phase, we will learn how to create Facebook canvas and
 standalone applications that integrate with Facebook. We will be using
@@ -472,13 +475,13 @@ file structure:
            + Url
        + tests
 
-The files you really need are located in the <span>src</span> directory.
+The files you really need are located in the `src` directory.
 It contains the main library files and the certificate that the SDK uses
-to send API requests via HTTPS. The <span>tests</span> directory
+to send API requests via HTTPS. The `tests` directory
 contains some scripts that verify the SDK’s functionality and the
-<span>docs</span> directory contains some documentation of how the SDK
+`docs` directory contains some documentation of how the SDK
 is used. You do not have to explore them now because we will soon show
-you how you can use the SDK. <span>README.md</span> and
+you how you can use the SDK. `README.md` and
 <span>CHANGELOG.md</span> are merely text files that explain what the
 SDK is and what has been updated in the SDK since the last version. You
 can read them later.
