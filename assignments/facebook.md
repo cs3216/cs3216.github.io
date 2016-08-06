@@ -399,8 +399,8 @@ in mind during your Facebook development experience.
 
 A software development model reflects the process through which your
 software (in our context, your Facebook application) gets developed. A
-common model you may have heard of is the [**Waterfall
-model**](http://en.wikipedia.org/wiki/Waterfall_model), where your team
+common model you may have heard of is the [Waterfall
+model](http://en.wikipedia.org/wiki/Waterfall_model), where your team
 goes through a sequence of well-defined stages from planning and design,
 through development and testing, and finally to release in one full
 linear process. What we would like to drill into you at this point,
@@ -445,8 +445,10 @@ the application and to determine which features were in demand.
 Improvements were then made based on the collected feedback. Today,
 NUSMods is practically used by the entire student population: in the
 month of July 2016 alone, NUSMods had over 56,000 users and 1.8 million
-page views. P.S. The creators of NUSMods are CS3216 alumni and some of your classmates
-might have even contributed to the development of NUSMods. You have chosen the right module!
+page views.
+
+*P.S. The creators of NUSMods are CS3216 alumni and some of your classmates
+might have even contributed to the development of NUSMods. You have chosen the right module!*
 
 This is the kind of story we want you to experience while developing on
 Facebook – a unique and successful relationship with real users.
@@ -803,13 +805,13 @@ reference. This is just one of the many APIs available for use.
 How about viewing your own Timeline? **Replace** `NUSMods` with `me`[^4] and click **Submit**.
 
 Oops, there seems to be no data shown. Why is that so? You will need to select specific
-*permissions* via the **Get Token -> Get User Access Token** button. For this case,
+*permissions* via the **Get Token → Get User Access Token** button. For this case,
 we will check `user_posts` under **User Data Permissions** and click **Submit** again. You can now see a
 list of your posts from your Timeline!
 
 Suppose we now wish to see the comments associated with the posts, we
 will need to add the `comments` field. This can be done in the Edge
-sidebar by clicking on **Search for a field**, or on the "+" to the left
+sidebar by clicking on **Search for a field**, or on the **plus icon** to the left
 of it.
 
 Click **Submit** to view the new output! Try it with the NUSMods page too:
@@ -1171,8 +1173,10 @@ exclusively with more advanced matters such as security, animation and AJAX.
 
 ### Security
 
+TBD
+
 <div class="box">
-  <strong class="milestone-counter"></strong> Security
+  <strong class="milestone-counter"></strong> TBD
 </div>
 
 ### Animations (Optional)
