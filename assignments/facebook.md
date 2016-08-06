@@ -36,18 +36,18 @@ you maximum credit. We expect quality submissions, not run-of-the-mill
 work.
 
 The high-level goal of this assignment is simple: a working Facebook
-application that is able to persist the users’ state and allows users to
+application that is able to persist the users' state and allows users to
 interact with each other. Please read through the whole assignment once
 to get a sense of what is required before starting work on it. A
 detailed grading scheme is attached at the very end.
 
 ## A Word of Caution
 
-Before we begin, there’s something you should know. Facebook is a very
+Before we begin, there's something you should know. Facebook is a very
 dynamic platform and things are liable to change at any time. As you
-read this, Facebook’s engineers continue to change the way their SDKs
+read this, Facebook's engineers continue to change the way their SDKs
 (Software Development Kits) work. The current version of their SDK is
-[v2.4](https://developers.facebook.com/blog/post/2015/07/08/graph-api-v2.4/),
+[v2.7](https://developers.facebook.com/blog/post/2015/07/08/graph-api-v2.7/),
 released on 8 July 2015. If you had experience with Facebook SDKs
 before, you will have to update yourself with these [new
 changes](https://developers.facebook.com/docs/apps/changelog).
@@ -56,7 +56,7 @@ This is an excellent opportunity to work with an actively changing
 platform; there are valuable lessons to be learnt on project and risk
 management, which are highly applicable to projects outside school!
 
-With that out of the way, let’s begin...
+With that out of the way, let's begin...
 
 <div class="box">
   <strong>Reminder</strong>: Please read the entire assignment before starting.
@@ -64,10 +64,10 @@ With that out of the way, let’s begin...
 
 ## Phase 0
 
-> *“If you wait to do everything until you’re sure it’s right, you’ll
-> probably never do much of anything.”*
+> *"If you wait to do everything until you're sure it's right, you'll
+> probably never do much of anything."*
 >
-> —Win Borden
+> — Win Borden
 
 After meeting with your wonderful fellow CS3216 students, you finally
 decided that it is time to do something. You have decided to make your
@@ -118,7 +118,7 @@ bar, and then the link that says **Add a New App**.
 
 Before you do anything else, click on the link that says [**Facebook
 Platform Policies**](https://developers.facebook.com/policy) and read
-it. You should also check out Facebook’s [Terms of
+it. You should also check out Facebook's [Terms of
 Service](https://www.facebook.com/terms): you *are* going to write an
 application for Facebook, with some of you deciding to monetize your
 Facebook applications in the future. It is *probably* a good idea to
@@ -135,15 +135,15 @@ this story, do we?)
 
 ## Phase 1: Baby
 
-> *“Babies are always more trouble than you thought – and more
-> wonderful.”*
+> *"Babies are always more trouble than you thought – and more
+> wonderful."*
 >
-> —Charles Osgood
+> — Charles Osgood
 
-After you have read Facebook’s policies, it is time to name your
+After you have read Facebook's policies, it is time to name your
 Facebook application. By now, you should already have an idea of what
 your application will do, so pick a reasonable name. Out of ideas? Check out
-http://www.whatalovelyname.com. :P
+[http://www.whatalovelyname.com](http://www.whatalovelyname.com). :P
 
 <div class="box">
   <strong class="milestone-counter"></strong> Your new baby needs a name! Give it one! (Not graded)
@@ -151,15 +151,15 @@ http://www.whatalovelyname.com. :P
 
 Once you have filled in your Facebook App name, click on **Create New
 Facebook App ID** and select a category for your new application. After
-reading the Facebook Policies (you have read it, haven’t you?), click on
-“Create App ID”. Facebook has done an awesome job at simplifying app
+reading the Facebook Policies (you have read it, haven't you?), click on
+"Create App ID". Facebook has done an awesome job at simplifying app
 creation. Simply follow the walkthrough and you will be on your way to
 create your app.
 
 Next, you need to provide Facebook with details about your application.
-Click on “Apps”, then \[Your App Name\]. Explore the categories on the
-left to see how the application’s management panel looks like. For now,
-let’s go to **Settings** and run through some of the more important
+Click on "Apps", then \[Your App Name\]. Explore the categories on the
+left to see how the application's management panel looks like. For now,
+let's go to **Settings** and run through some of the more important
 fields. If you make changes to any of the fields, do remember to click
 on **Save Changes** once you are done.
 
@@ -190,7 +190,7 @@ your Site URL is
 App Domain would be
 [ec2-174-129-70-144.compute-1.amazonaws.com](ec2-174-129-70-144.compute-1.amazonaws.com).
 
-**Contact Email:** Pray that you don’t receive any emails from Facebook
+**Contact Email:** Pray that you don't receive any emails from Facebook
 while building your application.\
 Next, click on the huge **Add a Platform** button. Standalone
 applications should pick **Website** on this dialog.\
@@ -223,7 +223,7 @@ application; otherwise you will see a blank page.
 **Mobile Site URL:** If you have a mobile-friendly version of the
 website you are building. We would advise you to adopt [responsive web
 design](http://en.wikipedia.org/wiki/Responsive_web_design) so that you
-don’t spend too much time creating a whole new mobile-friendly version.\
+don't spend too much time creating a whole new mobile-friendly version.\
 <span>*For Standalone applications:*</span>
 
 **Site URL:** This is the URL where your standalone app is located (such
@@ -238,7 +238,7 @@ API.
 **Deauthorize Callback URL:** The URL that Facebook would fetch when a
 user removes your application and deauthorizes it. See the **Detecting
 when people uninstall apps** section in [the
-documentation](https://developers.facebook.com/docs/facebook-login/manually-build-a-login-flow/v2.4).
+documentation](https://developers.facebook.com/docs/facebook-login/manually-build-a-login-flow/v2.7).
 
 **App Details - App Info**
 
@@ -268,8 +268,8 @@ Facebook profiles:
 
 This is the place where you can create new Stories, Action and Object
 types for your app to use. By specifying the types, your app can then
-publish customized stories to users’ News Feed or Timeline (i.e. “Colin
-bought a Nala cat plushie” instead of “Colin liked a link”.)
+publish customized stories to users' News Feed or Timeline (i.e. "Colin
+bought a Nala cat plushie" instead of "Colin liked a link".)
 
 Remember that you can find out more about each of the fields by moving
 your mouse cursor over the <span>**\[?\]**</span> symbol if there is
@@ -303,7 +303,7 @@ before you actually start laying out your plans, is this:
 
 **DO NOT WATERFALL.**
 
-Specifically, this means don’t start with drafting out a large and
+Specifically, this means don't start with drafting out a large and
 ambitious *mother-of-all-designs* and dividing the rest of your time
 into slowly and methodically implementing that design. This is why
 Facebook is interesting - the platform is such that traditional software
@@ -317,20 +317,20 @@ In such an environment, a much more sensible model is **rapid
 deployment** and **incremental improvement**. This means you start off
 by rapidly completing a small but workable application with your key
 ideas in place, then push it out immediately for users to try it out.
-Keep an open channel of communication with your users (use Facebook’s
-forum functionality and your application page’s wall and Facebook’s user
+Keep an open channel of communication with your users (use Facebook's
+forum functionality and your application page's wall and Facebook's user
 feedback/rating mechanism.) Note that this does not mean just sitting
-there and reading your users’ responses: interact with them, ask them
+there and reading your users' responses: interact with them, ask them
 for suggestions and feedback, actively respond to their issues, and fix
 bugs that they report. Then, *incrementally improve your application
 along the direction of your user feedback*. Your users know best whether
 they are happy with your application, so if they tell you that this
 feature is difficult to use or that having such and such a functionality
 would be nice, you better be busy taking notes and incorporating them
-into your application’s roadmap.
+into your application's roadmap.
 
 An excellent example of an incrementally-built web application would be
-[**NUSMods**](http://nusmods.com). NUSMods started out as an easy-to-use
+[**NUSMods**](https://nusmods.com). NUSMods started out as an easy-to-use
 timetable builder and module finder for students. NUSMods 2.0 was
 released in July 2014 to include more useful features like module
 pre-requisite trees, historical CORS bidding data, and community-driven
@@ -348,10 +348,10 @@ Facebook – a unique and successful relationship with real users.
 
 ## Phase 2: Toddler
 
-> *“If you give a hacker a new toy, the first thing he’ll do is take it
-> apart to figure out how it works.”*
+> *"If you give a hacker a new toy, the first thing he'll do is take it
+> apart to figure out how it works."*
 >
-> —Jamie Zawinski
+> — Jamie Zawinski
 
 Creating Facebook applications is similar to developing regular web
 applications. This was not the case several years ago, where students
@@ -363,7 +363,7 @@ things change often; be prepared to learn and re-learn (and curse like a
 sailor when things break).
 
 The first thing you should be aware of is that Facebook often update
-their APIs with breaking changes. The current API version, version 2.4
+their APIs with breaking changes. The current API version, version 2.7
 of the Facebook Platform API is unlikely to be compatible with versions
 before.
 
@@ -375,9 +375,9 @@ both at the same time, it is easier to do so in Facebook Canvas
 applications than in Standalone Applications.
 
 The PHP SDK makes API calls from the your application web server while
-the JavaScript SDK makes API calls from the client’s web browser. The
-question you would probably ask then is: “Why should I care where the
-API calls are made from, so long as they are actually made?”
+the JavaScript SDK makes API calls from the client's web browser. The
+question you would probably ask then is: "Why should I care where the
+API calls are made from, so long as they are actually made?"
 
 To begin answering this question, we need to understand how a network
 requests work. When a user loads your application, a network request is
@@ -387,8 +387,8 @@ execution, the program may make other API calls and wait for their
 responses. Once Facebook sends all required API responses, the script
 finishes execution and the final result is returned to the user.
 
-Let’s suppose that each API call takes 300ms on average to complete,
-especially because your web server is located far away from Facebook’s
+Let's suppose that each API call takes 300ms on average to complete,
+especially because your web server is located far away from Facebook's
 API servers. Now, if your PHP scripts make ten API calls, one after
 another, the total execution time would be at least 3 seconds.
 Therefore, each time your user loads your web application or clicks on a
@@ -410,14 +410,14 @@ and only send API calls that are absolutely necessary for your
 application to function.
 
 You could also utilize the JavaScript SDK and make the API calls from
-the user’s browsers instead. For example, you might want to display the
-user’s profile picture in your application. Instead of retrieving the
+the user's browsers instead. For example, you might want to display the
+user's profile picture in your application. Instead of retrieving the
 link to the picture using the PHP SDK, you can retrieve the link with
 the JavaScript SDK. This way, your web server can send responses to
 users quicker since it makes fewer API calls to Facebook.
 
 By now, you should have developed an intuition on what causes
-applications to be “slow”. Your application might appear to be more
+applications to be "slow". Your application might appear to be more
 performant by offloading some API calls to the JavaScript SDK. However,
 in general performance is a complex issue and optimizations vary from
 case to case. Do note however that "premature optimization is the root
@@ -428,195 +428,14 @@ Facebook's Developer site provides excellent documentation on how to get started
 and JS SDKs](https://developers.facebook.com/docs/apis-and-sdks). You'll be on your own here
 to learn how to use them, which is an important skill for picking up ever-changing technologies.
 
-In this phase, we will learn how to create Facebook canvas and
-standalone applications that integrate with Facebook. We will be using
-both PHP and JavaScript SDKs. As stated earlier, detailed discussion on
-the API would be left to a later section of this assignment.
-
-### Facebook PHP SDK
-
-The attractiveness of using PHP to develop Facebook applications is due
-to the availability of the PHP SDK. It abstracts Facebook’s APIs and
-returns API call results as PHP arrays.
-
-Download the [PHP
-SDK](https://developers.facebook.com/docs/php/gettingstarted/5.0.0#install-manually)
-and extract the archive into any directory. You should see the following
-file structure:
-
-    facebook-php-sdk-v4-5.0-dev/
-       | CHANGELOG.md
-       | composer.json
-       | CONTRIBUTING.md
-       + docs
-       | LICENSE
-       | phpunit.xml.dist
-       | README.md
-       - src
-         - Facebook
-           + Authentication
-            | autoload.php
-           + Exceptions
-            | Facebook.php
-            | FacebookApp.php
-            | FacebookBatchRequest.php
-            | FacebookBatchResponse.php
-            | FacebookClient.php
-            | Facebook Request.php
-            | FacebookResponse.php
-           + FileUpload
-           + GraphNodes
-           + Helpers
-           + Http
-           + HttpClients
-           + PersistentData
-           + PseudoRandomString
-            | SignedRequest.php
-           + Url
-       + tests
-
-The files you really need are located in the `src` directory.
-It contains the main library files and the certificate that the SDK uses
-to send API requests via HTTPS. The `tests` directory
-contains some scripts that verify the SDK’s functionality and the
-`docs` directory contains some documentation of how the SDK
-is used. You do not have to explore them now because we will soon show
-you how you can use the SDK. `README.md` and
-<span>CHANGELOG.md</span> are merely text files that explain what the
-SDK is and what has been updated in the SDK since the last version. You
-can read them later.
-
-Now, go to your application directory on your web server. Create a new
-directory named <span>php-sdk</span> and copy all the contents from the
-<span>facebook-php-sdk-v4</span> directory to new the directory.
-The more experienced students might notice `composer.json`.
-Use Composer if you know how to: it will save you time managing dependencies.The
-final layout should look something as follows:
-
-    your-app-dir/
-       - php-sdk
-         | CHANGELOG.md
-         | composer.json
-         | CONTRIBUTING.md
-         + docs
-         | LICENSE
-         | phpunit.xml.dist
-         | README.md
-         + src
-         + tests
-
-It is finally time to get dirty with code. We will begin by writing a
-simple standalone application. Copy <span>standalone\_php.php</span> and
-<span>credentials.php</span> to your application directory on your web
-server. Your application directory should look as follows:
-
-    your-app-dir/
-    | credentials.php
-    | standalone_php.php
-    + php-sdk
-
-Edit <span>credentials.php</span> with your Facebook App ID and App
-Secret. Then, try out <span>standalone\_php.php</span>. You may want to
-see what happens when you log in and log out from the application. The
-comments in the code should help you figure out what’s going on.
-
-There is however a small issue with using the PHP SDK. PHP does not
-clear the cookie when you log out. To overcome that problem, we have
-added a small section to the code that clears it:
-
-    $_SESSION = array();
-
-    if (ini_get("session.use_cookies")) {
-        $params = session_get_cookie_params();
-        setcookie(session_name(), '', time() - 42000,
-            $params["path"], $params["domain"],
-            $params["secure"], $params["httponly"]
-        );
-    }
-
-### Facebook JavaScript SDK
-
-The JavaScript SDK is used in standalone applications mainly for its
-authentication mechanism. It allows users to login to your application
-using their Facebook accounts. You do not need it in Facebook Canvas
-apps since Facebook handles user authentication directly in Facebook
-Canvas apps. As highlighted earlier, the JavaScript SDK is also used to
-make API calls from the client’s browser.
-
-To <span>**use**</span> the JavaScript SDK, you do not have to download
-anything. Instead, you only need to add the following chunk of markup to
-your page to use it.
-
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          appId      : '{your-app-id}',
-          xfbml      : true,
-          version    : 'v2.4'
-        });
-      };
-
-      (function(d, s, id){
-         var js, fjs = d.getElementsByTagName(s)[0];
-         if (d.getElementById(id)) {return;}
-         js = d.createElement(s); js.id = id;
-         js.src = "//connect.facebook.net/en_US/sdk.js";
-         fjs.parentNode.insertBefore(js, fjs);
-       }(document, 'script', 'facebook-jssdk'));
-    </script>
-
-What the script does is to include an external JavaScript file which the
-browser will download from Facebook directly. Once that is done, you
-will gain access to the <span>FB</span> JavaScript object. This is the
-main object defined by the JavaScript SDK and you will need it to access
-<span>**any**</span> of the SDK’s functionality.
-
-For example, to initialize the SDK, you need the code from lines 7 to
-11. Here, you’re calling the <span>init</span> method of the
-<span>FB</span> object[^3].
-
-As you can see, when calling <span>FB.init</span>, you need to provide
-certain parameters. You can see all the possible parameters in the
-documentation but we’ll go through some of them here:
-
--   <span>**appId**</span>
-
-    Your application’s ID, provided by Facebook. Note that unlike the
-    PHP SDK (which you’ll see in action later), you do not specify your
-    secret key here because if you did, anyone would be able to retrieve
-    it simply by viewing the source of your page.
-
--   <span>**version**</span>
-
-    The version of the Graph API to be used. Please use the latest,
-    which is `v2.4`.
-
--   <span>**cookie**</span>
-
-    Set this to <span>true</span> to ask the SDK to create cookies on
-    the user’s browser when he/she is logged in to Facebook. These
-    cookies will then be used by both the PHP and JavaScript SDKs to
-    obtain the necessary authorizations to make API calls.
-
--   <span>**xfbml**</span>
-
-    Some of the common elements you see on Facebook, such as the Login
-    button and the Like button[^4], can be created with Facebook’s
-    custom markup language called XFBML. By setting this parameter to
-    <span>true</span>, you’re asking the SDK to convert all XFBML tags
-    to the appropriate HTML form so that the elements can be displayed
-    on the browser.
-
-Open the file <span>standalone\_js.html</span> in your browser to view
-the JS SDK in action. Be sure to serve the file via a web server. Do not
-worry too much if you do not completely understand how this works. We
-are going to start playing with some Facebook canvas and standalone
-applications and you will figure everything out soon enough.
+It's not compulsory to use Facebook's SDKs when developing your application but you will have
+a considerably harder time if you do not. If you decide to go with other languages for your server
+side, you might want to look for 3rd-party Facebook SDKs for that particular language you have chosen.
 
 ### Using both the PHP and JavaScript SDKs
 
 Now we get to something that lets us have even more fun than the
-previous sections. Before moving on to the nitty-gritties, let’s think
+previous sections. Before moving on to the nitty-gritties, let's think
 about why we would want to use both the JavaScript and PHP SDKs at the
 same time when it is possible to create an application solely with just
 one of either SDKs.
@@ -624,7 +443,7 @@ one of either SDKs.
 Well, we would when we want to combine the advantages of both.
 
 Using the JavaScript SDK gives you the advantage of using any of
-Facebook’s social plugins, such as the Login button, easily. It also
+Facebook's social plugins, such as the Login button, easily. It also
 makes it easy for you to pop up [dialogs to the
 user](https://developers.facebook.com/docs/reference/dialogs/). On the
 other hand, the PHP SDK is nice because you can make API calls from the
@@ -634,13 +453,6 @@ clearly advantageous. Unfortunately, there are some technical issues you
 have to handle when integrating both SDKs – thankfully this is only a
 one-time cost. Once you figure it out, you will have no problems using
 both.
-
-As you may expect, we will be combining the principles of using the
-JavaScript SDK in <span>standalone\_js.html</span> and the principles of
-using the PHP SDK in <span>standalone\_php.php</span>. The sample file
-you should look at is aptly named
-<span>standalone\_php\_and\_js.php</span>. The code should look more or
-less familiar since you’ve seen most of it so far.
 
 Login works perfectly fine using either of the SDKs because we are using
 the Facebook SDK. Both SDKs also recognize the cookie created by the
@@ -674,7 +486,7 @@ forums.
 
 There is one last thing we would like to highlight. When creating a web
 application, you may often find that you need to control the visibility
-of certain elements. For example, you wouldn’t want to show the “login”
+of certain elements. For example, you wouldn't want to show the "login"
 link when the user is already logged in since that would just confuse
 the user. In our sample code, we demonstrate two common techniques of
 accomplishing this.
@@ -683,16 +495,16 @@ The first technique is to use JavaScript and CSS. Look at the Login and
 Logout link. By default, their CSS properties are set so that they are
 invisible. Then, we ask the JavaScript SDK if the user is logged in.
 When we get our response, we make the appropriate link visible. The
-second technique is to use PHP. Look at PHP code that displays the Login
+second technique is to use server-side rendering. The server renders the Login
 button only when it detects the user is not logged in.
 
 There are differences between both techniques and we could just state
-what they are, but that’s no fun. So we leave it to you to figure out
+what they are, but that's no fun. So we leave it to you to figure out
 and tell us.
 
 <div class="box">
   <strong>Bonus:</strong> What are the pros and cons of each method of visibility control?
-  When should one use the JavaScript method and when should one use the PHP method? (1%)
+  When should one use the JavaScript method and when should one use the server-side method? (1%)
 </div>
 
 ## Phase 3: Child
@@ -700,23 +512,22 @@ and tell us.
 > *You can learn many things from children. How much patience you have,
 > for instance.*
 >
-> —Franklin P. Jones
+> — Franklin P. Jones
 
 Now that you are familiar with the basic Facebook building blocks, it is
 time to graduate to the more complicated toys. In this phase, we will
 learn how to store persistent data! To be more precise, we are going to
-store data about our application’s users in a MySQL database.
+store data about our application's users in a MySQL database.
 Well, actually any SQL-based database system will do.
 
 ### An Overview of Relational Databases
 
 A relational database is a type of database that models stored data as
-tables with columns and rows. It is called “relational” because you can
+tables with columns and rows. It is called "relational" because you can
 link a table to another table through *foreign keys*.
 
 In this section, we will be going through simple relational database
-concepts. There are some other more advanced concepts that we will go
-through in the SQL workshop.
+concepts. There are some other more advanced concepts that you can read up online.
 
 A database application may store several *databases*. Hence, while each
 application will usually use its own database, several applications may
@@ -725,16 +536,16 @@ you and a friend each have a blog, even if each blog needs 1 database
 you could still house both blogs on the same MySQL instance).
 
 Visualizing a database at highest level, we think about a *schema*,
-which is basically a blueprint of the database’s tables, their
+which is basically a blueprint of the database's tables, their
 structural details, and the relationships between them.
 
 Schemas define two things: *tables* and *relations*. Tables contain one
 or more columns each. For example, we can imagine a
-<span>students</span> table containing 5 columns:
-<span>matric\_no</span>, <span>name</span>, <span>address</span>,
-<span>phone</span>, <span>birthdate</span>. Each column has a *type*
-that you need to specify (e.g. <span>name</span> is of type text,
-<span>birthdate</span> is of type date). Actual data will then be simply
+`students` table containing 5 columns:
+`matric_no`, `name`, `address`,
+`phone`, `birthdate`. Each column has a `type`
+that you need to specify (e.g. `name` is of type text,
+`birthdate` is of type date). Actual data will then be simply
 stored as rows in the table.
 
 Each row needs to be uniquely identifiable. If two rows happen to be
@@ -742,20 +553,20 @@ completely identical, you will run into trouble trying to update or
 delete them since there is no way to pinpoint exactly which one you
 mean. Thus, we usually have a column (or a set of columns in
 combination) that we require to be unique for each row. We call this the
-*primary key*. In the <span>students</span> table example, the
-<span>matric\_no</span> column is an excellent candidate for primary key
+*primary key*. In the `students` table example, the
+`matric_no` column is an excellent candidate for primary key
 since no two students share the same matric number. MySQL (and any other
 proper database system) will prevent you from inserting a row if there
 already exists another row with an identical primary key.
 
 Relations indicate relationships between tables. For example, suppose we
-add a <span>home\_faculties</span> table containing two columns:
-<span>matric\_no</span> and <span>faculty</span> – a simple mapping of
+add a `home_faculties` table containing two columns:
+`matric_no` and `faculty` – a simple mapping of
 student to faculty. We can link this table to the previous
-<span>students</span> table using the <span>matric\_no</span> column,
-which both tables share. We say that <span>matric\_no</span> in the
-<span>home\_faculties</span> table is a *foreign key* that *references*
-the <span>matric\_no</span> column in the <span>students</span> table.
+`students` table using the `matric_no` column,
+which both tables share. We say that `matric_no` in the
+`home_faculties` table is a *foreign key* that *references*
+the `matric_no` column in the `students` table.
 Note that a foreign key column set must reference a primary key column
 set of another table. Note also that our two-table set up allows
 students to become members of two faculties (e.g. when doing double
@@ -770,12 +581,10 @@ you might want to look up additional descriptions online.
 Other important concepts include *indexed columns* (allowing searches to
 be fast), *unique keys* (enforcing uniqueness for non-primary key
 columns), and relation cascades (where deleting a student from the
-<span>students</span> table can automatically update/delete all entries
-in other tables that reference this table). We may cover these in the
-workshop.
+`students` table can automatically update/delete all entries
+in other tables that reference this table). It's up to you to learn about all these on your own.
 
-After this section (and maybe after sitting through our awesome
-introductory MySQL workshop), you should be ready to produce a schema
+After this section, you should be ready to produce a schema
 for your application. Do consider how efficient your schema will be;
 specifically, think about the number of queries required to accomplish
 common tasks and the number of tables accessed to complete a single user
@@ -801,47 +610,26 @@ will have several additional SQL-like commands that are used to perform
 specific administrative tasks like adding new users or modifying
 passwords.
 
-The MySQL Workshop does provide details on commands you can use to
+MySQL provides commands you can use to
 create and alter databases and tables, and also commands you can use to
 insert, update, delete, and retrieve rows from tables. We call the
-former “data definition language” (DDL), and the latter “data
-manipulation language” (DML). You should **never** run DDL commands from
+former "data definition language" (DDL), and the latter "data
+manipulation language" (DML). You should **never** run DDL commands from
 publicly accessible pages (including your application pages that can be
 accessed from Facebook.)
 
-### Accessing MySQL from PHP
-
-As of PHP 5.5.0, <span>mysql\_connect</span> has been deprecated.
-<span>MySQLi</span> is used instead to connect to a MySQL Server. For
-example:
-
-    <?php
-      // Open a database connection
-      $mysqli = new mysqli("hostname", "userid", "password", "database");
-      if (!$mysqli->connect_errno) {
-        printf("Connect failed: %s\n", $mysqli->connect_error);
-        exit();
-      }
-      // Some code to access the database and for processing
-      $mysqli->query("SELECT OR OTHER QUERY HERE");
-      ...
-    ?>
-
-MySQL queries are handled using the command
-<span>mysqli::query</span>[^5]. Take care when constructing your queries
-for use with <span>mysqli::query</span> that they are **not** vulnerable
-to SQL Injection attacks. If you wish to use a higher-level abstraction,
-such as PHP Data Objects, please do so.
+Most of time, it is not a good idea to write raw SQL queries yourself. We recommend that you look up
+database connectors and ORM tools for the language/framework you intend to use.
 
 <div class="box">
   <strong class="milestone-counter"></strong> Share with us some queries (at least 3)
-  in your application that require database access. Provide the actual SQL queries
+  in your application that require database access. Provide the <em>actual SQL queries</em>
   you use and explain how it works.
 </div>
 
 ### Facebook Graph API
 
-It’s time to begin discussing the Facebook Graph API. At the core of
+It's time to begin discussing the Facebook Graph API. At the core of
 Facebook is the social graph[^6], a data structure where objects on
 Facebook (such as posts, comments, images, user profiles, and fan pages)
 are uniquely identified. Objects have connections between them if they
@@ -865,30 +653,35 @@ retrieving related objects is a simple case of extending your query in a
 natural manner.
 
 The Graph API is very extensive and we cannot completely explore it
-here. You are <span>**strongly**</span> encouraged to look at the [Graph
+here. You are **strongly** encouraged to look at the [Graph
 API documentation](https://developers.facebook.com/docs/graph-api). The
 documentation clearly lists all the information you can retrieve with
 the Graph API.
 
 One useful tool you should experiment with is the [Graph API
-Explorer](http://developers.facebook.com/tools/explorer). We will now go
+Explorer](https://developers.facebook.com/tools/explorer). We will now go
 through examples on how to navigate the Graph API Explorer to aid
 development.
 
-Say you want to get a list of posts from NUSMods’ Timeline. Replace the
+Say you want to get a list of posts from NUSMods' Timeline. Replace the
 path in the Graph API text box with the following:
 
-<span>NUSMods/feed/?fields=message,id</span>
+~~~
+NUSMods/feed?fields=message,id
+~~~
 
-and click “Submit”. You should be able to view an array of posts from
-NUSMods’ Timeline.
+and click **Submit**. You should be able to view an array of posts from
+NUSMods' Timeline.
 
     {
       "data": [
         {
-          "message": "It has been a while! NUSMods is finally back with updated...
-                      ... https://nusmods.com",
-          "id": "103575576455632_706237536189430"
+          "message": "Seriously guys, try out the Dark Mode. Just press \"X\" and see how pretty it is! You won't regret it!",
+          "id": "103575576455632_924503301029518"
+        },
+        {
+          "message": "Here’s a shoutout to all incoming freshmen! Our dear NUSWhispers admin Nicholette ...",
+          "id": "103575576455632_923207487825766"
         },
         ...
       ],
@@ -898,46 +691,46 @@ NUSMods’ Timeline.
       }
     }
 
-This particular case involves the Edge <span>*feed*</span> that belongs
-to the Node <span>*page (NUSMods)*</span> as described in the Graph API
-[/page/feed](https://developers.facebook.com/docs/graph-api/reference/v2.4/page/feed)
+This particular case involves the Edge *feed* that belongs
+to the Node *page* (NUSMods) as described in the Graph API
+[/page/feed](https://developers.facebook.com/docs/graph-api/reference/v2.7/page/feed)
 reference. This is just one of the many APIs available for use.
 
-How about viewing your own Timeline? You will need to select specific
-<span>**permissions**</span> via the “Get Token” button. For this case,
-we will check “user\_posts” under User Data Permissions.
+How about viewing your own Timeline? **Replace** `NUSMods` with `me`[^7] and click **Submit**.
 
-<span>**Replace**</span> “NUSMods” with “me”[^7], and you can now see a
+Oops, there seems to be no data shown. Why is that so? You will need to select specific
+*permissions* via the **Get Token -> Get User Access Token** button. For this case,
+we will check `user_posts` under **User Data Permissions** and click **Submit** again. You can now see a
 list of your posts from your Timeline!
 
 Suppose we now wish to see the comments associated with the posts, we
-will need to add the “comments” field. This can be done in the Edge
-sidebar by clicking on “Search for a field”, or on the box to the left
+will need to add the `comments` field. This can be done in the Edge
+sidebar by clicking on **Search for a field**, or on the "+" to the left
 of it.
 
-Run Submit to view the new output! Try it with the NUSMods page too:
+Click **Submit** to view the new output! Try it with the NUSMods page too:
 
     {
       "data": [
         {
-          "message": "It has been a while! NUSMods is finally back with updated...
-                      ... https://nusmods.com",
-          "id": "103575576455632_706237536189430"
+          "message": "Seriously guys, try out the Dark Mode. Just press \"X\" and see how pretty it is! You won't regret it!",
+          "id": "103575576455632_924503301029518",
           "comments": {
             "data": [
               {
+                "created_time": "2016-08-05T07:12:46+0000",
                 "from": {
-                  "name": "NUSMods",
-                  "id": "103575576455632"
+                  "name": "Hew Foong Chuan",
+                  "id": "10205737957308558"
                 },
-                "message": "Just a bit of insight into why NUSMods is updated when...",
-                "created_time": "2015-07-03T15:02:36+0000",
-                "id": "706237536189430_706271789519338"
-              },
+                "message": "Is there a channel go through to place a feedback on the app?",
+                "id": "924503301029518_924536684359513"
+              }
             ],
             "paging": {
               "cursors": {
-                ...
+                "before": "MQZDZD",
+                "after": "MQZDZD"
               }
             }
           }
@@ -945,59 +738,40 @@ Run Submit to view the new output! Try it with the NUSMods page too:
         ...
     }
 
-Apart from simple GET requests like the ones shown above, some of the
-API end points allow you to issue POST or DELETE requests to manage the
+Apart from simple `GET` requests like the ones shown above, some of the
+API end points allow you to issue `POST` or `DELETE` requests to manage the
 data associated with the it.
 
 There is one final note we wish to make before moving on. So far, in
 this section, we have only accessed the Graph API via our browser. But
-you would be using the PHP or JavaScript SDKs when developing your
+you would possibly be using the PHP or JavaScript SDKs when developing your
 applications. When accessing the Graph API using the SDKs, just specify
-the identifier directly and optionally, add the <span>*fields*</span>
+the identifier directly and optionally, add the *fields*
 parameter. You do not have to specify the URL
-<http://graph.facebook.com>.
-
-For example, here is how you would retrieve information about the CS3216
-Facebook group:
-
-
-    // In PHP SDK
-    $fb = new Facebook\Facebook([
-      'app_id' => FB_APP_ID,
-      'app_secret' => FB_SECRET,
-      'default_graph_version' => 'v2.4',
-    ]);
-    $object = $fb->get('/216503318372716', $accessTokenString);
-
-    // In JavaScript SDK
-    <script type="text/javascript">
-      FB.api('/216503318372716', 'get', function(response) {
-        // Do something when the API returns
-      });
-    </script>
+<https://graph.facebook.com>.
 
 In closing, remember to look at the documentation and play with the
-Graph API explorer tool. If you have questions, ask your friendly TAs or
+Graph API explorer tool. If you have questions, ask your friendly tutors or
 post in the IVLE forums.
 
 ### Facebook API and Permissions
 
 When we talked about the Graph API earlier, we only went through really
 simple examples. But if you want to use any of the more powerful
-features, you would need to get the user’s permission. For example, if
+features, you would need to get the user's permission. For example, if
 you want to retrieve the photos uploaded by a particular user, you need
-to request the <span>user\_photos</span> permission. If you wanted to
-know the user’s relationship status, you would request the
-<span>user\_relationships</span> permission. Facebook maintains a list
+to request the `user_photos` permission. If you wanted to
+know the user's relationship status, you would request the
+`user_relationships` permission. Facebook maintains a list
 of all the available permissions in [their
-documentation](https://developers.facebook.com/docs/facebook-login/permissions/v2.4).
+documentation](https://developers.facebook.com/docs/facebook-login/permissions).
 
 You should try your best to only request a small number of permissions
 that are absolutely necessary. That way, a user is more likely to grant
 you those permissions. Requesting many permissions at one go tends to
 make users question the intent of your application. In general, it is a better idea to
 request permissions when the user triggers that feature. Requesting the permission to post
-on the user’s timeline only when the user enables such a feature is better than
+on the user's timeline only when the user enables such a feature is better than
 requesting the permission when the user first signs up for your application.
 This is because users can associate your permission request with what they are
 intending to do, and they are more likely to grant you that permission. As a developer, you
@@ -1014,11 +788,11 @@ functional instead of completely breaking down.
 
 ## Phase 4: Teen
 
-> *“The ultimate metric that I would like to propose for user
+> *"The ultimate metric that I would like to propose for user
 > friendliness is quite simple: if this system was a person, how long
-> would it take before you punched it in the nose ?”*
+> would it take before you punched it in the nose ?"*
 >
-> —Tom Carey.
+> — Tom Carey.
 
 The teenage years are filled with social acceptance and self-importance.
 We are going to explore the use of feeds to advertise your apps, employ
@@ -1032,7 +806,7 @@ application to non-users. Users tend to like feeds from your application
 when it brags about something they did (like in JFDI Academy, where
 CS1101S students will publish feeds to announce to the world that they
 have levelled up). Non-users will see your application feeds on their
-friends’ profiles and might get intrigued enough to try out your
+friends' profiles and might get intrigued enough to try out your
 application.
 
 Unfortunately, feeds are double-edged swords. Use them distastefully and
@@ -1043,33 +817,19 @@ eventually stop publishing anything from your app. Remember, a feed
 should make sense and add real value to the user experience.
 
 There are two ways to publish feed stories. The first way is to use the
-Graph API. By issuing a post request to <span>/PROFILE\_ID/feed</span>
+Graph API. By issuing a post request to `<PROFILE_ID>/feed`
 with the [appropriate
 parameters](https://developers.facebook.com/docs/reference/api/user/),
-you can directly publish a feed to the user’s profile. You will need the
-<span>publish\_actions</span> permission to use this API. This is how
-you would call the API using the PHP SDK:
+you can directly publish a feed to the user's profile. You will need the
+`publish_actions` permission to use this API.
 
-        $response = $fb->post(
-          '/me/feed',
-          array(
-            'message' => 'Post Message message',
-            'link' => 'http://www.example.org',
-            'picture' => 'http://www.example.org/some-image.png',
-            'name' => 'Post Name',
-            'caption' => 'Post Caption',
-            'description' => 'Post Description',
-          ),
-          $accessTokenString
-        );
-
-The second way of publishing a user’s Facebook timeline is more polite.
+The second way of publishing a user's Facebook timeline is more polite.
 In this method, you will show him a [Share
 dialog](https://developers.facebook.com/docs/sharing/reference/share-dialog)
 and provide him the choice to either publish to Facebook or ignore it.
 The user also has the ability to customize the message in the post.
 Another benefit with this method of publishing posts is that you do not
-request the <span>publish\_actions</span> permission (or any other
+request the `publish_actions` permission (or any other
 permissions). The following sample code demonstrates how to pop up the
 feed dialog to the user using the JavaScript SDK.[^8]:
 
@@ -1127,7 +887,7 @@ following method:
      width:450px; height:80px;"
             allowTransparency="true"></iframe>
 
-This method loads a Facebook <span>&lt;iframe&gt;</span> that just
+This method loads a Facebook `<iframe>` that just
 contains the Like button.
 
 Do refer to the
@@ -1145,7 +905,7 @@ a Share button to let users easily share things they find cool.
 
 Since you are creating a social application, it is time to talk about a
 very important topic: user privacy. Clearly, the Internet has become a
-huge part of people’s lives. People usually have a expectation that
+huge part of people's lives. People usually have a expectation that
 their personal data is safe and will not be shared with anyone without
 their consent. When a company fails to meet that expectation, things
 become ugly.
@@ -1154,7 +914,7 @@ Facebook has violated the privacy of its users many times in the past.
 For example, there was an incident where this guy was purchasing a ring
 for his wife as a Christmas gift. It turns out that the website he was
 buying the ring from was using the Facebook Beacon, a feature that
-allowed site owners to publish their users’ actions on Facebook easily.
+allowed site owners to publish their users' actions on Facebook easily.
 When the guy bought the ring, a feed was posted on his wall without his
 consent or knowledge, announcing his purchase to everyone. Needless to
 say, there was a massive backlash and Facebook
@@ -1162,21 +922,21 @@ say, there was a massive backlash and Facebook
 the Facebook Beacon feature.
 
 Facebook has since adopted more privacy-concious practices. As a
-developer, you cannot just access your users’ data willy-nilly: you need
+developer, you cannot just access your users' data willy-nilly: you need
 to ask them for permission first. And even if you have permissions, you
-can’t use the data as you please because you are bound to terms and
+can't use the data as you please because you are bound to terms and
 conditions of Facebook.
 
 When a user removes your application, you get notified via the
 <span>**Deauthorize Callback**</span> URL. This begs the question: what
-do you do with the user’s data when he removes your application? Do you
+do you do with the user's data when he removes your application? Do you
 delete the data or do you still keep it in your database? If you decide
-to keep the data, are you violating Facebook’s Terms and Conditions?
+to keep the data, are you violating Facebook's Terms and Conditions?
 
 <div class="box">
-  <strong class="milestone-counter"></strong> Explain how you handle a user’s data when
+  <strong class="milestone-counter"></strong> Explain how you handle a user's data when
   he removes your application. Convince us that your approach is necessary and that it is
-  the most logical. Do also include an explanation on whether you violate Facebook’s terms and
+  the most logical. Do also include an explanation on whether you violate Facebook's terms and
   conditions.
 </div>
 
@@ -1224,19 +984,19 @@ generic, but we want you to be aware of alternatives.
 
 A good application, web or otherwise, needs to provide a good user
 experience. Some companies even perform user experience research to
-determine whether changes to an application’s UI affect users in a good
+determine whether changes to an application's UI affect users in a good
 way. We certainly do not expect that level of polish, but we do hope
 that you are always constantly bearing the user experience in mind when
 designing your application.
 
 User experience is usually judged based on how easy and, more
-importantly, how intuitive the user interface is from the users’ point
+importantly, how intuitive the user interface is from the users' point
 of view. A good-looking UI helps too (though a pretty UI that is a pain
 to use is much worse than an okay-looking UI that has pleasant
 interaction.) This section reminds you to consider every interaction
 your users have with your application and make to them user-friendly. An
 interaction is the complete sequence of steps users need to perform
-through your application’s UI to accomplish a single coherent operation
+through your application's UI to accomplish a single coherent operation
 (e.g. posting photos in the Photos application or deleting timeline
 posts).
 
@@ -1295,7 +1055,7 @@ file of jQuery and in order to use jQuery, you need to include this file
 in the <span>&lt;head&gt;</span> of the HTML document that you are
 working on.
 
-One last thing before we can discuss jQuery: let’s introduce ourselves
+One last thing before we can discuss jQuery: let's introduce ourselves
 to the DOM. That is, the Document Object Model. Think of a HTML document
 as a tree. Each HTML tag and contiguous text contained in the document
 is a node in the tree, and each nested tag is a child node of its parent
@@ -1322,7 +1082,7 @@ In CSS, prefixing an identifier with <span>.</span> indicates that the
 identifier references the class of the object. jQuery uses CSS selectors
 to find objects in the DOM. In other words, the above code is accessing
 the object with class <span>sample-class</span>. Likewise,
-<span>\#</span> refers to the id of the object. So, if the DOM object’s
+<span>\#</span> refers to the id of the object. So, if the DOM object's
 ID is <span>sample-id</span>, you can access it via the following
 function call:
 
@@ -1377,7 +1137,7 @@ Thus, the structure for jQuery file will be as follows:
 > *I look back five years ago, when I thought I was an adult and knew
 > everything about the world, and I realize I knew nothing.*
 >
-> —Neve Campbell
+> — Neve Campbell
 
 ### Timeline and Open Graph
 
@@ -1386,13 +1146,13 @@ reviews - some users liked it, some hated it. But popular apps have all
 integrated very well with the Timeline and have seen a good number of
 visitors[^9].
 
-But before we ask you to do anything with the Timeline, let’s take a
+But before we ask you to do anything with the Timeline, let's take a
 look at what all we can do with [Open
 Graph](https://developers.facebook.com/docs/opengraph/overview). Make
 sure you read the linked document as it explains what you can do with
 Open Graph. You should now be thinking about the Actions and Objects
 that you could possibly create for your application. You can set up the
-Actions, Objects and Stories by going to your application’s dashboard
+Actions, Objects and Stories by going to your application's dashboard
 and clicking on the **Open Graph** section. Facebook has a
 [tutorial](https://developers.facebook.com/docs/opengraph/getting-started)
 as well as detailed
@@ -1467,7 +1227,7 @@ values to <span>.animate()</span>. In fact, the <span>.show()</span> and
 <span>.hide()</span> methods *are* actually shortcut methods for
 <span>.animate()</span>. Several other similar shortcut methods exist;
 thus, it would be wise to consult the jQuery documentation before
-proceeding to implement your own custom animation. If jQuery animations don’t rock your boat,
+proceeding to implement your own custom animation. If jQuery animations don't rock your boat,
 you can use CSS3 animations instead.
 
 <div class="box">
@@ -1500,7 +1260,7 @@ Clicking on a link, or reloading the current page are both examples of
 synchronous events. On the other hand, an asynchronous request allows
 users to continue viewing and interacting with the current page as
 sending the request and receiving the response occurs in the background
-– hence “asynchronous”. This may result in a more “app”-like experience.
+– hence "asynchronous". This may result in a more "app"-like experience.
 Asynchronous calls are not necessarily faster or more responsive,
 however, as improper use of asynchronous calls may in fact make your
 application seem *less* responsive.
@@ -1513,7 +1273,7 @@ regenerate and send the entire blog page back to your browser with your
 new comment included (hence the page reload.) In contrast, posting to
 your Timeline on Facebook (which *is* sent via AJAX), there is no page
 reload and yet your post appears on the page. In this instance, after
-processing, Facebook’s servers only send the modified part of the page
+processing, Facebook's servers only send the modified part of the page
 (which is your post) and the JavaScript which has already been loaded
 will dynamically add the new content without reloading. This is what
 makes asynchronous calls faster (or, at least, *appear* faster).
@@ -1645,7 +1405,7 @@ the final submission itself.
 
 -   A short write-up on your application idea and execution plans
     (see Milestone 1). **Restrictions:** no longer than a double-sided
-    A4 sheet of paper, 12 pt. font, Georgia or equivalent.
+    A4 sheet of paper.
 
 -   Make sure you have completed Milestone 3 (and yes, we do want a
     pretty icon!)
@@ -1671,7 +1431,7 @@ the final submission itself.
 -   Another separate write-up pitching your application to the teaching
     staff, i.e. convince us that your application is so good that it
     deserves all 30% of the coolness points. **Restrictions:** no longer
-    than 2 A4 sides, 12pt. font, Georgia or equivalent.
+    than 2 A4 sides.
 
 Mode of Submission
 ==================
@@ -1712,15 +1472,15 @@ As a reminder, there are a total of **17 milestones** (excluding Milestone 0)
 in this assignment. 3 of these milestones are optional and Milestone 2 is not graded.
 
 Clarifications and questions related to this assignment may be directed
-to the IVLE Forum under the header “Assignment 1: Life of a Facebook
-Application”.
+to the IVLE Forum under the header "Assignment 1: Life of a Facebook
+Application".
 
 Good luck and have fun!
 
 Appendix - Privacy Policy
 =========================
 
-This Privacy Policy describes how users’ personal information is handled
+This Privacy Policy describes how users' personal information is handled
 in order to engage in the services available on our application. It
 applies generally to web pages where this policy appears in the footer.
 By accepting the Privacy Policy, you express consent to our collection,
@@ -1731,10 +1491,10 @@ for new users and is otherwise effective on <span>Wednesday, 8 August
 
 ### Definitions
 
-1.  References to “Our”, “We”, “Us” and **\[Your Application Name\]**
+1.  References to "Our", "We", "Us" and **\[Your Application Name\]**
     shall be references to **\[Your Application\]**
 
-2.  References to “You”, “Users” and “Your” shall mean references
+2.  References to "You", "Users" and "Your" shall mean references
     to user(s) visiting this web site, as the context requires.
 
 ### Information Collection
@@ -1811,21 +1571,14 @@ you should there be any major changes to the policies.
 
 [^2]: <http://en.wikipedia.org/wiki/Donald_Knuth>
 
-[^3]: Documentation on <span>FB.init</span> is
-    [available](https://developers.facebook.com/docs/javascript/reference/FB.init/v2.4)
-
 [^4]: These are also known as [Social
     Plugins](https://developers.facebook.com/docs/plugins)
 
-[^5]: <span>mysqli::query</span> and the rest of PHP’s MySQL Improved
-    Extension API can be found here:
-    <http://php.net/manual/en/book.mysqli.php>
-
-[^6]: Just in case you are not aware, the name “graph” comes from the
+[^6]: Just in case you are not aware, the name "graph" comes from the
     mathematical concept. See
     <http://en.wikipedia.org/wiki/Graph_(mathematics)>.
 
-[^7]: <https://developers.facebook.com/docs/graph-api/using-graph-api/v2.4>
+[^7]: <https://developers.facebook.com/docs/graph-api/using-graph-api/v2.7>
     <span>A special endpoint that translates to the user\_id of the
     owner of the access token</span>
 
