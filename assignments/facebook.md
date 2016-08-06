@@ -149,19 +149,20 @@ your application will do, so pick a reasonable name. Out of ideas? Check out
   <strong class="milestone-counter"></strong> Your new baby needs a name! Give it one! (Not graded)
 </div>
 
-Once you have filled in your Facebook App name, click on **Create New
-Facebook App ID** and select a category for your new application. After
+Once you have filled in a display name for your Facebook App, enter a
+contact email address and select a category for your new application. After
 reading the Facebook Policies (you have read it, haven't you?), click on
-"Create App ID". Facebook has done an awesome job at simplifying app
-creation. Simply follow the walkthrough and you will be on your way to
-create your app.
+"Create App ID".
 
-Next, you need to provide Facebook with details about your application.
-Click on "Apps", then \[Your App Name\]. Explore the categories on the
-left to see how the application's management panel looks like. For now,
-let's go to **Settings** and run through some of the more important
-fields. If you make changes to any of the fields, do remember to click
-on **Save Changes** once you are done.
+Once your Facebook application has been created, Facebook will show you a list
+of Facebook products you can activate for your Facebook application. Clicking the
+"Get Started" buttons will prompt Facebook to guide you through the setup of the
+product.
+
+To configure your Facebook application, the settings can be found through a link
+on the left side bar. Facebook has a [step by step guide](https://developers.facebook.com/docs/apps/register) that will guide you in
+configuring your Facebook application. The following is a list of common settings
+you will find in a Facebook application.
 
 **Settings - Basic**
 
