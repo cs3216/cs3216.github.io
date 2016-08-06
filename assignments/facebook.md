@@ -3,11 +3,12 @@ layout: assignment
 title: Assignment 1 - Life of a Facebook Application
 ---
 
-|Issue date &nbsp;| *Monday, 8 August 2016* |
-|Mid-assignment submission &nbsp;| *Friday, 19 August 2016, 23:59* |
-|Final submission &nbsp;| *Friday, 2 September 2016, 23:59* |
-
 <br>
+
+{:.table.table-bordered.table-striped.deadline-table}
+|Issue date&nbsp;| Monday, 8 August 2016 |
+|Mid-assignment submission &nbsp;| Friday, 19 August 2016, 23:59 |
+|Final submission &nbsp;| Friday, 2 September 2016, 23:59 |
 
 ## General Overview
 
@@ -47,8 +48,8 @@ Before we begin, there's something you should know. Facebook is a very
 dynamic platform and things are liable to change at any time. As you
 read this, Facebook's engineers continue to change the way their SDKs
 (Software Development Kits) work. The current version of their SDK is
-[v2.7](https://developers.facebook.com/blog/post/2015/07/08/graph-api-v2.7/),
-released on 8 July 2015. If you had experience with Facebook SDKs
+[v2.7](https://developers.facebook.com/blog/post/2016/07/14/graph-api-v27/),
+released on 13 July 2016. If you had experience with Facebook SDKs
 before, you will have to update yourself with these [new
 changes](https://developers.facebook.com/docs/apps/changelog).
 
@@ -59,13 +60,13 @@ management, which are highly applicable to projects outside school!
 With that out of the way, let's begin...
 
 <div class="box">
-  <strong>Reminder</strong>: Please read the entire assignment before starting.
+  <strong>Warning</strong>: Please read the entire assignment before starting.
 </div>
 
 ## Phase 0
 
-> *"If you wait to do everything until you're sure it's right, you'll
-> probably never do much of anything."*
+> If you wait to do everything until you're sure it's right, you'll
+> probably never do much of anything.
 >
 > — Win Borden
 
@@ -78,7 +79,7 @@ Developer application.
 
 <div class="box">
   <strong class="milestone-counter"></strong> Install the Facebook Developer application
-  from <a href="http://developers.facebook.com/apps">http://developers.facebook.com/apps</a>.
+  from <a href="https://developers.facebook.com/apps">https://developers.facebook.com/apps</a>.
   (Not graded)
 </div>
 
@@ -133,21 +134,121 @@ e-mail from Facebook telling you that your application breached its
 policies and had to be deleted... we do not need to tell you the rest of
 this story, do we?)
 
+### Choosing your Tools
+
+When developing software, it is common to use existing tools, libraries and frameworks to hasten the
+development process by leveraging on the work of others. Making these technology
+decisions are often an important matter that should not be treated lightly, as it might eventually
+affect the scalability and stability of the application. There is no one-size-fits-all tool out there;
+choose your tools wisely depending on the needs of your application.
+
+Popular transport solution [Grab](http://grab.com/) initially started with a Rails and Node.js stack but later migrated the
+computationally intensive opertions to separate Golang services due to better concurrency. [Uber](http://uber.com)
+initially migrated from [MySQL to PostgreSQL](https://www.yumpu.com/en/document/view/53683323/migrating-uber-from-mysql-to-postgresql)
+but later [switched back to MySQL](https://eng.uber.com/mysql-migration/) due to scaling issues with Postgres.
+
+#### Server Side
+
+The main purpose of a web server is to respond to requests from the client. Modern web application
+servers will likely require the following features:
+
+- Serve static files such as HTML, images, CSS, JavaScript, fonts, etc
+- Route HTTP requests to the respective code that will respond to the request
+- Handle sessions and cookies for applications that require user authentication
+- Interact with a database to insert/retrieve data
+
+No developer would want to solve these problems each time they build a web application. Hence server-side
+frameworks have emerged to support all the requirements mentioned above. Here are some examples of popular frameworks
+for the popular server-side languages:
+
+- **PHP**: [Laravel](http://laravel.com/), [CodeIgniter](http://ellislab.com/codeigniter), [CakePHP](http://cakephp.org/)
+- **Python**: [Django](https://www.djangoproject.com/), [Flask](http://flask.pocoo.org/)
+- **Ruby**: [Rails](http://rubyonrails.org/), [Sinatra](http://www.sinatrarb.com/)
+- **Node.js**: [Express](https://expressjs.com/), [Hapi](http://hapijs.com/), [Koa](http://koajs.com/)
+
+#### Client Side
+
+Firstly, let's introduce ourselves to the DOM. That is, the Document Object Model.
+Think of a HTML document as a tree. Each HTML tag and contiguous text contained in the document
+is a node in the tree, and each nested tag is a child node of its parent
+tag. The tag attributes become attributes of the node. All these form
+the DOM.
+
+JavaScript provides you methods to traverse and manipulate this tree;
+you can add, remove, or modify any nodes in the tree (as long as they
+result in a valid document). This explanation may sound a little fluffy,
+but the main gist is that changes in the DOM tree are in turn reflected
+in the actual displayed HTML page. The DOM thus ends up being a useful
+abstract model through which you could program dynamic web content in a
+systematic and elegant manner.
+
+Most modern web applications use plenty of JavaScript. In case you were
+mistaken, JavaScript, despite its name, has nothing to do with the Java
+programming language. With JavaScript you can create animations, you can
+modify the loaded page on the fly, you can even send a hidden request to
+your server to fetch new data. The language itself is pretty (though it
+can get really ugly quickly if one is not careful). It is
+dynamically-typed, with very flexible object-oriented support and tt
+supports functions as first-class objects.
+
+However, developing in JavaScript causes a few problems to developers.
+Firstly, different browsers and different versions of these browsers
+have slight deviations from the published standards. Therefore,
+developers may need to prepare different sets of code to cater to
+different browsers. As applications get more complex, it becomes
+increasingly painful to write many lines of code just to get a simple
+task done.
+
+This has led to the development of JavaScript libraries which serve as
+an abstraction layer for common web scripting. These libraries try to
+automatically handle browser-quirks, leaving you free to implement your
+app. Examples of JavaScript libraries to manipulate DOM are Prototype, jQuery, ExtJS etc.
+
+In the modern day, web applications have grown increasingly complex. As a result,
+using purely jQuery to manage a webpage's DOM is a nightmare.
+This has led to the creation of JavaScript frameworks, which follows
+the MVC paradigm of organizing an application's code structure commonly seen in native desktop
+and mobile applications. Using these JavaScript MVC frameworks, your code will be more maintainable
+and reusable and it will be much easier to manage complexity.
+
+These frameworks are being used to build [Single-page Applications (SPAs)](https://www.wikiwand.com/en/Single-page_application).
+The difference between SPAs
+and traditional server-side rendered pages is that when a user navigates between pages on the webpage,
+the browser does not do a full page refresh. Instead, the URL is being changed via the HTML5
+[pushState](https://developer.mozilla.org/en-US/docs/Web/API/History_API#The_pushState()_method)
+API, and only data needed by the new page is being fetched from the server, usually via AJAX.
+AJAX will be covered in detail in a later part of this assignment.
+The benefits of an SPA includes fewer round-trip requests being made to the server
+because resources that are required on every page such as
+stylesheets and utilty JavaScript codes only has to be loaded once during the initial page load.
+Fewer server requests means a faster application and reduced load on your servers.
+
+Popular JavaScript MVC frameworks include Angular, Ember and Backbone.
+A comparison of frameworks can be seen here: <http://todomvc.com/>, where the same Todo
+application is being built using MV* concepts in the different popular frameworks.
+We highly recommend that you choose a JavaScript framework to structure the
+front end of your application, especially if your application requires heavy user interaction.
+
+You should read up on the pros and cons of the various libraries and frameworks, potentially select
+a few to try out and get a "Hello World" app running before proceeding to the next section.
+
+<div class="box">
+  <strong class="milestone-counter"></strong> Explain your choice of toolset and what alternatives
+  you have considered for your Facebook application on both the client-side and server-side.
+  If you have decided to go with the vanilla approaches (not using libraries/frameworks for
+  the core application), do justify your decisions too.
+</div>
+
 ## Phase 1: Baby
 
-> *"Babies are always more trouble than you thought – and more
-> wonderful."*
+> Babies are always more trouble than you thought – and more wonderful.
 >
 > — Charles Osgood
 
-After you have read Facebook's policies, it is time to name your
-Facebook application. By now, you should already have an idea of what
+After you have set up your "Hello World" app of your choice and read Facebook's policies,
+it is time to name your Facebook application. By now, you should already have an idea of what
 your application will do, so pick a reasonable name. Out of ideas? Check out
 [http://www.whatalovelyname.com](http://www.whatalovelyname.com). :P
-
-<div class="box">
-  <strong class="milestone-counter"></strong> Your new baby needs a name! Give it one! (Not graded)
-</div>
 
 Once you have filled in a display name for your Facebook App, enter a
 contact email address and select a category for your new application. After
@@ -160,9 +261,9 @@ of Facebook products you can activate for your Facebook application. Clicking th
 product.
 
 To configure your Facebook application, the settings can be found through a link
-on the left side bar. Facebook has a [step by step guide](https://developers.facebook.com/docs/apps/register) that will guide you in
-configuring your Facebook application. The following is a list of common settings
-you will find in a Facebook application.
+on the left side bar. Facebook has a [step by step guide](https://developers.facebook.com/docs/apps/register)
+that will guide you in configuring your Facebook application.
+The following is a list of common settings you will find in a Facebook application.
 
 **Settings - Basic**
 
@@ -352,8 +453,8 @@ Facebook – a unique and successful relationship with real users.
 
 ## Phase 2: Toddler
 
-> *"If you give a hacker a new toy, the first thing he'll do is take it
-> apart to figure out how it works."*
+> If you give a hacker a new toy, the first thing he'll do is take it
+> apart to figure out how it works.
 >
 > — Jamie Zawinski
 
@@ -513,8 +614,7 @@ and tell us.
 
 ## Phase 3: Child
 
-> *You can learn many things from children. How much patience you have,
-> for instance.*
+> You can learn many things from children. How much patience you have, for instance.
 >
 > — Franklin P. Jones
 
@@ -634,7 +734,7 @@ database connectors and ORM tools for the language/framework you intend to use.
 ### Facebook Graph API
 
 It's time to begin discussing the Facebook Graph API. At the core of
-Facebook is the social graph[^6], a data structure where objects on
+Facebook is the social graph[^3], a data structure where objects on
 Facebook (such as posts, comments, images, user profiles, and fan pages)
 are uniquely identified. Objects have connections between them if they
 have some relation. For example, a user in the social graph would be
@@ -700,7 +800,7 @@ to the Node *page* (NUSMods) as described in the Graph API
 [/page/feed](https://developers.facebook.com/docs/graph-api/reference/v2.7/page/feed)
 reference. This is just one of the many APIs available for use.
 
-How about viewing your own Timeline? **Replace** `NUSMods` with `me`[^7] and click **Submit**.
+How about viewing your own Timeline? **Replace** `NUSMods` with `me`[^4] and click **Submit**.
 
 Oops, there seems to be no data shown. Why is that so? You will need to select specific
 *permissions* via the **Get Token -> Get User Access Token** button. For this case,
@@ -740,6 +840,7 @@ Click **Submit** to view the new output! Try it with the NUSMods page too:
           }
         },
         ...
+      ]
     }
 
 Apart from simple `GET` requests like the ones shown above, some of the
@@ -792,9 +893,9 @@ functional instead of completely breaking down.
 
 ## Phase 4: Teen
 
-> *"The ultimate metric that I would like to propose for user
+> The ultimate metric that I would like to propose for user
 > friendliness is quite simple: if this system was a person, how long
-> would it take before you punched it in the nose ?"*
+> would it take before you punched it in the nose?
 >
 > — Tom Carey.
 
@@ -835,7 +936,7 @@ The user also has the ability to customize the message in the post.
 Another benefit with this method of publishing posts is that you do not
 request the `publish_actions` permission (or any other
 permissions). The following sample code demonstrates how to pop up the
-feed dialog to the user using the JavaScript SDK.[^8]:
+feed dialog to the user using the JavaScript SDK.[^5]:
 
     <script type="text/javascript">
       FB.ui(
@@ -947,8 +1048,8 @@ to keep the data, are you violating Facebook's Terms and Conditions?
 ### Google Analytics
 
 Web developers are often obsessed with the usage statistics of their
-applications. You should be too! Let us use Google Analytics to track
-usage of your application: it is a very popular tool that offers
+applications. You should be too! Let's use Google Analytics to track
+usage of your application - it is a very popular tool that offers
 detailed analysis of your users. It shows you which countries your users
 are using your application from, what browsers they are using, what
 their screen resolutions are, and so on.
@@ -964,7 +1065,7 @@ users would be useful in determining whether you need to spend more time
 testing your features in those browsers.
 
 To add Google Analytics, start by exploring the [Google Analytics
-website](http://www.google.com/analytics/) and create an account. You
+website](https://www.google.com/analytics) and create an account. You
 might also want to take a look at the [Social
 Interactions](https://developers.google.com/analytics/devguides/platform/social-interactions)
 feature for additional metrics on your users. Note that you have to have
@@ -973,15 +1074,18 @@ as Analytics only updates its reports once per day.
 
 Do note that Google Analytics is not the only tool to get metrics on
 your users. You can also use [Facebook
-Insights](https://www.facebook.com/insights/), the analytics tool
+Insights](https://www.facebook.com/insights), the analytics tool
 designed to work with Facebook applications. In certain cases, Facebook
 Insights can provide more information than Google Analytics about your
 application. We focus on Google Analytics here because it is more
 generic, but we want you to be aware of alternatives.
 
+If you are creating a Single-page Application, you will have to manually track the pageviews on
+route change event. Figuring out how this can be achieved will be left as an exercise for you.
+
 <div class="box">
   <strong class="milestone-counter"></strong> Embed Google Analytics on all your pages and
-  give us a screenshot of the report.
+  give us a screenshot of the report. Make sure the different page views are being tracked!
 </div>
 
 ### User Experience
@@ -994,7 +1098,7 @@ that you are always constantly bearing the user experience in mind when
 designing your application.
 
 User experience is usually judged based on how easy and, more
-importantly, how intuitive the user interface is from the users' point
+importantly, how intuitive the user interface is from the user's point
 of view. A good-looking UI helps too (though a pretty UI that is a pain
 to use is much worse than an okay-looking UI that has pleasant
 interaction.) This section reminds you to consider every interaction
@@ -1023,132 +1127,12 @@ successful your application will be.
   could also describe other alternatives that you decided to discard, if any.
 </div>
 
-### jQuery
-
-And here we come to a really fun part of this assignment. This
-subsection and the next three subsections will deal exclusively with
-jQuery, along with some animation and AJAX.
-
-Most modern web applications use plenty of JavaScript. In case you were
-mistaken, JavaScript, despite its name, has nothing to do with the Java
-programming language. With JavaScript you can create animations, you can
-modify the loaded page on the fly, you can even send a hidden request to
-your server to fetch new data. The language itself is pretty (though it
-can get really ugly quickly if one is not careful). It is
-dynamically-typed, with very flexible object-oriented support and tt
-supports functions as first-class objects.
-
-However, developing in JavaScript causes a few problems to developers.
-Firstly, different browsers and different versions of these browsers
-have slight deviations from the published standards. Therefore,
-developers may need to prepare different sets of code to cater to
-different browsers. As applications get more complex, it becomes
-increasingly painful to write many lines of code just to get a simple
-task done.
-
-This has led to the development of JavaScript libraries which serve as
-an abstraction layer for common web scripting. These libraries try to
-automatically handle browser-quirks, leaving you free to implement your
-app. Examples of JavaScript libraries are Prototype, jQuery, ExtJS etc.
-In this assignment, we will show you how to use
-[jQuery](http://jquery.com/).
-
-To start using jQuery, you can download the code from
-<http://code.jquery.com/jquery-2.1.4.min.js>. This is the main library
-file of jQuery and in order to use jQuery, you need to include this file
-in the <span>&lt;head&gt;</span> of the HTML document that you are
-working on.
-
-One last thing before we can discuss jQuery: let's introduce ourselves
-to the DOM. That is, the Document Object Model. Think of a HTML document
-as a tree. Each HTML tag and contiguous text contained in the document
-is a node in the tree, and each nested tag is a child node of its parent
-tag. The tag attributes become attributes of the node. All these form
-the DOM.
-
-JavaScript provides you methods to traverse and manipulate this tree;
-you can add, remove, or modify any nodes in the tree (as long as they
-result in a valid document). This explanation may sound a little fluffy,
-but the main gist is that changes in the DOM tree are in turn reflected
-in the actual displayed HTML page. The DOM thus ends up being a useful
-abstract model through which you could program dynamic web content in a
-systematic and elegant manner.
-
-In jQuery, the most fundamental operation is selecting a part of the
-document. This is done with the <span>jQuery()</span> function. Assuming
-that you have a DOM object with class <span>sample-class</span>, you can
-access the object via the following function call:
-
-     jQuery('.sample-class') // or $('.sample-class')
-
-Take note of the <span>.</span> in front of <span>sample-class</span>.
-In CSS, prefixing an identifier with <span>.</span> indicates that the
-identifier references the class of the object. jQuery uses CSS selectors
-to find objects in the DOM. In other words, the above code is accessing
-the object with class <span>sample-class</span>. Likewise,
-<span>\#</span> refers to the id of the object. So, if the DOM object's
-ID is <span>sample-id</span>, you can access it via the following
-function call:
-
-     jQuery('#sample-id') // or $('#sample-id')
-
-This is the basic method of accessing individual DOM elements. There are
-also other ways of accessing DOM elements. For more information, refer
-to the [jQuery
-documentation](http://api.jquery.com/category/traversing).
-
-Traditionally, to run some piece of JavaScript code after the page has
-loaded completely (including all of its images), we would rely on the
-<span>onload</span> handler. We will first define the code that needs to
-be executed and place it in a function:
-
-    function sampleFunction() {
-      //some code
-    }
-
-Then, we will attach this function to the <span>onload</span> event by
-modifying the HTML <span>&lt;body&gt;</span> tag:
-
-        <body onload="sampleFunction();">
-
-This causes our code to run after the page is completely loaded.
-However, there are drawbacks to this approach. For one, the code lies
-within the HTML. This tight coupling of structure and function clutters
-the code, thereby requiring the same function calls to be repeated over
-many different pages. In the case of other events such as mouse clicks,
-function calls will be made over every instance of an element on a page.
-Adding new behaviors would then require alterations in two different
-places, increasing chances of making errors.
-
-To avoid this pitfall, jQuery allows us to schedule function calls for
-firing once the DOM is loaded, without waiting for images, with the
-[jQuery(document).ready()](http://learn.jquery.com/about-jquery/how-jquery-works/)
-construct.
-
-Thus, the structure for jQuery file will be as follows:
-
-    jQuery(document).ready(function(){
-      // Your code here
-    });
-
-<div class="box">
-  <strong class="milestone-counter"></strong> Show us an interesting DOM manipulation
-  through jQuery that occurs in your application.
-</div>
-
-## Phase 5: Young Adult
-
-> *I look back five years ago, when I thought I was an adult and knew
-> everything about the world, and I realize I knew nothing.*
->
-> — Neve Campbell
-
 ### Timeline and Open Graph
 
 Facebook launched its Timeline feature awhile back and it had mixed
 reviews - some users liked it, some hated it. But popular apps have all
 integrated very well with the Timeline and have seen a good number of
-visitors[^9].
+visitors[^6].
 
 But before we ask you to do anything with the Timeline, let's take a
 look at what all we can do with [Open
@@ -1175,7 +1159,23 @@ page](https://developers.facebook.com/docs/opengraph/overview/).
   experience for the users of your application.
 </div>
 
-### jQuery Animations (Optional)
+## Phase 5: Young Adult
+
+> I look back five years ago, when I thought I was an adult and knew
+> everything about the world, and I realize I knew nothing.
+>
+> — Neve Campbell
+
+And here we come to a interesting part of this assignment. The following sectiions will deal
+exclusively with more advanced matters such as security, animation and AJAX.
+
+### Security
+
+<div class="box">
+  <strong class="milestone-counter"></strong> Security
+</div>
+
+### Animations (Optional)
 
 **This section is optional. Completing milestone(s) described in this
 section *may* contribute to the 30% coolness factor.**
@@ -1187,49 +1187,48 @@ much of it (or even small amounts of badly done ones) can backfire
 badly. Exercise your better judgement before indiscriminately adding
 animations to everything in sight, just because you know how to do it.
 
-jQuery provides [several
-methods](http://api.jquery.com/category/effects/) to add animations to
-your application. Animations, such as <span>show()</span> and
-<span>hide()</span>, can be triggered by
-[events](http://api.jquery.com/category/events) such as mouse clicks.
+jQuery, a popular JavaScript library that is mainly used for DOM manipulation,
+provides [several methods](http://api.jquery.com/category/effects/) to add animations to
+your application. Animations, such as `.show()` and `.hide()`, can be triggered by
+[events](http://api.jquery.com/category/events/) such as mouse clicks.
 
 Assuming you have the following DOM element:
 
-    <div id="sample-id"> This is a div </div>
+    <div id="my-div">This is a div</div>
 
 To hide this element, you can execute the following jQuery statement:
 
-    jQuery('#sample_id').hide();
+    $('#my-div').hide();
 
 To show this element over a period of 1 second, you can execute the
 following jQuery statement:
 
-    jQuery('#sample-id').show(1000);
+    $('#my-div').show(1000);
 
 The above two methods are simple effects bundled with jQuery. To create
 more elaborate animations, jQuery provides us with the
-<span>.animate(Properties, \[Duration\], \[Easing\],
-\[Complete\])</span> method. This method accepts four arguments:
+`.animate(Properties, [Duration], [Easing],
+[Complete])` method. This method accepts four arguments:
 
--   **Properties** - Mapping of CSS properties such as opacity, height,
-    width for the animation
+-   **Properties** - Mapping of CSS properties such as `opacity`, `height`,
+    `width` for the animation.
 
 -   **Duration (optional)** – You can use strings such as
-    <span>fast</span>, <span>slow</span>, or a number (in terms
-    of milliseconds) to control the duration of the animation
+    `"fast"`, `"slow"`, or a number (in terms
+    of milliseconds) to control the duration of the animation.
 
 -   **Easing (optional)** – This specifies the speed at which the
-    animation progresses at different points within the animation
+    animation progresses at different points within the animation.
 
 -   **Complete (optional)** – The function to call when the animation is
-    completed
+    completed.
 
-If you look carefully at the parameters of the <span>.animate()</span>
-method, you should realise that <span>.show()</span> and
-<span>.hide()</span> can be implemented by passing the appropriate
-values to <span>.animate()</span>. In fact, the <span>.show()</span> and
-<span>.hide()</span> methods *are* actually shortcut methods for
-<span>.animate()</span>. Several other similar shortcut methods exist;
+If you look carefully at the parameters of the `.animate()`
+method, you should realise that `.show()` and
+`.hide()` can be implemented by passing the appropriate
+values to `.animate()`. In fact, the `.show()` and
+`.hide()` methods *are* actually shortcut methods for
+`.animate()`. Several other similar shortcut methods exist;
 thus, it would be wise to consult the jQuery documentation before
 proceeding to implement your own custom animation. If jQuery animations don't rock your boat,
 you can use CSS3 animations instead.
@@ -1272,7 +1271,7 @@ application seem *less* responsive.
 A potential benefit of asynchronous calls is that the server need not
 send an entire HTML page back as the response, since the script on the
 client can display the data appropriately for the page. For example, in
-a normal (non AJAX) blog, when you post a comment, the server will
+a normal (non-AJAX) blog, when you post a comment, the server will
 regenerate and send the entire blog page back to your browser with your
 new comment included (hence the page reload.) In contrast, posting to
 your Timeline on Facebook (which *is* sent via AJAX), there is no page
@@ -1301,106 +1300,75 @@ common functions that you will likely use in this assignment.
 To improve page load times, a common technique employed is to include
 only essential information in the web page while loading everything else
 in the background or only when an event is triggered. jQuery provides us
-with the <span>.load()</span> method to implement this easily.
+with the `.load()` method to implement this easily.
 
-Assuming you have a <span>&lt;div&gt;</span> with the id
-<span>sample-id</span>, you may wish to load some content into this
+Assuming you have a `<div>` with the id
+`sample-id`, you may wish to load some content into this
 element. Further supposing that the content resides in
-<span>sample.html</span> on the server, you can execute the following:
+`sample.html` on the server, you can execute the following:
 
-    jQuery('#sample-id').load('sample.html', function () {
-      alert('The data is loaded.');
+    $('#sample-id').load('sample.html', function () {
+      console.log('The data is loaded.');
     });
 
 The code above will load the contents of the file
-<span>sample.html</span> from the server. When the request has
-completed, the <span>&lt;div&gt;</span> with the ID
-<span>sample\_id</span> will have its contents replaced by the response,
+`sample.html` from the server. When the request has
+completed, the `<div>` with the ID
+`sample-id` will have its contents replaced by the response,
 and the callback function will run.
 
 This is an elegant way of pulling in fully-formed HTML on demand.
 However, you might prefer to retrieve some raw data and do some
 processing it before rendering. jQuery also provides
-<span>.getJSON()</span> to retrieve the data in JSON format. Assuming we
-have a JSON file <span>sample.json</span> on the server, the following
+`.getJSON()` to retrieve the data in JSON format. Assuming we
+have a JSON file `sample.json` on the server, the following
 code will allow us to retrieve the object stored in the file:
 
-    jQuery.getJSON('sample.json', function (data) {
+    $.getJSON('sample.json', function (data) {
       // Do something with obtained data
     });
 
 Sometimes, we might also need to send data to server for processing.
-jQuery allows this through the use of <span>.get()</span> and
-<span>.post()</span>.
+jQuery allows this through the use of `.get()` and
+`.post()` to retrieve / send data via the HTTP `GET` and `POST` methods respectively.
 
-Assuming we wish to send a variable <span>sample\_variable</span> with
-the value 1000 to the webpage <span>sample.php</span>, we will execute
+Assuming we wish to send a variable `sample_variable` with
+the value 1000 to the webpage `sample.php`, we will execute
 the code as follows:
 
     $.post('sample.php', {
-        sample_variable: 1000
-      }, function (data) {
-        //process the server response here
-      });
+      sample_variable: 1000
+    }, function (data) {
+      //process the server response here
+    });
 
 The first argument is the web page you wish to send the data to. The
 second argument is in a JSON format, indicating the data you wish to
 send to the server. The third argument is a callback function meant for
 processing the response received from the server.
 
-The syntax for <span>.get()</span> and <span>.post()</span> is very
-similar. One of the main differences is that GET places its arguments in
-the query string portion of the URL, whereas POST requests do not. The
+The syntax for `.get()` and `.post()` is very
+similar. One of the main differences is that `GET` places its arguments in
+the query string portion of the URL, whereas `POST` requests do not. The
 main reason for choosing one method over the other is the size of data
-you wish to send to the server. GET usually has a much lower limit on
-the data size.
+you wish to send to the server. `GET` has a lower limit on
+the data size due to restriction of the URL length by browsers.
 
 <div class="box">
   <strong class="milestone-counter"></strong> Describe how AJAX is utilised in your application,
   and how it improves the user experience. (Optional)
 </div>
 
-### jQuery Plugins (Optional)
-
-**This section is optional. Completing milestone(s) described in this
-section *may* contribute to the 30% coolness factor.**
-
-One of the more powerful aspects of jQuery is its ability to incorporate
-plugins developed by third-party developers.
-
-To use a plugin, you need to first include the plugin in the
-<span>&lt;head&gt;</span> of the document. Ensure that the core jQuery
-file is included before the plugins.
-
-    <head>
-        <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-        <script src="jquery.js" type="text/javascript"></script>
-        <script src="plug-in.js" type="text/javascript"></script>
-        <script src="your_application.js" type="text/javascript"></script>
-    </head>
-
-After including the plugin, you can include application scripts that
-make use of the plugins.
-
-There are many plugins available: you can search for them at the [jQuery
-Plugins Repository](http://plugins.jquery.com/).
-
-<div class="box">
-  <strong class="milestone-counter"></strong> Tell us how you have made use of any existing jQuery
-  plugins to enhance your application functionality. Impress us further by writing your
-  own reusable jQuery plugin. (Optional)
-</div>
-
 ### Grading Scheme
 
 The grading of the assignment is divided into two components: satisfying
-the milestones (65%) and the coolness factor (35%). Not including
-Milestone 0, there are **17 milestones** in total: three are optional
-(Milestones 15, 16, and 17) and one is not graded (Milestone 2). That
-leaves you with 13 compulsory milestones and each of them is worth 5%.
+the milestones (70%) and the coolness factor (30%). Excluding Milestone 0,
+there are **16 milestones** in total:
+two are optional (Milestones 15 and 16). That leaves you with 14 compulsory milestones and
+each of them is worth 5%.
 
 The bonus milestones and the optional milestones will contribute
-towards the remaining 35%.
+towards the remaining 30%.
 
 This assignment has 2 key deliverables: a mid-assignment submission and
 the final submission itself.
@@ -1447,33 +1415,29 @@ such as Google Docs, please download a PDF copy and upload it to IVLE.
 **For the final submission**, please make sure your Git repository
 contains the following:
 
-1.  A <span>README</span> file containing the matriculation number and
+1.  A `README.md` file containing the matriculation number and
     name for each member of your group. Also list contributions made by
     each members. Make sure that your application name is clearly
-    written in the <span>README</span> file. You may also provide a list
+    written in the `README.md` file. You may also provide a list
     of changes that you have made to your original idea submitted in the
-    mid-assignment write-up.
+    mid-assignment submission.
 
 2.  A write-up, `group-<number>-milestones.pdf` containing
     your answers to all compulsory milestones that require
     written answers.
 
 3.  A one/two-page pitch of your application,
-    <span>group-&lt;no&gt;-pitch.pdf</span> to convince the each staff
+    `group-<number>-pitch.pdf` to convince each teaching staff
     that your application is so good that it deserves full marks
     for coolness.
 
-4.  Source code: place the source code in a sub-directory called
-    <span>src</span>. Make sure that the directory structure
-    remains intact.
-
-5.  Proof of working application: either publish your application
+4.  Proof of working application: either publish your application
     publicly and provide a link to the main page of your application in
-    your <span>README</span> file, or add all the teaching team members
+    your `README.md` file, or add all the teaching team members
     as co-developers of your application.
 
-As a reminder, there are a total of **17 milestones** (excluding Milestone 0)
-in this assignment. 3 of these milestones are optional and Milestone 2 is not graded.
+As a final reminder, there are a total of **16 milestones** (excluding Milestone 0)
+in this assignment. 2 of these milestones are optional.
 
 Clarifications and questions related to this assignment may be directed
 to the IVLE Forum under the header "Assignment 1: Life of a Facebook
@@ -1569,27 +1533,28 @@ We reserved the rights to amend this Privacy Policy at any time. Upon
 posting of new policies, it will take immediate effect. We may notify
 you should there be any major changes to the policies.
 
+---
+<br>
+
 [^1]: guide: to direct, supervise, or influence usually to a particular
     end. (Merriam-Webster) So expect to spend some time exploring on
     your own.
 
-[^2]: <http://en.wikipedia.org/wiki/Donald_Knuth>
-
-[^4]: These are also known as [Social
+[^2]: These are also known as [Social
     Plugins](https://developers.facebook.com/docs/plugins)
 
-[^6]: Just in case you are not aware, the name "graph" comes from the
+[^3]: Just in case you are not aware, the name "graph" comes from the
     mathematical concept. See
     <http://en.wikipedia.org/wiki/Graph_(mathematics)>.
 
-[^7]: <https://developers.facebook.com/docs/graph-api/using-graph-api/v2.7>
-    <span>A special endpoint that translates to the user\_id of the
+[^4]: <https://developers.facebook.com/docs/graph-api/using-graph-api/v2.7>
+    <span>A special endpoint that translates to the user_id of the
     owner of the access token</span>
 
-[^8]: Sample code is adapted from the [Facebook
+[^5]: Sample code is adapted from the [Facebook
     documentation](https://developers.facebook.com/docs/reference/javascript/FB.ui/)
 
-[^9]: Read
+[^6]: Read
     <http://techcrunch.com/2012/05/15/khan-and-quora-join-open-graph-ranks/>
     and see how some of the apps such as Quora and SocialCam have used
     the Timeline
