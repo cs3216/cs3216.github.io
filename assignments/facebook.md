@@ -1543,8 +1543,7 @@ you should there be any major changes to the policies.
     end. (Merriam-Webster) So expect to spend some time exploring on
     your own.
 
-[^2]: These are also known as [Social
-    Plugins](https://developers.facebook.com/docs/plugins)
+[^2]: <http://en.wikipedia.org/wiki/Donald_Knuth>
 
 [^3]: Just in case you are not aware, the name "graph" comes from the
     mathematical concept. See
@@ -1558,6 +1557,6 @@ you should there be any major changes to the policies.
     documentation](https://developers.facebook.com/docs/reference/javascript/FB.ui/)
 
 [^6]: Read
-    <http://techcrunch.com/2012/05/15/khan-and-quora-join-open-graph-ranks/>
+    <https://techcrunch.com/2012/05/15/khan-and-quora-join-open-graph-ranks/>
     and see how some of the apps such as Quora and SocialCam have used
     the Timeline
