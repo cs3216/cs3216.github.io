@@ -1093,7 +1093,7 @@ successful your application will be.
 Facebook launched its Timeline feature awhile back and it had mixed
 reviews - some users liked it, some hated it. But popular apps have all
 integrated very well with the Timeline and have seen a good number of
-visitors[^6].
+visitors[^5].
 
 But before we ask you to do anything with the Timeline, let's take a
 look at what all we can do with [Open
@@ -1512,10 +1512,7 @@ you should there be any major changes to the policies.
     <span>A special endpoint that translates to the user_id of the
     owner of the access token</span>
 
-[^5]: Sample code is adapted from the [Facebook
-    documentation](https://developers.facebook.com/docs/reference/javascript/FB.ui/)
-
-[^6]: Read
+[^5]: Read
     <https://techcrunch.com/2012/05/15/khan-and-quora-join-open-graph-ranks/>
     and see how some of the apps such as Quora and SocialCam have used
     the Timeline
