@@ -786,7 +786,7 @@ grant those permissions, your application should continue being
 functional instead of completely breaking down.
 
 <div class="box">
-  <strong class="milestone-counter"></strong> Show us some of your most interesting Graph queries.
+  <strong class="milestone-counter"></strong> Show us some of your most interesting Facebook Graph queries.
   Explain what they are used for. (2-3 examples)
 </div>
 
