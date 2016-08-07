@@ -1143,22 +1143,22 @@ likelihood of a compromising your application's security by spending a conscious
 effort on keeping up with the common and basic practices of web security. A good place to start would be
 the [security guide for developers](https://github.com/FallibleInc/security-guide-for-developers).
 
-Here are three common and basic security loopholes in modern web applications and where to read more about them.
+Here are three common and basic security loopholes in modern web applications:
 
 #### SQL Injection (SQLi)
 
-> SQL injection (SQLi) refers to an injection attack wherein an attacker can execute malicious SQL
-> statements (also commonly referred to as a malicious payload) that control a web application’s
-> database server (also commonly referred to as a Relational Database Management System – RDBMS).
->
-> By leveraging an SQL injection vulnerability, given the right circumstances, an attacker can
-> use it to bypass a web application’s authentication and authorization mechanisms and
-> retrieve the contents of an entire database. SQL injection can also be used to add,
-> modify and delete records in a database, affecting data integrity.
->
-> To such an extent, SQL injection can provide an attacker with unauthorized access
-> to sensitive data including, customer data, personally identifiable information (PII),
-> trade secrets, intellectual property and other sensitive information.
+SQL injection (SQLi) refers to an injection attack wherein an attacker can execute malicious SQL
+statements (also commonly referred to as a malicious payload) that control a web application’s
+database server (also commonly referred to as a Relational Database Management System – RDBMS).
+
+By leveraging an SQL injection vulnerability, given the right circumstances, an attacker can
+use it to bypass a web application’s authentication and authorization mechanisms and
+retrieve the contents of an entire database. SQL injection can also be used to add,
+modify and delete records in a database, affecting data integrity.
+
+To such an extent, SQL injection can provide an attacker with unauthorized access
+to sensitive data including, customer data, personally identifiable information (PII),
+trade secrets, intellectual property and other sensitive information.
 
 *Source: <http://www.acunetix.com/websitesecurity/sql-injection/>*
 
@@ -1179,14 +1179,25 @@ victim’s browser.
 
 ### CSRF
 
-TBD
+Cross-Site Request Forgery, or CSRF for short is a common and regular online attack.
+CSRF also goes by the acronym XSRF and the phrase “Sea-Surf”.
+CSRF attacks include a malicious exploit of a website in which a user will transmit malicious
+requests that the target website trusts without the user’s consent.
+
+Basically, an attacker will use CSRF to trick a victim into accessing a website or clicking a
+URL link that contains malicious or unauthorized requests. It is called ‘malicious’ since the
+CSRF attack will use the identity and privileges of the victim and impersonate them in order
+to perform any actions desired by the attacker, such as change form submission details,
+and launch purchases or payments for the attacker or a third-party account.
+
+*Source: <http://www.acunetix.com/websitesecurity/csrf-attacks/>*
 
 <div class="box">
-  <strong class="milestone-counter"></strong> For SQLi, what techniques are employed in the
-  application to prevent SQLi? show an example.
-  For CSRF, what is the best technique to stop CSRF, and why?
-  For XSS, what is the set of special characters that needs to be escaped in order to prevent XSS?
-  Show an example of a code in the application that escapes inputs / outputs in order to prevent XSS.
+  <strong class="milestone-counter"></strong>
+  What is the best technique to stop CSRF, and why?
+  What is the set of special characters that needs to be escaped in order to prevent XSS?
+  For each of the above vulnerabilties (SQLi, XSS, CSRF), explain what preventive measures
+  you have taken in your application to tackle these issues.
 </div>
 
 ### Animations (Optional)
