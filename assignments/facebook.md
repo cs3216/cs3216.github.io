@@ -1132,10 +1132,61 @@ exclusively with more advanced matters such as security, animation and AJAX.
 
 ### Security
 
+By using the web applications you hae developed, your users have entrusted you with private information
+and potentially sensitive information such as phone numbers, addresses, emails and passwords. A security
+breach where data is leaked can be devastating as you could be liable for resulting financial damages
+and lose the trust of your customers, harming the reputation of your product and company.
+
+No application is truly safe from the terrors of hackers, as new security vulnerabilities even in
+popular and widely-used softwares are discovered every now and then. However, you can reduce the
+likelihood of a compromising your application's security by spending a conscious
+effort on keeping up with the common and basic practices of web security. A good place to start would be
+the [security guide for developers](https://github.com/FallibleInc/security-guide-for-developers).
+
+Here are three common and basic security loopholes in modern web applications and where to read more about them.
+
+#### SQL Injection (SQLi)
+
+> SQL injection (SQLi) refers to an injection attack wherein an attacker can execute malicious SQL
+> statements (also commonly referred to as a malicious payload) that control a web application’s
+> database server (also commonly referred to as a Relational Database Management System – RDBMS).
+>
+> By leveraging an SQL injection vulnerability, given the right circumstances, an attacker can
+> use it to bypass a web application’s authentication and authorization mechanisms and
+> retrieve the contents of an entire database. SQL injection can also be used to add,
+> modify and delete records in a database, affecting data integrity.
+>
+> To such an extent, SQL injection can provide an attacker with unauthorized access
+> to sensitive data including, customer data, personally identifiable information (PII),
+> trade secrets, intellectual property and other sensitive information.
+
+*Source: <http://www.acunetix.com/websitesecurity/sql-injection/>*
+
+#### Cross-site Scripting (XSS)
+
+Cross-site Scripting (XSS) refers to client-side code injection attack wherein an attacker can
+execute malicious scripts (also commonly referred to as a malicious payload) into a legitimate
+website or web application. XSS is amongst the most rampant of web application vulnerabilities
+and occurs when a web application makes use of unvalidated or unencoded user input within the
+output it generates.
+
+By leveraging XSS, an attacker does not target a victim directly. Instead, an attacker would
+exploit a vulnerability within a website or web application that the victim would visit,
+essentially using the vulnerable website as a vehicle to deliver a malicious script to the
+victim’s browser.
+
+*Source: <http://www.acunetix.com/websitesecurity/cross-site-scripting/>*
+
+### CSRF
+
 TBD
 
 <div class="box">
-  <strong class="milestone-counter"></strong> TBD
+  <strong class="milestone-counter"></strong> For SQLi, what techniques are employed in the
+  application to prevent SQLi? show an example.
+  For CSRF, what is the best technique to stop CSRF, and why?
+  For XSS, what is the set of special characters that needs to be escaped in order to prevent XSS?
+  Show an example of a code in the application that escapes inputs / outputs in order to prevent XSS.
 </div>
 
 ### Animations (Optional)
