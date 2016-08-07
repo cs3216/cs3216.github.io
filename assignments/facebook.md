@@ -117,8 +117,8 @@ To begin your journey with your Facebook Application, go to the [Facebook
 Developer page](https://developers.facebook.com/), click on the **My Apps** drop-down
 on the top navigation bar, and then the link that says **Add a New App**.
 
-Before you do anything else, click on the link that says [**Facebook
-Platform Policies**](https://developers.facebook.com/policy) and read
+Before you do anything else, click on the link that says [Facebook
+Platform Policies](https://developers.facebook.com/policy) and read
 it. You should also check out Facebook's [Terms of
 Service](https://www.facebook.com/terms): you *are* going to write an
 application for Facebook, with some of you deciding to monetize your
@@ -253,11 +253,11 @@ your application will do, so pick a reasonable name. Out of ideas? Check out
 Once you have filled in a display name for your Facebook App, enter a
 contact email address and select a category for your new application. After
 reading the Facebook Policies (you have read it, haven't you?), click on
-"Create App ID".
+**Create App ID**.
 
 Once your Facebook application has been created, Facebook will show you a list
 of Facebook products you can activate for your Facebook application. Clicking the
-"Get Started" buttons will prompt Facebook to guide you through the setup of the
+**Get Started** buttons will prompt Facebook to guide you through the setup of the
 product.
 
 To configure your Facebook application, the settings can be found through a link
@@ -435,7 +435,7 @@ would be nice, you better be busy taking notes and incorporating them
 into your application's roadmap.
 
 An excellent example of an incrementally-built web application would be
-[**NUSMods**](https://nusmods.com). NUSMods started out as an easy-to-use
+[NUSMods](https://nusmods.com). NUSMods started out as an easy-to-use
 timetable builder and module finder for students. NUSMods 2.0 was
 released in July 2014 to include more useful features like module
 pre-requisite trees, historical CORS bidding data, and community-driven
@@ -448,7 +448,7 @@ month of July 2016 alone, NUSMods had over 56,000 users and 1.8 million
 page views.
 
 *P.S. The creators of NUSMods are CS3216 alumni and some of your classmates
-might have even contributed to the development of NUSMods. You have chosen the right module!*
+have even contributed to the development of NUSMods. You have chosen the right module!*
 
 This is the kind of story we want you to experience while developing on
 Facebook – a unique and successful relationship with real users.
@@ -720,7 +720,7 @@ MySQL provides commands you can use to
 create and alter databases and tables, and also commands you can use to
 insert, update, delete, and retrieve rows from tables. We call the
 former "data definition language" (DDL), and the latter "data
-manipulation language" (DML). You should **never** run DDL commands from
+manipulation language" (DML). You should *never* run DDL commands from
 publicly accessible pages (including your application pages that can be
 accessed from Facebook.)
 
@@ -759,7 +759,7 @@ retrieving related objects is a simple case of extending your query in a
 natural manner.
 
 The Graph API is very extensive and we cannot completely explore it
-here. You are **strongly** encouraged to look at the [Graph
+here. You are *strongly* encouraged to look at the [Graph
 API documentation](https://developers.facebook.com/docs/graph-api). The
 documentation clearly lists all the information you can retrieve with
 the Graph API.
