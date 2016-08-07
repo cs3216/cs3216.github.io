@@ -7,17 +7,7 @@ layout: default
     <hr>
   </header>
   <div class="row">
-    <div class="col-md-2">
-      <h4>Cohort</h4>
-      <ul>
-        {% for batch in site.data.projects %}
-          <li>
-            <a href="#{{ batch.year }}">{{ batch.year }}</a>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-    <div class="col-md-10">
+    <div class="col-md-12">
       {% for batch in site.data.projects %}
         <h2 id="{{ batch.year }}">{{ batch.year }}</h2>
         {% for project in batch.projects %}
@@ -28,12 +18,13 @@ layout: default
             <div class="media-body">
               <h3>{{ project.name }}</h3>
               <p>{{ project.desc }}</p>
-              By:
-              <ul class="project-members">
-                {% for member in project.members %}
-                  <li>{{ member }}</li>
-                {% endfor %}
-              </ul>
+              <small><em>
+                <ul class="project-members">
+                  {% for member in project.members %}
+                    <li>{{ member }}</li>
+                  {% endfor %}
+                </ul>
+              </em></small>
             </div>
           </article>
         {% endfor %}
