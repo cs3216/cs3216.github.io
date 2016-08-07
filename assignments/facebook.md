@@ -955,36 +955,11 @@ their products and services. We will show you how to place Like buttons
 in your application, then it is your job to think about using them in
 creative and meaningful ways.
 
-The easiest way of adding a Like button is to use the XFBML
-<span>fb:like</span> tag. This is how you would place it in your app:
-
-    <fb:like href="http://www.comp.nus.edu.sg/~cs3216/"
-        width="450" show_faces="true" font=""></fb:like>
-
-Similarly, you could use pure HTML:
-
-    <div class="fb-like" data-href="http://www.comp.nus.edu.sg/~cs3216/"
-    "data-width="450" data-show-faces="true" data-send="true"></div>
-
-One thing worth noticing is just both of the above mentioned methods
-require the use of JavaScript SDK. Alternatively, you could use the
-following method:
-
-    <iframe src="http://www.facebook.com/plugins/like.php?app_id=YOUR_APP_ID&
-                    href=THE_LINK_TO_LIKE&layout=standard&
-                    width=450&show_faces=true&action=like&
-                    colorscheme=light&font&height=80"
-            scrolling="no" frameborder="0" style="border:none; overflow:hidden;
-     width:450px; height:80px;"
-            allowTransparency="true"></iframe>
-
-This method loads a Facebook `<iframe>` that just
-contains the Like button.
-
-Do refer to the
-[documentation](https://developers.facebook.com/docs/plugins/like-button)
-as it explains how to customize the Like button and how to also include
-a Share button to let users easily share things they find cool.
+The [Facebook Developer website](https://developers.facebook.com/docs/plugins/like-button) provides an easy way to generate the code
+required to show a Facebook Like button on your application. Follow the
+instructions and you will see a Like Button on your page in no time.
+There are also properties of the button which you can refer to the documentation and
+configure accordingly.
 
 <div class="box">
   <strong class="milestone-counter"></strong> Your application should include the Like button
