@@ -143,7 +143,7 @@ affect the scalability and stability of the application. There is no one-size-fi
 choose your tools wisely depending on the needs of your application.
 
 Popular transport solution [Grab](http://grab.com/) initially started with a Rails and Node.js stack but later migrated the
-computationally intensive opertions to separate Golang services due to better concurrency. [Uber](http://uber.com)
+computationally intensive operations to separate Golang services due to better concurrency. [Uber](http://uber.com)
 initially migrated from [MySQL to PostgreSQL](https://www.yumpu.com/en/document/view/53683323/migrating-uber-from-mysql-to-postgresql)
 but later [switched back to MySQL](https://eng.uber.com/mysql-migration/) due to scaling issues with Postgres.
 
@@ -1132,18 +1132,18 @@ exclusively with more advanced matters such as security, animation and AJAX.
 
 ### Security
 
-By using the web applications you hae developed, your users have entrusted you with private information
+By using the web applications you have developed, your users have entrusted you with private information
 and potentially sensitive information such as phone numbers, addresses, emails and passwords. A security
 breach where data is leaked can be devastating as you could be liable for resulting financial damages
 and lose the trust of your customers, harming the reputation of your product and company.
 
 No application is truly safe from the terrors of hackers, as new security vulnerabilities even in
 popular and widely-used softwares are discovered every now and then. However, you can reduce the
-likelihood of a compromising your application's security by spending a conscious
+likelihood of compromising your application's security by spending a conscious
 effort on keeping up with the common and basic practices of web security. A good place to start would be
 the [security guide for developers](https://github.com/FallibleInc/security-guide-for-developers).
 
-Here are three common and basic security loopholes in modern web applications:
+Here are three common and basic security vulnerabilities in modern web applications:
 
 #### SQL Injection (SQLi)
 
