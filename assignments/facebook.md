@@ -906,29 +906,29 @@ We are going to explore the use of feeds to advertise your apps, employ
 Google Analytics as a measure of self-importance, and polish your apps
 to improve user experience.
 
-### Feeds
+### Feed Posts
 
-Feeds can be great at keeping users happy and at advertising your
+Feed posts can be great at keeping users happy and at advertising your
 application to non-users. Users tend to like feeds from your application
 when it brags about something they did (like in JFDI Academy, where
-CS1101S students will publish feeds to announce to the world that they
-have levelled up). Non-users will see your application feeds on their
+CS1101S students will publish posts to announce to the world that they
+have levelled up). Non-users will see your application feed posts on their
 friends' profiles and might get intrigued enough to try out your
-application.
+Facebook application.
 
-Unfortunately, feeds are double-edged swords. Use them distastefully and
+Unfortunately, feed posts are double-edged swords. Use them distastefully and
 you may cause your application more harm than good. Do you remember all
 those annoying applications that kept spamming you with feeds you do not
 care about? Avoid that. If you keep annoying your users, they will
 eventually stop publishing anything from your app. Remember, a feed
 should make sense and add real value to the user experience.
 
-There are two ways to publish feed stories. The first way is to use the
+There are two ways to publish feed posts. The first way is to use the
 Graph API. By issuing a post request to `<PROFILE_ID>/feed`
 with the [appropriate
 parameters](https://developers.facebook.com/docs/reference/api/user/),
 you can directly publish a feed to the user's profile. You will need the
-`publish_actions` permission to use this API.
+`publish_actions` permission granted by the user to use this API.
 
 The second way of publishing a user's Facebook timeline is more polite.
 In this method, you will show him a [Share
@@ -937,24 +937,8 @@ and provide him the choice to either publish to Facebook or ignore it.
 The user also has the ability to customize the message in the post.
 Another benefit with this method of publishing posts is that you do not
 request the `publish_actions` permission (or any other
-permissions). The following sample code demonstrates how to pop up the
-feed dialog to the user using the JavaScript SDK.[^5]:
-
-    <script type="text/javascript">
-      FB.ui(
-        {
-           method: 'share',
-           href: 'https://developers.facebook.com/docs/'
-        },
-        function (response) {
-          if (response && !response.error_code) {
-            console.log('Posting completed.');
-          } else {
-            console.log('Error while posting.');
-          }
-        }
-      );
-    </script>
+permissions). The Facebook Developer documentation on Share Dialog provides the
+example code to get you started.
 
 <div class="box">
   <strong class="milestone-counter"></strong> We want some feeds! BUT remember to put thought into
