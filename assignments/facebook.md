@@ -139,13 +139,14 @@ this story, do we?)
 When developing software, it is common to use existing tools, libraries and frameworks to hasten the
 development process by leveraging on the work of others. Making these technology
 decisions are often an important matter that should not be treated lightly, as it might eventually
-affect the scalability and stability of the application. There is no one-size-fits-all tool out there;
-choose your tools wisely depending on the needs of your application.
+affect the scalability and stability of the application.
 
 Popular transport solution [Grab](http://grab.com/) initially started with a Rails and Node.js stack but later migrated the
 computationally intensive operations to separate Golang services due to better concurrency. [Uber](http://uber.com)
 initially migrated from [MySQL to PostgreSQL](https://www.yumpu.com/en/document/view/53683323/migrating-uber-from-mysql-to-postgresql)
 but later [switched back to MySQL](https://eng.uber.com/mysql-migration/) due to scaling issues with Postgres.
+
+There is no one-size-fits-all tool out there; choose your tools wisely depending on the needs of your application.
 
 #### Server Side
 
