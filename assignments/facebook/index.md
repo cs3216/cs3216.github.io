@@ -1441,12 +1441,15 @@ such as Google Docs, please download a PDF copy and upload it to IVLE.
 **For the final submission**, please make sure your Git repository
 contains the following:
 
-1.  A `README.md` file containing the matriculation number and
-    name for each member of your group. Also list contributions made by
-    each members. Make sure that your application name is clearly
-    written in the `README.md` file. You may also provide a list
-    of changes that you have made to your original idea submitted in the
-    mid-assignment submission.
+1.  Place the `README.md` file in the root directory. Bitbucket
+    will automatically render it on your repository’s front page. You
+    may wish to style it using any of the supported markup languages.
+    The file should contain the list of group members, including
+    matriculation numbers, name and a description of the contributions
+    of each member to the assignment. Include the URL to your
+    application, i.e. your application must be accessible
+    online somewhere. Make sure that your application name is clearly
+    written in the `README` file.
 
 2.  A write-up, `group-<number>-milestones.pdf` containing
     your answers to all compulsory milestones that require
