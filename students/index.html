@@ -28,7 +28,7 @@ layout: default
                 </h4>
                 <p class="student-faculty">{{ student.faculty }}</p>
                 <hr/>
-                <small>{{ student.one_liner }}</small>
+                <small>{{ student.one_liner | truncate: 100, '...' }}</small>
               </div>
             </div>
           </div>
