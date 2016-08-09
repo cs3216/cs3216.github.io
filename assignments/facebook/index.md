@@ -21,26 +21,45 @@ set up PHP (or the programming language of your choice) and MySQL and be
 able to access your content online. Remember, these may take a day or
 two to get right. You do not want to leave it to the last week.
 
-This assignment is highly open-ended. We provide milestones so that we can grade
-your application in a consistent way, even though everyone would be building different apps. This
-assignment is also designed to introduce you to the various elements of
-Facebook application development and the milestones are there to ensure
-that you learn about the elements in a structured way.
-
-However, you have a lot of freedom to express your creativity. You are
-free to develop any application you choose. However, if some of the
-proposed milestones do not make sense for the application you intend to
-build, please submit a petition at least one week before the assignment
-is due. **Your petition may or may not be approved**. Furthermore, while
-the milestones may be easy to meet, simply meeting them will not gain
-you maximum credit. We expect quality submissions, not run-of-the-mill
-work.
+## Grading and Admin
 
 The high-level goal of this assignment is simple: a working Facebook
 application that is able to persist the users' state and allows users to
 interact with each other. Please read through the whole assignment once
 to get a sense of what is required before starting work on it. A
 detailed grading scheme is attached at the very end.
+
+This assignment can be done in groups of three or four students. If you
+are unable find yourself a group, you will be randomly assigned one.
+
+This assignment is highly open-ended. We provide milestones so that we can grade
+your application in a consistent way, even though everyone would be building different apps. This
+assignment is also designed to introduce you to the various elements of
+Facebook application development and the milestones are there to ensure
+that you learn about the elements in a structured way. We will also provide some related tips,
+references and a little bit of help to get you started.
+These milestones constitute 70% of the assignment's grade.
+
+However, you have a lot of freedom to express your creativity. You are
+free to develop any application you choose. However, if some of the
+proposed milestones do not make sense for the application you intend to
+build, please submit a petition at least one week before the assignment
+is due. **Your petition is subject to approval.**
+
+While the milestones may be easy to meet, simply meeting them will not
+give you full credit. We ask for quality submissions, not
+run-of-the-mill work.
+
+To score the coveted remaining 30%, use your creativity to develop an
+application that separates yours from the rest. We will not restrict
+your potential by restricting the kind of application you can build. We
+expect that you (pleasantly!) surprise us with what you are capable of
+doing. Do note that features must fit the aim of your application;
+ideally it should be seamlessly integrated.
+
+Please do not hesitate to approach the friendly CS3216 staff if you need
+further assistance. We can be contacted at
+<cs3216-staff@googlegroups.com>.
 
 ## A Word of Caution
 
@@ -391,7 +410,7 @@ documentation](http://developers.facebook.com/docs).
 We have finally gotten that out of the way. Did you remember to click
 **Save Changes**?
 
-#### Sidetrack: Software development models and Facebook
+### Sidetrack: Software development models and Facebook
 
 Okay, you are now perched on the threshold of the birth of your amazing
 Facebook application. Before you get down and dirty however, we would
@@ -1385,7 +1404,7 @@ the data size due to restriction of the URL length by browsers.
   and how it improves the user experience. (Optional)
 </div>
 
-### Grading Scheme
+## Grading Scheme
 
 The grading of the assignment is divided into two components: satisfying
 the milestones (70%) and the coolness factor (30%). Excluding Milestone 0,
@@ -1399,7 +1418,7 @@ towards the remaining 30%.
 This assignment has 2 key deliverables: a mid-assignment submission and
 the final submission itself.
 
-#### Mid-assignment Submission (due Friday, 19 August 2016, 23:59):
+### Mid-assignment Submission (due Friday, 19 August 2016, 23:59):
 
 -   A short write-up on your application idea and execution plans
     (see Milestone 1). **Restrictions:** no longer than a double-sided
@@ -1420,7 +1439,7 @@ the final submission itself.
 
 -   Answers to the bonus milestones (if you decide to attempt them.)
 
-#### Final Submission (due Friday, 2 September 2016, 23:59):
+### Final Submission (due Friday, 2 September 2016, 23:59):
 
 -   Completion of all compulsory milestones (up to Milestone 14).
     Submit your answers in a write-up and categorize your answers by the
@@ -1432,7 +1451,6 @@ the final submission itself.
     than 2 A4 sides.
 
 Mode of Submission
-==================
 
 **For the mid-assignment submission**, please submit a single document,
 uploaded to the IVLE workbin. If you use an online collaboration tool
@@ -1474,8 +1492,7 @@ Application".
 
 Good luck and have fun!
 
-Appendix - Privacy Policy
-=========================
+## Appendix - Privacy Policy
 
 This Privacy Policy describes how users' personal information is handled
 in order to engage in the services available on our application. It
