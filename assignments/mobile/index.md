@@ -462,7 +462,7 @@ HTTP Request Methods
 
 Now that we can use the results from queries, we can move on to
 providing the actual API for the client to use. We can do so by handling
-the four HTTP request methods used in REST services: GET, PATCH, PUT,
+the common HTTP request methods used in REST services: GET, PATCH, PUT,
 POST and DELETE. As mentioned earlier, GET retrieves a resource, PATCH
 modifies it, PUT replaces it, POST creates a new resource, and DELETE
 removes the resource. If it is intended that users are not allowed a
@@ -573,13 +573,13 @@ ideas which apply to mobile devices will be discussed here. Apart from
 your usual HTML5 features, most mobile devices allow users to add a
 shortcut of a web page to their home screen.
 
-![image](img/homescreen-ios7.png){height="200pt"}
+![image](img/homescreen-ios7.png)
 
-Add to Home on iOS 7
+*Add to Home on iOS 7*
 
-![image](img/homescreen-android-lollipop.png){height="200pt"}
+![image](img/homescreen-android-lollipop.png)
 
-Add to Home screen on Android Lollipop
+*Add to Home screen on Android Lollipop*
 
 In iOS and Android devices, it is possible to run these shortcuts in a
 standalone browser window without the browser’s UI controls. This allows
@@ -620,7 +620,7 @@ actuality a fancy web page. All styles should be contained within CSS
 files, linked to the main page using <span>link</span> tags. It is bad
 practice to mix CSS with HTML.
 
-### Offline operability and data persistence
+### Offline Operability and Data Persistence
 
 Very often, it is a good idea to provide the user with some level of
 offline operability. Even without an internet connection, your
