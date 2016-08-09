@@ -20,12 +20,12 @@ layout: default
           <div class="col-xs-6 col-md-4">
             <div class="thumbnail">
               <div class="student-thumbnail-container">
-                <div class="student-thumbnail" style="background-image: url(/img/students/{{ student.id }}.jpg);"></div>
+                <div class="student-thumbnail" style="background-image: url(/img/students/{{ batch.year }}/{{ student.id }}.jpg);"></div>
               </div>
               <div class="student-information">
-                <h3 class="student-name">
+                <h4 class="student-name">
                   <a href="{{ student.blog }}" target="_blank">{{ student.name }}</a>
-                </h3>
+                </h4>
                 <p class="student-faculty">{{ student.faculty }}</p>
                 <hr/>
                 <small>{{ student.one_liner }}</small>
