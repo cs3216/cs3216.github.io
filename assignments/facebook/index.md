@@ -1450,7 +1450,7 @@ the final submission itself.
     deserves all 30% of the coolness points. **Restrictions:** no longer
     than 2 A4 sides.
 
-Mode of Submission
+## Mode of Submission
 
 **For the mid-assignment submission**, please submit a single document,
 uploaded to the IVLE workbin. If you use an online collaboration tool
