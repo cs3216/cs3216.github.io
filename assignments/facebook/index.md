@@ -97,7 +97,7 @@ To embark on this journey, you have to first install the Facebook
 Developer application.
 
 <div class="box">
-  <strong class="milestone-counter"></strong> Install the Facebook Developer application
+  <strong class="milestone-counter">Milestone 0:</strong> Install the Facebook Developer application
   from <a href="https://developers.facebook.com/apps">https://developers.facebook.com/apps</a>.
   (Not graded)
 </div>
@@ -128,7 +128,7 @@ it well. Consider yourself warned. But of course, if you decide to do both and y
 execution is fantastic, you can expect a better grade.
 
 <div class="box">
-  <strong class="milestone-counter"></strong> Choose to do a Facebook Canvas application,
+  <strong class="milestone-counter">Milestone 1:</strong> Choose to do a Facebook Canvas application,
   a standalone application, or both. Choose wisely and justify your choice with a short write-up.
 </div>
 
@@ -253,7 +253,7 @@ You should read up on the pros and cons of the various libraries and frameworks,
 a few to try out and get a "Hello World" app running before proceeding to the next section.
 
 <div class="box">
-  <strong class="milestone-counter"></strong> Explain your choice of toolset and what alternatives
+  <strong class="milestone-counter">Milestone 2:</strong> Explain your choice of toolset and what alternatives
   you have considered for your Facebook application on both the client-side and server-side.
   If you have decided to go with the vanilla approaches (not using libraries/frameworks for
   the core application), do justify your decisions too.
@@ -402,7 +402,7 @@ one. Do also consult the [Facebook
 documentation](http://developers.facebook.com/docs).
 
 <div class="box">
-  <strong class="milestone-counter"></strong> Give your newborn application some love.
+  <strong class="milestone-counter">Milestone 3:</strong> Give your newborn application some love.
   Go to the <strong>App Details</strong> page and fill the page with as much appropriate information as
   you can. And yes, we expect a nice application icon!
 </div>
@@ -604,7 +604,7 @@ have any questions about what we have discussed, feel free to ask in the
 forums.
 
 <div class="box">
-  <strong class="milestone-counter"></strong> Integrate your application with Facebook.
+  <strong class="milestone-counter">Milestone 4:</strong> Integrate your application with Facebook.
   If you are developing a Facebook canvas app, then users should be able to visit your app
   and at least see their name (retrieved using the API) on the page. Similarly, if you are
   developing a standalone app, users should be able to login to your app using their
@@ -725,7 +725,7 @@ Think simple. Annotated boxes and arrows are fine - just make sure the design is
 clearly communicated. Of course, we also accept proper entity-relationship diagrams.
 
 <div class="box">
-  <strong class="milestone-counter"></strong> Draw the database schema of your application.
+  <strong class="milestone-counter">Milestone 5:</strong> Draw the database schema of your application.
 </div>
 
 ### SQL: Querying the Database
@@ -748,7 +748,7 @@ Most of time, it is not a good idea to write raw SQL queries yourself. We recomm
 database connectors and ORM tools for the language/framework you intend to use.
 
 <div class="box">
-  <strong class="milestone-counter"></strong> Share with us some queries (at least 3)
+  <strong class="milestone-counter">Milestone 6:</strong> Share with us some queries (at least 3)
   in your application that require database access. Provide the <em>actual SQL queries</em>
   you use and explain how it works.
 </div>
@@ -909,7 +909,7 @@ grant those permissions, your application should continue being
 functional instead of completely breaking down.
 
 <div class="box">
-  <strong class="milestone-counter"></strong> Show us some of your most interesting Facebook Graph queries.
+  <strong class="milestone-counter">Milestone 7:</strong> Show us some of your most interesting Facebook Graph queries.
   Explain what they are used for. (2-3 examples)
 </div>
 
@@ -961,7 +961,7 @@ permissions). The Facebook Developer documentation on Share Dialog provides the
 example code to get you started.
 
 <div class="box">
-  <strong class="milestone-counter"></strong> We want some feeds! BUT remember to put thought into
+  <strong class="milestone-counter">Milestone 8:</strong> We want some feeds! BUT remember to put thought into
   this. Nuisance feeds will not only earn you no credit but may incur penalization!
 </div>
 
@@ -982,7 +982,7 @@ There are also properties of the button which you can refer to the documentation
 configure accordingly.
 
 <div class="box">
-  <strong class="milestone-counter"></strong> Your application should include the Like button
+  <strong class="milestone-counter">Milestone 9:</strong> Your application should include the Like button
   for your users to click on. Convince us why you think that is the best place you should
   place the button.
 </div>
@@ -1020,7 +1020,7 @@ delete the data or do you still keep it in your database? If you decide
 to keep the data, are you violating Facebook's Terms and Conditions?
 
 <div class="box">
-  <strong class="milestone-counter"></strong> Explain how you handle a user's data when
+  <strong class="milestone-counter">Milestone 10:</strong> Explain how you handle a user's data when
   he removes your application. Convince us that your approach is necessary and that it is
   the most logical. Do also include an explanation on whether you violate Facebook's terms and
   conditions.
@@ -1065,7 +1065,7 @@ If you are creating a Single-page Application, you will have to manually track t
 route change event. Figuring out how this can be achieved will be left as an exercise for you.
 
 <div class="box">
-  <strong class="milestone-counter"></strong> Embed Google Analytics on all your pages and
+  <strong class="milestone-counter">Milestone 11:</strong> Embed Google Analytics on all your pages and
   give us a screenshot of the report. Make sure the different page views are being tracked!
 </div>
 
@@ -1102,7 +1102,7 @@ reminder that user experience plays a large role in determining how
 successful your application will be.
 
 <div class="box">
-  <strong class="milestone-counter"></strong> Describe 3 user interactions in your
+  <strong class="milestone-counter">Milestone 12:</strong> Describe 3 user interactions in your
   application and show us that you have thought through those interactions.
   You can even record gifs to demonstrate that interaction! It would be great if you
   could also describe other alternatives that you decided to discard, if any.
@@ -1135,7 +1135,7 @@ the **Review Process** section on [this
 page](https://developers.facebook.com/docs/opengraph/overview/).
 
 <div class="box">
-  <strong class="milestone-counter"></strong> Implement at least one Story involving an
+  <strong class="milestone-counter">Milestone 13:</strong> Implement at least one Story involving an
   Action and Object in your application. Describe why you think it will create an engaging
   experience for the users of your application.
 </div>
@@ -1213,7 +1213,7 @@ and launch purchases or payments for the attacker or a third-party account.
 *Source: <http://www.acunetix.com/websitesecurity/csrf-attacks/>*
 
 <div class="box">
-  <strong class="milestone-counter"></strong>
+  <strong class="milestone-counter">Milestone 14:</strong>
   What is the best technique to stop CSRF, and why?
   What is the set of special characters that needs to be escaped in order to prevent XSS?
   For each of the above vulnerabilties (SQLi, XSS, CSRF), explain what preventive measures
@@ -1279,7 +1279,7 @@ proceeding to implement your own custom animation. If jQuery animations don't ro
 you can use CSS3 animations instead.
 
 <div class="box">
-  <strong class="milestone-counter"></strong> Describe 2 or 3 animations used in your application
+  <strong class="milestone-counter">Milestone 15:</strong> Describe 2 or 3 animations used in your application
   and explain how they add value to the context in which they are applied. (Optional)
 </div>
 
@@ -1400,7 +1400,7 @@ you wish to send to the server. `GET` has a lower limit on
 the data size due to restriction of the URL length by browsers.
 
 <div class="box">
-  <strong class="milestone-counter"></strong> Describe how AJAX is utilised in your application,
+  <strong class="milestone-counter">Milestone 16:</strong> Describe how AJAX is utilised in your application,
   and how it improves the user experience. (Optional)
 </div>
 

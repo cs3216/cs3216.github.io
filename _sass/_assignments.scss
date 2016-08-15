@@ -16,13 +16,6 @@
     counter-reset: milestone;
 
     .milestone-counter {
-        &:before {
-            color: $brand-color;
-            content: "Milestone " counter(milestone) ": ";
-        }
-        &:after {
-            counter-increment: milestone;
-            content: "";
-        }
+        color: $brand-color;
     }
 }
