@@ -1117,8 +1117,8 @@ contains the following:
     your `README.md` file, or add all the teaching team members
     as co-developers of your application.
 
-Clarifications and questions related to this assignment may be directed
-to the IVLE Forum under the header "Assignment 3: Mobile Cloud Application".
+Clarifications and questions related to this assignment should
+be posted to the CS3216 Slack channel "#ay1617-assg3".
 
 Good luck and have fun!
 
