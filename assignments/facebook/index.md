@@ -1486,9 +1486,8 @@ contains the following:
 As a final reminder, there are a total of **16 milestones** (excluding Milestone 0)
 in this assignment. 2 of these milestones are optional.
 
-Clarifications and questions related to this assignment may be directed
-to the IVLE Forum under the header "Assignment 1: Life of a Facebook
-Application".
+Clarifications and questions related to this assignment may be posted
+to the CS3216 Slack channel "#ay1617-assg1".
 
 Good luck and have fun!
 
