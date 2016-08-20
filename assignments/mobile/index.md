@@ -330,7 +330,7 @@ example, when uploading a photo using the Facebook Graph API,
 photo ID is in JSON. We now take a quick detour to explore the JSON
 format since it is one of the easier ones to handle.
 
-`**JavaScript Object Notation**` or JSON is a text-based
+**JavaScript Object Notation** or JSON is a text-based
 data-interchange format. Consider your current scenario where you are
 working with an object in your client using JavaScript and you need to
 send it over the network to be processed by the server. JSON is a set of
@@ -552,6 +552,13 @@ header('Content-Type: application/json');
 echo json_encode($array);
 ~~~
 
+<div class="box">
+  <strong class="milestone-counter">Milestone 5:</strong> Share with us some queries (at least 3)
+  in your application that require database access. Provide the <em>actual SQL queries</em>
+  you use (if you are using an <a href="https://www.wikiwand.com/en/Object-relational_mapping">ORM</a>,
+  find out the underlying query) and explain how it works.
+</div>
+
 ### HTTP Request Methods
 
 Now that we can use the results from queries, we can move on to
@@ -566,13 +573,6 @@ Do remember to program defensively e.g. sanitise all input.
 Also, as different operations may be expecting differing types of data, you
 should always specify the `content-type` of the request and response message so the
 receiving end knows how to handle it.
-
-<div class="box">
-  <strong class="milestone-counter">Milestone 5:</strong> Share with us some queries (at least 3)
-  in your application that require database access. Provide the <em>actual SQL queries</em>
-  you use (if you are using an [ORM](https://www.wikiwand.com/en/Object-relational_mapping),
-  find out the underlying query) and explain how it works.
-</div>
 
 ## Phase 3: Mobile Client
 
@@ -632,10 +632,9 @@ application among the others they have installed. If users are willing
 to shortcut your application, capitalise on their goodwill by making it
 easy for them to return to your application.
 
-You can find the documentation for doing that on [iOS](https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
-and [Android](https://developer.chrome.com/multidevice/android/installtohomescreen).
-If you plan to release your
-application, it is a good idea to do the same for other platforms that
+You can find the documentation for doing that on [Safari](https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
+and [Chrome](https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest).
+If you plan to release your application, it is a good idea to do the same for other platforms that
 we may not have covered here.
 
 <div class="box">
@@ -664,7 +663,7 @@ sense!
 After the UI has been designed, the UI needs to be implemented.
 Cascading Style Sheets (CSS) would be used, since the application is in
 actuality a fancy web page. All styles should be contained within CSS
-files, linked to the main page using `<link>` tags. It is bad
+files, linked to the main page using `<link>` tags. It is generally a bad
 practice to mix CSS with HTML.
 
 Good CSS is not easy to write and many applications end up with messy CSS
@@ -682,15 +681,15 @@ Read up on them and choose one (or more) to use in your code.
   <strong class="milestone-counter">Milestone 7:</strong> Style different UI components
   within the application using CSS in a structured way (i.e. marks will be deducted if
   you submit messy code). Explain why your UI design is the best possible UI for your application.
-  Choose one of the CSS methodologies (or others you know of them) and implement it in your application.
-  Justify your choice of approach.
+  Choose one of the CSS methodologies (or others if you know of them) and implement it in your application.
+  Justify your choice of methodology.
 </div>
 
 ### Offline Operability and Data Persistence
 
 Very often, it is a good idea to provide the user with some level of
 offline operability. Even without an internet connection, your
-application should not be totally useless. If there is something that
+application should not be totally dysfunctional. If there is something that
 can obviously be done offline, users will expect to be able to do so.
 
 For example, photo sharing applications should allow users to organise
@@ -718,7 +717,12 @@ of your client, it will refer to a file called the cache manifest. The
 cache manifest contains a list of resources that the browser will retain
 for offline usage.
 
-TODO: Read up on manifest and application cache
+TODO:
+
+- Application Cache has been deprecated. Replace this section with Service Workers instead.
+  - https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers
+  - https://developers.google.com/web/fundamentals/getting-started/your-first-offline-web-app/
+- Warn students about browser compatibility especially with Safari.
 
 To get started, we first need to tell Apache about our cache manifest.
 Create a file named .htaccess in the root of your web directory and add
@@ -832,9 +836,9 @@ For a complete list of Web Storage's capability, visit
 <div class="box">
   <strong class="milestone-counter">Milestone 8:</strong> Implement and briefly describe
   the offline functionality of your application. Explain why the offline functionality of
-  your application fits users' expectations. State if you have used Web Storage, or
+  your application fits users' expectations. State if you have used Service Workers, Web Storage, or
   any other technology. Explain your choice. Make sure that you are able to run and use
-  the minimal subset of features of your application from the home screen without any internet connection.
+  the a subset of features of your application from the home screen without any internet connection.
 </div>
 
 #### 3. Online/Offline Events
@@ -984,6 +988,7 @@ any methods you deem fit.
 ### HTTPS
 
 TODO:
+
 - Explain why HTTP is bad
 - Explain benefits of HTTPS
 - Basic high-level steps to set up HTTPS for your site
@@ -991,8 +996,8 @@ TODO:
 
 <div class="box">
   <strong class="milestone-counter">Milestone 11:</strong>
-  Set up HTTPS for your application, and also redirect users to the `https://` version if the user
-  tries to access your site via `http://`.
+  Set up HTTPS for your application, and also redirect users to the <code>https://</code> version if the user
+  tries to access your site via <code>http://</code>.
 </div>
 
 ### Native Look and Feel
