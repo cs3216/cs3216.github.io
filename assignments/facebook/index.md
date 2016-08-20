@@ -97,10 +97,9 @@ With that out of the way, let's begin...
 
 ## Phase 0
 
-> If you wait to do everything until you're sure it's right, you'll
-> probably never do much of anything.
+> Chase the vision, not the money. The money will end up following you.
 >
-> — Win Borden
+> — Tony Hsieh
 
 After meeting with your wonderful fellow CS3216 students, you finally
 decided that it is time to do something. You have decided to make your
@@ -274,9 +273,9 @@ a few to try out and get a "Hello World" app running before proceeding to the ne
 
 ## Phase 1: Baby
 
-> Babies are always more trouble than you thought – and more wonderful.
+> Waiting for perfect is never as smart as making progress.
 >
-> — Charles Osgood
+> – Seth Godin
 
 After you have set up your "Hello World" app of your choice and read Facebook's policies,
 it is time to name your Facebook application. By now, you should already have an idea of what
@@ -488,10 +487,9 @@ Facebook – a unique and successful relationship with real users.
 
 ## Phase 2: Toddler
 
-> If you give a hacker a new toy, the first thing he'll do is take it
-> apart to figure out how it works.
+> Don't count the things you do. Do the things that count.
 >
-> — Jamie Zawinski
+> — Zig Ziglar
 
 Creating Facebook applications is similar to developing regular web
 applications. This was not the case several years ago, where students
@@ -649,9 +647,9 @@ and tell us.
 
 ## Phase 3: Child
 
-> You can learn many things from children. How much patience you have, for instance.
+> The only way to win is to learn faster than anyone else.
 >
-> — Franklin P. Jones
+> — Neve Campbell
 
 Now that you are familiar with the basic Facebook building blocks, it is
 time to graduate to the more complicated toys. In this phase, we will
@@ -1155,10 +1153,9 @@ page](https://developers.facebook.com/docs/opengraph/overview/).
 
 ## Phase 5: Young Adult
 
-> I look back five years ago, when I thought I was an adult and knew
-> everything about the world, and I realize I knew nothing.
+> Managers tell you where you are, leaders tell you where you are going.
 >
-> — Neve Campbell
+> — Michael Lopp
 
 And here we come to a interesting part of this assignment. The following sectiions will deal
 exclusively with more advanced matters such as security, animation and AJAX.

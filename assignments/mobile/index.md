@@ -119,6 +119,11 @@ to get a sense of what is required. The grading scheme can be found at the end o
 handout.
 
 ## Introduction
+## Phase 0: Introduction
+
+> The reward for doing good work is more work.
+>
+> – Ben Leong
 
 This assignment comprises 4 weeks of intensive learning that provides
 you with another opportunity to express your creativity. This time, we
@@ -189,9 +194,9 @@ sections.
 
 ### Idea Generation
 
-> No charge for awesomeness!
+> The best way to predict the future is to create it.
 >
-> – Kungfu Panda
+> – Abraham Lincoln
 
 As an aspiring entrepreneur of CS3216, you have a mind full of big ideas
 eagerly waiting to see the light of day. After a long discussion with
@@ -411,6 +416,10 @@ passed.
 
 ## Phase 2: REST Server
 
+> Don't worry about failure, you only have to be right once.
+>
+> – Drew Houston
+
 Now that you are done with the planning, it is time to turn your design
 into a usable product. In this section, mini tutorials will be provided
 to get you started on implementing your REST server in PHP. Since the
@@ -560,6 +569,10 @@ official guide at
 your Apache version may differ.
 
 ## Phase 3: Mobile Client
+
+> Global vision, local win.
+>
+> – Jack Ma
 
 With a HTML5 application, native functionality and libraries on the
 device cannot be directly accessed. However, this does allow your
@@ -933,6 +946,10 @@ More information and examples at
 <https://developers.google.com/analytics/devguides/collection/analyticsjs/>.
 
 ## Phase 4: Coolness Factor
+
+> It's very easy to be different, but very difficult to be better.
+>
+> – Jonathan Ive
 
 **This section is purely optional. Completing milestone(s) described in
 this section may contribute to the 30% coolness factor.**
