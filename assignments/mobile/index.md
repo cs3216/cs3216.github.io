@@ -225,7 +225,7 @@ help you spread message about your application via word-of-mouth.
 
 <div class="box">
   <strong class="milestone-counter">Milestone 0:</strong>
-  Describe the problem that your application solves.
+  Describe the problem that your application solves. <em>(Not graded)</em>
 </div>
 
 Building a killer application requires more than just technical skills.
@@ -284,11 +284,6 @@ Now that you have a solid idea of what you want to build, it is a good
 time to pick a suitable name for your mobile cloud application if you
 haven't already done so.
 
-<div class="box">
-  <strong class="milestone-counter">Milestone 3:</strong>
-  Pick a name for your mobile cloud application. <em>(Not graded)</em>.
-</div>
-
 ### Database Planning
 
 Make sure you take some time to plan a good schema design. Having to
@@ -298,7 +293,7 @@ assignment if you need a quick recap on relational databases. Remember
 the principle of **design once use forever**.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 4:</strong>
+  <strong class="milestone-counter">Milestone 3:</strong>
   Draw the database schema of your application.
 </div>
 
@@ -462,7 +457,7 @@ can help you with that. Apiary in particular, can help you document your APIs
 for both your client-side and server-side developers to reference.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 5:</strong>
+  <strong class="milestone-counter">Milestone 4:</strong>
   Design and document all your REST API. The documentation should
   describe the requests in terms of the triplet mentioned above.
   Do provide us with a brief explanation on the purpose of each request for reference.
@@ -573,7 +568,7 @@ should always specify the `content-type` of the request and response message so 
 receiving end knows how to handle it.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 6:</strong> Share with us some queries (at least 3)
+  <strong class="milestone-counter">Milestone 5:</strong> Share with us some queries (at least 3)
   in your application that require database access. Provide the <em>actual SQL queries</em>
   you use (if you are using an [ORM](https://www.wikiwand.com/en/Object-relational_mapping),
   find out the underlying query) and explain how it works.
@@ -637,24 +632,19 @@ application among the others they have installed. If users are willing
 to shortcut your application, capitalise on their goodwill by making it
 easy for them to return to your application.
 
-You can find the documentation for
-[iOS](http://developer.apple.com/library/safari/documentation/appleapplications/reference/safariwebcontent/ConfiguringWebApplications/ConfiguringWebApplications.html)
-and
-[Android](https://developer.chrome.com/multidevice/android/installtohomescreen)
-at their respective developer centres. If you plan to release your
+You can find the documentation for doing that on [iOS](https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
+and [Android](https://developer.chrome.com/multidevice/android/installtohomescreen).
+If you plan to release your
 application, it is a good idea to do the same for other platforms that
 we may not have covered here.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 8:</strong> Create an attractive icon and
-  splash screen for your application. If you did not implement a splash screen,
-  justify your decision with a short paragraph.
-</div>
-
-<div class="box">
-  <strong class="milestone-counter">Milestone 9:</strong> Try adding your application to
-  the home screen to make sure that they are working properly. Make sure at least Safari
-  on iOS and Chrome on Android are supported.
+  <strong class="milestone-counter">Milestone 6:</strong>
+  Create an attractive icon and splash screen for your application. Try adding your application
+  to the home screen to make sure that they are working properly. Include an image of the icon
+  and a screenshot of the splash screen in your writeup. If you did not implement a splash screen, justify your
+  decision with a short paragraph. Add your application to the home screen to make sure
+  that they are working properly. Make sure at least Safari on iOS and Chrome on Android are supported.
 </div>
 
 ### Presentation
@@ -669,7 +659,7 @@ users do not like it, they simply won't use it.
 
 All you have to do is spend some time testing your application. In most
 cases, you will quickly know if your UI makes or breaks it. It's common
-sense (!)
+sense!
 
 After the UI has been designed, the UI needs to be implemented.
 Cascading Style Sheets (CSS) would be used, since the application is in
@@ -677,10 +667,23 @@ actuality a fancy web page. All styles should be contained within CSS
 files, linked to the main page using `<link>` tags. It is bad
 practice to mix CSS with HTML.
 
+Good CSS is not easy to write and many applications end up with messy CSS
+after extended period of development as the application grows bigger.
+To solve this problem, front end developers have come up with methodologies
+to structure your CSS code:
+
+- Object Oriented CSS (<https://github.com/stubbornella/oocss/wiki>)
+- Scalable and Modular Architecture for CSS (<https://smacss.com/>)
+- Block Element Modified (<http://getbem.com/>)
+
+Read up on them and choose one (or more) to use in your code.
+
 <div class="box">
-  <strong class="milestone-counter">Milestone 10:</strong> Style different UI components
+  <strong class="milestone-counter">Milestone 7:</strong> Style different UI components
   within the application using CSS in a structured way (i.e. marks will be deducted if
   you submit messy code). Explain why your UI design is the best possible UI for your application.
+  Choose one of the CSS methodologies (or others you know of them) and implement it in your application.
+  Justify your choice of approach.
 </div>
 
 ### Offline Operability and Data Persistence
@@ -693,9 +696,12 @@ can obviously be done offline, users will expect to be able to do so.
 For example, photo sharing applications should allow users to organise
 and edit photos any time. These jobs can be saved in a queue if the
 application is not connected and these operations can be played back on
-the server when the application goes back online.
+the server when the device goes back online.
 
-Another example is the Dropbox iOS application. An internet connection
+The Facebook mobile app allows users to draft posts and write comments
+while offline which will be posted when the device goes online.
+
+A last example is the Dropbox iOS application. An internet connection
 is required to retrieve files that the user has stored in the online
 folder. However, it also allows users to flag selected files for the
 application to cache locally in the phone's internal memory, making them
@@ -712,6 +718,8 @@ of your client, it will refer to a file called the cache manifest. The
 cache manifest contains a list of resources that the browser will retain
 for offline usage.
 
+TODO: Read up on manifest and application cache
+
 To get started, we first need to tell Apache about our cache manifest.
 Create a file named .htaccess in the root of your web directory and add
 the following line.
@@ -726,12 +734,12 @@ dealt with.
 Next, we need to add the manifest attribute to the html tags in all html
 pages belonging to the client:
 
-``` {.html language="HTML"}
+~~~
 <!DOCTYPE html>
 <html manifest="cache.manifest">
-    ...
+  ...
 </html>
-```
+~~~
 
 This will point the browser to the cache manifest we are about to
 create. It will contain a list of resources required for your
@@ -739,9 +747,9 @@ application to work offline. Resources include HTML pages, images,
 stylesheets as well as JavaScript files. Finally we proceed to create
 the following file:
 
-cache.manifest:
+`cache.manifest`:
 
-```
+~~~
 CACHE MANIFEST
 # version 1.0
 
@@ -751,11 +759,11 @@ css/default.css
 js/jquery-1.6.1.min.js
 
 NETWORK: *
-```
+~~~
 
 Some points to note about the cache manifest:
 
--   <span>\#</span> denotes a single-line comment.
+-   `#` denotes a single-line comment.
 
 -   The NETWORK section is a list of white-listed pages. If your
     application will request files from other domains besides your own,
@@ -776,10 +784,10 @@ Some points to note about the cache manifest:
     <http://www.html5rocks.com/en/tutorials/appcache/beginner/>.
 
 Note that the cache manifest does not strictly need to be named as such.
-Make the necessary changes to the AddType directive and manifest
+Make the necessary changes to the manifest
 attribute should you wish to use a different name and file extension.
 
-Read about more features of the Application Cache at:
+Read about more features of the Application Cache at
 <http://www.w3.org/TR/html5/offline.html>
 
 #### 2. Web Storage
@@ -793,10 +801,22 @@ associated with a domain are sent with every request. Web Storage is a
 storage API which allows storing data associated with a site which
 persists across sessions, without the drawbacks of using cookies.
 
-<span>**Web Storage**</span> is a key/value store and can be accessed
+**Web Storage** is a key/value store and can be accessed
 through the `localStorage` object.
 
-TODO: Add in missing code
+~~~
+<script>
+var state = localStorage.getItem('state');
+if (state) {
+  console.log(JSON.parse(state));
+  // localStorage.clear();
+  // localStorage.removeItem('state');
+} else {
+  var newState = { id: '0', name: 'Bob' };
+  localStorage.setItem('state', JSON.stringify(newState));
+}
+</script>
+~~~
 
 In the example above, nothing is observed when the user first loads the
 page. However, we define a new state containing the user's ID as well as
@@ -804,13 +824,17 @@ his name into the key/value store. When the page loads in future, we
 will see that the state has already been set and will show up in the
 console. We can also clear the `localStorage` object or remove a
 specific key/value pair. As Web Storage does not support storing
-objects, one workaround is to store the object in JSON format.
+objects, one workaround is to store the object in stringified-JSON format.
 
 For a complete list of Web Storage's capability, visit
 <http://dev.w3.org/html5/webstorage/>.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 11:</strong> Implement and briefly describe the offline functionality of your application. Explain why the offline functionality of your application fits users' expectations. State if you have used Web Storage, or any other technology. Explain your choice. Make sure that you are able to run and use the application from the home screen without any internet connection.
+  <strong class="milestone-counter">Milestone 8:</strong> Implement and briefly describe
+  the offline functionality of your application. Explain why the offline functionality of
+  your application fits users' expectations. State if you have used Web Storage, or
+  any other technology. Explain your choice. Make sure that you are able to run and use
+  the minimal subset of features of your application from the home screen without any internet connection.
 </div>
 
 #### 3. Online/Offline Events
@@ -826,20 +850,39 @@ been deleted from the server)? These are but a few out of many
 possibilities that have to be considered.
 
 How you handle the problem depends on your application; prior to that,
-your application would actually need a means to <span>*determine*</span>
+your application would actually need a means to *determine*
 if there is an internet connection:
 
-TODO: Add in missing code
+~~~
+<script>
+  if (navigator.onLine) {
+    alert('Online');
+  } else {
+    alert('Offline');
+  }
+  window.addEventListener('online', function (event) {
+    alert('Online');
+  }, false);
+
+  window.addEventListener('offline', function (event) {
+    alert('Offline');
+  }, false);
+</script>
+~~~
 
 `navigator.onLine` is a boolean value containing the device's current
 internet connection state. You can also register callbacks for the
 `online` and `offline` events. Try visiting the page on your mobile
 device and watch the events fire as you toggle your Wi-Fi on and off.
 
+Word of caution though, the behaviour of `navigator.onLine` is flaky on desktop browsers
+but works fine on mobile browsers (Chrome). It is not the most reliable method of testing network
+connectivity.
+
 <div class="box">
-  <strong class="milestone-counter">Milestone 12:</strong> Explain how you will keep your client
-  synchronised with the server. Elaborate on the cases you have taken into consideration
-  and how they will be handled.
+  <strong class="milestone-counter">Milestone 9:</strong> Implement and explain how you will
+  keep your client synchronised with the server if your application is being used offline.
+  Elaborate on the cases you have taken into consideration and how they will be handled.
 </div>
 
 ### Communicating with the Server
@@ -847,18 +890,31 @@ device and watch the events fire as you toggle your Wi-Fi on and off.
 Your application needs to be able to communicate the user's actions to
 the server. Since our application runs in the browser, we can use an
 AJAX call to do so. AJAX allows you to make HTTP requests using
-JavaScript a page reload. The following example uses jQuery to make a
+JavaScript without a page reload. The following example uses jQuery to make a
 request to the REST server we have created earlier:
 
-TODO: Add in missing code
+~~~
+<script>
+$.ajax({
+  type: 'PUT',
+  url: 'products/12345',
+  contentType: 'application/json',
+  data: {
+    name: 'Apple',
+    price: '0.5'
+  },
+  success: function (response) {
+    // Succeeded! Do something...
+    console.log(response);
+  }
+</script>
+~~~
 
 Within the AJAX call, the `type` refers to the HTTP request method. Just
 by looking at the parameters, we should already know that
 `PUT /products/12345` is a request to modify the information of the
 product with `id` = 12345. Therefore, it makes sense to send the new
-information to the server through the data parameter. Following
-Facebook's convention, a `true` or `false` response is returned for
-requests that do not require data. If you are expecting JSON to be
+information to the server through the data parameter. If you are expecting JSON to be
 returned, set the `dataType` to <span>json</span> and jQuery will decode
 it for you. Also, the `contentType` defaults to `urlencoded` – remember
 to specify this parameter if the server expects the data to be in some
@@ -867,8 +923,8 @@ other encoding.
 Finally, callbacks can be used to perform actions when the AJAX call
 succeeds or fails. Make sure that users are notified of a failure
 instead of being kept in suspense. Visit
-<http://api.jquery.com/jQuery.ajax/> for a full list of options that
-\$.ajax() has to offer.
+<https://api.jquery.com/jQuery.ajax/> for a full list of options that
+`$.ajax()` has to offer.
 
 ### Authentication
 
@@ -881,7 +937,20 @@ determine the identity of the person making the request.
 The simplest approach taken by many services is to use the HTTP basic
 access authentication.
 
-TODO: Add in missing code
+~~~
+<script>
+$.ajax({
+  type: 'DELETE',
+  url: 'products/12345',
+  headers: {
+    'Authorization': 'Basic ' + window.btoa('Username: Password')
+  },
+  success: function (response) {
+    // Do something...
+  }
+});
+</script>
+~~~
 
 The `headers` key tells jQuery to append the specified headers while
 making the HTTP request. `window.btoa` performs a base64 encode of a
@@ -889,12 +958,12 @@ string, which is defined as the concatenation of the username, a colon,
 and the password . This results in the following header being sent with
 the request in this case.
 
-    Authorization: Basic VXNlcm5hbWU6UGFzc3dvcmQ=
+~~~
+Authorization: Basic VXNlcm5hbWU6UGFzc3dvcmQ=
+~~~
 
 The `Authorization` header is automatically decoded and passed to the
-PHP variables and , which you can then authenticate against.
-
-TODO: Add in missing code
+server handler.
 
 The base64-encoded string may look cryptic but it is in fact reversible;
 this means that we are transmitting the password in clear. You should
@@ -906,37 +975,106 @@ authentication should be sufficient in most cases, but feel free to use
 any methods you deem fit.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 13:</strong> Compare the advantages and
-  disadvantages of basic ac- cess authentication against other schemes such as digest
+  <strong class="milestone-counter">Milestone 10:</strong> Compare the advantages and
+  disadvantages of basic access authentication against other schemes such as digest
   access authentication, cookies, or OAuth. Justify why your choice of authentication
   scheme is the best for your application.
+</div>
+
+### HTTPS
+
+TODO:
+- Explain why HTTP is bad
+- Explain benefits of HTTPS
+- Basic high-level steps to set up HTTPS for your site
+  - Point them to Let's Encrypt at the end
+
+<div class="box">
+  <strong class="milestone-counter">Milestone 11:</strong>
+  Set up HTTPS for your application, and also redirect users to the `https://` version if the user
+  tries to access your site via `http://`.
+</div>
+
+### Native Look and Feel
+
+Although your application may not be native, it may be a good idea to
+style it to look and feel like one. Owners of mobile devices have
+probably become accustomed to the user interface provided by the
+operating system, so they instinctively know how to use a native
+application when faced with one. When there seems to be more
+information, they try to scroll down. When they perform a swipe, they
+expect to see the next page. Likewise, to navigate through the
+application, looking for tabs at the bottom of the screen is the first
+thing that comes to mind. By making your application native-like, its
+learning curve becomes less steep. In addition, a lot of research has
+been done by the mobile device creators to arrive at the current
+interface, we are less likely to make design mistakes by replicating it.
+Read about this [research study](https://developers.google.com/web/fundamentals/getting-started/principles/)
+by Google and AnswerLab.
+
+How can we emulate a native application? As part of the goal to improve
+the mobile web, HTML5 and CSS3 have been loaded with many new features.
+These features include animations, 3D transformations, visual effects
+and events which can reproduce the native look and feel when used in
+parallel. To do so however, is time-consuming and a sizeable project on
+its own. Fortunately, others have done the dirty work and open-sourced
+frameworks and libraries you can use to easily recreate the native
+experience. The following are some options you can consider:
+
+- Ionic - <http://ionicframework.com/>
+- Ratchet - <http://goratchet.com/>
+- Framework7 - <http://framework7.io/>
+
+The following are some options you should avoid. They look horrid:
+
+- jQuery Mobile - <http://jquerymobile.com/>
+- jQTouch - <http://jqtouch.com/>
+
+You probably know this by now, but using others' code does not come
+without any cost. Some have very steep learning curves, others may
+require you to adopt a totally different style of programming and
+certain ones may be hardly or badly documented. Worst of all, the code
+may be littered with bugs and you certainly do not have the time to be
+fixing someone else's problems. Be sure to do a thorough evaluation
+before making a decision. Also be warned that the teaching staff may be
+unfamiliar and thus unable to assist with problems encountered with
+external frameworks/libraries.
+
+<div class="box">
+  <strong class="milestone-counter">Milestone 12:</strong>
+  Justify your choice of framework/library by comparing it against others.
+  Explain why the one you have chosen best fulfils your needs.
+  Lastly, list down some (at least 5) of the mobile site design principles which pages/screens
+  demonstrate them.
 </div>
 
 ### User Experience
 
 Another important part of your application is user experience. Please
-note that user experience (usually addressed as UX) is different from
-the user interface (UI). A good UI does not guarantee a good UX at all.
-Sometimes, a cool-looking UI can be a disaster because of poor UX.
+note that user experience (UX) is different from
+the user interface (UI). A pretty UI does not guarantee a good UX at all.
+Sometimes, a cool-looking UI can be a disaster because of poor UX. Sites like
+[Reddit](https://www.reddit.com/) and [Craigslist](http://craigslist.com/) still
+has a ton of daily active users despite their UI. 😵
 
-The user experience encompasses all aspects of the end-user's
+UX encompasses all aspects of the end-user's
 interaction with the application. There are many components which
-comprise a good user experience, but minimally the application should
-allow the users to do what he wants with minimal fuss. User experience
+comprise a good UX, but minimally the application should
+allow the users to do what he wants with minimal fuss. UX
 goes far beyond giving users what they say they want, or providing a
 checklist of features. In order to achieve a high-quality user
 experience in your application, careful thought must be put into its
 functionality, interaction design and interface design.
 
-User experience is not just the job of the UI designer. Just like a good
+UX is not just the job of the UI designer. Just like a good
 UI, you will know if an application's UX is good or bad. Any team member
 can contribute to your UX design by using it and providing feedback and
 suggestions. Ask your friends to use it as well to gather more feedback
 and ideas.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 14:</strong> Describe 3 workflows
-  within your application. Explain why those workflows where chosen over
+  <strong class="milestone-counter">Milestone 13:</strong> Describe 3 common workflows
+  within your application. Explain why those workflows were chosen over
   alternatives with regards to improving the user's overall experience with your
   application.
 </div>
@@ -945,46 +1083,39 @@ and ideas.
 
 Just like the Facebook application, you might be interested in the usage
 statistics of your application. Where Facebook applications have access
-to Facebook Insight, which provides a lot more information about your
+to Facebook Insights, which provides a lot more information about your
 application, there is no standard approach to performing analytics on a
 HTML5 site.
 
 Google Analytics is one popular platform. It can be set up easily, as
 you have already done in Assignment 1. The following examples are using
-the new <span>analytics.js</span> snippet, part of Universal Analytics.
+the new `analytics.js` snippet, part of Universal Analytics.
 
-You can save this code snippet separately and include it in your view
-templates. For example, create a PHP file named
-<span>analytics.php</span> with the code above and include it on each
-PHP template page. Then, add the following line to each template page
-immediately after the opening `<body>` tag:
-
-``` {.php language="PHP"}
-<?php include_once('analytics.php') ?>
-```
-
-If your application's interface is predominantly built with a JavaScript
-framework, it is possible that you only have one html page with all
+If your application's interface is predominantly built with a JavaScript MVC
+framework, it is very likely that you have a Single Page Application; one html page with all
 transitions handled by JavaScript code. Pages can still be tracked using
 Virtual Pageviews by executing the following code instead. Refer to
-<https://developers.google.com/analytics/devguides/collection/analyticsjs/pages#overriding>
+<https://developers.google.com/analytics/devguides/collection/analyticsjs/single-page-applications>
 for more information.
 
-    ga('send', 'pageview', '/your_virtual_page_path');
+~~~
+ga('send', 'pageview', '/your_virtual_page_path');
+~~~
 
-<span>**Event Tracking**</span> can provide more fine-grained control
+**Event Tracking** can provide more fine-grained control
 over user actions. They can be used to track more events such as
 successful AJAX calls, buttons pressed, or even videos downloaded. The
 following code can be embedded in the click callback of a button which
 publishes a new blog post:
 
-    ga('send', 'event', 'button', 'click', 'publish');
+~~~
+ga('send', 'event', 'button', 'click', 'publish');
+~~~
 
-In particular, <span>**Social Interaction Analytics**</span> can be used
+In particular, **Social Interaction Analytics** can be used
 to track clicks on social buttons on your application, such as Like, +1
 or Tweet buttons. To learn how to track social network activity, check
-out
-<https://developers.google.com/analytics/devguides/collection/analyticsjs/social-interactions>.
+out <https://developers.google.com/analytics/devguides/collection/analyticsjs/social-interactions>.
 
 Finally, since we have added an additional resource to our page, we need
 to update our application manifest. If the `NETWORK` section is not set
@@ -998,8 +1129,8 @@ resources that Google Analytics requires.
 Files under the `NETWORK` section are whitelisted and not cached, which
 is appropriate for data collection endpoints. `analytics.js` contains
 code which reports the statistics of the application. Google Analytics
-works by making a GET request to a 1 \* 1 pixel image
-(http://www.google-analytics.com/collect) when something needs to be
+works by making a `GET` request to a 1 \* 1 pixel image
+(<http://www.google-analytics.com/collect>) when something needs to be
 tracked. Therefore, it needs to be whitelisted so the request hits the
 network every single time, since fetching from the local cache will not
 update Google's servers with the tracking data.
@@ -1009,8 +1140,8 @@ see immediate results. There are however, signs to check that your
 application is being tracked:
 
 1.  Check the Network tab in the developer tools provided by your
-    browser. Every time a tracked page or event occurs, a new GET
-    request to /collect should appear.
+    browser. Every time a tracked page or event occurs, a new `GET`
+    request to `/collect` should appear.
 
 2.  Use "Real-Time" mode in the Analytics dashboard, which allows you to
     view activities on your application in near-real time.
@@ -1019,7 +1150,7 @@ More information and examples at
 <https://developers.google.com/analytics/devguides/collection/analyticsjs/>.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 15:</strong> Embed Google Analytics
+  <strong class="milestone-counter">Milestone 14:</strong> Embed Google Analytics
   in your application and give us a screenshot of the report. Make sure you embed
   the tracker at least 48 hours before submission deadline as updates are reported once per day.
 </div>
@@ -1066,7 +1197,7 @@ possibly used by many more people. Of course, your application must be
 good or no one would share it.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 16:</strong>
+  <strong class="milestone-counter">Milestone 15:</strong>
   Identify and integrate with social network(s) containing users in your target audience.
   State the social plugins you have used. Explain your choice of social network(s) and
   plugins. (Optional)
@@ -1097,67 +1228,42 @@ passed to handle success and failure cases.
 This code will continue to output the user's position as he walks about
 with his mobile device:
 
-TODO: Add in missing code
+~~~
+<script>
+if (navigator.geolocation) { // check if browser supports geolocation
+  navigator.geolocation.watchPosition(function (position) {
+      // success
+      console.log('Position: [', position.coords.latitude, ',', position.coords.longitude, ']');
+    }, function (error) {
+      switch (error.code) {
+        case error.PERMISSION_DENIED:
+          console.log('Permission denied');
+          break;
+        case error.POSITION_UNAVAILABLE:
+          console.log('Position unavailable');
+          break;
+        case error.TIMEOUT:
+          console.log('Timeout');
+          break;
+      }
+    }
+  );
+}
+</script>
+~~~
 
 Showing the user his coordinates may hardly be of any use to him at all.
-You could take it up one level by plotting it on a map. The next example
-does the same thing but plots the position using Google Maps:
-
-TODO: Add in missing code
+You could take it up one level by plotting it on a map and perhaps places of interest near hi.
 
 For complete documentation of Geolocation API and Google Maps, visit
-<http://dev.w3.org/geo/api/spec-source.html> and
+<https://dev.w3.org/geo/api/spec-source.html> and
 <https://developers.google.com/maps/documentation/javascript/reference>
-respectively.
+respectively. [Mapbox](https://www.mapbox.com/) is a nice alternative to plotting maps and
+allow more customization of the map for more UI goodness.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 17:</strong>
-  Make use of the Geolocation API in your application. Plot it with Bing or
-  Google Maps or even draw out possible routes for the convenience of your user. (Optional)
-</div>
-
-### Native Look and Feel
-
-Although your application may not be native, it may be a good idea to
-style it to look and feel like one. Owners of mobile devices have
-probably become accustomed to the user interface provided by the
-operating system, so they instinctively know how to use a native
-application when faced with one. When there seems to be more
-information, they try to scroll down. When they perform a swipe, they
-expect to see the next page. Likewise, to navigate through the
-application, looking for tabs at the bottom of the screen is the first
-thing that comes to mind. By making your application native-like, its
-learning curve becomes less steep. In addition, a lot of research has
-been done by the mobile device creators to arrive at the current
-interface, we are less likely to make design mistakes by replicating it.
-
-How can we emulate a native application? As part of the goal to improve
-the mobile web, HTML5 and CSS3 have been loaded with many new features.
-These features include animations, 3D transformations, visual effects
-and events which can reproduce the native look and feel when used in
-parallel. To do so however, is time-consuming and a sizeable project on
-its own. Fortunately, others have done the dirty work and open-sourced
-frameworks and libraries you can use to easily recreate the native
-experience. The following are some examples you can consider:
-
-- jQuery Mobile - <http://jquerymobile.com/>
-- Framework7 - <http://www.idangero.us/framework7/>
-- jQTouch - <http://jqtouch.com/>
-
-You probably know this by now, but using others' code does not come
-without any cost. Some have very steep learning curves, others may
-require you to adopt a totally different style of programming and
-certain ones may be hardly or badly documented. Worst of all, the code
-may be littered with bugs and you certainly do not have the time to be
-fixing someone else's problems. Be sure to do a thorough evaluation
-before making a decision. Also be warned that the teaching staff may be
-unfamiliar and thus unable to assist with problems encountered with
-external frameworks/libraries.
-
-<div class="box">
-  <strong class="milestone-counter">Milestone 18:</strong>
-  Justify your choice of framework/library by comparing it against others. Explain why the one you have chosen best
-  fulfils your needs. (Optional)
+  <strong class="milestone-counter">Milestone 16:</strong>
+  Make use of the Geolocation API in your application. (Optional)
 </div>
 
 ### Other Emerging Features
@@ -1172,9 +1278,9 @@ light](https://developer.mozilla.org/en-US/docs/Web/API/DeviceLightEvent/Using_l
 [check battery
 status](https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API)
 or [trigger
-vibration](https://developer.mozilla.org/en-US/docs/Web/Guide/API/Vibration)
-- imagine playing a web based game, and when you set off some
-explosives, your phone vibrates a bit!
+vibration](https://developer.mozilla.org/en-US/docs/Web/Guide/API/Vibration);
+imagine playing a web based game, and when you set off some
+explosives, your phone vibrates!
 
 Here are some useful links:
 
@@ -1185,9 +1291,12 @@ Here are some useful links:
 ## Grading Scheme
 
 The grading of the assignment is divided into two components: satisfying
-the compulsory milestones (70%) and coolness factor (30%). There are 15
-compulsory milestones. Excluding Milestone 3 which is not graded; the
-remaining 14 are worth 5% each for a total of 70%.
+the compulsory milestones (70%) and coolness factor (30%). Excluding Milestone 0,
+there are **16 milestones** in total: two are optional (Milestones 15 and 16).
+That leaves you with 14 compulsory milestones and each of them is worth 5%.
+
+The bonus milestones and the optional milestones will contribute
+towards the remaining 30%.
 
 ### Final Submission (due Friday, 23 September 2016, 23:59):
 
