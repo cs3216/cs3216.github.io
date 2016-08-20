@@ -761,7 +761,8 @@ database connectors and ORM tools for the language/framework you intend to use.
 <div class="box">
   <strong class="milestone-counter">Milestone 6:</strong> Share with us some queries (at least 3)
   in your application that require database access. Provide the <em>actual SQL queries</em>
-  you use and explain how it works.
+  you use (if you are using an [ORM](https://www.wikiwand.com/en/Object-relational_mapping),
+  find out the underlying query) and explain how it works.
 </div>
 
 ### Facebook Graph API
@@ -1385,7 +1386,7 @@ code will allow us to retrieve the object stored in the file:
 
 Sometimes, we might also need to send data to server for processing.
 jQuery allows this through the use of `.get()` and
-`.post()` to retrieve / send data via the HTTP `GET` and `POST` methods respectively.
+`.post()` to retrieve/send data via the HTTP `GET` and `POST` methods respectively.
 
 Assuming we wish to send a variable `sample_variable` with
 the value 1000 to the webpage `sample.php`, we will execute
