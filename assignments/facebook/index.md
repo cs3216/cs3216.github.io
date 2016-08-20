@@ -111,7 +111,7 @@ Developer application.
 <div class="box">
   <strong class="milestone-counter">Milestone 0:</strong> Install the Facebook Developer application
   from <a href="https://developers.facebook.com/apps">https://developers.facebook.com/apps</a>.
-  (Not graded)
+  <em>(Not graded)</em>
 </div>
 
 **Note**: During this process, Facebook may require you to
@@ -1419,9 +1419,8 @@ the data size due to restriction of the URL length by browsers.
 
 The grading of the assignment is divided into two components: satisfying
 the milestones (70%) and the coolness factor (30%). Excluding Milestone 0,
-there are **16 milestones** in total:
-two are optional (Milestones 15 and 16). That leaves you with 14 compulsory milestones and
-each of them is worth 5%.
+there are **16 milestones** in total: two are optional (Milestones 15 and 16).
+That leaves you with 14 compulsory milestones and each of them is worth 5%.
 
 The bonus milestones and the optional milestones will contribute
 towards the remaining 30%.
