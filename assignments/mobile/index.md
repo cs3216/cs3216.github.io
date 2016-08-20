@@ -463,10 +463,11 @@ for both your client-side and server-side developers to reference.
 
 <div class="box">
   <strong class="milestone-counter">Milestone 5:</strong>
-  Design and document all the requests of your REST API. The documentation should
+  Design and document all your REST API. The documentation should
   describe the requests in terms of the triplet mentioned above.
   Do provide us with a brief explanation on the purpose of each request for reference.
-  Also, explain how your API conforms to the REST principles and why you have chosen to ignore certain practices (if any.)
+  Also, explain how your API conforms to the REST principles and why
+  you have chosen to ignore certain practices (if any.)
 </div>
 
 ## Phase 2: REST Server
@@ -571,78 +572,11 @@ Also, as different operations may be expecting differing types of data, you
 should always specify the `content-type` of the request and response message so the
 receiving end knows how to handle it.
 
-If you are using Apache and face problems trying to get `PATCH`, `PUT` and `DELETE` to work,
-chances are, they have not been enabled. Look into Apache's
-`httpd.conf` for the ``Limit`` and `LimitExcept` directives corresponding to your virtual host
-and include the missing methods. In case you are wondering, Apache is a
-generic webserver which can be used for many purposes and this file is a
-configuration file used to customize the server for your specific needs.
-The location of this file may differ for the various Linux distros, but
-you can always consult Google.
-
-~~~
-<Directory "/var/www">
-  AllowOverride FileInfo AuthConfig Limit Indexes
-  <Limit GET POST PATCH PUT DELETE>
-    Require all granted
-  </Limit>
-  <LimitExcept GET POST PATCH PUT DELETE>
-    Require all denied
-  </LimitExcept>
-</Directory>
-~~~
-
-In the above example, Limit (`Require all granted`) allows
-the four methods to be accessed by any users and LimitExcept (`Deny
-from all`) denies all instructions except these four from
-everyone. This means that only GET, POST, PATCH, PUT and DELETE are
-allowed on the server. Even if you did not have to manually enable
-PATCH, PUT or DELETE, you might want to consider blocking unused methods
-just in case. Remember to restart Apache after you have made the changes.
-
 <div class="box">
   <strong class="milestone-counter">Milestone 6:</strong> Share with us some queries (at least 3)
   in your application that require database access. Provide the <em>actual SQL queries</em>
   you use (if you are using an [ORM](https://www.wikiwand.com/en/Object-relational_mapping),
   find out the underlying query) and explain how it works.
-</div>
-
-### URL Rewrite
-
-When we planned the REST API earlier, 'clean' URLs were used. However,
-this is not possible without some additional work as we know that PHP's
-parameters look like <span>?var1=val1&var2=val2</span>. What we need is
-the rewrite module (mod\_rewrite), which lets us modify the URL before
-Apache tries to execute the referenced script. To enable it, look into
-httpd.conf and make sure the following lines exist and are uncommented:
-
-    LoadModule rewrite_module modules/mod_rewrite.so
-
-Alternatively, run
-
-    sudo a2enmod rewrite
-
-Find the Directory directive corresponding to your web folder and set
-AllowOverride All. Also make sure to remove MultiViews from Options as
-it interferes with rewrite. After you're done, restart Apache.
-
-Create a file called .htaccess in your root directory with the following
-lines:
-
-    RewriteEngine on
-    RewriteRule ^products(?:/([^/]+))?/?$ products.php?id=$1 [QSA,L]
-
-The RewriteRule matches any relative URL with the form
-<span>products/\[product-id\]</span> and rewrites it to point to the
-real file products.php, passing the product-id as one of the URL
-variables. To learn more about <span>mod\_rewrite</span>, refer to the
-official guide at
-<http://httpd.apache.org/docs/current/rewrite/intro.html>. Note that
-your Apache version may differ.
-
-<div class="box">
-  <strong class="milestone-counter">Milestone 7:</strong> Find out and explain what [QSA,L] means.
-  Tell us about your most interesting rewrite rule.
 </div>
 
 ## Phase 3: Mobile Client
