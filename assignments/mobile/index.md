@@ -591,20 +591,40 @@ application to be used by any device with a modern web browser. In this
 section, you will learn how to create a simple HTML5 client that is able
 to work even while the device does not have an internet connection.
 
-### Getting Started
+### Progressive Web Apps
 
 As you would have already learnt about HTML5 from your first assignment, only new
-ideas which apply to mobile devices will be discussed here. Apart from
-your usual HTML5 features, most mobile devices allow users to add a
+ideas which apply to mobile devices will be discussed here. In recent years, Google has
+been pushing for the idea of [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/).
+
+Progressive Web Applications take advantage of new technologies to bring the best of mobile
+sites and native applications to users. Progressive Web Apps are:
+
+- **Progressive** - Work for every user, regardless of browser choice because they're built with progressive enhancement as a core tenet.
+- **Responsive** - Fit any form factor: desktop, mobile, tablet, or whatever is next.
+- **Connectivity independent** - Enhanced with service workers to work offline or on low quality networks.
+- **App-like** - Feel like an app to the user with app-style interactions and navigation because they’re built on the app shell model.
+- **Fresh** - Always up-to-date thanks to the service worker update process.
+- **Safe** - Served via HTTPS to prevent snooping and ensure content hasn’t been tampered with.
+- **Discoverable** - Are identifiable as "applications" thanks to W3C manifests and service worker registration scope allowing search engines to find them.
+- **Re-engageable** - Make re-engagement easy through features like push notifications.
+- **Installable** - Allow users to "keep" apps they find most useful on their home screen without the hassle of an app store.
+- **Linkable** - Easily share via URL and not require complex installation.
+
+Source: <https://developers.google.com/web/fundamentals/getting-started/your-first-progressive-web-app/>
+
+It is recommended that you go through this [short tutorial](https://developers.google.com/web/fundamentals/getting-started/your-first-progressive-web-app/) on making your first progressive web app.
+
+Next we'll be exploring some of the features that constitutes a progress web app.
+
+### Add to Home Screen
+
+Apart from your usual HTML5 features, most mobile devices allow users to add a
 shortcut of a web page to their home screen.
 
-![image](img/homescreen-ios7.png)
+![iOS Homescreen](img/homescreen-ios7.png){:.assignment-img}
 
-*Add to Home on iOS 7*
-
-![image](img/homescreen-android-lollipop.png)
-
-*Add to Home screen on Android Lollipop*
+![Android Homescreen](img/homescreen-android-lollipop.png){:.assignment-img}
 
 In iOS and Android devices, it is possible to run these shortcuts in a
 standalone browser window without the browser's UI controls. This allows
