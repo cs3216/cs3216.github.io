@@ -23,12 +23,6 @@ two to get right. You do not want to leave it to the last week.
 
 ## Grading and Admin
 
-The high-level goal of this assignment is simple: a working Facebook
-application that is able to persist the users' state and allows users to
-interact with each other. Please read through the whole assignment once
-to get a sense of what is required before starting work on it. A
-detailed grading scheme is attached at the very end.
-
 This assignment can be done in groups of three or four students. If you
 are unable find yourself a group, you will be randomly assigned one.
 
@@ -57,9 +51,28 @@ expect that you (pleasantly!) surprise us with what you are capable of
 doing. Do note that features must fit the aim of your application;
 ideally it should be seamlessly integrated.
 
+For example, push notifications might be the latest and coolest feature supported by many web
+browsers but it may not contribute to the user experience in a photo-editing app.
+In fact, implementing features for the sake of doing so may work
+against you (and your grades) by confusing the user.
+
 Please do not hesitate to approach the friendly CS3216 staff if you need
 further assistance. We can be contacted at
 <cs3216-staff@googlegroups.com>.
+
+## Objectives
+
+The high-level goal of this assignment is simple: a working Facebook
+application that is able to persist the users' state and allows users to
+interact with each other.
+
+Remember, your goal is not to do a lot of work. Your goal is to use this
+opportunity to make a difference. If you can make a difference by just
+doing very little work, that is fine with us.
+
+Before you begin, please read through the whole assignment once
+to get a sense of what is required. The grading scheme can be found at the end of this
+handout.
 
 ## A Word of Caution
 

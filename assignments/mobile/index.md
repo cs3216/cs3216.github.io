@@ -95,7 +95,7 @@ ideally it should be seamlessly integrated.
 For example, geolocation might be the latest and coolest feature supported by most mobile
 browsers but it may not contribute to the user experience in a document
 editor. In fact, implementing features for the sake of doing so may work
-against you by confusing the user.
+against you (and your grades) by confusing the user.
 
 Please do not hesitate to approach the friendly CS3216 staff if you need
 further assistance. We can be contacted at
@@ -103,18 +103,19 @@ further assistance. We can be contacted at
 
 ## Objectives
 
-In this assignment you are required to deploy a mobile cloud
-application. Your goal is to demonstrate that you can design and
-implement a RESTful API, as well as build a HTML5 client that consumes
-your API. You can use any backend framework, but we will be providing
+The high-level goal of this assignment is simple: a working mobile
+application that utilizes the capabilities of a mobile device and
+is able to persist the users' data in the cloud. Your task is to demonstrate
+that you can design and implement RESTful APIs, as well as build a HTML5 client
+that consumes your API. You can use any backend framework, but we will be providing
 examples in PHP.
 
 Remember, your goal is not to do a lot of work. Your goal is to use this
 opportunity to make a difference. If you can make a difference by just
 doing very little work, that is fine with us.
 
-Before you begin, do spend some time understanding the requirements for
-the assignment. The grading scheme can be found at the end of this
+Before you begin, please read through the whole assignment once
+to get a sense of what is required. The grading scheme can be found at the end of this
 handout.
 
 ## Introduction
