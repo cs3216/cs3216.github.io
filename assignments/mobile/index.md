@@ -843,9 +843,9 @@ This is just a basic introduction to Service Workers, which could be utilized mo
 a more comprehensive progressive web app experience. For example, rather than caching everything during the
 <i>install</i> state, we could also cache new request progressively as the user explore around the application.
 Service Worker could also handle the <i>push</i> event, which could be use to create web notification that will
-make it app-like.
+make it more app-like.
 
-There are tons of resources online available for Servie Worker. Here are a few resources to kickstart your
+There are tons of resources available online for Service Worker. Here are a few resources to kickstart your
 learning process:
 
 - <https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers>
