@@ -1049,8 +1049,8 @@ external frameworks/libraries.
   <strong class="milestone-counter">Milestone 12:</strong>
   Justify your choice of framework/library by comparing it against others.
   Explain why the one you have chosen best fulfils your needs.
-  Lastly, list down some (at least 5) of the mobile site design principles which pages/screens
-  demonstrate them.
+  Lastly, list down some (at least 5) of the mobile site design principles
+  and which pages/screens demonstrate them.
 </div>
 
 ### User Experience
