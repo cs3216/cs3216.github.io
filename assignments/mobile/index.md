@@ -177,11 +177,9 @@ a little from native applications. Since our client is created with
 **JavaScript** and **CSS3**, it is essentially
 a normal web page with a few quirks. During the user's first visit to
 the site, we will tell the browser to quietly download and save the
-program for future use. The **Application Cache** is how we
-will instruct it to retain all resources required for this "web page" to
-run in the absence of an internet connection. When used in conjunction
-with **Web Storage**, which allows storage of data on the
-local file system, your application can function like a native one.
+program for future use. **Service Worker** will help to retain resources
+resources through the **Cache API**, which could then be used to serve the
+"web page" in the absence of an internet connection.
 
 ![image](img/structure2.png){:.assignment-img}
 
@@ -706,188 +704,152 @@ folder. However, it also allows users to flag selected files for the
 application to cache locally in the phone's internal memory, making them
 available at all times.
 
-We shall now look at the additions to HTML5 that will enable you to
+We shall now look at Service Worker that will enable you to
 realise this for your application.
 
-#### 1. Application Cache
-
-For your application to work offline, the browser will need to have all
-files related to your application. When the browser first loads the page
-of your client, it will refer to a file called the cache manifest. The
-cache manifest contains a list of resources that the browser will retain
-for offline usage.
-
-TODO:
-
-- Application Cache has been deprecated. Replace this section with Service Workers instead.
-  - https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers
-  - https://developers.google.com/web/fundamentals/getting-started/your-first-offline-web-app/
-- Warn students about browser compatibility especially with Safari.
-
-To get started, we first need to tell Apache about our cache manifest.
-Create a file named .htaccess in the root of your web directory and add
-the following line.
-
-    AddType text/cache-manifest .manifest
-
-This makes sure that files with the extension .manifest are served with
-the Content-Type of <span>text/cache-manifest</span>. This is necessary
-as it hints to the browser the format of the file and how it should be
-dealt with.
-
-Next, we need to add the manifest attribute to the html tags in all html
-pages belonging to the client:
-
-~~~
-<!DOCTYPE html>
-<html manifest="cache.manifest">
-  ...
-</html>
-~~~
-
-This will point the browser to the cache manifest we are about to
-create. It will contain a list of resources required for your
-application to work offline. Resources include HTML pages, images,
-stylesheets as well as JavaScript files. Finally we proceed to create
-the following file:
-
-`cache.manifest`:
-
-~~~
-CACHE MANIFEST
-# version 1.0
-
-index.html
-img/icon.png
-css/default.css
-js/jquery-1.6.1.min.js
-
-NETWORK: *
-~~~
-
-Some points to note about the cache manifest:
-
--   `#` denotes a single-line comment.
-
--   The NETWORK section is a list of white-listed pages. If your
-    application will request files from other domains besides your own,
-    they need to be listed under this section or the requests will fail.
-    means that any domains can be accessed from your application.
-
--   The browser will only update its local copy of the application if a
-    change is detected in the cache manifest. Therefore, it is common
-    practice to add a comment containing a version or revision number to
-    be incremented whenever changes to the application are made, forcing
-    the browser to retrieve fresh copies of all resources.
-
--   When the cache manifest is updated, new copies of resources are not
-    served to the browser. This means that the user will still see the
-    cached copy of the page. Therefore, the page content has to be
-    refreshed programmatically. Read "Updating the cache" section to
-    find out more:
-    <http://www.html5rocks.com/en/tutorials/appcache/beginner/>.
-
-Note that the cache manifest does not strictly need to be named as such.
-Make the necessary changes to the manifest
-attribute should you wish to use a different name and file extension.
-
-Read about more features of the Application Cache at
-<http://www.w3.org/TR/html5/offline.html>
-
-#### 2. Web Storage
-
-The Application Cache allows resources to be retained locally, but
-JavaScript variables do not survive past the lifetime of the
-application. When the application is restarted, it is reset to a clean
-state. Prior to HTML5, cookies have been used to retain client state;
-however, this method creates burden on the network as all cookies
-associated with a domain are sent with every request. Web Storage is a
-storage API which allows storing data associated with a site which
-persists across sessions, without the drawbacks of using cookies.
-
-**Web Storage** is a key/value store and can be accessed
-through the `localStorage` object.
-
-~~~
-<script>
-var state = localStorage.getItem('state');
-if (state) {
-  console.log(JSON.parse(state));
-  // localStorage.clear();
-  // localStorage.removeItem('state');
-} else {
-  var newState = { id: '0', name: 'Bob' };
-  localStorage.setItem('state', JSON.stringify(newState));
-}
-</script>
-~~~
-
-In the example above, nothing is observed when the user first loads the
-page. However, we define a new state containing the user's ID as well as
-his name into the key/value store. When the page loads in future, we
-will see that the state has already been set and will show up in the
-console. We can also clear the `localStorage` object or remove a
-specific key/value pair. As Web Storage does not support storing
-objects, one workaround is to store the object in stringified-JSON format.
-
-For a complete list of Web Storage's capability, visit
-<http://dev.w3.org/html5/webstorage/>.
-
 <div class="box">
-  <strong class="milestone-counter">Milestone 8:</strong> Implement and briefly describe
-  the offline functionality of your application. Explain why the offline functionality of
-  your application fits users' expectations. State if you have used Service Workers, Web Storage, or
-  any other technology. Explain your choice. Make sure that you are able to run and use
-  the a subset of features of your application from the home screen without any internet connection.
+  <strong class="milestone-counter">Milestone 8:</strong> Implement and briefly
+  describe the offline functionality of your application. Explain why the offline
+  functionality of your application fits users' expectations. State if you have
+  used Service Workers, Web Storage, or any other technology. Explain your choice.
+  Make sure that you are able to run and use the a subset of features of your
+  application from the home screen without any internet connection.
 </div>
 
-#### 3. Online/Offline Events
+#### 1. Service Worker
 
-Storing data is easy, the tricky part comes when having to deal with
-synchonisation of states between the client and server.
+A Service worker is a script that runs in the background and responds
+to events from your webpage, which includes network request. This ability to
+intercept the request and responding to them, whether through the network or
+cache, helps to provide a consistent experience even when there is no connection.
 
-How does the server update a client when it connects with outdated data?
-How will a client post outstanding jobs when it goes online? What
-happens if both cases occur at the same time with conflicting
-instructions (e.g. client tries to comment on a thread that has already
-been deleted from the server)? These are but a few out of many
-possibilities that have to be considered.
+<div class="box">
+  <strong>Warning</strong>: Support for Service Worker are still in development
+  which may result in browser compatibility issue. Check out 
+  https://jakearchibald.github.io/isserviceworkerready for the current state of development.
+</div>
 
-How you handle the problem depends on your application; prior to that,
-your application would actually need a means to *determine*
-if there is an internet connection:
+To get started, we first need to register a service worker with our browser. Create
+a service worker file named 'service-worker.js' in your application root, and add
+the following code to your 'app.js' file:
 
 ~~~
 <script>
-  if (navigator.onLine) {
-    alert('Online');
-  } else {
-    alert('Offline');
-  }
-  window.addEventListener('online', function (event) {
-    alert('Online');
-  }, false);
-
-  window.addEventListener('offline', function (event) {
-    alert('Offline');
-  }, false);
+// Check if browser support service worker
+if ('serviceWorker' in navigator) {
+  // Registration of service worker
+  navigator.serviceWorker
+           .register('/service-worker.js')
+           .then(function() { console.log('Registered Service Worker'); })
+           .catch(function() { console.log('Unable to register'); })
+};
 </script>
 ~~~
 
-`navigator.onLine` is a boolean value containing the device's current
-internet connection state. You can also register callbacks for the
-`online` and `offline` events. Try visiting the page on your mobile
-device and watch the events fire as you toggle your Wi-Fi on and off.
+In this example, we first check to see if the browser support Service Worker. If the
+browser do support it, we will then register our Service Worker script.
 
-Word of caution though, the behaviour of `navigator.onLine` is flaky on desktop browsers
-but works fine on mobile browsers (Chrome). It is not the most reliable method of testing network
-connectivity.
+#### 2. Caching required files
+
+In order for your application to work offline, the service worker will need to
+have all the files related to your application. When your application page is
+visited for the first time, an <i>install</i> event will be fired. The service
+worker could then listen to this event and cache the required files through
+the **Cache Api**. (<https://developer.mozilla.org/en-US/docs/Web/API/Cache>)
+
+Add the following code to your 'service-worker.js' to handle the install event:
+
+~~~
+<script>
+self.addEventListener('install', function(event) {
+  event.waitUntil(
+    caches.open('cache_name').then(function(cache) {
+      return cache.addAll([
+        '/',
+        '/style.css',
+        ...
+      ]);
+    })
+  );
+});
+</script>
+~~~
+
+The service worker first open the cache with the cache_name, before calling
+addAll that takes in an array of URLS and retrieve all the response object
+associated with the URLS. These response objects are then cached for future
+usage.
+
+#### 3. Serving the cached files
+
+Now that the required files has been cached by the Service Worker, we could serve
+the page directly to the user without sending new network request to retrieve these
+files. Similar to the <i>install</i> event when a page is first visited, a <i>fetch</i>
+event will be fired if the page is visited again. The service worker could then
+handle this event to return the cached response.
+
+~~~
+<script>
+self.addEventListener('fetch', function(event) {
+  event.respondWith(
+    caches.match(event.request)
+      .then(function(response) {
+        // Response for the request is found in cache, return the response
+        if (response) {
+          return response;
+        }
+
+        // Response is not found in cache, make a network request instead
+        return fetch(event.request);
+      }
+    )
+  );
+});
+</script>
+~~~
+
+In this example, the event request is match against the cache for a cached response. If a corresponding
+response is found, the cached response will be return instantly. If not, the request will be pass on
+to the server to retrieve the response.  
+
+#### 4. Cache Management
+
+Next, we need to ensure that the service worker and cache are up to date. For the Service Worker,
+the browser will automatically update and install the new service worker script once changes are
+detected from the server. This will kickoff a new sequence of <i>install</i> event, followed by an
+<i>activate</i> event when the new service worker takes over.
+
+However, cache management, such as purging unused cached data, has to be managed by the Service
+Worker itself. This should be done in the <i>activate</i> callback to ensure that the latest
+script is used to manage the cache:
+
+~~~
+<script>
+self.addEventListener('activate', function(event) {
+  // Cache management. E.g. Purging unused data
+})
+</script>
+~~~
 
 <div class="box">
   <strong class="milestone-counter">Milestone 9:</strong> Implement and explain how you will
   keep your client synchronised with the server if your application is being used offline.
   Elaborate on the cases you have taken into consideration and how they will be handled.
 </div>
+
+#### 5. Additional Resources
+
+This is just a basic introduction to Service Workers, which could be utilized more effeciently to provide
+a more comprehensive progressive web app experience. For example, rather than caching everything during the
+<i>install</i> state, we could also cache new request progressively as the user explore around the application.
+Service Worker could also handle the <i>push</i> event, which could be use to create web notification that will
+make it app-like.
+
+There are tons of resources online available for Servie Worker. Here are a few resources to kickstart your
+learning process:
+
+- <https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers>
+- <https://jakearchibald.github.io/isserviceworkerready/resources.html>
 
 ### Communicating with the Server
 
