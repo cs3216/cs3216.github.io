@@ -824,13 +824,13 @@ self.addEventListener('activate', function (event) {
 })
 ~~~
 
-##### Additional Resources
+**Additional Resources**
 
 This is just a basic introduction to service workers, which can be utilized more effeciently to provide
 more comprehensive progressive web app experiences. For example, rather than caching everything during the
 <strong>install</strong> phase, we could also cache new request progressively as the user explores around the application.
 Service workers can also handle the <strong>push</strong> event, which can be useds to create web notifications that will
-create it a native-like experience. More info [here](https://developers.google.com/web/fundamentals/getting-started/push-notifications/).
+create it a native-like experience. More info can be found [here](https://developers.google.com/web/fundamentals/getting-started/push-notifications/).
 
 There are tons of resources available online for service workers. Here are a few resources to kickstart your
 learning process:
@@ -839,10 +839,10 @@ learning process:
 - <https://jakearchibald.github.io/isserviceworkerready/resources.html>
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 8:</strong> Implement and briefly
+  <strong class="milestone-counter">Milestone 9:</strong> Implement and briefly
   describe the offline functionality of your application. Explain why the offline
   functionality of your application fits users' expectations. State if you have
-  used Service Workers, Web Storage, or any other technology. Explain your choice.
+  used service workers, Web Storage, or any other technology. Explain your choice.
   Make sure that you are able to run and use the a subset of features of your
   application from the home screen without any internet connection.
 </div>
@@ -859,8 +859,9 @@ storage API which allows storing data associated with a site which
 persists across sessions, without the drawbacks of using cookies.
 
 **Web Storage** is a key/value store and can be accessed
-through the `localStorage` object or the `sessionStorage` object. We will cover `localStorage` in
-the next example. What is the difference between `sessionStorage` and `localStorage`?
+through the `localStorage` object or the `sessionStorage` object.
+On your own, find out the difference between `sessionStorage` and `localStorage`.
+We will cover `localStorage` in the next example.
 
 ~~~
 <script>
@@ -870,7 +871,7 @@ if (user) {
   // localStorage.clear();
   // localStorage.removeItem('user');
 } else {
-  var newUser = { id: '0', name: 'Bob' };
+  var newUser = { id: '1234', name: 'Bob' };
   localStorage.setItem('user', JSON.stringify(newUser));
 }
 </script>
@@ -888,7 +889,7 @@ For a complete list of Web Storage's capability, visit
 <http://dev.w3.org/html5/webstorage/>.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 8:</strong> Implement and briefly describe
+  <strong class="milestone-counter">Milestone 10:</strong> Implement and briefly describe
   the offline functionality of your application. Explain why the offline functionality of
   your application fits users' expectations. State if you have used Service Workers, Web Storage, or
   any other technology. Explain your choice. Make sure that you are able to run and use
@@ -939,7 +940,7 @@ but works fine on mobile browsers (Chrome). It is not the most reliable method o
 connectivity.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 9:</strong> Implement and explain how you will
+  <strong class="milestone-counter">Milestone 11:</strong> Implement and explain how you will
   keep your client synchronised with the server if your application is being used offline.
   Elaborate on the cases you have taken into consideration and how they will be handled.
 </div>
@@ -987,21 +988,21 @@ instead of being kept in suspense. Visit
 
 ### Authentication
 
-Being able to talk to a server is not enough. As anyone can form and
-send a request to the server, you need to protect important API calls so
-that only known users can use them (e.g. only the blog owner should be
-able to delete his own articles). To do so, we need some method to
-determine the identity of the person making the request.
+Being able to communicate with a server is cool, but more work has to be done.
+With the right tools, anyone can send a request to your server, and you need to protect
+important API calls so that only the rightful users can make them (e.g. only the blog owner should be
+able to delete his own articles). To do so, we need some ways of
+determining the identity of the user making the request.
 
 One simple approach is to make use of JSON Web Token([JWT](<https://jwt.io/introduction/>)),
 which is a digitally signed JSON object for transmitting information between
-different parties. JWT consist of three different parts:
+different parties. JWT consist of three parts:
 
-- Header: Contain the metadata for token which usually consist of the
+- **Header** - Contain the metadata for token which usually consists of the
 type of token and the encryption algorithm.
-- Payload: The claims of the token which are information that is to
-be signed.
-- Signature: The headers and payload digitally signed with the encryption
+- **Payload** - The second part of the token is the payload, which contains the claims.
+Claims are statements about an entity (typically, the user) and additional metadata.
+- **Signature** - The headers and payload digitally signed with the encryption
 algorithm.
 
 ~~~
@@ -1019,39 +1020,40 @@ algorithm.
 }
 ~~~
 
-Given these header and payload, the JWT will then be created in the following manner:
+Given this header and payload, the JWT string will then be created in the following manner:
 
 ~~~
 <script>
 var encodedHeader = base64URLencode(header);
 var encodedPayload = base64URLencode(payload);
-var encodedSignature = base64URLencode(HMACSHA256(encodedHeader + "." + encodedHeader, SECRET));
+var encodedSignature = base64URLencode(HMACSHA256(encodedHeader + '.' + encodedHeader, SECRET));
 
-var encodedJWT = encodedHeader + "." + encodedPayload + "." + encodedSignature
+var encodedJWT = encodedHeader + '.' + encodedPayload + '.' + encodedSignature;
 </script>
 ~~~
 
-The JWT token consist of the encoded header, payload and signature, which is then appended
-together with period as the delimiter.
+Hence a JWT consists of the encoded header, payload and signature, which is then appended
+together with periods as the delimiter.
 
-After the user is been authenticated using their credentials, the JWT token will be returned
-to the user and stored locally. This token will then be added to the Authorization header in
-the future to authenticate protected API call:
+When the user is first authenticated with your app using their credentials, the JWT will be returned
+to the user and stored locally. This token can then be added to the `Authorization` header in
+future API requests as part of the authentication.
 
 ~~~
 Authorization: Bearer <eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ>
 ~~~
 
-JWT token may look cryptic but it is in fact reversible. You should
+The JWT may look cryptic but it is in fact reversible. You should
 use SSL when using such a scheme. Once again, the choice of
-authentication protocol for RESTful APIs is subject to much debate with
+authentication protocols for RESTful APIs has always been a point of debate with
 no hard-and-fast rules. It is your job to identify the most practical
-choice for the requirements of your application. JSON Web Token should
-be sufficient in most cases, but feel free to use any methods you deem fit.
+choice for the requirements of your application. JSON Web Tokens should
+be sufficient in most cases, but feel free to use any methods you deem fit. More reading about JWTs can be
+found here: <https://jwt.io>
 
 <div class="box">
   <strong class="milestone-counter">Milestone 10:</strong> Compare the advantages and
-  disadvantages of Token Authentication against Session Authentication. Justify why your
+  disadvantages of token-based authentication against session-based authentication. Justify why your
   choice of authentication scheme is the best for your application.
 </div>
 
