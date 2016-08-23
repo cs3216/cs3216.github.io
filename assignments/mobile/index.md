@@ -683,6 +683,21 @@ Read up on them and choose one (or more) to use in your code.
   Justify your choice of methodology.
 </div>
 
+### HTTPS
+
+TODO:
+
+- Explain why HTTP is bad
+- Explain benefits of HTTPS
+- Basic high-level steps to set up HTTPS for your site
+  - Point them to Let's Encrypt at the end
+
+<div class="box">
+  <strong class="milestone-counter">Milestone 8:</strong>
+  Set up HTTPS for your application, and also redirect users to the <code>https://</code> version if the user
+  tries to access your site via <code>http://</code>.
+</div>
+
 ### Offline Operability and Data Persistence
 
 Very often, it is a good idea to provide the user with some level of
@@ -1057,21 +1072,6 @@ found here: <https://jwt.io>
   choice of authentication scheme is the best for your application.
 </div>
 
-### HTTPS
-
-TODO:
-
-- Explain why HTTP is bad
-- Explain benefits of HTTPS
-- Basic high-level steps to set up HTTPS for your site
-  - Point them to Let's Encrypt at the end
-
-<div class="box">
-  <strong class="milestone-counter">Milestone 11:</strong>
-  Set up HTTPS for your application, and also redirect users to the <code>https://</code> version if the user
-  tries to access your site via <code>http://</code>.
-</div>
-
 ### Native Look and Feel
 
 Although your application may not be native, it may be a good idea to
@@ -1096,7 +1096,9 @@ and events which can reproduce the native look and feel when used in
 parallel. To do so however, is time-consuming and a sizeable project on
 its own. Fortunately, others have done the dirty work and open-sourced
 frameworks and libraries you can use to easily recreate the native
-experience. The following are some options you can consider:
+experience.
+
+The following are some options you can consider:
 
 - Ionic - <http://ionicframework.com/>
 - Ratchet - <http://goratchet.com/>
