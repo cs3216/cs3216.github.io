@@ -900,51 +900,66 @@ that only known users can use them (e.g. only the blog owner should be
 able to delete his own articles). To do so, we need some method to
 determine the identity of the person making the request.
 
-The simplest approach taken by many services is to use the HTTP basic
-access authentication.
+One simple approach is to make use of JSON Web Token([JWT](<https://jwt.io/introduction/>)),
+which is a digitally signed JSON object for transmitting information between
+different parties. JWT consist of three different parts:
+
+- Header: Contain the metadata for token which usually consist of the
+type of token and the encryption algorithm.
+- Payload: The claims of the token which are information that is to
+be signed.
+- Signature: The headers and payload digitally signed with the encryption
+algorithm.
+
+~~~
+// Header
+{
+  "alg": "HS256",
+  "typ": "JWT"
+}
+
+// Payload
+{
+  "sub": "1234567890",
+  "name": "John Doe",
+  "admin": true
+}
+~~~
+
+Given these header and payload, the JWT will then be created in the following manner:
 
 ~~~
 <script>
-$.ajax({
-  type: 'DELETE',
-  url: 'products/12345',
-  headers: {
-    'Authorization': 'Basic ' + window.btoa('Username: Password')
-  },
-  success: function (response) {
-    // Do something...
-  }
-});
+var encodedHeader = base64URLencode(header);
+var encodedPayload = base64URLencode(payload);
+var encodedSignature = base64URLencode(HMACSHA256(encodedHeader + "." + encodedHeader, SECRET));
+
+var encodedJWT = encodedHeader + "." + encodedPayload + "." + encodedSignature
 </script>
 ~~~
 
-The `headers` key tells jQuery to append the specified headers while
-making the HTTP request. `window.btoa` performs a base64 encode of a
-string, which is defined as the concatenation of the username, a colon,
-and the password . This results in the following header being sent with
-the request in this case.
+The JWT token consist of the encoded header, payload and signature, which is then appended
+together with period as the delimiter.
+
+After the user is been authenticated using their credentials, the JWT token will be returned
+to the user and stored locally. This token will then be added to the Authorization header in
+the future to authenticate protected API call:
 
 ~~~
-Authorization: Basic VXNlcm5hbWU6UGFzc3dvcmQ=
+Authorization: Bearer <eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ>
 ~~~
 
-The `Authorization` header is automatically decoded and passed to the
-server handler.
-
-The base64-encoded string may look cryptic but it is in fact reversible;
-this means that we are transmitting the password in clear. You should
+JWT token may look cryptic but it is in fact reversible. You should
 use SSL when using such a scheme. Once again, the choice of
 authentication protocol for RESTful APIs is subject to much debate with
 no hard-and-fast rules. It is your job to identify the most practical
-choice for the requirements of your application. Basic access
-authentication should be sufficient in most cases, but feel free to use
-any methods you deem fit.
+choice for the requirements of your application. JSON Web Token should
+be sufficient in most cases, but feel free to use any methods you deem fit.
 
 <div class="box">
   <strong class="milestone-counter">Milestone 10:</strong> Compare the advantages and
-  disadvantages of basic access authentication against other schemes such as digest
-  access authentication, cookies, or OAuth. Justify why your choice of authentication
-  scheme is the best for your application.
+  disadvantages of Token Authentication against Session Authentication. Justify why your
+  choice of authentication scheme is the best for your application.
 </div>
 
 ### HTTPS
