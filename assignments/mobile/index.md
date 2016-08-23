@@ -707,15 +707,6 @@ available at all times.
 We shall now look at Service Worker that will enable you to
 realise this for your application.
 
-<div class="box">
-  <strong class="milestone-counter">Milestone 8:</strong> Implement and briefly
-  describe the offline functionality of your application. Explain why the offline
-  functionality of your application fits users' expectations. State if you have
-  used Service Workers, Web Storage, or any other technology. Explain your choice.
-  Make sure that you are able to run and use the a subset of features of your
-  application from the home screen without any internet connection.
-</div>
-
 #### 1. Service Worker
 
 A Service worker is a script that runs in the background and responds
@@ -725,7 +716,7 @@ cache, helps to provide a consistent experience even when there is no connection
 
 <div class="box">
   <strong>Warning</strong>: Support for Service Worker are still in development
-  which may result in browser compatibility issue. Check out 
+  which may result in browser compatibility issue. Check out
   https://jakearchibald.github.io/isserviceworkerready for the current state of development.
 </div>
 
@@ -810,7 +801,7 @@ self.addEventListener('fetch', function(event) {
 
 In this example, the event request is match against the cache for a cached response. If a corresponding
 response is found, the cached response will be return instantly. If not, the request will be pass on
-to the server to retrieve the response.  
+to the server to retrieve the response.
 
 #### 4. Cache Management
 
@@ -850,6 +841,15 @@ learning process:
 
 - <https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers>
 - <https://jakearchibald.github.io/isserviceworkerready/resources.html>
+
+<div class="box">
+  <strong class="milestone-counter">Milestone 8:</strong> Implement and briefly
+  describe the offline functionality of your application. Explain why the offline
+  functionality of your application fits users' expectations. State if you have
+  used Service Workers, Web Storage, or any other technology. Explain your choice.
+  Make sure that you are able to run and use the a subset of features of your
+  application from the home screen without any internet connection.
+</div>
 
 ### Communicating with the Server
 
