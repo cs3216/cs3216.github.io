@@ -25,7 +25,7 @@ The presentations should attempt to cover the following points about the chosen 
 
 1. Description of the application
 2. Why we should care about the application you chose
-3. How the application can be implemented if you had to do it (Describe the program organizaion by using high level views like logic flow, identifying technologies used like Flash, FBJS, etc)
+3. How the application can be implemented if you had to do it (Describe the program organization by using high level views like logic flow, identifying technologies used like Flash, FBJS, etc)
 4. What is good, bad and ugly about the application
 5. Suggested improvements
 6. Commercial potential
