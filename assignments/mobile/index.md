@@ -704,57 +704,63 @@ folder. However, it also allows users to flag selected files for the
 application to cache locally in the phone's internal memory, making them
 available at all times.
 
-We shall now look at Service Worker that will enable you to
+We shall now look at some technologies that will enable you to
 realise this for your application.
 
-#### 1. Service Worker
+#### 1. Service Workers
 
-A Service worker is a script that runs in the background and responds
+A service worker is a script that runs in the background and responds
 to events from your webpage, which includes network request. This ability to
 intercept the request and responding to them, whether through the network or
 cache, helps to provide a consistent experience even when there is no connection.
 
 <div class="box">
   <strong>Warning</strong>: Support for Service Worker are still in development
-  which may result in browser compatibility issue. Check out
-  https://jakearchibald.github.io/isserviceworkerready for the current state of development.
+  which may result in browser compatibility issues. Check out
+  <https://jakearchibald.github.io/isserviceworkerready> for the current state of support.
 </div>
 
+If the targeted browser does not support service workers, your application should still handle
+it gracefully! Offline support is just icing on the cake; the rest of your site should still work!
+
 To get started, we first need to register a service worker with our browser. Create
-a service worker file named 'service-worker.js' in your application root, and add
-the following code to your 'app.js' file:
+a service worker file named `service-worker.js` in your application root, and add
+the following code to your `app.js` file:
 
 ~~~
 <script>
-// Check if browser support service worker
+// Check if browser supports service worker
 if ('serviceWorker' in navigator) {
   // Registration of service worker
   navigator.serviceWorker
-           .register('/service-worker.js')
-           .then(function() { console.log('Registered Service Worker'); })
-           .catch(function() { console.log('Unable to register'); })
-};
+            .register('/service-worker.js')
+            .then(function () {
+              console.log('Registered Service Worker');
+            })
+            .catch(function () {
+              console.log('Unable to register');
+            });
+}
 </script>
 ~~~
 
-In this example, we first check to see if the browser support Service Worker. If the
-browser do support it, we will then register our Service Worker script.
+In this example, we first check to see if the browser supports service workers. If the
+browser does support it, we will then register our service worker script.
 
-#### 2. Caching required files
+**Caching required files**
 
 In order for your application to work offline, the service worker will need to
 have all the files related to your application. When your application page is
-visited for the first time, an <i>install</i> event will be fired. The service
-worker could then listen to this event and cache the required files through
-the **Cache Api**. (<https://developer.mozilla.org/en-US/docs/Web/API/Cache>)
+visited for the first time, an <strong>install</strong> event will be fired. The service
+worker can then listen to this event and cache the required files through
+the **Cache Api** (<https://developer.mozilla.org/en-US/docs/Web/API/Cache>).
 
-Add the following code to your 'service-worker.js' to handle the install event:
+Add the following code to `service-worker.js` to handle the install event:
 
 ~~~
-<script>
-self.addEventListener('install', function(event) {
+self.addEventListener('install', function (event) {
   event.waitUntil(
-    caches.open('cache_name').then(function(cache) {
+    caches.open('cache_name').then(function (cache) {
       return cache.addAll([
         '/',
         '/style.css',
@@ -763,80 +769,70 @@ self.addEventListener('install', function(event) {
     })
   );
 });
-</script>
 ~~~
 
-The service worker first open the cache with the cache_name, before calling
-addAll that takes in an array of URLS and retrieve all the response object
-associated with the URLS. These response objects are then cached for future
+The service worker first opens the cache with the `cache_name`, before calling
+`addAll` that takes in an array of URLs and retrieves all the response object
+associated with the URLs. These response objects are then cached for future
 usage.
 
-#### 3. Serving the cached files
+**Serving the cached files**
 
-Now that the required files has been cached by the Service Worker, we could serve
+Now that the required files has been cached by the Service Worker, we can serve
 the page directly to the user without sending new network request to retrieve these
-files. Similar to the <i>install</i> event when a page is first visited, a <i>fetch</i>
-event will be fired if the page is visited again. The service worker could then
-handle this event to return the cached response.
+files. Similar to the <strong>install</strong> event when a page is first visited,
+a <strong>fetch</strong> event will be fired if the page is visited again.
+The service worker can then handle this event to return the cached response.
 
 ~~~
-<script>
-self.addEventListener('fetch', function(event) {
+self.addEventListener('fetch', function (event) {
   event.respondWith(
     caches.match(event.request)
-      .then(function(response) {
+      .then(function (response) {
         // Response for the request is found in cache, return the response
         if (response) {
           return response;
         }
 
         // Response is not found in cache, make a network request instead
+        // You might need to polyfill `fetch` or replace with other forms of ajax calls
         return fetch(event.request);
       }
     )
   );
 });
-</script>
 ~~~
 
 In this example, the event request is match against the cache for a cached response. If a corresponding
 response is found, the cached response will be return instantly. If not, the request will be pass on
 to the server to retrieve the response.
 
-#### 4. Cache Management
+**Cache Management**
 
-Next, we need to ensure that the service worker and cache are up to date. For the Service Worker,
+Next, we need to ensure that the service worker and cache are up to date. For the service worker,
 the browser will automatically update and install the new service worker script once changes are
-detected from the server. This will kickoff a new sequence of <i>install</i> event, followed by an
-<i>activate</i> event when the new service worker takes over.
+detected from the server. This will kickoff a new sequence of <strong>install</strong> events, followed by an
+<strong>activate</strong> event when the new service worker takes over.
 
-However, cache management, such as purging unused cached data, has to be managed by the Service
-Worker itself. This should be done in the <i>activate</i> callback to ensure that the latest
+However, cache management, such as purging unused cached data, has to be managed by the service
+worker itself. This should be done in the <strong>activate</strong> callback to ensure that the latest
 script is used to manage the cache:
 
 ~~~
-<script>
-self.addEventListener('activate', function(event) {
+self.addEventListener('activate', function (event) {
   // Cache management. E.g. Purging unused data
 })
-</script>
 ~~~
 
-<div class="box">
-  <strong class="milestone-counter">Milestone 9:</strong> Implement and explain how you will
-  keep your client synchronised with the server if your application is being used offline.
-  Elaborate on the cases you have taken into consideration and how they will be handled.
-</div>
+##### Additional Resources
 
-#### 5. Additional Resources
+This is just a basic introduction to service workers, which can be utilized more effeciently to provide
+more comprehensive progressive web app experiences. For example, rather than caching everything during the
+<strong>install</strong> phase, we could also cache new request progressively as the user explores around the application.
+Service workers can also handle the <strong>push</strong> event, which can be useds to create web notifications that will
+create it a native-like experience. More info [here](https://developers.google.com/web/fundamentals/getting-started/push-notifications/).
 
-This is just a basic introduction to Service Workers, which could be utilized more effeciently to provide
-a more comprehensive progressive web app experience. For example, rather than caching everything during the
-<i>install</i> state, we could also cache new request progressively as the user explore around the application.
-Service Worker could also handle the <i>push</i> event, which could be use to create web notification that will
-make it more app-like.
-
-There are tons of resources available online for Service Worker. Here are a few resources to kickstart your
+There are tons of resources available online for service workers. Here are a few resources to kickstart your
 learning process:
 
 - <https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers>
@@ -849,6 +845,103 @@ learning process:
   used Service Workers, Web Storage, or any other technology. Explain your choice.
   Make sure that you are able to run and use the a subset of features of your
   application from the home screen without any internet connection.
+</div>
+
+#### 2. Web Storage
+
+Service workers allows resources to be retained locally, but
+JavaScript variables do not survive past the lifetime of the
+application. When the application is restarted, it is reset to a clean
+state. Prior to HTML5, cookies have been used to retain client state;
+however, this method creates burden on the network as all cookies
+associated with a domain are sent with every request. Web Storage is a
+storage API which allows storing data associated with a site which
+persists across sessions, without the drawbacks of using cookies.
+
+**Web Storage** is a key/value store and can be accessed
+through the `localStorage` object or the `sessionStorage` object. We will cover `localStorage` in
+the next example. What is the difference between `sessionStorage` and `localStorage`?
+
+~~~
+<script>
+var user = localStorage.getItem('user');
+if (user) {
+  console.log(JSON.parse(user));
+  // localStorage.clear();
+  // localStorage.removeItem('user');
+} else {
+  var newUser = { id: '0', name: 'Bob' };
+  localStorage.setItem('user', JSON.stringify(newUser));
+}
+</script>
+~~~
+
+In the example above, nothing is observed when the user first loads the
+page. However, we define a new `user` object containing the user's ID as well as
+his name and add it into the key/value store. When the page loads in future, we
+will see that the user has already been set and will show up in the
+console. We can also clear the `localStorage` object or remove a
+specific key/value pair. As Web Storage does not support storing
+objects, one workaround is to store the object in stringified-JSON format.
+
+For a complete list of Web Storage's capability, visit
+<http://dev.w3.org/html5/webstorage/>.
+
+<div class="box">
+  <strong class="milestone-counter">Milestone 8:</strong> Implement and briefly describe
+  the offline functionality of your application. Explain why the offline functionality of
+  your application fits users' expectations. State if you have used Service Workers, Web Storage, or
+  any other technology. Explain your choice. Make sure that you are able to run and use
+  the a reasonable subset of features of your application from the home screen without
+  any internet connection.
+</div>
+
+#### 3. Online/Offline Events
+
+Storing data is easy, the tricky part comes when having to deal with
+synchonisation of states between the client and server.
+
+How does the server update a client when it connects with outdated data?
+How will a client post outstanding jobs when it goes online? What
+happens if both cases occur at the same time with conflicting
+instructions (e.g. client tries to comment on a thread that has already
+been deleted from the server)? These are but a few out of many
+possibilities that have to be considered.
+
+How you handle the problem depends on your application; prior to that,
+your application would actually need a means to *determine*
+if there is an internet connection:
+
+~~~
+<script>
+  if (navigator.onLine) {
+    alert('Online');
+  } else {
+    alert('Offline');
+  }
+  window.addEventListener('online', function (event) {
+    alert('Online');
+  }, false);
+
+  window.addEventListener('offline', function (event) {
+    alert('Offline');
+  }, false);
+</script>
+~~~
+
+`navigator.onLine` is a boolean value containing the device's current
+internet connection state. You can also register callbacks for the
+`online` and `offline` events. Try visiting the page on your mobile
+device and watch the events fire as you toggle your Wi-Fi on and off.
+
+Word of caution though, the behaviour of `navigator.onLine` is flaky on desktop browsers
+but works fine on mobile browsers (Chrome). It is not the most reliable method of testing network
+connectivity.
+
+<div class="box">
+  <strong class="milestone-counter">Milestone 9:</strong> Implement and explain how you will
+  keep your client synchronised with the server if your application is being used offline.
+  Elaborate on the cases you have taken into consideration and how they will be handled.
 </div>
 
 ### Communicating with the Server
