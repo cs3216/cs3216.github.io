@@ -27,6 +27,7 @@ body {
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    font-size: 14px;
 }
 
 .footer-heading {
@@ -39,7 +40,7 @@ body {
     list-style: none;
     margin-left: 0;
     li {
-        display: inline-block;
+        display: inline;
         margin-right: 5px;
     }
 }
