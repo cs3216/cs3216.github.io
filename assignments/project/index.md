@@ -22,7 +22,7 @@ For the Final Project, you will work in teams of three or four (fewer is also al
 
 Your team can design the whole application, but if the scope is too large to be completed in one semester and you intend to continue to develop your application for a business venture, you can implement a prototype with some basic (or limited) functionality to satisfy the requirements for the class. Please state such intentions clearly in your proposals. The teaching staff will evaluate your proposals carefully and provide you with our feedback within a week.
 
-There are no limits on what students can do for the final problem, though the expectation is that it must be a "cool" web-based application of sorts. The following are possibilities:
+There are no limits on what students can do for the final problem, though the expectation is that it must be a "cool" application or product. The following are possibilities:
 
 - A real-time HTML5 game
 - A FB Messenger / Telegram bot
