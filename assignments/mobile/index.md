@@ -732,11 +732,12 @@ cache, helps to provide a consistent experience even when there is no connection
 <div class="box">
   <strong>Warning</strong>: Support for Service Worker are still in development
   which may result in browser compatibility issues. Check out
-  <https://jakearchibald.github.io/isserviceworkerready> for the current state of support.
+  <a href="https://jakearchibald.github.io/isserviceworkerready">
+  https://jakearchibald.github.io/isserviceworkerready</a> for the current state of support.
 </div>
 
-If the targeted browser does not support service workers, your application should still handle
-it gracefully! Offline support is just icing on the cake; the rest of your site should still work!
+If the targeted browser does not support service workers, your application should handle
+it gracefully! Offline support is a good-to-have; the core functionality of your site should still work!
 
 To get started, we first need to register a service worker with our browser. Create
 a service worker file named `service-worker.js` in your application root, and add
@@ -826,11 +827,11 @@ to the server to retrieve the response.
 
 Next, we need to ensure that the service worker and cache are up to date. For the service worker,
 the browser will automatically update and install the new service worker script once changes are
-detected from the server. This will kickoff a new sequence of <strong>install</strong> events, followed by an
-<strong>activate</strong> event when the new service worker takes over.
+detected from the server. This will kickoff a new sequence of **install** events, followed by an
+**activate** event when the new service worker takes over.
 
 However, cache management, such as purging unused cached data, has to be managed by the service
-worker itself. This should be done in the <strong>activate</strong> callback to ensure that the latest
+worker itself. This should be done in the **activate** callback to ensure that the latest
 script is used to manage the cache:
 
 ~~~
@@ -843,8 +844,8 @@ self.addEventListener('activate', function (event) {
 
 This is just a basic introduction to service workers, which can be utilized more effeciently to provide
 more comprehensive progressive web app experiences. For example, rather than caching everything during the
-<strong>install</strong> phase, we could also cache new request progressively as the user explores around the application.
-Service workers can also handle the <strong>push</strong> event, which can be useds to create web notifications that will
+**install** phase, we could also cache new request progressively as the user explores around the application.
+Service workers can also handle the **push** event, which can be useds to create web notifications that will
 create it a native-like experience. More info can be found [here](https://developers.google.com/web/fundamentals/getting-started/push-notifications/).
 
 There are tons of resources available online for service workers. Here are a few resources to kickstart your
@@ -1171,9 +1172,9 @@ you have already done in Assignment 1. The following examples are using
 the new `analytics.js` snippet, part of Universal Analytics.
 
 If your application's interface is predominantly built with a JavaScript MVC
-framework, it is very likely that you have a Single Page Application; one html page with all
-transitions handled by JavaScript code. Pages can still be tracked using
-Virtual Pageviews by executing the following code instead. Refer to
+framework, it is very likely that you have a Single-Page Application; one html page with all
+transitions handled by JavaScript code and URLs managed by HTML5 `pushState` API.
+Pages can still be tracked using Virtual Pageviews by executing the following code instead. Refer to
 <https://developers.google.com/analytics/devguides/collection/analyticsjs/single-page-applications>
 for more information.
 
@@ -1192,27 +1193,9 @@ ga('send', 'event', 'button', 'click', 'publish');
 ~~~
 
 In particular, **Social Interaction Analytics** can be used
-to track clicks on social buttons on your application, such as Like, +1
+to track clicks on social buttons on your application, such as Like, Share
 or Tweet buttons. To learn how to track social network activity, check
 out <https://developers.google.com/analytics/devguides/collection/analyticsjs/social-interactions>.
-
-Finally, since we have added an additional resource to our page, we need
-to update our application manifest. If the `NETWORK` section is not set
-to allow all domains (`*`), we will need to manually include the two
-resources that Google Analytics requires.
-
-    NETWORK:
-    //www.google-analytics.com/analytics.js
-    //www.google-analytics.com/collect
-
-Files under the `NETWORK` section are whitelisted and not cached, which
-is appropriate for data collection endpoints. `analytics.js` contains
-code which reports the statistics of the application. Google Analytics
-works by making a `GET` request to a 1 \* 1 pixel image
-(<http://www.google-analytics.com/collect>) when something needs to be
-tracked. Therefore, it needs to be whitelisted so the request hits the
-network every single time, since fetching from the local cache will not
-update Google's servers with the tracking data.
 
 Google Analytics only updates the reports once a day, do not expect to
 see immediate results. There are however, signs to check that your
@@ -1223,7 +1206,7 @@ application is being tracked:
     request to `/collect` should appear.
 
 2.  Use "Real-Time" mode in the Analytics dashboard, which allows you to
-    view activities on your application in near-real time.
+    view activities on your application in near real-time.
 
 More information and examples at
 <https://developers.google.com/analytics/devguides/collection/analyticsjs/>.
@@ -1263,7 +1246,8 @@ Integrating Facebook Login can help potential users overcome the inertia
 of a tedious sign-up process can potentially make them more inclined to
 try your application.
 
-Facebook Social Plugins or Twitter for Websites creates a wall post or
+[Facebook Social Plugins](https://developers.facebook.com/docs/plugins/)
+or [Twitter for Websites](https://dev.twitter.com/web/overview) creates a wall post or
 tweet with a single click of the mouse, extending your reach to friends
 and followers of your current users. Having just one friend per user
 (out of hundreds) sign up would easily double your user base.
@@ -1312,7 +1296,9 @@ with his mobile device:
 if (navigator.geolocation) { // check if browser supports geolocation
   navigator.geolocation.watchPosition(function (position) {
       // success
-      console.log('Position: [', position.coords.latitude, ',', position.coords.longitude, ']');
+      var lat = position.coords.latitude;
+      var lng = position.coords.longitude;
+      console.log('Pos: [', lat, ',', lng, ']');
     }, function (error) {
       switch (error.code) {
         case error.PERMISSION_DENIED:
