@@ -685,12 +685,13 @@ Read up on them and choose one (or more) to use in your code.
 
 ### HTTPS
 
-TODO:
+TBD
 
-- Explain why HTTP is bad
-- Explain benefits of HTTPS
-- Basic high-level steps to set up HTTPS for your site
-  - Point them to Let's Encrypt at the end
+[//]: <> TODO:
+[//]: <> - Explain why HTTP is bad
+[//]: <> - Explain benefits of HTTPS
+[//]: <> - Basic high-level steps to set up HTTPS for your site
+[//]: <>   - Point them to Let's Encrypt at the end
 
 <div class="box">
   <strong class="milestone-counter">Milestone 8:</strong>
