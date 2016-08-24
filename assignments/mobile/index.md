@@ -737,8 +737,8 @@ cache, helps to provide a consistent experience even when there is no connection
   https://jakearchibald.github.io/isserviceworkerready</a> for the current state of support.
 </div>
 
-If the targeted browser does not support service workers, your application should handle
-it gracefully! Offline support is a good-to-have; the core functionality of your site should still work!
+If the targeted browser does not support service workers, your application should degrade gracefully!
+Offline support is just a good-to-have; the core functionality of your site should still work!
 
 To get started, we first need to register a service worker with our browser. Create
 a service worker file named `service-worker.js` in your application root, and add
