@@ -105,10 +105,10 @@ further assistance. We can be contacted at
 
 The high-level goal of this assignment is simple: a working mobile
 application that utilizes the capabilities of a mobile device and
-is able to persist the users' data in the cloud. Your task is to demonstrate
-that you can design and implement RESTful APIs, as well as build a HTML5 client
-that consumes your API. You can use any backend framework, but we will be providing
-examples in PHP.
+is able to persist the users' data in the cloud. Your task is to demonstrate that
+you can design and implement RESTful APIs, as well as build a Progress Web App
+that consumes your API. You can use any backend language and/or framework you desire,
+but we will be providing examples in PHP.
 
 Remember, your goal is not to do a lot of work. Your goal is to use this
 opportunity to make a difference. If you can make a difference by just
@@ -581,14 +581,14 @@ receiving end knows how to handle it.
 With a HTML5 application, native functionality and libraries on the
 device cannot be directly accessed. However, this does allow your
 application to be used by any device with a modern web browser. In this
-section, you will learn how to create a simple HTML5 client that is able
-to work even while the device does not have an internet connection.
+section, you will learn how to create a simple Progressive Web App, that is,
+a HTML5 client that is able to work even while the device does not have an internet connection.
 
 ### Progressive Web Apps
 
 As you would have already learnt about HTML5 from your first assignment, only new
 ideas which apply to mobile devices will be discussed here. In recent years, Google has
-been pushing for the idea of [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/).
+been pushing for the concept of [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/).
 
 Progressive Web Applications take advantage of new technologies to bring the best of mobile
 sites and native applications to users. Progressive Web Apps are:
@@ -606,7 +606,7 @@ sites and native applications to users. Progressive Web Apps are:
 
 Source: <https://developers.google.com/web/fundamentals/getting-started/your-first-progressive-web-app/>
 
-It is recommended that you go through this [short tutorial](https://developers.google.com/web/fundamentals/getting-started/your-first-progressive-web-app/) on making your first progressive web app.
+It is recommended that you go through this [short tutorial](https://developers.google.com/web/fundamentals/getting-started/your-first-progressive-web-app/) on making your first Progressive Web App.
 
 Next we'll be exploring some of the features that constitutes a progress web app.
 
@@ -844,7 +844,7 @@ self.addEventListener('activate', function (event) {
 **Additional Resources**
 
 This is just a basic introduction to service workers, which can be utilized more effeciently to provide
-more comprehensive progressive web app experiences. For example, rather than caching everything during the
+more comprehensive Progressive Web App experiences. For example, rather than caching everything during the
 **install** phase, we could also cache new request progressively as the user explores around the application.
 Service workers can also handle the **push** event, which can be useds to create web notifications that will
 create it a native-like experience. More info can be found [here](https://developers.google.com/web/fundamentals/getting-started/push-notifications/).
