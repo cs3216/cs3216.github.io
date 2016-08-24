@@ -17,7 +17,7 @@ title: Assignment 2 - Application Seminar
 
 In order to build good and original applications, it is important to learn what other people have already done — and think critically about what is good and bad, as well as explore ways to improve and to generate new ideas. In addition, it is important to learn how to articulate one's ideas in a clear and succinct way both orally and in writing. The application seminar is designed to help students both (i) gain a better understanding of existing applications; (ii) learn how to present (or sell one's ideas) and (iii) learn how to articulate their ideas on paper.
 
-You will form groups of 4 people to study one application of choice and make a presentation about it to the rest of the class on 29 Aug 2016. Each team will put up their grouping and propose three choices (in order of preference) by 23:59pm on 19 Aug 2016 on the seminar groupings page on the Course Wiki. Your group can talk about any app that has been released within the **last three years**. The reason why each group is required to submit three choices is to avoid duplications. In case of duplications, we will make the choice at random. We will sort out the assignments of the applications to be studied by 21 Aug 2016 and you will be informed.
+You will form groups of 4 people to study one application of choice and make a presentation about it to the rest of the class on **29 Aug 2016**. Each team will put up their grouping and propose three choices (in order of preference) by **23:59pm on 19 Aug 2016** on the seminar groupings page on the Course Wiki. Your group can talk about any app that has been released within the **last three years**. The reason why each group is required to submit three choices is to avoid duplications. In case of duplications, we will make the choice at random. We will sort out the assignments of the applications to be studied by **21 Aug 2016** and you will be informed.
 
 ## Grading and Admin
 
@@ -53,13 +53,13 @@ The fun part is that the assignment of the presentation each student has to writ
 
 This is not a literature class and you are not required to write in poetry. We only ask that you think carefully about what you heard and express your ideas clearly. Points will not be taken off for typos or grammatical ideas as long as the ideas are expressed clearly and can be understood easily. There is no minimum length, but do have some mercy on your poor lecturer and try to keep within what would be 2 pages of A4 if it was a typed report. What matters is not how much you write, but the quality of your thoughts and ideas and how much you actually learnt from the process.
 
-You are of course also welcome to blog about other aspects of the app seminar and also about lessons learnt in addition to this assignment. The application critique should appear on your blog by 23:59 on 30 Aug 2016 (i.e. the next day).
+You are of course also welcome to blog about other aspects of the app seminar and also about lessons learnt in addition to this assignment. The application critique should appear on your blog by **23:59 on 30 Aug 2016** (i.e. the next day).
 
 ## Mutual Critique
 
 Just when you thought you were done after you finish writing your own critique, you're not. What you need to do after that it to visit your fellow coursemates blogs and critique what they write, i.e. post comments on their critiques. You can agree with them; you can disagree with them and offer differing opinions. It is therefore important that your blog has commenting functionality and that comments appear after a person posts it, without admin moderation.
 
-Just bear in mind that goal of CS3216 is to learn. You do not do better in this segment of the assignment by being really nasty and running your coursemates down. Be civil. Be polite. Be kind. If others post comments disagreeing with you on your blog, do not be too defensive. All these comments should be posted by by 23:59 on 4 Sep 2016 (Sunday).
+Just bear in mind that goal of CS3216 is to learn. You do not do better in this segment of the assignment by being really nasty and running your coursemates down. Be civil. Be polite. Be kind. If others post comments disagreeing with you on your blog, do not be too defensive. All these comments should be posted by by **23:59 on 4 Sep 2016** (Sunday).
 
 How many comments should you post? As many as you think is appropriate and sufficient to earn the 10% grade for this part of the assignment.
 
@@ -80,7 +80,7 @@ Overall, the application seminar is worth 10% of your final grade.
 
 ## Mode of Submission
 
-The slides for the presentation should be uploaded to IVLE by 23:59 on August 26 (Friday), because we will be pulling the slides from IVLE to project on screen during class. The application critiques should appear on your blog within 24 hours of the app seminar, by 23:59 on 30 Aug 2016 (Tuesday). Your comments for the mutual critique part should be done by by 23:59 on 4 Sep 2016 (Sunday).
+The slides for the presentation should be named `group-<number>-seminar.{pptx|key|pdf}` and uploaded to IVLE by 23:59 on August 26 (Friday), because we will be pulling the slides from IVLE to project on screen during class. The application critiques should appear on your blog within 24 hours of the app seminar, by **23:59 on 30 Aug 2016** (Tuesday). Your comments for the mutual critique part should be done by by **23:59 on 4 Sep 2016** (Sunday).
 
 Any clarifications and questions related to this assignment should be posted to the CS3216 Slack channel "#ay1617-assg2".
 
