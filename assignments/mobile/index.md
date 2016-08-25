@@ -103,7 +103,7 @@ further assistance. We can be contacted at
 
 ## Objectives
 
-The high-level goal of this assignment is simple: a working mobile
+The high-level goal of this assignment is simple: a working mobile web
 application that utilizes the capabilities of a mobile device and
 is able to persist the users' data in the cloud. Your task is to demonstrate that
 you can design and implement RESTful APIs, as well as build a Progress Web App
