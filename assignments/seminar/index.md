@@ -80,7 +80,7 @@ Overall, the application seminar is worth 10% of your final grade.
 
 ## Mode of Submission
 
-The slides for the presentation should be named `group-<number>-seminar.{pptx|key|pdf}` and uploaded to IVLE by 23:59 on August 26 (Friday), because we will be pulling the slides from IVLE to project on screen during class. The application critiques should appear on your blog within 24 hours of the app seminar, by **23:59 on 30 Aug 2016** (Tuesday). Your comments for the mutual critique part should be done by by **23:59 on 4 Sep 2016** (Sunday).
+The slides for the presentation should be named `group-<number>-seminar.{pptx|key}` and uploaded to IVLE by 23:59 on August 26 (Friday), because we will be pulling the slides from IVLE to project on screen during class. The application critiques should appear on your blog within 24 hours of the app seminar, by **23:59 on 30 Aug 2016** (Tuesday). Your comments for the mutual critique part should be done by by **23:59 on 4 Sep 2016** (Sunday).
 
 Any clarifications and questions related to this assignment should be posted to the CS3216 Slack channel "#ay1617-assg2".
 
