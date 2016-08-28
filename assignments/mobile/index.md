@@ -685,13 +685,20 @@ Read up on them and choose one (or more) to use in your code.
 
 ### HTTPS
 
-TBD
+If your application requests for personal identifiable information (PII) or credentials from the
+users, it is good practice to deploy HTTPS to protect your users against man-in-the-middle attacks.
 
-[//]: <> TODO:
-[//]: <> - Explain why HTTP is bad
-[//]: <> - Explain benefits of HTTPS
-[//]: <> - Basic high-level steps to set up HTTPS for your site
-[//]: <>   - Point them to Let's Encrypt at the end
+By default, your application should be accessible through HTTP and that is considered bad practice
+as HTTP data are transmitted through the network in plain allowing anyone located between the
+webhost and the client to be able to sniff and view any HTTP data, which may include passwords or
+tokens.
+
+By adopting and enforcing HTTPS, you are protecting your users from any man-in-the-middle attack,
+allowing PIIs or any credential to reach your application server securely.
+
+SSL certificates are issued by certificate authority (CA), whose certificates are by default
+installed into your machines and obtaining them usually requires paying a bit of money. However,
+you can also obtain a certificate from Let\'s Encrypt for free. View [here](https://letsencrypt.org/getting-started/) for instructions on how to do so.
 
 <div class="box">
   <strong class="milestone-counter">Milestone 8:</strong>
