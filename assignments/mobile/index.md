@@ -698,7 +698,7 @@ allowing PIIs or any credential to reach your application server securely.
 
 SSL certificates are issued by certificate authority (CA), whose certificates are by default
 installed into your machines and obtaining them usually requires paying a bit of money. However,
-you can also obtain a certificate from Let\'s Encrypt for free. View [here](https://letsencrypt.org/getting-started/) for instructions on how to do so.
+you can also obtain a certificate from [Let's Encrypt](https://letsencrypt.org/getting-started/) for free.
 
 <div class="box">
   <strong class="milestone-counter">Milestone 8:</strong>
