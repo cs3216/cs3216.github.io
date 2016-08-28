@@ -647,7 +647,7 @@ we may not have covered here.
 ### Presentation
 
 Your team (or maybe just your user interface designer) should spend some
-time designing a good UI: a good UI helps keep users. Although the
+time designing a good UI; a good UI helps keep users. Although the
 functionality of your application is important, the way that it provides
 the functionality is just as important. Users will not continue using an
 application that is difficult to use, regardless how technically
@@ -685,20 +685,29 @@ Read up on them and choose one (or more) to use in your code.
 
 ### HTTPS
 
+By default, your application should be accessible through Hypertext Transfer Protocol (HTTP) and
+that is considered a bad practice as HTTP data are transmitted through the network in plain allowing
+anyone located between the webhost and the client to be able to sniff and view any HTTP data, which
+may include passwords or tokens.
+
+HTTPS (HTTP over SSL/HTTP Secure) is a protocol for secure communcation over a computer network. HTTPS
+is not a separate protocol, it refers to use of ordinary HTTP over an encrypted SSL/TLS connection.
+Almost everything in the HTTPS payload is encrypted, including the headers, request and response load.
+
 If your application requests for personal identifiable information (PII) or credentials from the
-users, it is good practice to deploy HTTPS to protect your users against man-in-the-middle attacks.
+users, it is good practice to deploy HTTPS to protect your users against man-in-the-middle (MITM) attacks.
 
-By default, your application should be accessible through HTTP and that is considered bad practice
-as HTTP data are transmitted through the network in plain allowing anyone located between the
-webhost and the client to be able to sniff and view any HTTP data, which may include passwords or
-tokens.
+To prepare a web server to accept HTTPS connections, the administrator must create a public key
+certificate for the web server. This certificate must be signed by a trusted certificate authority
+for the web browser to accept it without warning. The authority certifies that the certificate holder
+is the operator of the web server that presents it. Web browsers are generally distributed with a
+list of signing certificates of major certificate authorities so that they can verify certificates signed by them.
 
-By adopting and enforcing HTTPS, you are protecting your users from any man-in-the-middle attack,
-allowing PIIs or any credential to reach your application server securely.
-
-SSL certificates are issued by certificate authority (CA), whose certificates are by default
-installed into your machines and obtaining them usually requires paying a bit of money. However,
-you can also obtain a certificate from [Let's Encrypt](https://letsencrypt.org/getting-started/) for free.
+SSL certificates are issued by certificate authorities (CA), whose certificates are by default
+installed into your machines and obtaining them usually requires paying a bit of money (~8 USD to 70 USD per year).
+However, you can also obtain a certificate from [Let's Encrypt](https://letsencrypt.org/getting-started/) for free.
+Let's Encrypt launched in April 2016 and provides free and automated SSL/TLS certifications to websites. PWAs have to be
+served via HTTPS in order to make use of service workers. More on that later 😉.
 
 <div class="box">
   <strong class="milestone-counter">Milestone 8:</strong>
