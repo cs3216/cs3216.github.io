@@ -696,7 +696,8 @@ TBD
 <div class="box">
   <strong class="milestone-counter">Milestone 8:</strong>
   Set up HTTPS for your application, and also redirect users to the <code>https://</code> version if the user
-  tries to access your site via <code>http://</code>.
+  tries to access your site via <code>http://</code>. Name 3 best practices for adopting HTTPS for your application.
+  Explain the term "certificate pinning" and discuss the pros and cons of adopting it.
 </div>
 
 ### Offline Operability and Data Persistence
