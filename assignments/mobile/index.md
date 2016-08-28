@@ -732,7 +732,7 @@ intercept the request and responding to them, whether through the network or
 cache, helps to provide a consistent experience even when there is no connection.
 
 <div class="box">
-  <strong>Warning</strong>: Support for Service Worker are still in development
+  <strong>Warning</strong>: Support for service workers are still in development
   which may result in browser compatibility issues. Check out
   <a href="https://jakearchibald.github.io/isserviceworkerready">
   https://jakearchibald.github.io/isserviceworkerready</a> for the current state of support.
@@ -741,13 +741,13 @@ cache, helps to provide a consistent experience even when there is no connection
 If the targeted browser does not support service workers, your application should degrade gracefully!
 Offline support is just a good-to-have; the core functionality of your site should still work!
 
-To get started, we first need to register a service worker with our browser. Create
-a service worker file named `service-worker.js` in your application root, and add
-the following code to your `app.js` file:
+To get started, we first need to register a service worker with our browser. Create two files:
+-  A service worker file named `service-worker.js` in your application root
+- `app.js/main.js` file that will be included in your application, and add the following code to it:
 
 ~~~
 <script>
-// Check if browser supports service worker
+// Check if browser supports service workers
 if ('serviceWorker' in navigator) {
   // Registration of service worker
   navigator.serviceWorker
@@ -903,14 +903,13 @@ console. We can also clear the `localStorage` object or remove a
 specific key/value pair. As Web Storage does not support storing
 objects, one workaround is to store the object in stringified-JSON format.
 
-For a complete list of Web Storage's capability, visit
-<http://dev.w3.org/html5/webstorage/>.
+For a complete list of Web Storage's capability, visit <http://dev.w3.org/html5/webstorage/>.
 
 <div class="box">
   <strong class="milestone-counter">Milestone 10:</strong> Implement and briefly describe
   the offline functionality of your application. Explain why the offline functionality of
-  your application fits users' expectations. State if you have used Service Workers, Web Storage, or
-  any other technology. Explain your choice. Make sure that you are able to run and use
+  your application fits users' expectations. State if you have used Service Workers, Web Storage,
+  or any other technology. Explain your choice. Make sure that you are able to run and use
   the a reasonable subset of features of your application from the home screen without
   any internet connection.
 </div>
