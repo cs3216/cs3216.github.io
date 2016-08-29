@@ -1033,7 +1033,7 @@ to keep the data, are you violating Facebook's Terms and Conditions?
 
 <div class="box">
   <strong class="milestone-counter">Milestone 10:</strong> Explain how you handle a user's data when
-  he removes your application. Convince us that your approach is necessary and that it is
+  he removes your application and implement it. Convince us that your approach is necessary and that it is
   the most logical. Do also include an explanation on whether you violate Facebook's terms and
   conditions.
 </div>
