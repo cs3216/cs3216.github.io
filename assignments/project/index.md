@@ -6,8 +6,8 @@ title: Final Project
 <br>
 
 {:.table.table-bordered.table-striped.deadline-table}
-|Issue date &nbsp;| Monday, 5 September 2016 |
-|Team Formation Deadline &nbsp;| Wednesday, 14 September 2016 |
+|Issue date &nbsp;| Monday, 12 September 2016 |
+|Team Formation Deadline &nbsp;| Monday, 19 September 2016 |
 |Proposal Due &nbsp;| Monday, 26 September 2016 |
 |Progress Report 1 &nbsp;| Monday, 17 October 2016 |
 |Progress Report 2 &nbsp;| Monday, 31 October 2016 |
