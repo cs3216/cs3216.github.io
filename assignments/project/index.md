@@ -11,7 +11,7 @@ title: Final Project
 |Proposal Due &nbsp;| Monday, 26 September 2016 |
 |Progress Report 1 &nbsp;| Monday, 17 October 2016 |
 |Progress Report 2 &nbsp;| Monday, 31 October 2016 |
-|Poster Session &nbsp;| Monday, 11 November 2016 |
+|Poster Session &nbsp;| Friday, 11 November 2016 |
 |Final Report &nbsp;| Sunday, 13 November 2016 |
 
 ## General Overview
