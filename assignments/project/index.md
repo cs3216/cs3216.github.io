@@ -61,7 +61,7 @@ to 5 pages (maximum of 6) in length and address (at least) the following points:
 
 Each team will meet with the teaching staff (probably lecturer + TA) for a one-hour preliminary meeting after you receive your feedback on your Final Project proposal. The meetings will be biweekly. Look out in your emails for the meeting schedules.
 
-These are compulsory sessions where the schedule is flexible and should be detemined by both parties.
+These are compulsory sessions where the schedule is flexible and should be determined by both parties.
 
 ## Customer Contact Reports
 
@@ -96,10 +96,10 @@ The final A1-sized project poster should (at least) include the following points
 
 1. Description of the application you have developed.
 2. What makes your application special?
-3. Screenoshots, graphics, diagrams and tables. Probably fewer words.
+3. Screenshots, graphics, diagrams and tables. Probably fewer words.
 4. Prepare a snappy yet catchy 1-2 minute pitch that you can use (over and over) when presenting your poster.
 
-Remember, avoid overloading the poster with too much (small) text. This will ensure that people won't want to read what's on your poster. Add in pictures, graphics, diagrams and tables when appropreiate. You are there to "sell" people your idea, to make them convinced that your application is unique and creative, and NOT to put them to sleep.
+Remember, avoid overloading the poster with too much (small) text. This will ensure that people won't want to read what's on your poster. Add in pictures, graphics, diagrams and tables when appropriate. You are there to "sell" people your idea, to make them convinced that your application is unique and creative, and NOT to put them to sleep.
 
 You might probably want to bring along your iPads or set up your laptops to do a demo also.
 
