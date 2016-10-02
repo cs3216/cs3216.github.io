@@ -125,7 +125,7 @@ The Final Project is worth 40% of the total grade for CS3216. The Final Project 
 - 5% Project Proposal
 - 10% Customer Contact Report
 - 5% Progress Report
-- 10% Progress Report 2 (awarded by the peers)
+- 10% Progress Report 2 (awarded by your peers and teaching staff)
 - 40% Poster Presentation (awarded by the panel of judges)
 - 30% Final Report
 
