@@ -36,7 +36,7 @@ There are no limits on what students can do for the final problem, though the ex
 
 The possibilities are endless. If you plan to develop a social networking application, you are expected to deploy your Final Project at least two to three weeks before the end of the semester because the "proof of the pudding is in the eating". You should get *real* people to use their applications and the popularity of their application1 can be (but is not the only) criteria for the evaluation.
 
-If one of the apps you developed for one of the previous assignments turned out be to very popular (meaning has lots of users or a high growth rate) or has perceived potential, you may also choose to further develop it as your Final Project. The only minor complication is that you might be "locked in" to work with same team members. We leave you to sort such things out by yourself.
+If one of the apps you developed for one of the previous assignments turned out be to very popular (i.e. has lots of users or a high growth rate) or has perceived potential, you may also choose to further develop it as your Final Project. The only minor complication is that you might be "locked in" to work with same team members. We leave you to sort such things out by yourself.
 
 ## Course Policy on Final Project Groupings
 
@@ -84,7 +84,7 @@ Please try to keep your reports to within two pages, or a maximum of 3 pages if 
 
 ## Final Project Presentation
 
-On the last week of class, we will be holding a 4-hour poster session in the SoC student foyer on *16 Nov 2016** (Wednesday) from 6.30 to 10.30 pm as part of the School of Computing Term Projects Showcase (STePS).
+On the last week of class, we will be holding a 4-hour poster session in the SoC student foyer on **11 Nov 2016** (Friday) from 6.30 to 10.30 pm as part of the School of Computing Term Projects Showcase (STePS).
 
 Each team is to prepare an A1-sized poster. The judges and other members of the SoC and NUS will turn up for the "show and tell". You should treat this session as a trade show to sell your projects as you will get a large percentage of your grading from "other people" - NUS staff, students, alumni, guests - who turn up at your booth. So your final grade depends very much on your show and tell in this session. Be creative. Collaterals are encouraged but note that these will be on your own expenses.
 
