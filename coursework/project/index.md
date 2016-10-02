@@ -88,9 +88,27 @@ On the last week of class, we will be holding a 4-hour poster session in the SoC
 
 Each team is to prepare an A1-sized poster. The judges and other members of the SoC and NUS will turn up for the "show and tell". You should treat this session as a trade show to sell your projects as you will get a large percentage of your grading from "other people" - NUS staff, students, alumni, guests - who turn up at your booth. So your final grade depends very much on your show and tell in this session. Be creative. Collaterals are encouraged but note that these will be on your own expenses.
 
-Again, you can choose how you want to present your work. You can have bring along other materials in addition to the posters. We'll leave it up to you!
+Again, you can choose how you want to present your work. You can bring along other materials in addition to the posters, such as your iPads or set up your laptops to do a demo also. We'll leave it up to you!
 
-## Final Project Poster
+### Final Project Video
+
+Traditionally, every team is required to make a 1-minute video to be submitted to the STePS organizing committee. Here's a playlist of past year's videos.
+
+<iframe width="100%" height="416" src="https://www.youtube.com/embed/u5AY3JKcTTU?list=PL-0mdQVieeceaFm__nZYSQYzhDGF0C9Jg" frameborder="0" allowfullscreen></iframe>
+
+### Marketing Efforts
+
+As part of the user acquisition process, many teams set up their own Facebook page to publicize about their products and gain initial traction before the actual STePS event. Here's what the top three teams of AY2015/16 did:
+
+- **Letterbox** went around the school on a hoverboard and handed out flyers. They also managed to launch their apps to the iOS App Store and Google Play Store before the event (seriously impressive feat).
+- **Griddit** created an anonymous chatroom for NUSWhispers and organized an [AMA with Prof Ben Leong](http://blog.griddit.io/post/133470245990/professor-ben-leongs-ask-me-anything) which saw over 400 participants.
+- **Paperbaton** launched a [blog with helpful tips](https://paperbaton.com/blog/) and also a complementing product, [NUSExam](https://paperbaton.com/blog/introducing-nusexam/), a Past-Year Question Paper Downloader for NUS Students.
+
+These three teams also created Facebook pages to continually engage users. Have a look at the Facebook pages of <a href="https://www.facebook.com/getletterbox">Letterbox</a>, <a href="https://www.facebook.com/griddit">Griddit</a> and <a href="https://www.facebook.com/paperbaton">Paperbaton</a> to get a sense of what sort of pre-STePS publicity can be done.
+
+<img alt="Paperbaton Team" src="/img/class-photos/paperbaton.jpg"/>
+
+### Final Project Poster
 
 The final A1-sized project poster should (at least) include the following points:
 
@@ -101,7 +119,13 @@ The final A1-sized project poster should (at least) include the following points
 
 Remember, avoid overloading the poster with too much (small) text. This will ensure that people won't want to read what's on your poster. Add in pictures, graphics, diagrams and tables when appropriate. You are there to "sell" people your idea, to make them convinced that your application is unique and creative, and NOT to put them to sleep.
 
-You might probably want to bring along your iPads or set up your laptops to do a demo also.
+Some examples of past STePS posters:
+
+<div class="text-center">
+  <a target="_blank" href="/img/posters/letterbox.pdf"><img alt="Letterbox Poster" src="/img/posters/letterbox-thumbnail.png"/></a>
+  <a target="_blank" href="/img/posters/paperbaton.pdf"><img alt="Paperbaton Poster" src="/img/posters/paperbaton-thumbnail.png"/></a>
+  <a target="_blank" href="/img/posters/una.pdf"><img alt="Una Poster" src="/img/posters/una-thumbnail.png"/></a>
+</div>
 
 ## Final Project Report
 
