@@ -6,9 +6,9 @@ title: Assignment 1 - Life of a Facebook Application
 <br>
 
 {:.table.table-bordered.table-striped.deadline-table}
-|Issue date&nbsp;| Monday, 7 August 2017 |
-|Mid-assignment submission &nbsp;| Friday, 18 August 2017, 23:59 |
-|Final submission &nbsp;| Friday, 1 September 2017, 23:59 |
+|Issue date&nbsp;| Monday, 14 August 2017 |
+|Mid-assignment submission &nbsp;| Friday, 25 August 2017, 23:59 |
+|Final submission &nbsp;| Friday, 8 September 2017, 23:59 |
 
 ## General Overview
 
@@ -80,8 +80,8 @@ Before we begin, there's something you should know. Facebook is a very
 dynamic platform and things are liable to change at any time. As you
 read this, Facebook's engineers continue to change the way their SDKs
 (Software Development Kits) work. The current version of their SDK is
-[v2.7](https://developers.facebook.com/blog/post/2016/07/14/graph-api-v27/),
-released on 13 July 2016. If you had experience with Facebook SDKs
+[v2.9](https://developers.facebook.com/blog/post/2017/04/18/graph-api-v2.9/),
+released on 18 April, 2017. If you had experience with Facebook SDKs
 before, you will have to update yourself with these [new
 changes](https://developers.facebook.com/docs/apps/changelog).
 
@@ -120,9 +120,9 @@ choose to do so by either entering a one-time code, which they will send
 you via SMS, or by entering your credit card number.
 
 Next, you have to decide what kind of application you want to create.
-You can choose to create: (i) a Facebook Canvas application, (ii) a
+You can choose to create: (i) a "Games on Facebook" application (previously known as "Canvas"), (ii) a
 standalone Web Application that connects with Facebook, or (iii) both! A
-Facebook Canvas application is one that loads within the main Facebook
+"Games on Facebook" application is one that loads within the main Facebook
 website while a standalone application is a separate website that
 connects to Facebook to retrieve information about users and post on
 their walls. An example of (i) is [*Candy Crush
@@ -133,14 +133,14 @@ used by students in CS1010S and CS2020.
 If you have a good reason to, you could even develop both types of
 applications for your project. However, do note that execution matters:
 you do not automatically get extra points for choosing to do both. If
-you choose to develop both a Facebook Canvas and a standalone
+you choose to develop both a "Games on Facebook" and a standalone
 application, and if your execution is poor, you will get lower grades
 compared to a team that only developed one type of application and did
 it well. Consider yourself warned. But of course, if you decide to do both and your
 execution is fantastic, you can expect a better grade.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 1:</strong> Choose to do a Facebook Canvas application,
+  <strong class="milestone-counter">Milestone 1:</strong> Choose to do a "Games on Facebook" application,
   a standalone application, or both. Choose wisely and justify your choice with a short write-up.
 </div>
 
@@ -220,7 +220,7 @@ programming language. With JavaScript you can create animations, you can
 modify the loaded page on the fly, you can even send a hidden request to
 your server to fetch new data. The language itself is pretty (though it
 can get really ugly quickly if one is not careful). It is
-dynamically-typed, with very flexible object-oriented support and tt
+dynamically-typed, with very flexible object-oriented support and it
 supports functions as first-class objects.
 
 However, developing in JavaScript causes a few problems to developers.
