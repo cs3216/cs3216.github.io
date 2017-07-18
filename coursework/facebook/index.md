@@ -6,9 +6,9 @@ title: Assignment 1 - Life of a Facebook Application
 <br>
 
 {:.table.table-bordered.table-striped.deadline-table}
-|Issue date&nbsp;| Monday, 8 August 2016 |
-|Mid-assignment submission &nbsp;| Friday, 19 August 2016, 23:59 |
-|Final submission &nbsp;| Friday, 2 September 2016, 23:59 |
+|Issue date&nbsp;| Monday, 7 August 2017 |
+|Mid-assignment submission &nbsp;| Friday, 18 August 2017, 23:59 |
+|Final submission &nbsp;| Friday, 1 September 2017, 23:59 |
 
 ## General Overview
 
