@@ -1427,7 +1427,7 @@ towards the remaining 30%.
 This assignment has 2 key deliverables: a mid-assignment submission and
 the final submission itself.
 
-### Mid-assignment Submission (due Friday, 19 August 2016, 23:59):
+### Mid-assignment Submission (due Friday, 25 August 2017, 23:59):
 
 -   A short write-up on your application idea and execution plans
     (see Milestone 1). **Restrictions:** no longer than a double-sided
@@ -1448,7 +1448,7 @@ the final submission itself.
 
 -   Answers to the bonus milestones (if you decide to attempt them.)
 
-### Final Submission (due Friday, 2 September 2016, 23:59):
+### Final Submission (due Friday, 8 September 2017, 23:59):
 
 -   Completion of all compulsory milestones (up to Milestone 14).
     Submit your answers in a write-up and categorize your answers by the
