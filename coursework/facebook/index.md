@@ -974,6 +974,7 @@ example code to get you started.
 <div class="box">
   <strong class="milestone-counter">Milestone 8:</strong> We want some feeds! BUT remember to put thought into
   this. Nuisance feeds will not only earn you no credit but may incur penalization!
+  Explain what feeds you implemented and your thought process for your feeds
 </div>
 
 ### The Like Button
