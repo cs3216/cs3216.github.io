@@ -120,9 +120,9 @@ choose to do so by either entering a one-time code, which they will send
 you via SMS, or by entering your credit card number.
 
 Next, you have to decide what kind of application you want to create.
-You can choose to create: (i) a "Games on Facebook" application (previously known as "Canvas"), (ii) a
+You can choose to create: (i) a "Facebook Web Games" application (previously known as "Canvas"), (ii) a
 standalone Web Application that connects with Facebook, or (iii) both! A
-"Games on Facebook" application is one that loads within the main Facebook
+"Facebook Web Games" application is one that loads within the main Facebook
 website while a standalone application is a separate website that
 connects to Facebook to retrieve information about users and post on
 their walls. An example of (i) is [*Candy Crush
@@ -133,14 +133,14 @@ used by students in CS1010S and CS2020.
 If you have a good reason to, you could even develop both types of
 applications for your project. However, do note that execution matters:
 you do not automatically get extra points for choosing to do both. If
-you choose to develop both a "Games on Facebook" and a standalone
+you choose to develop both a "Facebook Web Games" and a standalone
 application, and if your execution is poor, you will get lower grades
 compared to a team that only developed one type of application and did
 it well. Consider yourself warned. But of course, if you decide to do both and your
 execution is fantastic, you can expect a better grade.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 1:</strong> Choose to do a "Games on Facebook" application,
+  <strong class="milestone-counter">Milestone 1:</strong> Choose to do a "Facebook Web Games" application,
   a standalone application, or both. Choose wisely and justify your choice with a short write-up.
 </div>
 
@@ -330,14 +330,14 @@ while building your application.
 Next, click on the huge **Add a Platform** button. Standalone
 applications should pick **Website** on this dialog.
 
-**For Facebook Canvas applications:**
+**For "Facebook Web Games" applications:**
 
-**Canvas Page:** This is your application page (those
+**Facebook Web Games Page URL:** This is your application page (those
 <http://apps.facebook.com/some-app>). Use something that is both related
 to your app and easy to remember.
 
-**Secure Canvas URL:** The URL that will be accessed by Facebook and
-shown to users when they go to the canvas page. If you are using AWS,
+**Facebook Web Games URL (https):** The URL that will be accessed by Facebook and
+shown to users when they go to the Facebook Web Games page. If you are using AWS,
 this URL should look something like
 <https://ec2-174-129-70-144.compute-1.amazonaws.com/some-dir/>. You
 should not refer to a page directly (e.g.
@@ -348,12 +348,12 @@ attempt to access
 [http://\[your\_host\]/some-dir/index.phpsayhello.php](http://[your_host]/some-dir/index.phpsayhello.php),
 which is not what you would usually want. For security purposes,
 Facebook requires you to provide a link to direct users when they visit
-your Facebook Canvas app using HTTPS instead of HTTP. You can configure
+your Facebook Web Games app using HTTPS instead of HTTP. You can configure
 your AWS instance with a self-signed SSL certificate during development
 phrase and switch to a trial/cheap SSL certificate (trial certificates
 can be obtained from <http://www.verisign.sg/> or
 <http://www.rapidssl.com/>) once you are ready to publish your app. You
-**must** specify this URL if you are developing a Facebook Canvas
+**must** specify this URL if you are developing a Facebook Web Games
 application; otherwise you will see a blank page.
 
 **Mobile Site URL:** If you have a mobile-friendly version of the
@@ -375,7 +375,7 @@ API.
 **Deauthorize Callback URL:** The URL that Facebook would fetch when a
 user removes your application and deauthorizes it. See the **Detecting
 when people uninstall apps** section in [the
-documentation](https://developers.facebook.com/docs/facebook-login/manually-build-a-login-flow/v2.7).
+documentation](https://developers.facebook.com/docs/facebook-login/manually-build-a-login-flow/).
 
 **App Details - App Info**
 
@@ -395,11 +395,10 @@ Facebook profiles:
 
 - Dr. Colin Tan - <https://www.facebook.com/pbear1973>
 - Chin Su Yuen - <https://www.facebook.com/suyuen>
-- Tay Yang Shun - <https://www.facebook.com/yangshun>
-- Sun Wang Jun - <https://www.facebook.com/sunwangjun>
-- Sam Mauris Yong - <https://www.facebook.com/sam.yong>
-- Yeo Quan Yang - <https://www.facebook.com/quanyang>
-- Lin Xuanyi - <https://www.facebook.com/lin.yi.71653>
+- Ian Ngiaw - <https://www.facebook.com/ian.ngiaw>
+- Louie Tan - <https://www.facebook.com/louietyj>
+- Sebastian Quek - <https://www.facebook.com/sebastian.quek>
+- Ten Zhi Yang - <https://www.facebook.com/ten.zhiyang>
 
 **Open Graph:**
 
