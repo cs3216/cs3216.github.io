@@ -767,7 +767,7 @@ database connectors and ORM tools for the language/framework you intend to use.
 ### Facebook Graph API
 
 It's time to begin discussing the Facebook Graph API. At the core of
-Facebook is the social graph [^3] , a data structure where objects on
+Facebook is the social graph[^3] , a data structure where objects on
 Facebook (such as posts, comments, images, user profiles, and fan pages)
 are uniquely identified. Objects have connections between them if they
 have some relation. For example, a user in the social graph would be
@@ -830,7 +830,7 @@ NUSMods' Timeline.
 
 This particular case involves the Edge *feed* that belongs
 to the Node *page* (NUSMods) as described in the Graph API
-[/page/feed](https://developers.facebook.com/docs/graph-api/reference/v2.7/page/feed)
+[/page/feed](https://developers.facebook.com/docs/graph-api/reference/v2.9/page/feed)
 reference. This is just one of the many APIs available for use.
 
 How about viewing your own Timeline? **Replace** `NUSMods` with `me`[^4] and click **Submit**.
