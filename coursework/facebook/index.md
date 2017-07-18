@@ -247,7 +247,7 @@ These frameworks are being used to build [Single-page Applications (SPAs)](https
 The difference between SPAs
 and traditional server-side rendered pages is that when a user navigates between pages on the webpage,
 the browser does not do a full page refresh. Instead, the URL is being changed via the HTML5
-[pushState](https://developer.mozilla.org/en-US/docs/Web/API/History_API#The_pushState()_method)
+[pushState](<https://developer.mozilla.org/en-US/docs/Web/API/History_API#The_pushState%28%29_method>)
 API, and only data needed by the new page is being fetched from the server, usually via AJAX.
 AJAX will be covered in detail in a later part of this assignment.
 The benefits of an SPA includes fewer round-trip requests being made to the server
@@ -615,7 +615,7 @@ forums.
 
 <div class="box">
   <strong class="milestone-counter">Milestone 4:</strong> Integrate your application with Facebook.
-  If you are developing a Facebook canvas app, then users should be able to visit your app
+  If you are developing a Facebook Facebook Web Games app, then users should be able to visit your app
   and at least see their name (retrieved using the API) on the page. Similarly, if you are
   developing a standalone app, users should be able to login to your app using their
   Facebook account and see their own name appearing.
@@ -767,7 +767,7 @@ database connectors and ORM tools for the language/framework you intend to use.
 ### Facebook Graph API
 
 It's time to begin discussing the Facebook Graph API. At the core of
-Facebook is the social graph[^3], a data structure where objects on
+Facebook is the social graph [^3] , a data structure where objects on
 Facebook (such as posts, comments, images, user profiles, and fan pages)
 are uniquely identified. Objects have connections between them if they
 have some relation. For example, a user in the social graph would be
