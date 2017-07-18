@@ -415,7 +415,7 @@ documentation](http://developers.facebook.com/docs).
 <div class="box">
   <strong class="milestone-counter">Milestone 3:</strong> Give your newborn application some love.
   Go to the <strong>App Details</strong> page and fill the page with as much appropriate information as
-  you can. And yes, we expect a nice application icon!
+  you can. And yes, we expect a nice application icon! Screenshot the dashboard fields for your midterm submission.
 </div>
 
 We have finally gotten that out of the way. Did you remember to click
@@ -974,7 +974,7 @@ example code to get you started.
 <div class="box">
   <strong class="milestone-counter">Milestone 8:</strong> We want some feeds! BUT remember to put thought into
   this. Nuisance feeds will not only earn you no credit but may incur penalization!
-  Explain what feeds you implemented and your thought process for your feeds
+  Explain what feeds you implemented and your thought process for your feeds.
 </div>
 
 ### The Like Button
@@ -1035,7 +1035,7 @@ to keep the data, are you violating Facebook's Terms and Conditions?
   <strong class="milestone-counter">Milestone 10:</strong> Explain how you handle a user's data when
   he removes your application and implement it. Convince us that your approach is necessary and that it is
   the most logical. Do also include an explanation on whether you violate Facebook's terms and
-  conditions.
+  conditions. Do also update your `Privacy Policy URL` and `Terms of Service URL` fields in your app dashboard
 </div>
 
 ### Google Analytics
@@ -1509,7 +1509,7 @@ applies generally to web pages where this policy appears in the footer.
 By accepting the Privacy Policy, you express consent to our collection,
 storage, use and disclosure of your personal information as described in
 this Privacy Policy. This Privacy Policy is effective upon acceptance
-for new users and is otherwise effective on Monday, 8 August 2016.
+for new users and is otherwise effective on ,**\[Date your application went live\]**.
 
 ### Definitions
 
