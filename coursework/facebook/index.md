@@ -500,7 +500,7 @@ things change often; be prepared to learn and re-learn (and curse like a
 sailor when things break).
 
 The first thing you should be aware of is that Facebook often update
-their APIs with breaking changes. The current API version, version 2.7
+their APIs with breaking changes. The current API version, version 2.9
 of the Facebook Platform API is unlikely to be compatible with versions
 before.
 
@@ -508,7 +508,7 @@ The next thing you should be aware of is the Software Development Kits
 (SDKs) Facebook provides: the PHP and JavaScript SDKs. These help in
 integrating your application with the Facebook platform and in using the
 APIs. You can use either one for your applications; if you wish to use
-both at the same time, it is easier to do so in Facebook Canvas
+both at the same time, it is easier to do so in Facebook Web Games
 applications than in Standalone Applications.
 
 The PHP SDK makes API calls from the your application web server while
@@ -562,7 +562,7 @@ of all evil"[^2]. Focus on the features first without being overly
 worried about performance.
 
 Facebook's Developer site provides excellent documentation on how to get started with their [PHP
-and JS SDKs](https://developers.facebook.com/docs/apis-and-sdks). You'll be on your own here
+and JS SDKs](https://developers.facebook.com/docs/web). You'll be on your own here
 to learn how to use them, which is an important skill for picking up ever-changing technologies.
 
 It's not compulsory to use Facebook's SDKs when developing your application but you will have
