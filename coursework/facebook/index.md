@@ -1147,7 +1147,7 @@ page](https://developers.facebook.com/docs/opengraph/overview/).
 
 <div class="box">
   <strong class="milestone-counter">Milestone 13:</strong> Implement at least one Story involving an
-  Action and Object in your application. Describe why you think it will create an engaging
+  Action and Object in your application. Describe what actions the user has to take to trigger the Story (we will test it!) and why you think it will create an engaging
   experience for the users of your application.
 </div>
 
