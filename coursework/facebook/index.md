@@ -6,9 +6,9 @@ title: Assignment 1 - Life of a Facebook Application
 <br>
 
 {:.table.table-bordered.table-striped.deadline-table}
-|Issue date&nbsp;| Monday, 8 August 2016 |
-|Mid-assignment submission &nbsp;| Friday, 19 August 2016, 23:59 |
-|Final submission &nbsp;| Friday, 2 September 2016, 23:59 |
+|Issue date&nbsp;| Monday, 14 August 2017 |
+|Mid-assignment submission &nbsp;| Friday, 25 August 2017, 23:59 |
+|Final submission &nbsp;| Friday, 8 September 2017, 23:59 |
 
 ## General Overview
 
@@ -80,8 +80,8 @@ Before we begin, there's something you should know. Facebook is a very
 dynamic platform and things are liable to change at any time. As you
 read this, Facebook's engineers continue to change the way their SDKs
 (Software Development Kits) work. The current version of their SDK is
-[v2.7](https://developers.facebook.com/blog/post/2016/07/14/graph-api-v27/),
-released on 13 July 2016. If you had experience with Facebook SDKs
+[v2.9](https://developers.facebook.com/blog/post/2017/04/18/graph-api-v2.9/),
+released on 18 April, 2017. If you had experience with Facebook SDKs
 before, you will have to update yourself with these [new
 changes](https://developers.facebook.com/docs/apps/changelog).
 
@@ -120,9 +120,9 @@ choose to do so by either entering a one-time code, which they will send
 you via SMS, or by entering your credit card number.
 
 Next, you have to decide what kind of application you want to create.
-You can choose to create: (i) a Facebook Canvas application, (ii) a
+You can choose to create: (i) a "Facebook Web Games" application (previously known as "Canvas"), (ii) a
 standalone Web Application that connects with Facebook, or (iii) both! A
-Facebook Canvas application is one that loads within the main Facebook
+"Facebook Web Games" application is one that loads within the main Facebook
 website while a standalone application is a separate website that
 connects to Facebook to retrieve information about users and post on
 their walls. An example of (i) is [*Candy Crush
@@ -133,14 +133,14 @@ used by students in CS1010S and CS2020.
 If you have a good reason to, you could even develop both types of
 applications for your project. However, do note that execution matters:
 you do not automatically get extra points for choosing to do both. If
-you choose to develop both a Facebook Canvas and a standalone
+you choose to develop both a "Facebook Web Games" and a standalone
 application, and if your execution is poor, you will get lower grades
 compared to a team that only developed one type of application and did
 it well. Consider yourself warned. But of course, if you decide to do both and your
 execution is fantastic, you can expect a better grade.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 1:</strong> Choose to do a Facebook Canvas application,
+  <strong class="milestone-counter">Milestone 1:</strong> Choose to do a "Facebook Web Games" application,
   a standalone application, or both. Choose wisely and justify your choice with a short write-up.
 </div>
 
@@ -220,7 +220,7 @@ programming language. With JavaScript you can create animations, you can
 modify the loaded page on the fly, you can even send a hidden request to
 your server to fetch new data. The language itself is pretty (though it
 can get really ugly quickly if one is not careful). It is
-dynamically-typed, with very flexible object-oriented support and tt
+dynamically-typed, with very flexible object-oriented support and it
 supports functions as first-class objects.
 
 However, developing in JavaScript causes a few problems to developers.
@@ -247,7 +247,7 @@ These frameworks are being used to build [Single-page Applications (SPAs)](https
 The difference between SPAs
 and traditional server-side rendered pages is that when a user navigates between pages on the webpage,
 the browser does not do a full page refresh. Instead, the URL is being changed via the HTML5
-[pushState](https://developer.mozilla.org/en-US/docs/Web/API/History_API#The_pushState()_method)
+[pushState](<https://developer.mozilla.org/en-US/docs/Web/API/History_API#The_pushState%28%29_method>)
 API, and only data needed by the new page is being fetched from the server, usually via AJAX.
 AJAX will be covered in detail in a later part of this assignment.
 The benefits of an SPA includes fewer round-trip requests being made to the server
@@ -330,14 +330,14 @@ while building your application.
 Next, click on the huge **Add a Platform** button. Standalone
 applications should pick **Website** on this dialog.
 
-**For Facebook Canvas applications:**
+**For "Facebook Web Games" applications:**
 
-**Canvas Page:** This is your application page (those
+**Facebook Web Games Page URL:** This is your application page (those
 <http://apps.facebook.com/some-app>). Use something that is both related
 to your app and easy to remember.
 
-**Secure Canvas URL:** The URL that will be accessed by Facebook and
-shown to users when they go to the canvas page. If you are using AWS,
+**Facebook Web Games URL (https):** The URL that will be accessed by Facebook and
+shown to users when they go to the Facebook Web Games page. If you are using AWS,
 this URL should look something like
 <https://ec2-174-129-70-144.compute-1.amazonaws.com/some-dir/>. You
 should not refer to a page directly (e.g.
@@ -348,12 +348,12 @@ attempt to access
 [http://\[your\_host\]/some-dir/index.phpsayhello.php](http://[your_host]/some-dir/index.phpsayhello.php),
 which is not what you would usually want. For security purposes,
 Facebook requires you to provide a link to direct users when they visit
-your Facebook Canvas app using HTTPS instead of HTTP. You can configure
+your Facebook Web Games app using HTTPS instead of HTTP. You can configure
 your AWS instance with a self-signed SSL certificate during development
 phrase and switch to a trial/cheap SSL certificate (trial certificates
 can be obtained from <http://www.verisign.sg/> or
 <http://www.rapidssl.com/>) once you are ready to publish your app. You
-**must** specify this URL if you are developing a Facebook Canvas
+**must** specify this URL if you are developing a Facebook Web Games
 application; otherwise you will see a blank page.
 
 **Mobile Site URL:** If you have a mobile-friendly version of the
@@ -375,7 +375,7 @@ API.
 **Deauthorize Callback URL:** The URL that Facebook would fetch when a
 user removes your application and deauthorizes it. See the **Detecting
 when people uninstall apps** section in [the
-documentation](https://developers.facebook.com/docs/facebook-login/manually-build-a-login-flow/v2.7).
+documentation](https://developers.facebook.com/docs/facebook-login/manually-build-a-login-flow/).
 
 **App Details - App Info**
 
@@ -395,11 +395,10 @@ Facebook profiles:
 
 - Dr. Colin Tan - <https://www.facebook.com/pbear1973>
 - Chin Su Yuen - <https://www.facebook.com/suyuen>
-- Tay Yang Shun - <https://www.facebook.com/yangshun>
-- Sun Wang Jun - <https://www.facebook.com/sunwangjun>
-- Sam Mauris Yong - <https://www.facebook.com/sam.yong>
-- Yeo Quan Yang - <https://www.facebook.com/quanyang>
-- Lin Xuanyi - <https://www.facebook.com/lin.yi.71653>
+- Ian Ngiaw - <https://www.facebook.com/ian.ngiaw>
+- Louie Tan - <https://www.facebook.com/louietyj>
+- Sebastian Quek - <https://www.facebook.com/sebastian.quek>
+- Ten Zhi Yang - <https://www.facebook.com/ten.zhiyang>
 
 **Open Graph:**
 
@@ -416,7 +415,7 @@ documentation](http://developers.facebook.com/docs).
 <div class="box">
   <strong class="milestone-counter">Milestone 3:</strong> Give your newborn application some love.
   Go to the <strong>App Details</strong> page and fill the page with as much appropriate information as
-  you can. And yes, we expect a nice application icon!
+  you can. And yes, we expect a nice application icon! Screenshot the dashboard fields for your midterm submission.
 </div>
 
 We have finally gotten that out of the way. Did you remember to click
@@ -501,7 +500,7 @@ things change often; be prepared to learn and re-learn (and curse like a
 sailor when things break).
 
 The first thing you should be aware of is that Facebook often update
-their APIs with breaking changes. The current API version, version 2.7
+their APIs with breaking changes. The current API version, version 2.9
 of the Facebook Platform API is unlikely to be compatible with versions
 before.
 
@@ -509,7 +508,7 @@ The next thing you should be aware of is the Software Development Kits
 (SDKs) Facebook provides: the PHP and JavaScript SDKs. These help in
 integrating your application with the Facebook platform and in using the
 APIs. You can use either one for your applications; if you wish to use
-both at the same time, it is easier to do so in Facebook Canvas
+both at the same time, it is easier to do so in Facebook Web Games
 applications than in Standalone Applications.
 
 The PHP SDK makes API calls from the your application web server while
@@ -563,7 +562,7 @@ of all evil"[^2]. Focus on the features first without being overly
 worried about performance.
 
 Facebook's Developer site provides excellent documentation on how to get started with their [PHP
-and JS SDKs](https://developers.facebook.com/docs/apis-and-sdks). You'll be on your own here
+and JS SDKs](https://developers.facebook.com/docs/web). You'll be on your own here
 to learn how to use them, which is an important skill for picking up ever-changing technologies.
 
 It's not compulsory to use Facebook's SDKs when developing your application but you will have
@@ -616,7 +615,7 @@ forums.
 
 <div class="box">
   <strong class="milestone-counter">Milestone 4:</strong> Integrate your application with Facebook.
-  If you are developing a Facebook canvas app, then users should be able to visit your app
+  If you are developing a Facebook Facebook Web Games app, then users should be able to visit your app
   and at least see their name (retrieved using the API) on the page. Similarly, if you are
   developing a standalone app, users should be able to login to your app using their
   Facebook account and see their own name appearing.
@@ -768,7 +767,7 @@ database connectors and ORM tools for the language/framework you intend to use.
 ### Facebook Graph API
 
 It's time to begin discussing the Facebook Graph API. At the core of
-Facebook is the social graph[^3], a data structure where objects on
+Facebook is the social graph[^3] , a data structure where objects on
 Facebook (such as posts, comments, images, user profiles, and fan pages)
 are uniquely identified. Objects have connections between them if they
 have some relation. For example, a user in the social graph would be
@@ -831,7 +830,7 @@ NUSMods' Timeline.
 
 This particular case involves the Edge *feed* that belongs
 to the Node *page* (NUSMods) as described in the Graph API
-[/page/feed](https://developers.facebook.com/docs/graph-api/reference/v2.7/page/feed)
+[/page/feed](https://developers.facebook.com/docs/graph-api/reference/v2.9/page/feed)
 reference. This is just one of the many APIs available for use.
 
 How about viewing your own Timeline? **Replace** `NUSMods` with `me`[^4] and click **Submit**.
@@ -975,6 +974,7 @@ example code to get you started.
 <div class="box">
   <strong class="milestone-counter">Milestone 8:</strong> We want some feeds! BUT remember to put thought into
   this. Nuisance feeds will not only earn you no credit but may incur penalization!
+  Explain what feeds you implemented and your thought process for your feeds.
 </div>
 
 ### The Like Button
@@ -1035,7 +1035,7 @@ to keep the data, are you violating Facebook's Terms and Conditions?
   <strong class="milestone-counter">Milestone 10:</strong> Explain how you handle a user's data when
   he removes your application and implement it. Convince us that your approach is necessary and that it is
   the most logical. Do also include an explanation on whether you violate Facebook's terms and
-  conditions.
+  conditions. Do also update your `Privacy Policy URL` and `Terms of Service URL` fields in your app dashboard
 </div>
 
 ### Google Analytics
@@ -1428,7 +1428,7 @@ towards the remaining 30%.
 This assignment has 2 key deliverables: a mid-assignment submission and
 the final submission itself.
 
-### Mid-assignment Submission (due Friday, 19 August 2016, 23:59):
+### Mid-assignment Submission (due Friday, 25 August 2017, 23:59):
 
 -   A short write-up on your application idea and execution plans
     (see Milestone 1). **Restrictions:** no longer than a double-sided
@@ -1449,7 +1449,7 @@ the final submission itself.
 
 -   Answers to the bonus milestones (if you decide to attempt them.)
 
-### Final Submission (due Friday, 2 September 2016, 23:59):
+### Final Submission (due Friday, 8 September 2017, 23:59):
 
 -   Completion of all compulsory milestones (up to Milestone 14).
     Submit your answers in a write-up and categorize your answers by the
@@ -1509,7 +1509,7 @@ applies generally to web pages where this policy appears in the footer.
 By accepting the Privacy Policy, you express consent to our collection,
 storage, use and disclosure of your personal information as described in
 this Privacy Policy. This Privacy Policy is effective upon acceptance
-for new users and is otherwise effective on Monday, 8 August 2016.
+for new users and is otherwise effective on ,**\[Date your application went live\]**.
 
 ### Definitions
 
