@@ -1344,7 +1344,9 @@ false impression that your application did not respond to a user event
 (especially so if the call was triggered say by clicking the **Submit**
 button). In such cases, it may be wise to implement your own set of
 visual cues – display a loading indicator while your AJAX request is
-in progress, and remove it when it completes.
+in progress, and remove it when it completes. You should also think about
+how to prevent / react to users clicking on the same button multiple times
+in quick succession.
 
 ### AJAX in jQuery
 
