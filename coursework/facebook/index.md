@@ -725,15 +725,17 @@ query. Your schema should be graphical, and should indicate clearly the
 table names, column names/types, primary keys, and relationships.
 
 You should remember that as a rule of thumb, database schemas should be
-planned with a **design once use forever** principle in mind. You should
+designed with a **design once use forever** principle in mind. You should
 spend a good amount of thinking on a good schema design, after which you
-should almost never need to touch the design again. No idea how to draw it out?
-Think simple. Annotated boxes and arrows are fine - just make sure the design is
-clearly communicated. Of course, we also accept proper entity-relationship diagrams.
+should not need to come back and make drastic changes to it.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 5:</strong> Draw the database schema of your application.
+  <strong class="milestone-counter">Milestone 5:</strong> Draw an Entity-Relationship diagram for your database schema.
 </div>
+
+(Tip: If you are using MySQL Workbench, there is a feature to automatically create an EER diagram
+from your existing database schema. You may simply export this as a PNG file and include this in your
+milestone submission.)
 
 ### SQL: Querying the Database
 
