@@ -16,7 +16,7 @@ In this assignment, you will learn about the development life cycle of a
 Facebook Application. You will be guided[^1] to write your (probably
 first) Facebook application. Before we begin, you might want to decide
 which programming language to use. If you have not done so, you are
-encouraged to login into and explore your AWS account. You should have
+encouraged to log into and explore your AWS account. You should have
 set up PHP (or the programming language of your choice) and MySQL and be
 able to access your content online. Remember, these may take a day or
 two to get right. You do not want to leave it to the last week.
@@ -24,7 +24,7 @@ two to get right. You do not want to leave it to the last week.
 ## Grading and Admin
 
 This assignment can be done in groups of three or four students. If you
-are unable find yourself a group, you will be randomly assigned one.
+are unable to find yourself a group, you will be randomly assigned one.
 
 This assignment is highly open-ended. We provide milestones so that we can grade
 your application in a consistent way, even though everyone would be building different apps. This
@@ -34,7 +34,7 @@ that you learn about the elements in a structured way. We will also provide some
 references and a little bit of help to get you started.
 These milestones constitute 70% of the assignment's grade.
 
-However, you have a lot of freedom to express your creativity. You are
+With that said, you have a lot of freedom to express your creativity. You are
 free to develop any application you choose. However, if some of the
 proposed milestones do not make sense for the application you intend to
 build, please submit a petition at least one week before the assignment
@@ -109,8 +109,7 @@ To embark on this journey, you have to first install the Facebook
 Developer application.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 0:</strong> Install the Facebook Developer application
-  from <a href="https://developers.facebook.com/apps">https://developers.facebook.com/apps</a>.
+  <strong class="milestone-counter">Milestone 0:</strong> Create your [Facebook Developer account](https://developers.facebook.com/apps) if you have not
   <em>(Not graded)</em>
 </div>
 
@@ -314,7 +313,7 @@ be unique among existing Facebook apps. This can be changed later on.
 **Namespace:** This field is used for the URL for Apps on Facebook or to
 define customized Open Graph Objects and Actions. Do not worry if you
 find yourself a bit lost at this point; we will discuss Open Graph in
-greater depth later).
+greater depth later.
 
 **App Domains:** This specifies the domain your application lives in.
 Facebook uses this a security feature to make sure the user is
@@ -455,7 +454,7 @@ by rapidly completing a small but workable application with your key
 ideas in place, then push it out immediately for users to try it out.
 Keep an open channel of communication with your users (use Facebook's
 forum functionality and your application page's wall and Facebook's user
-feedback/rating mechanism.) Note that this does not mean just sitting
+feedback/rating mechanism). Note that this does not mean just sitting
 there and reading your users' responses: interact with them, ask them
 for suggestions and feedback, actively respond to their issues, and fix
 bugs that they report. Then, *incrementally improve your application
@@ -767,7 +766,7 @@ database connectors and ORM tools for the language/framework you intend to use.
 ### Facebook Graph API
 
 It's time to begin discussing the Facebook Graph API. At the core of
-Facebook is the social graph[^3] , a data structure where objects on
+Facebook is the social graph[^3], a data structure where objects on
 Facebook (such as posts, comments, images, user profiles, and fan pages)
 are uniquely identified. Objects have connections between them if they
 have some relation. For example, a user in the social graph would be
@@ -994,7 +993,7 @@ There are also properties of the button which you can refer to the documentation
 configure accordingly.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 9:</strong> Your application should include the Like button
+  <strong class="milestone-counter">Milestone 9:</strong> Your application should include a Like button
   for your users to click on. Convince us why you think that is the best place you should
   place the button.
 </div>
@@ -1158,7 +1157,7 @@ page](https://developers.facebook.com/docs/opengraph/overview/).
 >
 > — Michael Lopp
 
-And here we come to a interesting part of this assignment. The following sectiions will deal
+And here we come to a interesting part of this assignment. The following sections will deal
 exclusively with more advanced matters such as security, animation and AJAX.
 
 ### Security
@@ -1169,7 +1168,7 @@ breach where data is leaked can be devastating as you could be liable for result
 and lose the trust of your customers, harming the reputation of your product and company.
 
 No application is truly safe from the terrors of hackers, as new security vulnerabilities even in
-popular and widely-used softwares are discovered every now and then. However, you can reduce the
+popular and widely-used software are discovered every now and then. However, you can reduce the
 likelihood of compromising your application's security by spending a conscious
 effort on keeping up with the common and basic practices of web security. A good place to start would be
 the [security guide for developers](https://github.com/FallibleInc/security-guide-for-developers).
@@ -1227,7 +1226,7 @@ and launch purchases or payments for the attacker or a third-party account.
   <strong class="milestone-counter">Milestone 14:</strong>
   What is the best technique to stop CSRF, and why?
   What is the set of special characters that needs to be escaped in order to prevent XSS?
-  For each of the above vulnerabilties (SQLi, XSS, CSRF), explain what preventive measures
+  For each of the above vulnerabilities (SQLi, XSS, CSRF), explain what preventive measures
   you have taken in your application to tackle these issues.
 </div>
 
@@ -1240,7 +1239,7 @@ Our warnings at the section on Feeds apply here too. Animating your
 pages may spice up your applications, possibly making it easier and more
 fun to use, and may even earn you cookies (and coolness points!) But too
 much of it (or even small amounts of badly done ones) can backfire
-badly. Exercise your better judgement before indiscriminately adding
+badly. Exercise your better judgment before indiscriminately adding
 animations to everything in sight, just because you know how to do it.
 
 jQuery, a popular JavaScript library that is mainly used for DOM manipulation,
@@ -1329,7 +1328,7 @@ send an entire HTML page back as the response, since the script on the
 client can display the data appropriately for the page. For example, in
 a normal (non-AJAX) blog, when you post a comment, the server will
 regenerate and send the entire blog page back to your browser with your
-new comment included (hence the page reload.) In contrast, posting to
+new comment included (hence the page reload.) In contrast, when posting to
 your Timeline on Facebook (which *is* sent via AJAX), there is no page
 reload and yet your post appears on the page. In this instance, after
 processing, Facebook's servers only send the modified part of the page
@@ -1339,12 +1338,12 @@ makes asynchronous calls faster (or, at least, *appear* faster).
 
 Note that a (not necessarily undesirable) side effect of AJAX is that it
 is completely invisible to the user – the browser does not give any
-visual cues that your script had issued an AJAX request. This is
+visual cues that your script has issued an AJAX request. This is
 sometimes what you want; oftentimes however, it tends to lead to the
 false impression that your application did not respond to a user event
 (especially so if the call was triggered say by clicking the **Submit**
-button.) In such cases, it may be wise to implement your own set of
-visual cues – display a loading indicator and while your AJAX request is
+button). In such cases, it may be wise to implement your own set of
+visual cues – display a loading indicator while your AJAX request is
 in progress, and remove it when it completes.
 
 ### AJAX in jQuery
@@ -1384,7 +1383,7 @@ code will allow us to retrieve the object stored in the file:
       // Do something with obtained data
     });
 
-Sometimes, we might also need to send data to server for processing.
+Sometimes, we might also need to send data to the server for processing.
 jQuery allows this through the use of `.get()` and
 `.post()` to retrieve/send data via the HTTP `GET` and `POST` methods respectively.
 
@@ -1469,7 +1468,7 @@ such as Google Docs, please download a PDF copy and upload it to IVLE.
 **For the final submission**, please make sure your Git repository
 contains the following:
 
-1.  Place the `README.md` file in the root directory. Bitbucket
+1.  The `README.md` file in the root directory. Bitbucket
     will automatically render it on your repository’s front page. You
     may wish to style it using any of the supported markup languages.
     The file should contain the list of group members, including
@@ -1480,7 +1479,7 @@ contains the following:
     written in the `README` file.
 
 2.  A write-up, `group-<number>-milestones.pdf` containing
-    your answers to all compulsory milestones that require
+    your answers to all milestones that require
     written answers.
 
 3.  A one/two-page pitch of your application,
@@ -1497,7 +1496,7 @@ As a final reminder, there are a total of **16 milestones** (excluding Milestone
 in this assignment. 2 of these milestones are optional.
 
 Clarifications and questions related to this assignment may be posted
-to the CS3216 Slack channel "#ay1617-assg1".
+to the CS3216 Slack channel `#ay1617-assg1`.
 
 Good luck and have fun!
 
