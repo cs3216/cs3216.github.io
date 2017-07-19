@@ -1034,7 +1034,7 @@ to keep the data, are you violating Facebook's Terms and Conditions?
   <strong class="milestone-counter">Milestone 10:</strong> Explain how you handle a user's data when
   he removes your application and implement it. Convince us that your approach is necessary and that it is
   the most logical. Do also include an explanation on whether you violate Facebook's terms and
-  conditions. Do also update your `Privacy Policy URL` and `Terms of Service URL` fields in your app dashboard
+  conditions.
 </div>
 
 ### Google Analytics
