@@ -733,8 +733,8 @@ should not need to come back and make drastic changes to it.
   <strong class="milestone-counter">Milestone 5:</strong> Draw an Entity-Relationship diagram for your database schema.
 </div>
 
-(Tip: If you are using MySQL Workbench, there is a feature to automatically create an EER diagram
-from your existing database schema. You may simply export this as a PNG file and include this in your
+(Tip: If you are using MySQL Workbench, there is a feature to [automatically create an EER diagram
+from your existing database schema](https://dev.mysql.com/doc/workbench/en/wb-importing-sql-script.html). You may simply export this as a PNG file and include this in your
 milestone submission.)
 
 ### SQL: Querying the Database
