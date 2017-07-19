@@ -347,11 +347,9 @@ attempt to access
 [http://\[your\_host\]/some-dir/index.phpsayhello.php](http://[your_host]/some-dir/index.phpsayhello.php),
 which is not what you would usually want. For security purposes,
 Facebook requires you to provide a link to direct users when they visit
-your Facebook Web Games app using HTTPS instead of HTTP. You can configure
-your AWS instance with a self-signed SSL certificate during development
-phrase and switch to a trial/cheap SSL certificate (trial certificates
-can be obtained from <http://www.verisign.sg/> or
-<http://www.rapidssl.com/>) once you are ready to publish your app. You
+your Facebook Web Games app using HTTPS instead of HTTP. You will need to configure
+your live server with an SSL certificate. You can register a free certificate 
+at [LetsEncrypt](https://letsencrypt.org/). You
 **must** specify this URL if you are developing a Facebook Web Games
 application; otherwise you will see a blank page.
 
