@@ -264,8 +264,8 @@ a few to try out and get a "Hello World" app running before proceeding to the ne
 
 If you're considering which front end technologies to use, check out this
 [awesome front end rundown](https://github.com/grab/front-end-guide)
-by [Tay Yang Shun](https://github.com/yangshun), one of the ex-TAs of the class. For a more broad overview of the state of web development,
-this [web development roadmap](https://github.com/kamranahmedse/developer-roadmap) will be come in helpful.
+by [Tay Yang Shun](https://github.com/yangshun), one of the ex-TAs of the class. For a broader overview of the state of web development,
+this [web development roadmap](https://github.com/kamranahmedse/developer-roadmap) will be helpful.
 
 You may also want to consider using [starter kits/boilerplates](https://github.com/melvin0008/awesome-projects-boilerplates)
 to bootstrap your app. Building everything from scratch will make a more fruitful learning experience
