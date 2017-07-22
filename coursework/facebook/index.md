@@ -209,7 +209,7 @@ JavaScript provides you methods to traverse and manipulate this tree;
 you can add, remove, or modify any nodes in the tree (as long as they
 result in a valid document). This explanation may sound a little fluffy,
 but the main gist is that changes in the DOM tree are in turn reflected
-in the actual displayed HTML page. The DOM thus ends up being a useful
+in the browser. The DOM thus ends up being a useful
 abstract model through which you could program dynamic web content in a
 systematic and elegant manner.
 
@@ -237,14 +237,13 @@ app. Examples of JavaScript libraries to manipulate DOM are Prototype, jQuery, E
 
 In the modern day, web applications have grown increasingly complex. As a result,
 using purely jQuery to manage a webpage's DOM is a nightmare.
-This has led to the creation of JavaScript frameworks, which follows
+This has led to the creation of JavaScript frameworks, which follow
 the MVC paradigm of organizing an application's code structure commonly seen in native desktop
 and mobile applications. Using these JavaScript MVC frameworks, your code will be more maintainable
 and reusable and it will be much easier to manage complexity.
 
 These frameworks are being used to build [Single-page Applications (SPAs)](https://www.wikiwand.com/en/Single-page_application).
-The difference between SPAs
-and traditional server-side rendered pages is that when a user navigates between pages on the webpage,
+The difference between SPAs and traditional server-side rendered pages is that when a user navigates between pages on the webpage,
 the browser does not do a full page refresh. Instead, the URL is being changed via the HTML5
 [pushState](<https://developer.mozilla.org/en-US/docs/Web/API/History_API#The_pushState%28%29_method>)
 API, and only data needed by the new page is being fetched from the server, usually via AJAX.
@@ -263,11 +262,21 @@ front end of your application, especially if your application requires heavy use
 You should read up on the pros and cons of the various libraries and frameworks, potentially select
 a few to try out and get a "Hello World" app running before proceeding to the next section.
 
+If you're considering which front end technologies to use, check out this
+[awesome front end rundown](https://github.com/grab/front-end-guide)
+by Tay Yang Shun, one of the ex-TAs of the class. For a more broad overview of the state of web development,
+this [web develop roadmap](https://github.com/kamranahmedse/developer-roadmap) will be come in helpful.
+
+You may also want to consider using [starter kits/boilerplates](https://github.com/melvin0008/awesome-projects-boilerplates)
+to bootstrap your app. Building everything from scratch will make a more fruitful learning experience
+but in CS3216 where the deadlines are quite tight, choosing the faster route is usually a better option.
+Life is about trade offs, and the choice is yours to make.
+
 <div class="box">
-  <strong class="milestone-counter">Milestone 2:</strong> Explain your choice of toolset and what alternatives
-  you have considered for your Facebook application on both the client-side and server-side.
-  If you have decided to go with the vanilla approaches (not using libraries/frameworks for
-  the core application), do justify your decisions too.
+  <strong class="milestone-counter">Milestone 2:</strong> Explain your choice of libraries and
+  what alternatives you have considered for your Facebook application on both the
+  client-side and server-side. If you have decided to go with the vanilla approaches
+  (not using libraries/frameworks for the core application), do justify your decisions too.
 </div>
 
 ## Phase 1: Baby
