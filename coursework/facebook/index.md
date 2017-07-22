@@ -109,7 +109,7 @@ To embark on this journey, you have to first install the Facebook
 Developer application.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 0:</strong> Create your [Facebook Developer account](https://developers.facebook.com/apps) if you have not
+  <strong class="milestone-counter">Milestone 0:</strong> Create your <a href="Facebook Developer account">https://developers.facebook.com/apps</a> if you have not
   <em>(Not graded)</em>
 </div>
 
@@ -348,7 +348,7 @@ attempt to access
 which is not what you would usually want. For security purposes,
 Facebook requires you to provide a link to direct users when they visit
 your Facebook Web Games app using HTTPS instead of HTTP. You will need to configure
-your live server with an SSL certificate. You can register a free certificate 
+your live server with an SSL certificate. You can register a free certificate
 at [LetsEncrypt](https://letsencrypt.org/). You
 **must** specify this URL if you are developing a Facebook Web Games
 application; otherwise you will see a blank page.
