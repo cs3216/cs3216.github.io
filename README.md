@@ -1,15 +1,15 @@
 CS3216 Homepage
 ===========
 
-## What it is
+### What it is
 
 CS3216 homepage containing coursework and student information. It is a static site built with Jekyll.
 
-## Installation
+### Installation
 
 For instructions on how to set up, refer to [Jekyll homepage](http://jekyllrb.com/).
 
-## Commit Conventions
+### Commit Conventions
 
 Prefix your commits with these identifiers for better organization of Git history - `<identifier> <commit message>`. For example: `[A1] Fix typo in friends milestone`.
 
