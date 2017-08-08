@@ -769,13 +769,13 @@ To get started, we first need to register a service worker with our browser. Cre
 if ('serviceWorker' in navigator) {
   // Registration of service worker
   navigator.serviceWorker
-            .register('/service-worker.js')
-            .then(function () {
-              console.log('Registered Service Worker');
-            })
-            .catch(function () {
-              console.log('Unable to register');
-            });
+    .register('/service-worker.js')
+    .then(function () {
+      console.log('Registered Service Worker');
+    })
+    .catch(function () {
+      console.log('Unable to register');
+    });
 }
 </script>
 ~~~
