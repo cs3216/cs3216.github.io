@@ -103,10 +103,10 @@ further assistance. We can be contacted at
 
 ## Objectives
 
-The high-level goal of this assignment is simple: a working mobile web
-application that utilizes the capabilities of a mobile device and
+The high-level goal of this assignment is simple: a working Progressive Web Application
+that utilizes the capabilities of a mobile device and
 is able to persist the users' data in the cloud. Your task is to demonstrate that
-you can design and implement RESTful APIs, as well as build a Progress Web App
+you can design and implement RESTful APIs, as well as build a Progressive Web Application
 that consumes your API. You can use any backend language and/or framework you desire,
 but we will be providing examples in PHP.
 
@@ -608,7 +608,7 @@ Source: <https://developers.google.com/web/fundamentals/getting-started/your-fir
 
 It is recommended that you go through this [short tutorial](https://developers.google.com/web/fundamentals/getting-started/your-first-progressive-web-app/) on making your first Progressive Web App.
 
-Next we'll be exploring some of the features that constitutes a progress web app.
+Next we'll be exploring some of the features that constitutes a progressive web app.
 
 ### Add to Home Screen
 
