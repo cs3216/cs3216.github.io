@@ -1413,6 +1413,6 @@ contains the following:
     as co-developers of your application.
 
 Clarifications and questions related to this assignment should
-be posted to the CS3216 Slack channel "#ay1617-assg3".
+be posted to the CS3216 Slack channel "#ay1718-assg3".
 
 Good luck and have fun!
