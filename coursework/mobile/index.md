@@ -993,6 +993,7 @@ $.ajax({
     // Succeeded! Do something...
     console.log(response);
   }
+})
 </script>
 ~~~
 
