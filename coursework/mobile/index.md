@@ -1244,7 +1244,7 @@ suggested technologies to create redundant features will not get you any
 credit. It is about using them in creative ways to make your application
 more desirable to use.
 
-### Social Integration
+### Social Integration (Optional)
 
 Social platforms like Facebook, Instagram and Twitter receive billions
 of users every month, majority of whom are on mobile devices. Where
@@ -1275,7 +1275,7 @@ good or no one would share it.
   plugins. (Optional)
 </div>
 
-### Geolocation
+### Geolocation (Optional)
 
 Geolocation services are becoming increasingly popular with people. Many
 services have made their applications location-aware to provide users
