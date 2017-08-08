@@ -6,8 +6,8 @@ title: Assignment 3 - Mobile Cloud Application
 <br>
 
 {:.table.table-bordered.table-striped.deadline-table}
-|Issue date&nbsp;| Monday, 29 August 2016 |
-|Final submission &nbsp;| Friday, 23 September 2016, 23:59 |
+|Issue date&nbsp;| Monday, 4 September 2017 |
+|Final submission &nbsp;| Friday, 29 September 2017, 23:59 |
 
 ## General Overview
 
