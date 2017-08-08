@@ -146,6 +146,7 @@ following components:
   for jobs from clients to come in. After processing these requests,
   the server may inform the client of its success or return relevant
   information to be shown to the user.
+  
 3. **Database** - The database does exactly what we would expect of it
   in any other context, which is to store all of the
   application's data.
@@ -768,13 +769,13 @@ To get started, we first need to register a service worker with our browser. Cre
 if ('serviceWorker' in navigator) {
   // Registration of service worker
   navigator.serviceWorker
-    .register('/service-worker.js')
-    .then(function () {
-      console.log('Registered Service Worker');
-    })
-    .catch(function () {
-      console.log('Unable to register');
-    });
+            .register('/service-worker.js')
+            .then(function () {
+              console.log('Registered Service Worker');
+            })
+            .catch(function () {
+              console.log('Unable to register');
+            });
 }
 </script>
 ~~~
@@ -1245,11 +1246,10 @@ more desirable to use.
 
 ### Social Integration
 
-According to statistics, more than 1.49 billion users actively visit
-Facebook every month, 1.31 billion of whom are on mobile devices.
-Twitter has 316 million monthly active users, with 252 million on
-mobile. Where else can you find the potential to reach so many people
-without a single cent spent on advertising?
+Social platforms like Facebook, Instagram and Twitter receive billions
+of users every month, majority of whom are on mobile devices. Where
+else can you find the potential to reach so many people without a 
+single cent spent on advertising?
 
 Integrating Facebook Login can help potential users overcome the inertia
 of a tedious sign-up process can potentially make them more inclined to
