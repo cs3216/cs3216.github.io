@@ -293,7 +293,7 @@ the principle of **design once use forever**.
 
 <div class="box">
   <strong class="milestone-counter">Milestone 3:</strong>
-  Draw the database schema of your application.
+  Draw an Entity-Relationship diagram for your database schema.
 </div>
 
 ### RESTful API
