@@ -1114,6 +1114,9 @@ The following are some options you can consider:
 - Ionic - <http://ionicframework.com/>
 - Ratchet - <http://goratchet.com/>
 - Framework7 - <http://framework7.io/>
+- Onsen UI - <https://onsen.io/>
+- Vuetify - <https://vuetifyjs.com/>
+- Material-UI - <http://www.material-ui.com/#/>
 
 The following are some options you should avoid. They look horrid:
 
