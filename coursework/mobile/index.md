@@ -350,12 +350,12 @@ a dictionary and `[ ]` an array.
   "mobile": "87654321",
   "friends": [
     {
-        "id": "1",
-        "name": "Andy"
-      }, {
-        "id": "2",
-        "name": "John"
-      }
+      "id": "1",
+      "name": "Andy"
+    }, {
+      "id": "2",
+      "name": "John"
+    }
   ]
 }
 ~~~
