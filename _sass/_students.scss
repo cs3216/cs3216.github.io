@@ -14,11 +14,6 @@
     }
 
     .student-thumbnail {
-        $filter: grayscale(100%);
-        $hover-filter: none;
-
-        filter: $filter;
-        -webkit-filter: $filter;
         position: absolute;
         top: 0;
         left: 0;
@@ -27,13 +22,6 @@
         background-position: center center;
         background-size: cover;
         display: block;
-        transition: filter 300ms linear,
-                    -webkit-filter 300ms linear;
-
-        &:hover {
-            filter: $hover-filter;
-            -webkit-filter: $hover-filter;
-        }
     }
 
     .student-information {
