@@ -915,7 +915,7 @@ objects, one workaround is to store the object in stringified-JSON format.
 For a complete list of Web Storage's capability, visit <http://dev.w3.org/html5/webstorage/>.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 9:</strong> Implement and briefly describe
+  <strong class="milestone-counter">Milestone 9a:</strong> Implement and briefly describe
   the offline functionality of your application. Explain why the offline functionality of
   your application fits users' expectations. State if you have used service workers, Web Storage,
   or any other technology. Explain your choice. Make sure that you are able to run and use
@@ -966,7 +966,7 @@ but works fine on mobile browsers (Chrome). It is not the most reliable method o
 connectivity.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 10:</strong> Implement and explain how you will
+  <strong class="milestone-counter">Milestone 9b:</strong> Implement and explain how you will
   keep your client synchronised with the server if your application is being used offline.
   Elaborate on the cases you have taken into consideration and how they will be handled.
 </div>
@@ -1079,7 +1079,7 @@ be sufficient in most cases, but feel free to use any methods you deem fit. More
 found here: <https://jwt.io>
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 11:</strong> Compare the advantages and
+  <strong class="milestone-counter">Milestone 10:</strong> Compare the advantages and
   disadvantages of token-based authentication against session-based authentication. Justify why your
   choice of authentication scheme is the best for your application.
 </div>
@@ -1135,7 +1135,7 @@ unfamiliar and thus unable to assist with problems encountered with
 external frameworks/libraries.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 12:</strong>
+  <strong class="milestone-counter">Milestone 11:</strong>
   Justify your choice of framework/library by comparing it against others.
   Explain why the one you have chosen best fulfils your needs.
   Lastly, list down some (at least 5) of the mobile site design principles
@@ -1167,7 +1167,7 @@ suggestions. Ask your friends to use it as well to gather more feedback
 and ideas.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 13:</strong> Describe 3 common workflows
+  <strong class="milestone-counter">Milestone 12:</strong> Describe 3 common workflows
   within your application. Explain why those workflows were chosen over
   alternatives with regards to improving the user's overall experience with your
   application.
@@ -1226,7 +1226,7 @@ More information and examples at
 <https://developers.google.com/analytics/devguides/collection/analyticsjs/>.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 14:</strong> Embed Google Analytics
+  <strong class="milestone-counter">Milestone 13:</strong> Embed Google Analytics
   in your application and give us a screenshot of the report. Make sure you embed
   the tracker at least 48 hours before submission deadline as updates are reported once per day.
 </div>
