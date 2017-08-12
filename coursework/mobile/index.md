@@ -1231,6 +1231,35 @@ More information and examples at
   the tracker at least 48 hours before submission deadline as updates are reported once per day.
 </div>
 
+### Google Lighthouse
+
+To guide you in building more performant and accessible progressive web apps, 
+you can use Lighthouse to audit your app. This open source auditing tool provides
+scores, individual metrics and feedback for four categories:
+
+1.  **Progressive Web App** - To what extent your application can be considered a
+    progressive web application.
+
+2.  **Performance** - Audits to measure your application's overall performance.
+
+3.  **Accessibility** - Audits to improve the accessibility of your app. For example,
+    ensuring all image elements should have an alt attribute.
+
+4.  **Best Practices** - Advisory audits that provide recommendations to modernize
+    your app and counter performance pitfalls.
+
+Here are some links to get you started on using Lighthouse:
+
+- <https://developers.google.com/web/tools/lighthouse/>
+- <https://www.keycdn.com/blog/google-lighthouse/>
+- <https://youtu.be/NoRYn6gOtVo>
+
+<div class="box">
+  <strong class="milestone-counter">Milestone 14:</strong> Achieve a score of at 
+  least 90 for all categories and include the Lighthouse html report in your 
+  repository.
+</div>
+
 ## Phase 4: Coolness Factor
 
 > It's very easy to be different, but very difficult to be better.
@@ -1406,12 +1435,14 @@ contains the following:
     your answers to all compulsory milestones that require
     written answers.
 
-3.  A one/two-page pitch of your application,
+3.  Lighthouse `html` report, `group-<number>-lighthouse.html`.
+
+4.  A one/two-page pitch of your application,
     `group-<number>-pitch.pdf` to convince each teaching staff
     that your application is so good that it deserves full marks
     for coolness.
 
-4.  Proof of working application: either publish your application
+5.  Proof of working application: either publish your application
     publicly and provide a link to the main page of your application in
     your `README.md` file, or add all the teaching team members
     as co-developers of your application.
