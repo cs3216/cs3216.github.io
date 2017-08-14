@@ -1424,18 +1424,18 @@ contains the following:
     online somewhere. Make sure that your application name is clearly
     written in the `README` file.
 
-2.  A write-up, `group-<number>-milestones.pdf` containing
+1.  A write-up, `group-<number>-milestones.pdf` containing
     your answers to all compulsory milestones that require
     written answers.
 
-3.  Lighthouse `html` report, `group-<number>-lighthouse.html`.
+1.  Lighthouse `html` report, `group-<number>-lighthouse.html`.
 
-4.  A one/two-page pitch of your application,
+1.  A one/two-page pitch of your application,
     `group-<number>-pitch.pdf` to convince each teaching staff
     that your application is so good that it deserves full marks
     for coolness.
 
-5.  Proof of working application: either publish your application
+1.  Proof of working application: either publish your application
     publicly and provide a link to the main page of your application in
     your `README.md` file, or add all the teaching team members
     as co-developers of your application.
