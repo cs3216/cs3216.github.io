@@ -914,15 +914,6 @@ objects, one workaround is to store the object in stringified-JSON format.
 
 For a complete list of Web Storage's capability, visit <http://dev.w3.org/html5/webstorage/>.
 
-<div class="box">
-  <strong class="milestone-counter">Milestone 9a:</strong> Implement and briefly describe
-  the offline functionality of your application. Explain why the offline functionality of
-  your application fits users' expectations. State if you have used service workers, Web Storage,
-  or any other technology. Explain your choice. Make sure that you are able to run and use
-  the a reasonable subset of features of your application from the home screen without
-  any internet connection.
-</div>
-
 #### 3. Online/Offline Events
 
 Storing data is easy, the tricky part comes when having to deal with
@@ -966,9 +957,11 @@ but works fine on mobile browsers (Chrome). It is not the most reliable method o
 connectivity.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 9b:</strong> Implement and explain how you will
-  keep your client synchronised with the server if your application is being used offline.
-  Elaborate on the cases you have taken into consideration and how they will be handled.
+  <strong class="milestone-counter">Milestone 9:</strong> Implement and briefly describe the
+  offline functionality of your application. Explain why the offline functionality of your
+  application fits users' expectations. Implement and explain how you will keep your client
+  synchronised with the server if your application is being used offline. Elaborate on the
+  cases you have taken into consideration and how they will be handled.
 </div>
 
 ### Communicating with the Server
