@@ -914,15 +914,6 @@ objects, one workaround is to store the object in stringified-JSON format.
 
 For a complete list of Web Storage's capability, visit <http://dev.w3.org/html5/webstorage/>.
 
-<div class="box">
-  <strong class="milestone-counter">Milestone 9:</strong> Implement and briefly describe
-  the offline functionality of your application. Explain why the offline functionality of
-  your application fits users' expectations. State if you have used service workers, Web Storage,
-  or any other technology. Explain your choice. Make sure that you are able to run and use
-  the a reasonable subset of features of your application from the home screen without
-  any internet connection.
-</div>
-
 #### 3. Online/Offline Events
 
 Storing data is easy, the tricky part comes when having to deal with
@@ -966,9 +957,11 @@ but works fine on mobile browsers (Chrome). It is not the most reliable method o
 connectivity.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 10:</strong> Implement and explain how you will
-  keep your client synchronised with the server if your application is being used offline.
-  Elaborate on the cases you have taken into consideration and how they will be handled.
+  <strong class="milestone-counter">Milestone 9:</strong> Implement and briefly describe the
+  offline functionality of your application. Explain why the offline functionality of your
+  application fits users' expectations. Implement and explain how you will keep your client
+  synchronised with the server if your application is being used offline. Elaborate on the
+  cases you have taken into consideration and how they will be handled.
 </div>
 
 ### Communicating with the Server
@@ -1079,7 +1072,7 @@ be sufficient in most cases, but feel free to use any methods you deem fit. More
 found here: <https://jwt.io>
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 11:</strong> Compare the advantages and
+  <strong class="milestone-counter">Milestone 10:</strong> Compare the advantages and
   disadvantages of token-based authentication against session-based authentication. Justify why your
   choice of authentication scheme is the best for your application.
 </div>
@@ -1135,7 +1128,7 @@ unfamiliar and thus unable to assist with problems encountered with
 external frameworks/libraries.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 12:</strong>
+  <strong class="milestone-counter">Milestone 11:</strong>
   Justify your choice of framework/library by comparing it against others.
   Explain why the one you have chosen best fulfils your needs.
   Lastly, list down some (at least 5) of the mobile site design principles
@@ -1167,7 +1160,7 @@ suggestions. Ask your friends to use it as well to gather more feedback
 and ideas.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 13:</strong> Describe 3 common workflows
+  <strong class="milestone-counter">Milestone 12:</strong> Describe 3 common workflows
   within your application. Explain why those workflows were chosen over
   alternatives with regards to improving the user's overall experience with your
   application.
@@ -1226,9 +1219,38 @@ More information and examples at
 <https://developers.google.com/analytics/devguides/collection/analyticsjs/>.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 14:</strong> Embed Google Analytics
+  <strong class="milestone-counter">Milestone 13:</strong> Embed Google Analytics
   in your application and give us a screenshot of the report. Make sure you embed
   the tracker at least 48 hours before submission deadline as updates are reported once per day.
+</div>
+
+### Google Lighthouse
+
+To guide you in building more performant and accessible progressive web apps, 
+you can use Lighthouse to audit your app. This open source auditing tool provides
+scores, individual metrics and feedback for four categories:
+
+1.  **Progressive Web App** - To what extent your application can be considered a
+    progressive web application.
+
+2.  **Performance** - Audits to measure your application's overall performance.
+
+3.  **Accessibility** - Audits to improve the accessibility of your app. For example,
+    ensuring all image elements should have an alt attribute.
+
+4.  **Best Practices** - Advisory audits that provide recommendations to modernize
+    your app and counter performance pitfalls.
+
+Here are some links to get you started on using Lighthouse:
+
+- <https://developers.google.com/web/tools/lighthouse/>
+- <https://www.keycdn.com/blog/google-lighthouse/>
+- <https://youtu.be/NoRYn6gOtVo>
+
+<div class="box">
+  <strong class="milestone-counter">Milestone 14:</strong> Achieve a score of at 
+  least 90 for all categories and include the Lighthouse html report in your 
+  repository.
 </div>
 
 ## Phase 4: Coolness Factor
@@ -1402,16 +1424,18 @@ contains the following:
     online somewhere. Make sure that your application name is clearly
     written in the `README` file.
 
-2.  A write-up, `group-<number>-milestones.pdf` containing
+1.  A write-up, `group-<number>-milestones.pdf` containing
     your answers to all compulsory milestones that require
     written answers.
 
-3.  A one/two-page pitch of your application,
+1.  Lighthouse `html` report, `group-<number>-lighthouse.html`.
+
+1.  A one/two-page pitch of your application,
     `group-<number>-pitch.pdf` to convince each teaching staff
     that your application is so good that it deserves full marks
     for coolness.
 
-4.  Proof of working application: either publish your application
+1.  Proof of working application: either publish your application
     publicly and provide a link to the main page of your application in
     your `README.md` file, or add all the teaching team members
     as co-developers of your application.
