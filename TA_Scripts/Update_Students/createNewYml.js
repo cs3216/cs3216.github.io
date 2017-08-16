@@ -19,7 +19,8 @@ var oneLinerKey = 'One-liner'
 
 // Unless yml format or dir change, there should be no need to modify this
 var originalFileDir = '../../_data/students.yml'
-var csvToJson = require('./dependancies/csv.js')
+var csvToJson = require('csv-to-json')
+var slugify = require('slugify')
 var fs = require('fs')
 
 var obj = {
@@ -30,9 +31,9 @@ var callback = function (err, json) {
   if (err) {
     return console.error(err)
   }
-  // console.log(json)
-  json.map(function (value) {
-    value.id = value[nameKey].toLowerCase().replaceAll(' ', '-')
+
+  json.forEach(function (value) {
+    value.id = slugify(value[nameKey])
   })
 
   fs.readFile(originalFileDir, function (err, data) {
@@ -40,7 +41,6 @@ var callback = function (err, json) {
       return console.error(err)
     }
     var oldStr = data.toString()
-    // console.log(oldStr)
     var currDate = new Date()
     var thisYear = 1900 + currDate.getYear()
     var newStr = '- batch:\n  year: ' + thisYear + '\n  students:'
@@ -52,7 +52,6 @@ var callback = function (err, json) {
       newStr += '\n    one_liner: "' + student[oneLinerKey] + '"'
     }
     newStr += '\n' + oldStr
-    // console.log(newStr)
     fs.writeFile('students.yml', newStr, function (err) {
       if (err) {
         return console.error(err)
