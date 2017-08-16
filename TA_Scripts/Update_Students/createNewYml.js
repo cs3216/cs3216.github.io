@@ -33,7 +33,11 @@ var callback = function (err, json) {
   }
 
   json.forEach(function (value) {
-    value.id = slugify(value[nameKey])
+    value[nameKey] = value[nameKey].trim()
+    value.id = slugify(value[nameKey].toLowerCase())
+    value[facKey] = value[facKey].trim()
+    value[blogKey] = value[blogKey].trim()
+    value[oneLinerKey] = value[oneLinerKey].trim()
   })
 
   fs.readFile(originalFileDir, function (err, data) {
@@ -45,11 +49,11 @@ var callback = function (err, json) {
     var thisYear = 1900 + currDate.getYear()
     var newStr = '- batch:\n  year: ' + thisYear + '\n  students:'
     for (let student of json) {
-      newStr += '\n  - name: ' + student[nameKey]
-      newStr += '\n    id: ' + student.id
-      newStr += '\n    faculty: ' + student[facKey]
-      newStr += '\n    blog: ' + student[blogKey]
-      newStr += '\n    one_liner: "' + student[oneLinerKey] + '"'
+      newStr += `\n  - name: ${student[nameKey]}`
+      newStr += `\n    id: ${student.id}`
+      newStr += `\n    faculty: ${student[facKey]}`
+      newStr += `\n    blog: ${student[blogKey]}`
+      newStr += `\n    one_liner: "${student[oneLinerKey]}"`
     }
     newStr += '\n' + oldStr
     fs.writeFile('students.yml', newStr, function (err) {
@@ -61,8 +65,3 @@ var callback = function (err, json) {
 }
 
 csvToJson.parse(obj, callback)
-
-String.prototype.replaceAll = function (search, replacement) { // eslint-disable-line
-  var target = this
-  return target.split(search).join(replacement)
-}
