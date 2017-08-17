@@ -166,11 +166,6 @@
     faculty: Computing
     blog: https://ifonlytimecouldrewind.blogspot.sg/
     one_liner: "Sometimes I will do slightly crazy things out of randomness"
-  - name: Wong Beng Jui
-    id: wong-beng-jui
-    faculty: Engineering
-    blog: https://medium.com/@wongbengjui
-    one_liner: "Chemical Engineer turned Web Designer"
 - batch:
   year: 2017
   students:
