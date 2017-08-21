@@ -3,7 +3,7 @@
   students:
   - name: Aaron Ong Chong Shi
     id: aaron-ong-chong-shi
-    faculty: "FASS, Engineering, Business, Computing, SDE, Science"
+    faculty: "Yale"
     blog: https://aaronong.github.io/
     one_liner: "<script>alert(' I tried. I failed. I'm still trying. ')</script>"
   - name: Apoorva Ullas
