@@ -25,7 +25,7 @@
     id: chan-khan
     faculty: Computing
     blog: https://khan3216.wordpress.com/
-    one_liner: ""('eat', 'sleep', 'code')[random()] # def random(): return 2""
+    one_liner: "('eat', 'sleep', 'code')[random()] # def random(): return 2"
   - name: Charlton Lim
     id: charlton-lim
     faculty: Computing
@@ -40,12 +40,12 @@
     id: chua-lin-jing
     faculty: Computing
     blog: https://cs3216ana.wordpress.com/
-    one_liner: ""I like building stuff, reading stuff and swimming and as you can see I am not very creative lol""
+    one_liner: "I like building stuff, reading stuff and swimming and as you can see I am not very creative lol"
   - name: Curtis Tan Wei Jie
     id: curtis-tan-wei-jie
     faculty: Computing
     blog: https://niwrem3216.wordpress.com
-    one_liner: ""Try, fail, and strive again.""
+    one_liner: "Try, fail, and strive again."
   - name: Danielle Chan Xin Yun
     id: danielle-chan-xin-yun
     faculty: FASS
@@ -70,7 +70,7 @@
     id: jeremy-jee-de-sheng
     faculty: Computing
     blog: https://cs3216jeremy.wordpress.com/
-    one_liner: ""I'm a person who is always lost, always exploring and always discovering.""
+    one_liner: "I'm a person who is always lost, always exploring and always discovering."
   - name: Kushagra Goyal
     id: kushagra-goyal
     faculty: Computing
@@ -120,12 +120,12 @@
     id: ng-si-kai
     faculty: Computing
     blog: https://ngsikai.wordpress.com
-    one_liner: ""Music makes me lose control, Music makes me lose control""
+    one_liner: "Music makes me lose control, Music makes me lose control"
   - name: Oh Han Gyeol
     id: oh-han-gyeol
     faculty: Computing
     blog: https://han-gyeol.github.io/blog/
-    one_liner: ""My name is Han, just Han""
+    one_liner: "My name is Han, just Han"
   - name: Ong Jing Yin
     id: ong-jing-yin
     faculty: Computing
@@ -145,7 +145,7 @@
     id: stefano-chiesa-suryanto
     faculty: Computing
     blog: https://medium.com/@stefanocs/
-    one_liner: ""lowercase is so cool, i like it""
+    one_liner: "lowercase is so cool, i like it"
   - name: Tan Kai Meng Wilson
     id: tan-kai-meng-wilson
     faculty: Computing
@@ -160,7 +160,7 @@
     id: wang-riwu
     faculty: Computing
     blog: https://blog.nus.edu.sg/cs3216riwu/
-    one_liner: """"The only limit to your impact is your imagination and commitment.""""
+    one_liner: "The only limit to your impact is your imagination and commitment."
   - name: Won Jun Ru Daphne
     id: won-jun-ru-daphne
     faculty: Computing
