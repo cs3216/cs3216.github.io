@@ -6,13 +6,13 @@ title: Final Project
 <br>
 
 {:.table.table-bordered.table-striped.deadline-table}
-|Issue date &nbsp;| Monday, 18 September 2017 |
-|Team Formation Deadline &nbsp;| Monday, 25 September 2017 |
-|Proposal Due &nbsp;| Monday, 2 October 2017 |
-|Progress Report 1 &nbsp;| Monday, 16 October 2017 |
-|Progress Report 2 &nbsp;| Monday, 30 October 2017 |
-|Poster Session &nbsp;| Wednesday, 15 November 2017 |
-|Final Report &nbsp;| Sunday, 19 November 2017 |
+|Issue date &nbsp;| Monday, 18 September 2017, 23:59 |
+|Team Formation Deadline &nbsp;| Monday, 25 September 2017, 23:59 |
+|Proposal Due &nbsp;| Monday, 2 October 2017, 23:59 |
+|Progress Report 1 &nbsp;| Monday, 16 October 2017, 23:59 |
+|Progress Report 2 &nbsp;| Monday, 30 October 2017, 23:59 |
+|Poster Session &nbsp;| Wednesday, 15 November 2017, 23:59 |
+|Final Report &nbsp;| Sunday, 19 November 2017, 23:59 |
 
 ## General Overview
 
@@ -34,7 +34,7 @@ There are no limits on what students can do for the final problem, though the ex
 - An Internet of Things hack
 - An application to improve school life, something along the lines of NUSMods / NUSWhispers?
 
-The possibilities are endless. If you plan to develop a social networking application, you are expected to deploy your Final Project at least two to three weeks before the end of the semester because the "proof of the pudding is in the eating". You should get *real* people to use their applications and the popularity of their application1 can be (but is not the only) criteria for the evaluation.
+The possibilities are endless. If you plan to develop a social networking application, you are expected to deploy your Final Project at least two to three weeks before the end of the semester because the "proof of the pudding is in the eating". You should get *real* people to use your applications and the popularity of your application can be (but is not the only) criteria for the evaluation.
 
 If one of the apps you developed for one of the previous assignments turned out be to very popular (i.e. has lots of users or a high growth rate) or has perceived potential, you may also choose to further develop it as your Final Project. The only minor complication is that you might be "locked in" to work with same team members. We leave you to sort such things out by yourself.
 
@@ -42,7 +42,9 @@ If one of the apps you developed for one of the previous assignments turned out 
 
 People can be in two Final Project groups. This happens often when someone from an assignment group gets distracted and want to try something new, but cannot really bear to "leave their baby" and still want to be a part of that group. Fair enough.
 
-However, your Final Project grade will come from ONE project, that you will specify/declare right at the onset, i.e. by the end of the mid-term break. There rationale for this policy is that we don't want people to jump ship halfway and leave others high and dry. With this policy, everyone knows everyone's priorities. The "extra" members don't count towards the 4-member limit for a project team.
+However, your Final Project grade will come from *ONE* project, that you will specify/declare right at the onset, i.e. by the end of the mid-term break. There rationale for this policy is that we don't want people to jump ship halfway and leave others high and dry. With this policy, everyone knows everyone's priorities. The "extra" members don't count towards the 4-member limit for a project team.
+
+If you decide to work with external parties, we do not have any official guide on what compensation you should negotiate for. We leave it to you to decide for yourselves what is fair. However, DO NOT work for companies that clearly neither value nor respect you.
 
 ## Final Project Proposal
 
@@ -153,13 +155,15 @@ The Final Project is worth 40% of the total grade for CS3216. The Final Project 
 - 40% Poster Presentation (awarded by the panel of judges)
 - 30% Final Report
 
-The fact that 40% of the grade for the Final Project is determined by the outcome of your poster presentation might make it seem somewhat random and arbitrary, but this mimics life. Success comes not only from how well you do something, but from how well you can sell it (or convince suckers to buy your stuff even if it's completely useless and they don't actually need it 😜). This is also where the marketing people make themselves useful.
+The fact that 40% of the grade for the Final Project is determined by the outcome of your poster presentation might make it seem somewhat random and arbitrary, but this mimics life. Success comes not only from how well you do something, but from how well you can sell it (or convince suckers to buy your stuff even if it's completely useless and they don't actually need it 😜). This is also where the marketing people make themselves useful. You are graded on quality and relevance of your posters, your sales pitch, marketing collaterals, quality of your apps, etc.
+
+For those of you doing external projects your team is treated as a consultancy. You are graded by how well you manage your consultancy. E.g., frequency of meetings with your clients, quality of questions asked, quality of solutions proposed, and how you negotiate your compensation package. For those doing your own project you are treated as a startup. We assess you on how well you manage your market validation, how well you design your marketing campaign, how you go out and bring in users, etc.
 
 ## Mode of Submission
 
 The following is the list of deliverables to be pushed to your Bitbucket repository:
 
-1. Source code
+1. Source code.
 2. You should also upload a copy of your poster to your repository.
 3. Proof of working application: You may either
   (a) Publish the application publicly (in the application settings, untick the Developer Mode); or
@@ -167,6 +171,6 @@ The following is the list of deliverables to be pushed to your Bitbucket reposit
   In both cases, you should provide us with a link to your application's canvas page.
 4. Your Final Project report, in PDF format.
 
-Push all of the above to your Bitbucket repository. Any clarifications and questions related to this assignment should be posted to the CS3216 Slack channel "#ay1617-project".
+Push all of the above to your Bitbucket repository. Any clarifications and questions related to this assignment should be posted to the CS3216 Slack channel "#ay1718-project".
 
 Good luck, have fun. Live long and prosper!
