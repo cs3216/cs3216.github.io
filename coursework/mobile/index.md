@@ -146,7 +146,7 @@ following components:
   for jobs from clients to come in. After processing these requests,
   the server may inform the client of its success or return relevant
   information to be shown to the user.
-  
+
 3. **Database** - The database does exactly what we would expect of it
   in any other context, which is to store all of the
   application's data.
@@ -1226,7 +1226,7 @@ More information and examples at
 
 ### Google Lighthouse
 
-To guide you in building more performant and accessible progressive web apps, 
+To guide you in building more performant and accessible progressive web apps,
 you can use Lighthouse to audit your app. This open source auditing tool provides
 scores, individual metrics and feedback for four categories:
 
@@ -1248,8 +1248,8 @@ Here are some links to get you started on using Lighthouse:
 - <https://youtu.be/NoRYn6gOtVo>
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 14:</strong> Achieve a score of at 
-  least 90 for all categories and include the Lighthouse html report in your 
+  <strong class="milestone-counter">Milestone 14:</strong> Achieve a score of at
+  least 90 for all categories and include the Lighthouse html report in your
   repository.
 </div>
 
@@ -1274,7 +1274,7 @@ more desirable to use.
 
 Social platforms like Facebook, Instagram and Twitter receive billions
 of users every month, majority of whom are on mobile devices. Where
-else can you find the potential to reach so many people without a 
+else can you find the potential to reach so many people without a
 single cent spent on advertising?
 
 Integrating Facebook Login can help potential users overcome the inertia
@@ -1440,7 +1440,8 @@ contains the following:
     your `README.md` file, or add all the teaching team members
     as co-developers of your application.
 
-Clarifications and questions related to this assignment should
-be posted to the CS3216 Slack channel "#ay1718-assg3".
+Not following the submission instructions (e.g. incorrect file naming) will result in deduction of marks.
+
+Clarifications and questions related to this assignment should be posted to the CS3216 Slack channel "#ay1718-assg3".
 
 Good luck and have fun!
