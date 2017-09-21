@@ -1440,7 +1440,7 @@ contains the following:
     your `README.md` file, or add all the teaching team members
     as co-developers of your application.
 
-Not following the submission instructions (e.g. incorrect file naming) will result in deduction of marks.
+**Not following the submission instructions (e.g. incorrect file naming) will result in deduction of marks.**
 
 Clarifications and questions related to this assignment should be posted to the CS3216 Slack channel "#ay1718-assg3".
 

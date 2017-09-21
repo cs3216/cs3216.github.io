@@ -171,8 +171,8 @@ The following is the list of deliverables to be pushed to your Bitbucket reposit
   In both cases, you should provide us with a link to your application's canvas page.
 4. Your Final Project report, in PDF format.
 
-Push all of the above to your Bitbucket repository. Not following the submission
-instructions (e.g. incorrect file naming) will result in deduction of marks.
+Push all of the above to your Bitbucket repository.
+**Not following the submission instructions (e.g. incorrect file naming) will result in deduction of marks.**
 
 Clarifications and questions related to this assignment should be posted to the CS3216 Slack channel "#ay1718-project".
 

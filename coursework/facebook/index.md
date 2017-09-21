@@ -1504,8 +1504,8 @@ contains the following:
     as co-developers of your application.
 
 As a final reminder, there are a total of **16 milestones** (excluding Milestone 0)
-in this assignment. 2 of these milestones are optional. Not following the
-submission instructions (e.g. incorrect file naming) will result in deduction of marks.
+in this assignment. 2 of these milestones are optional.
+**Not following the submission instructions (e.g. incorrect file naming) will result in deduction of marks.**
 
 Clarifications and questions related to this assignment should be posted to the CS3216 Slack channel `#ay1718-assg1`.
 
