@@ -3,7 +3,7 @@
   students:
   - name: Aaron Ong Chong Shi
     id: aaron-ong-chong-shi
-    faculty: "Yale"
+    faculty: Yale
     blog: https://aaronong.github.io/
     one_liner: "&lt;script&gt;alert(' I tried. I failed. I'm still trying. ')&lt;/script&gt;"
   - name: Apoorva Ullas
@@ -83,7 +83,7 @@
     one_liner: "I play code and write bridge"
   - name: Lau Shi Jie
     id: lau-shi-jie
-    faculty: Business n fass
+    faculty: Business, FASS
     blog: http://cs3216shijie.blogspot.com/
     one_liner: "I like to sleep."
   - name: Li Zihan
