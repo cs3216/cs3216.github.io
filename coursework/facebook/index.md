@@ -6,9 +6,9 @@ title: Assignment 1 - Life of a Facebook Application
 <br>
 
 {:.table.table-bordered.table-striped.deadline-table}
-|Issue date&nbsp;| Monday, 14 August 2017 |
-|Mid-assignment submission &nbsp;| Friday, 25 August 2017, 23:59 |
-|Final submission &nbsp;| Friday, 8 September 2017, 23:59 |
+|Issue date&nbsp;| Monday, 13 August 2018 |
+|Mid-assignment submission &nbsp;| Friday, 24 August 2018, 23:59 |
+|Final submission &nbsp;| Friday, 7 September 2018, 23:59 |
 
 ## General Overview
 
@@ -253,7 +253,7 @@ because resources that are required on every page such as
 stylesheets and utilty JavaScript codes only has to be loaded once during the initial page load.
 Fewer server requests means a faster application and reduced load on your servers.
 
-Popular JavaScript MVC frameworks include Angular, Ember and Backbone.
+Popular JavaScript MVC frameworks include React, Angular, Vue and Ember.
 A comparison of frameworks can be seen here: <http://todomvc.com/>, where the same Todo
 application is being built using MV* concepts in the different popular frameworks.
 We highly recommend that you choose a JavaScript framework to structure the
@@ -1438,7 +1438,7 @@ towards the remaining 30%.
 This assignment has 2 key deliverables: a mid-assignment submission and
 the final submission itself.
 
-### Mid-assignment Submission (due Friday, 25 August 2017, 23:59):
+### Mid-assignment Submission (due Friday, 24 August 2018, 23:59):
 
 -   A short write-up on your application idea and execution plans
     (see Milestone 1). **Restrictions:** no longer than a double-sided
@@ -1459,7 +1459,7 @@ the final submission itself.
 
 -   Answers to the bonus milestones (if you decide to attempt them.)
 
-### Final Submission (due Friday, 8 September 2017, 23:59):
+### Final Submission (due Friday, 7 September 2018, 23:59):
 
 -   Completion of all compulsory milestones (up to Milestone 14).
     Submit your answers in a write-up and categorize your answers by the
@@ -1507,7 +1507,7 @@ As a final reminder, there are a total of **16 milestones** (excluding Milestone
 in this assignment. 2 of these milestones are optional.
 **Not following the submission instructions (e.g. incorrect file naming) will result in deduction of marks.**
 
-Clarifications and questions related to this assignment should be posted to the CS3216 Slack channel `#ay1718-assg1`.
+Clarifications and questions related to this assignment should be posted to the CS3216 Slack channel `#ay1819-assg1`.
 
 Good luck and have fun!
 
