@@ -15,7 +15,7 @@ title: Assignment 2 - Innovation Seminar
 
 ## General Overview
 
-In order to build good and original applications, it is important to learn what other people have already done — and think critically about what is good and bad, as well as explore ways to improve and to generate new ideas. In addition, it is important to learn how to articulate one's ideas in a clear and succinct way both orally and in writing. The application seminar is designed to help students (i) identify innovative ideas; (ii) gain a better understanding of existing applications; (iii) learn how to present (or sell one's ideas) and (iv) learn how to articulate their ideas in writing.
+In order to build good and original applications, it is important to learn what other people have already done — and think critically about what is good and bad, as well as explore ways to improve and to generate new ideas. In addition, it is important to learn how to articulate one's ideas in a clear and succinct way both orally and in writing. The innovation seminar is designed to help students (i) identify innovative ideas; (ii) gain a better understanding of existing applications; (iii) learn how to present (or sell one's ideas) and (iv) learn how to articulate their ideas in writing.
 
 There is a French think-tank, funded by UNESCO and the French Senate that looks out for digital innovations worldwide called Netexplo (https://www.netexplo.org/en/intelligence/?limit=200). You will form groups of up to 4 people and each team please try to find a new innovation that has not yet been identified the past by Netexplo. 
 
