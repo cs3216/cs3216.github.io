@@ -6,7 +6,7 @@ title: Assignment 2 - Innovation Seminar
 <br>
 
 {:.table.table-bordered.table-striped.deadline-table}
-|Issue date &nbsp;| Monday, 19 August 2018 |
+|Issue date &nbsp;| Monday, 20 August 2018 |
 |Innovation submission &nbsp;| Wednesday, 22 August 2018, 23:59 |
 |Slides submission &nbsp;| Sunday, 2 September 2018, 23:59 |
 |Presentation &nbsp;| Monday, 3 September 2018, 18:30 |
