@@ -9,8 +9,6 @@ title: Assignment 1 - Product Design
 |Issue date&nbsp;| Monday, 20 August 2018 |
 |Final submission &nbsp;| Sunday, 2 September 2018, 23:59 |
 
-# Assignment 1 - Product Design
-
 ## General Overview
 
 In this assignment, you will put on your designer hat and learn how to design a software product, coming up with ideas, features and designs. You will be guided on the various phases in designing your (possibly first) tech product.
