@@ -7,7 +7,7 @@ title: Assignment 1 - Product Design
 
 {:.table.table-bordered.table-striped.deadline-table}
 |Issue date&nbsp;| Monday, 20 August 2018 |
-|Final submission &nbsp;| Friday, 31 August 2018, 23:59 |
+|Final submission &nbsp;| Sunday, 2 September 2018, 23:59 |
 
 # Assignment 1 - Product Design
 
@@ -55,7 +55,7 @@ Throughout this assignment, we will refer to user flows. In traditional user int
 
 ## Phase 1 - User Requirements Gathering
 
-Every good app / platform / website / service begins with a problem they are looking to solve for a target user. As this assignment is due on **3 Sep 2018**, we recommend you pick a target user who is abundantly available around you, e.g. your fellow NUS students. This way you can easily conduct your user testing.
+Every good app / platform / website / service begins with a problem they are looking to solve for a target user. As this assignment is due on **2 Sep 2018**, we recommend you pick a target user who is abundantly available around you, e.g. your fellow NUS students. This way you can easily conduct your user testing.
 
 Study your users. Think of a problem/pain point you think they are facing now. List down the problem/pain point and assumptions you have about:
 
@@ -232,7 +232,7 @@ A well-developed app has many moving components - log in, sign up, active, inact
 
 ### More testing! More iterations!
 
-Similar to milestone 5, you must now test your high fidelity prototype with real users. At this stage, your prototype should be more complete, so there should be less shuffling around paper or clicking through slides. You can still step in for the computer for any screens or states which you have not added to the prototype, or for interactions like drag and drop which are less easy to prototype, but there should be less intervention on your part.
+Similar to milestone 6, you must now test your high fidelity prototype with real users. At this stage, your prototype should be more complete, so there should be less shuffling around paper or clicking through slides. You can still step in for the computer for any screens or states which you have not added to the prototype, or for interactions like drag and drop which are less easy to prototype, but there should be less intervention on your part.
 
 As you should already be fairly confident in your information structure and basic user interaction, you can instead focus on design details, usability and user experience. For instance, you may wish to check if the chosen color and design of your primary [call to action](https://en.wikipedia.org/wiki/Call_to_action_%28marketing%29) button is sufficiently differentiated and noticeable. However, remember that the primary goal of the testing is still to observe the user interact with the app. If you need to ask specific questions about elements of the design which the user did not comment on during testing, you should only do so at the end of the test.
 
@@ -307,7 +307,7 @@ Also, students who dutifully follow all the instructions above and hit all the r
 
 ### Mode of submission
 
-By **3 Sep 2018 23:59** hrs you should upload the following to Coursemology:
+By **2 Sep 2018 23:59** hrs you should upload the following to Coursemology:
 
 - Your write up named `group-<number>-milestones.pdf` containing the answers to milestones 1-4 and 10-11.
 - Your mockups and testing results - zipped together - named `group-<number>-mockups.zip`
