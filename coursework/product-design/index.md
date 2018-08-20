@@ -191,7 +191,7 @@ Remain as neutral as possible during testing. Only ask follow-up questions **aft
 * Why did you click here and not there? What did you expect to happen when you clicked here?
 * You seemed lost on this page. Why were you lost? What did you expect to happen?
 
-Rinse and repeat with three to five different users.
+Rinse and repeat with three to five [^2] different users.
 
 <div class="box">
   <strong class="milestone-counter">Milestone 6:</strong> Record the results gathered from this round of interview. Save these into the "Draft 1" folder together with the sketches.
@@ -321,3 +321,4 @@ Clarifications and questions related to this assignment should be posted to the 
 Good luck and have fun!
 
 [^1]: See <https://blog.ycombinator.com/minimum-viable-product-process/>
+[^2]: Does this seem too small a sample? See [Why You Only Need to Test with 5 Users](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/)
