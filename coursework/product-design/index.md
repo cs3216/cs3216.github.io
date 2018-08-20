@@ -175,7 +175,7 @@ Now it's time to put your draft design to the test! The test we are conducting i
 
 ### Playing the Wizard of Oz
 
-Test with only one user at a time, not a group. This is to avoid one user’s actions and opinions from influencing the results of other users.
+You may find it easier go out in pairs to conduct this form of testing. One of you need to act as the computer, so you need a second person to record your results. Test with only one user at a time, not a group. This is to avoid one user’s actions and opinions from influencing the results of other users.
 
 Ask them for five to ten minutes of their time, and if they agree, start by giving them a little context for what you are about to show them. For instance, if the app in question is NUSMods, you might tell them that they have just received a link from a friend telling them to check out a new app for organizing their NUS timetable. You may also give them an explicit goal to accomplish, such as "you would like to sign up for an account".
 
@@ -212,11 +212,11 @@ As you iterate your design, remember to refine your sketches and improve their q
 
 ## Phase 4 - Design Mockups + More Iterations
 
-Now that you have the basic information architecture and s user interactions planned out, it is time to add meat to your wireframe. Convert your wireframe into a high fidelity prototype using your chosen prototyping tool.
+Now that you have the basic information architecture and user interactions planned out, it is time to add meat to your wireframe. Convert your wireframe into a high fidelity prototype using your chosen prototyping tool.
 
 <div class="box"><strong>Note:</strong> If you feel that you are not ready for this stage yet, you may perform more rounds of design iteration and user testing. Be sure to include the results and name the folders appropriately.</div>
 
-Compared to a low fidelity prototype, a high fidelity prototype will usually look similar to how the final app will turn out. Colors, fonts, logos, images and user interface elements from the target platform are used in place of wire boxes.
+Compared to a low fidelity prototype, a high fidelity prototype will usually look similar to how the final app will turn out. Colors, fonts, logos, images and user interface elements from the target platform are used in place of wire boxes. Testing with a high fidelity prototype should be the next best thing from testing with a working prototype. This allows for stronger [suspension of disbelief](https://www.nngroup.com/articles/authentic-behavior-in-user-testing/), allowing the user to act more realistically.
 
 ![](img/mobile-design-mockup.png)
 
@@ -224,7 +224,11 @@ Compared to a low fidelity prototype, a high fidelity prototype will usually loo
 
 You may find it useful to develop a set of shared assets such as the app's logo, color scheme, font and common UI widget so your mockup looks coherent when are built by different members of the team.
 
-Since a high fidelity mockup tries to emulate the final product as much as possible, you should try to make your prototype interactive too. Your chosen prototyping tool should allow the user to directly click on elements, which should transition the prototype to the next screen or state.
+Since a high fidelity mockup tries to emulate the final product as much as possible, you should try to make the prototype itself interactive too. Your chosen prototyping tool should allow the user to directly click on elements, which should transition the prototype to the next screen or state. This also frees you from acting as the computer, which gives you more time to observe the user instead.
+
+![](img/travel-design-mockup.png)
+
+<small>Source: <http://www.tifftam.co/goji/></small>
 
 A well-developed app has many moving components - log in, sign up, active, inactive states and so on. While you do not have to include every single possibility that your user will encounter, it should be sufficient for your users to test it satisfactorily.
 
@@ -236,12 +240,13 @@ A well-developed app has many moving components - log in, sign up, active, inact
 
 Similar to milestone 6, you must now test your high fidelity prototype with real users. At this stage, your prototype should be more complete, so there should be less shuffling around paper or clicking through slides. You can still step in for the computer for any screens or states which you have not added to the prototype, or for interactions like drag and drop which are less easy to prototype, but there should be less intervention on your part.
 
-As you should already be fairly confident in your information structure and basic user interaction, you can instead focus on design details, usability and user experience. For instance, you may wish to check if the chosen color and design of your primary [call to action](https://en.wikipedia.org/wiki/Call_to_action_%28marketing%29) button is sufficiently differentiated and noticeable. However, remember that the primary goal of the testing is still to observe the user interact with the app. If you need to ask specific questions about elements of the design which the user did not comment on during testing, you should only do so at the end of the test.
+As you should already be fairly confident in your information structure and basic user interaction, you can instead focus on design details, usability and user experience. For instance, you may wish to check if the chosen color and design of your primary [call to action](https://en.wikipedia.org/wiki/Call_to_action_%28marketing%29) button is sufficiently differentiated and noticeable. In addition, because you are using "production" colors, fonts and UI elements, you can test for a wider range of issues, such as legibility, affordance[^3] and engagement.
+
+ However, remember that the primary goal of the testing is still to observe the user interact with the app. If you need to ask specific questions about elements of the design which the user did not comment on during testing, you should only do so at the end of the test.
 
 <div class="box">
   <strong class="milestone-counter">Milestone 8b (Optional):</strong> Conduct two more rounds of user testing and iteration sessions. This means you should have "Draft 3" and "Draft 4", each with their mockups, and their associated user testing results.
 </div>
-
 
 ## Final Mockups & Assignment Write-up
 
@@ -305,7 +310,7 @@ Videos are not the only way to market an app - to obtain marks in the coveted 30
 
 In view that this is a brand new assignment, the detailed grading scheme is still being worked out by the teaching staff. We ask for your kind understanding. It is possible that the scheme would evolve as we grade, but not to worry, this assignment is only worth 10% of the final grade and the goal is learn the Product Design process, so don't fret over the grading.
 
-Also, students who dutifully follow all the instructions above and hit all the required milestones will obtain 70% of the grade. The remaining 30% will be awarded based on the relative outcomes for the various teams. The top team might be awarded up to 30% while the worst performing team less than 5%.
+Also, students who dutifully follow all the instructions above and hit all required milestones will obtain 70% of the grade. The remaining 30% will be awarded based on the relative outcomes for the various teams. The top team might be awarded up to 30% while the worst performing team less than 5%.
 
 ### Mode of submission
 
@@ -314,11 +319,14 @@ By **2 Sep 2018 23:59** hrs you should upload the following to Coursemology:
 - Your write up named `group-<number>-milestones.pdf` containing the answers to milestones 1-4 and 10-11.
 - Your mockups and testing results - zipped together - named `group-<number>-mockups.zip`
 
-Failure to adhere to these instructions will result in the deduction of marks. Only one member of your group needs to submit on Coursemology on behalf of your group.
+As a final reminder, you should have written answers for **six milestones**, **three to four folders** each containing mockup draft, user testing results and conclusions, and **one final mockup** submission.  **Failure to adhere to these instructions will result in the deduction of marks.** Only one member of your group needs to submit on Coursemology on behalf of your group.
 
 Clarifications and questions related to this assignment should be posted to the CS3216 Slack channel [#ay1819-assg1](https://cs3216.slack.com/messages/CC6UD93KJ/).
 
 Good luck and have fun!
 
+------------------------------------
+
 [^1]: See <https://blog.ycombinator.com/minimum-viable-product-process/>
 [^2]: Does this seem too small a sample? See [Why You Only Need to Test with 5 Users](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/)
+[^3]: *Affordances* are an object's properties that show the possible actions users can take with it, thereby suggesting how they may interact with that object.
