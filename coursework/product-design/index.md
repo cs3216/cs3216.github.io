@@ -70,6 +70,10 @@ List the above in a *user persona* card. A persona is a fictional representation
 3. Age, gender, current occupation
 4. Answers to the problem / pain point and questions above
 
+![](img/persona.jpg)
+
+<small>Source: <https://uxdesign.cc/meetup-a-usability-case-study-e909c33f1e3e></small>
+
 You can fill in more information if you feel it can help you visualize your product, such as personality, brand affiliation, life goals and aspirations, level of experience with technology and more. The goal of the user persona is to allow you to think in the shoes of your user, so try to include details that make this easy.
 
 <div class="box">
