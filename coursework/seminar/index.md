@@ -47,9 +47,11 @@ Following the presentation, there will be a short Q&A session opened to the rest
 
 After listening to all the presentations, each student will be randomly assigned to write about one of the applications that was presented (but not his/her own presentation), and have to blog about the following:
 
-1. Summary of what the presenting team said about the application that you think is most important. Don't just regurgitate the entire presentation. Focus on say three points and explain why you are of the view that they are the most important points. (15%)
+1. Summary of what the presenting team said about the application that you think is most important. Don't just regurgitate the entire presentation. Focus on say three points and explain why you are of the view that they are the most important points. (10%)
 
-2. What are your (original) thoughts? (10%)
+2. Was the presentation effective? Did the group show that they fully internalize the presentation techniques discussed in Lecture 3? (10%)
+
+3. What are your (original) thoughts? (10%)
 
 The fun part is that the assignment of the presentation each student has to write about will be done only AFTER all the presentations are over. This means that every student will have to pay attention to every presentation 😎. Those who like Russian Roulette are welcome to play and sleep for some presentations.
 
@@ -61,7 +63,7 @@ You are of course also welcome to blog about other aspects of the app seminar an
 
 Once all the application critiques are submitted, a new Forum will appear and you will post your critique there. You will read the critiques written by your coursemates and have an online discussion. If your coursemates think that the innovation that your team picked is not innovative, then you should try to convince them otherwise. 
 
-Just bear in mind that goal of CS3216 is to learn. You do not do better in this segment of the assignment by being really nasty and running your coursemates down. Be civil. Be polite. Be kind. If others post comments disagreeing with you, do not be too defensive. All these comments should be posted by by **9 Sep 2018 23:59** (Sunday).
+Just bear in mind that goal of CS3216 is to learn. You do not do better in this segment of the assignment by being really nasty and running your coursemates down. Be civil. Be polite. Be kind. If others post comments disagreeing with you, do not be too defensive. All these comments should be posted by by **2 Sep 2018 23:59** (Sunday).
 
 How many comments should you post? As many as you think is appropriate and sufficient to earn the 10% grade for this part of the assignment.
 
@@ -73,8 +75,8 @@ You also get points if your friends come post stuff on your post. The idea here 
 
 The following are the weightages for the two components:
 
-- 55% Group presentation
-- 25% Application critique (what you write in your post)
+- 50% Group presentation
+- 30% Application critique (what you write in your post)
 - 10% Mutual critique (comments people post on your post)
 - 10% Mutual critique (comments you post on people's post)
 
