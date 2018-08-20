@@ -17,9 +17,9 @@ title: Assignment 2 - Innovation Seminar
 
 In order to build good and original applications, it is important to learn what other people have already done — and think critically about what is good and bad, as well as explore ways to improve and to generate new ideas. In addition, it is important to learn how to articulate one's ideas in a clear and succinct way both orally and in writing. The innovation seminar is designed to help students (i) identify innovative ideas; (ii) gain a better understanding of existing applications; (iii) learn how to present (or sell one's ideas) and (iv) learn how to articulate their ideas in writing.
 
-There is a French think-tank, funded by UNESCO and the French Senate that looks out for digital innovations worldwide called Netexplo (https://www.netexplo.org/en/intelligence/?limit=200). You will form groups of up to 4 people and each team please try to find a new innovation that has not yet been identified the past by Netexplo. 
+There is a French think-tank, funded by UNESCO and the French Senate that looks out for digital innovations worldwide called Netexplo (<https://www.netexplo.org/en/intelligence/?limit=200>). You will form groups of up to 4 people and each team please try to find a new innovation that has not yet been identified the past by Netexplo. 
 
-Before you meet as a group, each member is to try his/her hand at identifying a recent innovation. Your group is to then meet to discuss to finally decide on the most innovative application and make a presentation about it to the rest of the class on **3 Sep 2018**. Each team is to put up their choice of the most innovative application on the innovation seminar groupings page on the Course Wiki (https://mysoc.nus.edu.sg/~wiki/index.php/CS3216_Innovation_Seminar_Grouping_2018) as soon as possible (latest by 29 Aug 2018) because duplication is not allowed and it will be first come, first served. Please double check that your team's choice has not been taken up by another group before you add to the Wiki. Tie-breakers would be decided based on the Wiki timestamps. 
+Before you meet as a group, each member is to try his/her hand at identifying a recent innovation. Your group is to then meet to discuss to finally decide on the most innovative application and make a presentation about it to the rest of the class on **3 Sep 2018**. Each team is to put up their choice of the most innovative application on the innovation seminar groupings page on the Course Wiki (<https://mysoc.nus.edu.sg/~wiki/index.php/CS3216_Innovation_Seminar_Grouping_2018>) as soon as possible (latest by 29 Aug 2018) because duplication is not allowed and it will be first come, first served. Please double check that your team's choice has not been taken up by another group before you add to the Wiki. Tie-breakers would be decided based on the Wiki timestamps. 
 
 ## Grading and Admin
 
@@ -84,7 +84,7 @@ Overall, the application seminar is worth 10% of your final grade.
 
 The slides for the presentation should be named `group-<number>-seminar.{pptx|key}` and uploaded to Coursemology by 2 Sep 23:59 (Sunday), because we will be downloading the slides to project on screen during class. The application critiques should be submitted within 24 hours of the innovation seminar, by **4 September 2018 23:59** (Tuesday). Your comments for the mutual critique part should be done by  **9 Sep 2018 23:59** (Sunday).
 
-**Marks will be deducted if you fail to follow the submission instructions (e.g. incorrect file naming). **
+**Marks will be deducted if you fail to follow the submission instructions (e.g. incorrect file naming).**
 
 Clarifications and questions related to this assignment should be posted to the CS3216 Slack channel "#ay1819-assg2".
 
