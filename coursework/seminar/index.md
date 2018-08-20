@@ -49,7 +49,7 @@ After listening to all the presentations, each student will be randomly assigned
 
 1. Summary of what the presenting team said about the application that you think is most important. Don't just regurgitate the entire presentation. Focus on say three points and explain why you are of the view that they are the most important points. (10%)
 
-2. Was the presentation effective? Did the group show that they fully internalize the presentation techniques discussed in Lecture 3? (10%)
+2. Was the presentation effective? Did the group show that they fully internalize the presentation techniques discussed in Lecture 3 (PUNCH->WIIFY->Plan)? (10%)
 
 3. What are your (original) thoughts? (10%)
 
