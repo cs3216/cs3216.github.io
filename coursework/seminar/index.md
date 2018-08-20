@@ -57,7 +57,7 @@ The fun part is that the assignment of the presentation each student has to writ
 
 This is not a literature class and you are not required to write in poetry. We only ask that you think carefully about what you heard and express your ideas clearly. Points will not be taken off for typos or grammatical ideas as long as the ideas are expressed clearly and can be understood easily. There is no minimum length, but do have some mercy on your poor lecturer and try to keep within what would be 2 pages of A4 if it was a typed report. What matters is not how much you write, but the quality of your thoughts and ideas and how much you actually learnt from the process.
 
-You are of course also welcome to blog about other aspects of the app seminar and also about lessons learnt in addition to this assignment. The application critique should be submitted on Coursemology by **4 September 2018 23:59** (i.e. the next day).
+You are of course also welcome to blog about other aspects of the app seminar and also about lessons learnt in addition to this assignment. The application critique should be submitted on Coursemology by **28 August 2018 23:59** (i.e. the next day).
 
 ## Mutual Critique
 
