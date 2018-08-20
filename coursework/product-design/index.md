@@ -29,7 +29,7 @@ Please do not hesitate to approach the friendly CS3216 staff if you need further
 
 The objective of this assignment is to ideate and design an app that solves a real problem, and use empirical user testing to validate your idea and design. Your team will pick and target an audience to solve their problems. You will need to think critically about the features and user interactions within the product, and how each of these supports the user in solving the problem. This is followed by interviewing them to iterate on improving the design and user interactions. The final product will be a document that is sufficiently detailed to be handed off to a developer to be turned into the final working app.
 
-<div class="box">Warning: Please read the entire assignment before starting.</div>
+<div class="box"><strong>Warning:</strong> Please read the entire assignment before starting.</div>
 
 ## Phase 0
 
@@ -104,7 +104,7 @@ In general, remember that you are building a Minimum Viable Project (MVP) [^1]. 
 
 A good example is Instagram, which if you follow their [product timeline](https://en.wikipedia.org/wiki/Timeline_of_Instagram), they hit 100k users in a week without things like hashtags and explore.
 
-<div class="box">Note: Remember, less is more. If you come up with fifteen features, you are doing it wrong! There should definitely be less than ten features that meet your three primary user goals.</div>
+<div class="box"><strong>Note:</strong> Remember, less is more. If you come up with fifteen features, you are doing it wrong! There should definitely be less than ten features that meet your three primary user goals.</div>
 
 At the same time, you should not miss out on the essentials such as authentication and settings, or the lack thereof. A large part of WhatsApp's popularity was due to simply having the phone number as the user account and their focus on the core essentials of messaging!
 
@@ -214,7 +214,7 @@ As you iterate your design, remember to refine your sketches and improve their q
 
 Now that you have the basic information architecture and s user interactions planned out, it is time to add meat to your wireframe. Convert your wireframe into a high fidelity prototype using your chosen prototyping tool.
 
-<div class="box">Note: If you feel that you are not ready for this stage yet, you may perform more rounds of design iteration and user testing. Be sure to include the results and name the folders appropriately.</div>
+<div class="box"><strong>Note:</strong> If you feel that you are not ready for this stage yet, you may perform more rounds of design iteration and user testing. Be sure to include the results and name the folders appropriately.</div>
 
 Compared to a low fidelity prototype, a high fidelity prototype will usually look similar to how the final app will turn out. Colors, fonts, logos, images and user interface elements from the target platform are used in place of wire boxes.
 
