@@ -8,10 +8,10 @@ title: Assignment 2 - Innovation Seminar
 {:.table.table-bordered.table-striped.deadline-table}
 |Issue date &nbsp;| Monday, 20 August 2018 |
 |Innovation submission &nbsp;| Wednesday, 22 August 2018, 23:59 |
-|Slides submission &nbsp;| Sunday, 2 September 2018, 23:59 |
-|Presentation &nbsp;| Monday, 3 September 2018, 18:30 |
-|Application critiques &nbsp;| Tuesday, 4 September 2018, 23:59 |
-|Mutual critiques &nbsp;| Sunday, 9 September 2018, 23:59 |
+|Slides submission &nbsp;| Sunday, 26  August 2018, 23:59 |
+|Presentation &nbsp;| Monday, 27 August 2018, 18:30 |
+|Application critiques &nbsp;| Tuesday, 28 August 2018, 23:59 |
+|Mutual critiques &nbsp;| Sunday, 2 September 2018, 23:59 |
 
 ## General Overview
 
@@ -82,7 +82,7 @@ Overall, the application seminar is worth 10% of your final grade.
 
 ## Mode of Submission
 
-The slides for the presentation should be named `group-<number>-seminar.{pptx|key}` and uploaded to Coursemology by 2 Sep 23:59 (Sunday), because we will be downloading the slides to project on screen during class. The application critiques should be submitted within 24 hours of the innovation seminar, by **4 September 2018 23:59** (Tuesday). Your comments for the mutual critique part should be done by  **9 Sep 2018 23:59** (Sunday).
+The slides for the presentation should be named `group-<number>-seminar.{pptx|key}` and uploaded to Coursemology by 2 Sep 23:59 (Sunday), because we will be downloading the slides to project on screen during class. The application critiques should be submitted within 24 hours of the innovation seminar, by **28 August 2018 23:59** (Tuesday). Your comments for the mutual critique part should be done by  **2 Sep 2018 23:59** (Sunday).
 
 **Marks will be deducted if you fail to follow the submission instructions (e.g. incorrect file naming).**
 
