@@ -31,7 +31,7 @@ Please do not hesitate to approach the friendly CS3216 staff if you need further
 
 The objective of this assignment is to ideate and design an app that solves a real problem, and use empirical user testing to validate your idea and design. Your team will pick and target an audience to solve their problems. You will need to think critically about the features and user interactions within the product, and how each of these supports the user in solving the problem. This is followed by interviewing them to iterate on improving the design and user interactions. The final product will be a document that is sufficiently detailed to be handed off to a developer to be turned into the final working app.
 
-> Warning: Please read the entire assignment before starting.
+<div class="box">Warning: Please read the entire assignment before starting.</div>
 
 ## Phase 0
 
@@ -46,7 +46,7 @@ Note that you are not limited to using InVision. You can use Powerpoint, or even
 </div>
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 0b (Not graded):</strong> Read through <http://albancarmet.com/portfolio/elly/>. This is to understand the importance of the User-Centered Design process and why we are forcing you to do this assignment in a certain way.
+  <strong class="milestone-counter">Milestone 0b (Not graded):</strong> Read through <a href="http://albancarmet.com/portfolio/elly/">http://albancarmet.com/portfolio/elly/</a>. This is to understand the importance of the User-Centered Design process and why we are forcing you to do this assignment in a certain way.
 </div>
 
 ### A note about terminology
@@ -55,7 +55,7 @@ Throughout this assignment, we will refer to user flows. In traditional user int
 
 ## Phase 1 - User Requirements Gathering
 
-Every good app/platform/website/service begins with a problem they are looking to solve for a target user. As this assignment is due on **3 Sep 2018**, we recommend you pick a target user who is abundantly available around you: e.g. your fellow NUS students. This way you can easily conduct your user testing.
+Every good app / platform / website / service begins with a problem they are looking to solve for a target user. As this assignment is due on **3 Sep 2018**, we recommend you pick a target user who is abundantly available around you, e.g. your fellow NUS students. This way you can easily conduct your user testing.
 
 Study your users. Think of a problem/pain point you think they are facing now. List down the problem/pain point and assumptions you have about:
 
@@ -126,6 +126,8 @@ You might also find pattern libraries useful. A pattern library is a collection 
 Other good resources for design inspiration include [Dribbble](https://dribbble.com/) and [Behance](https://www.behance.net/), they are websites used by designers to showcase their work. You could think of them as LinkedIn for designers.
 
 ------------------------------------------
+
+<br>
 
 Now it is time to get your hands dirty!
 
@@ -271,7 +273,7 @@ Great examples of attractive landing pages can be found at:
 - [12 Great Landing Page Examples You'll Want to Copy](https://blog.hubspot.com/marketing/fantastic-landing-page-examples)
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 10:</strong> Design and launch a landing page for your app that is hosted on [GitHub pages](https://pages.github.com/). It should have a sign up form for users to indicate interest (it doesn't have to actually save any data).
+  <strong class="milestone-counter">Milestone 10:</strong> Design and launch a landing page for your app that is hosted on <a href="https://pages.github.com/">GitHub pages</a>. It should have a sign up form for users to indicate interest (it doesn't have to actually save any data).
 </div>
 
 Use a CSS framework like [Bulma](https://bulma.io/) or [Bootstrap](https://getbootstrap.com/) to save yourself some time. Remember that the design has to be attractive and that your message has to be succinct! You can even consider landing page creators like [MailChimp landing pages](https://mailchimp.com/features/landing-pages/) to skip all the work.
@@ -316,4 +318,4 @@ Clarifications and questions related to this assignment should be posted to the 
 
 Good luck and have fun!
 
-[^1]: https://blog.ycombinator.com/minimum-viable-product-process/
+[^1]: See <https://blog.ycombinator.com/minimum-viable-product-process/>
