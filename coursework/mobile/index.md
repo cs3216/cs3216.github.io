@@ -6,8 +6,8 @@ title: Assignment 3 - Mobile Cloud Application
 <br>
 
 {:.table.table-bordered.table-striped.deadline-table}
-|Issue date&nbsp;| Monday, 4 September 2017 |
-|Final submission &nbsp;| Friday, 29 September 2017, 23:59 |
+|Issue date&nbsp;| Monday, 3 September 2018 |
+|Final submission &nbsp;| Friday, 28 September 2018, 23:59 |
 
 ## General Overview
 
@@ -1398,7 +1398,7 @@ That leaves you with 14 compulsory milestones and each of them is worth 5%.
 The bonus milestones and the optional milestones will contribute
 towards the remaining 30%.
 
-### Final Submission (due Friday, 29 September 2017, 23:59):
+### Final Submission (due Friday, 28 September 2018, 23:59):
 
 -   Completion of all compulsory milestones. Submit your answers in a
     write-up and categorise your answers by the milestones they
