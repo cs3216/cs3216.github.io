@@ -64,7 +64,7 @@ with the following strengths:
 ## Grading and Admin
 
 This assignment can be done in groups of three or four students. If you
-are unable find yourself a group, you will be randomly assigned one.
+are unable to find yourself a group, you will be randomly assigned one.
 
 This assignment is highly open-ended. We provide milestones so that we can grade
 your application in a consistent way, even though everyone would be building different apps. This
@@ -92,7 +92,7 @@ expect that you (pleasantly!) surprise us with what you are capable of
 doing. Do note that features must fit the aim of your application;
 ideally it should be seamlessly integrated.
 
-For example, geolocation might be the latest and coolest feature supported by most mobile
+For example, WebVR and geolocation might be the latest and coolest feature supported by most mobile
 browsers but it may not contribute to the user experience in a document
 editor. In fact, implementing features for the sake of doing so may work
 against you (and your grades) by confusing the user.
@@ -107,8 +107,7 @@ The high-level goal of this assignment is simple: a working Progressive Web Appl
 that utilizes the capabilities of a mobile device and
 is able to persist the users' data in the cloud. Your task is to demonstrate that
 you can design and implement RESTful APIs, as well as build a Progressive Web Application
-that consumes your API. You can use any backend language and/or framework you desire,
-but we will be providing examples in PHP.
+that consumes your API. You can use any backend language and/or framework you desire.
 
 Remember, your goal is not to do a lot of work. Your goal is to use this
 opportunity to make a difference. If you can make a difference by just
@@ -132,20 +131,22 @@ handout.
 > – Ben Leong
 
 This assignment comprises 4 weeks of intensive learning that provides
-you with another opportunity to express your creativity. This time, we
-would be focussing on mobile cloud applications, typically with the
+you with another opportunity to express your creativity. We
+will be focusing on mobile cloud applications, typically with the
 following components:
 
-1. **Clients** - Clients reside on mobile devices belonging to users, It
+1. **Clients** - Clients reside on mobile devices belonging to users. They
   could be (1) native applications, which run only on their intended
   platforms or (2) HTML5 web applications with the potential to work
   on any device with a HTML5-enabled browser. The client application
-  provides the user with an interface to view and manipulate data.
+  provides the user with an interface to view and manipulate data. For
+  this assignment you will be building a web app, _not_ a native app.
 
-2. **Server** - The server, where intensive computation is done, waits
-  for jobs from clients to come in. After processing these requests,
-  the server may inform the client of its success or return relevant
-  information to be shown to the user.
+2. **Server** - The server runs on the cloud and serves data to the client.
+  For example, transactions on an e-commerce app are requested by the client
+  and processed on the server. Often, heavier computations such as video
+  transcoding are also handed by the server because the computational power
+  of mobile web browsers are limited.
 
 3. **Database** - The database does exactly what we would expect of it
   in any other context, which is to store all of the
@@ -159,7 +160,7 @@ so that the service scales. You may read more about distributed systems
 in this [article](https://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/).
 Several server instances can be run simultaneously while using load balancers
 to split the work evenly among them. Data can also be replicated over
-several databases and/or distributed based on pre-defined hash functions
+several databases and/or sharded based on pre-defined hash functions
 for higher reliability and availability. Such are issues to consider as you
 extend your reach to more users but in this assignment we shall start small.
 In its simplest form, a mobile cloud application can be hosted with the server
@@ -171,14 +172,14 @@ You will not need to rewrite your server if you need to cater to a new client
 
 ![Server - Client - Database](img/structure1.png){:.assignment-img}
 
-Normally, users would download the clients from the online application
+On a native iOS/Android app, users will normally download the clients from the online application
 stores for their respective platforms. In our case, the workflow differs
 a little from native applications. Since our client is created with
 **HTML5** and supporting web technologies such as
 **JavaScript** and **CSS3**, it is essentially
-a normal web page with a few quirks. During the user's first visit to
+a web page. During the user's first visit to
 the site, we will tell the browser to quietly download and save the
-program for future use. **Service Worker** will help to retain resources
+program for future use. A **Service Worker** will help to retain resources
 resources through the **Cache API**, which could then be used to serve the
 "web page" in the absence of an internet connection.
 
@@ -187,13 +188,11 @@ resources through the **Cache API**, which could then be used to serve the
 When this happens, the client can operate with limited functionality
 when it is offline and communicate with the server using
 **AJAX** calls while it has internet access. Requests
-typically take the form of **JSON-** or
-**XML-formatted** messages and they contain details of a
+typically take the form of **JSON-formatted** messages and they contain details of a
 job to be processed by the server, such as querying the database for
 some information or to update its records. The server then replies with
 a similarly formatted message response, which the client is responsible
-for decoding and notifying the user of. **PHP** has
-built-in functions to support database queries as well as JSON messages.
+for decoding and displaying to the user.
 
 ## Phase 1: Design
 
@@ -213,14 +212,14 @@ to keep this many people waiting any longer is simply evil.
 Before you jump into developing the specifications of your application,
 a very important question to ask yourself is, "Does my application solve
 any problem for the users?" An application that has many superfluous
-features does not make it any useful. Just because your application has
+features does not make it useful. Just because your application has
 a cool concept or uses the latest technology does not guarantee that the
 initial users who joined out of curiosity will stay on. On the contrary,
 if a less fancy but more practical solution makes the user's life
 easier, it is more likely that the user will be retained. Solve a
 problem that people care about, solve it well, and fans of your
 application will naturally accumulate. Your users become your fans that will
-help you spread message about your application via word-of-mouth.
+help you spread the message about your application via word-of-mouth.
 
 <div class="box">
   <strong class="milestone-counter">Milestone 0:</strong>
@@ -247,13 +246,11 @@ application's objectives.
   implement your application as a mobile cloud application?
 </div>
 
-Unlike the Facebook application you have developed in the first
-assignment, your mobile cloud application does not have a ready-made
-social network to leverage. It is no good to have a killer app that
+It is no good to have a killer app that
 nobody uses. Hence, you will need to think a little harder about how you
 plan to "market" your app to potential users. You must identify your
 target users, determine the relevance of your application to them
-(i.e. why should they care about your application) and explain how you
+(i.e. why they should care about your application) and explain how you
 plan to reach out and persuade them to use your application.
 
 In order to promote the use of your application, good marketing
@@ -283,18 +280,89 @@ Now that you have a solid idea of what you want to build, it is a good
 time to pick a suitable name for your mobile cloud application if you
 haven't already done so.
 
-### Database Planning
+### An Overview of Relational Databases
 
-Make sure you take some time to plan a good schema design. Having to
-change the schema and code later can be a painful process, more so if
-you already have a considerably large user base. Refer to the first
-assignment if you need a quick recap on relational databases. Remember
-the principle of **design once use forever**.
+A relational database is a type of database that models stored data as
+tables with columns and rows. It is called "relational" because you can
+link a table to another table through *foreign keys*.
+
+In this section, we will be going through simple relational database
+concepts. There are some other more advanced concepts that you can read up online.
+
+A database application may store several *databases*. Hence, while each
+application will usually use its own database, several applications may
+share the same database application running on the same server (e.g. if
+you and a friend each have a blog, even if each blog needs 1 database
+you could still house both blogs on the same MySQL instance).
+
+Visualizing a database at the highest level, we think about a *schema*,
+which is basically a blueprint of the database's tables, their
+structural details, and the relationships between them.
+
+Schemas define two things: *tables* and *relations*. Tables contain one
+or more columns each. For example, we can imagine a
+`students` table containing 5 columns:
+`matric_no`, `name`, `address`,
+`phone`, `birthdate`. Each column has a `type`
+that you need to specify (e.g. `name` is of type text,
+`birthdate` is of type date). Actual data will then be simply
+stored as rows in the table.
+
+Each row needs to be uniquely identifiable. If two rows happen to be
+completely identical, you will run into trouble trying to update or
+delete them since there is no way to pinpoint exactly which one you
+mean. Thus, we usually have a column (or a set of columns in
+combination) that we require to be unique for each row. We call this the
+*primary key*. In the `students` table example, the
+`matric_no` column is an excellent candidate for primary key
+since no two students share the same matric number. MySQL (and any other
+proper database system) will prevent you from inserting a row if there
+already exists another row with an identical primary key.
+
+Relations indicate relationships between tables. For example, suppose we
+add a `home_faculties` table containing two columns:
+`matric_no` and `faculty` – a simple mapping of
+student to faculty. We can link this table to the previous
+`students` table using the `matric_no` column,
+which both tables share. We say that `matric_no` in the
+`home_faculties` table is a *foreign key* that *references*
+the `matric_no` column in the `students` table.
+Note that a foreign key column set must reference a primary key column
+set of another table. Note also that our two-table set up allows
+students to become members of two faculties (e.g. when doing double
+degrees). It would not be possible to fully go through all the details about relational database concepts in here. For a better or further understanding,
+you might want to look up additional readings about the topic online.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 3:</strong>
-  Draw an Entity-Relationship diagram for your database schema.
+  What is the primary key of the <code>home_faculties</code> table? <em>(Not graded)</em>
 </div>
+
+Other important concepts include *indexed columns* (allowing searches to
+be fast), *unique keys* (enforcing uniqueness for non-primary key
+columns), and relation cascades (where deleting a student from the
+`students` table can automatically update/delete all entries
+in other tables that reference this table). It's up to you to learn about all these on your own.
+
+After this section, you should be ready to produce a schema
+for your application. Do consider how efficient your schema will be;
+specifically, think about the number of queries required to accomplish
+common tasks and the number of tables accessed to complete a single user
+query. Your schema should be graphical, and should indicate clearly the
+table names, column names/types, primary keys, and relationships.
+
+You should remember that as a rule of thumb, database schemas should be
+designed with a **design once use forever** principle in mind. You should
+spend a good amount of thinking on a good schema design, after which you
+should not need to come back and make drastic changes to it. Make sure you take some time to plan a good schema design. Having to
+perform a large schema migration when you realize your original schema wasn't flexible enough to support some feature can be a painful process, especially so if you already have a considerably large user base.
+
+<div class="box">
+  <strong class="milestone-counter">Milestone 3:</strong> Draw an Entity-Relationship diagram for your database schema.
+</div>
+
+(Tip: If you are using MySQL Workbench, there is a feature to [automatically create an EER diagram
+from your existing database schema](https://dev.mysql.com/doc/workbench/en/wb-importing-sql-script.html). You may simply export this as a PNG file and include this in your
+milestone submission.)
 
 ### RESTful API
 
@@ -318,13 +386,11 @@ state of the client and every message to the server must contain all
 necessary information to process the request. Not having persistent
 connections or complex states means that the service can be set up using
 simple web servers, and requests can be distributed across multiple
-servers for greater scalability. You may have noticed that the Facebook
-Graph API falls under this category.
+servers for greater scalability.
 
-Requests and responses can take many forms: **XML** and
-**JSON** are just two of the most common formats. Note that
+Requests and responses can take many forms: **JSON** is the most common format. Note that
 the request and response may not necessarily be in the same format. For
-example, when uploading a photo using the Facebook Graph API,
+example, when uploading a photo to a site, ordinarily a request with type
 `multipart/form-data` is sent while the reply containing the
 photo ID is in JSON. We now take a quick detour to explore the JSON
 format since it is one of the easier ones to handle.
@@ -362,7 +428,7 @@ a dictionary and `[ ]` an array.
 
 JSON is already supported by all modern browsers and server-side
 scripting languages so you do not need to implement it yourself, but if
-you want to know more details, visit <http://www.json.org>.
+you want to know more, visit <http://www.json.org>.
 
 Going back to the API, one way to start planning it is to write down a
 list of functionalities (which require server interaction) that you would
@@ -405,7 +471,7 @@ Next, for every operation, you establish a triplet which describes it:
 
     As limited as these request methods may seem, they are actually
     sufficient to describe any operation. Consider a request to make
-    a purchase. Though there is no BUY method, we do not append an
+    a purchase. Though there is no `buy` method, we do not append an
     action to the URL (`POST /products/buy`). Why make things
     more complicated when we already have a clean and built-in way of
     representing the operation? Instead, buying a product can be thought
@@ -440,11 +506,7 @@ articles and discussions online regarding RESTful API design. Note that
 this topic is highly opinionated, with many differing opinions on what
 constitutes REST. It is not necessary to go to great lengths to follow
 every single rule, but you must be able to justify your decisions with
-regards to your application's needs. It is also recommended that you
-revisit [Facebook's Graph API](https://developers.facebook.com/docs/graph-api>),
-which conforms rather well to REST principles. In particular, observe their choice of HTTP request
-methods, how their relative URLs are structured as well as parameters
-passed. If you have a ton of time (which you probably don't), you can read up on
+regards to your application's needs. If you have a ton of time (which you probably don't), you can read up on
 this lengthy but informative [Microsoft REST API Guidelines](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md).
 
 It is important to design the API contract between the client and
@@ -457,11 +519,11 @@ for both your client-side and server-side developers to reference.
 
 <div class="box">
   <strong class="milestone-counter">Milestone 4:</strong>
-  Design and document all your REST API. The documentation should
+  Design and document all your REST API. If you already use Apiary to collaborate within your team, you can simply submit an Apiary link. The documentation should
   describe the requests in terms of the triplet mentioned above.
-  Do provide us with a brief explanation on the purpose of each request for reference.
+  Do provide us with an explanation on the purpose of each request for reference.
   Also, explain how your API conforms to the REST principles and why
-  you have chosen to ignore certain practices (if any.)
+  you have chosen to ignore certain practices (if any). You will be penalized if your design violates principles with no good reasons.
 </div>
 
 ## Phase 2: REST Server
@@ -471,9 +533,7 @@ for both your client-side and server-side developers to reference.
 > – Drew Houston
 
 Now that you are done with the planning, it is time to turn your design
-into a usable product. In this section, mini tutorials will be provided
-to get you started on implementing your REST server in PHP. Since the
-client is probably required to test much of the server's functionality
+into a usable product. Since the client is probably required to test much of the server's functionality
 (the reverse is also true), you are advised to split the work well among
 your teammates to develop the server and the client communication components concurrently.
 
@@ -481,86 +541,44 @@ To test out server-side APIs, a popular tool out there is [Postman](https://www.
 Postman provides a user-friendly interface to construct your API requests to the servers;
 certainly easier than `cURL`-ing from the command line!
 
-### Getting Started
+You will have to read up on how to implement REST endpoints on your back-end
+stack of choice. Here are links to starting guides for some common frameworks:
+* [Ruby on Rails](https://guides.rubyonrails.org/api_app.html)
+* [ExpressJS](https://www.codementor.io/wapjude/creating-a-simple-rest-api-with-expressjs-in-5min-bbtmk51mq)
 
-The following is a simple "Hello World" REST service provider for a very
-minimal social networking site. This should take you less than 5 minutes
-to complete.
+### SQL: Querying the Database
 
-~~~
-<?php
-$data = array(
-  'id' => '0',
-  'name' => 'Bob',
-  'friends' => array(
-    array('id' => '1', 'name' => 'Andy'),
-    array('id' => '2', 'name' => 'John')
-  )
-);
-header('Content-Type: application/json');
-echo json_encode($data);
-~~~
+Any decent web application should do more
+than returning a hard-coded array. Most of the time, you will have to query the database
+and construct the JSON response from the database result.
 
-Upload the newly-created file to your AWS instance and navigate to the
-URL in your browser. You should see the following text:
+SQL is a standard language designed to manage a database and to retrieve
+or store data in a database. In addition to SQL, most database systems
+will have several additional SQL-like commands that are used to perform
+specific administrative tasks like adding new users or modifying
+passwords.
 
-~~~
-{
-  "id": "0",
-  "name": "Bob",
-  "friends": [
-    {
-      "id": "1",
-      "name": "Andy"
-    }, {
-      "id": "2",
-      "name": "John"
-    }
-  ]
-}
-~~~
+MySQL provides commands you can use to
+create and alter databases and tables, and also commands you can use to
+insert, update, delete, and retrieve rows from tables. We call the
+former "data definition language" (DDL), and the latter "data
+manipulation language" (DML). You should *never* run DDL commands from
+publicly accessible pages.
 
-Congratulations, you have just built your first REST service provider.
-
-The JSON extension, which ships with PHP 5.2.0 or later, provides us
-with functions that convert data between a PHP array and a JSON string.
-In the above example, we see that `json_encode` converted our array with
-Bob's data into a JSON string. It works on both indexed or associative
-arrays, and even objects as well. More information and examples at:
-<http://sg.php.net/manual/en/book.json.php>
-
-### Database Queries
-
-We have seen that dealing with JSON in PHP is trivial using only
-built-in functions. However, any decent web application should do more
-than returning a hard-coded array. As the built-in functions do not
-support the query resource directly, the rows have to be fetched
-individually and added to an array.
-
-~~~
-<?php
-// Set up database connection first...
-
-$res = $mysqli->query("SELECT...");
-
-while ($row = $res->fetch_assoc($res)) {
-  $array[] = $row;
-}
-
-header('Content-Type: application/json');
-echo json_encode($array);
-~~~
+Most of time, it is not a good idea to write raw SQL queries yourself. We recommend that you look up
+database connectors and ORM tools for the language/framework you intend to use.
 
 <div class="box">
   <strong class="milestone-counter">Milestone 5:</strong> Share with us some queries (at least 3)
   in your application that require database access. Provide the <em>actual SQL queries</em>
   you use (if you are using an <a href="https://www.wikiwand.com/en/Object-relational_mapping">ORM</a>,
-  find out the underlying query) and explain how it works.
+  find out the underlying query and provide both the ORM query and the underlying SQL query).
+  Explain what the query is supposed to be doing.
 </div>
 
 ### HTTP Request Methods
 
-Now that we can use the results from queries, we can move on to
+Now that we can obtain the results from the database queries, we can move on to
 providing the actual API for the client to use. We can do so by handling
 the common HTTP request methods used in REST services: `GET`, `PATCH`, `PUT`,
 `POST` and `DELETE`. As mentioned earlier, `GET` retrieves a resource, `PATCH`
@@ -579,20 +597,15 @@ receiving end knows how to handle it.
 >
 > – Jack Ma
 
-With a HTML5 application, native functionality and libraries on the
-device cannot be directly accessed. However, this does allow your
-application to be used by any device with a modern web browser. In this
+While a HTML5 application can be used by any device with a modern web browser, the immediate tradeoff is that our HTML5 application cannot directly access some of the native functionality and libraries on the device. In this
 section, you will learn how to create a simple Progressive Web App, that is,
 a HTML5 client that is able to work even while the device does not have an internet connection.
 
 ### Progressive Web Apps
 
-As you would have already learnt about HTML5 from your first assignment, only new
-ideas which apply to mobile devices will be discussed here. In recent years, Google has
-been pushing for the concept of [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/).
-
-Progressive Web Applications take advantage of new technologies to bring the best of mobile
-sites and native applications to users. Progressive Web Apps are:
+In recent years, Google has
+been pushing the concept of [Progressive Web Apps](https://developers.google.com/web/progressive-web-apps/). Progressive Web Applications take advantage of new technologies to bring the best of mobile
+sites and native applications to users. They are:
 
 - **Progressive** - Work for every user, regardless of browser choice because they're built with progressive enhancement as a core tenet.
 - **Responsive** - Fit any form factor: desktop, mobile, tablet, or whatever is next.
@@ -607,7 +620,7 @@ sites and native applications to users. Progressive Web Apps are:
 
 Source: <https://developers.google.com/web/fundamentals/getting-started/your-first-progressive-web-app/>
 
-It is recommended that you go through this [short tutorial](https://developers.google.com/web/fundamentals/getting-started/your-first-progressive-web-app/) on making your first Progressive Web App.
+It is recommended that you go through this [short tutorial](https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/) on making your first Progressive Web App.
 
 Next we'll be exploring some of the features that constitutes a progressive web app.
 
@@ -622,7 +635,7 @@ shortcut of a web page to their home screen.
 
 In iOS and Android devices, it is possible to run these shortcuts in a
 standalone browser window without the browser's UI controls. This allows
-web applications added to home screen to more space to work with and
+web applications added to home screen to have more space to work with and
 look as if they were native applications. Special metadata tags have
 been developed to allow developers to set icons, splash screens and even
 the colour of the device's status bar. As much as users may like your
@@ -632,7 +645,7 @@ to shortcut your application, capitalise on their goodwill by making it
 easy for them to return to your application.
 
 You can find the documentation for doing that on [Safari](https://developer.apple.com/library/safari/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html)
-and [Chrome](https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest).
+and [Chrome](https://developers.google.com/web/fundamentals/web-app-manifest/).
 If you plan to release your application, it is a good idea to do the same for other platforms that
 we may not have covered here.
 
@@ -651,7 +664,7 @@ Your team (or maybe just your user interface designer) should spend some
 time designing a good UI; a good UI helps keep users. Although the
 functionality of your application is important, the way that it provides
 the functionality is just as important. Users will not continue using an
-application that is difficult to use, regardless how technically
+application that is difficult to use, regardless of how technically
 superior your application is or what functionality it provides. If your
 users do not like it, they simply won't use it.
 
@@ -660,8 +673,8 @@ cases, you will quickly know if your UI makes or breaks it. It's common
 sense!
 
 After the UI has been designed, the UI needs to be implemented.
-Cascading Style Sheets (CSS) would be used, since the application is in
-actuality a fancy web page. All styles should be contained within CSS
+Cascading Style Sheets (CSS) would be used, since the application is
+actually just a fancy web page. All styles should be contained within CSS
 files, linked to the main page using `<link>` tags. It is generally a bad
 practice to mix CSS with HTML.
 
@@ -714,8 +727,8 @@ served via HTTPS in order to make use of service workers. More on that later �
   <strong class="milestone-counter">Milestone 8:</strong>
   Set up HTTPS for your application, and also redirect users to the <code>https://</code> version if the user
   tries to access your site via <code>http://</code>. HTTPS doesn’t automatically make your end-to-end communication secure.
-  Name 3 best practices for adopting HTTPS for your application.
-  Explain the term "certificate pinning" and discuss the pros and cons of adopting it.
+  List 3 best practices for adopting HTTPS for your application.
+  Explain the term "certificate pinning" and discuss the pros and cons of adopting it, as well as justify your choice whether or not to use it in your app.
 </div>
 
 ### Offline Operability and Data Persistence
@@ -750,13 +763,13 @@ intercept the request and responding to them, whether through the network or
 cache, helps to provide a consistent experience even when there is no connection.
 
 <div class="box">
-  <strong>Warning</strong>: Support for service workers are still in development
-  which may result in browser compatibility issues. Check out
+  <strong>Warning</strong>: Support for service workers are relatively new and are still in development, which may result in browser compatibility issues. Most features have been implemented in modern
+  browsers. Check out
   <a href="https://jakearchibald.github.io/isserviceworkerready">
   https://jakearchibald.github.io/isserviceworkerready</a> for the current state of support.
 </div>
 
-If the targeted browser does not support service workers, your application should degrade gracefully!
+Even if the targeted browser does not support service workers, your application should still degrade gracefully!
 Offline support is just a good-to-have; the core functionality of your site should still work!
 
 To get started, we first need to register a service worker with our browser. Create two files:
@@ -789,7 +802,7 @@ In order for your application to work offline, the service worker will need to
 have all the files related to your application. When your application page is
 visited for the first time, an <strong>install</strong> event will be fired. The service
 worker can then listen to this event and cache the required files through
-the **Cache Api** (<https://developer.mozilla.org/en-US/docs/Web/API/Cache>).
+the **Cache API** (<https://developer.mozilla.org/en-US/docs/Web/API/Cache>).
 
 Add the following code to `service-worker.js` to handle the install event:
 
@@ -840,7 +853,7 @@ self.addEventListener('fetch', function (event) {
 ~~~
 
 In this example, the event request is match against the cache for a cached response. If a corresponding
-response is found, the cached response will be return instantly. If not, the request will be pass on
+response is found, the cached response will be return instantly. If not, the request will be passed on
 to the server to retrieve the response.
 
 **Cache Management**
@@ -866,7 +879,7 @@ This is just a basic introduction to service workers, which can be utilized more
 more comprehensive Progressive Web App experiences. For example, rather than caching everything during the
 **install** phase, we could also cache new request progressively as the user explores around the application.
 Service workers can also handle the **push** event, which can be useds to create web notifications that will
-create it a native-like experience. More info can be found [here](https://developers.google.com/web/fundamentals/getting-started/push-notifications/).
+create it a native-like experience. More info can be found [here](https://developers.google.com/web/fundamentals/push-notifications/).
 
 There are tons of resources available online for service workers. Here are a few resources to kickstart your
 learning process:
@@ -912,12 +925,12 @@ console. We can also clear the `localStorage` object or remove a
 specific key/value pair. As Web Storage does not support storing
 objects, one workaround is to store the object in stringified-JSON format.
 
-For a complete list of Web Storage's capability, visit <http://dev.w3.org/html5/webstorage/>.
+For a complete list of Web Storage's capability, visit <https://html.spec.whatwg.org/multipage/webstorage.html>.
 
 #### 3. Online/Offline Events
 
 Storing data is easy, the tricky part comes when having to deal with
-synchonisation of states between the client and server.
+synchronisation of states between the client and server.
 
 How does the server update a client when it connects with outdated data?
 How will a client post outstanding jobs when it goes online? What
@@ -1091,7 +1104,7 @@ thing that comes to mind. By making your application native-like, its
 learning curve becomes less steep. In addition, a lot of research has
 been done by the mobile device creators to arrive at the current
 interface, we are less likely to make design mistakes by replicating it.
-Read about this [research study](https://developers.google.com/web/fundamentals/getting-started/principles/)
+Read about this [research study](https://developers.google.com/web/fundamentals/design-and-ux/principles/)
 by Google and AnswerLab.
 
 How can we emulate a native application? As part of the goal to improve
@@ -1168,15 +1181,9 @@ and ideas.
 
 ### Google Analytics
 
-Just like the Facebook application, you might be interested in the usage
-statistics of your application. Where Facebook applications have access
-to Facebook Insights, which provides a lot more information about your
-application, there is no standard approach to performing analytics on a
-HTML5 site.
-
-Google Analytics is one popular platform. It can be set up easily, as
-you have already done in Assignment 1. The following examples are using
-the new `analytics.js` snippet, part of Universal Analytics.
+You should be interested in the usage
+statistics of your application. Google Analytics is one popular way to collect insights. It can be set up easily -- the following examples are using
+the `analytics.js` snippet, part of Universal Analytics.
 
 If your application's interface is predominantly built with a JavaScript MVC
 framework, it is very likely that you have a Single-Page Application; one html page with all
@@ -1186,7 +1193,7 @@ Pages can still be tracked using Virtual Pageviews by executing the following co
 for more information.
 
 ~~~
-ga('send', 'pageview', '/your_virtual_page_path');
+ga('set', 'pageview', '/your_virtual_page_path');
 ~~~
 
 **Event Tracking** can provide more fine-grained control
@@ -1209,11 +1216,13 @@ see immediate results. There are however, signs to check that your
 application is being tracked:
 
 1.  Check the Network tab in the developer tools provided by your
-    browser. Every time a tracked page or event occurs, a new `GET`
-    request to `/collect` should appear.
+    browser. Every time a tracked page or event occurs, a new GA
+    request should appear.
 
 2.  Use "Real-Time" mode in the Analytics dashboard, which allows you to
     view activities on your application in near real-time.
+    
+3.  Use the official Google Analytics Debugger [Chrome Extension](https://chrome.google.com/webstore/detail/google-analytics-debugger/jnkmfdileelhofjcijamephohjechhna) (recommended)
 
 More information and examples at
 <https://developers.google.com/analytics/devguides/collection/analyticsjs/>.
@@ -1240,6 +1249,8 @@ scores, individual metrics and feedback for four categories:
 
 4.  **Best Practices** - Advisory audits that provide recommendations to modernize
     your app and counter performance pitfalls.
+    
+5.  **SEO** - Audits to estimate how well your page is optimized for search engine results ranking.
 
 Here are some links to get you started on using Lighthouse:
 
@@ -1249,7 +1260,7 @@ Here are some links to get you started on using Lighthouse:
 
 <div class="box">
   <strong class="milestone-counter">Milestone 14:</strong> Achieve a score of at
-  least 90 for all categories and include the Lighthouse html report in your
+  least 90 for the Progressive Web App category and include the Lighthouse html report in your
   repository.
 </div>
 
@@ -1356,7 +1367,7 @@ Showing the user his coordinates may hardly be of any use to him at all.
 You could take it up one level by plotting it on a map and perhaps places of interest near hi.
 
 For complete documentation of Geolocation API and Google Maps, visit
-<https://dev.w3.org/geo/api/spec-source.html> and
+<https://w3c.github.io/geolocation-api/> and
 <https://developers.google.com/maps/documentation/javascript/reference>
 respectively. [Mapbox](https://www.mapbox.com/) is a nice alternative to plotting maps and
 allow more customization of the map for more UI goodness.
@@ -1392,7 +1403,7 @@ Here are some useful links:
 
 The grading of the assignment is divided into two components: satisfying
 the compulsory milestones (70%) and coolness factor (30%). Excluding Milestone 0,
-there are **16 milestones** in total: two are optional (Milestones 15 and 16).
+there are **16 milestones** in total: two are optional (Milestones 15 and 16).
 That leaves you with 14 compulsory milestones and each of them is worth 5%.
 
 The bonus milestones and the optional milestones will contribute
@@ -1414,7 +1425,7 @@ towards the remaining 30%.
 **For the final submission**, please make sure your Git repository
 contains the following:
 
-1.  Place the `README.md` file in the root directory. Bitbucket
+1.  Place the `README.md` file in the root directory. Github
     will automatically render it on your repository's front page. You
     may wish to style it using any of the supported markup languages.
     The file should contain the list of group members, including
@@ -1442,6 +1453,6 @@ contains the following:
 
 **Not following the submission instructions (e.g. incorrect file naming) will result in deduction of marks.**
 
-Clarifications and questions related to this assignment should be posted to the CS3216 Slack channel "#ay1718-assg3".
+Clarifications and questions related to this assignment should be posted to the CS3216 Slack channel "#ay1819-assg3".
 
 Good luck and have fun!
