@@ -1,4 +1,167 @@
 - batch:
+  year: 2018
+  students:
+  - name: Ang Yee Chin
+    id: ang-yee-chin
+    faculty: ''
+    blog: https://comp.nus.edu.sg/~angyc/
+    one_liner: One line is too short to describe how awesome I am
+  - name: Anthony Tantra
+    id: anthony-tantra
+    faculty: ''
+    blog: https://www.linkedin.com/in/tantra-anthony/
+    one_liner: Just a civil engineer passionate about building buildings and developing
+      applications :D
+  - name: Charis Anne Lim
+    id: charis-anne-lim
+    faculty: ''
+    blog: www.linkedin.com/in/charis-anne-lim-23489811b
+    one_liner: actually lowkey wants to be a farmer in japan that grows melon, strawberries,
+      and the occasional peach
+  - name: Chiang Weng Kiat
+    id: weng-kiat-chiang
+    faculty: ''
+    blog: https://wengkiat.github.io
+    one_liner: You cannot connect the dots looking forward, only backwards
+  - name: Edmund Mok
+    id: mok-wei-xiong-edmund
+    faculty: ''
+    blog: https://github.com/edmundmok
+    one_liner: Looking for a job starting 2019.
+  - name: Ewald Hew
+    id: hew-yih-shiuan-ewald
+    faculty: ''
+    blog: http://blog.nus.edu.sg/ewaldhew/
+    one_liner: "if (Boolean.toString(condition).equals(\"true\")) { return \"Empty\
+      \ box wrapped nicely, price set high, [??] missing\"; } //\u22C3\U0001D1D9\u257D\
+      \u0297\u2218\U00010303\u0190 \U0001F171\u2C64\U0001D698\u049A\uFECD"
+  - name: Foo Guo Wei
+    id: foo-guo-wei
+    faculty: ''
+    blog: https://github.com/tomforge/Neuron
+    one_liner: It is not enough to have a good mind; the main thing is to use it well.
+  - name: Herald Yu Hong
+    id: yu-hong-herald
+    faculty: ''
+    blog: https://yuhongherald.wixsite.com/about-myself
+    one_liner: Think music. Write code.
+  - name: John Phua Tai Da
+    id: john-phua-tai-da
+    faculty: ''
+    blog: https://github.com/JayPeeTeeDee
+    one_liner: 'Input: tea --> Output: code'
+  - name: Jonathan Chen Yisheng
+    id: jonathan-chen
+    faculty: ''
+    blog: https://cysjonathan.github.io/
+    one_liner: If I have seen further it is by standing on the shoulders of giants
+  - name: Li Hao
+    id: li-hao
+    faculty: ''
+    blog: https://stackexchange.com/users/13190317/marcus-aurelianus
+    one_liner: semi-professional dota2 player
+  - name: Lim Hui Qi
+    id: lim-hui-qi
+    faculty: ''
+    blog: https://limhuiqi.wixsite.com/huiqi
+    one_liner: Gamer, develop games, otaku, dancer.
+  - name: Luo Yuyang
+    id: luo-yuyang
+    faculty: ''
+    blog: https://github.com/R-o-y
+    one_liner: Loading ...
+  - name: Mai Ngoc Thien Trang
+    id: trang-mai
+    faculty: ''
+    blog: https://trangmei.github.io/site/about/
+    one_liner: This is the beginning of something great.
+  - name: Nguyen Tien Trung Kien
+    id: nguyen-tien-trung-kien
+    faculty: ''
+    blog: https://sites.google.com/site/kc97blb/cs3216
+    one_liner: I like making simple games on Windows and Linux.
+  - name: Nicholas Lui Ming Yang
+    id: nicholas-lui-ming-yang
+    faculty: ''
+    blog: https://www.linkedin.com/in/nicholasluimy/
+    one_liner: Normal is overrated
+  - name: Qiu Siqi
+    id: qiu-siqi
+    faculty: ''
+    blog: https://github.com/qiu-siqi
+    one_liner: -shrug-
+  - name: Qiu Siyu
+    id: qiu-siyu
+    faculty: ''
+    blog: https://danielteo.me
+    one_liner: We've taken the world apart, but we have no idea what to do with the
+      pieces.
+  - name: Samuel Henry Kurniawan
+    id: samuel-henry-kurniawan
+    faculty: ''
+    blog: https://github.com/ChrisMaxheart
+    one_liner: I gain ATP by processing my code
+  - name: Sreyans Sipani
+    id: sreyans-sipani
+    faculty: ''
+    blog: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+    one_liner: Eat. Sleep. Code. Repeat.
+  - name: Suyash Shekhar
+    id: suyash-shekhar
+    faculty: ''
+    blog: https://sushinoya.io
+    one_liner: learning how to learn
+  - name: Tan E-Liang
+    id: tan-e-liang
+    faculty: ''
+    blog: https://www.eliangtan.com
+    one_liner: Master of edge cases
+  - name: Tan Su Yee
+    id: tan-su-yee
+    faculty: ''
+    blog: https://www.youtube.com/channel/UCqYzOCvITyZK-bh08uY8rPg
+    one_liner: I like cats
+  - name: Tay Yu Jia
+    id: tay-yu-jia
+    faculty: ''
+    blog: https://www.youtube.com/watch?v=66tQR7koR_Q
+    one_liner: Lorem ipsum dolo
+  - name: "Trung Hi\u1EBFu L\xEA"
+    id: le-trung-hieu
+    faculty: ''
+    blog: https://www.linkedin.com/in/lth8998/
+    one_liner: I love eating :D
+  - name: Vu Xuan Minh
+    id: vu-xuan-minh
+    faculty: ''
+    blog: https://www.linkedin.com/in/xuan-minh-vu-b5b628103/
+    one_liner: A blast to be around with
+  - name: Wang Junming
+    id: wang-junming
+    faculty: ''
+    blog: ''
+    one_liner: ss
+  - name: Wong Kang Fei
+    id: wong-kang-fei
+    faculty: ''
+    blog: https://kfwong.github.io/cs3216-intro/
+    one_liner: Sic Parvis Magna
+  - name: Wu Zhaoxuan
+    id: wu-zhaoxuan
+    faculty: ''
+    blog: zhaoxuan-cs3216.blogspot.com
+    one_liner: Why be good when you can be great?
+  - name: Wyin Kok
+    id: wyin-kok
+    faculty: ''
+    blog: www.wyinkok.com
+    one_liner: Bubble tea enthusiast
+  - name: Yong Lin Han
+    id: yong-lin-han
+    faculty: ''
+    blog: https://linhany.github.io/
+    one_liner: I work hard so that I can be lazy
+- batch:
   year: 2017
   students:
   - name: Aaron Ong Chong Shi
