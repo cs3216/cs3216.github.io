@@ -136,21 +136,21 @@ will be focusing on mobile cloud applications, typically with the
 following components:
 
 1. **Clients** - Clients reside on mobile devices belonging to users. They
-  could be (1) native applications, which run only on their intended
-  platforms or (2) HTML5 web applications with the potential to work
-  on any device with a HTML5-enabled browser. The client application
-  provides the user with an interface to view and manipulate data. For
-  this assignment you will be building a web app, _not_ a native app.
+   could be (1) native applications, which run only on their intended
+   platforms or (2) HTML5 web applications with the potential to work
+   on any device with a HTML5-enabled browser. The client application
+   provides the user with an interface to view and manipulate data. For
+   this assignment you will be building a web app, _not_ a native app.
 
 2. **Server** - The server runs on the cloud and serves data to the client.
-  For example, transactions on an e-commerce app are requested by the client
-  and processed on the server. Often, heavier computations such as video
-  transcoding are also handed by the server because the computational power
-  of mobile web browsers are limited.
+   For example, transactions on an e-commerce app are requested by the client
+   and processed on the server. Often, heavier computations such as video
+   transcoding are also handed by the server because the computational power
+   of mobile web browsers are limited.
 
 3. **Database** - The database does exactly what we would expect of it
-  in any other context, which is to store all of the
-  application's data.
+   in any other context, which is to store all of the
+   application's data.
 
 Depending on the size of the service, differing amounts of hardware may
 be deployed to keep up with the demand of its users. Obviously, large
@@ -284,22 +284,22 @@ haven't already done so.
 
 A relational database is a type of database that models stored data as
 tables with columns and rows. It is called "relational" because you can
-link a table to another table through *foreign keys*.
+link a table to another table through _foreign keys_.
 
 In this section, we will be going through simple relational database
 concepts. There are some other more advanced concepts that you can read up online.
 
-A database application may store several *databases*. Hence, while each
+A database application may store several _databases_. Hence, while each
 application will usually use its own database, several applications may
 share the same database application running on the same server (e.g. if
 you and a friend each have a blog, even if each blog needs 1 database
 you could still house both blogs on the same MySQL instance).
 
-Visualizing a database at the highest level, we think about a *schema*,
+Visualizing a database at the highest level, we think about a _schema_,
 which is basically a blueprint of the database's tables, their
 structural details, and the relationships between them.
 
-Schemas define two things: *tables* and *relations*. Tables contain one
+Schemas define two things: _tables_ and _relations_. Tables contain one
 or more columns each. For example, we can imagine a
 `students` table containing 5 columns:
 `matric_no`, `name`, `address`,
@@ -313,7 +313,7 @@ completely identical, you will run into trouble trying to update or
 delete them since there is no way to pinpoint exactly which one you
 mean. Thus, we usually have a column (or a set of columns in
 combination) that we require to be unique for each row. We call this the
-*primary key*. In the `students` table example, the
+_primary key_. In the `students` table example, the
 `matric_no` column is an excellent candidate for primary key
 since no two students share the same matric number. MySQL (and any other
 proper database system) will prevent you from inserting a row if there
@@ -325,7 +325,7 @@ add a `home_faculties` table containing two columns:
 student to faculty. We can link this table to the previous
 `students` table using the `matric_no` column,
 which both tables share. We say that `matric_no` in the
-`home_faculties` table is a *foreign key* that *references*
+`home_faculties` table is a _foreign key_ that _references_
 the `matric_no` column in the `students` table.
 Note that a foreign key column set must reference a primary key column
 set of another table. Note also that our two-table set up allows
@@ -337,8 +337,8 @@ you might want to look up additional readings about the topic online.
   What is the primary key of the <code>home_faculties</code> table? <em>(Not graded)</em>
 </div>
 
-Other important concepts include *indexed columns* (allowing searches to
-be fast), *unique keys* (enforcing uniqueness for non-primary key
+Other important concepts include _indexed columns_ (allowing searches to
+be fast), _unique keys_ (enforcing uniqueness for non-primary key
 columns), and relation cascades (where deleting a student from the
 `students` table can automatically update/delete all entries
 in other tables that reference this table). It's up to you to learn about all these on your own.
@@ -408,7 +408,7 @@ JSON string could be a response from a social network's REST API to a
 request for information on the user with id = 0, where `{ }` represents
 a dictionary and `[ ]` an array.
 
-~~~
+```
 {
   "id": "0",
   "name": "James",
@@ -424,7 +424,7 @@ a dictionary and `[ ]` an array.
     }
   ]
 }
-~~~
+```
 
 JSON is already supported by all modern browsers and server-side
 scripting languages so you do not need to implement it yourself, but if
@@ -543,8 +543,9 @@ certainly easier than `cURL`-ing from the command line!
 
 You will have to read up on how to implement REST endpoints on your back-end
 stack of choice. Here are links to starting guides for some common frameworks:
-* [Ruby on Rails](https://guides.rubyonrails.org/api_app.html)
-* [ExpressJS](https://www.codementor.io/wapjude/creating-a-simple-rest-api-with-expressjs-in-5min-bbtmk51mq)
+
+- [Ruby on Rails](https://guides.rubyonrails.org/api_app.html)
+- [ExpressJS](https://www.codementor.io/wapjude/creating-a-simple-rest-api-with-expressjs-in-5min-bbtmk51mq)
 
 ### SQL: Querying the Database
 
@@ -562,7 +563,7 @@ MySQL provides commands you can use to
 create and alter databases and tables, and also commands you can use to
 insert, update, delete, and retrieve rows from tables. We call the
 former "data definition language" (DDL), and the latter "data
-manipulation language" (DML). You should *never* run DDL commands from
+manipulation language" (DML). You should _never_ run DDL commands from
 publicly accessible pages.
 
 Most of time, it is not a good idea to write raw SQL queries yourself. We recommend that you look up
@@ -773,10 +774,11 @@ Even if the targeted browser does not support service workers, your application 
 Offline support is just a good-to-have; the core functionality of your site should still work!
 
 To get started, we first need to register a service worker with our browser. Create two files:
--  A service worker file named `service-worker.js` in your application root
+
+- A service worker file named `service-worker.js` in your application root
 - `app.js/main.js` file that will be included in your application, and add the following code to it:
 
-~~~
+```
 <script>
 // Check if browser supports service workers
 if ('serviceWorker' in navigator) {
@@ -791,7 +793,7 @@ if ('serviceWorker' in navigator) {
     });
 }
 </script>
-~~~
+```
 
 In this example, we first check to see if the browser supports service workers. If the
 browser does support it, we will then register our service worker script.
@@ -806,7 +808,7 @@ the **Cache API** (<https://developer.mozilla.org/en-US/docs/Web/API/Cache>).
 
 Add the following code to `service-worker.js` to handle the install event:
 
-~~~
+```
 self.addEventListener('install', function (event) {
   event.waitUntil(
     caches.open('cache_name').then(function (cache) {
@@ -818,7 +820,7 @@ self.addEventListener('install', function (event) {
     })
   );
 });
-~~~
+```
 
 The service worker first opens the cache with the `cache_name`, before calling
 `addAll` that takes in an array of URLs and retrieves all the response object
@@ -833,7 +835,7 @@ files. Similar to the <strong>install</strong> event when a page is first visite
 a <strong>fetch</strong> event will be fired if the page is visited again.
 The service worker can then handle this event to return the cached response.
 
-~~~
+```
 self.addEventListener('fetch', function (event) {
   event.respondWith(
     caches.match(event.request)
@@ -850,7 +852,7 @@ self.addEventListener('fetch', function (event) {
     )
   );
 });
-~~~
+```
 
 In this example, the event request is match against the cache for a cached response. If a corresponding
 response is found, the cached response will be return instantly. If not, the request will be passed on
@@ -867,11 +869,11 @@ However, cache management, such as purging unused cached data, has to be managed
 worker itself. This should be done in the **activate** callback to ensure that the latest
 script is used to manage the cache:
 
-~~~
+```
 self.addEventListener('activate', function (event) {
   // Cache management. E.g. Purging unused data
 })
-~~~
+```
 
 **Additional Resources**
 
@@ -903,7 +905,7 @@ through the `localStorage` object or the `sessionStorage` object.
 On your own, find out the difference between `sessionStorage` and `localStorage`.
 We will cover `localStorage` in the next example.
 
-~~~
+```
 <script>
 var user = localStorage.getItem('user');
 if (user) {
@@ -915,7 +917,7 @@ if (user) {
   localStorage.setItem('user', JSON.stringify(newUser));
 }
 </script>
-~~~
+```
 
 In the example above, nothing is observed when the user first loads the
 page. However, we define a new `user` object containing the user's ID as well as
@@ -940,10 +942,10 @@ been deleted from the server)? These are but a few out of many
 possibilities that have to be considered.
 
 How you handle the problem depends on your application; prior to that,
-your application would actually need a means to *determine*
+your application would actually need a means to _determine_
 if there is an internet connection:
 
-~~~
+```
 <script>
   if (navigator.onLine) {
     alert('Online');
@@ -958,7 +960,7 @@ if there is an internet connection:
     alert('Offline');
   }, false);
 </script>
-~~~
+```
 
 `navigator.onLine` is a boolean value containing the device's current
 internet connection state. You can also register callbacks for the
@@ -985,7 +987,7 @@ AJAX call to do so. AJAX allows you to make HTTP requests using
 JavaScript without a page reload. The following example uses jQuery to make a
 request to the REST server we have created earlier:
 
-~~~
+```
 <script>
 $.ajax({
   type: 'PUT',
@@ -1001,7 +1003,7 @@ $.ajax({
   }
 })
 </script>
-~~~
+```
 
 Within the AJAX call, the `type` refers to the HTTP request method. Just
 by looking at the parameters, we should already know that
@@ -1027,18 +1029,18 @@ important API calls so that only the rightful users can make them (e.g. only the
 able to delete his own articles). To do so, we need some ways of
 determining the identity of the user making the request.
 
-One simple approach is to make use of JSON Web Token([JWT](<https://jwt.io/introduction/>)),
+One simple approach is to make use of JSON Web Token([JWT](https://jwt.io/introduction/)),
 which is a digitally signed JSON object for transmitting information between
 different parties. JWT consist of three parts:
 
 - **Header** - Contain the metadata for token which usually consists of the
-type of token and the encryption algorithm.
+  type of token and the encryption algorithm.
 - **Payload** - The second part of the token is the payload, which contains the claims.
-Claims are statements about an entity (typically, the user) and additional metadata.
+  Claims are statements about an entity (typically, the user) and additional metadata.
 - **Signature** - The headers and payload digitally signed with the encryption
-algorithm.
+  algorithm.
 
-~~~
+```
 // Header
 {
   "alg": "HS256",
@@ -1051,11 +1053,11 @@ algorithm.
   "name": "John Doe",
   "admin": true
 }
-~~~
+```
 
 Given this header and payload, the JWT string will then be created in the following manner:
 
-~~~
+```
 <script>
 var encodedHeader = base64URLencode(header);
 var encodedPayload = base64URLencode(payload);
@@ -1063,7 +1065,7 @@ var encodedSignature = base64URLencode(HMACSHA256(encodedHeader + '.' + encodedH
 
 var encodedJWT = encodedHeader + '.' + encodedPayload + '.' + encodedSignature;
 </script>
-~~~
+```
 
 Hence a JWT consists of the encoded header, payload and signature, which is then appended
 together with periods as the delimiter.
@@ -1072,9 +1074,9 @@ When the user is first authenticated with your app using their credentials, the 
 to the user and stored locally. This token can then be added to the `Authorization` header in
 future API requests as part of the authentication.
 
-~~~
+```
 Authorization: Bearer <eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ>
-~~~
+```
 
 The JWT may look cryptic but it is in fact reversible. You should
 use SSL when using such a scheme. Once again, the choice of
@@ -1192,9 +1194,9 @@ Pages can still be tracked using Virtual Pageviews by executing the following co
 <https://developers.google.com/analytics/devguides/collection/analyticsjs/single-page-applications>
 for more information.
 
-~~~
+```
 ga('set', 'pageview', '/your_virtual_page_path');
-~~~
+```
 
 **Event Tracking** can provide more fine-grained control
 over user actions. They can be used to track more events such as
@@ -1202,9 +1204,9 @@ successful AJAX calls, buttons pressed, or even videos downloaded. The
 following code can be embedded in the click callback of a button which
 publishes a new blog post:
 
-~~~
+```
 ga('send', 'event', 'button', 'click', 'publish');
-~~~
+```
 
 In particular, **Social Interaction Analytics** can be used
 to track clicks on social buttons on your application, such as Like, Share
@@ -1221,7 +1223,7 @@ application is being tracked:
 
 2.  Use "Real-Time" mode in the Analytics dashboard, which allows you to
     view activities on your application in near real-time.
-    
+
 3.  Use the official Google Analytics Debugger [Chrome Extension](https://chrome.google.com/webstore/detail/google-analytics-debugger/jnkmfdileelhofjcijamephohjechhna) (recommended)
 
 More information and examples at
@@ -1249,7 +1251,7 @@ scores, individual metrics and feedback for four categories:
 
 4.  **Best Practices** - Advisory audits that provide recommendations to modernize
     your app and counter performance pitfalls.
-    
+
 5.  **SEO** - Audits to estimate how well your page is optimized for search engine results ranking.
 
 Here are some links to get you started on using Lighthouse:
@@ -1337,7 +1339,7 @@ passed to handle success and failure cases.
 This code will continue to output the user's position as he walks about
 with his mobile device:
 
-~~~
+```
 <script>
 if (navigator.geolocation) { // check if browser supports geolocation
   navigator.geolocation.watchPosition(function (position) {
@@ -1361,7 +1363,7 @@ if (navigator.geolocation) { // check if browser supports geolocation
   );
 }
 </script>
-~~~
+```
 
 Showing the user his coordinates may hardly be of any use to him at all.
 You could take it up one level by plotting it on a map and perhaps places of interest near hi.
@@ -1411,14 +1413,14 @@ towards the remaining 30%.
 
 ### Final Submission (due Friday, 28 September 2018, 23:59):
 
--   Completion of all compulsory milestones. Submit your answers in a
-    write-up and categorise your answers by the milestones they
-    belong to.
+- Completion of all compulsory milestones. Submit your answers in a
+  write-up and categorise your answers by the milestones they
+  belong to.
 
--   Another separate write-up pitching your application to the teaching
-    staff, i.e. convince us that your application is so good that it
-    deserves all 30% of the coolness points. **Restrictions:** no longer
-    than 2 A4 sides.
+- Another separate write-up pitching your application to the teaching
+  staff, i.e. convince us that your application is so good that it
+  deserves all 30% of the coolness points. **Restrictions:** no longer
+  than 2 A4 sides.
 
 ## Mode of Submission
 
