@@ -15,7 +15,7 @@
   - name: Charis Anne Lim
     id: charis-anne-lim
     faculty: ''
-    blog: www.linkedin.com/in/charis-anne-lim-23489811b
+    blog: https://www.linkedin.com/in/charis-anne-lim-23489811b
     one_liner: actually lowkey wants to be a farmer in japan that grows melon, strawberries,
       and the occasional peach
   - name: Chiang Weng Kiat
@@ -149,12 +149,12 @@
   - name: Wu Zhaoxuan
     id: wu-zhaoxuan
     faculty: ''
-    blog: zhaoxuan-cs3216.blogspot.com
+    blog: https://zhaoxuan-cs3216.blogspot.com
     one_liner: Why be good when you can be great?
   - name: Wyin Kok
     id: wyin-kok
     faculty: ''
-    blog: www.wyinkok.com
+    blog: https://www.wyinkok.com
     one_liner: Bubble tea enthusiast
   - name: Yong Lin Han
     id: yong-lin-han
