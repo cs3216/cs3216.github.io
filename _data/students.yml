@@ -32,9 +32,7 @@
     id: hew-yih-shiuan-ewald
     faculty: ''
     blog: http://blog.nus.edu.sg/ewaldhew/
-    one_liner: "if (Boolean.toString(condition).equals(\"true\")) { return \"Empty\
-      \ box wrapped nicely, price set high, [??] missing\"; } //\u22C3\U0001D1D9\u257D\
-      \u0297\u2218\U00010303\u0190 \U0001F171\u2C64\U0001D698\u049A\uFECD"
+    one_liner: if (Boolean.toString(condition).equals("true")) { return null; } // ⋃𝇙╽ʗ∘𐌃Ɛ 🅱Ɽ𝚘Қﻍ
   - name: Foo Guo Wei
     id: foo-guo-wei
     faculty: ''
