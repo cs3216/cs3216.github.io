@@ -258,6 +258,28 @@ With the previous draft's user testing results, you should come to a good conclu
 
 Your final mock ups should be accompanied by a write-up that describes how your group has met all the milestones for this assignment, summarized all the results and observations from your user testing results and make it easy for the teaching staff to understand how the submitted mock ups are organized.
 
+The broad structure of the PRD is as such:
+1. Product Purpose (Milestones 1-3)
+- Description of the problem that you are trying to solve
+- Who is the product for 
+
+2. Competitive Analysis (Not included in Assignment 1)
+- Identify competitors who are launching similar products
+- Identify features of competitor's products worth emulating or avoiding
+- Identify the ways in which our product's features can deliver greater value than the competition
+
+3. Features (Milestones 4-8)
+- Describe each feature at the level of interaction designs and use cases
+- Requirement traceability - identifying which requirements are in support of which objective
+- Metrics to be measured (Not covered in Assignment 1)
+
+4. Schedule for Product Development (Not covered in Assignment 1)
+- Key milestones and overall timeline for product development 
+
+In particular, most of the PRD's importance is in the articulation of the product purpose (Milestones 1-3) and the features built to serve its purpose (Milestones 4-8). This is also what we are focusing on in this assignment. Hence, besides being mindful of how and why Assignment 1 is structured in this manner, you should also illustrate (to the best of your ability) how each feature addresses a particular aspect of a problem that your target user faces - what is known as requirements traceability - to demonstrate that your feature was developed and iterated with thought for the problem faced by the target user and not simply because it's cool or funky.
+
+For further reading regarding PRDs during your free time, feel free to check out this [link](https://svpg.com/assets/Files/goodprd.pdf).
+
 ## Phase 5 - Growth Hacking
 
 Growth hacking is defined as the process of rapid experimentation across a marketing funnel, product development, sales segments, and other areas of the business to identify the most efficient ways to grow a business. A common misconception about the term is that it has to do with coding.
