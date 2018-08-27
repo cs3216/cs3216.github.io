@@ -258,6 +258,8 @@ With the previous draft's user testing results, you should come to a good conclu
 
 Your final mock ups should be accompanied by a write-up that describes how your group has met all the milestones for this assignment, summarized all the results and observations from your user testing results and make it easy for the teaching staff to understand how the submitted mock ups are organized.
 
+Also, we want you to take note that the different milestones in Assignment 1 has been structured for you to gain a good sense of what it takes to produce a Product Requirements Document (PRD), a document used in companies (Facebook, Amazon, Google, many other tech companies...) to describe the product being built. The PRD is usually produced and has to be approved before further product development can take place. Once produced, it drives the efforts of the entire product team and the company’s sales, marketing and customer support efforts. 
+
 The broad structure of the PRD is as such:
 1. Product Purpose (Milestones 1-3)
 - Description of the problem that you are trying to solve
