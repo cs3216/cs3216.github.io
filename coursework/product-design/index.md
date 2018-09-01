@@ -254,6 +254,8 @@ With the previous draft's user testing results, you should come to a good conclu
 
 <div class="box">
   <strong class="milestone-counter">Milestone 9:</strong> Finalize the mock ups and save them under the folder "Final".
+  
+  You should also have your final write-up together with your final mock ups.
 </div>
 
 Your final mock ups should be accompanied by a write-up that describes how your group has met all the milestones for this assignment, summarized all the results and observations from your user testing results and make it easy for the teaching staff to understand how the submitted mock ups are organized.
@@ -343,7 +345,9 @@ By **2 Sep 2018 23:59** hrs you should upload the following to Coursemology:
 - Your write up named `group-<number>-milestones.pdf` containing the answers to milestones 1-4 and 10-11.
 - Your mockups and testing results - zipped together - named `group-<number>-mockups.zip`
 
-As a final reminder, you should have written answers for **six milestones**, **three to four folders** each containing mockup draft, user testing results and conclusions, and **one final mockup** submission.  **Failure to adhere to these instructions will result in the deduction of marks.** Only one member of your group needs to submit on Coursemology on behalf of your group.
+<div class="box">
+As a final reminder, you should have written answers for <strong>six milestones</strong>, <strong>three to four folders</strong> each containing mockup draft, user testing results and conclusions, and <strong>one final mockup</strong> submission.  <strong>Failure to adhere to these instructions will result in the deduction of marks.</strong> Only one member of your group needs to submit on Coursemology on behalf of your group.
+</div>
 
 Clarifications and questions related to this assignment should be posted to the CS3216 Slack channel [#ay1819-assg1](https://cs3216.slack.com/messages/CC6UD93KJ/).
 
