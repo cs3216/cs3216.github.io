@@ -6,19 +6,20 @@ title: Final Project
 <br>
 
 {:.table.table-bordered.table-striped.deadline-table}
-|Issue date &nbsp;| Monday, 18 September 2017, 23:59 |
-|Team Formation Deadline &nbsp;| Monday, 25 September 2017, 23:59 |
-|Proposal Due &nbsp;| Monday, 2 October 2017, 23:59 |
-|Progress Report 1 &nbsp;| Monday, 16 October 2017, 23:59 |
-|Progress Report 2 &nbsp;| Monday, 30 October 2017, 23:59 |
-|Poster Session &nbsp;| Wednesday, 15 November 2017, 23:59 |
-|Final Report &nbsp;| Sunday, 19 November 2017, 23:59 |
+|Issue date &nbsp;| Monday, 17 September 2018, 23:59 |
+|Team Formation Deadline &nbsp;| Monday, 24 September 2018, 23:59 |
+|Proposal Due &nbsp;| Monday, 1 October 2018, 23:59 |
+|Progress Report 1 &nbsp;| Monday, 15 October 2018, 23:59 |
+|Progress Report 2 &nbsp;| Monday, 29 October 2018, 23:59 |
+|In-Class Progress Report &nbsp;| Monday, 5 November 2018, 18:30 |
+|Poster Session &nbsp;| Wednesday, 14 November 2018, 23:59 |
+|Final Report &nbsp;| Sunday, 18 November 2018, 23:59 |
 
 ## General Overview
 
 Since you have all survived the first half a semester of CS3216, you are now an expert in both Facebook application and Progressive Web App development. The Final Project is where you will showcase to the world (and the CS3216 teaching staff since the Final Project is what will mostly determine your final grade) your creativity and talents.
 
-For the Final Project, you will work in teams of three or four (fewer is also allowed) to develop and deploy an application (Facebook, mobile, or otherwise) of your choice. You are allowed to team up with anybody you want (and mutually willing to work with you). You may also work with external parties. Please update your groupings on the wiki by **25 Sep 2017**. Each team is to submit a project proposal by **2 October 2017** and the teams are expected to work on the Final Projects during the second half of the semester.
+For the Final Project, you will work in teams of three or four (fewer is also allowed) to develop and deploy an application (Facebook, mobile, or otherwise) of your choice. You are allowed to team up with anybody you want (and mutually willing to work with you). You may also work with external parties. Please update your groupings on the wiki by **24 Sep 2018**. Each team is to submit a project proposal by **1 October 2018** (Monday immediately after Recess Week) and the teams are expected to work on the Final Projects during the second half of the semester.
 
 Your team can design the whole application, but if the scope is too large to be completed in one semester and you intend to continue to develop your application for a business venture, you can implement a prototype with some basic (or limited) functionality to satisfy the requirements for the class. Please state such intentions clearly in your proposals. The teaching staff will evaluate your proposals carefully and provide you with our feedback within a week.
 
@@ -48,7 +49,7 @@ If you decide to work with external parties, we do not have any official guide o
 
 ## Final Project Proposal
 
-Your team should submit a project proposal by **2 October 2017**. The proposal should by about 4
+Your team should submit a project proposal by **1 October 2018**. The proposal should by about 4
 to 5 pages (maximum of 6) in length and address (at least) the following points:
 
 1. Description of the application you plan to develop.
@@ -71,22 +72,26 @@ We have told you time and again to "go out there and talk to your customers", an
 
 ## Progress Reports
 
-Each team will be required to submit a progress report on **16 Oct 2017**. The progress report should
+Each team will be required to submit a progress report on **15 Oct 2018**. The progress report should
 include (at least) the following:
 
-1. Application prototype. Minimally as functional as what was achieved in Assignment 1.
+1. Application prototype. Minimally as functional as what was achieved in Assignment 3.
 2. Is your project on schedule according to the milestones and timelines submitted in the initial project proposal? If you are on schedule, great! If not, why not? What is your team doing about the slip in your project schedule?
 3. What were the problems/difficulties your team has encountered? How have you overcome them, or what plans do you have to overcome them?
 4. Any changes to the application since the initial project proposal?
 5. Assuming that your team has already deployed a prototype of your application, how has the response been? Any other new insights, plans or strategies your team has come out with?
 6. Updated project schedule: milestones and timeline.
 
-A second progress report will be due on **30 Oct 2017**. The contents of which would be similar to the first progress report. In addition, each team will also given a 6-minute presentation of its progress during class and the grade will be obtained by peer-judging.
+A second progress report will be due on **29 Oct 2018**. The contents of which would be similar to the first progress report.  
 Please try to keep your reports to within two pages, or a maximum of 3 pages if you really must.
 
 ## Final Project Presentation
 
-On the last week of class, we will be holding a 4-hour poster session in the SoC student foyer on **15 Nov 2017** (Wednesday) from 6.30 to 10.30 pm as part of the School of Computing Term Projects Showcase (STePS).
+On **5 Nov 2018** (Mon), each team will make a presentation to the rest of the class on your project. This session will be another round of peer-appraisal by your peers. Your goal is to convinced your fellow coursemates that you project is really cool and you have done a lot of work and great work. Think of it as round 2 of your innovation seminar, but you are selling your own dog food. 
+
+## SoC STePs
+
+On the last week of class, we will be holding a 4-hour poster session in the SoC student foyer on **14 Nov 2018** (Wednesday) from 6.30 to 10.30 pm as part of the School of Computing Term Projects Showcase (STePS).
 
 Each team is to prepare an A1-sized poster. The judges and other members of the SoC and NUS will turn up for the "show and tell". You should treat this session as a trade show to sell your projects as you will get a large percentage of your grading from "other people" - NUS staff, students, alumni, guests - who turn up at your booth. So your final grade depends very much on your show and tell in this session. Be creative. Collaterals are encouraged but note that these will be on your own expenses.
 
@@ -131,7 +136,7 @@ Some examples of past STePS posters:
 
 ## Final Project Report
 
-Like most other classes, the Final Project report is due on **19 Nov 2017** (to be pushed to Bitbucket by 23:59 please). The final report should (at least) include the following points:
+Like most other classes, the Final Project report is due on **18 Nov 2018** (to be pushed to Bitbucket by 23:59 please). The final report should (at least) include the following points:
 
 1. Description of the application you have developed.
 2. Are there any existing applications out there that are similar? What makes your application special?
@@ -151,11 +156,12 @@ The Final Project is worth 40% of the total grade for CS3216. The Final Project 
 - 5% Project Proposal
 - 10% Customer Contact Report
 - 5% Progress Report
-- 10% Progress Report 2 (awarded by your peers and teaching staff)
-- 40% Poster Presentation (awarded by the panel of judges)
+- 10% Progress Report 2
+- 10% In-class Final Project presentation (awarded by your peers)
+- 30% Poster Presentation (awarded by the panel of judges)
 - 30% Final Report
 
-The fact that 40% of the grade for the Final Project is determined by the outcome of your poster presentation might make it seem somewhat random and arbitrary, but this mimics life. Success comes not only from how well you do something, but from how well you can sell it (or convince suckers to buy your stuff even if it's completely useless and they don't actually need it 😜). This is also where the marketing people make themselves useful. You are graded on quality and relevance of your posters, your sales pitch, marketing collaterals, quality of your apps, etc.
+The fact that 30% of the grade for the Final Project is determined by the outcome of your poster presentation might make it seem somewhat random and arbitrary, but this mimics life. Success comes not only from how well you do something, but from how well you can sell it (or convince suckers to buy your stuff even if it's completely useless and they don't actually need it 😜). This is also where the marketing people make themselves useful. You are graded on quality and relevance of your posters, your sales pitch, marketing collaterals, quality of your apps, etc.
 
 For those of you doing external projects your team is treated as a consultancy. You are graded by how well you manage your consultancy. E.g., frequency of meetings with your clients, quality of questions asked, quality of solutions proposed, and how you negotiate your compensation package. For those doing your own project you are treated as a startup. We assess you on how well you manage your market validation, how well you design your marketing campaign, how you go out and bring in users, etc.
 
