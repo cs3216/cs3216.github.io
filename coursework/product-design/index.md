@@ -40,6 +40,10 @@ We have secured a free education edition of [InVision](https://www.invisionapp.c
 Note that you are not limited to using InVision. You can use Powerpoint, or even paper and pencil for the wireframe sketches if that's easier for you. Whatever tool you choose, it has to be able to produce a mockup that fulfills all the assignment requirements. In particular, the mockup should be able to **demonstrate** user flow through the app.
 
 <div class="box">
+  <strong class="milestone-counter">Milestone 0:</strong> Tell us about your app. What does your app do?
+</div>
+
+<div class="box">
   <strong class="milestone-counter">Milestone 0a (Not graded):</strong> Explore the available tools and pick a tool and make sure everyone on your team is familiar with it.
 </div>
 
