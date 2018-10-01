@@ -89,6 +89,10 @@ Please try to keep your reports to within two pages, or a maximum of 3 pages if 
 
 On **5 Nov 2018** (Mon), each team will make a presentation to the rest of the class on your project. This session will be another round of peer-appraisal by your peers. Your goal is to convinced your fellow coursemates that you project is really cool and you have done a lot of work and great work. Think of it as round 2 of your innovation seminar, but you are selling your own dog food. 
 
+## Preliminary Security Scanning
+
+At this juncture (5 Nov 2018), you should have a preliminary website for your app up and running, even if it is not fully functional. You are expected to provide us with URL and the tutors will be using security tools to scan your site. You will be provided with a security report and you are expected to address the cited issues for your final project. Clearly, if your project is very incomplete, very little will be found, but you then risk more bad things being found after your final project is submitted. We will be doing another round of security scanning after your final project is submitted. 
+
 ## SoC STePs
 
 On the last week of class, we will be holding a 4-hour poster session in the SoC student foyer on **14 Nov 2018** (Wednesday) from 6.30 to 10.30 pm as part of the School of Computing Term Projects Showcase (STePS).
