@@ -1439,7 +1439,9 @@ contains the following:
 
 1.  A write-up, `group-<number>-milestones.pdf` containing
     your answers to all compulsory milestones that require
-    written answers.
+    written answers. Please make sure that the URL for your
+    application is clearly stated in the write-up for the 
+    conveninience of the teaching staff. 
 
 1.  Lighthouse `html` report, `group-<number>-lighthouse.html`.
 
