@@ -52,11 +52,6 @@
     faculty: ''
     blog: https://cysjonathan.github.io/
     one_liner: If I have seen further it is by standing on the shoulders of giants
-  - name: Li Hao
-    id: li-hao
-    faculty: ''
-    blog: https://stackexchange.com/users/13190317/marcus-aurelianus
-    one_liner: semi-professional dota2 player
   - name: Lim Hui Qi
     id: lim-hui-qi
     faculty: ''
@@ -72,11 +67,6 @@
     faculty: ''
     blog: https://trangmei.github.io/site/about/
     one_liner: This is the beginning of something great.
-  - name: Nguyen Tien Trung Kien
-    id: nguyen-tien-trung-kien
-    faculty: ''
-    blog: https://sites.google.com/site/kc97blb/cs3216
-    one_liner: I like making simple games on Windows and Linux.
   - name: Nicholas Lui Ming Yang
     id: nicholas-lui-ming-yang
     faculty: ''
@@ -133,11 +123,6 @@
     faculty: ''
     blog: https://www.linkedin.com/in/xuan-minh-vu-b5b628103/
     one_liner: A blast to be around with
-  - name: Wang Junming
-    id: wang-junming
-    faculty: ''
-    blog: https://www.linkedin.com/in/junming-wang-76a168129/
-    one_liner: full stack software Engineer and photographer and gamer.
   - name: Wong Kang Fei
     id: wong-kang-fei
     faculty: ''
