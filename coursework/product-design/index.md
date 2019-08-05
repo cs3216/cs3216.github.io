@@ -6,8 +6,8 @@ title: Assignment 1 - Product Design
 <br>
 
 {:.table.table-bordered.table-striped.deadline-table}
-|Issue date&nbsp;| Monday, 20 August 2018 |
-|Final submission &nbsp;| Sunday, 2 September 2018, 23:59 |
+|Issue date&nbsp;| Monday, 19 August 2019 |
+|Final submission &nbsp;| Sunday, 1 September 2019, 23:59 |
 
 ## General Overview
 
@@ -57,7 +57,7 @@ Throughout this assignment, we will refer to user flows. In traditional user int
 
 ## Phase 1 - User Requirements Gathering
 
-Every good app / platform / website / service begins with a problem they are looking to solve for a target user. As this assignment is due on **2 Sep 2018**, we recommend you pick a target user who is abundantly available around you, e.g. your fellow NUS students. This way you can easily conduct your user testing.
+Every good app / platform / website / service begins with a problem they are looking to solve for a target user. As this assignment is due on **1 Sep 2019**, we recommend you pick a target user who is abundantly available around you, e.g. your fellow NUS students. This way you can easily conduct your user testing.
 
 Study your users. Think of a problem/pain point you think they are facing now. List down the problem/pain point and assumptions you have about:
 
@@ -344,7 +344,7 @@ Also, students who dutifully follow all the instructions above and hit all requi
 
 ### Mode of submission
 
-By **2 Sep 2018 23:59** hrs you should upload the following to Coursemology:
+By **1 Sep 2019 23:59** hrs you should upload the following to Coursemology:
 
 - Your write up named `group-<number>-milestones.pdf` containing the answers to milestones 1-4 and 10-11.
 - Your mockups and testing results - zipped together - named `group-<number>-mockups.zip`
