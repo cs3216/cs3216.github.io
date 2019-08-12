@@ -6,12 +6,12 @@ title: Assignment 2 - Innovation Seminar
 <br>
 
 {:.table.table-bordered.table-striped.deadline-table}
-|Issue date &nbsp;| Monday, 19 August 2019 |
-|Innovation submission &nbsp;| Wednesday, 21 August 2019, 23:59 |
-|Slides submission &nbsp;| Sunday, 25  August 2019, 23:59 |
-|Presentation &nbsp;| Monday, 26 August 2019, 18:30 |
-|Application critiques &nbsp;| Tuesday, 27 August 2019, 23:59 |
-|Mutual critiques &nbsp;| Sunday, 1 September 2019, 23:59 |
+|Issue date &nbsp;| Monday, 12 August 2019 |
+|Innovation submission &nbsp;| Monday, 19 August 2019, 23:59 |
+|Slides submission &nbsp;| Sunday, 8 September 2019, 23:59 |
+|Presentation &nbsp;| Monday, 9 September 2019, 18:30 |
+|Application critiques &nbsp;| Tuesday, 10 September 2019, 23:59 |
+|Mutual critiques &nbsp;| Sunday, 15 September 2019, 23:59 |
 
 ## General Overview
 
@@ -19,7 +19,7 @@ In order to build good and original applications, it is important to learn what 
 
 There is a French think-tank, funded by UNESCO and the French Senate that looks out for digital innovations worldwide called Netexplo (<https://web.archive.org/web/20170627001520/https://www.netexplo.org/en/intelligence/>). You will form groups of up to 4 people and each team please try to find a new innovation that has not yet been identified the past by Netexplo. 
 
-Before you meet as a group, each member is to try his/her hand at identifying a recent innovation. Your group is to then meet to discuss to finally decide on the most innovative application and make a presentation about it to the rest of the class on **26 Aug 2019**. Each team is to put up their choice of the most innovative application on the innovation seminar groupings page on the Course Wiki (<https://mysoc.nus.edu.sg/~wiki/index.php/CS3216_Innovation_Seminar_Grouping_2019>) as soon as possible (latest by 24 Aug 2019) because duplication is not allowed and it will be first come, first served. Please double check that your team's choice has not been taken up by another group before you add to the Wiki. Tie-breakers would be decided based on the Wiki timestamps. 
+Before you meet as a group, each member is to try his/her hand at identifying a recent innovation. Your group is to then meet to discuss to finally decide on the most innovative application and make a presentation about it to the rest of the class on **9 Sep 2019**. Each team is to put up their choice of the most innovative application on the innovation seminar groupings page on the Course Wiki (<https://mysoc.nus.edu.sg/~wiki/index.php/CS3216_Innovation_Seminar_Grouping_2019>) as soon as possible (latest by 24 Aug 2019) because duplication is not allowed and it will be first come, first served. Please double check that your team's choice has not been taken up by another group before you add to the Wiki. Tie-breakers would be decided based on the Wiki timestamps. 
 
 ## Grading and Admin
 
