@@ -1,4 +1,218 @@
 - batch:
+  year: 2019
+  students:
+  - name: Alistair Ong
+    id: alistair-ong-nai-hian
+    faculty: ''
+    blog: https://alistairong.com/
+    one_liner: "hello i really love food, good food, and a good guitar on the side :)"
+  - name: Ang Zhi Yuan
+    id: ang-zhi-yuan
+    faculty: ''
+    blog: https://www.linkedin.com/in/AngZhiYuan/
+    one_liner: "My name is Zhi Yuan, and I like hardware!"
+  - name: Au Liang Jun
+    id: au-liang-jun
+    faculty: ''
+    blog: http://www.liangjun.me
+    one_liner: "Perpetually bed hungry."
+  - name: Brandon Ng Wei Jie
+    id: ng-wei-jie-brandon
+    faculty: ''
+    blog: https://www.linkedin.com/in/nwjbrandon/
+    one_liner: "TDD Battle Hardened Software Engineer, Cloud Robotic Enthusiast"
+  - name: Branson Ng
+    id: branson-ng-khin-swee
+    faculty: ''
+    blog: https://www.linkedin.com/in/ng-branson-b2767b170/
+    one_liner: "Thanks to coding, I now have back pain"
+  - name: Caryn Heng Zhi Xuan
+    id: heng-zhi-xuan-caryn
+    faculty: ''
+    blog: https://github.com/hzxcaryn/
+    one_liner: "haha no way I'll stop at just one-line irl"
+  - name: Eloise Lim Yiying
+    id: eloise-lim-yiying
+    faculty: ''
+    blog: https://www.facebook.com/lim.elo.ise.yy/
+    one_liner: "As colourful as rainbow, as cheerful as Elo"
+  - name: Fabian Terh Jun Wei
+    id: fabian-terh
+    faculty: ''
+    blog: https://www.linkedin.com/in/fabianterh/
+    one_liner: "Law got boring, so I picked up computer science instead 😎"
+  - name: Fung Si Qi
+    id: fung-si-qi
+    faculty: ''
+    blog: https://www.linkedin.com/in/siqi-fung-176443190
+    one_liner: "Final year Communications and New Media kid that's exploring whether UIUX can be my thing for the future!"
+  - name: Herbert Ilhan Tanujaya
+    id: herbert-ilhan-tanujaya
+    faculty: ''
+    blog: http://herbert.id/
+    one_liner: "Let's build cool stuff together!"
+  - name: Huynh Thanh Duc Anh
+    id: huynh-thanh-duc-anh
+    faculty: ''
+    blog: https://www.linkedin.com/in/anh2111htd/
+    one_liner: "Shoot for the stars but if you happen to miss shoot for the moon instead."
+  - name: Jason Chong Yi Sheng
+    id: jason-chong-yi-sheng
+    faculty: ''
+    blog: https://www.linkedin.com/in/jason-chong-171852172/
+    one_liner: "Time you have enjoyed wasting is not time wasted."
+  - name: Jeremy Tan Kai Qun
+    id: tan-kai-qun-jeremy
+    faculty: ''
+    blog: https://www.instagram.com/happyboiboi/
+    one_liner: "I eat, I play, I code"
+  - name: Jerrell Ezralemuel
+    id: jerrell-ezralemuel
+    faculty: ''
+    blog: https://github.com/plty
+    one_liner: "a wkwkland fellow."
+  - name: Julius Putra Tanu Setiaji
+    id: julius-putra-tanu-sentiaji
+    faculty: ''
+    blog: https://www.indocomsoft.com/
+    one_liner: "def qsort([]), do: []
+def qsort([x | xs]), do: qsort(for a when a < x <- xs, do: a) ++ [x] ++ qsort(for a when a >= x <- xs, do: a)"
+  - name: Julius Sander
+    id: julius-sander
+    faculty: ''
+    blog: https://github.com/juxd/
+    one_liner: "Brought to you by caffeine"
+  - name: Karen Frilya Celine
+    id: karen-frilya-celine
+    faculty: ''
+    blog: https://github.com/karenfrilya97/
+    one_liner: "Never give up without a fight"
+  - name: Koh Chi Hao
+    id: koh-chi-hao
+    faculty: ''
+    blog: https://www.kohchihao.com/
+    one_liner: "I like fried chicken."
+  - name: Koh Jun Wei
+    id: koh-jun-wei
+    faculty: ''
+    blog: https://github.com/JunWei96/
+    one_liner: "Roses are red; Violets are blue; I am great; And so are you;"
+  - name: Koh Zheng Qiang Shawn
+    id: koh-zheng-qiang-shawn
+    faculty: ''
+    blog: https://www.linkedin.com/in/shawn-koh/
+    one_liner: "I like building impactful products!"
+  - name: Lau Kar Rui
+    id: kar-rui-lau
+    faculty: ''
+    blog: https://karrui.dev/
+    one_liner: "board games and bbt"
+  - name: Liau Jian Jie
+    id: liau-jian-jie
+    faculty: ''
+    blog: https://jianjie.co/
+    one_liner: "Competitive burger eater"
+  - name: L V Sree Subbash
+    id: l-v-sree-subbash
+    faculty: ''
+    blog: https://subbash.com/
+    one_liner: "Going places. Don't know where."
+  - name: Melodies Sim Ming Hui
+    id: melodies-sim-ming-hui
+    faculty: ''
+    blog: https://melodiessim.netlify.com/
+    one_liner: "Did you know the full quote: A jack of all trades is a master of none, but oftentimes better than a master of one. :)"
+  - name: Nguyen Thanh Son
+    id: son-nguyen-thanh
+    faculty: ''
+    blog: https://www.linkedin.com/in/snguyenthanh/
+    one_liner: "A full-stack developer who likes back-end development with Python."
+  - name: Ooi Ming Sheng
+    id: ooi-ming-sheng
+    faculty: ''
+    blog: mailto:ooimingsheng@gmail.com
+    one_liner: "Don't skip leg day."
+  - name: Rachael Yong
+    id: rachael-yong
+    faculty: ''
+    blog: https://www.linkedin.com/in/rachaelannabelle/
+    one_liner: "pistachio gelato addict, automotive & aerial photographer, thinker & globetrotter"
+  - name: Ranald Lam Yun Shao
+    id: ranald-lam-yun-shao
+    faculty: ''
+    blog: https://codecla.ws/
+    one_liner: "i like coffee liqueur - sometimes i sleep, sometimes i don't"
+  - name: Rayner Lim
+    id: rayner-lim-ri-han
+    faculty: ''
+    blog: https://www.linkedin.com/in/raynerlimrh
+    one_liner: "I design and code, and am passionate about building great products and services."
+  - name: Robin Christopher Yu
+    id: robin-christopher-yu
+    faculty: ''
+    blog: http://www.treecaf.com/
+    one_liner: "Probably needing no introduction, exuding ably and leading industry’s next young upstarts! (5, 2)"
+  - name: Rohan Arya Varma
+    id: rohan-arya-varma
+    faculty: ''
+    blog: https://github.com/rohan-av/
+    one_liner: "year 2 ceg student who prefers coffee without sugar and tea with sugar"
+  - name: Sarah Chan Hsin Mei
+    id: sarah-chan-hsin-mei
+    faculty: ''
+    blog: https://www.linkedin.com/in/sarah-chan-94918a175/
+    one_liner: "A very typical millennial who's always online, somewhere & somehow"
+  - name: Sashankh Chengavalli Kumar
+    id: sashankh-chengavalli-kumar
+    faculty: ''
+    blog: https://www.linkedin.com/in/sashankh-kumar/
+    one_liner: "A curious and fun loving person with a passion to learn"
+  - name: Sean Ng Peng Nam
+    id: sean-ng-peng-nam
+    faculty: ''
+    blog: https://pengnam.github.io/BrainDump/
+    one_liner: "I love this module (?)"
+  - name: Sujay R Subramanian
+    id: sujay-r-subramanian
+    faculty: ''
+    blog: https://rssujay.github.io/
+    one_liner: "fear not the forest, but the flame within"
+  - name: Tan LongBin
+    id: tan-longbin
+    faculty: ''
+    blog: https://tanlongbin.github.io/
+    one_liner: "Some call me Long, others call me Bean, but it's been long since someone called me LongBin."
+  - name: Tan Yong He
+    id: tan-yong-he
+    faculty: ''
+    blog: https://tanyonghe.github.io/
+    one_liner: "I'm self-declared allergic to vegetables :')"
+  - name: Travis Ching Jia Yea
+    id: travis-ching-jia-yea
+    faculty: ''
+    blog: https://gilgameshtc.github.io/
+    one_liner: "Team player, fun, laid back but responsible."
+  - name: Vanessa Kwa
+    id: vanessa-kwa-rui-xuan
+    faculty: ''
+    blog: https://www.linkedin.com/in/vanessa-kwa/
+    one_liner: "Just that seemingly shy yet enthusiastic and driven year 4 CNM uxui designer"
+  - name: Vivian Ngiam Ling Li
+    id: vivian-ngiam-ling-li
+    faculty: ''
+    blog: https://vivianngiam.wixsite.com/vnll
+    one_liner: "Seeing a spider in my room isn't scary. What's scary is when it  d i s a p p e a r s ."
+  - name: Zhu Hanming
+    id: zhu-hanming
+    faculty: ''
+    blog: https://www.hanmingdev.com/
+    one_liner: "eat sleep commit weep"
+  - name: Zhu WeiJie
+    id: zhu-weijie
+    faculty: ''
+    blog: https://studioaz.space/
+    one_liner: "Hi! I am a designer :)"
+- batch:
   year: 2018
   students:
   - name: Ang Yee Chin
