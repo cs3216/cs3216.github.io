@@ -57,13 +57,13 @@ The fun part is that the assignment of the presentation each student has to writ
 
 This is not a literature class and you are not required to write in poetry. We only ask that you think carefully about what you heard and express your ideas clearly. Points will not be taken off for typos or grammatical ideas as long as the ideas are expressed clearly and can be understood easily. There is no minimum length, but do have some mercy on your poor lecturer and try to keep within what would be 2 pages of A4 if it was a typed report. What matters is not how much you write, but the quality of your thoughts and ideas and how much you actually learnt from the process.
 
-You are of course also welcome to blog about other aspects of the app seminar and also about lessons learnt in addition to this assignment. The application critique should be submitted on Coursemology by **27 August 2019 23:59** (i.e. the next day).
+You are of course also welcome to blog about other aspects of the app seminar and also about lessons learnt in addition to this assignment. The application critique should be submitted on Coursemology by **10 September 2019 23:59** (i.e. the next day).
 
 ## Mutual Critique
 
 Once all the application critiques are submitted, a new Forum will appear and you will post your critique there. You will read the critiques written by your coursemates and have an online discussion. If your coursemates think that the innovation that your team picked is not innovative, then you should try to convince them otherwise. 
 
-Just bear in mind that goal of CS3216 is to learn. You do not do better in this segment of the assignment by being really nasty and running your coursemates down. Be civil. Be polite. Be kind. If others post comments disagreeing with you, do not be too defensive. All these comments should be posted by by **1 Sep 2019 23:59** (Sunday).
+Just bear in mind that goal of CS3216 is to learn. You do not do better in this segment of the assignment by being really nasty and running your coursemates down. Be civil. Be polite. Be kind. If others post comments disagreeing with you, do not be too defensive. All these comments should be posted by by **15 Sep 2019 23:59** (Sunday).
 
 How many comments should you post? As many as you think is appropriate and sufficient to earn the 10% grade for this part of the assignment.
 
@@ -84,11 +84,11 @@ Overall, the application seminar is worth 10% of your final grade.
 
 ## Mode of Submission
 
-The slides for the presentation should be named `group-<number>-seminar.{pptx|key}` and uploaded to Coursemology by 2 Sep 23:59 (Sunday), because we will be downloading the slides to project on screen during class. The application critiques should be submitted within 24 hours of the innovation seminar, by **27 August 2019 23:59** (Tuesday). Your comments for the mutual critique part should be done by  **1 Sep 2019 23:59** (Sunday).
+The slides for the presentation should be named `group-<number>-seminar.{pptx|key}` and uploaded to Coursemology by 2 Sep 23:59 (Sunday), because we will be downloading the slides to project on screen during class. The application critiques should be submitted within 24 hours of the innovation seminar, by **10 September 2019 23:59** (Tuesday). Your comments for the mutual critique part should be done by  **15 Sep 2019 23:59** (Sunday).
 
 **Marks will be deducted if you fail to follow the submission instructions (e.g. incorrect file naming).**
 
-Clarifications and questions related to this assignment should be posted to the CS3216 Slack channel "#ay1819-assg2".
+Clarifications and questions related to this assignment should be posted to the CS3216 Slack channel "#ay1920-assg2".
 
 The way this assignment is structured, it might seem very stressful — but it's really not quite as bad as it seems. It's actually fun if taken in the right spirit.
 
