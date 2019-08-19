@@ -13,4 +13,4 @@ markdown: kramdown
 permalink: /:title
 paginate: 5
 encoding: UTF-8
-gems: ['jekyll-paginate']
+plugins: ['jekyll-paginate']
