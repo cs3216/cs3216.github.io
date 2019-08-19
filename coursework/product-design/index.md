@@ -40,15 +40,15 @@ We have secured a free education edition of [InVision](https://www.invisionapp.c
 Note that you are not limited to using InVision. You can use Powerpoint, or even paper and pencil for the wireframe sketches if that's easier for you. Whatever tool you choose, it has to be able to produce a mockup that fulfills all the assignment requirements. In particular, the mockup should be able to **demonstrate** user flow through the app.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 0:</strong> Tell us about your app. What does your app do?
+  <strong class="milestone-counter">Milestone 0a (Compulsory, not graded):</strong> Describe your app in one paragraph. What does your app do and why?
 </div>
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 0a (Not graded):</strong> Explore the available tools and pick a tool and make sure everyone on your team is familiar with it.
+  <strong class="milestone-counter">Milestone 0b (Not graded):</strong> Explore the available tools and pick a tool and make sure everyone on your team is familiar with it.
 </div>
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 0b (Not graded):</strong> Read through <a href="http://albancarmet.com/portfolio/elly/">http://albancarmet.com/portfolio/elly/</a>. This is to understand the importance of the User-Centered Design process and why we are forcing you to do this assignment in a certain way.
+  <strong class="milestone-counter">Milestone 0c (Not graded):</strong> Read through <a href="http://albancarmet.com/portfolio/elly/">http://albancarmet.com/portfolio/elly/</a>. This is to understand the importance of the User-Centered Design process and why we are forcing you to do this assignment in a certain way.
 </div>
 
 ### A note about terminology
@@ -104,7 +104,7 @@ After your interviews, list down at most three **primary user goals** your produ
 
 The features you pick should answer why they are necessary and how they reinforce your business idea. You should focus on quality and the impact each feature will bring. Products are not successful just because of the number of features they have.
 
-In general, remember that you are building a Minimum Viable Project (MVP) [^1]. The goal is not to build a complete feature set of the product, instead, the number of features should be just enough to test out your idea and validate that it is worth executing on.
+In general, remember that you are building a Minimum Viable Product (MVP) [^1]. The goal is not to build a complete feature set of the product, instead, the number of features should be just enough to test out your idea and validate that it is worth executing on.
 
 A good example is Instagram, which if you follow their [product timeline](https://en.wikipedia.org/wiki/Timeline_of_Instagram), they hit 100k users in a week without things like hashtags and explore.
 
@@ -112,8 +112,13 @@ A good example is Instagram, which if you follow their [product timeline](https:
 
 At the same time, you should not miss out on the essentials such as authentication and settings, or the lack thereof. A large part of WhatsApp's popularity was due to simply having the phone number as the user account and their focus on the core essentials of messaging!
 
+As you are designing a product for the real world, it is also important to ensure that your ideas and business logic are sound, realistic, and executable. Answer these questions:
+
+1. How will your product acquire users? Why will users use your product over what they are currently doing to solve the problem?
+2. How will your product be executed?
+
 <div class="box">
-  <strong class="milestone-counter">Milestone 4:</strong> Based on the interview results, come up with a list of goals and features for your app.</div>
+  <strong class="milestone-counter">Milestone 4:</strong> Based on the interview results, come up with a list of goals and features for your app. Be sure to answer the questions above.</div>
 
 ### Digression: Good Artists Copy; Great Artists Steal
 
@@ -168,7 +173,7 @@ These are some examples of user flows you may want to sketch out. In some cases 
 User flows should naturally intersect with each other. This is fine - real apps do not artificially limit the user in which buttons they can press.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 5:</strong> Save a copy of your first user flow draft under a folder named "Draft 1". If your draft is hand drawn, scan or take a high-quality photo of it (make sure all important details are visible).
+  <strong class="milestone-counter">Milestone 5:</strong> Save a copy of your first user flow draft under a folder named "Draft 1". Clearly identify the main user flows. If your draft is hand drawn, scan or take a high-quality photo of it (make sure all important details are visible).
 </div>
 
 ## Phase 3 - User Interviews + Iterations
@@ -254,7 +259,7 @@ As you should already be fairly confident in your information structure and basi
 
 ## Final Mockups & Assignment Write-up
 
-With the previous draft's user testing results, you should come to a good conclusion on what your MVP should act and look like. The final mock ups should be complete and sufficiently detailed to be handed off to a developer to realize them.
+With the previous draft's user testing results, you should come to a good conclusion on what your MVP should act and look like. The final mock ups should be complete and sufficiently detailed to be handed off to a developer to realize them. Include mockups of the onboarding, first use, and (if applicable) login flows.
 
 <div class="box">
   <strong class="milestone-counter">Milestone 9:</strong> Finalize the mock ups and save them under the folder "Final".
@@ -269,6 +274,7 @@ Also, we want you to take note that the different milestones in Assignment 1 has
 The broad structure of the PRD is as such:
 1. Product Purpose (Milestones 1-3)
 - Description of the problem that you are trying to solve
+- High level description of what the product does and how it solves the problem
 - Who is the product for 
 
 2. Competitive Analysis (Not included in Assignment 1)
