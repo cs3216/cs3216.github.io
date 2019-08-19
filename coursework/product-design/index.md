@@ -33,11 +33,20 @@ The objective of this assignment is to ideate and design an app that solves a re
 
 ## Phase 0
 
-For this assignment, you will be designing and building a mockup of your app's user flow. There are a large number of available UX design tools in the industry. While [Sketch](https://www.sketchapp.com/) is the industry standard, it is not free and available only on macOS.
+For this assignment, you will be designing and building a mockup of your app's user flow. There are a large number of available UX design tools in the industry.
 
-We have secured a free education edition of [InVision](https://www.invisionapp.com/) for your use. See [Coursemology](https://coursemology.org/courses/1346/) for more information on how to obtain an account.
+We recommend using [Adobe XD](https://www.adobe.com/sea/products/xd.html), a powerful design tool that is able to convert the designs into interactive mockups too! The interactive mockups are automatically published onto an online link and can be run on mobile devices like the real thing as well. Adobe themselves provide lots of free XD resources and design templates that follow the latest design trends:
+* <https://www.adobe.com/sea/products/xd/resources.html>
+* <https://www.xdguru.com/>
 
-Note that you are not limited to using InVision. You can use Powerpoint, or even paper and pencil for the wireframe sketches if that's easier for you. Whatever tool you choose, it has to be able to produce a mockup that fulfills all the assignment requirements. In particular, the mockup should be able to **demonstrate** user flow through the app.
+Apart from Adobe XD, here are some other tools you can choose from:
+
+* [InVision](https://www.invisionapp.com/): We have secured a free education edition for your use. See [Coursemology](https://coursemology.org/courses/1346/) for more information on how to obtain an account.
+* [Sketch](https://www.sketchapp.com/): an industry standard but is not free and available only on macOS.
+* PowerPoint.
+* Paper and pencil for wireframe sketches.
+
+Whatever tool you choose, it has to be able to produce a mockup that fulfills all the assignment requirements. In particular, the mockup should be able to **demonstrate** user flow through the app.
 
 <div class="box">
   <strong class="milestone-counter">Milestone 0a (Compulsory, not graded):</strong> Describe your app in one paragraph. What does your app do and why?
@@ -188,7 +197,7 @@ You may find it easier go out in pairs to conduct this form of testing. One of y
 
 Ask them for five to ten minutes of their time, and if they agree, start by giving them a little context for what you are about to show them. For instance, if the app in question is NUSMods, you might tell them that they have just received a link from a friend telling them to check out a new app for organizing their NUS timetable. You may also give them an explicit goal to accomplish, such as "you would like to sign up for an account".
 
-Instruct them to *think aloud* and use their finger to point at where they will click or tap. A quick way to explain “Think Aloud” to your users is “Vocalize your thoughts. Let us know what you’re thinking throughout the way”. Explain that you will be acting the part of the computer, and reassure them that there is no wrong answer.
+Instruct them to *think aloud* and use their finger to point at where they will click or tap. A quick way to explain “Think Aloud” to your users is “Vocalize your thoughts. Let us know what you’re thinking throughout the way”. Explain that you will be acting the part of the computer, and reassure them that there is no wrong answer. Do also tell the user to notify you if they are done using the app/website or don't have anything else to do. This will make it clear to you when the user has totally lost interest, given up on your UI, or have no more use for your website/app.
 
 Now open the first screen they’re supposed to see. Observe what they click on first, second, third, etc. Remember to "transition" your mockup as they interact with it. **Do not** say anything during the whole process. If users become lost or confused, **let them be lost or confused**. Only prompt them for what they are thinking if it appears that they are not thinking aloud. If they get stuck, simply move onto the next set of mockups.
 
