@@ -1457,6 +1457,6 @@ contains the following:
 
 **Not following the submission instructions (e.g. incorrect file naming) will result in deduction of marks.**
 
-Clarifications and questions related to this assignment should be posted to the CS3216 Slack channel "#ay1819-assg3".
+Clarifications and questions related to this assignment should be posted to the CS3216 Slack channel [#ay1920-assg3](https://cs3216.slack.com/messages/CM6DPESGK/).
 
 Good luck and have fun!

@@ -184,6 +184,6 @@ The following is the list of deliverables to be pushed to your Bitbucket reposit
 Push all of the above to your Bitbucket repository.
 **Not following the submission instructions (e.g. incorrect file naming) will result in deduction of marks.**
 
-Clarifications and questions related to this assignment should be posted to the CS3216 Slack channel "#ay1718-project".
+Clarifications and questions related to this assignment should be posted to the CS3216 Slack channel [#ay1920-project](https://cs3216.slack.com/messages/CM6DPRRNX/).
 
 Good luck, have fun. Live long and prosper!

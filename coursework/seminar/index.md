@@ -88,7 +88,7 @@ The slides for the presentation should be named `group-<number>-seminar.{pptx|ke
 
 **Marks will be deducted if you fail to follow the submission instructions (e.g. incorrect file naming).**
 
-Clarifications and questions related to this assignment should be posted to the CS3216 Slack channel "#ay1920-assg2".
+Clarifications and questions related to this assignment should be posted to the CS3216 Slack channel [#ay1920-assg2](https://cs3216.slack.com/messages/CM6DPAV5Z/).
 
 The way this assignment is structured, it might seem very stressful — but it's really not quite as bad as it seems. It's actually fun if taken in the right spirit.
 

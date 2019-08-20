@@ -368,7 +368,7 @@ By **1 Sep 2019 23:59** hrs you should upload the following to Coursemology:
   As a final reminder, you should have written answers for <strong>six milestones</strong>, <strong>three to four folders</strong> each containing mockup draft, user testing results and conclusions, and <strong>one final mockup</strong> submission. <strong>Failure to adhere to these instructions will result in the deduction of marks.</strong> Only one member of your group needs to submit on Coursemology on behalf of your group.
 </div>
 
-Clarifications and questions related to this assignment should be posted to the CS3216 Slack channel [#ay1819-assg1](https://cs3216.slack.com/messages/CC6UD93KJ/).
+Clarifications and questions related to this assignment should be posted to the CS3216 Slack channel [#ay1920-assg1](https://cs3216.slack.com/messages/CM6DL04QJ/).
 
 Good luck and have fun!
 
