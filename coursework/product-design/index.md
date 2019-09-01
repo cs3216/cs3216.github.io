@@ -325,7 +325,7 @@ Great examples of attractive landing pages can be found at:
 - [12 Great Landing Page Examples You'll Want to Copy](https://blog.hubspot.com/marketing/fantastic-landing-page-examples)
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 10:</strong> Design and launch a landing page for your app that is hosted on <a href="https://pages.github.com/">GitHub pages</a>. It should have a sign up form for users to indicate interest (it doesn't have to actually save any data).
+  <strong class="milestone-counter">Milestone 10:</strong> Design and launch a landing page for your app that is publicly accessible. You should consider hosting it on <a href="https://pages.github.com/">GitHub pages</a>, but you can host it anywhere that works and just let us have the URL. It should have a sign up form for users to indicate interest (it doesn't have to actually save any data).
 </div>
 
 Use a CSS framework like [Bulma](https://bulma.io/) or [Bootstrap](https://getbootstrap.com/) to save yourself some time. Remember that the design has to be attractive and that your message has to be succinct! You can even consider landing page creators like [MailChimp landing pages](https://mailchimp.com/features/landing-pages/) to skip all the work.
