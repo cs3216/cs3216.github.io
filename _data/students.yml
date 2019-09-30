@@ -21,11 +21,6 @@
     faculty: ''
     blog: https://www.linkedin.com/in/nwjbrandon/
     one_liner: "TDD Battle Hardened Software Engineer, Cloud Robotic Enthusiast"
-  - name: Branson Ng
-    id: branson-ng-khin-swee
-    faculty: ''
-    blog: https://www.linkedin.com/in/branson-ng-b2767b170/
-    one_liner: "Thanks to coding, I now have back pain"
   - name: Caryn Heng Zhi Xuan
     id: heng-zhi-xuan-caryn
     faculty: ''
@@ -147,31 +142,16 @@ def qsort([x | xs]), do: qsort(for a when a < x <- xs, do: a) ++ [x] ++ qsort(fo
     faculty: ''
     blog: https://www.linkedin.com/in/raynerlimrh
     one_liner: "I design and code, and am passionate about building great products and services."
-  - name: Robin Christopher Yu
-    id: robin-christopher-yu
-    faculty: ''
-    blog: http://www.treecaf.com/
-    one_liner: "Probably needing no introduction, exuding ably and leading industry’s next young upstarts! (5, 2)"
   - name: Rohan Arya Varma
     id: rohan-arya-varma
     faculty: ''
     blog: https://github.com/rohan-av/
     one_liner: "year 2 ceg student who prefers coffee without sugar and tea with sugar"
-  - name: Sarah Chan Hsin Mei
-    id: sarah-chan-hsin-mei
-    faculty: ''
-    blog: https://www.linkedin.com/in/sarah-chan-94918a175/
-    one_liner: "A very typical millennial who's always online, somewhere & somehow"
   - name: Sashankh Chengavalli Kumar
     id: sashankh-chengavalli-kumar
     faculty: ''
     blog: https://www.linkedin.com/in/sashankh-kumar/
     one_liner: "A curious and fun loving person with a passion to learn"
-  - name: Sean Ng Peng Nam
-    id: sean-ng-peng-nam
-    faculty: ''
-    blog: https://pengnam.github.io/BrainDump/
-    one_liner: "I love this module (?)"
   - name: Sujay R Subramanian
     id: sujay-r-subramanian
     faculty: ''
@@ -207,11 +187,6 @@ def qsort([x | xs]), do: qsort(for a when a < x <- xs, do: a) ++ [x] ++ qsort(fo
     faculty: ''
     blog: https://www.hanmingdev.com/
     one_liner: "eat sleep commit weep"
-  - name: Zhu WeiJie
-    id: zhu-weijie
-    faculty: ''
-    blog: https://studioaz.space/
-    one_liner: "Hi! I am a designer :)"
 - batch:
   year: 2018
   students:
