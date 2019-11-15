@@ -13,7 +13,7 @@ title: Final Project
 |Progress Report 2 &nbsp;| Monday, 28 October 2019, 23:59 |
 |In-Class Progress Report &nbsp;| Monday, 4 November 2019, 18:30 |
 |Poster Session &nbsp;| Wednesday, 13 November 2019, 23:59 |
-|Final Report &nbsp;| Sunday, 17 November 2019, 23:59 |
+|Final Report &nbsp;| Saturday, 23 November 2019, 23:59 |
 
 ## General Overview
 
