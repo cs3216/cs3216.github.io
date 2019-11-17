@@ -140,7 +140,7 @@ Some examples of past STePS posters:
 
 ## Final Project Report
 
-Like most other classes, the Final Project report is due on **17 November 2019** (to be pushed to Bitbucket by 23:59 please). The final report should (at least) include the following points:
+Like most other classes, the Final Project report is due on **17 November 2019** (to be uploaded to Coursemology by 23:59 please). The final report should (at least) include the following points:
 
 1. Description of the application you have developed.
 2. Are there any existing applications out there that are similar? What makes your application special?
