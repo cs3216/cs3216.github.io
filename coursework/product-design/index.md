@@ -6,8 +6,8 @@ title: Assignment 1 - Product Design
 <br>
 
 {:.table.table-bordered.table-striped.deadline-table}
-|Issue date&nbsp;| Monday, 19 August 2019 |
-|Final submission &nbsp;| Sunday, 1 September 2019, 23:59 |
+|Issue date&nbsp;| Monday, 17 August 2020 |
+|Final submission &nbsp;| Sunday, 30 August 2020, 23:59 |
 
 ## General Overview
 
@@ -66,7 +66,7 @@ Throughout this assignment, we will refer to user flows. In traditional user int
 
 ## Phase 1 - User Requirements Gathering
 
-Every good app / platform / website / service begins with a problem they are looking to solve for a target user. As this assignment is due on **1 Sep 2019**, we recommend you pick a target user who is abundantly available around you, e.g. your fellow NUS students. This way you can easily conduct your user testing.
+Every good app / platform / website / service begins with a problem they are looking to solve for a target user. As this assignment is due on **30 Aug 2020**, we recommend you pick a target user who is abundantly available around you, e.g. your fellow NUS students. This way you can easily conduct your user testing.
 
 Study your users. Think of a problem/pain point you think they are facing now. List down the problem/pain point and assumptions you have about:
 
@@ -359,7 +359,7 @@ Also, students who dutifully follow all the instructions above and hit all requi
 
 ### Mode of submission
 
-By **1 Sep 2019 23:59** hrs you should upload the following to Coursemology:
+By **30 Aug 2020 23:59** hrs you should upload the following to Coursemology:
 
 - Your write up named `group-<number>-milestones.pdf` containing the answers to milestones 1-4 and 10-11.
 - Your mockups and testing results - zipped together - named `group-<number>-mockups.zip`
@@ -368,7 +368,7 @@ By **1 Sep 2019 23:59** hrs you should upload the following to Coursemology:
   As a final reminder, you should have written answers for <strong>six milestones</strong>, <strong>three to four folders</strong> each containing mockup draft, user testing results and conclusions, and <strong>one final mockup</strong> submission. <strong>Failure to adhere to these instructions will result in the deduction of marks.</strong> Only one member of your group needs to submit on Coursemology on behalf of your group.
 </div>
 
-Clarifications and questions related to this assignment should be posted to the CS3216 Slack channel [#ay1920-assg1](https://cs3216.slack.com/messages/CM6DL04QJ/).
+Clarifications and questions related to this assignment should be posted to the Coursemology forum.
 
 Good luck and have fun!
 

@@ -6,8 +6,8 @@ title: Assignment 3 - Mobile Cloud Application
 <br>
 
 {:.table.table-bordered.table-striped.deadline-table}
-|Issue date&nbsp;| Monday, 2 September 2019 |
-|Final submission &nbsp;| Friday, 27 September 2019, 23:59 |
+|Issue date&nbsp;| Monday, 31 August 2020 |
+|Final submission &nbsp;| Friday, 25 September 2020, 23:59 |
 
 ## General Overview
 
@@ -1411,7 +1411,7 @@ That leaves you with 14 compulsory milestones and each of them is worth 5%.
 The bonus milestones and the optional milestones will contribute
 towards the remaining 30%.
 
-### Final Submission (due Friday, 27 September 2019, 23:59):
+### Final Submission (due Friday, 25 September 2029, 23:59):
 
 - Completion of all compulsory milestones. Submit your answers in a
   write-up and categorise your answers by the milestones they
@@ -1457,6 +1457,6 @@ contains the following:
 
 **Not following the submission instructions (e.g. incorrect file naming) will result in deduction of marks.**
 
-Clarifications and questions related to this assignment should be posted to the CS3216 Slack channel [#ay1920-assg3](https://cs3216.slack.com/messages/CM6DPESGK/).
+Clarifications and questions related to this assignment should be posted to the Coursemology Forum.
 
 Good luck and have fun!
