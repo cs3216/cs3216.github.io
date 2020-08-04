@@ -231,7 +231,7 @@ In CS3216, we expect you to think very hard about what you're trying to
 do. You should not be building an application just because you need to
 submit this assignment.
 
-You should choose an application that fully utilises the potential of
+You should choose an application that fully utilizes the potential of
 the platform. In CS3216 (and life in general), execution matters.
 Choosing the most suitable platform for your application is part of
 execution. Thus, we expect you to come up with a good reason as to why
@@ -509,23 +509,6 @@ every single rule, but you must be able to justify your decisions with
 regards to your application's needs. If you have a ton of time (which you probably don't), you can read up on
 this lengthy but informative [Microsoft REST API Guidelines](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md).
 
-It is important to design the API contract between the client and
-the server well. With the API contract well-documented, the client can test
-out features relying on server data without the server implementing the API endpoint
-by sending mock API requests and receiving mock responses. Tools such as
-[Apiary](https://apiary.io/) and [Faker](https://github.com/marak/Faker.js/)
-can help you with that. Apiary in particular, can help you document your APIs
-for both your client-side and server-side developers to reference.
-
-<div class="box">
-  <strong class="milestone-counter">Milestone 4:</strong>
-  Design and document all your REST API. If you already use Apiary to collaborate within your team, you can simply submit an Apiary link. The documentation should
-  describe the requests in terms of the triplet mentioned above.
-  Do provide us with an explanation on the purpose of each request for reference.
-  Also, explain how your API conforms to the REST principles and why
-  you have chosen to ignore certain practices (if any). You will be penalized if your design violates principles with no good reasons.
-</div>
-
 ### Alternatives to REST
 
 Besides REST, there have been various systems introduced more recently that support alternative ways for client-server communication. 
@@ -536,14 +519,46 @@ Here are some popular alternatives to REST
 - [gRPC](https://grpc.io/) (based off RPC architecture)
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 5:</strong>
+  <strong class="milestone-counter">Milestone 4:</strong>
   Explore one alternative to REST API (may or may not be from the list above). 
-  Give a comparison of the chosen alternative to REST (pros and cons, context of use, etc).
+  Give a comparison of the chosen alternative against REST (pros and cons, context of use, etc).
   
   Between REST and your chosen alternative, identify which might be more appropriate for the application you are building for this project. Explain your choice.
 </div>
 
-## Phase 2: REST Server
+<strong>For your application, you may choose to use REST API or the alternative you have explored.</strong>
+
+It is important to design the API contract between the client and
+the server well. With the API contract well-documented, the client can test
+out features relying on server data without the server implementing the API endpoint
+by sending mock API requests and receiving mock responses. Tools such as
+[Apiary](https://apiary.io/) and [Faker](https://github.com/marak/Faker.js/)
+can help you with that. Apiary in particular, can help you document your APIs
+for both your client-side and server-side developers to reference. For GraphQL and gRPC, there are also tools to generate documentation from the schema and protobuf.
+
+
+<strong>Complete the appropriate milestone 5 below depending on which system you have chosen.</strong>
+
+<strong>EITHER</strong>
+
+<div class="box">
+  <strong class="milestone-counter">Milestone 5 (REST API):</strong>
+  Design and document all your REST API. If you already use Apiary to collaborate within your team, you can simply submit an Apiary link. The documentation should
+  describe the requests in terms of the triplet mentioned above.
+  Do provide us with an explanation on the purpose of each request for reference.
+  Also, explain how your API conforms to the REST principles and why
+  you have chosen to ignore certain practices (if any). You will be penalized if your design violates principles with no good reasons.
+</div>
+
+<strong>OR</strong>
+
+<div class="box">
+  <strong class="milestone-counter">Milestone 5 (alternative to REST):</strong>
+  Provide an equivalent documentation of your client-server communication. For GraphQL and gRPC, you can submit your schema or protobuf <strong>with additional descriptions</strong>, or use any of the tools built on top of that.
+  Also, explain how your design leverages the features of your chosen system. You will be penalized if your design fails to utilize any key features of the chosen system.
+</div>
+
+## Phase 2: API Server
 
 > Don't worry about failure, you only have to be right once.
 >
@@ -1422,7 +1437,7 @@ Here are some useful links:
 The grading of the assignment is divided into two components: satisfying
 the compulsory milestones (70%) and coolness factor (30%). Excluding Milestone 0,
 there are **17 milestones** in total: two are optional (Milestones 16 and 17).
-That leaves you with 15 compulsory milestones. Milestone 5 is worth 3% and milestone 9 is worth 2%. The rest are worth 5% each.
+That leaves you with 15 compulsory milestones. Milestone 4 is worth 3% and milestone 9 is worth 2%. The rest are worth 5% each.
 
 The bonus milestones and the optional milestones will contribute
 towards the remaining 30%.
