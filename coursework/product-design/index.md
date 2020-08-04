@@ -33,13 +33,13 @@ The objective of this assignment is to ideate and design an app that solves a re
 
 ## Phase 0
 
-For this assignment, you will be designing and building a mockup of your app's user flow. There are a large number of available UX design tools in the industry.
+For this assignment, you will be designing and building a mockup of your app's user flow. There are a large number of available UX design tools in the industry, but we recommend using either [Figma](https://www.figma.com/) or [Adobe XD](https://www.adobe.com/sea/products/xd.html). 
 
-We recommend using [Figma](https://www.figma.com/). Figma is a design tool that is available as a web application. Its most prominent feature is the support for real-time collaboration, allowing team members to work on the prototype at the same time. Figma also has community plugins available for additional functionality, such as Iconify which collates over 50,000 icons for use within your prototypes!
+Figma is a design tool that is available as a web application. Its most prominent feature is the support for real-time collaboration, allowing team members to work on the prototype at the same time. Figma also has community plugins available for additional functionality, such as Iconify which collates over 50,000 icons for use within your prototypes!
 * <https://www.figma.com/community/plugin/all>
 * <https://www.figma.com/templates/>
 
-Another tool we recommend is [Adobe XD](https://www.adobe.com/sea/products/xd.html), a powerful design tool that is able to convert the designs into interactive mockups too! The interactive mockups are automatically published onto an online link and can be run on mobile devices like the real thing as well. Adobe themselves provide lots of free XD resources and design templates that follow the latest design trends:
+Adobe XD is another powerful design tool that is able to convert the designs into interactive mockups too! The interactive mockups are automatically published onto an online link and can be run on mobile devices like the real thing as well. Adobe themselves provide lots of free XD resources and design templates that follow the latest design trends:
 * <https://www.adobe.com/sea/products/xd/resources.html>
 * <https://www.xdguru.com/>
 
@@ -50,7 +50,7 @@ Apart from Figma and Adobe XD, here are some other tools you can choose from:
 * PowerPoint.
 * Paper and pencil for wireframe sketches.
 
-Whatever tool you choose, it has to be able to produce a mockup that fulfills all the assignment requirements. In particular, the mockup should be able to **demonstrate** user flow through the app.
+Whatever tool you choose, it has to be able to produce a mockup that fulfills all the assignment requirements. In particular, the final mockup needs to be **interactive** and **demonstrate user flow** through the app.
 
 <div class="box">
   <strong class="milestone-counter">Milestone 0a (Compulsory, not graded):</strong> Describe your app in one paragraph. What does your app do and why?
