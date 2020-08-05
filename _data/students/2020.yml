@@ -1,0 +1,213 @@
+year: 2020
+students:
+  - name: Adam Chew Yong Soon
+    id: adam-chew-yong-soon
+    faculty: "Computing"
+    blog: "https://github.com/adamwth"
+    one_liner: "Big fan of Hamilton"
+  - name: Agnes Natasya
+    id: agnes-natasya
+    faculty: "School of Computing"
+    blog: "https://agnesnatasya.github.io/"
+    one_liner: "happy tummy happy me"
+  - name: Andy Lam
+    id: andy-lam
+    faculty: "Computing"
+    blog: "https://www.linkedin.com/in/andyylam/"
+    one_liner: "coffee, climbing and computers."
+  - name: Aung Thuya Oo
+    id: aung-thuya-oo
+    faculty: "School of Computing"
+    blog: "https://github.com/athuyaoo"
+    one_liner: "I learnt Computer Science to make video games!"
+  - name: Bill Chee
+    id: bill-chee
+    faculty: "Computer Science and Mathematics"
+    blog: "https://www.linkedin.com/in/bill-chee-87ab7b195/"
+    one_liner: "I have great things to do and places to be"
+  - name: Cai Jiaxiu
+    id: cai-jiaxiu
+    faculty: "SoC"
+    blog: "https://www.instagram.com/chumkenoikimonotati/"
+    one_liner: "I'm Jiaxiu, year 4 CS student."
+  - name: Calvin Chen Xingzhu
+    id: calvin-chen-xingzhu
+    faculty: "Computing"
+    blog: "calvincxz"
+    one_liner: "good at being bored"
+  - name: Chan Wai Hon Jonathan
+    id: chan-wai-hon-jonathan
+    faculty: "Computing"
+    blog: "github.com/jonchan51"
+    one_liner: "Need more time..."
+  - name: Chow Yi Wai
+    id: chow-yi-wai
+    faculty: "School of Computing (Home Faculty) and Faculty of Science"
+    blog: "https://github.com/chowyiwai"
+    one_liner: "I am a Year 3 Computer Science and Mathematics student."
+  - name: Chow Yi Yin
+    id: chow-yi-yin
+    faculty: "School of Computing (Home Faculty)
+Faculty of Science"
+    blog: "https://github.com/chowyiyin"
+    one_liner: "I am Yi Yin, a Year 3 Computer Science and Mathematics undergraduate."
+  - name: Christian James Welly
+    id: christian-james-welly
+    faculty: "School of Computing"
+    blog: "https://github.com/chrisjwelly"
+    one_liner: 'Putting the J Welly in a "Job Welly Done"'
+  - name: Christopher Goh Zhen Fung
+    id: christopher-goh-zhen-fung
+    faculty: "Computing"
+    blog: "https://christopher.sg/?ref=cs3216"
+    one_liner: "gimme some hotpot and i'll code"
+  - name: Daniel Wong Yong Shen
+    id: daniel-wong-yong-shen
+    faculty: "School of Computing"
+    blog: "danielwo.ng"
+    one_liner: "Fixing phones and debugging code are but two sides of the same coin."
+  - name: David Choo
+    id: david-choo
+    faculty: "Computing"
+    blog: "https://davidchoo.netlify.app"
+    one_liner: "I love anime, code and stars"
+  - name: Dong SiJi
+    id: dong-siji
+    faculty: "Computing"
+    blog: "https://www.linkedin.com/in/dominic-dong-siji/"
+    one_liner: "I like myself a good meme."
+  - name: Elliot Tan
+    id: elliot-tan
+    faculty: "School of Computing"
+    blog: "https://www.linkedin.com/in/elliot-tan-yew-han/"
+    one_liner: "someone get me a dog please!!"
+  - name: Gabriel Tan Chuan En
+    id: gabriel-tan-chuan-en
+    faculty: "School of Computing"
+    blog: "https://caephler.com"
+    one_liner: "A generalist by nature. On top of doing full-stack development, of course."
+  - name: Georgie Lee
+    id: georgie-lee
+    faculty: "Computer Science"
+    blog: "https://findgeorgie.com/"
+    one_liner: "True bliss is when your hands never leave the keyboard. Zealous vim, tmux user."
+  - name: He Xinyue
+    id: he-xinyue
+    faculty: "SoC"
+    blog: "xinyuehe.me"
+    one_liner: "what, so everyone's supposed to sleep every single night now?"
+  - name: Ho Hol Yin
+    id: ho-hol-yin
+    faculty: "School of Computing"
+    blog: "https://github.com/hoholyin"
+    one_liner: "I like to swim!"
+  - name: Jiang Yuxin
+    id: jiang-yuxin
+    faculty: "School of Computing"
+    blog: "https://www.linkedin.com/in/yuxin-jiang-17b36b17a/"
+    one_liner: "I am passionate about coding and cooking."
+  - name: Jon Chua
+    id: jon-chua
+    faculty: "School of Computing"
+    blog: "https://jonchua.dev/"
+    one_liner: "Can good code and good sleep coexist?"
+  - name: Lim Yong Shen, Kevin
+    id: lim-yong-shen-kevin
+    faculty: "Computing"
+    blog: "https://github.com/lyskevin"
+    one_liner: "Programmer, foodie and (amateur) investor."
+  - name: Liu Guangyuan (Gary)
+    id: liu-guangyuan-gary
+    faculty: "School of Computing"
+    blog: "https://garyliu.dev"
+    one_liner: "// TODO: think of something cool"
+  - name: Liu Zechu
+    id: liu-zechu
+    faculty: "School of Computing"
+    blog: "https://github.com/LiuZechu"
+    one_liner: "I have discovered a truly marvellous description, which this margin is too narrow to contain."
+  - name: Liu Zimu
+    id: liu-zimu
+    faculty: "Computing"
+    blog: "https://www.linkedin.com/in/zimu-liu-044575129/"
+    one_liner: "'0' is start."
+  - name: Mario Lorenzo
+    id: mario-lorenzo
+    faculty: "Engineering"
+    blog: "https://github.com/mario7lorenzo"
+    one_liner: "Tomorrow will be a better day"
+  - name: Na Nazhou
+    id: na-nazhou
+    faculty: "School of Computing"
+    blog: "https://www.linkedin.com/in/nazhou-na/"
+    one_liner: "I love spicy food"
+  - name: Nelson Tan Kok Yi
+    id: nelson-tan-kok-yi
+    faculty: "Computing"
+    blog: "ccb.wtf"
+    one_liner: "Amazing and fun!"
+  - name: Neo Ming Jie
+    id: neo-ming-jie
+    faculty: "Electrical Engineering"
+    blog: ""
+    one_liner: "Feed me and I will work"
+  - name: Ong Yan Chun
+    id: ong-yan-chun
+    faculty: "School of Computing"
+    blog: "https://yanch.me/"
+    one_liner: "i'm also known as Yanch. i wonder what the character limit is for this one-line description—"
+  - name: Otto Alexander Sutianto
+    id: otto-alexander-sutianto
+    faculty: "Science & Computing"
+    blog: "https://www.linkedin.com/in/otto-alexander/"
+    one_liner: "Impossible we do, Miracle we try"
+  - name: Pan Yongjing
+    id: pan-yongjing
+    faculty: "Faculty of Engineering"
+    blog: "https://www.johnpan.me/"
+    one_liner: '${user.getProperty("description")}'
+  - name: Phillmont Muktar
+    id: phillmont-muktar
+    faculty: "Faculty of Science"
+    blog: "https://phillmontisaweso.me"
+    one_liner: "I code fueled by glycogen."
+  - name: Poh Lin Wei
+    id: poh-lin-wei
+    faculty: "School of Computing"
+    blog: "https://pohlinwei.github.io"
+    one_liner: "Seeking simplicity in chaos."
+  - name: See Zi Yang
+    id: see-zi-yang
+    faculty: "Computing"
+    blog: "https://www.linkedin.com/in/seeziyang/"
+    one_liner: "hi"
+  - name: Tan Jin Ying
+    id: tan-jin-ying
+    faculty: "Computing"
+    blog: "https://www.tanjinying.com/"
+    one_liner: "FOODIE!"
+  - name: Tan Teik Jun
+    id: tan-teik-jun
+    faculty: "Computing"
+    blog: "https://teikjun.netlify.com/"
+    one_liner: ":D"
+  - name: Wang Runding
+    id: wang-runding
+    faculty: "Computing"
+    blog: "https://www.wangrunding.com/"
+    one_liner: "Come for NUS Guitar Ensemble concert:)"
+  - name: Yehezkiel Raymundo Theodoroes
+    id: yehezkiel-raymundo-theodoroes
+    faculty: "Computer Science"
+    blog: "https://www.tiktok.com/@yehezkieltheodoroes"
+    one_liner: "Bread is roti, friend is kawan, before you mati, stay safe everywan."
+  - name: Yen Ren Zuo Brian
+    id: yen-ren-zuo-brian
+    faculty: "Faculty of Science (Applied Mathematics)"
+    blog: "https://github.com/brianyenna"
+    one_liner: "Coder and Design Enthusiast"
+  - name: Yoke Kai Xin
+    id: yoke-kai-xin
+    faculty: "School of Computing"
+    blog: "https://www.linkedin.com/in/kai-xin-yoke-93612a166/"
+    one_liner: "I'm Kai Xin and well, a happy person ( :P) who loves to attempt a variety of things for exposure and interest ( :) )"
