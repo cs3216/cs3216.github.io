@@ -1,5 +1,5 @@
 {
-  "name": "update_students",
+  "name": "update_students_csv",
   "version": "1.0.0",
   "description": "",
   "main": "createNewYml.js",
