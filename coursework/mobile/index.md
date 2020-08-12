@@ -536,7 +536,6 @@ by sending mock API requests and receiving mock responses. Tools such as
 can help you with that. Apiary in particular, can help you document your APIs
 for both your client-side and server-side developers to reference. For GraphQL and gRPC, there are also tools to generate documentation from the schema and protobuf.
 
-
 <strong>Complete the appropriate milestone 5 below depending on which system you have chosen.</strong>
 
 <strong>EITHER</strong>
