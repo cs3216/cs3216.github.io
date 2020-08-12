@@ -13,8 +13,7 @@ layout: default
           <a href="#{{ batch.year }}">{{ batch.year }}</a>
         </li>
       {% endfor %} -->
-      {% assign batches = site.data.students | values | sort: 'year' | reverse %}
-      {% for batch in batches %}
+      {% for batch in site.data.students %}
         <h2 id="{{ batch.year }}">{{ batch.year }}</h2>
         <div class="row">
           {% for student in batch.students %}
