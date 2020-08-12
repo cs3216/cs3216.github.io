@@ -3,7 +3,7 @@
   To run this script, run:
   node createNewYml.js
 
-  It will generate a new <year>.yml in the same folder for you to add to `_data/students`.
+  It will generate a new student.yml in the same folder for you to replace in `_data`.
   It will also create a <year> folder with the images of students to add to `img/students`.
 
   Expects the Coursemology answer zip to take on the following format:
@@ -24,6 +24,8 @@ const fs = require('fs')
 const path = require('path');
 const htmlToText = require('html-to-text');
 
+// Unless yml format or dir change, there should be no need to modify this
+var originalFileDir = '../../_data/students.yml'
 // Directory containing folders of user submissions downloaded from Coursemology (expects parent directory of user folders)
 const dataDir = "data/submissions"
 
@@ -33,30 +35,37 @@ const ONELINER_FOLDER = 'Question 1 Give us a one-line description of yourself'
 const PHOTO_FOLDER = 'Question 4 Please upload a photo of yourself here'
 const ANSWER_FILE = 'answer.txt'
 
-
-fs.readdir(dataDir, {withFileTypes: true}, (err, userSubmissions) => {
+fs.readFile(originalFileDir, function (err, data) {
   if (err) {
     return console.error(err)
   }
 
-  let currDate = new Date()
-  let thisYear = (1900 + currDate.getYear()).toString()
-  let ymlStr = 'year: ' + thisYear + '\nstudents:'
-
-  if (!fs.existsSync(thisYear)) {
-    fs.mkdirSync(thisYear)
-  }
-
-  userSubmissions.filter(entry => entry.isDirectory())
-    .forEach(submission => {
-      copyImageWithRename(thisYear, submission.name, path.join(dataDir, submission.name))
-      ymlStr += processStudent(submission.name, path.join(dataDir, submission.name))
-    })
-
-  fs.writeFile(`${thisYear}.yml`, ymlStr, function (err) {
+  fs.readdir(dataDir, {withFileTypes: true}, (err, userSubmissions) => {
     if (err) {
       return console.error(err)
     }
+
+    let currDate = new Date()
+    let thisYear = (1900 + currDate.getYear()).toString()
+    var oldStr = data.toString()
+    var ymlStr = '- batch:\n  year: ' + thisYear + '\n  students:'
+
+    if (!fs.existsSync(thisYear)) {
+      fs.mkdirSync(thisYear)
+    }
+
+    userSubmissions.filter(entry => entry.isDirectory())
+        .forEach(submission => {
+          copyImageWithRename(thisYear, submission.name, path.join(dataDir, submission.name))
+          ymlStr += processStudent(submission.name, path.join(dataDir, submission.name))
+        })
+
+    ymlStr += '\n' + oldStr
+    fs.writeFile(`students.yml`, ymlStr, function (err) {
+      if (err) {
+        return console.error(err)
+      }
+    })
   })
 })
 

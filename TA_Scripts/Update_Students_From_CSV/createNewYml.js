@@ -3,7 +3,7 @@
   To run this script, run:
   node createNewYml.js
 
-  it will generate a new <year>.yml in the same folder for you to manually update. (instead of replacing the original file)
+  it will generate a new students.yml in the same folder for you to manually update. (instead of replacing the original file)
   in order to follow existing standards, it will also generate the image id in lowercase and hyphens. The images will have to be renamed manually
 
   Disclaimer: file follows the Javascript Standard Style, so if you don't like the lack of semi-colons, too bad!
@@ -17,6 +17,8 @@ var facKey = 'Faculty'
 var blogKey = 'Blog'
 var oneLinerKey = 'One-liner'
 
+// Unless yml format or dir change, there should be no need to modify this
+var originalFileDir = '../../_data/students.yml'
 var csvToJson = require('csv-to-json')
 var slugify = require('slugify')
 var fs = require('fs')
@@ -37,22 +39,28 @@ var callback = function (err, json) {
     value[blogKey] = value[blogKey].trim()
     value[oneLinerKey] = value[oneLinerKey].trim()
   })
-  
-  var currDate = new Date()
-  var thisYear = 1900 + currDate.getYear()
-  var newStr = 'year: ' + thisYear + '\nstudents:'
-  for (let student of json) {
-    newStr += `\n  - name: ${student[nameKey]}`
-    newStr += `\n    id: ${student.id}`
-    newStr += `\n    faculty: ${student[facKey]}`
-    newStr += `\n    blog: ${student[blogKey]}`
-    newStr += `\n    one_liner: "${student[oneLinerKey]}"`
-  }
 
-  fs.writeFile(thisYear + '.yml', newStr, function (err) {
+  fs.readFile(originalFileDir, function (err, data) {
     if (err) {
       return console.error(err)
     }
+    var oldStr = data.toString()
+    var currDate = new Date()
+    var thisYear = 1900 + currDate.getYear()
+    var newStr = '- batch:\n  year: ' + thisYear + '\n  students:'
+    for (let student of json) {
+      newStr += `\n  - name: ${student[nameKey]}`
+      newStr += `\n    id: ${student.id}`
+      newStr += `\n    faculty: ${student[facKey]}`
+      newStr += `\n    blog: ${student[blogKey]}`
+      newStr += `\n    one_liner: "${student[oneLinerKey]}"`
+    }
+    newStr += '\n' + oldStr
+    fs.writeFile('students.yml', newStr, function (err) {
+      if (err) {
+        return console.error(err)
+      }
+    })
   })
 }
 
