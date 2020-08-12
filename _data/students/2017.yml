@@ -1,0 +1,177 @@
+year: 2017
+students:
+  - name: Aaron Ong Chong Shi
+    id: aaron-ong-chong-shi
+    faculty: Yale
+    blog: https://aaronong.github.io/
+    one_liner: "&lt;script&gt;alert(' I tried. I failed. I'm still trying. ')&lt;/script&gt;"
+  - name: Apoorva Ullas
+    id: apoorva-ullas
+    faculty: Computing
+    blog: https://apoorva-cs3216.blogspot.in/
+    one_liner: "Eat Sleep Code Repeat"
+  - name: Bai Chuan
+    id: bai-chuan
+    faculty: Computing
+    blog: http://cs3216baichuan.blogspot.com
+    one_liner: "the funniest guy in the group"
+  - name: Chan Jin Jia
+    id: chan-jin-jia
+    faculty: Engineering
+    blog: http://jaronchan.me/blog/
+    one_liner: "Always curious. Always honest. Always (marginally) hilarious."
+  - name: Chan Khan
+    id: chan-khan
+    faculty: Computing
+    blog: https://khan3216.wordpress.com/
+    one_liner: "('eat', 'sleep', 'code')[random()] # def random(): return 2"
+  - name: Charlton Lim
+    id: charlton-lim
+    faculty: Computing
+    blog: https://cadmusthefounder.wixsite.com/morsecoder
+    one_liner: "Always looking for interesting stuff to do."
+  - name: Chng Hui Yie
+    id: chng-hui-yie
+    faculty: Computing
+    blog: https://huiyie.github.io/
+    one_liner: "The 'e' is silent but I'm not a very silent person."
+  - name: Chua Lin Jing
+    id: chua-lin-jing
+    faculty: Computing
+    blog: https://cs3216ana.wordpress.com/
+    one_liner: "I like building stuff, reading stuff and swimming and as you can see I am not very creative lol"
+  - name: Curtis Tan Wei Jie
+    id: curtis-tan-wei-jie
+    faculty: Computing
+    blog: https://niwrem3216.wordpress.com
+    one_liner: "Try, fail, and strive again."
+  - name: Danielle Chan Xin Yun
+    id: danielle-chan-xin-yun
+    faculty: FASS
+    blog: https://cs3216journey.wordpress.com/
+    one_liner: "I have a talent in whistling."
+  - name: Fan Weiguang
+    id: fan-weiguang
+    faculty: Computing
+    blog: http://fanwgwg.wordpress.com
+    one_liner: "Updating..."
+  - name: Goh Wei Wen
+    id: goh-wei-wen
+    faculty: Computing
+    blog: https://goweiwen.github.io
+    one_liner: "Chaotic Neutral"
+  - name: Ho Yi Hang
+    id: ho-yi-hang
+    faculty: Computing
+    blog: https://www.nothingbettertodoin.life
+    one_liner: "I write code"
+  - name: Jeremy Jee De Sheng
+    id: jeremy-jee-de-sheng
+    faculty: Computing
+    blog: https://cs3216jeremy.wordpress.com/
+    one_liner: "I'm a person who is always lost, always exploring and always discovering."
+  - name: Kushagra Goyal
+    id: kushagra-goyal
+    faculty: Computing
+    blog: https://kush3216.blogspot.com/
+    one_liner: "Never say die"
+  - name: Lai Cheng Yu
+    id: lai-cheng-yu
+    faculty: Computing
+    blog: https://laichengyu.wordpress.com/
+    one_liner: "I play code and write bridge"
+  - name: Lau Shi Jie
+    id: lau-shi-jie
+    faculty: Business, FASS
+    blog: http://cs3216shijie.blogspot.com/
+    one_liner: "I like to sleep."
+  - name: Li Zihan
+    id: li-zihan
+    faculty: Science
+    blog: https://lizihan97.wordpress.com
+    one_liner: "I love seafood!"
+  - name: Liew Yu Young Jovin
+    id: liew-yu-young-jovin
+    faculty: Business
+    blog: http://jovinliew.co
+    one_liner: "I have a sprained thumb from skiing :-("
+  - name: Lim Jia Yee
+    id: lim-jia-yee
+    faculty: Computing
+    blog: http://glacierein.blogspot.sg/
+    one_liner: "Anything but コーヒー。"
+  - name: Lim Ta Eu
+    id: lim-ta-eu
+    faculty: Computing
+    blog: https://limtaeu.wordpress.com/
+    one_liner: "I make games"
+  - name: Liu Zhiqun
+    id: liu-zhiqun
+    faculty: Engineering
+    blog: http://www.liuzhiqun.com/category/cs3216/
+    one_liner: "To appreciate the impermanence"
+  - name: Martynas Kausas
+    id: martynas-kausas
+    faculty: Computing
+    blog: http://martycs3216.blogspot.sg/
+    one_liner: "Exchange student from the US excited about building products with potential to become businesses."
+  - name: Maximilianus Kusnadi
+    id: maximilianus-kusnadi
+    faculty: Computing
+    blog: https://maxkusnadi.wordpress.com/
+    one_liner: "I am a chill dude"
+  - name: Ng Jun Wei
+    id: ng-jun-wei
+    faculty: Computing
+    blog: https://ngjunwei3216adventures.blogspot.sg/
+    one_liner: "I am a very simple noob"
+  - name: Ng Si Kai
+    id: ng-si-kai
+    faculty: Computing
+    blog: https://ngsikai.wordpress.com
+    one_liner: "Music makes me lose control, Music makes me lose control"
+  - name: Oh Han Gyeol
+    id: oh-han-gyeol
+    faculty: Computing
+    blog: https://han-gyeol.github.io/blog/
+    one_liner: "My name is Han, just Han"
+  - name: Ong Jing Yin
+    id: ong-jing-yin
+    faculty: Computing
+    blog: https://jy3216.wordpress.com/
+    one_liner: "My blood is 36% teh bing"
+  - name: See Loo Jane
+    id: see-loo-jane
+    faculty: Computing
+    blog: https://janemeow.wordpress.com
+    one_liner: "I like cats and sleeping."
+  - name: See Soon Kiat
+    id: see-soon-kiat
+    faculty: Computing
+    blog: https://skylavis.wordpress.com/
+    one_liner: "Be hungry for creativity"
+  - name: Stefano Chiesa Suryanto
+    id: stefano-chiesa-suryanto
+    faculty: Computing
+    blog: https://medium.com/@stefanocs/
+    one_liner: "lowercase is so cool, i like it"
+  - name: Tan Kai Meng Wilson
+    id: tan-kai-meng-wilson
+    faculty: Computing
+    blog: http://blog.nus.edu.sg/wilsontan/
+    one_liner: "Coding's pretty fun"
+  - name: Tan Zheng Wei
+    id: tan-zheng-wei
+    faculty: Computing
+    blog: http://zhengwei143.blogspot.sg/
+    one_liner: "I hope you like naps too"
+  - name: Wang Riwu
+    id: wang-riwu
+    faculty: Computing
+    blog: https://blog.nus.edu.sg/cs3216riwu/
+    one_liner: "The only limit to your impact is your imagination and commitment."
+  - name: Won Jun Ru Daphne
+    id: won-jun-ru-daphne
+    faculty: Computing
+    blog: https://ifonlytimecouldrewind.blogspot.sg/
+    one_liner: "Sometimes I will do slightly crazy things out of randomness"
