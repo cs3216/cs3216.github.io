@@ -526,7 +526,7 @@ Here are some popular alternatives to REST
   Between REST and your chosen alternative, identify which might be more appropriate for the application you are building for this project. Explain your choice.
 </div>
 
-<strong>For your application, you may choose to use REST API or the alternative you have explored.</strong>
+<strong>For your application, you may choose to implement a REST API or the alternative you have explored.</strong>
 
 It is important to design the API contract between the client and
 the server well. With the API contract well-documented, the client can test
