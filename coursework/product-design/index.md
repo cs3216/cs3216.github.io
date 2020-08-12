@@ -33,20 +33,24 @@ The objective of this assignment is to ideate and design an app that solves a re
 
 ## Phase 0
 
-For this assignment, you will be designing and building a mockup of your app's user flow. There are a large number of available UX design tools in the industry.
+For this assignment, you will be designing and building a mockup of your app's user flow. There are a large number of available UX design tools in the industry, but we recommend using either [Figma](https://www.figma.com/) or [Adobe XD](https://www.adobe.com/sea/products/xd.html). 
 
-We recommend using [Adobe XD](https://www.adobe.com/sea/products/xd.html), a powerful design tool that is able to convert the designs into interactive mockups too! The interactive mockups are automatically published onto an online link and can be run on mobile devices like the real thing as well. Adobe themselves provide lots of free XD resources and design templates that follow the latest design trends:
+Figma is a design tool that is available as a web application. Its most prominent feature is the support for real-time collaboration, allowing team members to work on the prototype at the same time. Figma also has community plugins available for additional functionality, such as Iconify which collates over 50,000 icons for use within your prototypes!
+* <https://www.figma.com/community/plugin/all>
+* <https://www.figma.com/templates/>
+
+Adobe XD is another powerful design tool that is able to convert the designs into interactive mockups too! The interactive mockups are automatically published onto an online link and can be run on mobile devices like the real thing as well. Adobe themselves provide lots of free XD resources and design templates that follow the latest design trends:
 * <https://www.adobe.com/sea/products/xd/resources.html>
 * <https://www.xdguru.com/>
 
-Apart from Adobe XD, here are some other tools you can choose from:
+Apart from Figma and Adobe XD, here are some other tools you can choose from:
 
 * [InVision](https://www.invisionapp.com/): We have secured a free education edition for your use. See [Coursemology](https://coursemology.org/courses/1346/) for more information on how to obtain an account.
 * [Sketch](https://www.sketchapp.com/): an industry standard but is not free and available only on macOS.
 * PowerPoint.
 * Paper and pencil for wireframe sketches.
 
-Whatever tool you choose, it has to be able to produce a mockup that fulfills all the assignment requirements. In particular, the mockup should be able to **demonstrate** user flow through the app.
+Whatever tool you choose, it has to be able to produce a mockup that fulfills all the assignment requirements. In particular, the final mockup needs to be **interactive** and **demonstrate user flow** through the app.
 
 <div class="box">
   <strong class="milestone-counter">Milestone 0a (Compulsory, not graded):</strong> Describe your app in one paragraph. What does your app do and why?
@@ -268,15 +272,15 @@ As you should already be fairly confident in your information structure and basi
 
 ## Final Mockups & Assignment Write-up
 
-With the previous draft's user testing results, you should come to a good conclusion on what your MVP should act and look like. The final mock ups should be complete and sufficiently detailed to be handed off to a developer to realize them. Include mockups of the onboarding, first use, and (if applicable) login flows.
+With the previous draft's user testing results, you should come to a good conclusion on what your MVP should act and look like. The final mock ups should be complete and sufficiently detailed to be handed off to a developer to realize them. <strong>Include mockups of the onboarding, first use, and (if applicable) login flows.</strong>
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 9:</strong> Finalize the mock ups and save them under the folder "Final".
+  <strong class="milestone-counter">Milestone 9:</strong> Finalize the high fidelity mock ups and save them under the folder "Final".
   
   You should also have your final write-up together with your final mock ups.
 </div>
 
-Your final mock ups should be accompanied by a write-up that describes how your group has met all the milestones for this assignment, summarized all the results and observations from your user testing results and make it easy for the teaching staff to understand how the submitted mock ups are organized.
+Your final mock ups should be accompanied by a write-up that describes how your group has met all the milestones for this assignment, summarized all the results and observations from your user testing results and make it easy for the teaching staff to understand how the submitted mock ups are organized. The write-up should also highlight the main user flows presented in each mock up submitted.
 
 Also, we want you to take note that the different milestones in Assignment 1 has been structured for you to gain a good sense of what it takes to produce a Product Requirements Document (PRD), a document used in companies (Facebook, Amazon, Google, many other tech companies...) to describe the product being built. The PRD is usually produced and has to be approved before further product development can take place. Once produced, it drives the efforts of the entire product team and the company’s sales, marketing and customer support efforts. 
 

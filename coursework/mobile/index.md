@@ -231,7 +231,7 @@ In CS3216, we expect you to think very hard about what you're trying to
 do. You should not be building an application just because you need to
 submit this assignment.
 
-You should choose an application that fully utilises the potential of
+You should choose an application that fully utilizes the potential of
 the platform. In CS3216 (and life in general), execution matters.
 Choosing the most suitable platform for your application is part of
 execution. Thus, we expect you to come up with a good reason as to why
@@ -509,16 +509,39 @@ every single rule, but you must be able to justify your decisions with
 regards to your application's needs. If you have a ton of time (which you probably don't), you can read up on
 this lengthy but informative [Microsoft REST API Guidelines](https://github.com/Microsoft/api-guidelines/blob/master/Guidelines.md).
 
+### Alternatives to REST
+
+Besides REST, there have been various systems introduced more recently that support alternative ways for client-server communication. 
+These systems have seen increased adoption by companies that benefit from the different approaches to exposing API. 
+
+Here are some popular alternatives to REST
+- [GraphQL](https://graphql.org/)
+- [gRPC](https://grpc.io/) (based off RPC architecture)
+
+<div class="box">
+  <strong class="milestone-counter">Milestone 4:</strong>
+  Explore one alternative to REST API (may or may not be from the list above). 
+  Give a comparison of the chosen alternative against REST (pros and cons, context of use, etc).
+  
+  Between REST and your chosen alternative, identify which might be more appropriate for the application you are building for this project. Explain your choice.
+</div>
+
+<strong>For your application, you may choose to implement a REST API or the alternative you have explored.</strong>
+
 It is important to design the API contract between the client and
 the server well. With the API contract well-documented, the client can test
 out features relying on server data without the server implementing the API endpoint
 by sending mock API requests and receiving mock responses. Tools such as
 [Apiary](https://apiary.io/) and [Faker](https://github.com/marak/Faker.js/)
 can help you with that. Apiary in particular, can help you document your APIs
-for both your client-side and server-side developers to reference.
+for both your client-side and server-side developers to reference. For GraphQL and gRPC, there are also tools to generate documentation from the schema and protobuf.
+
+<strong>Complete the appropriate milestone 5 below depending on which system you have chosen.</strong>
+
+<strong>EITHER</strong>
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 4:</strong>
+  <strong class="milestone-counter">Milestone 5 (REST API):</strong>
   Design and document all your REST API. If you already use Apiary to collaborate within your team, you can simply submit an Apiary link. The documentation should
   describe the requests in terms of the triplet mentioned above.
   Do provide us with an explanation on the purpose of each request for reference.
@@ -526,7 +549,15 @@ for both your client-side and server-side developers to reference.
   you have chosen to ignore certain practices (if any). You will be penalized if your design violates principles with no good reasons.
 </div>
 
-## Phase 2: REST Server
+<strong>OR</strong>
+
+<div class="box">
+  <strong class="milestone-counter">Milestone 5 (alternative to REST):</strong>
+  Provide an equivalent documentation of your client-server communication. For GraphQL and gRPC, you can submit your schema or protobuf <strong>with additional descriptions</strong>, or use any of the tools built on top of that.
+  Also, explain how your design leverages the features of your chosen system. You will be penalized if your design fails to utilize any key features of the chosen system.
+</div>
+
+## Phase 2: API Server
 
 > Don't worry about failure, you only have to be right once.
 >
@@ -570,7 +601,7 @@ Most of time, it is not a good idea to write raw SQL queries yourself. We recomm
 database connectors and ORM tools for the language/framework you intend to use.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 5:</strong> Share with us some queries (at least 3)
+  <strong class="milestone-counter">Milestone 6:</strong> Share with us some queries (at least 3)
   in your application that require database access. Provide the <em>actual SQL queries</em>
   you use (if you are using an <a href="https://www.wikiwand.com/en/Object-relational_mapping">ORM</a>,
   find out the underlying query and provide both the ORM query and the underlying SQL query).
@@ -651,7 +682,7 @@ If you plan to release your application, it is a good idea to do the same for ot
 we may not have covered here.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 6:</strong>
+  <strong class="milestone-counter">Milestone 7:</strong>
   Create an attractive icon and splash screen for your application. Try adding your application
   to the home screen to make sure that they are working properly. Include an image of the icon
   and a screenshot of the splash screen in your writeup. If you did not implement a splash screen, justify your
@@ -691,7 +722,7 @@ to structure your CSS code:
 Read up on them and choose one (or more) to use in your code.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 7:</strong> Style different UI components
+  <strong class="milestone-counter">Milestone 8:</strong> Style different UI components
   within the application using CSS in a structured way (i.e. marks will be deducted if
   you submit messy code). Explain why your UI design is the best possible UI for your application.
   Choose one of the CSS methodologies (or others if you know of them) and implement it in your application.
@@ -725,11 +756,10 @@ Let's Encrypt launched in April 2016 and provides free and automated SSL/TLS cer
 served via HTTPS in order to make use of service workers. More on that later 😉.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 8:</strong>
+  <strong class="milestone-counter">Milestone 9:</strong>
   Set up HTTPS for your application, and also redirect users to the <code>https://</code> version if the user
   tries to access your site via <code>http://</code>. HTTPS doesn’t automatically make your end-to-end communication secure.
   List 3 best practices for adopting HTTPS for your application.
-  Explain the term "certificate pinning" and discuss the pros and cons of adopting it, as well as justify your choice whether or not to use it in your app.
 </div>
 
 ### Offline Operability and Data Persistence
@@ -972,7 +1002,7 @@ but works fine on mobile browsers (Chrome). It is not the most reliable method o
 connectivity.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 9:</strong> Implement and briefly describe the
+  <strong class="milestone-counter">Milestone 10:</strong> Implement and briefly describe the
   offline functionality of your application. Explain why the offline functionality of your
   application fits users' expectations. Implement and explain how you will keep your client
   synchronised with the server if your application is being used offline. Elaborate on the
@@ -1087,7 +1117,7 @@ be sufficient in most cases, but feel free to use any methods you deem fit. More
 found here: <https://jwt.io>
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 10:</strong> Compare the advantages and
+  <strong class="milestone-counter">Milestone 11:</strong> Compare the advantages and
   disadvantages of token-based authentication against session-based authentication. Justify why your
   choice of authentication scheme is the best for your application.
 </div>
@@ -1143,7 +1173,7 @@ unfamiliar and thus unable to assist with problems encountered with
 external frameworks/libraries.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 11:</strong>
+  <strong class="milestone-counter">Milestone 12:</strong>
   Justify your choice of framework/library by comparing it against others.
   Explain why the one you have chosen best fulfils your needs.
   Lastly, list down some (at least 5) of the mobile site design principles
@@ -1175,7 +1205,7 @@ suggestions. Ask your friends to use it as well to gather more feedback
 and ideas.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 12:</strong> Describe 3 common workflows
+  <strong class="milestone-counter">Milestone 13:</strong> Describe 3 common workflows
   within your application. Explain why those workflows were chosen over
   alternatives with regards to improving the user's overall experience with your
   application.
@@ -1230,7 +1260,7 @@ More information and examples at
 <https://developers.google.com/analytics/devguides/collection/analyticsjs/>.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 13:</strong> Embed Google Analytics
+  <strong class="milestone-counter">Milestone 14:</strong> Embed Google Analytics
   in your application and give us a screenshot of the report. Make sure you embed
   the tracker at least 48 hours before submission deadline as updates are reported once per day.
 </div>
@@ -1261,7 +1291,7 @@ Here are some links to get you started on using Lighthouse:
 - <https://youtu.be/NoRYn6gOtVo>
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 14:</strong> Achieve a score of at
+  <strong class="milestone-counter">Milestone 15:</strong> Achieve a score of at
   least 90 for the Progressive Web App category and include the Lighthouse html report in your
   repository.
 </div>
@@ -1308,7 +1338,7 @@ possibly used by many more people. Of course, your application must be
 good or no one would share it.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 15:</strong>
+  <strong class="milestone-counter">Milestone 16:</strong>
   Identify and integrate with social network(s) containing users in your target audience.
   State the social plugins you have used. Explain your choice of social network(s) and
   plugins. (Optional)
@@ -1375,7 +1405,7 @@ respectively. [Mapbox](https://www.mapbox.com/) is a nice alternative to plottin
 allow more customization of the map for more UI goodness.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 16:</strong>
+  <strong class="milestone-counter">Milestone 17:</strong>
   Make use of the Geolocation API in your application. (Optional)
 </div>
 
@@ -1405,8 +1435,8 @@ Here are some useful links:
 
 The grading of the assignment is divided into two components: satisfying
 the compulsory milestones (70%) and coolness factor (30%). Excluding Milestone 0,
-there are **16 milestones** in total: two are optional (Milestones 15 and 16).
-That leaves you with 14 compulsory milestones and each of them is worth 5%.
+there are **17 milestones** in total: two are optional (Milestones 16 and 17).
+That leaves you with 15 compulsory milestones. Milestone 4 is worth 3% and milestone 9 is worth 2%. The rest are worth 5% each.
 
 The bonus milestones and the optional milestones will contribute
 towards the remaining 30%.

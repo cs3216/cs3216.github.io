@@ -45,23 +45,23 @@ Following the presentation, there will be a short Q&A session opened to the rest
 
 ## Application Critique
 
-After listening to all the presentations, each student will be randomly assigned to write about one of the applications that was presented (but not his/her own presentation), and have to blog about the following:
+After listening to all the presentations, each student will be randomly assigned to write about two of the applications that were presented (but not his/her own presentation), and have to write about the following:
 
-1. Summary of what the presenting team said about the application that you think is most important. Don't just regurgitate the entire presentation. Focus on say three points and explain why you are of the view that they are the most important points. (10%)
+1. Summary of what the presenting team said about the application that you think is most important. Don't just regurgitate the entire presentation. Focus on say three points and explain why you are of the view that they are the most important points. (6%)
 
-2. Was the presentation effective? Did the group show that they fully internalize the presentation techniques discussed in Lecture 3 (PUNCH->WIIFY->Plan)? (10%)
+2. Was the presentation effective? Did the group show that they fully internalize the presentation techniques discussed in Lecture 3 (PUNCH->WIIFY->Plan)? (6%)
 
-3. What are your (original) thoughts? (10%)
+3. What are your (original) thoughts? (8%)
 
-The fun part is that the assignment of the presentation each student has to write about will be done only AFTER all the presentations are over. This means that every student will have to pay attention to every presentation 😎. Those who like Russian Roulette are welcome to play and sleep for some presentations.
+The fun part is that the assignment of the presentations each student has to write about will be done only AFTER all the presentations are over. This means that every student will have to pay attention to every presentation 😎. Those who like Russian Roulette are welcome to play and sleep for some presentations.
 
-This is not a literature class and you are not required to write in poetry. We only ask that you think carefully about what you heard and express your ideas clearly. Points will not be taken off for typos or grammatical ideas as long as the ideas are expressed clearly and can be understood easily. There is no minimum length, but do have some mercy on your poor lecturer and try to keep within what would be 2 pages of A4 if it was a typed report. What matters is not how much you write, but the quality of your thoughts and ideas and how much you actually learnt from the process.
+This is not a literature class and you are not required to write in poetry. We only ask that you think carefully about what you heard and express your ideas clearly. Points will not be taken off for typos or grammatical ideas as long as the ideas are expressed clearly and can be understood easily. There is no minimum length, but do have some mercy on your poor lecturer and try to keep each application critique within what would be 1-2 pages of A4 if it was a typed report. What matters is not how much you write, but the quality of your thoughts and ideas and how much you actually learnt from the process.
 
-You are of course also welcome to blog about other aspects of the app seminar and also about lessons learnt in addition to this assignment. The application critique should be submitted on Coursemology by **8 September 2020 23:59** (i.e. the next day).
+You are of course also welcome to write about other aspects of the app seminar and also about lessons learnt in addition to this assignment. The application critiques should be submitted on Coursemology by **8 September 2020 23:59** (i.e. the next day).
 
-## Mutual Critique
+## Response and Follow-up of Critique
 
-Once all the application critiques are submitted, a new Forum will appear and you will post your critique there. You will read the critiques written by your coursemates and have an online discussion. If your coursemates think that the innovation that your team picked is not innovative, then you should try to convince them otherwise. 
+Once all the application critiques are submitted, a new Forum will appear and you will post your critiques there. You will read the critiques written by your coursemates and have an online discussion. If your coursemates think that the innovation that your team picked is not innovative, then you should try to convince them otherwise. 
 
 Just bear in mind that goal of CS3216 is to learn. You do not do better in this segment of the assignment by being really nasty and running your coursemates down. Be civil. Be polite. Be kind. If others post comments disagreeing with you, do not be too defensive. All these comments should be posted by by **13 Sep 2020 23:59** (Sunday).
 
@@ -76,9 +76,8 @@ You also get points if your friends come post stuff on your post. The idea here 
 The following are the weightages for the two components:
 
 - 50% Group presentation
-- 30% Application critique (what you write in your post)
-- 10% Mutual critique (comments people's post on your post)
-- 10% Mutual critique (comments you post on people's post)
+- 40% Application critique x2 (what you write in your posts)
+- 10% Response and follow-up of critique (addressing critique on your chosen innovation and responses to your posts)
 
 Overall, the application seminar is worth 10% of your final grade.
 
