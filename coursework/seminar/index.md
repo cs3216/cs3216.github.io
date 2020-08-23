@@ -83,7 +83,7 @@ Overall, the application seminar is worth 10% of your final grade.
 
 ## Mode of Submission
 
-The slides for the presentation should be named `group-<number>-seminar.{pptx|key}` and uploaded to Coursemology by 2 Sep 23:59 (Sunday), because we will be downloading the slides to project on screen during class. The application critiques should be submitted within 24 hours of the innovation seminar, by **8 September 2020 23:59** (Tuesday). Your comments for the mutual critique part should be done by  **13 Sep 2020 23:59** (Sunday).
+The slides for the presentation should be named `group-<number>-seminar.{pptx|key}` and uploaded to Coursemology by 6 Sep 23:59 (Sunday), because we will be downloading the slides to project on screen during class. The application critiques should be submitted within 24 hours of the innovation seminar, by **8 September 2020 23:59** (Tuesday). Your comments for the mutual critique part should be done by **13 Sep 2020 23:59** (Sunday).
 
 **Marks will be deducted if you fail to follow the submission instructions (e.g. incorrect file naming).**
 
