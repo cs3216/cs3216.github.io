@@ -17,9 +17,9 @@ title: Final Project
 
 ## General Overview
 
-Since you have all survived the first half a semester of CS3216, you are now an expert in both Facebook application and Progressive Web App development. The Final Project is where you will showcase to the world (and the CS3216 teaching staff since the Final Project is what will mostly determine your final grade) your creativity and talents.
+Since you have all survived the first half a semester of CS3216, you are now an expert in both product design and Progressive Web App development. The Final Project is where you will showcase to the world (and the CS3216 teaching staff since the Final Project is what will mostly determine your final grade) your creativity and talents.
 
-For the Final Project, you will work in teams of three or four (fewer is also allowed) to develop and deploy an application (Facebook, mobile, or otherwise) of your choice. You are allowed to team up with anybody you want (and mutually willing to work with you). You may also work with external parties. Please update your groupings on the wiki by **21 Sep 2020**. Each team is to submit a project proposal by **28 September 2020** (Monday immediately after Recess Week) and the teams are expected to work on the Final Projects during the second half of the semester.
+For the Final Project, you will work in teams of three or four (fewer is also allowed) to develop and deploy an application (mobile, web or otherwise) of your choice. You are allowed to team up with anybody you want (and mutually willing to work with you). You may also work with external parties. Please update your groupings on the wiki by **21 Sep 2020**. Each team is to submit a project proposal by **28 September 2020** (Monday immediately after Recess Week) and the teams are expected to work on the Final Projects during the second half of the semester.
 
 Your team can design the whole application, but if the scope is too large to be completed in one semester and you intend to continue to develop your application for a business venture, you can implement a prototype with some basic (or limited) functionality to satisfy the requirements for the class. Please state such intentions clearly in your proposals. The teaching staff will evaluate your proposals carefully and provide you with our feedback within a week.
 
