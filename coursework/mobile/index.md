@@ -1292,7 +1292,7 @@ Here are some links to get you started on using Lighthouse:
 
 <div class="box">
   <strong class="milestone-counter">Milestone 15:</strong> Achieve a score of at
-  least 90 for the Progressive Web App category and include the Lighthouse html report in your
+  least 12/14 for the Progressive Web App category and include the Lighthouse html report in your
   repository.
 </div>
 
@@ -1441,7 +1441,7 @@ That leaves you with 15 compulsory milestones. Milestone 4 is worth 3% and miles
 The bonus milestones and the optional milestones will contribute
 towards the remaining 30%.
 
-### Final Submission (due Friday, 25 September 2029, 23:59):
+### Final Submission (due Friday, 25 September 2020, 23:59):
 
 - Completion of all compulsory milestones. Submit your answers in a
   write-up and categorise your answers by the milestones they
