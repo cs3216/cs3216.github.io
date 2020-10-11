@@ -68,7 +68,7 @@ These are compulsory sessions where the schedule is flexible and should be deter
 
 ## Customer Contact Reports
 
-We have told you time and again to "go out there and talk to your customers", and we're serious. 10% of your project grade will come from your "Customer Contact Reports". We will provide you with a fixed format template that you will use to fill in your customer contact details, and record of your interactions with your potential users. You are expected to produce a contact report at every consultation session.
+We have told you time and again to "go out there and talk to your customers", and we're serious. 10% of your project grade will come from your "Customer Contact Reports". Use any reasonable report format to record your customer contact details and the interactions with your potential users. You are expected to produce a contact report at every consultation session.
 
 ## Progress Reports
 
