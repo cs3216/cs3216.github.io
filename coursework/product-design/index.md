@@ -6,8 +6,8 @@ title: Assignment 1 - Product Design
 <br>
 
 {:.table.table-bordered.table-striped.deadline-table}
-|Issue date&nbsp;| Monday, 17 August 2020 |
-|Final submission &nbsp;| Sunday, 30 August 2020, 23:59 |
+|Issue date&nbsp;| Monday, 16 August 2021 |
+|Final submission &nbsp;| Sunday, 29 August 2021, 23:59 |
 
 ## General Overview
 
@@ -15,7 +15,7 @@ In this assignment, you will put on your designer hat and learn how to design a 
 
 ## Grading and Admin
 
-This assignment can be done in groups of three or four students. If you are unable to find yourself a group, you will be randomly assigned to one.
+This assignment is designed for groups of three or four students. Groupings for all assignment will be formed in the first week of the course.
 
 This assignment is highly open-ended. We provide milestones so that we can grade your application in a consistent way, even though everyone would be building different apps. This assignment is also designed to introduce you to the various phases of app design and the milestones are there to ensure that you learn about the elements in a structured way. We will also provide some related tips, references and a little bit of help to get you started. These milestones constitute 70% of the assignment's grade.
 
@@ -70,7 +70,7 @@ Throughout this assignment, we will refer to user flows. In traditional user int
 
 ## Phase 1 - User Requirements Gathering
 
-Every good app / platform / website / service begins with a problem they are looking to solve for a target user. As this assignment is due on **30 Aug 2020**, we recommend you pick a target user who is abundantly available around you, e.g. your fellow NUS students. This way you can easily conduct your user testing.
+Every good app / platform / website / service begins with a problem they are looking to solve for a target user. As this assignment is due on **29 Aug 2021**, we recommend you pick a target user who is abundantly available around you, e.g. your fellow NUS students. This way you can easily conduct your user testing.
 
 Study your users. Think of a problem/pain point you think they are facing now. List down the problem/pain point and assumptions you have about:
 
@@ -363,7 +363,7 @@ Also, students who dutifully follow all the instructions above and hit all requi
 
 ### Mode of submission
 
-By **30 Aug 2020 23:59** hrs you should upload the following to Coursemology:
+By **29 Aug 2021 23:59** hrs you should upload the following to Coursemology:
 
 - Your write up named `group-<number>-milestones.pdf` containing the answers to milestones 1-4 and 10-11.
 - Your mockups and testing results - zipped together - named `group-<number>-mockups.zip`

@@ -6,12 +6,12 @@ title: Assignment 2 - Innovation Seminar
 <br>
 
 {:.table.table-bordered.table-striped.deadline-table}
-|Issue date &nbsp;| Monday, 10 August 2020 |
-|Innovation submission &nbsp;| Monday, 24 August 2020, 23:59 |
-|Slides submission &nbsp;| Sunday, 6 September 2020, 23:59 |
-|Presentation &nbsp;| Monday, 7 September 2020, 18:30 |
-|Application critiques &nbsp;| Tuesday, 8 September 2020, 23:59 |
-|Mutual critiques &nbsp;| Sunday, 13 September 2020, 23:59 |
+|Issue date &nbsp;| Monday, 9 August 2021 |
+|Innovation submission &nbsp;| Monday, 23 August 2021, 23:59 |
+|Slides submission &nbsp;| Sunday, 5 September 2021, 23:59 |
+|Presentation &nbsp;| Monday, 6 September 2021, 18:30 |
+|Application critiques &nbsp;| Tuesday, 7 September 2021, 23:59 |
+|Mutual critiques &nbsp;| Sunday, 12 September 2021, 23:59 |
 
 ## General Overview
 
@@ -19,7 +19,7 @@ In order to build good and original applications, it is important to learn what 
 
 There is a French think-tank, funded by UNESCO and the French Senate that looks out for digital innovations worldwide called [Netexplo](<https://web.archive.org/web/20170627001520/https://www.netexplo.org/en/intelligence/>). You will form groups of up to 4 people and each team please try to find a new innovation that has not yet been identified the past by Netexplo. 
 
-Before you meet as a group, each member is to try his/her hand at identifying a recent innovation. Your group is to then meet to discuss to finally decide on the most innovative application and make a presentation about it to the rest of the class on **7 Sep 2020**. Each team is to put up their choice of the most innovative application on the innovation seminar groupings page on the [Google Sheet](<https://docs.google.com/spreadsheets/d/1NLYHL9P05ILK4aRw2qnvsRrWXNx1DNwiMmWSaUrHvSU/edit?usp=sharing>) as soon as possible (latest by **24 Aug 2020**) because duplication is not allowed and it will be first come, first served. Please double check that your team's choice has not been taken up by another group before you add to the Wiki. Tie-breakers would be decided based on the Wiki timestamps. 
+Before you meet as a group, each member is to try his/her hand at identifying a recent innovation. Your group is to then meet to discuss to finally decide on the most innovative application and make a presentation about it to the rest of the class on **6 Sep 2021**. Each team is to put up their choice of the most innovative application on the innovation seminar groupings page on the [Google Sheet](<https://docs.google.com/spreadsheets/d/1ETibvkytQLAsnmM06O-JiWuUHfpKstC3uHqQgNLfpHk/edit?usp=sharing>) as soon as possible (latest by **23 Aug 2021**) because duplication is not allowed and it will be first come, first served. Please double check that your team's choice has not been taken up by another group before you add to the google sheet. 
 
 ## Grading and Admin
 
@@ -57,13 +57,13 @@ The fun part is that the assignment of the presentations each student has to wri
 
 This is not a literature class and you are not required to write in poetry. We only ask that you think carefully about what you heard and express your ideas clearly. Points will not be taken off for typos or grammatical ideas as long as the ideas are expressed clearly and can be understood easily. There is no minimum length, but do have some mercy on your poor lecturer and try to keep each application critique within what would be 1-2 pages of A4 if it was a typed report. What matters is not how much you write, but the quality of your thoughts and ideas and how much you actually learnt from the process.
 
-You are of course also welcome to write about other aspects of the app seminar and also about lessons learnt in addition to this assignment. The application critiques should be submitted on Coursemology by **8 September 2020 23:59** (i.e. the next day).
+You are of course also welcome to write about other aspects of the app seminar and also about lessons learnt in addition to this assignment. The application critiques should be submitted on Coursemology by **7 September 2021 23:59** (i.e. the next day).
 
 ## Response and Follow-up of Critique
 
 Once all the application critiques are submitted, a new Forum will appear and you will post your critiques there. You will read the critiques written by your coursemates and have an online discussion. If your coursemates think that the innovation that your team picked is not innovative, then you should try to convince them otherwise. 
 
-Just bear in mind that goal of CS3216 is to learn. You do not do better in this segment of the assignment by being really nasty and running your coursemates down. Be civil. Be polite. Be kind. If others post comments disagreeing with you, do not be too defensive. All these comments should be posted by by **13 Sep 2020 23:59** (Sunday).
+Just bear in mind that goal of CS3216 is to learn. You do not do better in this segment of the assignment by being really nasty and running your coursemates down. Be civil. Be polite. Be kind. If others post comments disagreeing with you, do not be too defensive. All these comments should be posted by by **12 Sep 2021 23:59** (Sunday).
 
 How many comments should you post? As many as you think is appropriate and sufficient to earn the 10% grade for this part of the assignment.
 
@@ -83,7 +83,7 @@ Overall, the application seminar is worth 10% of your final grade.
 
 ## Mode of Submission
 
-The slides for the presentation should be named `group-<number>-seminar.{pptx|key}` and uploaded to Coursemology by 6 Sep 23:59 (Sunday), because we will be downloading the slides to project on screen during class. The application critiques should be submitted within 24 hours of the innovation seminar, by **8 September 2020 23:59** (Tuesday). Your comments for the mutual critique part should be done by **13 Sep 2020 23:59** (Sunday).
+The slides for the presentation should be named `group-<number>-seminar.{pptx|key}` and uploaded to Coursemology by 6 Sep 23:59 (Sunday), because we will be downloading the slides to project on screen during class. The application critiques should be submitted within 24 hours of the innovation seminar, by **7 September 2021 23:59** (Tuesday). Your comments for the mutual critique part should be done by **12 Sep 2021 23:59** (Sunday).
 
 **Marks will be deducted if you fail to follow the submission instructions (e.g. incorrect file naming).**
 
