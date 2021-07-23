@@ -19,7 +19,7 @@ In order to build good and original applications, it is important to learn what 
 
 There is a French think-tank, funded by UNESCO and the French Senate that looks out for digital innovations worldwide called [Netexplo](<https://netexplo.com/n100/>). You will form groups of up to 4 people, and each team will have to find a new innovation that has not yet been identified in the past by Netexplo.
 
-Before you meet as a group, each member is to try his/her hand at identifying a recent innovation. Your group is to then meet and discuss to finally decide on the most innovative application and make a presentation about it to the rest of the class on **6 Sep 2021**. Each team is to put up their choice of the most innovative application in the [Google Sheet](<https://docs.google.com/spreadsheets/d/1ETibvkytQLAsnmM06O-JiWuUHfpKstC3uHqQgNLfpHk/edit?usp=sharing>) as soon as possible (latest by **23 Aug 2021**). Note that duplicates are not allowed and it will be first come, first served. Please double check that your team's choice has not been taken up by another group before you add to the Google Sheet.
+Before you meet as a group, each member is to try his/her hand at identifying a recent innovation. Your group is to then meet and discuss to finally decide on the most innovative application and make a presentation about it to the rest of the class on **6 Sep 2021**. Each team is to put up their choice of the most innovative application on the [Google Sheet](<https://docs.google.com/spreadsheets/d/1ETibvkytQLAsnmM06O-JiWuUHfpKstC3uHqQgNLfpHk/edit?usp=sharing>) as soon as possible (latest by **23 Aug 2021**). Note that duplicates are not allowed and it will be first come, first served. Please double check that your team's choice has not been taken up by another group before you add to the Google Sheet.
 
 ## Grading and Admin
 
@@ -47,7 +47,7 @@ Following the presentation, there will be a short Q&A session opened to the rest
 
 After listening to all the presentations, each student will be randomly assigned to write about two of the applications that were presented (but not his/her own presentation), and have to write about the following:
 
-1. Based on what the team has shared, describe and explain what the application or technology is about. Please don't regurgitate the entire presentation. Summarise the points and keep them unopinionated. (5%)
+1. Based on what the presenting team has shared, describe and explain what the application or technology is about. Please don't regurgitate the entire presentation. Summarise the points and keep them unopinionated. (5%)
 
 2. Was the presentation effective? Did the group show that they fully internalised the presentation techniques discussed in Lecture 3 (PUNCH->WIIFY->Plan)? (6%)
 
@@ -63,7 +63,7 @@ You are, of course, also welcome to write about other aspects of the seminar and
 
 Once all the application critiques are submitted, a new forum will appear and you will post your critiques there. You will read the critiques written by your coursemates on your presentation and have an online discussion. If your coursemates think that the innovation that your team picked is not innovative, then you should try to convince them otherwise.
 
-Just bear in mind that the goal of CS3216 is to learn. You do not do better in this segment of the assignment by being really nasty and running your coursemates down. Be civil. Be polite. Be kind. If others post comments disagreeing with you, do not be too defensive. All these comments should be posted by **12 Sep 2021 23:59** (Sunday).
+Just bear in mind that the goal of CS3216 is to learn. You do not do better in this segment of the assignment by being really nasty and running your coursemates down. Be civil. Be polite. Be kind. If others post comments disagreeing with you, do not be too defensive. All these comments should be posted by **12 September 2021 23:59** (Sunday).
 
 How many comments should you post? As many as you think is appropriate and sufficient to earn the 10% grade for this part of the assignment.
 
@@ -83,7 +83,7 @@ Overall, the application seminar is worth 10% of your final grade.
 
 ## Mode of Submission
 
-The slides for the presentation should be named `group-<number>-seminar.{pptx|key}` and uploaded to Coursemology by 5 September 23:59 (Sunday), because we will be downloading the slides to project on screen during class. The application critiques should be submitted within 24 hours of the innovation seminar, by **7 September 2021 23:59** (Tuesday). Your comments for the mutual critique part should be done by **12 Sep 2021 23:59** (Sunday).
+The slides for the presentation should be named `group-<number>-seminar.{pptx|key}` and uploaded to Coursemology by **5 September 2021 23:59** (Sunday), because we will be downloading the slides to project on screen during class. The application critiques should be submitted within 24 hours of the innovation seminar, by **7 September 2021 23:59** (Tuesday). Your comments for the mutual critique part should be done by **12 September 2021 23:59** (Sunday).
 
 **Marks will be deducted if you fail to follow the submission instructions (e.g. incorrect file naming).**
 
