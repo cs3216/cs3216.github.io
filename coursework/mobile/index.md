@@ -1300,7 +1300,7 @@ Here are some links to get you started on using Lighthouse:
 
 <div class="box">
   <strong class="milestone-counter">Milestone 15:</strong> Achieve a score of at
-  least 8/9 for the Progressive Web App category (automated checks only) and include
+  least 8/9 for the Progressive Web App category on **mobile** (automated checks only) and include
   the Lighthouse HTML report in your repository.
 </div>
 
