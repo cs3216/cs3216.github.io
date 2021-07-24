@@ -1447,7 +1447,7 @@ some of the things we covered above.
 The grading of the assignment is divided into two components: satisfying
 the compulsory milestones (70%) and coolness factor (30%). Excluding Milestone 0,
 there are **17 milestones** in total: two are optional (Milestones 16 and 17).
-That leaves you with 15 compulsory milestones. Milestone 4 is worth 3% and milestone 9 is worth 2%. The rest are worth 5% each.
+That leaves you with 15 compulsory milestones. Milestone 4 is worth 3% and Milestone 9 is worth 2%. The rest are worth 5% each.
 
 The bonus milestones and the optional milestones will contribute
 towards the remaining 30%.
