@@ -47,24 +47,26 @@ More information will be shared at the relevant sections.
 
 For this assignment, you will be designing and building a prototype that demonstrates your app's user flows. There are a large number of available UX design tools in the industry, but we recommend using either [Figma](https://www.figma.com/) or [Adobe XD](https://www.adobe.com/sea/products/xd.html).
 
-Figma is a design tool that is available as a web application. Its most prominent feature is its support for real-time collaboration, allowing team members to work on the same wireframe, mockup or prototype simultaneously. Figma also has community plugins available for additional functionality, such as Iconify which collates over 50,000 icons for use within your designs! Furthermore, students and educators can obtain a pro license from Figma for free.
+**Figma** is a design tool that is available as a web application. Its most prominent feature is its support for real-time collaboration, allowing team members to work on the same wireframe, mockup or prototype simultaneously. Figma also has community plugins available for additional functionality, such as Iconify which collates over 50,000 icons for use within your designs! Furthermore, students and educators can obtain a pro license from Figma for free.
 
 * <https://www.figma.com/community/plugin/all>
 * <https://www.figma.com/templates/>
+* Export your designs out as a `.fig` file when submitting. [Instructions can be found here](https://help.figma.com/hc/en-us/articles/360040028114-Guide-to-exports-in-Figma#Export_in_bulk) at the very bottom.
 
-Adobe XD is another powerful design tool that is able to convert your designs into interactive prototypes. These prototypes can be published onto an online link and can be run on mobile devices as a simulation of the real thing. Adobe provides a lot of free XD resources and design templates that follow the latest design trends:
+**Adobe XD** is another powerful design tool that is able to convert your designs into interactive prototypes. These prototypes can be published onto an online link and can be run on mobile devices as a simulation of the real thing. However, Adobe recently stopped offering their free starter plan and switched to a 7-day free trial instead. If you're keen on trying this out and/or you have an Adobe subscription, Adobe provides a lot of free XD resources and design templates that follow the latest design trends:
 
 * <https://www.adobe.com/sea/products/xd/resources.html>
 * <https://www.xdguru.com/>
+* Save your designs locally as a `.xd` file and submit that.
 
 Apart from Figma and Adobe XD, here are some other tools you may choose from:
 
-* [InVision](https://www.invisionapp.com/): We have secured a free education edition for your use. See [Coursemology](https://coursemology.org/courses/2095) for more information on how to obtain an account.
+* [InVision](https://www.invisionapp.com/): Their free plan allows users to have one prototype with unlimited screens and unlimited collaborators for an unlimited period of time.
 * [Sketch](https://www.sketchapp.com/): An industry standard, but it is not free and available only on macOS.
 * PowerPoint.
 * Paper and pencil for wireframe sketches.
 
-Whatever tool you choose, it has to be able to produce a prototype that fulfills all of the assignment's requirements. In particular, the final prototype needs to be **interactive** and **demonstrate user flows** through the app.
+Whatever tool you choose, it has to be able to produce a prototype that fulfills all of the assignment's requirements. In particular, the final prototype needs to be **interactive** and **demonstrate user flows** through the app. Feel free to check with the teaching team if you are unsure about the tool you plan to use.
 
 <div class="box">
   <strong class="milestone-counter">Milestone 0a (Compulsory, not graded):</strong> Describe your app in one paragraph. What does your app do and why? (You can come back and complete this milestone retroactively.)
@@ -80,7 +82,7 @@ Whatever tool you choose, it has to be able to produce a prototype that fulfills
 
 ## Phase 1 - User Requirements Gathering
 
-Every good app / platform / website / service begins with a problem they are looking to solve for a target user. As this assignment is due on **29 Aug 2021**, we recommend you pick a target user who is abundantly available around you, e.g. your fellow NUS students. This way you can easily conduct your user testing.
+Every good app / platform / website / service begins with a problem they are looking to solve for a target user. As this assignment is due on **29 August 2021**, Sunday, we recommend you pick a target user who is abundantly available around you, e.g. your fellow NUS students. This way you can easily conduct your user testing.
 
 Study your users. Think of a problem/pain point you think they are facing now. List down the problem/pain point and assumptions you have about:
 
@@ -232,7 +234,7 @@ Remain as neutral as possible during testing. Only ask follow-up questions **aft
 Rinse and repeat with three to five[^2] different users.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 6:</strong> Document the results gathered from this round of testing. Things that would be good to document include your observations, the questions you asked, their responses, and the issues identified. Save these into a new "Draft 1 Testing" folder.
+  <strong class="milestone-counter">Milestone 6:</strong> Document the results gathered from this round of testing. Try to be as detailed as possible. Things that would be good to document include your observations, the questions you asked, their responses, and the issues identified. Save these into a new "Draft 1 Testing" folder.
 </div>
 
 After you have completed the testing, it is now time to review the results and improve your user flow. For example, you may want to ask yourself:
@@ -243,10 +245,10 @@ After you have completed the testing, it is now time to review the results and i
 * What assumptions did you make when you created this design? Did the user testing confirm or reject these assumptions?
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 7:</strong> Review your results documented in Milestone 6, and revise both your wireframes and your user flows. Save the updated designs in folders named "Draft 2a" and "Draft 2b" respectively, and write briefly about how the results from your interview have led to the changes in both the design and the flows.
+  <strong class="milestone-counter">Milestone 7:</strong> Review your results documented in Milestone 6, and revise both your wireframes and your user flows. Save the updated designs in folders named "Draft 2a" and "Draft 2b" respectively, and write about how the results from your interview have led to the changes in both the design and the flows.
 </div>
 
-As you iterate on your design, remember to refine your sketches and improve their quality. Be bold in your earlier iterations. It is perfectly normal to throw out entire screens at this early stage. With each iteration you should solidify your design - while earlier iterations may require large redesign, later iterations should only produce minor tweaks.
+As you iterate on your design, remember to refine your sketches and improve their quality. Be bold in your earlier iterations. It is perfectly normal to throw out entire screens at this early stage. With each iteration you should solidify your design - while earlier iterations may require large redesign, later iterations should only produce minor tweaks. Of course, make sure these changes are well-substantiated and well-documented.
 
 ## Phase 4 - Design Mockups/Prototypes + More Iterations
 
@@ -294,11 +296,13 @@ However, remember that the primary goal of the testing is still to observe the u
 
 With the previous draft's user testing results, you should come to a good conclusion on what your MVP should act and look like. The final **interactive** prototype should be complete and sufficiently detailed to be handed off to a developer to realize them. <strong>Your prototype should include the onboarding, first use, and (if applicable) login flows.</strong>
 
+Now, it's time to demonstrate how your app should work! Come together **as a team** and record a demo going through the happy paths of your application, i.e. the main success scenarios for your identified user flows. Try to keep the video short and sweet - give a short introduction about the problem your team is trying to solve before demonstrating the user flows. Keep the video under 5 minutes and submit it as a `.mp4` file.
+
 <div class="box">
-  <strong class="milestone-counter">Milestone 9:</strong> Finalize the prototype and save it under the folder "Final". Once again, since a prototype demonstrates the user flows, just submitting the prototype is sufficient.
+  <strong class="milestone-counter">Milestone 9:</strong> Finalize the prototype, record the demo video and save both of them under a new folder "Final". Once again, since a prototype demonstrates the user flows, just submitting the prototype is sufficient.
 </div>
 
-We want you to take note that the different milestones in Assignment 1 have been structured for you to gain a good sense of what it takes to produce a Product Requirements Document (PRD), a document used in companies (Facebook, Amazon, Google, many other tech companies...) to describe the product being built. The PRD is usually produced and has to be approved before further product development can take place. Once produced, it drives the efforts of the entire product team and the company’s sales, marketing and customer support efforts.
+We want you to be aware that the different milestones in Assignment 1 have been structured for you to gain a good sense of what it takes to produce a Product Requirements Document (PRD), a document used in companies (Facebook, Amazon, Google, many other tech companies...) to describe the product being built. The PRD is usually produced and has to be approved before further product development can take place. Once produced, it drives the efforts of the entire product team and the company’s sales, marketing and customer support efforts.
 
 The broad structure of the PRD is as such:
 
@@ -378,24 +382,24 @@ Your submission will include a write-up that describes how your group has met al
 * It should contain answers to Milestones 1-4 and 10-11.
 * It should also sumamarise your Milestones 5-9. More specifically, it should:
   * Make it clear how the designs are organised. Which ones are wireframes, mockups or prototypes?
-  * Briefly share the results and observations from your user testing results.
+  * Briefly recap the results and observations from your user testing results.
   * Highlight the main user flows presented in each draft / iteration submitted.
 
 ## Grading Scheme
 
-The grading of the assignment is divided into two components: satisfying the compulsory milestones and coolness factor (30%). Excluding Milestone 0, there are **11 milestones** in total, along with an optional Milestone 8b. Milestone 6 is worth 15% while Milestone 9 is worth 10%. The rest are worth 5% each.
+The grading of the assignment is divided into two components: satisfying the compulsory milestones (70%) and coolness factor (30%). Excluding Milestone 0, there are **11 milestones** in total, along with an optional Milestone 8b. Milestones 6, 7 and Milestone 9 are each worth 10%. The rest are worth 5% each.
 
 The remaining 30% will be awarded based on the relative outcomes for the various teams. The top team might be awarded up to 30% while the worst performing team less than 5%. The optional Milestone 8b will also contribute to this.
 
 ### Mode of submission
 
-By **29 Aug 2021 23:59** hrs you should upload the following to Coursemology:
+By **29 August 2021 23:59**, Sunday you should upload the following to Coursemology:
 
 * Your final write-up named `group-<number>-milestones.pdf`.
 * Your designs and testing results - zipped together - named `group-<number>-designs.zip`
 
 <div class="box">
-  As a final reminder, you should have written answers for <strong>six milestones</strong>, <strong>three or more drafts</strong> comprising separate folders for the design, the user flows and user testing results and conclusions, and <strong>one final prototype</strong> submission. <strong>Failure to adhere to these instructions will result in the deduction of marks.</strong> Only one member of your group needs to submit on Coursemology on behalf of your group.
+  As a final reminder, you should have written answers for <strong>six milestones</strong>, <strong>three or more drafts</strong> comprising separate folders for the design, the user flows and user testing results and conclusions, and <strong>one final prototype</strong> and a demo video in your submission. <strong>Failure to adhere to these instructions will result in the deduction of marks.</strong> Only one member of your group needs to submit on Coursemology on behalf of your group.
 </div>
 
 Clarifications and questions related to this assignment should be posted to the Coursemology forum.
