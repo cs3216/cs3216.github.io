@@ -234,7 +234,7 @@ Remain as neutral as possible during testing. Only ask follow-up questions **aft
 Rinse and repeat with three to five[^2] different users.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 6:</strong> Document the results gathered from this round of testing. Try to be as detailed as possible. Things that would be good to document include your observations, the questions you asked, their responses, and the issues identified. Save these into a new "Draft 1 Testing" folder.
+  <strong class="milestone-counter">Milestone 6:</strong> Document the results gathered from this round of testing. Be as detailed as possible. Things that would be good to document include your observations, the questions you asked, their responses, and the issues identified. Save these into a new "Draft 1 Testing" folder.
 </div>
 
 After you have completed the testing, it is now time to review the results and improve your user flow. For example, you may want to ask yourself:
@@ -296,7 +296,7 @@ However, remember that the primary goal of the testing is still to observe the u
 
 With the previous draft's user testing results, you should come to a good conclusion on what your MVP should act and look like. The final **interactive** prototype should be complete and sufficiently detailed to be handed off to a developer to realize them. <strong>Your prototype should include the onboarding, first use, and (if applicable) login flows.</strong> Refer to Phase 0 instructions for the expected submission format for each of the prototyping tools.
 
-Now, it's time to demonstrate how your app should work! Come together **as a team** and record a demo going through the happy paths of your application, i.e. the main success scenarios for your identified user flows. Try to keep the video short and sweet - give a short introduction about the problem your team is trying to solve before demonstrating the user flows. Keep the video under 5 minutes and submit it as a `.mp4` file.
+Now, it's time to demonstrate how your app should work! Come together **as a team** and record a demo going through the happy paths of your application, i.e. the main success scenarios for your identified user flows. Keep the video short and sweet - give a short introduction about the problem your team is trying to solve before demonstrating the user flows. The video must be less than 5 minutes long, and be submitted as a `.mp4` file.
 
 <div class="box">
   <strong class="milestone-counter">Milestone 9:</strong> Finalize the prototype, record the demo video and save both of them under a new folder "Final". Once again, since a prototype demonstrates the user flows, just submitting the prototype is sufficient.
