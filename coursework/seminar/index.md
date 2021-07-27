@@ -75,7 +75,7 @@ The following are the weightages for the two components:
 
 - 50% Group presentation
 - 40% Application critique x 2 (what you write in your posts)
-- 10% Response and follow-up of critique (addressing critiques on your chosen innovation and responses to your posts)
+- 10% Response and follow-up of critiques (addressing critiques on your chosen innovation and responses to your posts)
 
 Overall, the application seminar is worth 10% of your final grade.
 
