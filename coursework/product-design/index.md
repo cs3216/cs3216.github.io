@@ -399,7 +399,7 @@ By **29 August 2021 23:59**, Sunday you should upload the following to Coursemol
 * Your designs and testing results - zipped together - named `group-<number>-designs.zip`
 
 <div class="box">
-  As a final reminder, you should have written answers for <strong>six milestones</strong>, <strong>three or more drafts</strong> comprising separate folders for the design, the user flows and user testing results and conclusions, and <strong>one final prototype</strong> and a demo video in your submission. <strong>Failure to adhere to these instructions will result in the deduction of marks.</strong> Only one member of your group needs to submit on Coursemology on behalf of your group.
+  As a final reminder, you should have written answers for <strong>six milestones</strong>, <strong>three or more drafts</strong> comprising separate folders for the design, the user flows and user testing results and conclusions, <strong>one final prototype</strong>, and <strong>one demo video</strong> in your submission. <strong>Failure to adhere to these instructions will result in the deduction of marks.</strong> Only one member of your group needs to submit on Coursemology on behalf of your group.
 </div>
 
 Clarifications and questions related to this assignment should be posted to the Coursemology forum.
