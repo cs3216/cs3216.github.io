@@ -294,7 +294,7 @@ However, remember that the primary goal of the testing is still to observe the u
 
 ## Final Prototype
 
-With the previous draft's user testing results, you should come to a good conclusion on what your MVP should act and look like. The final **interactive** prototype should be complete and sufficiently detailed to be handed off to a developer to realize them. <strong>Your prototype should include the onboarding, first use, and (if applicable) login flows.</strong>
+With the previous draft's user testing results, you should come to a good conclusion on what your MVP should act and look like. The final **interactive** prototype should be complete and sufficiently detailed to be handed off to a developer to realize them. <strong>Your prototype should include the onboarding, first use, and (if applicable) login flows.</strong> Refer to Phase 0 instructions for the expected submission format for each of the prototyping tools.
 
 Now, it's time to demonstrate how your app should work! Come together **as a team** and record a demo going through the happy paths of your application, i.e. the main success scenarios for your identified user flows. Try to keep the video short and sweet - give a short introduction about the problem your team is trying to solve before demonstrating the user flows. Keep the video under 5 minutes and submit it as a `.mp4` file.
 
