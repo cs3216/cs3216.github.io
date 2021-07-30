@@ -3,6 +3,8 @@ layout: assignment
 title: Assignment 2 - Innovation Seminar
 ---
 
+<!-- markdownlint-disable MD033 -->
+
 <br>
 
 {:.table.table-bordered.table-striped.deadline-table}
@@ -17,9 +19,9 @@ title: Assignment 2 - Innovation Seminar
 
 In order to build good and original applications, it is important to learn what other people have already done — and think critically about what is good and bad, as well as explore ways to improve and to generate new ideas. In addition, it is important to learn how to articulate one's ideas in a clear and succinct way both orally and in writing. The innovation seminar is designed to help students (i) identify innovative ideas; (ii) gain a better understanding of existing applications; (iii) learn how to present (or sell one's ideas) and (iv) learn how to articulate their ideas in writing.
 
-There is a French think-tank, funded by UNESCO and the French Senate that looks out for digital innovations worldwide called [Netexplo](<https://netexplo.com/n100/>). You will form groups of up to 4 people, and each team will have to find a new innovation that has not yet been identified in the past by Netexplo.
+There is a French think-tank, funded by UNESCO and the French Senate that looks out for digital innovations worldwide called [Netexplo](https://netexplo.com/n100/). You will form groups of up to 4 people, and each team will have to find a new innovation that has not yet been identified in the past by Netexplo.
 
-Before you meet as a group, each member is to try his/her hand at identifying a recent innovation. Your group is to then meet and discuss to finally decide on the most innovative application and make a presentation about it to the rest of the class on **6 September 2021**, Monday. Each team is to put up their choice of the most innovative application on the [Google Sheet](<https://docs.google.com/spreadsheets/d/1ETibvkytQLAsnmM06O-JiWuUHfpKstC3uHqQgNLfpHk/edit?usp=sharing>) as soon as possible (latest by **23 August 2021**, Monday). Note that duplicates are not allowed and it will be first come, first served. Please double check that your team's choice has not been taken up by another group before you add to the Google Sheet.
+Before you meet as a group, each member is to try his/her hand at identifying a recent innovation. Your group is to then meet and discuss to finally decide on the most innovative application and make a presentation about it to the rest of the class on **6 September 2021**, Monday. Each team is to put up their choice of the most innovative application on the [Google Sheet](https://docs.google.com/spreadsheets/d/1ETibvkytQLAsnmM06O-JiWuUHfpKstC3uHqQgNLfpHk/edit?usp=sharing) as soon as possible (latest by **23 August 2021**, Monday). Note that duplicates are not allowed and it will be first come, first served. Please double check that your team's choice has not been taken up by another group before you add to the Google Sheet.
 
 ## Grading and Admin
 
