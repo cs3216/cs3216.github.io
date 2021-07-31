@@ -8,8 +8,8 @@ title: Assignment 3 - Mobile Cloud Application
 <br>
 
 {:.table.table-bordered.table-striped.deadline-table}
-|Issue date&nbsp;| Monday, 30 August 2021 |
-|Final submission &nbsp;| Friday, 24 September 2021, 23:59 |
+| Issue date&nbsp; | {{ site.data.assignments.mobile.issue | date: "%A, %-d %B %Y" }} |
+| Final submission &nbsp; | {{ site.data.assignments.mobile.submission | date: "%A, %-d %B %Y, %H:%M" }} |
 
 ## General Overview
 
@@ -814,7 +814,7 @@ The grading of the assignment is divided into two components: satisfying the com
 
 The bonus milestones and the optional milestones will contribute towards the remaining 30%.
 
-### Final Submission (due Friday, 24 September 2021, 23:59)
+### Final Submission (due {{ site.data.assignments.mobile.submission | date: "%A, %-d %B %Y, %H:%M" }})
 
 - Completion of all compulsory milestones. Submit your answers in a write-up and categorise your answers by the milestones they belong to.
 
