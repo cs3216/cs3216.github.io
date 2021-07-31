@@ -11,7 +11,7 @@ title: Assignment 3 - Mobile Cloud Application
 
 ## General Overview
 
-In the recent years, mobile cloud computing has been one of the hottest
+In recent years, mobile cloud computing has been one of the hottest
 topics regarding technological advancement. So what exactly is mobile
 cloud computing and why has it gotten so much attention?
 
@@ -33,7 +33,7 @@ thus narrowing.
 **Cloud computing** is where data and processing power are
 accessed from a pool of shared online resources known as the cloud. You
 can visualise it as a super computer containing all the applications and
-data belonging to their users. A user can run his applications and
+data belonging to their users. A user can run their applications and
 process the data in the cloud using any connected device as a remote
 controller.
 
@@ -46,7 +46,7 @@ with the following strengths:
 
 2.  **Productivity** - What we previously could do only at home or in the
     office can now be done on the go. We are now able to read emails the
-    moment it is received, edit documents or even catch up with friends
+    moment they are received, edit documents or even catch up with friends
     over Facebook and WhatsApp during a commute.
 
 3.  **Device independent** - Want to replace your iPhone with the latest
@@ -54,12 +54,12 @@ with the following strengths:
     need to worry if your favourite application has yet to be ported to
     other platforms.
 
-4.  **Low hardware requirements** - All heavy computation is offloaded
-    from the client to the servers, reducing its role to an interface
-    for sending commands to the cloud. In addition, parts of the data
-    backed up in the cloud can be served on demand. The mobile device
-    therefore, does not need to have large processing power and
-    storage capacity.
+4.  **Low hardware requirements** - All heavy computations are offloaded
+    from the client to the servers, reducing the application's role to an
+    interface for sending commands to the cloud. In addition, parts of the
+    data backed up in the cloud can be served on demand. The mobile device,
+    therefore, does not need to have large processing power and storage
+    capacity.
 
 ## Grading and Admin
 
@@ -67,17 +67,18 @@ This assignment can be done in groups of three or four students. If you
 are unable to find yourself a group, you will be randomly assigned one.
 
 This assignment is highly open-ended. We provide milestones so that we can grade
-your application in a consistent way, even though everyone would be building different apps. This
+your application in a consistent way, even though everyone will be building different apps. This
 assignment is also designed to introduce you to the various elements of
 mobile cloud application development and the milestones are there to ensure
 that you learn about the elements in a structured way. We will also provide some related tips,
 references and a little bit of help to get you started.
 These milestones constitute 70% of the assignment's grade.
 
-Like the previous assignment, if you find that some of the proposed
-milestones do not make sense for the application you intend to build,
-you can petition to replace them with some other deliverables. You are
-to explain why we should agree to your petition, and submit your
+With that said, you have a lot of freedom to express your creativity. You are
+free to develop any application you choose. However, if some of the
+proposed milestones do not make sense for the application you intend to
+build, you can petition to replace them with some other deliverables.
+You are to explain why we should agree to your petition, and submit your
 petition at least one week before the assignment is due.
 **Your petition is subject to approval.**
 
@@ -86,14 +87,14 @@ give you full credit. We ask for quality submissions, not
 run-of-the-mill work.
 
 To score the coveted remaining 30%, use your creativity to develop an
-application that separates yours from the rest. We will not restrict
+application that stands out from the rest. We will not limit
 your potential by restricting the kind of application you can build. We
 expect that you (pleasantly!) surprise us with what you are capable of
 doing. Do note that features must fit the aim of your application;
-ideally it should be seamlessly integrated.
+ideally, it should be seamlessly integrated.
 
 For example, WebVR and geolocation might be the latest and coolest feature supported by most mobile
-browsers but it may not contribute to the user experience in a document
+browsers, but they may not contribute to the user experience in a document
 editor. In fact, implementing features for the sake of doing so may work
 against you (and your grades) by confusing the user.
 
@@ -145,7 +146,7 @@ following components:
 2. **Server** - The server runs on the cloud and serves data to the client.
    For example, transactions on an e-commerce app are requested by the client
    and processed on the server. Often, heavier computations such as video
-   transcoding are also handed by the server because the computational power
+   transcoding are also handled by the server because the computational power
    of mobile web browsers are limited.
 
 3. **Database** - The database does exactly what we would expect of it
@@ -153,22 +154,22 @@ following components:
    application's data.
 
 Depending on the size of the service, differing amounts of hardware may
-be deployed to keep up with the demand of its users. Obviously, large
+be deployed to keep up with the demands of its users. Obviously, large
 services will require more than a single server and database. There are
 many ways to configure multiple servers and databases to work together
 so that the service scales. You may read more about distributed systems
 in this [article](https://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/).
 Several server instances can be run simultaneously while using load balancers
 to split the work evenly among them. Data can also be replicated over
-several databases and/or sharded based on pre-defined hash functions
+several databases and/or sharded based on predefined hash functions
 for higher reliability and availability. Such are issues to consider as you
-extend your reach to more users but in this assignment we shall start small.
+extend your reach to more users, but for this assignment, we shall start small.
 In its simplest form, a mobile cloud application can be hosted with the server
 and database sharing an AWS instance.
 
 One of the benefits of having a client-server architecture is that different kinds of
-clients (Web, iOS, Android, Mac, etc) can reuse the API exposed by the server.
-You will not need to rewrite your server if you need to cater to a new client
+clients (Web, iOS, Android, Mac, etc) can reuse the API exposed by the same server.
+You will not need to rewrite your server if you need to cater to a new client.
 
 ![Server - Client - Database](img/structure1.png){:.assignment-img}
 
@@ -179,7 +180,7 @@ a little from native applications. Since our client is created with
 **JavaScript** and **CSS3**, it is essentially
 a web page. During the user's first visit to
 the site, we will tell the browser to quietly download and save the
-program for future use. A **Service Worker** will help to retain resources
+program for future use. A **Service Worker** will help to retain
 resources through the **Cache API**, which could then be used to serve the
 "web page" in the absence of an internet connection.
 
@@ -206,12 +207,12 @@ As an aspiring entrepreneur of CS3216, you have a mind full of big ideas
 eagerly waiting to see the light of day. After a long discussion with
 the team about the unlimited potential of your new product, you are now
 more sure than ever that this is going to be the next big thing. You
-expect more users than Facebook, Twitter and Pokemon Go combined and
+expect more users than Facebook, Twitter and Pokemon Go combined, and
 to keep this many people waiting any longer is simply evil.
 
 Before you jump into developing the specifications of your application,
 a very important question to ask yourself is, "Does my application solve
-any problem for the users?" An application that has many superfluous
+any problem for the users?". An application that has many superfluous
 features does not make it useful. Just because your application has
 a cool concept or uses the latest technology does not guarantee that the
 initial users who joined out of curiosity will stay on. On the contrary,
@@ -264,7 +265,7 @@ Ideally, you should also think of ways to provide motivation for users
 to share your application with their friends. The application should be
 designed such that while individual users may derive some value using
 your application, it is in their interest to promote your application
-(e.g. A reward scheme can be set up to give out benefits for referrals.)
+(e.g. a reward scheme can be set up to give out benefits for referrals).
 
 The number of users with mobile devices have grown rapidly in recent
 years. Given this trend, how would you take advantage of this growth to
@@ -292,10 +293,10 @@ concepts. There are some other more advanced concepts that you can read up onlin
 A database application may store several _databases_. Hence, while each
 application will usually use its own database, several applications may
 share the same database application running on the same server (e.g. if
-you and a friend each have a blog, even if each blog needs 1 database
+you and a friend each have a blog, even if each blog needs 1 database,
 you could still house both blogs on the same MySQL instance).
 
-Visualizing a database at the highest level, we think about a _schema_,
+To visualize a database at the highest level, we can think about its _schema_,
 which is basically a blueprint of the database's tables, their
 structural details, and the relationships between them.
 
@@ -304,8 +305,8 @@ or more columns each. For example, we can imagine a
 `students` table containing 5 columns:
 `matric_no`, `name`, `address`,
 `phone`, `birthdate`. Each column has a `type`
-that you need to specify (e.g. `name` is of type text,
-`birthdate` is of type date). Actual data will then be simply
+that you need to specify (e.g. `name` is of type `TEXT`,
+`birthdate` is of type `DATE`). Actual data will then be simply
 stored as rows in the table.
 
 Each row needs to be uniquely identifiable. If two rows happen to be
@@ -330,7 +331,7 @@ the `matric_no` column in the `students` table.
 Note that a foreign key column set must reference a primary key column
 set of another table. Note also that our two-table set up allows
 students to become members of two faculties (e.g. when doing double
-degrees). It would not be possible to fully go through all the details about relational database concepts in here. For a better or further understanding,
+degrees). It would not be possible to fully go through all the details about relational database concepts here. For a better or further understanding,
 you might want to look up additional readings about the topic online.
 
 <div class="box">
@@ -354,7 +355,7 @@ You should remember that as a rule of thumb, database schemas should be
 designed with a **design once use forever** principle in mind. You should
 spend a good amount of thinking on a good schema design, after which you
 should not need to come back and make drastic changes to it. Make sure you take some time to plan a good schema design. Having to
-perform a large schema migration when you realize your original schema wasn't flexible enough to support some feature can be a painful process, especially so if you already have a considerably large user base.
+perform a large schema migration when you realise your original schema wasn't flexible enough to support some feature can be a painful process, especially so if you already have a considerably large user base.
 
 <div class="box">
   <strong class="milestone-counter">Milestone 3:</strong> Draw an Entity-Relationship diagram for your database schema.
@@ -367,7 +368,7 @@ milestone submission.)
 ### RESTful API
 
 Much as we would love to immediately begin building the application,
-there is still one final thing we need to draw up plans for, the RESTful
+there is still one final thing we need to draw up plans for - the RESTful
 API itself. Being the bridge between the client and server, both sides
 should be very clear of the specifications to avoid unnecessary
 confusion during development. If you only decide on parts of the
@@ -408,7 +409,7 @@ JSON string could be a response from a social network's REST API to a
 request for information on the user with id = 0, where `{ }` represents
 a dictionary and `[ ]` an array.
 
-```
+```json
 {
   "id": "0",
   "name": "James",
@@ -428,7 +429,7 @@ a dictionary and `[ ]` an array.
 
 JSON is already supported by all modern browsers and server-side
 scripting languages so you do not need to implement it yourself, but if
-you want to know more, visit <http://www.json.org>.
+you want to know more, visit <https://www.json.org/json-en.html>.
 
 Going back to the API, one way to start planning it is to write down a
 list of functionalities (which require server interaction) that you would
@@ -511,22 +512,23 @@ this lengthy but informative [Microsoft REST API Guidelines](https://github.com/
 
 ### Alternatives to REST
 
-Besides REST, there have been various systems introduced more recently that support alternative ways for client-server communication. 
-These systems have seen increased adoption by companies that benefit from the different approaches to exposing API. 
+Besides REST, there have been various systems introduced more recently that support alternative ways for client-server communication.
+These systems have seen increased adoption by companies that benefit from the different approaches to exposing API.
 
 Here are some popular alternatives to REST
+
 - [GraphQL](https://graphql.org/)
 - [gRPC](https://grpc.io/) (based off RPC architecture)
 
 <div class="box">
   <strong class="milestone-counter">Milestone 4:</strong>
-  Explore one alternative to REST API (may or may not be from the list above). 
+  Explore one alternative to REST API (may or may not be from the list above).
   Give a comparison of the chosen alternative against REST (pros and cons, context of use, etc).
   
   Between REST and your chosen alternative, identify which might be more appropriate for the application you are building for this project. Explain your choice.
 </div>
 
-<strong>For your application, you may choose to implement a REST API or the alternative you have explored.</strong>
+**For your application, you may choose to implement a REST API or the alternative you have explored.**
 
 It is important to design the API contract between the client and
 the server well. With the API contract well-documented, the client can test
@@ -536,9 +538,9 @@ by sending mock API requests and receiving mock responses. Tools such as
 can help you with that. Apiary in particular, can help you document your APIs
 for both your client-side and server-side developers to reference. For GraphQL and gRPC, there are also tools to generate documentation from the schema and protobuf.
 
-<strong>Complete the appropriate milestone 5 below depending on which system you have chosen.</strong>
+**Complete the appropriate Milestone 5 below depending on which system you have chosen.**
 
-<strong>EITHER</strong>
+**EITHER**
 
 <div class="box">
   <strong class="milestone-counter">Milestone 5 (REST API):</strong>
@@ -549,7 +551,7 @@ for both your client-side and server-side developers to reference. For GraphQL a
   you have chosen to ignore certain practices (if any). You will be penalized if your design violates principles with no good reasons.
 </div>
 
-<strong>OR</strong>
+**OR**
 
 <div class="box">
   <strong class="milestone-counter">Milestone 5 (alternative to REST):</strong>
@@ -597,7 +599,7 @@ former "data definition language" (DDL), and the latter "data
 manipulation language" (DML). You should _never_ run DDL commands from
 publicly accessible pages.
 
-Most of time, it is not a good idea to write raw SQL queries yourself. We recommend that you look up
+Most of the time, it is not a good idea to write raw SQL queries yourself. We recommend that you look up
 database connectors and ORM tools for the language/framework you intend to use.
 
 <div class="box">
@@ -654,20 +656,21 @@ Source: <https://developers.google.com/web/fundamentals/getting-started/your-fir
 
 It is recommended that you go through this [short tutorial](https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/) on making your first Progressive Web App.
 
-Next we'll be exploring some of the features that constitutes a progressive web app.
+Next we'll be exploring some of the features that constitute a progressive web app.
 
 ### Add to Home Screen
 
 Apart from your usual HTML5 features, most mobile devices allow users to add a
 shortcut of a web page to their home screen.
 
-![iOS Homescreen](img/homescreen-ios7.png){:.assignment-img}
+![iOS Homescreen](img/homescreen-ios14.png){:.assignment-img}
 
 ![Android Homescreen](img/homescreen-android-lollipop.png){:.assignment-img}
 
-In iOS and Android devices, it is possible to run these shortcuts in a
-standalone browser window without the browser's UI controls. This allows
-web applications added to home screen to have more space to work with and
+In iOS and Android devices, when these shortcuts are run, they are opened
+in a standalone browser window that does not include the default browser UI
+controls at the top and bottom. This allows web applications that have
+been added to the home screen to have more space to work with and
 look as if they were native applications. Special metadata tags have
 been developed to allow developers to set icons, splash screens and even
 the colour of the device's status bar. As much as users may like your
@@ -711,7 +714,7 @@ files, linked to the main page using `<link>` tags. It is generally a bad
 practice to mix CSS with HTML.
 
 Good CSS is not easy to write and many applications end up with messy CSS
-after extended period of development as the application grows bigger.
+after an extended period of development as the application grows bigger.
 To solve this problem, front end developers have come up with methodologies
 to structure your CSS code:
 
@@ -731,12 +734,12 @@ Read up on them and choose one (or more) to use in your code.
 
 ### HTTPS
 
-By default, your application should be accessible through Hypertext Transfer Protocol (HTTP) and
-that is considered a bad practice as HTTP data are transmitted through the network in plain allowing
-anyone located between the webhost and the client to be able to sniff and view any HTTP data, which
+By default, your application should be accessible through the Hypertext Transfer Protocol (HTTP). However,
+that is considered a bad practice as HTTP data are transmitted through the network in plaintext, allowing
+anyone located between the web host and the client to be able to sniff and view any HTTP data, which
 may include passwords or tokens.
 
-HTTPS (HTTP over SSL/HTTP Secure) is a protocol for secure communcation over a computer network. HTTPS
+HTTPS (HTTP over SSL/HTTP Secure) is a protocol for secure communication over a computer network. HTTPS
 is not a separate protocol, it refers to use of ordinary HTTP over an encrypted SSL/TLS connection.
 Almost everything in the HTTPS payload is encrypted, including the headers, request and response load.
 
@@ -750,7 +753,7 @@ is the operator of the web server that presents it. Web browsers are generally d
 list of signing certificates of major certificate authorities so that they can verify certificates signed by them.
 
 SSL certificates are issued by certificate authorities (CA), whose certificates are by default
-installed into your machines and obtaining them usually requires paying a bit of money (~8 USD to 70 USD per year).
+installed into your machines, and obtaining them usually requires paying a bit of money (~8 USD to 70 USD per year).
 However, you can also obtain a certificate from [Let's Encrypt](https://letsencrypt.org/getting-started/) for free.
 Let's Encrypt launched in April 2016 and provides free and automated SSL/TLS certifications to websites. PWAs have to be
 served via HTTPS in order to make use of service workers. More on that later 😉.
@@ -789,8 +792,8 @@ realise this for your application.
 #### 1. Service Workers
 
 A service worker is a script that runs in the background and responds
-to events from your webpage, which includes network request. This ability to
-intercept the request and responding to them, whether through the network or
+to events from your webpage, which includes network requests. This ability to
+intercept the request and respond to them, whether through the network or
 cache, helps to provide a consistent experience even when there is no connection.
 
 <div class="box">
@@ -808,7 +811,7 @@ To get started, we first need to register a service worker with our browser. Cre
 - A service worker file named `service-worker.js` in your application root
 - `app.js/main.js` file that will be included in your application, and add the following code to it:
 
-```
+```html
 <script>
 // Check if browser supports service workers
 if ('serviceWorker' in navigator) {
@@ -832,13 +835,13 @@ browser does support it, we will then register our service worker script.
 
 In order for your application to work offline, the service worker will need to
 have all the files related to your application. When your application page is
-visited for the first time, an <strong>install</strong> event will be fired. The service
+visited for the first time, an **install** event will be fired. The service
 worker can then listen to this event and cache the required files through
 the **Cache API** (<https://developer.mozilla.org/en-US/docs/Web/API/Cache>).
 
 Add the following code to `service-worker.js` to handle the install event:
 
-```
+```js
 self.addEventListener('install', function (event) {
   event.waitUntil(
     caches.open('cache_name').then(function (cache) {
@@ -859,13 +862,13 @@ usage.
 
 **Serving the cached files**
 
-Now that the required files has been cached by the Service Worker, we can serve
-the page directly to the user without sending new network request to retrieve these
-files. Similar to the <strong>install</strong> event when a page is first visited,
-a <strong>fetch</strong> event will be fired if the page is visited again.
+Now that the required files have been cached by the Service Worker, we can serve
+the page directly to the user without sending new network requests to retrieve these
+files. Similar to the **install** event when a page is first visited,
+a **fetch** event will be fired if the page is visited again.
 The service worker can then handle this event to return the cached response.
 
-```
+```js
 self.addEventListener('fetch', function (event) {
   event.respondWith(
     caches.match(event.request)
@@ -884,8 +887,8 @@ self.addEventListener('fetch', function (event) {
 });
 ```
 
-In this example, the event request is match against the cache for a cached response. If a corresponding
-response is found, the cached response will be return instantly. If not, the request will be passed on
+In this example, the event request is matched against the cache for a cached response. If a corresponding
+response is found, the cached response will be returned instantly. If not, the request will be passed on
 to the server to retrieve the response.
 
 **Cache Management**
@@ -899,19 +902,19 @@ However, cache management, such as purging unused cached data, has to be managed
 worker itself. This should be done in the **activate** callback to ensure that the latest
 script is used to manage the cache:
 
-```
+```js
 self.addEventListener('activate', function (event) {
   // Cache management. E.g. Purging unused data
-})
+});
 ```
 
 **Additional Resources**
 
-This is just a basic introduction to service workers, which can be utilized more effeciently to provide
+This is just a basic introduction to service workers, which can be utilized more efficiently to provide
 more comprehensive Progressive Web App experiences. For example, rather than caching everything during the
-**install** phase, we could also cache new request progressively as the user explores around the application.
-Service workers can also handle the **push** event, which can be useds to create web notifications that will
-create it a native-like experience. More info can be found [here](https://developers.google.com/web/fundamentals/push-notifications/).
+**install** phase, we could also cache new requests progressively as the user explores around the application.
+Service workers can also handle the **push** event, which can be used to create web notifications that will
+create a native-like experience. More info can be found [here](https://developers.google.com/web/fundamentals/push-notifications/).
 
 There are tons of resources available online for service workers. Here are a few resources to kickstart your
 learning process:
@@ -921,11 +924,11 @@ learning process:
 
 #### 2. Web Storage
 
-Service workers allows resources to be retained locally, but
+Service workers allow resources to be retained locally, but
 JavaScript variables do not survive past the lifetime of the
 application. When the application is restarted, it is reset to a clean
 state. Prior to HTML5, cookies have been used to retain client state;
-however, this method creates burden on the network as all cookies
+however, this method creates a burden on the network as all cookies
 associated with a domain are sent with every request. Web Storage is a
 storage API which allows storing data associated with a site which
 persists across sessions, without the drawbacks of using cookies.
@@ -935,7 +938,7 @@ through the `localStorage` object or the `sessionStorage` object.
 On your own, find out the difference between `sessionStorage` and `localStorage`.
 We will cover `localStorage` in the next example.
 
-```
+```html
 <script>
 var user = localStorage.getItem('user');
 if (user) {
@@ -975,7 +978,7 @@ How you handle the problem depends on your application; prior to that,
 your application would actually need a means to _determine_
 if there is an internet connection:
 
-```
+```html
 <script>
   if (navigator.onLine) {
     alert('Online');
@@ -1017,7 +1020,7 @@ AJAX call to do so. AJAX allows you to make HTTP requests using
 JavaScript without a page reload. The following example uses jQuery to make a
 request to the REST server we have created earlier:
 
-```
+```html
 <script>
 $.ajax({
   type: 'PUT',
@@ -1040,7 +1043,7 @@ by looking at the parameters, we should already know that
 `PUT /products/12345` is a request to modify the information of the
 product with `id` = 12345. Therefore, it makes sense to send the new
 information to the server through the data parameter. If you are expecting JSON to be
-returned, set the `dataType` to <span>json</span> and jQuery will decode
+returned, set the `dataType` to `json` and jQuery will decode
 it for you. Also, the `contentType` defaults to `urlencoded` – remember
 to specify this parameter if the server expects the data to be in some
 other encoding.
@@ -1056,21 +1059,21 @@ instead of being kept in suspense. Visit
 Being able to communicate with a server is cool, but more work has to be done.
 With the right tools, anyone can send a request to your server, and you need to protect
 important API calls so that only the rightful users can make them (e.g. only the blog owner should be
-able to delete his own articles). To do so, we need some ways of
+able to delete their own articles). To do so, we need some ways of
 determining the identity of the user making the request.
 
-One simple approach is to make use of JSON Web Token([JWT](https://jwt.io/introduction/)),
+One simple approach is to make use of JSON Web Token ([JWT](https://jwt.io/introduction/)),
 which is a digitally signed JSON object for transmitting information between
 different parties. JWT consist of three parts:
 
-- **Header** - Contain the metadata for token which usually consists of the
+- **Header** - Contain the token metadata, which usually consists of the
   type of token and the encryption algorithm.
 - **Payload** - The second part of the token is the payload, which contains the claims.
   Claims are statements about an entity (typically, the user) and additional metadata.
 - **Signature** - The headers and payload digitally signed with the encryption
   algorithm.
 
-```
+```json
 // Header
 {
   "alg": "HS256",
@@ -1087,13 +1090,13 @@ different parties. JWT consist of three parts:
 
 Given this header and payload, the JWT string will then be created in the following manner:
 
-```
+```html
 <script>
-var encodedHeader = base64URLencode(header);
-var encodedPayload = base64URLencode(payload);
-var encodedSignature = base64URLencode(HMACSHA256(encodedHeader + '.' + encodedHeader, SECRET));
+const encodedHeader = base64URLencode(header);
+const encodedPayload = base64URLencode(payload);
+const encodedSignature = base64URLencode(HMACSHA256(encodedHeader + '.' + encodedHeader, SECRET));
 
-var encodedJWT = encodedHeader + '.' + encodedPayload + '.' + encodedSignature;
+const encodedJWT = encodedHeader + '.' + encodedPayload + '.' + encodedSignature;
 </script>
 ```
 
@@ -1104,7 +1107,7 @@ When the user is first authenticated with your app using their credentials, the 
 to the user and stored locally. This token can then be added to the `Authorization` header in
 future API requests as part of the authentication.
 
-```
+```text
 Authorization: Bearer <eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ>
 ```
 
@@ -1133,7 +1136,7 @@ information, they try to scroll down. When they perform a swipe, they
 expect to see the next page. Likewise, to navigate through the
 application, looking for tabs at the bottom of the screen is the first
 thing that comes to mind. By making your application native-like, its
-learning curve becomes less steep. In addition, a lot of research has
+learning curve becomes less steep. In addition, as a lot of research have
 been done by the mobile device creators to arrive at the current
 interface, we are less likely to make design mistakes by replicating it.
 Read about this [research study](https://developers.google.com/web/fundamentals/design-and-ux/principles/)
@@ -1143,8 +1146,8 @@ How can we emulate a native application? As part of the goal to improve
 the mobile web, HTML5 and CSS3 have been loaded with many new features.
 These features include animations, 3D transformations, visual effects
 and events which can reproduce the native look and feel when used in
-parallel. To do so however, is time-consuming and a sizeable project on
-its own. Fortunately, others have done the dirty work and open-sourced
+parallel. To do so, however, is time-consuming and is a sizable project on
+its own. Fortunately, others have done the dirty work, and there are many open-sourced
 frameworks and libraries you can use to easily recreate the native
 experience.
 
@@ -1152,10 +1155,10 @@ The following are some options you can consider:
 
 - Ionic - <http://ionicframework.com/>
 - Ratchet - <http://goratchet.com/>
-- Framework7 - <http://framework7.io/>
+- Framework7 - <https://framework7.io/>
 - Onsen UI - <https://onsen.io/>
-- Vuetify - <https://vuetifyjs.com/>
-- Material-UI - <http://www.material-ui.com/#/>
+- Vuetify - <https://vuetifyjs.com/en/>
+- Material-UI - <http://www.material-ui.com/>
 
 The following are some options you should avoid. They look horrid:
 
@@ -1187,12 +1190,12 @@ note that user experience (UX) is different from
 the user interface (UI). A pretty UI does not guarantee a good UX at all.
 Sometimes, a cool-looking UI can be a disaster because of poor UX. Sites like
 [Reddit](https://www.reddit.com/) and [Craigslist](http://craigslist.com/) still
-has a ton of daily active users despite their UI. 😵
+have a ton of daily active users despite their UI. 😵
 
 UX encompasses all aspects of the end-user's
 interaction with the application. There are many components which
 comprise a good UX, but minimally the application should
-allow the users to do what he wants with minimal fuss. UX
+allow the users to do what they want with minimal fuss. UX
 goes far beyond giving users what they say they want, or providing a
 checklist of features. In order to achieve a high-quality user
 experience in your application, careful thought must be put into its
@@ -1216,15 +1219,19 @@ and ideas.
 You should be interested in the usage
 statistics of your application. Google Analytics is one popular way to collect insights. It can be set up easily -- the following examples are using
 the `analytics.js` snippet, part of Universal Analytics.
+We will discuss Google Analytics in the following section, but
+feel free to use any alternatives that you may prefer.
+More recently, there has been increasing focus on more privacy-centric
+website analytics services.
 
 If your application's interface is predominantly built with a JavaScript MVC
-framework, it is very likely that you have a Single-Page Application; one html page with all
+framework, it is very likely that you have a Single-Page Application; one HTML page with all
 transitions handled by JavaScript code and URLs managed by HTML5 `pushState` API.
 Pages can still be tracked using Virtual Pageviews by executing the following code instead. Refer to
 <https://developers.google.com/analytics/devguides/collection/analyticsjs/single-page-applications>
 for more information.
 
-```
+```js
 ga('set', 'pageview', '/your_virtual_page_path');
 ```
 
@@ -1234,7 +1241,7 @@ successful AJAX calls, buttons pressed, or even videos downloaded. The
 following code can be embedded in the click callback of a button which
 publishes a new blog post:
 
-```
+```js
 ga('send', 'event', 'button', 'click', 'publish');
 ```
 
@@ -1261,8 +1268,9 @@ More information and examples at
 
 <div class="box">
   <strong class="milestone-counter">Milestone 14:</strong> Embed Google Analytics
-  in your application and give us a screenshot of the report. Make sure you embed
-  the tracker at least 48 hours before submission deadline as updates are reported once per day.
+  or equivalent alternatives in your application and give us a screenshot of the report. Make
+  sure you embed the tracker at least 48 hours before submission deadline as updates for
+  Google Analytics are reported once per day.
 </div>
 
 ### Google Lighthouse
@@ -1292,8 +1300,8 @@ Here are some links to get you started on using Lighthouse:
 
 <div class="box">
   <strong class="milestone-counter">Milestone 15:</strong> Achieve a score of at
-  least 12/14 for the Progressive Web App category and include the Lighthouse html report in your
-  repository.
+  least 8/9 for the Progressive Web App category on **mobile** (automated checks only) and include
+  the Lighthouse HTML report in your repository.
 </div>
 
 ## Phase 4: Coolness Factor
@@ -1321,7 +1329,7 @@ else can you find the potential to reach so many people without a
 single cent spent on advertising?
 
 Integrating Facebook Login can help potential users overcome the inertia
-of a tedious sign-up process can potentially make them more inclined to
+of a tedious sign-up process, and can potentially make them more inclined to
 try your application.
 
 [Facebook Social Plugins](https://developers.facebook.com/docs/plugins/)
@@ -1356,7 +1364,7 @@ API consists of three simple functions you can use to make your
 application location-aware. When calling these functions, callbacks are
 passed to handle success and failure cases.
 
-1.  `getCurrentPosition`: Invokes callback with user's current position
+1.  `getCurrentPosition`: Invokes a callback with the user's current position
     passed as the first parameter.
 
 2.  `watchPosition`: Does the same as `getCurrentPosition`. In addition,
@@ -1366,10 +1374,10 @@ passed to handle success and failure cases.
 
 3.  `clearWatch`: Stop monitoring user's position.
 
-This code will continue to output the user's position as he walks about
-with his mobile device:
+This code will continue to output the user's position as they walk about
+with their mobile device:
 
-```
+```html
 <script>
 if (navigator.geolocation) { // check if browser supports geolocation
   navigator.geolocation.watchPosition(function (position) {
@@ -1395,8 +1403,8 @@ if (navigator.geolocation) { // check if browser supports geolocation
 </script>
 ```
 
-Showing the user his coordinates may hardly be of any use to him at all.
-You could take it up one level by plotting it on a map and perhaps places of interest near hi.
+Showing the user their coordinates may hardly be of any use to them at all.
+You could take it up one level by plotting it on a map and perhaps places of interest near them.
 
 For complete documentation of Geolocation API and Google Maps, visit
 <https://w3c.github.io/geolocation-api/> and
@@ -1409,7 +1417,7 @@ allow more customization of the map for more UI goodness.
   Make use of the Geolocation API in your application. (Optional)
 </div>
 
-### Other Emerging Features
+### Other Emerging Features and Useful Resources
 
 There are a lot more cool and useful web APIs than what has been
 described in this document. For example, [notification
@@ -1431,12 +1439,15 @@ Here are some useful links:
 - <https://developer.chrome.com/extensions/api_other>
 - <http://caniuse.com>
 
+You can also check out [this video by Google](<https://youtu.be/baSiSIyTGSk>) that recaps
+some of the things we covered above.
+
 ## Grading Scheme
 
 The grading of the assignment is divided into two components: satisfying
 the compulsory milestones (70%) and coolness factor (30%). Excluding Milestone 0,
 there are **17 milestones** in total: two are optional (Milestones 16 and 17).
-That leaves you with 15 compulsory milestones. Milestone 4 is worth 3% and milestone 9 is worth 2%. The rest are worth 5% each.
+That leaves you with 15 compulsory milestones. Milestone 4 is worth 3% and Milestone 9 is worth 2%. The rest are worth 5% each.
 
 The bonus milestones and the optional milestones will contribute
 towards the remaining 30%.
@@ -1457,7 +1468,7 @@ towards the remaining 30%.
 **For the final submission**, please make sure your Git repository
 contains the following:
 
-1.  Place the `README.md` file in the root directory. Github
+1.  Place the `README.md` file in the root directory. GitHub
     will automatically render it on your repository's front page. You
     may wish to style it using any of the supported markup languages.
     The file should contain the list of group members, including
@@ -1467,13 +1478,13 @@ contains the following:
     online somewhere. Make sure that your application name is clearly
     written in the `README` file.
 
-1.  A write-up, `group-<number>-milestones.pdf` containing
+1.  A write-up, `group-<number>-milestones.pdf`, containing
     your answers to all compulsory milestones that require
     written answers. Please make sure that the URL for your
-    application is clearly stated in the write-up for the 
-    conveninience of the teaching staff. 
+    application is clearly stated in the write-up for the
+    conveninience of the teaching staff.
 
-1.  Lighthouse `html` report, `group-<number>-lighthouse.html`.
+1.  Lighthouse HTML report, `group-<number>-lighthouse.html`.
 
 1.  A one/two-page pitch of your application,
     `group-<number>-pitch.pdf` to convince each teaching staff
