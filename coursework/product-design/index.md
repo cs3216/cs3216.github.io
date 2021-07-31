@@ -84,7 +84,7 @@ Whatever tool you choose, it has to be able to produce a prototype that fulfils 
 
 ## Phase 1 - User Requirements Gathering
 
-Every good app / platform / website / service begins with a problem they are looking to solve for a target user. As this assignment is due on **{{ site.data.assignments.product_design.submission | date: "%A, %-d %B %Y" }}**, Sunday, we recommend you pick a target user who is abundantly available around you, e.g. your fellow NUS students. This way, you can easily conduct your user testing.
+Every good app / platform / website / service begins with a problem they are looking to solve for a target user. As this assignment is due on **{{ site.data.assignments.product_design.submission | date: "%A, %-d %B %Y" }}**, we recommend you pick a target user who is abundantly available around you, e.g. your fellow NUS students. This way, you can easily conduct your user testing.
 
 Study your users. Think of a problem/pain point you think they are facing now. List down the problem/pain point and assumptions you have about:
 
