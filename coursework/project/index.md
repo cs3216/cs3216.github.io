@@ -3,6 +3,8 @@ layout: assignment
 title: Final Project
 ---
 
+<!-- markdownlint-disable MD033 -->
+
 <br>
 
 {:.table.table-bordered.table-striped.deadline-table}
@@ -30,12 +32,12 @@ There are no limits on what students can do for the final problem, though the ex
 - A new e-commerce application. This can be the basis for a submission to the Start-Up@Singapore contest
 - A mobile application. You may choose to build a native app if you like
 - An entry for the Microsoft Imagine Cup
-- Some amusement – cute and useless, but *fun* and popular
+- Some amusement – cute and useless, but _fun_ and popular
 - A e-learning application of sorts
 - An Internet of Things hack
 - An application to improve school life, something along the lines of NUSMods / NUSWhispers?
 
-The possibilities are endless. If you plan to develop a social networking application, you are expected to deploy your Final Project at least two to three weeks before the end of the semester because the "proof of the pudding is in the eating". You should get *real* people to use your applications and the popularity of your application can be (but is not the only) criteria for the evaluation.
+The possibilities are endless. If you plan to develop a social networking application, you are expected to deploy your Final Project at least two to three weeks before the end of the semester because the "proof of the pudding is in the eating". You should get _real_ people to use your applications and the popularity of your application can be (but is not the only) criteria for the evaluation.
 
 If one of the apps you developed for one of the previous assignments turned out be to very popular (i.e. has lots of users or a high growth rate) or has perceived potential, you may also choose to further develop it as your Final Project. The only minor complication is that you might be "locked in" to work with same team members. We leave you to sort such things out by yourself.
 
@@ -43,7 +45,7 @@ If one of the apps you developed for one of the previous assignments turned out 
 
 People can be in two Final Project groups. This happens often when someone from an assignment group gets distracted and want to try something new, but cannot really bear to "leave their baby" and still want to be a part of that group. Fair enough.
 
-However, your Final Project grade will come from *ONE* project, that you will specify/declare right at the onset, i.e. by the end of the mid-term break. There rationale for this policy is that we don't want people to jump ship halfway and leave others high and dry. With this policy, everyone knows everyone's priorities. The "extra" members don't count towards the 4-member limit for a project team.
+However, your Final Project grade will come from _ONE_ project, that you will specify/declare right at the onset, i.e. by the end of the mid-term break. There rationale for this policy is that we don't want people to jump ship halfway and leave others high and dry. With this policy, everyone knows everyone's priorities. The "extra" members don't count towards the 4-member limit for a project team.
 
 If you decide to work with external parties, we do not have any official guide on what compensation you should negotiate for. We leave it to you to decide for yourselves what is fair. However, DO NOT work for companies that clearly neither value nor respect you.
 
@@ -86,11 +88,11 @@ Please try to keep your reports to within two pages, or a maximum of 3 pages if 
 
 ## Final Project Presentation
 
-On **1 November 2021** (Mon), each team will make a presentation to the rest of the class on your project. This session will be another round of peer-appraisal by your peers. Your goal is to convinced your fellow coursemates that you project is really cool and you have done a lot of work and great work. Think of it as round 2 of your innovation seminar, but you are selling your own dog food. 
+On **1 November 2021** (Mon), each team will make a presentation to the rest of the class on your project. This session will be another round of peer-appraisal by your peers. Your goal is to convinced your fellow coursemates that you project is really cool and you have done a lot of work and great work. Think of it as round 2 of your innovation seminar, but you are selling your own dog food.
 
 ## Preliminary Security Scanning
 
-At this juncture (1 November 2021), you should have a preliminary website for your app up and running, even if it is not fully functional. You are expected to provide us with URL and the tutors will be using security tools to scan your site. You will be provided with a security report and you are expected to address the cited issues for your final project. Clearly, if your project is very incomplete, very little will be found, but you then risk more bad things being found after your final project is submitted. We will be doing another round of security scanning after your final project is submitted. 
+At this juncture (1 November 2021), you should have a preliminary website for your app up and running, even if it is not fully functional. You are expected to provide us with URL and the tutors will be using security tools to scan your site. You will be provided with a security report and you are expected to address the cited issues for your final project. Clearly, if your project is very incomplete, very little will be found, but you then risk more bad things being found after your final project is submitted. We will be doing another round of security scanning after your final project is submitted.
 
 ## SoC STePs
 
@@ -104,7 +106,7 @@ Again, you can choose how you want to present your work. You can bring along oth
 
 Traditionally, every team is required to make a 1-minute video to be submitted to the STePS organizing committee. Here's a playlist of past year's videos.
 
-<iframe width="100%" height="416" src="https://www.youtube.com/embed/u5AY3JKcTTU?list=PL-0mdQVieeceaFm__nZYSQYzhDGF0C9Jg" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="416" src="https://www.youtube.com/embed/videoseries?list=PLLYjqEF13ESyh-Rpm_-XtJzOqm5MeEnrj" frameborder="0" allowfullscreen></iframe>
 
 ### Marketing Efforts
 
@@ -114,9 +116,9 @@ As part of the user acquisition process, many teams set up their own Facebook pa
 - **Griddit** created an anonymous chatroom for NUSWhispers and organized an [AMA with Prof Ben Leong](http://blog.griddit.io/post/133470245990/professor-ben-leongs-ask-me-anything) which saw over 400 participants.
 - **Paperbaton** launched a [blog with helpful tips](https://paperbaton.com/blog/) and also a complementing product, [NUSExam](https://paperbaton.com/blog/introducing-nusexam/), a Past-Year Question Paper Downloader for NUS Students.
 
-These three teams also created Facebook pages to continually engage users. Have a look at the Facebook pages of <a href="https://www.facebook.com/getletterbox">Letterbox</a>, <a href="https://www.facebook.com/griddit">Griddit</a> and <a href="https://www.facebook.com/paperbaton">Paperbaton</a> to get a sense of what sort of pre-STePS publicity can be done.
+These three teams also created Facebook pages to continually engage users. Have a look at the Facebook pages of [Letterbox](https://www.facebook.com/getletterbox), [Griddit](https://www.facebook.com/griddit) and [Paperbaton](https://www.facebook.com/paperbaton) to get a sense of what sort of pre-STePS publicity can be done.
 
-<img alt="Paperbaton Team" src="/img/class-photos/paperbaton.jpg"/>
+![Paperbaton Team](/img/class-photos/paperbaton.jpg)
 
 ### Final Project Poster
 
@@ -175,9 +177,9 @@ The following is the list of deliverables to be pushed to your Bitbucket reposit
 1. Source code.
 2. You should also upload a copy of your poster to your repository.
 3. Proof of working application: You may either
-  (a) Publish the application publicly (in the application settings, untick the Developer Mode); or
-  (b) Add all the members of the teaching staff to the Developers part in the application settings so that we can assess your application (of course you need to add us as your friends first).
-  In both cases, you should provide us with a link to your application's canvas page.
+   (a) Publish the application publicly (in the application settings, untick the Developer Mode); or
+   (b) Add all the members of the teaching staff to the Developers part in the application settings so that we can assess your application (of course you need to add us as your friends first).
+   In both cases, you should provide us with a link to your application's canvas page.
 4. Your Final Project report, in PDF format.
 
 Push all of the above to your Bitbucket repository.
