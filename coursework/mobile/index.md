@@ -8,7 +8,7 @@ title: Assignment 3 - Mobile Cloud Application
 <br>
 
 {:.table.table-bordered.table-striped.deadline-table}
-| Issue date&nbsp; | {{ site.data.assignments.mobile.issue | date: "%A, %-d %B %Y" }} |
+| Issue date &nbsp; | {{ site.data.assignments.mobile.issue | date: "%A, %-d %B %Y" }} |
 | Final submission &nbsp; | {{ site.data.assignments.mobile.submission | date: "%A, %-d %B %Y, %H:%M" }} |
 
 ## General Overview

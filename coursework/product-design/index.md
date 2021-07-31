@@ -8,7 +8,7 @@ title: Assignment 1 - Product Design
 <br>
 
 {:.table.table-bordered.table-striped.deadline-table}
-| Issue date&nbsp; | {{ site.data.assignments.product_design.issue | date: "%A, %-d %B %Y" }} |
+| Issue date &nbsp; | {{ site.data.assignments.product_design.issue | date: "%A, %-d %B %Y" }} |
 | Final submission &nbsp; | {{ site.data.assignments.product_design.submission | date: "%A, %-d %B %Y, %H:%M" }} |
 
 ## General Overview
