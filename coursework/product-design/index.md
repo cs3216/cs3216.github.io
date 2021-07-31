@@ -29,7 +29,7 @@ Please do not hesitate to approach the friendly CS3216 staff if you need further
 
 ## Objectives
 
-The objective of this assignment is to ideate and design an app that solves a real problem, and use empirical user testing to validate your idea and design. Your team will pick and target an audience to solve their problems. You will need to think critically about the features and user interactions within the product, and how each of these supports the user in solving the problem. Thereafter, you will interview users, and use your user research and user testing data to iterate on the design and user interactions. The final product will be a high fidelity interactive prototype that is sufficiently detailed to be handed off to a developer and turned into a final working app.
+The objective of this assignment is to ideate and design an app that solves a real problem, and use empirical user testing to validate your idea and design. Your team will pick and target an audience to solve their problems. You will need to think critically about the features and user interactions within the product, and how each of these supports the user in solving the problem. Thereafter, you will interview users and use your user research and user testing data to iterate on the design and user interactions. The final product will be a high fidelity interactive prototype that is sufficiently detailed to be handed off to a developer and turned into a final working app.
 
 <div class="box"><strong>Warning:</strong> Please read the entire assignment before starting.</div>
 
@@ -39,17 +39,17 @@ In this assignment, we will use the following three terms when describing the de
 
 - **Wireframes:** Low fidelity designs without any design-specific elements such as colours or fonts.
 - **Mockups:** High fidelity designs that are _static_. These designs may look close to the final product, but they cannot be interacted with.
-- **Prototypes:** High fidelity designs that are interactive, i.e. a user can click on a button and the prototype will transition to the appropriate screen or state.
+- **Prototypes:** High fidelity designs that are interactive, i.e. a user can click on a button, and the prototype will transition to the appropriate screen or state.
 
 We will also be asking for the submission of 'user flows'. In traditional user interface (UI) / user experience (UX) circles, these refer to flow chart diagrams that represent each screen as shapes. However, we will instead refer to what [NN Group](https://www.nngroup.com/) calls [_wireflows_](https://www.nngroup.com/articles/wireflows/) as user flows.
 
-More information will be shared at the relevant sections.
+More information will be shared in the relevant sections.
 
 ## Phase 0
 
 For this assignment, you will be designing and building a prototype that demonstrates your app's user flows. There are a large number of available UX design tools in the industry, but we recommend using either [Figma](https://www.figma.com/) or [Adobe XD](https://www.adobe.com/sea/products/xd.html).
 
-**Figma** is a design tool that is available as a web application. Its most prominent feature is its support for real-time collaboration, allowing team members to work on the same wireframe, mockup or prototype simultaneously. Figma also has community plugins available for additional functionality, such as Iconify which collates over 50,000 icons for use within your designs! Furthermore, students and educators can obtain a pro license from Figma for free.
+**Figma** is a design tool that is available as a web application. Its most prominent feature is its support for real-time collaboration, allowing team members to work on the same wireframe, mockup or prototype simultaneously. Figma also has community plugins available for additional functionality, such as Iconify, which collates over 50,000 icons for use within your designs! Furthermore, students and educators can obtain a pro license from Figma for free.
 
 - <https://www.figma.com/community/plugin/all>
 - <https://www.figma.com/templates/>
@@ -68,7 +68,7 @@ Apart from Figma and Adobe XD, here are some other tools you may choose from:
 - PowerPoint.
 - Paper and pencil for wireframe sketches.
 
-Whatever tool you choose, it has to be able to produce a prototype that fulfills all of the assignment's requirements. In particular, the final prototype needs to be **interactive** and **demonstrate user flows** through the app. Feel free to check with the teaching team if you are unsure about the tool you plan to use.
+Whatever tool you choose, it has to be able to produce a prototype that fulfils all of the assignment's requirements. In particular, the final prototype needs to be **interactive** and **demonstrate user flows** through the app. Feel free to check with the teaching team if you are unsure about the tool you plan to use.
 
 <div class="box">
   <strong class="milestone-counter">Milestone 0a (Compulsory, not graded):</strong> Describe your app in one paragraph. What does your app do and why? (You can come back and complete this milestone retroactively.)
@@ -84,7 +84,7 @@ Whatever tool you choose, it has to be able to produce a prototype that fulfills
 
 ## Phase 1 - User Requirements Gathering
 
-Every good app / platform / website / service begins with a problem they are looking to solve for a target user. As this assignment is due on **29 August 2021**, Sunday, we recommend you pick a target user who is abundantly available around you, e.g. your fellow NUS students. This way you can easily conduct your user testing.
+Every good app / platform / website / service begins with a problem they are looking to solve for a target user. As this assignment is due on **29 August 2021**, Sunday, we recommend you pick a target user who is abundantly available around you, e.g. your fellow NUS students. This way, you can easily conduct your user testing.
 
 Study your users. Think of a problem/pain point you think they are facing now. List down the problem/pain point and assumptions you have about:
 
@@ -94,7 +94,7 @@ Study your users. Think of a problem/pain point you think they are facing now. L
 4. What platform (desktop / mobile / app) will best serve to solve this problem?
 5. Will your product / service solve this problem in a way that does not cause them more stress, effort and time?
 
-List the above in a _user persona_ card. A persona is a fictional representation of an ideal user of your product. You can have more than one user persona card, if that helps you to better define your audience. There is no fixed format for this, but it should contain at the very least:
+List the above in a _user persona_ card. A persona is a fictional representation of an ideal user of your product. You can have more than one user persona card if that helps you to better define your audience. There is no fixed format for this, but it should contain at the very least:
 
 1. A portrait (you can use a stock photo)
 2. Fictitious name for your user persona
@@ -105,7 +105,7 @@ List the above in a _user persona_ card. A persona is a fictional representation
 
 <small>Source: <https://uxdesign.cc/meetup-a-usability-case-study-e909c33f1e3e></small>
 
-You can fill in more information if you feel that that will help you better visualize your product, such as personality, brand affiliation, life goals and aspirations, level of experience with technology and more. The goal of the user persona is to allow you to think in the shoes of your user, so try to include details that make this easy.
+You can fill in more information if you feel that that will help you better visualise your product, such as personality, brand affiliation, life goals and aspirations, level of experience with technology and more. The goal of the user persona is to allow you to think in the shoes of your user, so try to include details that make this easy.
 
 <div class="box">
   <strong class="milestone-counter">Milestone 1:</strong> Pick a primary user persona and list down some assumptions about the problems they’re facing now.</div>
@@ -122,7 +122,7 @@ Once you have listed these down, it is time to proceed to user interviews. The g
 </div>
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 3:</strong> Interview your users and validate your assumptions. Summarize the key findings and conclusions you draw from your interviews.
+  <strong class="milestone-counter">Milestone 3:</strong> Interview your users and validate your assumptions. Summarise the key findings and conclusions you draw from your interviews.
 </div>
 
 ## Phase 2 - Prototyping
@@ -137,7 +137,7 @@ A good example is Instagram. They hit 100k users in a week without features such
 
 <div class="box"><strong>Note:</strong> Remember, less is more. If you come up with fifteen features, you are doing it wrong! There should definitely be less than ten features that meet your three primary user goals.</div>
 
-At the same time, you should not omit essentials such as authentication and settings, or the lack thereof. A large part of WhatsApp's popularity was due to simply having the phone number as the user account and their focus on the core essentials of messaging!
+At the same time, you should not omit essentials such as authentication and settings or the lack thereof. A large part of WhatsApp's popularity was due to simply having the phone number as the user account and their focus on the core essentials of messaging!
 
 As you are designing a product for the real world, it is also important to ensure that your ideas and business logic are sound, realistic, and executable. Answer these questions:
 
@@ -158,7 +158,7 @@ You might also find pattern libraries useful. A pattern library is a collection 
 
 - [Mobbin](https://mobbin.design/) - A website created by fellow School of Computing student [Lim Ji Ho](http://www.jiholim.com/) that showcases the various screens found within popular mobile apps
 - [pttrns](https://pttrns.com/) - Another mobile app UI pattern library which includes Apple Watch apps
-- [Material Design Tools](https://material.io/tools/) - Customize and download Material Design icons and theme assets
+- [Material Design Tools](https://material.io/tools/) - Customise and download Material Design icons and theme assets
 - [Apple Design Resources](https://developer.apple.com/design/resources/) - Assets and tools for designing for Apple devices
 
 Other good resources for design inspiration include [Dribbble](https://dribbble.com/) and [Behance](https://www.behance.net/). They are websites used by designers to showcase their work. You could think of them as LinkedIn for designers.
@@ -173,22 +173,22 @@ Use any tool you want - even PowerPoint if that’s easier - or just plain paper
 
 <iframe width="736" height="414" src="https://www.youtube.com/embed/JMjozqJS44M?start=124" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-Wireframes are ["low-fidelity" designs](https://www.nngroup.com/articles/ux-prototype-hi-lo-fidelity/). This means that they should _not_ contain any design-specific elements such as colours, font or unnecessary details like user-generated content and images. These distract from the aspects that are more important at this current stage of development, and slow down the speed at which they are produced. Instead, focus on relative size and position of elements, key user interface elements, and interactions such as which elements can be clicked or tapped, dragged, and so on.
+Wireframes are ["low-fidelity" designs](https://www.nngroup.com/articles/ux-prototype-hi-lo-fidelity/). This means that they should _not_ contain any design-specific elements such as colours, font or unnecessary details like user-generated content and images. These distract from the aspects that are more important at this current stage of development, and slow down the speed at which they are produced. Instead, focus on the relative size and position of elements, key user interface elements, and interactions such as which elements can be clicked or tapped, dragged, and so on.
 
 ![Example Mobile Wireframe](img/wireframe-mobile.jpg)
 
 <small>Source: <https://www.flickr.com/photos/anthonyarmendariz/4448219885/in/pool-1070674@N20/></small>
 
-Whichever tool you use to design your wireframes, make sure you can "transition" from different screens and states easily. If you are designing on PowerPoint, this means making each screen or state a slide, and if you are designing on paper, use a different page for each screen, and sticky notes for modals, popups and other ephemeral UI elements. Tools like InVision allow for [interactive user flows](https://invis.io/VNNLOH33K25#/163621461_Inbox) which you may use for user testing, but may take longer to build and are not required until Milestone 7. When you create your design, keep your user personas in mind.
+Whichever tool you use to design your wireframes, make sure you can "transition" from different screens and states easily. If you are designing on PowerPoint, this means making each screen or state a slide, and if you are designing on paper, use a different page for each screen and sticky notes for modals, popups and other ephemeral UI elements. Tools like InVision allow for [interactive user flows](https://invis.io/VNNLOH33K25#/163621461_Inbox), which you may use for user testing but may take longer to build and are not required until Milestone 7. When you create your design, keep your user personas in mind.
 
-This set of wireframes will be shown to the user during testing. As such, keep a copy without the links between buttons and screens, and without more than one screen showing at once - after all, users can't do that in the actual app! (You may use these annotations or comments for your own reference, but remember to hide them before starting user testing.)
+This set of wireframes will be shown to the user during testing. As such, keep a copy without the links between buttons and screens and without more than one screen showing at once - after all, users can't do that in the actual app! (You may add annotations or comments for your own reference, but remember to hide them before starting user testing.)
 
 ![Example Web Wireframe](img/wireframe-web.jpg)
 
 <small>Source: <https://www.flickr.com/photos/mockupbuilder/12987528713/in/pool-ilovewireframes/></small>
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 5a:</strong> Design the first draft of your wireframes and save them under a folder named "Draft 1a". Your wireframes should adhere to the requirements above. If your draft is hand drawn, scan or take a high-quality photo of it (make sure all important details are visible).
+  <strong class="milestone-counter">Milestone 5a:</strong> Design the first draft of your wireframes and save them under a folder named "Draft 1a". Your wireframes should adhere to the requirements above. If your draft is hand-drawn, scan or take a high-quality photo of it (make sure all important details are visible).
 </div>
 
 Now, on top of your wireframes, sketch out the user flows for each of the major features you have listed above, e.g. links between buttons and screens. You may have more than one flow for each feature, and the flow can even start from outside your app. Similar to before, keep your user personas in mind when designing the user flows. Please keep these user flows as a separate copy, and you may bring all the screens together in a single document / image to better illustrate the flows between different screens.
@@ -197,33 +197,33 @@ These are some examples of user flows you may want to sketch out. In some cases,
 
 - When the user hears about your app from a friend and visits your website or your app store page.
 - What should you write on that website to entice users to click the “Sign Up” or “Download App” button?
-- When users click Sign Up, what do they see next? What details do they have to fill in? Are you making users go through too many steps before even signing up?
+- When users click "Sign Up", what do they see next? What details do they have to fill in? Are you making users go through too many steps before even signing up?
 - When users login or use the app for the _first_ time, what do they see? What can they click on?
 - When users login or use the app for the _second_ time, what do they see? What can they click on?
 
 User flows should naturally intersect with each other. This is fine - real apps do not artificially limit the user in the ways they can be interacted with.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 5b:</strong> Save a copy of these user flows under a folder named "Draft 1b". Clearly identify the main user flows. If your user flows are hand drawn, scan or take a high-quality photo of it (make sure all important details are visible).
+  <strong class="milestone-counter">Milestone 5b:</strong> Save a copy of these user flows under a folder named "Draft 1b". Clearly identify the main user flows. If your user flows are hand-drawn, scan or take a high-quality photo of it (make sure all important details are visible).
 </div>
 
 ## Phase 3 - User Interviews + Iterations
 
-Now it's time to put your draft design to the test! The test we are conducting is sometimes called ["Wizard of Oz"](https://www.coursera.org/lecture/human-computer-interaction/wizard-of-oz-9f0pI) - we will simulate user interactions by taking the place of the computer. This may seem silly at first, but it is an important tool to validate your design at this stage. Here is a video which shows an example of this form of testing using paper prototypes.
+Now it's time to put your draft design to the test! The test we are conducting is sometimes called ["Wizard of Oz"](https://www.coursera.org/lecture/human-computer-interaction/wizard-of-oz-9f0pI) - we will simulate user interactions by taking the place of the computer. This may seem silly at first, but it is an important tool to validate your design at this stage. Here is a video that shows an example of this form of testing using paper prototypes.
 
 <iframe width="736" height="414" src="https://www.youtube.com/embed/_g4GGtJ8NCY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ### Playing the Wizard of Oz
 
-You may find it easier conduct this form of testing in pairs. One of you will need to act as the computer, so you need a second person to record your results. Test with only one user at a time, not a group. This is to avoid one user’s actions and opinions from influencing the results of other users.
+You may find it easier to conduct this form of testing in pairs. One of you will need to act as the computer, so you need a second person to record your results. Test with only one user at a time, not a group. This is to avoid one user’s actions and opinions from influencing the results of other users.
 
-Ask them for five to ten minutes of their time, and if they agree, start by giving them a little context for what you are about to show them. For instance, if the app in question is NUSMods, you might tell them that they have just received a link from a friend telling them to check out a new app for organizing their NUS timetable. You may also give them an explicit goal to accomplish, such as "you would like to sign up for an account". They will need to achieve this goal by interacting with your wireframes. If you are conducting this virtually, the person acting as the computer can share their screen.
+Ask them for five to ten minutes of their time, and if they agree, start by giving them a little context for what you are about to show them. For instance, if the app in question is NUSMods, you might tell them that they have just received a link from a friend telling them to check out a new app for organising their NUS timetable. You may also give them an explicit goal to accomplish, such as "you would like to sign up for an account". They will need to achieve this goal by interacting with your wireframes. If you are conducting this virtually, the person acting as the computer can share their screen.
 
-Instruct them to _think aloud_ and use their finger to point at where they will click or tap, or if you are doing this virtually, you can try using the tools available on your conferencing application (Zoom has Spotlight and Arrow available under its annotations panel). A quick way to explain “Think Aloud” to your users is “Vocalize your thoughts. Let us know what you’re thinking throughout the way”. Explain that you will be acting the part of the computer, and reassure them that there is no wrong answer. Do also tell the user to notify you if they are done using the app / website or do not have anything else to do. This will make it clear to you when the user has totally lost interest, given up on your UI, or has no more use for your website / app.
+Instruct them to _think aloud_ and use their finger to point at where they will click or tap, or if you are doing this virtually, you can try using the tools available on your conferencing application (Zoom has Spotlight and Arrow available under its annotations panel). A quick way to explain “Think Aloud” to your users is “Vocalise your thoughts. Let us know what you’re thinking throughout the way”. Explain that you will be acting the part of the computer, and reassure them that there is no wrong answer. Do also tell the user to notify you if they are done using the app / website or do not have anything else to do. This will make it clear to you when the user has totally lost interest, given up on your UI, or has no more use for your website / app.
 
 Now show the first wireframe they are supposed to see. Observe what they interact with first, second, third, etc. Remember to "transition" between your wireframes as illustrated in your user flows as the user interacts with them. **Do not** say anything during the whole process. If users become lost or confused, **let them be lost or confused**. Only prompt them for what they are thinking if it appears that they are not thinking aloud. If they get stuck, simply move onto the next set of wireframes.
 
-At the same time, keep an eye out for their body language. See if they looked hesitant or disinterested at any point in time. Perhaps, they had to squint and lean in to read certain text that was too small. A lot of times, the users will not report such issues as they would assume that the problem lies with them, and not with your design.
+At the same time, keep an eye out for their body language. See if they looked hesitant or disinterested at any point in time. Perhaps, they had to squint and lean in to read certain text that was too small. A lot of times, the users will not report such issues as they would assume that the problem lies with them and not with your design.
 
 For any buttons or screens that you have not designed, you can reuse any existing wireframes and tell the users what they should see - "You clicked the _School of Computing_ link. We don’t have those screens today. So please pretend that you see results for the School of Computing on this screen. Okay?". Alternatively, you can describe the result of the action to the user in words instead - "You see a pop up open with a yellow warning triangle, the text 'This will delete your results. Proceed?', and the buttons 'Okay' and 'Cancel'".
 
@@ -250,7 +250,7 @@ After you have completed the testing, it is now time to review the results and i
   <strong class="milestone-counter">Milestone 7:</strong> Review your results documented in Milestone 6, and revise both your wireframes and your user flows. Save the updated designs in folders named "Draft 2a" and "Draft 2b" respectively, and write about how the results from your interview have led to the changes in both the design and the flows.
 </div>
 
-As you iterate on your design, remember to refine your sketches and improve their quality. Be bold in your earlier iterations. It is perfectly normal to throw out entire screens at this early stage. With each iteration you should solidify your design - while earlier iterations may require large redesign, later iterations should only produce minor tweaks. Of course, make sure these changes are well-substantiated and well-documented.
+As you iterate on your design, remember to refine your sketches and improve their quality. Be bold in your earlier iterations. It is perfectly normal to throw out entire screens at this early stage. With each iteration, you should solidify your design - while earlier iterations may require large redesign, later iterations should only produce minor tweaks. Of course, make sure these changes are well-substantiated and well-documented.
 
 ## Phase 4 - Design Mockups/Prototypes + More Iterations
 
@@ -266,7 +266,7 @@ Compared to a wireframe, a mockup will usually look more similar to how the fina
 
 You may find it useful to develop a set of shared assets such as the app's logo, colour scheme, font and common UI widget so your mockup looks coherent when it is built by different members of the team.
 
-**If your team is feeling up to the task,** you may also choose to jump right into building a prototype, which are of higher fidelity than wireframes and are interactive. Testing with a high fidelity prototype should be the next best thing from testing with an actual working prototype. This allows for stronger [suspension of disbelief](https://www.nngroup.com/articles/authentic-behavior-in-user-testing/), allowing the user to act more realistically. Your chosen prototyping tool should allow the user to directly click on elements, which should transition the prototype to the next screen or state. This also frees you from acting as the computer, which gives you more time to observe the user instead.
+**If your team is feeling up to the task,** you may also choose to jump right into building a prototype, which is of higher fidelity than wireframes and is interactive. Testing with a high fidelity prototype should be the next best thing from testing with an actual working prototype. This allows for a stronger [suspension of disbelief](https://www.nngroup.com/articles/authentic-behavior-in-user-testing/), allowing the user to act more realistically. Your chosen prototyping tool should allow the user to directly click on elements, which should transition the prototype to the next screen or state. This also frees you from acting as the computer, which gives you more time to observe the user instead.
 
 If you are planning to work on a prototype, there is no need to submit the design and user flows separately. Simply submit the interactive file in a single folder, as the **prototype transitions / interactions are basically your user flows**.
 
@@ -274,7 +274,7 @@ If you are planning to work on a prototype, there is no need to submit the desig
 
 <small>Source: <http://www.tifftam.co/goji/></small>
 
-A well-developed app has many moving components - log in, sign up, active, inactive states and so on. While you do not have to include every single possibility that your user will encounter, it should be sufficient for your users to test it satisfactorily.
+A well-developed app has many moving components - login, sign-up, active, inactive states and so on. While you do not have to include every single possibility that your user will encounter, it should be sufficient for your users to test it satisfactorily.
 
 <div class="box">
   <strong class="milestone-counter">Milestone 8a:</strong> Convert your wireframes into a high fidelity mockup or prototype. If you are designing a mockup, put the mockup in a folder called "Draft 3a", and the user flows (which should be based on the same mockup) in a folder called "Draft 3b". If you are building a prototype, submit the interactive file in a single "Draft 3" folder.
@@ -282,7 +282,7 @@ A well-developed app has many moving components - log in, sign up, active, inact
 
 ### More testing! More iterations!
 
-Similar to Milestone 6, you must now test your high fidelity mockup or prototype with real users. At this stage, your mockup should be more complete, so there should be less shuffling around paper or clicking through slides. You can still step in for the computer for any screens or states which you have not added, or for interactions like drag and drop which are less easy to prototype, but there should be less intervention on your part.
+Similar to Milestone 6, you must now test your high fidelity mockup or prototype with real users. At this stage, your mockup should be more complete, so there should be less shuffling around paper or clicking through slides. You can still step in for the computer for any screens or states which you have not added, or for interactions like drag and drop, which are less easy to prototype, but there should be less intervention on your part.
 
 We strongly recommend testing at least once with an interactive prototype. Modern prototyping tools allow for precise configuration of transitions, and it would be good to test whether the transitions you plan to use between screens are intuitive to the users.
 
@@ -296,12 +296,12 @@ However, remember that the primary goal of the testing is still to observe the u
 
 ## Final Prototype
 
-With the previous draft's user testing results, you should come to a good conclusion on what your MVP should act and look like. The final **interactive** prototype should be complete and sufficiently detailed to be handed off to a developer to realize them. <strong>Your prototype should include the onboarding, first use, and (if applicable) login flows.</strong> Refer to Phase 0 instructions for the expected submission format for each of the prototyping tools.
+With the previous draft's user testing results, you should come to a good conclusion on what your MVP should act and look like. The final **interactive** prototype should be complete and sufficiently detailed to be handed off to a developer to realise them. <strong>Your prototype should include the onboarding, first use, and (if applicable) login flows.</strong> Refer to Phase 0 instructions for the expected submission format for each of the prototyping tools.
 
-Now, it's time to demonstrate how your app should work! Come together **as a team** and record a demo going through the happy paths of your application, i.e. the main success scenarios for your identified user flows. Keep the video short and sweet - give a short introduction about the problem your team is trying to solve before demonstrating the user flows. The video must be less than 5 minutes long, and be submitted as a `.mp4` file.
+Now, it's time to demonstrate how your app should work! Come together **as a team** and record a demo going through the happy paths of your application, i.e. the main success scenarios for your identified user flows. Keep the video short and sweet - give a short introduction about the problem your team is trying to solve before demonstrating the user flows. The video must be less than 5 minutes long and be submitted as a `.mp4` file.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 9:</strong> Finalize the prototype, record the demo video and save both of them under a new folder "Final". Once again, since a prototype demonstrates the user flows, just submitting the prototype is sufficient.
+  <strong class="milestone-counter">Milestone 9:</strong> Finalise the prototype, record the demo video and save both of them under a new folder "Final". Once again, since a prototype demonstrates the user flows, just submitting the prototype is sufficient.
 </div>
 
 We want you to be aware that the different milestones in Assignment 1 have been structured for you to gain a good sense of what it takes to produce a Product Requirements Document (PRD), a document used in companies (Facebook, Amazon, Google, many other tech companies...) to describe the product being built. The PRD is usually produced and has to be approved before further product development can take place. Once produced, it drives the efforts of the entire product team and the company’s sales, marketing and customer support efforts.
@@ -309,16 +309,19 @@ We want you to be aware that the different milestones in Assignment 1 have been 
 The broad structure of the PRD is as such:
 
 1. Product Purpose (Milestones 1-3)
+
    - Description of the problem that you are trying to solve
-   - High level description of what the product does and how it solves the problem
+   - High-level description of what the product does and how it solves the problem
    - Who is the product for
 
 2. Competitive Analysis (Not included in Assignment 1)
+
    - Identify competitors who are launching similar products
    - Identify features of competitor's products worth emulating or avoiding
    - Identify the ways in which our product's features can deliver greater value than the competition
 
 3. Features (Milestones 4-8)
+
    - Describe each feature at the level of interaction designs and use cases
    - Requirement traceability - identifying which requirements are in support of which objective
    - Metrics to be measured (Not covered in Assignment 1)
@@ -351,14 +354,14 @@ Great examples of attractive landing pages can be found at:
 - [12 Great Landing Page Examples You'll Want to Copy](https://blog.hubspot.com/marketing/fantastic-landing-page-examples)
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 10:</strong> Design and launch a landing page for your app that is publicly accessible. You should consider hosting it on <a href="https://pages.github.com/">GitHub pages</a>, but you can host it anywhere that works and just let us have the URL. It should have a sign up form for users to indicate interest (it doesn't have to actually save any data).
+  <strong class="milestone-counter">Milestone 10:</strong> Design and launch a landing page for your app that is publicly accessible. You should consider hosting it on <a href="https://pages.github.com/">GitHub pages</a>, but you can host it anywhere that works and just let us have the URL. It should have a sign-up form for users to indicate interest (it doesn't have to actually save any data).
 </div>
 
 Use a CSS framework like [Bulma](https://bulma.io/) or [Bootstrap](https://getbootstrap.com/) to save yourself some time. Remember that the design has to be attractive and that your message has to be succinct! You can even consider landing page creators like [MailChimp landing pages](https://mailchimp.com/features/landing-pages/) to skip all the work.
 
 ### Marketing Strategy
 
-A landing page cannot effectively convert visitors into leads/users if there are no visitors to begin with! Going back to the movie trailers example, it would be like creating a movie trailer, but not showing it through public display screens and television advertisements. Hence, you should think of some potential marketing strategies to get the word out about your app.
+A landing page cannot effectively convert visitors into leads/users if there are no visitors to begin with! Going back to the movie trailers example, it would be like creating a movie trailer but not showing it through public display screens and television advertisements. Hence, you should think of some potential marketing strategies to get the word out about your app.
 
 Positive examples:
 
@@ -371,13 +374,13 @@ DO NOT:
 - Paste unremovable stickers on the benches of the School of Computing.
 - Put up posters in inappropriate places like restrooms.
 
-Videos are not the only way to market an app - to obtain marks in the coveted 30%, think out of the box for non-disruptive, creative and effective marketing strategies. We want a well thought-out marketing plan including details on how you would implement it. Your strategy must obviously be realistic, i.e. do not suggest giving out $10 to each user who downloads your app if you do not have a good plan of getting those funds or a millionaire on your team.
+Videos are not the only way to market an app - to obtain marks in the coveted 30%, think out of the box for non-disruptive, creative and effective marketing strategies. We want a well-thought-out marketing plan including details on how you would implement it. Your strategy must obviously be realistic, i.e. do not suggest giving out $10 to each user who downloads your app if you do not have a good plan of getting those funds or a millionaire on your team.
 
 <div class="box">
   <strong class="milestone-counter">Milestone 11:</strong> Design a small marketing campaign for your app. Explain which marketing channels you would use and how you would use them to get the word out about your app to attract more users. Provide implementation details (e.g. if you decide to make a promotional video, write out a brief outline of the video contents). Explain why you think your marketing strategy would be effective in gathering users.
 </div>
 
-## Final Assignment Writeup
+## Final Assignment Write-up
 
 Your submission will include a write-up that describes how your group has met all the milestones for this assignment:
 
@@ -389,9 +392,9 @@ Your submission will include a write-up that describes how your group has met al
 
 ## Grading Scheme
 
-The grading of the assignment is divided into two components: satisfying the compulsory milestones (70%) and coolness factor (30%). Excluding Milestone 0, there are **11 milestones** in total, along with an optional Milestone 8b. Milestones 6, 7 and 9 are each worth 10%. The rest are worth 5% each.
+The grading of the assignment is divided into two components: satisfying the compulsory milestones (70%) and the coolness factor (30%). Excluding Milestone 0, there are **11 milestones** in total, along with an optional Milestone 8b. Milestones 6, 7 and 9 are each worth 10%. The rest are worth 5% each.
 
-The remaining 30% will be awarded based on the relative outcomes for the various teams. The top team might be awarded up to 30% while the worst performing team less than 5%. The optional Milestone 8b will also contribute to this.
+The remaining 30% will be awarded based on the relative outcomes for the various teams. The top team might be awarded up to 30%, while the worst performing team less than 5%. The optional Milestone 8b will also contribute to this.
 
 ### Mode of submission
 
