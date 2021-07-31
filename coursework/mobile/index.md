@@ -45,7 +45,7 @@ To score the coveted remaining 30%, use your creativity to develop an applicatio
 
 For example, WebVR and geolocation might be the latest and coolest feature supported by most mobile browsers, but they may not contribute to the user experience in a document editor. In fact, implementing features for the sake of doing so may work against you (and your grades) by confusing the user.
 
-Please do not hesitate to approach the friendly CS3216 staff if you need further assistance. We can be contacted at <cs3216-staff@googlegroups.com>.
+Please do not hesitate to approach the friendly CS3216 staff if you need further assistance. We can be contacted at <{{ site.email }}>.
 
 ## Objectives
 

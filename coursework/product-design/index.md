@@ -25,7 +25,7 @@ While the milestones may be easy to meet, simply meeting them will not give you 
 
 To score the coveted remaining 30%, use your creativity to design an application that stands out from the rest. We will not limit your potential by restricting the kind of applications you can build. We expect that you (pleasantly!) surprise us with what you are capable of doing.
 
-Please do not hesitate to approach the friendly CS3216 staff if you need further assistance. We can be contacted at <cs3216-staff@googlegroups.com>.
+Please do not hesitate to approach the friendly CS3216 staff if you need further assistance. We can be contacted at <{{ site.email }}>.
 
 ## Objectives
 
