@@ -8,8 +8,8 @@ title: Assignment 1 - Product Design
 <br>
 
 {:.table.table-bordered.table-striped.deadline-table}
-|Issue date&nbsp;| Monday, 16 August 2021 |
-|Final submission &nbsp;| Sunday, 29 August 2021, 23:59 |
+| Issue date&nbsp; | {{ site.data.assignments.product_design.issue | date: "%A, %-d %B %Y" }} |
+| Final submission &nbsp; | {{ site.data.assignments.product_design.submission | date: "%A, %-d %B %Y, %H:%M" }} |
 
 ## General Overview
 
@@ -84,7 +84,7 @@ Whatever tool you choose, it has to be able to produce a prototype that fulfills
 
 ## Phase 1 - User Requirements Gathering
 
-Every good app / platform / website / service begins with a problem they are looking to solve for a target user. As this assignment is due on **29 August 2021**, Sunday, we recommend you pick a target user who is abundantly available around you, e.g. your fellow NUS students. This way you can easily conduct your user testing.
+Every good app / platform / website / service begins with a problem they are looking to solve for a target user. As this assignment is due on **{{ site.data.assignments.product_design.submission | date: "%A, %-d %B %Y" }}**, we recommend you pick a target user who is abundantly available around you, e.g. your fellow NUS students. This way you can easily conduct your user testing.
 
 Study your users. Think of a problem/pain point you think they are facing now. List down the problem/pain point and assumptions you have about:
 
@@ -309,16 +309,19 @@ We want you to be aware that the different milestones in Assignment 1 have been 
 The broad structure of the PRD is as such:
 
 1. Product Purpose (Milestones 1-3)
+
    - Description of the problem that you are trying to solve
    - High level description of what the product does and how it solves the problem
    - Who is the product for
 
 2. Competitive Analysis (Not included in Assignment 1)
+
    - Identify competitors who are launching similar products
    - Identify features of competitor's products worth emulating or avoiding
    - Identify the ways in which our product's features can deliver greater value than the competition
 
 3. Features (Milestones 4-8)
+
    - Describe each feature at the level of interaction designs and use cases
    - Requirement traceability - identifying which requirements are in support of which objective
    - Metrics to be measured (Not covered in Assignment 1)
@@ -395,7 +398,7 @@ The remaining 30% will be awarded based on the relative outcomes for the various
 
 ### Mode of submission
 
-By **29 August 2021 23:59**, Sunday you should upload the following to Coursemology:
+By **{{ site.data.assignments.product_design.submission | date: "%A, %-d %B %Y, %H:%M" }}**, you should upload the following to Coursemology:
 
 - Your final write-up named `group-<number>-milestones.pdf`.
 - Your designs and testing results - zipped together - named `group-<number>-designs.zip`
