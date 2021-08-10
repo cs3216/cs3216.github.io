@@ -3,25 +3,25 @@ layout: assignment
 title: Final Project
 ---
 
-<!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD033 MD037 -->
 
 <br>
 
 {:.table.table-bordered.table-striped.deadline-table}
-|Issue date &nbsp;| Monday, 13 September 2021, 23:59 |
-|Team Formation Deadline &nbsp;| Monday, 20 September 2021, 23:59 |
-|Proposal Due &nbsp;| Monday, 27 September 2021, 23:59 |
-|Progress Report 1 &nbsp;| Monday, 11 October 2021, 23:59 |
-|Progress Report 2 &nbsp;| Monday, 25 October 2021, 23:59 |
-|In-Class Progress Report &nbsp;| Monday, 1 November 2021, 18:30 |
-|Poster Session &nbsp;| (TBC) Wednesday, 10 November 2021, 23:59 |
-|Final Report &nbsp;| Sunday, 21 November 2021, 23:59 |
+| Issue date &nbsp; | {{ site.data.assignments.project.issue | date: "%A, %-d %B %Y" }} |
+| Team Formation Deadline &nbsp; | {{ site.data.assignments.project.team_formation | date: "%A, %-d %B %Y, %H:%M" }} |
+| Proposal Due &nbsp; | {{ site.data.assignments.project.proposal_submission | date: "%A, %-d %B %Y, %H:%M" }} |
+| Progress Report 1 &nbsp; | {{ site.data.assignments.project.progress_report_1_submission | date: "%A, %-d %B %Y, %H:%M" }} |
+| Progress Report 2 &nbsp; | {{ site.data.assignments.project.progress_report_2_submission | date: "%A, %-d %B %Y, %H:%M" }} |
+| In-Class Progress Report &nbsp; | {{ site.data.assignments.project.in_class_progress_report | date: "%A, %-d %B %Y, %H:%M" }} |
+| Poster Session &nbsp; | {{ site.data.assignments.project.poster_session | date: "%A, %-d %B %Y" }} {% if site.data.assignments.project.is_poster_session_date_tentative %}(TBC){% endif %} |
+| Final Report &nbsp; | {{ site.data.assignments.project.final_report_submission | date: "%A, %-d %B %Y, %H:%M" }} |
 
 ## General Overview
 
 Since you have all survived the first half a semester of CS3216, you are now an expert in both product design and Progressive Web App development. The Final Project is where you will showcase to the world (and the CS3216 teaching staff since the Final Project is what will mostly determine your final grade) your creativity and talents.
 
-For the Final Project, you will work in teams of three or four (fewer is also allowed) to develop and deploy an application (mobile, web or otherwise) of your choice. You are allowed to team up with anybody you want (and mutually willing to work with you). You may also work with external parties. Please update your groupings on the [Student Grouping Google Sheet](https://docs.google.com/spreadsheets/d/15v5F_QFiz0fNe-Spyl9cWtfaqLF-JnBQjxbjdVEhdT0/edit?usp=sharing) by **20 Sep 2021**. Each team is to submit a project proposal by **27 September 2021** (Monday immediately after Recess Week) and the teams are expected to work on the Final Projects during the second half of the semester.
+For the Final Project, you will work in teams of three or four (fewer is also allowed) to develop and deploy an application (mobile, web or otherwise) of your choice. You are allowed to team up with anybody you want (and mutually willing to work with you). You may also work with external parties. Please update your groupings on the [Student Grouping Google Sheet]({{ site.data.assignments.project.google_sheet }}) by **{{ site.data.assignments.project.team_formation | date: "%A, %-d %B %Y, %H:%M" }}**. Each team is to submit a project proposal by **{{ site.data.assignments.project.proposal_submission | date: "%A, %-d %B %Y, %H:%M" }}** (Monday immediately after Recess Week) and the teams are expected to work on the Final Projects during the second half of the semester.
 
 Your team can design the whole application, but if the scope is too large to be completed in one semester and you intend to continue to develop your application for a business venture, you can implement a prototype with some basic (or limited) functionality to satisfy the requirements for the class. Please state such intentions clearly in your proposals. The teaching staff will evaluate your proposals carefully and provide you with our feedback within a week.
 
@@ -51,7 +51,7 @@ If you decide to work with external parties, we do not have any official guide o
 
 ## Final Project Proposal
 
-Your team should submit a project proposal by **27 September 2021**. The proposal should by about 4 to 5 pages (maximum of 6) in length and address (at least) the following points:
+Your team should submit a project proposal by **{{ site.data.assignments.project.proposal_submission | date: "%A, %-d %B %Y, %H:%M" }}**. The proposal should by about 4 to 5 pages (maximum of 6) in length and address (at least) the following points:
 
 1. Description of the application you plan to develop.
 2. Are there any existing applications out there that are similar? What makes your application special? Why did you choose your idea?
@@ -73,7 +73,7 @@ We have told you time and again to "go out there and talk to your customers", an
 
 ## Progress Reports
 
-Each team will be required to submit a progress report on **11 October 2021**. The progress report should
+Each team will be required to submit a progress report on **{{ site.data.assignments.project.progress_report_1_submission | date: "%A, %-d %B %Y, %H:%M" }}**. The progress report should
 include **minimally** the following:
 
 1. Application prototype. Minimally as functional as what was achieved in Assignment 3.
@@ -83,20 +83,20 @@ include **minimally** the following:
 5. Assuming that your team has already deployed a prototype of your application, how has the response been? Any other new insights, plans or strategies your team has come out with?
 6. Updated project schedule: milestones and timeline.
 
-A second progress report will be due on **25 October 2021**. The contents of which would be similar to the first progress report.  
+A second progress report will be due on **{{ site.data.assignments.project.progress_report_2_submission | date: "%A, %-d %B %Y, %H:%M" }}**. The contents of which would be similar to the first progress report.  
 Please try to keep your reports to within two pages, or a maximum of 3 pages if you really must.
 
 ## Final Project Presentation
 
-On **1 November 2021** (Mon), each team will make a presentation to the rest of the class on your project. This session will be another round of peer-appraisal by your peers. Your goal is to convinced your fellow coursemates that you project is really cool and you have done a lot of work and great work. Think of it as round 2 of your innovation seminar, but you are selling your own dog food.
+On **{{ site.data.assignments.project.in_class_progress_report | date: "%A, %-d %B %Y" }}**, each team will make a presentation to the rest of the class on your project. This session will be another round of peer-appraisal by your peers. Your goal is to convinced your fellow coursemates that you project is really cool and you have done a lot of work and great work. Think of it as round 2 of your innovation seminar, but you are selling your own dog food.
 
 ## Preliminary Security Scanning
 
-At this juncture (1 November 2021), you should have a preliminary website for your app up and running, even if it is not fully functional. You are expected to provide us with URL and the tutors will be using security tools to scan your site. You will be provided with a security report and you are expected to address the cited issues for your final project. Clearly, if your project is very incomplete, very little will be found, but you then risk more bad things being found after your final project is submitted. We will be doing another round of security scanning after your final project is submitted.
+At this juncture ({{ site.data.assignments.project.in_class_progress_report | date: "%A, %-d %B %Y" }}), you should have a preliminary website for your app up and running, even if it is not fully functional. You are expected to provide us with URL and the tutors will be using security tools to scan your site. You will be provided with a security report and you are expected to address the cited issues for your final project. Clearly, if your project is very incomplete, very little will be found, but you then risk more bad things being found after your final project is submitted. We will be doing another round of security scanning after your final project is submitted.
 
 ## SoC STePs
 
-On the last week of class, we will be holding a 4-hour poster session in the SoC student foyer on **10 November 2021 (tentative)** (Wednesday) from 6.30 to 10.30 pm as part of the School of Computing Term Projects Showcase (STePS).
+On the last week of class, we will be holding a 4-hour poster session in the SoC student foyer on **{{ site.data.assignments.project.poster_session | date: "%A, %-d %B %Y" }} {% if site.data.assignments.project.is_poster_session_date_tentative %}(TBC){% endif %}** from 6.30 to 10.30 pm as part of the School of Computing Term Projects Showcase (STePS).
 
 Each team is to prepare an A1-sized poster. The judges and other members of the SoC and NUS will turn up for the "show and tell". You should treat this session as a trade show to sell your projects as you will get a large percentage of your grading from "other people" - NUS staff, students, alumni, guests - who turn up at your booth. So your final grade depends very much on your show and tell in this session. Be creative. Collaterals are encouraged but note that these will be on your own expenses.
 
@@ -141,7 +141,7 @@ Some examples of past STePS posters:
 
 ## Final Project Report
 
-Like most other classes, the Final Project report is due on **21 November 2021** (to be uploaded to Coursemology by 23:59 please). The final report should (at least) include the following points:
+Like most other classes, the Final Project report is due on **{{ site.data.assignments.project.final_report_submission | date: "%A, %-d %B %Y" }}** (to be uploaded to Coursemology by 23:59 please). The final report should (at least) include the following points:
 
 1. Description of the application you have developed.
 2. Are there any existing applications out there that are similar? What makes your application special?

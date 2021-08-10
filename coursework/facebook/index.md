@@ -56,9 +56,7 @@ browsers but it may not contribute to the user experience in a photo-editing app
 In fact, implementing features for the sake of doing so may work
 against you (and your grades) by confusing the user.
 
-Please do not hesitate to approach the friendly CS3216 staff if you need
-further assistance. We can be contacted at
-<cs3216-staff@googlegroups.com>.
+Please do not hesitate to approach the friendly CS3216 staff if you need further assistance. We can be contacted at <{{ site.email }}>.
 
 ## Objectives
 

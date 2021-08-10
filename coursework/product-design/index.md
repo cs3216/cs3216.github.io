@@ -8,8 +8,8 @@ title: Assignment 1 - Product Design
 <br>
 
 {:.table.table-bordered.table-striped.deadline-table}
-|Issue date&nbsp;| Monday, 16 August 2021 |
-|Final submission &nbsp;| Sunday, 29 August 2021, 23:59 |
+| Issue date &nbsp; | {{ site.data.assignments.product_design.issue | date: "%A, %-d %B %Y" }} |
+| Final submission &nbsp; | {{ site.data.assignments.product_design.submission | date: "%A, %-d %B %Y, %H:%M" }} |
 
 ## General Overview
 
@@ -25,7 +25,7 @@ While the milestones may be easy to meet, simply meeting them will not give you 
 
 To score the coveted remaining 30%, use your creativity to design an application that stands out from the rest. We will not limit your potential by restricting the kind of applications you can build. We expect that you (pleasantly!) surprise us with what you are capable of doing.
 
-Please do not hesitate to approach the friendly CS3216 staff if you need further assistance. We can be contacted at <cs3216-staff@googlegroups.com>.
+Please do not hesitate to approach the friendly CS3216 staff if you need further assistance. We can be contacted at <{{ site.email }}>.
 
 ## Objectives
 
@@ -84,7 +84,7 @@ Whatever tool you choose, it has to be able to produce a prototype that fulfils 
 
 ## Phase 1 - User Requirements Gathering
 
-Every good app / platform / website / service begins with a problem they are looking to solve for a target user. As this assignment is due on **29 August 2021**, Sunday, we recommend you pick a target user who is abundantly available around you, e.g. your fellow NUS students. This way, you can easily conduct your user testing.
+Every good app / platform / website / service begins with a problem they are looking to solve for a target user. As this assignment is due on **{{ site.data.assignments.product_design.submission | date: "%A, %-d %B %Y" }}**, we recommend you pick a target user who is abundantly available around you, e.g. your fellow NUS students. This way, you can easily conduct your user testing.
 
 Study your users. Think of a problem/pain point you think they are facing now. List down the problem/pain point and assumptions you have about:
 
@@ -398,7 +398,7 @@ The remaining 30% will be awarded based on the relative outcomes for the various
 
 ### Mode of submission
 
-By **29 August 2021 23:59**, Sunday you should upload the following to Coursemology:
+By **{{ site.data.assignments.product_design.submission | date: "%A, %-d %B %Y, %H:%M" }}**, you should upload the following to Coursemology:
 
 - Your final write-up named `group-<number>-milestones.pdf`.
 - Your designs and testing results - zipped together - named `group-<number>-designs.zip`

@@ -8,8 +8,8 @@ title: Assignment 3 - Mobile Cloud Application
 <br>
 
 {:.table.table-bordered.table-striped.deadline-table}
-|Issue date&nbsp;| Monday, 30 August 2021 |
-|Final submission &nbsp;| Friday, 24 September 2021, 23:59 |
+| Issue date &nbsp; | {{ site.data.assignments.mobile.issue | date: "%A, %-d %B %Y" }} |
+| Final submission &nbsp; | {{ site.data.assignments.mobile.submission | date: "%A, %-d %B %Y, %H:%M" }} |
 
 ## General Overview
 
@@ -45,7 +45,7 @@ To score the coveted remaining 30%, use your creativity to develop an applicatio
 
 For example, WebVR and geolocation might be the latest and coolest feature supported by most mobile browsers, but they may not contribute to the user experience in a document editor. In fact, implementing features for the sake of doing so may work against you (and your grades) by confusing the user.
 
-Please do not hesitate to approach the friendly CS3216 staff if you need further assistance. We can be contacted at <cs3216-staff@googlegroups.com>.
+Please do not hesitate to approach the friendly CS3216 staff if you need further assistance. We can be contacted at <{{ site.email }}>.
 
 ## Objectives
 
@@ -814,7 +814,7 @@ The grading of the assignment is divided into two components: satisfying the com
 
 The bonus milestones and the optional milestones will contribute towards the remaining 30%.
 
-### Final Submission (due Friday, 24 September 2021, 23:59)
+### Final Submission (due {{ site.data.assignments.mobile.submission | date: "%A, %-d %B %Y, %H:%M" }})
 
 - Completion of all compulsory milestones. Submit your answers in a write-up and categorise your answers by the milestones they belong to.
 
