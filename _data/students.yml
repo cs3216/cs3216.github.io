@@ -1,4 +1,252 @@
 - batch:
+  year: 2021
+  students:
+  - name: Aloysius Lim Dewen
+    id: aloysius-lim-dewen
+    faculty: "Computing"
+    blog: "https://github.com/pooty3"
+    one_liner: "I like seeking thrills, taking risks and not losing my money"
+  - name: Ang Chun Yang
+    id: ang-chun-yang
+    faculty: "Science"
+    blog: "https://www.linkedin.com/in/ang-chun-yang/"
+    one_liner: "Can I have 3 Kopi o kosong pls"
+  - name: Audrey Felicio Anwar
+    id: audrey-felicio-anwar
+    faculty: "Computing"
+    blog: "https://github.com/AudreyFelicio"
+    one_liner: "I strive to always surpass my limits."
+  - name: Balasubramaniam Praveen
+    id: balasubramaniam-praveen
+    faculty: "Computing"
+    blog: "https://praveenbala.com/"
+    one_liner: "fully committed to increasing my sleep debt"
+  - name: Chen Hui
+    id: chen-hui
+    faculty: "Computing"
+    blog: "https://www.linkedin.com/in/chen-hui-chris/"
+    one_liner: "frenly neighbourhood spoderman"
+  - name: Cai Jia Lin
+    id: cai-jia-lin
+    faculty: "Computing"
+    blog: "https://www.instagram.com/jialin.cai00/"
+    one_liner: "yes"
+  - name: Cao Wenjie
+    id: cao-wenjie
+    faculty: "Computing"
+    blog: "https://github.com/shadowezz"
+    one_liner: "I am most tilted when I play chess"
+  - name: Chan Qin Liang
+    id: chan-qin-liang
+    faculty: "Computing"
+    blog: "https://github.com/qlchan24"
+    one_liner: "trust me i'm an engineer"
+  - name: Cheng Yu Feng
+    id: cheng-yu-feng
+    faculty: "Computing"
+    blog: "https://www.linkedin.com/in/chengyufeng"
+    one_liner: "I am coding, sleep can wait"
+  - name: Chong Wen Hao
+    id: chong-wen-hao
+    faculty: "Computing"
+    blog: "https://8kguy.com/"
+    one_liner: "UX designer that can code."
+  - name: Chrystal Quek Wan Qi
+    id: chrystal-quek-wan-qi
+    faculty: "Computing"
+    blog: "https://github.com/chrystalquek"
+    one_liner: "eye_break_count = 0"
+  - name: Cynthia Lee Weng Yan
+    id: cynthia-lee-weng-yan
+    faculty: "Computing"
+    blog: "https://www.linkedin.com/in/cynthialeewy/"
+    one_liner: "Talk to me about anything!"
+  - name: Daniel Lau Yew En
+    id: daniel-lau-yew-en
+    faculty: "Computing"
+    blog: "https://www.linkedin.com/in/daniel-lau-3a020519b/"
+    one_liner: "I can't swim, but I think I can code"
+  - name: Dylan Ghee Shao Kang
+    id: dylan-ghee-shao-kang
+    faculty: "Computing"
+    blog: "https://www.dylanghee.com/"
+    one_liner: "Sleeping is my favourite sport"
+  - name: Farrell Nah Jun Hao
+    id: farrell-nah-jun-hao
+    faculty: "Computing"
+    blog: "https://github.com/boundtotheearth"
+    one_liner: "Just chillin' my way through life"
+  - name: Goh Siau Chiak
+    id: goh-siau-chiak
+    faculty: "Computing, Science"
+    blog: "https://github.com/sc-arecrow"
+    one_liner: "Fullstack engineer with a passion for mathematics and volleyball"
+  - name: Goh Wen Hao
+    id: goh-wen-hao
+    faculty: "Computing"
+    blog: "https://wenhao.me/"
+    one_liner: "sitcom is life."
+  - name: Hans Sebastian Tirtaputra
+    id: hans-sebastian-tirtaputra
+    faculty: "Computing"
+    blog: "https://github.com/hansebastian"
+    one_liner: "I like trying new experiences:)"
+  - name: Ho Pin Xian
+    id: ho-pin-xian
+    faculty: "Computing"
+    blog: "https://github.com/hopinxian/"
+    one_liner: "love sleep, love anime, love manga"
+  - name: Hong Shao Yi
+    id: hong-shao-yi
+    faculty: "Computing"
+    blog: "https://hongshaoyi.me/"
+    one_liner: "creator & dreamer by day, coder & insane by night"
+  - name: How Yu Hin Chester
+    id: how-yu-hin-chester
+    faculty: "Computing"
+    blog: "https://chester.how/"
+    one_liner: "coffee, climbing and comic sans"
+  - name: Huang Weijie
+    id: huang-weijie
+    faculty: "Computing"
+    blog: "https://www.linkedin.com/in/weijie-huang/"
+    one_liner: "milk tea connoisseur"
+  - name: Ian Yong Yew Chuang
+    id: ian-yong-yew-chuang
+    faculty: "Computing"
+    blog: "https://ianyong.com"
+    one_liner: "https://pom.ianyong.com"
+  - name: Jeremiah Yee
+    id: jeremiah-yee
+    faculty: "FASS"
+    blog: "https://jereyee.me"
+    one_liner: "there's still a ways to go"
+  - name: Liu Yongliang
+    id: liu-yongliang
+    faculty: "Computing"
+    blog: "https://github.com/tlylt"
+    one_liner: "I'm happy with where I am in life:)"
+  - name: Let Yan Wen Dominic
+    id: let-yan-wen-dominic
+    faculty: "Law"
+    blog: "https://github.com/dominiclet"
+    one_liner: "Really love snow!"
+  - name: Lim Jin Hao
+    id: lim-jin-hao
+    faculty: "Computing"
+    blog: "https://github.com/jinhao-l"
+    one_liner: "Y3 CS student, passionate about building things :D"
+  - name: Liu Shuyang
+    id: liu-shuyang
+    faculty: "Computing"
+    blog: "www.linkedin.com/in/shuyang0/"
+    one_liner: "Hi I'm Shuyang :D"
+  - name: Low Jie Feng
+    id: low-jie-feng
+    faculty: "Computing"
+    blog: "https://github.com/jieffyy"
+    one_liner: "brb looking for a rainbow"
+  - name: Marcus
+    id: marcus
+    faculty: "Computing"
+    blog: "https://www.linkedin.com/in/marcus2k"
+    one_liner: "hi'); DROP TABLE students; --"
+  - name: Maxx Chan
+    id: maxx-chan
+    faculty: "Computing"
+    blog: "https://maxxyh.github.io/portfolio/"
+    one_liner: "Jack of all trades, hoping to be a master of some!"
+  - name: Ng Shi Wei
+    id: ng-shi-wei
+    faculty: "Computing"
+    blog: "https://github.com/shiweing/"
+    one_liner: "Way Down Hadestown"
+  - name: Ng Yi Long Kester
+    id: ng-yi-long-kester
+    faculty: "Computing"
+    blog: "kester-ng"
+    one_liner: "An enthusiastic software engineer."
+  - name: Ong Ying Gao
+    id: ong-ying-gao
+    faculty: "Computing"
+    blog: "https://github.com/ong-yinggao98"
+    one_liner: "Eat sleep play"
+  - name: Sebastian Toh Shi Jian
+    id: sebastian-toh-shi-jian
+    faculty: "Computing"
+    blog: "https://github.com/sebastiantoh"
+    one_liner: "Hello, I'm Sebastian!"
+  - name: Seow Alex
+    id: seow-alex
+    faculty: "Computing"
+    blog: "https://github.com/seowalex"
+    one_liner: "Non-functional programmer"
+  - name: Sherman Lim
+    id: sherman-lim
+    faculty: "Computing"
+    blog: "https://www.linkedin.com/in/shermzlim/"
+    one_liner: "Hi! I am Sherman, a Y3 Computer Science student and I live on coffee :)"
+  - name: Shi Jing Lin
+    id: shi-jing-lin
+    faculty: "Computing"
+    blog: "https://aqcd.github.io/"
+    one_liner: "need mala"
+  - name: Sieow Je Min
+    id: sieow-je-min
+    faculty: "Business"
+    blog: "https://www.linkedin.com/in/jeminsieow/"
+    one_liner: "I can't draw"
+  - name: Sun Yitao
+    id: sun-yitao
+    faculty: "Computing"
+    blog: "https://www.linkedin.com/in/sun-yitao/"
+    one_liner: "I like sushi"
+  - name: Tan Kang Liang
+    id: tan-kang-liang
+    faculty: "Computing"
+    blog: "https://www.linkedin.com/in/tankangliang/"
+    one_liner: "code and code and code"
+  - name: Tan Wei Liang
+    id: tan-wei-liang
+    faculty: "Computing"
+    blog: "https://github.com/wltan"
+    one_liner: "from wltan import description"
+  - name: Teo Jun Xiong
+    id: teo-jun-xiong
+    faculty: "Computing"
+    blog: "https://www.teo-jun-xiong.net/"
+    one_liner: "Food-motivated introvert"
+  - name: Tian Fang
+    id: tian-fang
+    faculty: "Computing"
+    blog: "tfang"
+    one_liner: "A creative person who always wants to learn more knowledge"
+  - name: Wang Luo
+    id: wang-luo
+    faculty: "Computing"
+    blog: "https://asthenosphere.github.io/about-me/"
+    one_liner: "I think, therefore I am."
+  - name: Wong Wen Wei Esmanda
+    id: wong-wen-wei-esmanda
+    faculty: "Computing"
+    blog: "https://esmanda3w.netlify.app/"
+    one_liner: "they say light travels faster than sound but you hear me before you see me"
+  - name: Wu Weiming
+    id: wu-weiming
+    faculty: "Computing"
+    blog: "github.com/ming-00"
+    one_liner: "if you like spaghetti you'll like my code"
+  - name: Yao Yuming
+    id: yao-yuming
+    faculty: "Computing"
+    blog: "https://www.linkedin.com/in/yuming-yao-4a82b01a5/"
+    one_liner: "Yo, would you like some self-baked cakes :D"
+  - name: Yifan Zhang
+    id: yifan-zhang
+    faculty: "Computing"
+    blog: "https://zhang-yifan.me/"
+    one_liner: "there’s no place like 127.0.0.1"
+- batch:
   year: 2020
   students:
   - name: Adam Chew Yong Soon
