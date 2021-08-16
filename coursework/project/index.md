@@ -33,25 +33,25 @@ There are no limits on what students can do for the final problem, though the ex
 - A mobile application. You may choose to build a native app if you like
 - An entry for the Microsoft Imagine Cup
 - Some amusement – cute and useless, but _fun_ and popular
-- A e-learning application of sorts
+- An e-learning application of sorts
 - An Internet of Things hack
 - An application to improve school life, something along the lines of NUSMods / NUSWhispers?
 
-The possibilities are endless. If you plan to develop a social networking application, you are expected to deploy your Final Project at least two to three weeks before the end of the semester because the "proof of the pudding is in the eating". You should get _real_ people to use your applications and the popularity of your application can be (but is not the only) criteria for the evaluation.
+The possibilities are endless. If you plan to develop a social networking application, you are expected to deploy your Final Project at least two to three weeks before the end of the semester because the "proof of the pudding is in the eating". You should get _real_ people to use your applications, and the popularity of your application can be (but is not the only) criteria for the evaluation.
 
-If one of the apps you developed for one of the previous assignments turned out be to very popular (i.e. has lots of users or a high growth rate) or has perceived potential, you may also choose to further develop it as your Final Project. The only minor complication is that you might be "locked in" to work with same team members. We leave you to sort such things out by yourself.
+If one of the apps you developed for one of the previous assignments turned out to be to very popular (i.e. has lots of users or a high growth rate) or has perceived potential, you may also choose to further develop it as your Final Project. The only minor complication is that you might be "locked-in" to work with the same team members. We leave you to sort such things out by yourself.
 
 ## Course Policy on Final Project Groupings
 
-People can be in two Final Project groups. This happens often when someone from an assignment group gets distracted and want to try something new, but cannot really bear to "leave their baby" and still want to be a part of that group. Fair enough.
+People can be in two Final Project groups. This often happens when someone from an assignment group gets distracted and want to try something new but cannot really bear to "leave their baby" and still want to be a part of that group. Fair enough.
 
-However, your Final Project grade will come from _ONE_ project, that you will specify/declare right at the onset, i.e. by the end of the mid-term break. There rationale for this policy is that we don't want people to jump ship halfway and leave others high and dry. With this policy, everyone knows everyone's priorities. The "extra" members don't count towards the 4-member limit for a project team.
+However, your Final Project grade will come from _ONE_ project that you will specify/declare right at the onset, i.e. by the end of the mid-term break. The rationale for this policy is that we don't want people to jump ship halfway and leave others high and dry. With this policy, everyone knows everyone's priorities. The "extra" members don't count towards the 4-member limit for a project team.
 
-If you decide to work with external parties, we do not have any official guide on what compensation you should negotiate for. We leave it to you to decide for yourselves what is fair. However, DO NOT work for companies that clearly neither value nor respect you.
+If you decide to work with external parties, we do not have any official guide on what compensation you should negotiate. We leave it to you to decide for yourselves what is fair. However, DO NOT work for companies that clearly neither value nor respect you.
 
 ## Final Project Proposal
 
-Your team should submit a project proposal by **{{ site.data.assignments.project.proposal_submission | date: "%A, %-d %B %Y, %H:%M" }}**. The proposal should by about 4 to 5 pages (maximum of 6) in length and address (at least) the following points:
+Your team should submit a project proposal by **{{ site.data.assignments.project.proposal_submission | date: "%A, %-d %B %Y, %H:%M" }}**. The proposal should be about 4 to 5 pages (maximum of 6) in length and address (at least) the following points:
 
 1. Description of the application you plan to develop.
 2. Are there any existing applications out there that are similar? What makes your application special? Why did you choose your idea?
@@ -63,7 +63,7 @@ Your team should submit a project proposal by **{{ site.data.assignments.project
 
 ## Development of Final Project
 
-Each team will meet with the teaching staff (probably lecturer + TA) for a one-hour preliminary meeting after you receive your feedback on your Final Project proposal. The meetings will be biweekly. Look out in your emails for the meeting schedules.
+Each team will meet with the teaching staff (probably lecturer + TA) for a one-hour preliminary meeting after receiving your feedback on your Final Project proposal. The meetings will be biweekly. Look out in your emails for the meeting schedules.
 
 These are compulsory sessions where the schedule is flexible and should be determined by both parties.
 
@@ -88,35 +88,35 @@ Please try to keep your reports to within two pages, or a maximum of 3 pages if 
 
 ## Final Project Presentation
 
-On **{{ site.data.assignments.project.in_class_progress_report | date: "%A, %-d %B %Y" }}**, each team will make a presentation to the rest of the class on your project. This session will be another round of peer-appraisal by your peers. Your goal is to convinced your fellow coursemates that you project is really cool and you have done a lot of work and great work. Think of it as round 2 of your innovation seminar, but you are selling your own dog food.
+On **{{ site.data.assignments.project.in_class_progress_report | date: "%A, %-d %B %Y" }}**, each team will make a presentation to the rest of the class on your project. This session will be another round of peer-appraisal by your peers. Your goal is to convince your fellow coursemates that your project is really cool, and that you have done a lot of work and great work. Think of it as round 2 of your innovation seminar, but you are selling your own dog food.
 
 ## Preliminary Security Scanning
 
-At this juncture ({{ site.data.assignments.project.in_class_progress_report | date: "%A, %-d %B %Y" }}), you should have a preliminary website for your app up and running, even if it is not fully functional. You are expected to provide us with URL and the tutors will be using security tools to scan your site. You will be provided with a security report and you are expected to address the cited issues for your final project. Clearly, if your project is very incomplete, very little will be found, but you then risk more bad things being found after your final project is submitted. We will be doing another round of security scanning after your final project is submitted.
+At this juncture ({{ site.data.assignments.project.in_class_progress_report | date: "%A, %-d %B %Y" }}), you should have a preliminary website for your app up and running, even if it is not fully functional. You are expected to provide us with a URL, and the tutors will be using security tools to scan your site. You will be provided with a security report, and you are expected to address the cited issues for your final project. Clearly, if your project is very incomplete, very little will be found, but you then risk more bad things being found after your final project is submitted. We will be doing another round of security scanning after your final project is submitted.
 
 ## SoC STePs
 
-On the last week of class, we will be holding a 4-hour poster session in the SoC student foyer on **{{ site.data.assignments.project.poster_session | date: "%A, %-d %B %Y" }} {% if site.data.assignments.project.is_poster_session_date_tentative %}(TBC){% endif %}** from 6.30 to 10.30 pm as part of the School of Computing Term Projects Showcase (STePS).
+In the last week of class, we will be holding a 4-hour poster session in the SoC student foyer on **{{ site.data.assignments.project.poster_session | date: "%A, %-d %B %Y" }} {% if site.data.assignments.project.is_poster_session_date_tentative %}(TBC){% endif %}** from 6.30 to 10.30 pm as part of the School of Computing Term Projects Showcase (STePS).
 
-Each team is to prepare an A1-sized poster. The judges and other members of the SoC and NUS will turn up for the "show and tell". You should treat this session as a trade show to sell your projects as you will get a large percentage of your grading from "other people" - NUS staff, students, alumni, guests - who turn up at your booth. So your final grade depends very much on your show and tell in this session. Be creative. Collaterals are encouraged but note that these will be on your own expenses.
+Each team is to prepare an A1-sized poster. The judges and other members of the SoC and NUS will turn up for the "show and tell". You should treat this session as a trade show to sell your projects as you will get a large percentage of your grading from "other people" - NUS staff, students, alumni, guests - who turn up at your booth. So your final grade depends very much on your show-and-tell in this session. Be creative. Collaterals are encouraged but note that these will be on your own expenses.
 
 Again, you can choose how you want to present your work. You can bring along other materials in addition to the posters, such as your iPads or set up your laptops to do a demo also. We'll leave it up to you!
 
 ### Final Project Video
 
-Traditionally, every team is required to make a 1-minute video to be submitted to the STePS organizing committee. Here's a playlist of past year's videos.
+Traditionally, every team is required to make a 1-minute video to be submitted to the STePS organising committee. Here's a playlist of past years' videos.
 
 <iframe width="100%" height="416" src="https://www.youtube.com/embed/videoseries?list=PLLYjqEF13ESyh-Rpm_-XtJzOqm5MeEnrj" frameborder="0" allowfullscreen></iframe>
 
 ### Marketing Efforts
 
-As part of the user acquisition process, many teams set up their own Facebook page to publicize about their products and gain initial traction before the actual STePS event. Here's what the top three teams of AY2015/16 did:
+As part of the user acquisition process, many teams set up their own Facebook page to publicise their products and gain initial traction before the actual STePS event. Here's what the top three teams of AY2015/16 did:
 
-- **Letterbox** went around the school on a hoverboard and handed out flyers. They also managed to launch their apps to the iOS App Store and Google Play Store before the event (seriously impressive feat).
-- **Griddit** created an anonymous chatroom for NUSWhispers and organized an [AMA with Prof Ben Leong](http://blog.griddit.io/post/133470245990/professor-ben-leongs-ask-me-anything) which saw over 400 participants.
+- **Letterbox** went around the school on a hoverboard and handed out flyers. They also managed to launch their apps to the iOS App Store and Google Play Store before the event (a seriously impressive feat).
+- **Griddit** created an anonymous chatroom for NUSWhispers and organised an [AMA with Prof Ben Leong](http://blog.griddit.io/post/133470245990/professor-ben-leongs-ask-me-anything), which saw over 400 participants.
 - **Paperbaton** launched a [blog with helpful tips](https://paperbaton.com/blog/) and also a complementing product, [NUSExam](https://paperbaton.com/blog/introducing-nusexam/), a Past-Year Question Paper Downloader for NUS Students.
 
-These three teams also created Facebook pages to continually engage users. Have a look at the Facebook pages of [Letterbox](https://www.facebook.com/getletterbox), [Griddit](https://www.facebook.com/griddit) and [Paperbaton](https://www.facebook.com/paperbaton) to get a sense of what sort of pre-STePS publicity can be done.
+These three teams also created Facebook pages to engage users continually. Have a look at the Facebook pages of [Letterbox](https://www.facebook.com/getletterbox), [Griddit](https://www.facebook.com/griddit) and [Paperbaton](https://www.facebook.com/paperbaton) to get a sense of what sort of pre-STePS publicity can be done.
 
 ![Paperbaton Team](/img/class-photos/paperbaton.jpg)
 
@@ -141,18 +141,18 @@ Some examples of past STePS posters:
 
 ## Final Project Report
 
-Like most other classes, the Final Project report is due on **{{ site.data.assignments.project.final_report_submission | date: "%A, %-d %B %Y" }}** (to be uploaded to Coursemology by 23:59 please). The final report should (at least) include the following points:
+Like most other classes, the Final Project report is due on **{{ site.data.assignments.project.final_report_submission | date: "%A, %-d %B %Y" }}** (to be uploaded to Coursemology by 23:59, please). The final report should (at least) include the following points:
 
 1. Description of the application you have developed.
 2. Are there any existing applications out there that are similar? What makes your application special?
-3. Review of milestone and timeline for project (which ones did you hit, what ones did you miss?).
+3. Review of milestones and timeline for the project (which ones did you hit, what ones did you miss?).
 4. Individual contribution and roles. Acknowledgement of resources/help provided by external parties.
 5. Application design (e.g. database schema, UML, etc, no code please).
-6. Report on the current number of users who have installed, active users, etc. Perhaps Google analytics data and screenshots (or similar analytics tools) to support your claims.
+6. Report on the current number of users who have installed, active users, etc. Perhaps Google Analytics data and screenshots (or similar analytics tools) to support your claims.
 7. Future plans and strategies.
 8. Insights gained from the project. What did you learn from doing the Final Project?
 
-We do not specify a required page length, though we expect that most reports will be about 10 to 15 pages in length. The report definitely SHOULD NOT exceed 20 pages please. Once you submit the Final Project report, you are done with CS3216! Congratulations!
+We do not specify a required page length, though we expect that most reports will be about 10 to 15 pages in length. The report definitely SHOULD NOT exceed 20 pages, please. Once you submit the Final Project report, you are done with CS3216! Congratulations!
 
 ## Assessment Scheme
 
@@ -166,9 +166,9 @@ The Final Project is worth 40% of the total grade for CS3216. The Final Project 
 - 30% Poster Presentation (awarded by the panel of judges)
 - 30% Final Report
 
-The fact that 30% of the grade for the Final Project is determined by the outcome of your poster presentation might make it seem somewhat random and arbitrary, but this mimics life. Success comes not only from how well you do something, but from how well you can sell it (or convince suckers to buy your stuff even if it's completely useless and they don't actually need it 😜). This is also where the marketing people make themselves useful. You are graded on quality and relevance of your posters, your sales pitch, marketing collaterals, quality of your apps, etc.
+The fact that 30% of the grade for the Final Project is determined by the outcome of your poster presentation might make it seem somewhat random and arbitrary, but this mimics life. Success comes not only from how well you do something but from how well you can sell it (or convince suckers to buy your stuff even if it's completely useless and they don't actually need it 😜). This is also where the marketing people make themselves useful. You are graded on the quality and relevance of your posters, your sales pitch, marketing collaterals, the quality of your apps, etc.
 
-For those of you doing external projects your team is treated as a consultancy. You are graded by how well you manage your consultancy. E.g., frequency of meetings with your clients, quality of questions asked, quality of solutions proposed, and how you negotiate your compensation package. For those doing your own project you are treated as a startup. We assess you on how well you manage your market validation, how well you design your marketing campaign, how you go out and bring in users, etc.
+For those of you doing external projects, your team is treated as a consultancy. You are graded by how well you manage your consultancy. E.g., frequency of meetings with your clients, quality of questions asked, quality of solutions proposed, and how you negotiate your compensation package. For those doing your own project, you are treated as a startup. We assess you on how well you manage your market validation, how well you design your marketing campaign, how you go out and bring in users, etc.
 
 ## Mode of Submission
 
@@ -183,7 +183,7 @@ The following is the list of deliverables to be pushed to your Bitbucket reposit
 4. Your Final Project report, in PDF format.
 
 Push all of the above to your Bitbucket repository.
-**Not following the submission instructions (e.g. incorrect file naming) will result in deduction of marks.**
+**Not following the submission instructions (e.g. incorrect file naming) will result in the deduction of marks.**
 
 Clarifications and questions related to this assignment should be posted to the Coursemology Forum.
 
