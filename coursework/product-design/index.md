@@ -392,7 +392,7 @@ Your submission will include a write-up that describes how your group has met al
 
 ## Grading Scheme
 
-The grading of the assignment is divided into two components: satisfying the compulsory milestones (70%) and the coolness factor (30%). Excluding Milestone 0, there are **11 milestones** in total, along with an optional Milestone 8b. Milestones 6, 7 and 9 are each worth 10%. The rest are worth 5% each.
+The grading of the assignment is divided into two components: satisfying the compulsory milestones (70%) and the coolness factor (30%). Excluding Milestone 0, there are **11 milestones** in total, along with an optional Milestone 8b. Milestones 5a and 5b are each worth 2.5%. Milestones 6, 7 and 9 are each worth 10%. The rest are worth 5% each.
 
 The remaining 30% will be awarded based on the relative outcomes for the various teams. The top team might be awarded up to 30%, while the worst performing team less than 5%. The optional Milestone 8b will also contribute to this.
 
