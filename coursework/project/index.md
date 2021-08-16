@@ -19,7 +19,7 @@ title: Final Project
 
 ## General Overview
 
-Since you have all survived the first half a semester of CS3216, you are now an expert in both product design and Progressive Web App development. The Final Project is where you will showcase to the world (and the CS3216 teaching staff since the Final Project is what will mostly determine your final grade) your creativity and talents.
+Since you have all survived the first half a semester of CS3216, you are now an expert in both product design and Progressive Web App development. The Final Project is where you will showcase to the world (and the CS3216 teaching staff, since the Final Project is what will mostly determine your final grade) your creativity and talents.
 
 For the Final Project, you will work in teams of three or four (fewer is also allowed) to develop and deploy an application (mobile, web or otherwise) of your choice. You are allowed to team up with anybody you want (and mutually willing to work with you). You may also work with external parties. Please update your groupings on the [Student Grouping Google Sheet]({{ site.data.assignments.project.google_sheet }}) by **{{ site.data.assignments.project.team_formation | date: "%A, %-d %B %Y, %H:%M" }}**. Each team is to submit a project proposal by **{{ site.data.assignments.project.proposal_submission | date: "%A, %-d %B %Y, %H:%M" }}** (Monday immediately after Recess Week) and the teams are expected to work on the Final Projects during the second half of the semester.
 
@@ -73,8 +73,7 @@ We have told you time and again to "go out there and talk to your customers", an
 
 ## Progress Reports
 
-Each team will be required to submit a progress report on **{{ site.data.assignments.project.progress_report_1_submission | date: "%A, %-d %B %Y, %H:%M" }}**. The progress report should
-include **minimally** the following:
+Each team will be required to submit a progress report on **{{ site.data.assignments.project.progress_report_1_submission | date: "%A, %-d %B %Y, %H:%M" }}**. The progress report should include **minimally** the following:
 
 1. Application prototype. Minimally as functional as what was achieved in Assignment 3.
 2. Is your project on schedule according to the milestones and timelines submitted in the initial project proposal? If you are on schedule, great! If not, why not? What is your team doing about the slip in your project schedule?
@@ -83,7 +82,8 @@ include **minimally** the following:
 5. Assuming that your team has already deployed a prototype of your application, how has the response been? Any other new insights, plans or strategies your team has come out with?
 6. Updated project schedule: milestones and timeline.
 
-A second progress report will be due on **{{ site.data.assignments.project.progress_report_2_submission | date: "%A, %-d %B %Y, %H:%M" }}**. The contents of which would be similar to the first progress report.  
+A second progress report will be due on **{{ site.data.assignments.project.progress_report_2_submission | date: "%A, %-d %B %Y, %H:%M" }}**. The contents of which would be similar to the first progress report.
+
 Please try to keep your reports to within two pages, or a maximum of 3 pages if you really must.
 
 ## Final Project Presentation
@@ -98,9 +98,9 @@ At this juncture ({{ site.data.assignments.project.in_class_progress_report | da
 
 In the last week of class, we will be holding a 4-hour poster session in the SoC student foyer on **{{ site.data.assignments.project.poster_session | date: "%A, %-d %B %Y" }} {% if site.data.assignments.project.is_poster_session_date_tentative %}(TBC){% endif %}** from 6.30 to 10.30 pm as part of the School of Computing Term Projects Showcase (STePS).
 
-Each team is to prepare an A1-sized poster. The judges and other members of the SoC and NUS will turn up for the "show and tell". You should treat this session as a trade show to sell your projects as you will get a large percentage of your grading from "other people" - NUS staff, students, alumni, guests - who turn up at your booth. So your final grade depends very much on your show-and-tell in this session. Be creative. Collaterals are encouraged but note that these will be on your own expenses.
+Each team is to prepare an A1-sized poster. The judges and other members of the SoC and NUS will turn up for the "show-and-tell". You should treat this session as a trade show to sell your projects as you will get a large percentage of your grading from "other people" - NUS staff, students, alumni, guests - who turn up at your booth. So your final grade depends very much on your show-and-tell in this session. Be creative. Collaterals are encouraged but note that these will be on your own expenses.
 
-Again, you can choose how you want to present your work. You can bring along other materials in addition to the posters, such as your iPads or set up your laptops to do a demo also. We'll leave it up to you!
+Again, you can choose how you want to present your work. You can bring along other materials in addition to the posters, such as your iPads, or set up your laptops to do a demo also. We'll leave it up to you!
 
 ### Final Project Video
 
@@ -147,7 +147,7 @@ Like most other classes, the Final Project report is due on **{{ site.data.assig
 2. Are there any existing applications out there that are similar? What makes your application special?
 3. Review of milestones and timeline for the project (which ones did you hit, what ones did you miss?).
 4. Individual contribution and roles. Acknowledgement of resources/help provided by external parties.
-5. Application design (e.g. database schema, UML, etc, no code please).
+5. Application design (e.g. database schema, UML, etc., but no code please).
 6. Report on the current number of users who have installed, active users, etc. Perhaps Google Analytics data and screenshots (or similar analytics tools) to support your claims.
 7. Future plans and strategies.
 8. Insights gained from the project. What did you learn from doing the Final Project?
@@ -168,11 +168,11 @@ The Final Project is worth 40% of the total grade for CS3216. The Final Project 
 
 The fact that 30% of the grade for the Final Project is determined by the outcome of your poster presentation might make it seem somewhat random and arbitrary, but this mimics life. Success comes not only from how well you do something but from how well you can sell it (or convince suckers to buy your stuff even if it's completely useless and they don't actually need it 😜). This is also where the marketing people make themselves useful. You are graded on the quality and relevance of your posters, your sales pitch, marketing collaterals, the quality of your apps, etc.
 
-For those of you doing external projects, your team is treated as a consultancy. You are graded by how well you manage your consultancy. E.g., frequency of meetings with your clients, quality of questions asked, quality of solutions proposed, and how you negotiate your compensation package. For those doing your own project, you are treated as a startup. We assess you on how well you manage your market validation, how well you design your marketing campaign, how you go out and bring in users, etc.
+For those of you doing external projects, your team is treated as a consultancy. You are graded by how well you manage your consultancy, e.g., frequency of meetings with your clients, quality of questions asked, quality of solutions proposed, and how you negotiate your compensation package. For those doing your own project, you are treated as a startup. We assess you on how well you manage your market validation, how well you design your marketing campaign, how you go out and bring in users, etc.
 
 ## Mode of Submission
 
-The following is the list of deliverables to be pushed to your Bitbucket repository:
+The following is the list of deliverables to be pushed to your GitHub repository:
 
 1. Source code.
 2. You should also upload a copy of your poster to your repository.
@@ -182,9 +182,8 @@ The following is the list of deliverables to be pushed to your Bitbucket reposit
    In both cases, you should provide us with a link to your application's canvas page.
 4. Your Final Project report, in PDF format.
 
-Push all of the above to your Bitbucket repository.
-**Not following the submission instructions (e.g. incorrect file naming) will result in the deduction of marks.**
+Push all of the above to your GitHub repository. **Not following the submission instructions (e.g. incorrect file naming) will result in the deduction of marks.**
 
-Clarifications and questions related to this assignment should be posted to the Coursemology Forum.
+Clarifications and questions related to this assignment should be posted on the Coursemology Forum.
 
 Good luck, have fun. Live long and prosper!
