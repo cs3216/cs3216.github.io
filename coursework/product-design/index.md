@@ -236,7 +236,7 @@ Remain as neutral as possible during testing. Only ask follow-up questions **aft
 Rinse and repeat with three to five[^2] different users.
 
 <div class="box">
-  <strong class="milestone-counter">Milestone 6:</strong> Document the results gathered from this round of testing. Be as detailed as possible. Things that would be good to document include your observations, the questions you asked, their responses, and the issues identified. Save these into a new "Draft 1 Testing" folder.
+  <strong class="milestone-counter">Milestone 6:</strong> Document the results gathered from this round of testing with three to five different users. Be as detailed as possible. Things that would be good to document include your observations, the questions you asked, their responses, and the issues identified. Save these into a new "Draft 1 Testing" folder.
 </div>
 
 After you have completed the testing, it is now time to review the results and improve your user flow. For example, you may want to ask yourself:
