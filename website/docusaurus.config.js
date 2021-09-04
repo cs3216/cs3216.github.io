@@ -91,6 +91,9 @@ function reverseSidebarItems(items) {
           theme: lightCodeTheme,
           darkTheme: darkCodeTheme,
         },
+        googleAnalytics: {
+          trackingID: 'UA-33503218-3',
+        },
       }),
     plugins: [
       [
