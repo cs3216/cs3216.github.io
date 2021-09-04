@@ -120,9 +120,16 @@ List the above in a _user persona_ card. A persona is a fictional representation
 3. Age, gender, current occupation
 4. Answers to the problem / pain point and questions above
 
+<figure className="text--center">
+
 ![Example Persona](img/persona.jpg)
 
-<small>Source: https://uxdesign.cc/meetup-a-usability-case-study-e909c33f1e3e</small>
+<figcaption>
+
+Source: https://uxdesign.cc/meetup-a-usability-case-study-e909c33f1e3e
+
+</figcaption>
+</figure>
 
 You can fill in more information if you feel that that will help you better visualise your product, such as personality, brand affiliation, life goals and aspirations, level of experience with technology and more. The goal of the user persona is to allow you to think in the shoes of your user, so try to include details that make this easy.
 
@@ -206,17 +213,31 @@ Use any tool you want - even PowerPoint if that’s easier - or just plain paper
 
 Wireframes are ["low-fidelity" designs](https://www.nngroup.com/articles/ux-prototype-hi-lo-fidelity/). This means that they should _not_ contain any design-specific elements such as colours, font or unnecessary details like user-generated content and images. These distract from the aspects that are more important at this current stage of development, and slow down the speed at which they are produced. Instead, focus on the relative size and position of elements, key user interface elements, and interactions such as which elements can be clicked or tapped, dragged, and so on.
 
+<figure className="text--center">
+
 ![Example Mobile Wireframe](img/wireframe-mobile.jpg)
 
-<small>Source: https://www.flickr.com/photos/anthonyarmendariz/4448219885/in/pool-1070674@N20/</small>
+<figcaption>
+
+Source: https://www.flickr.com/photos/anthonyarmendariz/4448219885/in/pool-1070674@N20/
+
+</figcaption>
+</figure>
 
 Whichever tool you use to design your wireframes, make sure you can "transition" from different screens and states easily. If you are designing on PowerPoint, this means making each screen or state a slide, and if you are designing on paper, use a different page for each screen and sticky notes for modals, popups and other ephemeral UI elements. Tools like InVision allow for [interactive user flows](https://invis.io/VNNLOH33K25#/163621461_Inbox), which you may use for user testing but may take longer to build and are not required until Milestone 7. When you create your design, keep your user personas in mind.
 
 This set of wireframes will be shown to the user during testing. As such, keep a copy without the links between buttons and screens and without more than one screen showing at once - after all, users can't do that in the actual app! (You may add annotations or comments for your own reference, but remember to hide them before starting user testing.)
 
+<figure className="text--center">
+
 ![Example Web Wireframe](img/wireframe-web.jpg)
 
-<small>Source: https://www.flickr.com/photos/mockupbuilder/12987528713/in/pool-ilovewireframes/</small>
+<figcaption>
+
+Source: https://www.flickr.com/photos/mockupbuilder/12987528713/in/pool-ilovewireframes/
+
+</figcaption>
+</figure>
 
 :::info Milestone
 
@@ -303,9 +324,16 @@ If you feel that you are not ready for this stage yet, you may perform more roun
 
 Compared to a wireframe, a mockup will usually look more similar to how the final app will turn out. Colours, fonts, logos, images and user interface elements from the target platform are used in place of wire boxes. However, like wireframes, mockups remain static and will require manual transitioning when doing user testing with them.
 
+<figure className="text--center">
+
 ![Example Mobile Prototype](img/mobile-design-mockup.png)
 
-<small>Source: https://www.nngroup.com/articles/wireflows/</small>
+<figcaption>
+
+Source: https://www.nngroup.com/articles/wireflows
+
+</figcaption>
+</figure>
 
 You may find it useful to develop a set of shared assets such as the app's logo, colour scheme, font and common UI widget so your mockup looks coherent when it is built by different members of the team.
 
@@ -313,9 +341,16 @@ You may find it useful to develop a set of shared assets such as the app's logo,
 
 If you are planning to work on a prototype, there is no need to submit the design and user flows separately. Simply submit the interactive file in a single folder, as the **prototype transitions / interactions are basically your user flows**.
 
+<figure className="text--center">
+
 ![Example Travel Design Prototype](img/travel-design-mockup.png)
 
-<small>Source: http://www.tifftam.co/goji/</small>
+<figcaption>
+
+Source: http://www.tifftam.co/goji/
+
+</figcaption>
+</figure>
 
 A well-developed app has many moving components - login, sign-up, active, inactive states and so on. While you do not have to include every single possibility that your user will encounter, it should be sufficient for your users to test it satisfactorily.
 
