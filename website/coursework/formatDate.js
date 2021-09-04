@@ -1,6 +1,6 @@
 export default function formatDate(dateString) {
-  return new Intl.DateTimeFormat('en-SG', {
+  return new Intl.DateTimeFormat('default', {
     dateStyle: 'full',
-    timeStyle: dateString.includes(':') ? 'long' : undefined,
+    timeStyle: dateString.includes(':') ? 'short' : undefined,
   }).format(new Date(dateString));
 }
