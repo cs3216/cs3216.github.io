@@ -5,31 +5,35 @@ slug: /seminar
 
 import assignments from '../assignments';
 
+import formatDate from '../formatDate';
+
 <table>
-  <tr>
-    <td>Issue date</td>
-    <td>{assignments.seminar.issue}</td>
-  </tr>
-  <tr>
-    <td>Innovation submission</td>
-    <td>{assignments.seminar.innovation_submission}</td>
-  </tr>
-  <tr>
-    <td>Slides submission</td>
-    <td>{assignments.seminar.slides_submission}</td>
-  </tr>
-  <tr>
-    <td>Presentation</td>
-    <td>{assignments.seminar.presentation}</td>
-  </tr>
-  <tr>
-    <td>Application critiques</td>
-    <td>{assignments.seminar.application_critiques}</td>
-  </tr>
-  <tr>
-    <td>Mutual critiques</td>
-    <td>{assignments.seminar.mutual_critiques}</td>
-  </tr>
+  <tbody>
+    <tr>
+      <td>Issue date</td>
+      <td>{formatDate(assignments.seminar.issue)}</td>
+    </tr>
+    <tr>
+      <td>Innovation submission</td>
+      <td>{formatDate(assignments.seminar.innovation_submission)}</td>
+    </tr>
+    <tr>
+      <td>Slides submission</td>
+      <td>{formatDate(assignments.seminar.slides_submission)}</td>
+    </tr>
+    <tr>
+      <td>Presentation</td>
+      <td>{formatDate(assignments.seminar.presentation)}</td>
+    </tr>
+    <tr>
+      <td>Application critiques</td>
+      <td>{formatDate(assignments.seminar.application_critiques)}</td>
+    </tr>
+    <tr>
+      <td>Mutual critiques</td>
+      <td>{formatDate(assignments.seminar.mutual_critiques)}</td>
+    </tr>
+  </tbody>
 </table>
 
 ## General Overview
@@ -43,7 +47,7 @@ In order to build good and original applications, it is important to learn what 
 
 There is a French think-tank funded by UNESCO and the French Senate that looks out for digital innovations worldwide called [Netexplo](https://netexplo.com/n100/). You will form groups of up to 4 people, and each team will have to find a new innovation that has not yet been identified in the past by Netexplo.
 
-<p>Before you meet as a group, each member is to try their hand at identifying a recent innovation. Your group is to then meet and discuss to finally decide on the most innovative application and make a presentation about it to the rest of the class on <strong>{assignments.seminar.presentation}</strong>. Each team is to put up their choice of the most innovative application on the <a href={assignments.seminar.google_sheet}>Google Sheet</a> as soon as possible (latest by <strong>{assignments.seminar.innovation_submission}</strong>). Note that duplicates are not allowed, and it will be first-come, first-served. Please double check that another group has not taken up your team’s choice before adding it to the Google Sheet.</p>
+<p>Before you meet as a group, each member is to try their hand at identifying a recent innovation. Your group is to then meet and discuss to finally decide on the most innovative application and make a presentation about it to the rest of the class on <strong>{formatDate(assignments.seminar.presentation)}</strong>. Each team is to put up their choice of the most innovative application on the <a href={assignments.seminar.google_sheet}>Google Sheet</a> as soon as possible (latest by <strong>{formatDate(assignments.seminar.innovation_submission)}</strong>). Note that duplicates are not allowed, and it will be first-come, first-served. Please double check that another group has not taken up your team’s choice before adding it to the Google Sheet.</p>
 
 ## Grading and Admin
 
@@ -79,13 +83,13 @@ The fun part is that the assignment of the presentations each student has to wri
 
 This is not a literature class, and you are not required to write in poetry. We only ask that you think carefully about what you heard and express your ideas clearly. Points will not be taken off for typos or grammatical errors as long as the ideas are expressed clearly and can be understood easily. There is no minimum length, but do have some mercy on your poor lecturer and try to keep each application critique within what would be 1-2 pages of A4 if it was a typed report. What matters is not how much you write but the quality of your thoughts and ideas and how much you actually learnt from the process.
 
-<p>You are, of course, also welcome to write about other aspects of the seminar and also about lessons learnt in addition to this assignment. The application critiques should be submitted on Coursemology by <strong>{assignments.seminar.application_critiques}</strong> (i.e. the next day).</p>
+<p>You are, of course, also welcome to write about other aspects of the seminar and also about lessons learnt in addition to this assignment. The application critiques should be submitted on Coursemology by <strong>{formatDate(assignments.seminar.application_critiques)}</strong> (i.e. the next day).</p>
 
 ## Response and Follow-up of Critique
 
 Once all the application critiques are submitted, a new forum will appear, and you will post your critiques there. You will read the critiques written by your coursemates on your presentation and have an online discussion. If your coursemates think that your team's innovation is not innovative, you should try to convince them otherwise.
 
-<p>Just bear in mind that the goal of CS3216 is to learn. You do not do better in this segment of the assignment by being nasty and running your coursemates down. Be civil. Be polite. Be kind. If others post comments disagreeing with you, do not be too defensive. All these comments should be posted by <strong>{assignments.seminar.mutual_critiques}</strong>.</p>
+<p>Just bear in mind that the goal of CS3216 is to learn. You do not do better in this segment of the assignment by being nasty and running your coursemates down. Be civil. Be polite. Be kind. If others post comments disagreeing with you, do not be too defensive. All these comments should be posted by <strong>{formatDate(assignments.seminar.mutual_critiques)}</strong>.</p>
 
 How many comments should you post? As many as you think is appropriate and sufficient to earn the 10% grade for this part of the assignment.
 
@@ -105,7 +109,7 @@ Overall, the application seminar is worth 10% of your final grade.
 
 ## Mode of Submission
 
-<p>The slides for the presentation should be named <code>{'group-<number>-seminar.{pptx|key}'}</code> and uploaded to Coursemology by <strong>{assignments.seminar.slides_submission}</strong>, because we will be downloading the slides to project on-screen or screen-share during class. The application critiques should be submitted within 24 hours of the innovation seminar, by <strong>{assignments.seminar.application_critiques}</strong>. Your comments for the mutual critique part should be made by <strong>{assignments.seminar.mutual_critiques}</strong>.</p>
+<p>The slides for the presentation should be named <code>{'group-<number>-seminar.{pptx|key}'}</code> and uploaded to Coursemology by <strong>{formatDate(assignments.seminar.slides_submission)}</strong>, because we will be downloading the slides to project on-screen or screen-share during class. The application critiques should be submitted within 24 hours of the innovation seminar, by <strong>{formatDate(assignments.seminar.application_critiques)}</strong>. Your comments for the mutual critique part should be made by <strong>{formatDate(assignments.seminar.mutual_critiques)}</strong>.</p>
 
 **Marks will be deducted if you fail to follow the submission instructions (e.g. incorrect file naming).**
 

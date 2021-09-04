@@ -5,15 +5,19 @@ slug: /mobile
 
 import assignments from '../assignments';
 
+import formatDate from '../formatDate';
+
 <table>
-  <tr>
-    <td>Issue date</td>
-    <td>{assignments.mobile.issue}</td>
-  </tr>
-  <tr>
-    <td>Final submission</td>
-    <td>{assignments.mobile.submission}</td>
-  </tr>
+  <tbody>
+    <tr>
+      <td>Issue date</td>
+      <td>{formatDate(assignments.mobile.issue)}</td>
+    </tr>
+    <tr>
+      <td>Final submission</td>
+      <td>{formatDate(assignments.mobile.submission)}</td>
+    </tr>
+  </tbody>
 </table>
 
 ## General Overview
@@ -84,11 +88,11 @@ Depending on the size of the service, differing amounts of hardware may be deplo
 
 One of the benefits of having a client-server architecture is that different kinds of clients (Web, iOS, Android, Mac, etc.) can reuse the API exposed by the same server. You will not need to rewrite your server if you need to cater to a new client.
 
-![Server - Client - Database](img/structure1.png){:.assignment-img}
+![Server - Client - Database](img/structure1.png)
 
 On a native iOS/Android app, users will normally download the clients from the online application stores for their respective platforms. In our case, the workflow differs a little from native applications. Since our client is created with **HTML5** and supporting web technologies such as **JavaScript** and **CSS3**, it is essentially a web page. During the user's first visit to the site, we will tell the browser to quietly download and save the program for future use. A **Service Worker** will help retain resources through the **Cache API**, which could then be used to serve the "web page" in the absence of an Internet connection.
 
-![image](img/structure2.png){:.assignment-img}
+![image](img/structure2.png)
 
 When this happens, the client can operate with limited functionality when offline and communicate with the server using **AJAX** calls while it has Internet access. Requests typically take the form of **JSON-formatted** messages, and they contain details of a job to be processed by the server, such as querying the database for some information or updating its records. The server then replies with a similarly formatted message response, which the client is responsible for decoding and displaying to the user.
 
@@ -155,6 +159,7 @@ Relations indicate relationships between tables. For example, suppose we add a `
 :::info Milestone
 
 What is the primary key of the <code>home_faculties</code> table? <em>(Not graded)</em>
+
 :::
 
 Other important concepts include _indexed columns_ (allowing searches to be fast), _unique keys_ (enforcing uniqueness for non-primary key columns), and relation cascades (where deleting a student from the `students` table can automatically update/delete all entries in other tables that reference this table). It's up to you to learn about all these on your own.
@@ -264,6 +269,7 @@ It is important to design the API contract between the client and the server wel
 :::info Milestone
 
 **Milestone 5 (REST API):** Design and document all your REST API. If you already use Apiary to collaborate within your team, you can simply submit an Apiary link. The documentation should describe the requests in terms of the triplet mentioned above. Do provide us with an explanation of the purpose of each request for reference. Also, explain how your API conforms to the REST principles and why you have chosen to ignore certain practices (if any). You will be penalised if your design violates principles for no good reason.
+
 :::
 
 **OR**
@@ -302,6 +308,7 @@ Most of the time, it is not a good idea to write raw SQL queries yourself. We re
 :::info Milestone
 
 **Milestone 6:** Share with us some queries (at least 3) in your application that require database access. Provide the _actual SQL queries_ you use (if you are using an [ORM](https://www.wikiwand.com/en/Object-relational_mapping), find out the underlying query and provide both the ORM query and the underlying SQL query). Explain what the query is supposed to be doing.
+
 :::
 
 ### HTTP Request Methods
@@ -343,9 +350,9 @@ Next, we'll be exploring some of the features that constitute a progressive web 
 
 Apart from your usual HTML5 features, most mobile devices allow users to add a shortcut to a web page to their home screen.
 
-![iOS Homescreen](img/homescreen-ios14.png){:.assignment-img}
+![iOS Homescreen](img/homescreen-ios14.png)
 
-![Android Homescreen](img/homescreen-android-lollipop.png){:.assignment-img}
+![Android Homescreen](img/homescreen-android-lollipop.png)
 
 In iOS and Android devices, when these shortcuts are run, they are opened in a standalone browser window that does not include the default browser UI controls at the top and bottom. This allows web applications that have been added to the home screen to have more space to work with and look as if they were native applications. Special metadata tags have been developed to allow developers to set icons, splash screens and even the colour of the device's status bar. As much as users may like your application, adding a blank icon does not help users identify your application among the others they have installed. If users are willing to shortcut your application, capitalise on their goodwill by making it easy for them to return to your application.
 
@@ -429,15 +436,15 @@ To get started, we first need to register a service worker with our browser. Cre
 ```html
 <script>
   // Check if browser supports service workers
-  if ("serviceWorker" in navigator) {
+  if ('serviceWorker' in navigator) {
     // Registration of service worker
     navigator.serviceWorker
-      .register("/service-worker.js")
+      .register('/service-worker.js')
       .then(function () {
-        console.log("Registered Service Worker");
+        console.log('Registered Service Worker');
       })
       .catch(function () {
-        console.log("Unable to register");
+        console.log('Unable to register');
       });
   }
 </script>
@@ -472,7 +479,7 @@ The service worker first opens the cache with the `cache_name`, before calling `
 Now that the required files have been cached by the Service Worker, we can serve the page directly to the user without sending new network requests to retrieve these files. Similar to the **install** event when a page is first visited, a **fetch** event will be fired if the page is visited again. The service worker can then handle this event to return the cached response.
 
 ```js
-self.addEventListener("fetch", function (event) {
+self.addEventListener('fetch', function (event) {
   event.respondWith(
     caches.match(event.request).then(function (response) {
       // Response for the request is found in cache, return the response
@@ -483,7 +490,7 @@ self.addEventListener("fetch", function (event) {
       // Response is not found in cache, make a network request instead
       // You might need to polyfill `fetch` or replace with other forms of ajax calls
       return fetch(event.request);
-    })
+    }),
   );
 });
 ```
@@ -497,7 +504,7 @@ Next, we need to ensure that the service worker and cache are up to date. For th
 However, cache management, such as purging unused cached data, has to be managed by the service worker itself. This should be done in the **activate** callback to ensure that the latest script is used to manage the cache:
 
 ```js
-self.addEventListener("activate", function (event) {
+self.addEventListener('activate', function (event) {
   // Cache management. E.g. Purging unused data
 });
 ```
@@ -519,14 +526,14 @@ Service workers allow resources to be retained locally, but JavaScript variables
 
 ```html
 <script>
-  var user = localStorage.getItem("user");
+  var user = localStorage.getItem('user');
   if (user) {
     console.log(JSON.parse(user));
     // localStorage.clear();
     // localStorage.removeItem('user');
   } else {
-    var newUser = { id: "1234", name: "Bob" };
-    localStorage.setItem("user", JSON.stringify(newUser));
+    var newUser = {id: '1234', name: 'Bob'};
+    localStorage.setItem('user', JSON.stringify(newUser));
   }
 </script>
 ```
@@ -546,24 +553,24 @@ How you handle the problem depends on your application; prior to that, your appl
 ```html
 <script>
   if (navigator.onLine) {
-    alert("Online");
+    alert('Online');
   } else {
-    alert("Offline");
+    alert('Offline');
   }
   window.addEventListener(
-    "online",
+    'online',
     function (event) {
-      alert("Online");
+      alert('Online');
     },
-    false
+    false,
   );
 
   window.addEventListener(
-    "offline",
+    'offline',
     function (event) {
-      alert("Offline");
+      alert('Offline');
     },
-    false
+    false,
   );
 </script>
 ```
@@ -585,12 +592,12 @@ Your application needs to be able to communicate the user's actions to the serve
 ```html
 <script>
   $.ajax({
-    type: "PUT",
-    url: "products/12345",
-    contentType: "application/json",
+    type: 'PUT',
+    url: 'products/12345',
+    contentType: 'application/json',
     data: {
-      name: "Apple",
-      price: "0.5",
+      name: 'Apple',
+      price: '0.5',
     },
     success: function (response) {
       // Succeeded! Do something...
@@ -636,11 +643,11 @@ Given this header and payload, the JWT string will then be created in the follow
   const encodedHeader = base64URLencode(header);
   const encodedPayload = base64URLencode(payload);
   const encodedSignature = base64URLencode(
-    HMACSHA256(encodedHeader + "." + encodedHeader, SECRET)
+    HMACSHA256(encodedHeader + '.' + encodedHeader, SECRET),
   );
 
   const encodedJWT =
-    encodedHeader + "." + encodedPayload + "." + encodedSignature;
+    encodedHeader + '.' + encodedPayload + '.' + encodedSignature;
 </script>
 ```
 
@@ -709,13 +716,13 @@ You should be interested in the usage statistics of your application. Google Ana
 If your application's interface is predominantly built with a JavaScript MVC framework, it is very likely that you have a Single-Page Application; one HTML page with all transitions handled by JavaScript code and URLs managed by HTML5 `pushState` API. Pages can still be tracked using Virtual Pageviews by executing the following code instead. Refer to <https://developers.google.com/analytics/devguides/collection/analyticsjs/single-page-applications> for more information.
 
 ```js
-ga("set", "pageview", "/your_virtual_page_path");
+ga('set', 'pageview', '/your_virtual_page_path');
 ```
 
 **Event Tracking** can provide more fine-grained control over user actions. They can be used to track more events such as successful AJAX calls, buttons pressed, or even videos downloaded. The following code can be embedded in the click callback of a button that publishes a new blog post:
 
 ```js
-ga("send", "event", "button", "click", "publish");
+ga('send', 'event', 'button', 'click', 'publish');
 ```
 
 In particular, **Social Interaction Analytics** can be used to track clicks on social buttons on your application, such as Like, Share or Tweet buttons. To learn how to track social network activity, check out <https://developers.google.com/analytics/devguides/collection/analyticsjs/social-interactions>.
@@ -728,8 +735,7 @@ Google Analytics only updates the reports once a day, do not expect to see immed
 
 3. Use the official Google Analytics Debugger [Chrome Extension](https://chrome.google.com/webstore/detail/google-analytics-debugger/jnkmfdileelhofjcijamephohjechhna) (recommended)
 
-More information and examples at
-<https://developers.google.com/analytics/devguides/collection/analyticsjs/>.
+More information and examples at <https://developers.google.com/analytics/devguides/collection/analyticsjs/>.
 
 :::info Milestone
 
@@ -812,21 +818,21 @@ This code will continue to output the user's position as they walk about with th
         // success
         var lat = position.coords.latitude;
         var lng = position.coords.longitude;
-        console.log("Pos: [", lat, ",", lng, "]");
+        console.log('Pos: [', lat, ',', lng, ']');
       },
       function (error) {
         switch (error.code) {
           case error.PERMISSION_DENIED:
-            console.log("Permission denied");
+            console.log('Permission denied');
             break;
           case error.POSITION_UNAVAILABLE:
-            console.log("Position unavailable");
+            console.log('Position unavailable');
             break;
           case error.TIMEOUT:
-            console.log("Timeout");
+            console.log('Timeout');
             break;
         }
-      }
+      },
     );
   }
 </script>
@@ -860,7 +866,7 @@ The grading of the assignment is divided into two components: satisfying the com
 
 The bonus milestones and the optional milestones will contribute towards the remaining 30%.
 
-<h2>Final Submission (due {assignments.mobile.submission})</h2>
+<h2>Final Submission (due {formatDate(assignments.mobile.submission)})</h2>
 
 - Completion of all compulsory milestones. Submit your answers in a write-up and categorise your answers by the milestones they belong to.
 

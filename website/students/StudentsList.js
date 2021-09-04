@@ -43,20 +43,24 @@ export default function StudentsList({year}) {
                 </div>
                 <div className="card__body">
                   <h3 className="margin-bottom--xs">{name}</h3>
-                  <div>
-                    <small>{faculty}</small>
-                  </div>
+                  {!!faculty && (
+                    <div>
+                      <small>{faculty}</small>
+                    </div>
+                  )}
                   <p>
                     <em>{one_liner}</em>
                   </p>
                 </div>
-                <div className="card__footer">
-                  <a
-                    className="button button--primary button--block"
-                    href={blog}>
-                    Profile
-                  </a>
-                </div>
+                {!!blog && (
+                  <div className="card__footer">
+                    <a
+                      className="button button--primary button--block"
+                      href={blog}>
+                      Profile
+                    </a>
+                  </div>
+                )}
               </div>
             </div>
           ))}

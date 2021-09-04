@@ -91,7 +91,6 @@ function reverseSidebarItems(items) {
           theme: lightCodeTheme,
           darkTheme: darkCodeTheme,
         },
-        defaultMode: 'dark',
       }),
     plugins: [
       [

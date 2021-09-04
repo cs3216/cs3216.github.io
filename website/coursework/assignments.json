@@ -1,31 +1,31 @@
 {
   "product_design": {
-    "issue": "16/8/2021",
-    "submission": "29/8/2021 23:59"
+    "issue": "2021-08-16",
+    "submission": "2021-08-29T23:59:00"
   },
   "seminar": {
-    "issue": "9/8/2021",
-    "innovation_submission": "23/8/2021 23:59",
-    "slides_submission": "5/9/2021 23:59",
-    "presentation": "6/9/2021 18:30",
-    "application_critiques": "7/9/2021 23:59",
-    "mutual_critiques": "12/9/2021 23:59",
+    "issue": "2021-08-09",
+    "innovation_submission": "2021-08-23T23:59:00",
+    "slides_submission": "2021-09-05T23:59:00",
+    "presentation": "2021-09-06T18:30:00",
+    "application_critiques": "2021-09-07T23:59:00",
+    "mutual_critiques": "2021-09-12T23:59:00",
     "google_sheet": "https://docs.google.com/spreadsheets/d/1ETibvkytQLAsnmM06O-JiWuUHfpKstC3uHqQgNLfpHk/edit?usp=sharing"
   },
   "mobile": {
-    "issue": "30/8/2021",
-    "submission": "24/9/2021 23:59"
+    "issue": "2021-08-30",
+    "submission": "2021-09-24T23:59:00"
   },
   "project": {
-    "issue": "13/9/2021",
-    "team_formation": "20/9/2021 23:59",
-    "proposal_submission": "27/9/2021 23:59",
-    "progress_report_1_submission": "11/10/2021 23:59",
-    "progress_report_2_submission": "25/10/2021 23:59",
-    "in_class_progress_report": "1/11/2021 18:30",
-    "poster_session": "10/11/2021 23:59",
+    "issue": "2021-09-13",
+    "team_formation": "2021-09-20T23:59:00",
+    "proposal_submission": "2021-09-27T23:59:00",
+    "progress_report_1_submission": "2021-10-11T23:59:00",
+    "progress_report_2_submission": "2021-10-25T23:59:00",
+    "in_class_progress_report": "2021-11-01 18:30",
+    "poster_session": "2021-11-10T23:59:00",
     "is_poster_session_date_tentative": true,
-    "final_report_submission": "21/11/2021 23:59",
+    "final_report_submission": "2021-11-21T23:59:00",
     "google_sheet": "https://docs.google.com/spreadsheets/d/1J-g4Yiq-7_-og09ifzYk_KVHWBICcIs8mmuyTFt-PYQ/edit?usp=sharing"
   }
 }

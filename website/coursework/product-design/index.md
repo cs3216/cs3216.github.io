@@ -5,15 +5,19 @@ slug: /product-design
 
 import assignments from '../assignments';
 
+import formatDate from '../formatDate';
+
 <table>
-  <tr>
-    <td>Issue date</td>
-    <td>{assignments.product_design.issue}</td>
-  </tr>
-  <tr>
-    <td>Final submission</td>
-    <td>{assignments.product_design.submission}</td>
-  </tr>
+  <tbody>
+    <tr>
+      <td>Issue date</td>
+      <td>{formatDate(assignments.product_design.issue)}</td>
+    </tr>
+    <tr>
+      <td>Final submission</td>
+      <td>{formatDate(assignments.product_design.submission)}</td>
+    </tr>
+  </tbody>
 </table>
 
 ## General Overview
@@ -37,7 +41,9 @@ Please do not hesitate to approach the friendly CS3216 staff if you need further
 The objective of this assignment is to ideate and design an app that solves a real problem, and use empirical user testing to validate your idea and design. Your team will pick and target an audience to solve their problems. You will need to think critically about the features and user interactions within the product, and how each of these supports the user in solving the problem. Thereafter, you will interview users and use your user research and user testing data to iterate on the design and user interactions. The final product will be a high fidelity interactive prototype that is sufficiently detailed to be handed off to a developer and turned into a final working app.
 
 :::caution
+
 Please read the entire assignment before starting.
+
 :::
 
 ## Terminologies
@@ -97,7 +103,7 @@ Whatever tool you choose, it has to be able to produce a prototype that fulfils 
 
 ## Phase 1 - User Requirements Gathering
 
-<p>Every good app / platform / website / service begins with a problem they are looking to solve for a target user. As this assignment is due on <strong>{assignments.product_design.submission}</strong>, we recommend you pick a target user who is abundantly available around you, e.g. your fellow NUS students. This way, you can easily conduct your user testing.</p>
+<p>Every good app / platform / website / service begins with a problem they are looking to solve for a target user. As this assignment is due on <strong>{formatDate(assignments.product_design.submission)}</strong>, we recommend you pick a target user who is abundantly available around you, e.g. your fellow NUS students. This way, you can easily conduct your user testing.</p>
 
 Study your users. Think of a problem/pain point you think they are facing now. List down the problem/pain point and assumptions you have about:
 
@@ -289,7 +295,7 @@ As you iterate on your design, remember to refine your sketches and improve thei
 
 Now that you have the basic information architecture and user interactions planned out, it is time to add more meat to your wireframe. Convert your wireframe into a mockup using your chosen prototyping tool.
 
-:::info Milestone
+:::tip
 
 If you feel that you are not ready for this stage yet, you may perform more rounds of design iteration and user testing with wireframes. Be sure to include the results and name the folders appropriately.
 
@@ -445,13 +451,15 @@ The remaining 30% will be awarded based on the relative outcomes for the various
 
 ## Mode of submission
 
-<p>By <strong>{assignments.product_design.submission}</strong>, you should upload the following to Coursemology:</p>
+<p>By <strong>{formatDate(assignments.product_design.submission)}</strong>, you should upload the following to Coursemology:</p>
 
 - Your final write-up named `group-<number>-milestones.pdf`
 - Your designs and testing results - zipped together - named `group-<number>-designs.zip`
 
 :::tip
+
 As a final reminder, you should have written answers for <strong>six milestones</strong>, <strong>three or more drafts</strong> comprising separate folders for the design, the user flows and user testing results and conclusions, <strong>one final prototype</strong>, and <strong>one demo video</strong> in your submission. <strong>Failure to adhere to these instructions will result in the deduction of marks.</strong> Only one member of your group needs to submit on Coursemology on behalf of your group.
+
 :::
 
 Clarifications and questions related to this assignment should be posted to the Coursemology forum.

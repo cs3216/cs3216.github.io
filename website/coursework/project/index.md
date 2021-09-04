@@ -5,46 +5,50 @@ slug: /project
 
 import assignments from '../assignments';
 
+import formatDate from '../formatDate';
+
 <table>
-  <tr>
-    <td>Issue date</td>
-    <td>{assignments.project.issue}</td>
-  </tr>
-  <tr>
-    <td>Team Formation Deadline</td>
-    <td>{assignments.project.team_formation}</td>
-  </tr>
-  <tr>
-    <td>Proposal Due</td>
-    <td>{assignments.project.proposal_submission}</td>
-  </tr>
-  <tr>
-    <td>Progress Report 1</td>
-    <td>{assignments.project.progress_report_1_submission}</td>
-  </tr>
-  <tr>
-    <td>Progress Report 2</td>
-    <td>{assignments.project.progress_report_2_submission}</td>
-  </tr>
-  <tr>
-    <td>In-Class Progress Report</td>
-    <td>{assignments.project.in_class_progress_report}</td>
-  </tr>
-  <tr>
-    <td>Poster Session</td>
-    <td>{assignments.project.poster_session} {assignments.project.is_poster_session_date_tentative && <span>(TBC)</span>}</td>
-  </tr>
-  <tr>
-    <td>Final Report</td>
-    <td>{assignments.project.final_report_submission}</td>
-  </tr>
+  <tbody>
+    <tr>
+      <td>Issue date</td>
+      <td>{formatDate(assignments.project.issue)}</td>
+    </tr>
+    <tr>
+      <td>Team Formation Deadline</td>
+      <td>{formatDate(assignments.project.team_formation)}</td>
+    </tr>
+    <tr>
+      <td>Proposal Due</td>
+      <td>{formatDate(assignments.project.proposal_submission)}</td>
+    </tr>
+    <tr>
+      <td>Progress Report 1</td>
+      <td>{formatDate(assignments.project.progress_report_1_submission)}</td>
+    </tr>
+    <tr>
+      <td>Progress Report 2</td>
+      <td>{formatDate(assignments.project.progress_report_2_submission)}</td>
+    </tr>
+    <tr>
+      <td>In-Class Progress Report</td>
+      <td>{formatDate(assignments.project.in_class_progress_report)}</td>
+    </tr>
+    <tr>
+      <td>Poster Session</td>
+      <td>{formatDate(assignments.project.poster_session)} {assignments.project.is_poster_session_date_tentative && <span>(TBC)</span>}</td>
+    </tr>
+    <tr>
+      <td>Final Report</td>
+      <td>{formatDate(assignments.project.final_report_submission)}</td>
+    </tr>
+  </tbody>
 </table>
 
 ## General Overview
 
 Since you have all survived the first half a semester of CS3216, you are now an expert in both product design and Progressive Web App development. The Final Project is where you will showcase to the world (and the CS3216 teaching staff, since the Final Project is what will mostly determine your final grade) your creativity and talents.
 
-<p>For the Final Project, you will work in teams of three or four (fewer is also allowed) to develop and deploy an application (mobile, web or otherwise) of your choice. You are allowed to team up with anybody you want (and mutually willing to work with you). You may also work with external parties. Please update your groupings on the <a href={assignments.project.google_sheet}>Student Grouping Google Sheet</a> by <strong>{assignments.project.team_formation}</strong>. Each team is to submit a project proposal by <strong>{assignments.project.proposal_submission}</strong> (Monday immediately after Recess Week) and the teams are expected to work on the Final Projects during the second half of the semester.</p>
+<p>For the Final Project, you will work in teams of three or four (fewer is also allowed) to develop and deploy an application (mobile, web or otherwise) of your choice. You are allowed to team up with anybody you want (and mutually willing to work with you). You may also work with external parties. Please update your groupings on the <a href={assignments.project.google_sheet}>Student Grouping Google Sheet</a> by <strong>{formatDate(assignments.project.team_formation)}</strong>. Each team is to submit a project proposal by <strong>{formatDate(assignments.project.proposal_submission)}</strong> (Monday immediately after Recess Week) and the teams are expected to work on the Final Projects during the second half of the semester.</p>
 
 Your team can design the whole application, but if the scope is too large to be completed in one semester and you intend to continue to develop your application for a business venture, you can implement a prototype with some basic (or limited) functionality to satisfy the requirements for the class. Please state such intentions clearly in your proposals. The teaching staff will evaluate your proposals carefully and provide you with our feedback within a week.
 
@@ -74,7 +78,7 @@ If you decide to work with external parties, we do not have any official guide o
 
 ## Final Project Proposal
 
-<p>Your team should submit a project proposal by <strong>{assignments.project.proposal_submission}</strong>. The proposal should be about 4 to 5 pages (maximum of 6) in length and address (at least) the following points: </p>
+<p>Your team should submit a project proposal by <strong>{formatDate(assignments.project.proposal_submission)}</strong>. The proposal should be about 4 to 5 pages (maximum of 6) in length and address (at least) the following points: </p>
 
 1. Description of the application you plan to develop.
 2. Are there any existing applications out there that are similar? What makes your application special? Why did you choose your idea?
@@ -96,7 +100,7 @@ We have told you time and again to "go out there and talk to your customers", an
 
 ## Progress Reports
 
-<p>Each team will be required to submit a progress report on <strong>{assignments.project.progress_report_1_submission}</strong>. The progress report should include <strong>minimally</strong> the following:</p>
+<p>Each team will be required to submit a progress report on <strong>{formatDate(assignments.project.progress_report_1_submission)}</strong>. The progress report should include <strong>minimally</strong> the following:</p>
 
 1. Application prototype. Minimally as functional as what was achieved in Assignment 3.
 2. Is your project on schedule according to the milestones and timelines submitted in the initial project proposal? If you are on schedule, great! If not, why not? What is your team doing about the slip in your project schedule?
@@ -105,21 +109,21 @@ We have told you time and again to "go out there and talk to your customers", an
 5. Assuming that your team has already deployed a prototype of your application, how has the response been? Any other new insights, plans or strategies your team has come out with?
 6. Updated project schedule: milestones and timeline.
 
-<p>A second progress report will be due on <strong>{assignments.project.progress_report_2_submission}</strong>. The contents of which would be similar to the first progress report.</p>
+<p>A second progress report will be due on <strong>{formatDate(assignments.project.progress_report_2_submission)}</strong>. The contents of which would be similar to the first progress report.</p>
 
 Please try to keep your reports to within two pages, or a maximum of 3 pages if you really must.
 
 ## Final Project Presentation
 
-<p>On <strong>{assignments.project.in_class_progress_report}</strong>, each team will make a presentation to the rest of the class on your project. This session will be another round of peer-appraisal by your peers. Your goal is to convince your fellow coursemates that your project is really cool, and that you have done a lot of work and great work. Think of it as round 2 of your innovation seminar, but you are selling your own dog food.</p>
+<p>On <strong>{formatDate(assignments.project.in_class_progress_report)}</strong>, each team will make a presentation to the rest of the class on your project. This session will be another round of peer-appraisal by your peers. Your goal is to convince your fellow coursemates that your project is really cool, and that you have done a lot of work and great work. Think of it as round 2 of your innovation seminar, but you are selling your own dog food.</p>
 
 ## Preliminary Security Scanning
 
-<p>At this juncture (<strong>{assignments.project.in_class_progress_report}</strong>), you should have a preliminary website for your app up and running, even if it is not fully functional. You are expected to provide us with a URL, and the tutors will be using security tools to scan your site. You will be provided with a security report, and you are expected to address the cited issues for your final project. Clearly, if your project is very incomplete, very little will be found, but you then risk more bad things being found after your final project is submitted. We will be doing another round of security scanning after your final project is submitted.</p>
+<p>At this juncture (<strong>{formatDate(assignments.project.in_class_progress_report)}</strong>), you should have a preliminary website for your app up and running, even if it is not fully functional. You are expected to provide us with a URL, and the tutors will be using security tools to scan your site. You will be provided with a security report, and you are expected to address the cited issues for your final project. Clearly, if your project is very incomplete, very little will be found, but you then risk more bad things being found after your final project is submitted. We will be doing another round of security scanning after your final project is submitted.</p>
 
 ## SoC STePs
 
-<p>In the last week of class, we will be holding a 4-hour poster session in the SoC student foyer on <strong>{assignments.project.poster_session} {assignments.project.is_poster_session_date_tentative && <span>(TBC)</span>}</strong> from 6.30 to 10.30 pm as part of the School of Computing Term Projects Showcase (STePS).</p>
+<p>In the last week of class, we will be holding a 4-hour poster session in the SoC student foyer on <strong>{formatDate(assignments.project.poster_session)} {assignments.project.is_poster_session_date_tentative && <span>(TBC)</span>}</strong> from 6.30 to 10.30 pm as part of the School of Computing Term Projects Showcase (STePS).</p>
 
 Each team is to prepare an A1-sized poster. The judges and other members of the SoC and NUS will turn up for the "show-and-tell". You should treat this session as a trade show to sell your projects as you will get a large percentage of your grading from "other people" - NUS staff, students, alumni, guests - who turn up at your booth. So your final grade depends very much on your show-and-tell in this session. Be creative. Collaterals are encouraged but note that these will be on your own expenses.
 
@@ -164,7 +168,7 @@ Some examples of past STePS posters:
 
 ## Final Project Report
 
-<p>Like most other classes, the Final Project report is due on <strong>{assignments.project.final_report_submission}</strong> (to be uploaded to Coursemology by 23:59, please). The final report should (at least) include the following points:</p>
+<p>Like most other classes, the Final Project report is due on <strong>{formatDate(assignments.project.final_report_submission)}</strong> (to be uploaded to Coursemology by 23:59, please). The final report should (at least) include the following points:</p>
 
 1. Description of the application you have developed.
 2. Are there any existing applications out there that are similar? What makes your application special?
@@ -199,10 +203,7 @@ The following is the list of deliverables to be pushed to your GitHub repository
 
 1. Source code.
 2. You should also upload a copy of your poster to your repository.
-3. Proof of working application: You may either
-   (a) Publish the application publicly (in the application settings, untick the Developer Mode); or
-   (b) Add all the members of the teaching staff to the Developers part in the application settings so that we can assess your application (of course you need to add us as your friends first).
-   In both cases, you should provide us with a link to your application's canvas page.
+3. Proof of working application: You may either (a) Publish the application publicly (in the application settings, untick the Developer Mode); or (b) Add all the members of the teaching staff to the Developers part in the application settings so that we can assess your application (of course you need to add us as your friends first). In both cases, you should provide us with a link to your application's canvas page.
 4. Your Final Project report, in PDF format.
 
 Push all of the above to your GitHub repository. **Not following the submission instructions (e.g. incorrect file naming) will result in the deduction of marks.**
