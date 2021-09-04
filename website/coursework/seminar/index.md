@@ -42,12 +42,12 @@ In order to build good and original applications, it is important to learn what 
 
 1. Identify innovative ideas.
 2. Gain a better understanding of existing applications.
-3. Learn how to present (or sell one’s ideas).
+3. Learn how to present (or sell one's ideas).
 4. Learn how to articulate their ideas in writing.
 
 There is a French think-tank funded by UNESCO and the French Senate that looks out for digital innovations worldwide called [Netexplo](https://netexplo.com/n100/). You will form groups of up to 4 people, and each team will have to find a new innovation that has not yet been identified in the past by Netexplo.
 
-<p>Before you meet as a group, each member is to try their hand at identifying a recent innovation. Your group is to then meet and discuss to finally decide on the most innovative application and make a presentation about it to the rest of the class on <strong>{formatDate(assignments.seminar.presentation)}</strong>. Each team is to put up their choice of the most innovative application on the <a href={assignments.seminar.google_sheet}>Google Sheet</a> as soon as possible (latest by <strong>{formatDate(assignments.seminar.innovation_submission)}</strong>). Note that duplicates are not allowed, and it will be first-come, first-served. Please double check that another group has not taken up your team’s choice before adding it to the Google Sheet.</p>
+<p>Before you meet as a group, each member is to try their hand at identifying a recent innovation. Your group is to then meet and discuss to finally decide on the most innovative application and make a presentation about it to the rest of the class on <strong>{formatDate(assignments.seminar.presentation)}</strong>. Each team is to put up their choice of the most innovative application on the <a href={assignments.seminar.google_sheet}>Google Sheet</a> as soon as possible (latest by <strong>{formatDate(assignments.seminar.innovation_submission)}</strong>). Note that duplicates are not allowed, and it will be first-come, first-served. Please double check that another group has not taken up your team's choice before adding it to the Google Sheet.</p>
 
 ## Grading and Admin
 

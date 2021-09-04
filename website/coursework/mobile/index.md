@@ -110,7 +110,7 @@ Before you jump into developing the specifications of your application, a very i
 
 :::info Milestone
 
-**Milestone 0:** Describe the problem that your application solves. <em>(Not graded)</em>
+**Milestone 0:** Describe the problem that your application solves. _(Not graded)_
 
 :::
 
@@ -158,7 +158,7 @@ Relations indicate relationships between tables. For example, suppose we add a `
 
 :::info Milestone
 
-What is the primary key of the <code>home_faculties</code> table? <em>(Not graded)</em>
+What is the primary key of the `home_faculties` table? _(Not graded)_
 
 :::
 
@@ -174,7 +174,11 @@ As a rule of thumb, you should remember that database schemas should be designed
 
 :::
 
-(Tip: If you are using MySQL Workbench, there is a feature to [automatically create an EER diagram from your existing database schema](https://dev.mysql.com/doc/workbench/en/wb-importing-sql-script.html). You may simply export this as a PNG file and include this in your milestone submission.)
+:::tip
+
+If you are using MySQL Workbench, there is a feature to [automatically create an EER diagram from your existing database schema](https://dev.mysql.com/doc/workbench/en/wb-importing-sql-script.html). You may simply export this as a PNG file and include this in your milestone submission.
+
+:::
 
 ### RESTful API
 
@@ -205,7 +209,7 @@ Requests and responses can take many forms: **JSON** is the most common format. 
 }
 ```
 
-JSON is already supported by all modern browsers and server-side scripting languages, so you do not need to implement it yourself, but if you want to know more, visit <https://www.json.org/json-en.html>.
+JSON is already supported by all modern browsers and server-side scripting languages, so you do not need to implement it yourself, but if you want to know more, visit https://www.json.org/json-en.html.
 
 Going back to the API, one way to start planning it is to write down a list of functionalities (which require server interaction) that you would like the client to have (e.g. send a private message, buy a product, leave a comment). Try to group related ones together (e.g. add/remove a friend), usually according to the resource/object.
 
@@ -332,15 +336,15 @@ In recent years, Google has been pushing the concept of [Progressive Web Apps](h
 - **Progressive** - Work for every user, regardless of browser choice, because they're built with progressive enhancement as a core tenet.
 - **Responsive** - Fit any form factor: desktop, mobile, tablet, or whatever is next.
 - **Connectivity independent** - Enhanced with service workers to work offline or on low quality networks.
-- **App-like** - Feel like an app to the user with app-style interactions and navigation because they’re built on the app shell model.
+- **App-like** - Feel like an app to the user with app-style interactions and navigation because they're built on the app shell model.
 - **Fresh** - Always up-to-date, thanks to the service worker update process.
-- **Safe** - Served via HTTPS to prevent snooping and ensure content hasn’t been tampered with.
+- **Safe** - Served via HTTPS to prevent snooping and ensure content hasn't been tampered with.
 - **Discoverable** - Are identifiable as "applications" thanks to W3C manifests and service worker registration scope allowing search engines to find them.
 - **Re-engageable** - Make re-engagement easy through features like push notifications.
 - **Installable** - Allow users to "keep" apps they find most useful on their home screen without the hassle of an app store.
 - **Linkable** - Easily share via URL and does not require complex installation.
 
-Source: <https://developers.google.com/web/fundamentals/getting-started/your-first-progressive-web-app/>
+Source: https://developers.google.com/web/fundamentals/getting-started/your-first-progressive-web-app/
 
 It is recommended that you go through this [short tutorial](https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/) on making your first Progressive Web App.
 
@@ -374,9 +378,9 @@ After the UI has been designed, the UI needs to be implemented. Cascading Style 
 
 Good CSS is not easy to write, and many applications end up with messy CSS after an extended period of development as the application grows bigger. To solve this problem, front end developers have come up with methodologies to structure your CSS code:
 
-- Object Oriented CSS (<https://github.com/stubbornella/oocss/wiki>)
-- Scalable and Modular Architecture for CSS (<https://smacss.com/>)
-- Block Element Modified (<http://getbem.com/>)
+- Object Oriented CSS (https://github.com/stubbornella/oocss/wiki)
+- Scalable and Modular Architecture for CSS (https://smacss.com/)
+- Block Element Modified (http://getbem.com/)
 
 Read up on them and choose one (or more) to use in your code.
 
@@ -400,7 +404,7 @@ SSL certificates are issued by certificate authorities (CA), whose certificates 
 
 :::info Milestone
 
-**Milestone 9:** Set up HTTPS for your application, and also redirect users to the <code>https://</code> version if the user tries to access your site via <code>http://</code>. HTTPS doesn’t automatically make your end-to-end communication secure. List 3 best practices for adopting HTTPS for your application.
+**Milestone 9:** Set up HTTPS for your application, and also redirect users to the `https://` version if the user tries to access your site via `http://`. HTTPS doesn't automatically make your end-to-end communication secure. List 3 best practices for adopting HTTPS for your application.
 
 :::
 
@@ -465,9 +469,9 @@ self.addEventListener('install', function (event) {
       return cache.addAll([
         '/',
         '/style.css',
-        ...
+        // ...
       ]);
-    })
+    }),
   );
 });
 ```
@@ -515,8 +519,8 @@ This is just a basic introduction to service workers, which can be utilised more
 
 There are tons of resources available online for service workers. Here are a few resources to kickstart your learning process:
 
-- <https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers>
-- <https://jakearchibald.github.io/isserviceworkerready/resources.html>
+- https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers
+- https://jakearchibald.github.io/isserviceworkerready/resources.html
 
 #### 2. Web Storage
 
@@ -540,7 +544,7 @@ Service workers allow resources to be retained locally, but JavaScript variables
 
 In the example above, nothing is observed when the user first loads the page. However, we define a new `user` object containing the user's ID as well as his name and add it into the key/value store. When the page loads in future, we will see that the user has already been set and will show up in the console. We can also clear the `localStorage` object or remove a specific key/value pair. As Web Storage does not support storing objects, one workaround is to store the object in stringified-JSON format.
 
-For a complete list of Web Storage's capability, visit <https://html.spec.whatwg.org/multipage/webstorage.html>.
+For a complete list of Web Storage's capability, visit https://html.spec.whatwg.org/multipage/webstorage.html.
 
 #### 3. Online/Offline Events
 
@@ -557,6 +561,7 @@ How you handle the problem depends on your application; prior to that, your appl
   } else {
     alert('Offline');
   }
+
   window.addEventListener(
     'online',
     function (event) {
@@ -609,7 +614,7 @@ Your application needs to be able to communicate the user's actions to the serve
 
 Within the AJAX call, the `type` refers to the HTTP request method. Just by looking at the parameters, we should already know that `PUT /products/12345` is a request to modify the information of the product with `id` = 12345. Therefore, it makes sense to send the new information to the server through the data parameter. If you are expecting JSON to be returned, set the `dataType` to `json`, and jQuery will decode it for you. Also, the `contentType` defaults to `urlencoded` – remember to specify this parameter if the server expects the data to be in some other encoding.
 
-Finally, callbacks can be used to perform actions when the AJAX call succeeds or fails. Make sure that users are notified of a failure instead of being kept in suspense. Visit <https://api.jquery.com/jQuery.ajax/> for a full list of options that `$.ajax()` has to offer.
+Finally, callbacks can be used to perform actions when the AJAX call succeeds or fails. Make sure that users are notified of a failure instead of being kept in suspense. Visit https://api.jquery.com/jQuery.ajax/ for a full list of options that `$.ajax()` has to offer.
 
 ### Authentication
 
@@ -659,7 +664,7 @@ When the user is first authenticated with your app using their credentials, the 
 Authorization: Bearer <eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiYWRtaW4iOnRydWV9.TJVA95OrM7E2cBab30RMHrHDcEfxjoYZgeFONFh7HgQ>
 ```
 
-The JWT may look cryptic, but it is, in fact, reversible. You should use SSL when using such a scheme. Once again, the choice of authentication protocols for RESTful APIs has always been a point of debate with no hard-and-fast rules. It is your job to identify the most practical choice for the requirements of your application. JSON Web Tokens should be sufficient in most cases, but feel free to use any methods you deem fit. More reading about JWTs can be found here: <https://jwt.io>
+The JWT may look cryptic, but it is, in fact, reversible. You should use SSL when using such a scheme. Once again, the choice of authentication protocols for RESTful APIs has always been a point of debate with no hard-and-fast rules. It is your job to identify the most practical choice for the requirements of your application. JSON Web Tokens should be sufficient in most cases, but feel free to use any methods you deem fit. More reading about JWTs can be found here: https://jwt.io.
 
 :::info Milestone
 
@@ -675,17 +680,17 @@ How can we emulate a native application? As part of the goal to improve the mobi
 
 The following are some options you can consider:
 
-- Ionic - <http://ionicframework.com/>
-- Ratchet - <http://goratchet.com/>
-- Framework7 - <https://framework7.io/>
-- Onsen UI - <https://onsen.io/>
-- Vuetify - <https://vuetifyjs.com/en/>
-- Material-UI - <http://www.material-ui.com/>
+- Ionic - http://ionicframework.com/
+- Ratchet - http://goratchet.com/
+- Framework7 - https://framework7.io/
+- Onsen UI - https://onsen.io/
+- Vuetify - https://vuetifyjs.com/en/
+- Material-UI - http://www.material-ui.com/
 
 The following are some options you should avoid. They look horrid:
 
-- jQuery Mobile - <http://jquerymobile.com/>
-- jQTouch - <http://jqtouch.com/>
+- jQuery Mobile - http://jquerymobile.com/
+- jQTouch - http://jqtouch.com/
 
 You probably know this by now, but using others' code does not come without any cost. Some have very steep learning curves, others may require you to adopt a totally different style of programming, and certain ones may be hardly or badly documented. Worst of all, the code may be littered with bugs, and you certainly do not have the time to be fixing someone else's problems. Be sure to do a thorough evaluation before making a decision. Also, be warned that the teaching staff may be unfamiliar and thus unable to assist with problems encountered with external frameworks/libraries.
 
@@ -713,7 +718,7 @@ UX is not just the job of the UI designer. Just like a good UI, you will know if
 
 You should be interested in the usage statistics of your application. Google Analytics is one popular way to collect insights. It can be set up easily -- the following examples are using the `analytics.js` snippet, part of Universal Analytics. We will discuss Google Analytics in the following section, but feel free to use any alternatives that you may prefer. More recently, there has been increasing focus on more privacy-centric website analytics services.
 
-If your application's interface is predominantly built with a JavaScript MVC framework, it is very likely that you have a Single-Page Application; one HTML page with all transitions handled by JavaScript code and URLs managed by HTML5 `pushState` API. Pages can still be tracked using Virtual Pageviews by executing the following code instead. Refer to <https://developers.google.com/analytics/devguides/collection/analyticsjs/single-page-applications> for more information.
+If your application's interface is predominantly built with a JavaScript MVC framework, it is very likely that you have a Single-Page Application; one HTML page with all transitions handled by JavaScript code and URLs managed by HTML5 `pushState` API. Pages can still be tracked using Virtual Pageviews by executing the following code instead. Refer to https://developers.google.com/analytics/devguides/collection/analyticsjs/single-page-applications for more information.
 
 ```js
 ga('set', 'pageview', '/your_virtual_page_path');
@@ -725,7 +730,7 @@ ga('set', 'pageview', '/your_virtual_page_path');
 ga('send', 'event', 'button', 'click', 'publish');
 ```
 
-In particular, **Social Interaction Analytics** can be used to track clicks on social buttons on your application, such as Like, Share or Tweet buttons. To learn how to track social network activity, check out <https://developers.google.com/analytics/devguides/collection/analyticsjs/social-interactions>.
+In particular, **Social Interaction Analytics** can be used to track clicks on social buttons on your application, such as Like, Share or Tweet buttons. To learn how to track social network activity, check out https://developers.google.com/analytics/devguides/collection/analyticsjs/social-interactions.
 
 Google Analytics only updates the reports once a day, do not expect to see immediate results. There are, however, signs to check that your application is being tracked:
 
@@ -735,7 +740,7 @@ Google Analytics only updates the reports once a day, do not expect to see immed
 
 3. Use the official Google Analytics Debugger [Chrome Extension](https://chrome.google.com/webstore/detail/google-analytics-debugger/jnkmfdileelhofjcijamephohjechhna) (recommended)
 
-More information and examples at <https://developers.google.com/analytics/devguides/collection/analyticsjs/>.
+More information and examples at https://developers.google.com/analytics/devguides/collection/analyticsjs/.
 
 :::info Milestone
 
@@ -759,9 +764,9 @@ To guide you in building more performant and accessible progressive web apps, yo
 
 Here are some links to get you started on using Lighthouse:
 
-- <https://developers.google.com/web/tools/lighthouse/>
-- <https://www.keycdn.com/blog/google-lighthouse/>
-- <https://youtu.be/NoRYn6gOtVo>
+- https://developers.google.com/web/tools/lighthouse/
+- https://www.keycdn.com/blog/google-lighthouse/
+- https://youtu.be/NoRYn6gOtVo
 
 :::info Milestone
 
@@ -840,7 +845,7 @@ This code will continue to output the user's position as they walk about with th
 
 Showing the user their coordinates may hardly be of any use to them at all. You could take it up one level by plotting it on a map and perhaps places of interest near them.
 
-For complete documentation of Geolocation API and Google Maps, visit <https://w3c.github.io/geolocation-api/> and <https://developers.google.com/maps/documentation/javascript/reference> respectively. [Mapbox](https://www.mapbox.com/) is a nice alternative to plotting maps and allow more customisation of the map for more UI goodness.
+For complete documentation of Geolocation API and Google Maps, visit https://w3c.github.io/geolocation-api/ and https://developers.google.com/maps/documentation/javascript/reference respectively. [Mapbox](https://www.mapbox.com/) is a nice alternative to plotting maps and allow more customisation of the map for more UI goodness.
 
 :::info Milestone
 
@@ -854,9 +859,9 @@ There are a lot more cool and useful web APIs than what has been described in th
 
 Here are some useful links:
 
-- <https://developer.mozilla.org/en-US/docs/Web/Reference/API>
-- <https://developer.chrome.com/extensions/api_other>
-- <http://caniuse.com>
+- https://developer.mozilla.org/en-US/docs/Web/Reference/API
+- https://developer.chrome.com/extensions/api_other
+- http://caniuse.com
 
 You can also check out [this video by Google](https://youtu.be/baSiSIyTGSk) that recaps some of the things we covered above.
 

@@ -9,7 +9,7 @@ hide_table_of_contents: true
 
 ## It's not the same
 
-CS3216 is not your traditional software engineering course. You will not have lectures teaching you how to write in a particular programming language. You will not have assignments that assess you only for the quality of your code. You will not have a bar set for you. In fact, we don’t even know how high the bar is.
+CS3216 is not your traditional software engineering course. You will not have lectures teaching you how to write in a particular programming language. You will not have assignments that assess you only for the quality of your code. You will not have a bar set for you. In fact, we don't even know how high the bar is.
 
 ## It's about your dreams
 
@@ -21,7 +21,7 @@ You are free to build almost anything under the sun.
 
 It will be a mistake to think that CS3216 is about teaching you how to work on new platforms. The world changes so fast that it will be obsolete by the time you graduate. In fact, you are more or less expected to learn them on your own.
 
-It's not about learning how to work on a platform. It’s about learning how to learn. It’s about equipping yourself with the ability to pick up new skills on the fly to face a changing world.
+It's not about learning how to work on a platform. It's about learning how to learn. It's about equipping yourself with the ability to pick up new skills on the fly to face a changing world.
 
 ## It's not just about coding
 

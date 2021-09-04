@@ -9,7 +9,7 @@ In this assignment, you will put on your designer hat and learn how to design a 
 
 ### [Assignment 2 - Innovation Seminar](./seminar)
 
-In order to build good and original applications, it is important to learn what other people have already done, and think critically about what is good and bad, as well as explore ways to improve and to generate new ideas. In addition, it is important to learn how to articulate one's ideas in a clear and succinct way both orally and in writing. The innovation seminar is designed to help students (i) identify innovative ideas; (ii) gain a better understanding of existing applications; (iii) learn how to present (or sell one’s ideas) and (iv) learn how to articulate their ideas in writing.
+In order to build good and original applications, it is important to learn what other people have already done, and think critically about what is good and bad, as well as explore ways to improve and to generate new ideas. In addition, it is important to learn how to articulate one's ideas in a clear and succinct way both orally and in writing. The innovation seminar is designed to help students (i) identify innovative ideas; (ii) gain a better understanding of existing applications; (iii) learn how to present (or sell one's ideas) and (iv) learn how to articulate their ideas in writing.
 
 ### [Assignment 3 - Mobile Cloud Application](./mobile)
 

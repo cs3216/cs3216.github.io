@@ -64,14 +64,14 @@ For this assignment, you will be designing and building a prototype that demonst
 
 **Figma** is a design tool that is available as a web application. Its most prominent feature is its support for real-time collaboration, allowing team members to work on the same wireframe, mockup or prototype simultaneously. Figma also has community plugins available for additional functionality, such as Iconify, which collates over 50,000 icons for use within your designs! Furthermore, students and educators can obtain a pro license from Figma for free.
 
-- <https://www.figma.com/community/plugin/all>
-- <https://www.figma.com/templates/>
+- https://www.figma.com/community/plugin/all
+- https://www.figma.com/templates/
 - Export your designs out as a `.fig` file when submitting. [Instructions can be found here](https://help.figma.com/hc/en-us/articles/360040028114-Guide-to-exports-in-Figma#Export_in_bulk) at the very bottom.
 
 **Adobe XD** is another powerful design tool that is able to convert your designs into interactive prototypes. These prototypes can be published onto an online link and can be run on mobile devices as a simulation of the real thing. However, Adobe recently stopped offering their free starter plan and switched to a 7-day free trial instead. If you're keen on trying this out and/or you have an Adobe subscription, Adobe provides a lot of free XD resources and design templates that follow the latest design trends:
 
-- <https://www.adobe.com/sea/products/xd/resources.html>
-- <https://www.xdguru.com/>
+- https://www.adobe.com/sea/products/xd/resources.html
+- https://www.xdguru.com/
 - Save your designs locally as a `.xd` file and submit that.
 
 Apart from Figma and Adobe XD, here are some other tools you may choose from:
@@ -135,7 +135,7 @@ You can fill in more information if you feel that that will help you better visu
 
 :::info Milestone
 
-**Milestone 1:** Pick a primary user persona and list down some assumptions about the problems they’re facing now.
+**Milestone 1:** Pick a primary user persona and list down some assumptions about the problems they're facing now.
 
 :::
 
@@ -207,7 +207,7 @@ Other good resources for design inspiration include [Dribbble](https://dribbble.
 
 Now it is time to get your hands dirty!
 
-Use any tool you want - even PowerPoint if that’s easier - or just plain paper, markers, and pencil. At this point, we value speed over quality since you will likely need to change them based on user feedback, so use whichever tool that allows you to do up wireframes the fastest.
+Use any tool you want - even PowerPoint if that's easier - or just plain paper, markers, and pencil. At this point, we value speed over quality since you will likely need to change them based on user feedback, so use whichever tool that allows you to do up wireframes the fastest.
 
 <iframe width="736" height="414" src="https://www.youtube.com/embed/JMjozqJS44M?start=124" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
 
@@ -271,17 +271,17 @@ Now it's time to put your draft design to the test! The test we are conducting i
 
 ### Playing the Wizard of Oz
 
-You may find it easier to conduct this form of testing in pairs. One of you will need to act as the computer, so you need a second person to record your results. Test with only one user at a time, not a group. This is to avoid one user’s actions and opinions from influencing the results of other users.
+You may find it easier to conduct this form of testing in pairs. One of you will need to act as the computer, so you need a second person to record your results. Test with only one user at a time, not a group. This is to avoid one user's actions and opinions from influencing the results of other users.
 
 Ask them for five to ten minutes of their time, and if they agree, start by giving them a little context for what you are about to show them. For instance, if the app in question is NUSMods, you might tell them that they have just received a link from a friend telling them to check out a new app for organising their NUS timetable. You may also give them an explicit goal to accomplish, such as "you would like to sign up for an account". They will need to achieve this goal by interacting with your wireframes. If you are conducting this virtually, the person acting as the computer can share their screen.
 
-Instruct them to _think aloud_ and use their finger to point at where they will click or tap, or if you are doing this virtually, you can try using the tools available on your conferencing application (Zoom has Spotlight and Arrow available under its annotations panel). A quick way to explain "Think Aloud" to your users is "Vocalise your thoughts. Let us know what you’re thinking throughout the way". Explain that you will be acting the part of the computer, and reassure them that there is no wrong answer. Do also tell the user to notify you if they are done using the app / website or do not have anything else to do. This will make it clear to you when the user has totally lost interest, given up on your UI, or has no more use for your website / app.
+Instruct them to _think aloud_ and use their finger to point at where they will click or tap, or if you are doing this virtually, you can try using the tools available on your conferencing application (Zoom has Spotlight and Arrow available under its annotations panel). A quick way to explain "Think Aloud" to your users is "Vocalise your thoughts. Let us know what you're thinking throughout the way". Explain that you will be acting the part of the computer, and reassure them that there is no wrong answer. Do also tell the user to notify you if they are done using the app / website or do not have anything else to do. This will make it clear to you when the user has totally lost interest, given up on your UI, or has no more use for your website / app.
 
 Now show the first wireframe they are supposed to see. Observe what they interact with first, second, third, etc. Remember to "transition" between your wireframes as illustrated in your user flows as the user interacts with them. **Do not** say anything during the whole process. If users become lost or confused, **let them be lost or confused**. Only prompt them for what they are thinking if it appears that they are not thinking aloud. If they get stuck, simply move onto the next set of wireframes.
 
 At the same time, keep an eye out for their body language. See if they looked hesitant or disinterested at any point in time. Perhaps, they had to squint and lean in to read certain text that was too small. A lot of times, the users will not report such issues as they would assume that the problem lies with them and not with your design.
 
-For any buttons or screens that you have not designed, you can reuse any existing wireframes and tell the users what they should see - "You clicked the _School of Computing_ link. We don’t have those screens today. So please pretend that you see results for the School of Computing on this screen. Okay?". Alternatively, you can describe the result of the action to the user in words instead - "You see a pop up open with a yellow warning triangle, the text 'This will delete your results. Proceed?', and the buttons 'Okay' and 'Cancel'".
+For any buttons or screens that you have not designed, you can reuse any existing wireframes and tell the users what they should see - "You clicked the _School of Computing_ link. We don't have those screens today. So please pretend that you see results for the School of Computing on this screen. Okay?". Alternatively, you can describe the result of the action to the user in words instead - "You see a pop up open with a yellow warning triangle, the text 'This will delete your results. Proceed?', and the buttons 'Okay' and 'Cancel'".
 
 Remain as neutral as possible during testing. Only ask follow-up questions **after** the user testing session is completely over. This would be your chance to ask:
 
@@ -300,7 +300,7 @@ Rinse and repeat with three to five[^2] different users.
 After you have completed the testing, it is now time to review the results and improve your user flow. For example, you may want to ask yourself:
 
 - What did the user click on **first**? Was that what you wanted the user to click on **first**?
-- Which features did users totally miss? Does that mean that those features are not important? If they’re not important, throw them away. If they are, how can you revise your design so that users notice the features and actually click on them?
+- Which features did users totally miss? Does that mean that those features are not important? If they're not important, throw them away. If they are, how can you revise your design so that users notice the features and actually click on them?
 - Are there too many steps for the user to accomplish their goal? At which point did the user become visibly frustrated?
 - What assumptions did you make when you created this design? Did the user testing confirm or reject these assumptions?
 
@@ -388,7 +388,7 @@ Now, it's time to demonstrate how your app should work! Come together **as a tea
 
 :::
 
-We want you to be aware that the different milestones in Assignment 1 have been structured for you to gain a good sense of what it takes to produce a Product Requirements Document (PRD), a document used in companies (Facebook, Amazon, Google, many other tech companies...) to describe the product being built. The PRD is usually produced and has to be approved before further product development can take place. Once produced, it drives the efforts of the entire product team and the company’s sales, marketing and customer support efforts.
+We want you to be aware that the different milestones in Assignment 1 have been structured for you to gain a good sense of what it takes to produce a Product Requirements Document (PRD), a document used in companies (Facebook, Amazon, Google, many other tech companies...) to describe the product being built. The PRD is usually produced and has to be approved before further product development can take place. Once produced, it drives the efforts of the entire product team and the company's sales, marketing and customer support efforts.
 
 The broad structure of the PRD is as such:
 
@@ -439,11 +439,11 @@ Great examples of attractive landing pages can be found at:
 
 :::info Milestone
 
-**Milestone 10:** Design and launch a landing page for your app that is publicly accessible. You should consider hosting it on <a href="https://pages.github.com/">GitHub pages</a>, but you can host it anywhere that works and just let us have the URL. It should have a sign-up form for users to indicate interest (it doesn't have to actually save any data).
+**Milestone 10:** Design and launch a landing page for your app that is publicly accessible. You should consider hosting it on [GitHub pages](https://pages.github.com), but you can host it anywhere that works and just let us have the URL. It should have a sign-up form for users to indicate interest (it doesn't have to actually save any data).
 
 :::
 
-Use a CSS framework like [Bulma](https://bulma.io/) or [Bootstrap](https://getbootstrap.com/) to save yourself some time. Remember that the design has to be attractive and that your message has to be succinct! You can even consider landing page creators like [MailChimp landing pages](https://mailchimp.com/features/landing-pages/) to skip all the work.
+Use a CSS framework like [Bulma](https://bulma.io) or [Bootstrap](https://getbootstrap.com) to save yourself some time. Remember that the design has to be attractive and that your message has to be succinct! You can even consider landing page creators like [MailChimp landing pages](https://mailchimp.com/features/landing-pages/) to skip all the work.
 
 ### Marketing Strategy
 
@@ -501,6 +501,6 @@ Clarifications and questions related to this assignment should be posted to the 
 
 Good luck and have fun!
 
-[^1]: See <https://blog.ycombinator.com/minimum-viable-product-process/>
+[^1]: See https://blog.ycombinator.com/minimum-viable-product-process/
 [^2]: Does this seem too small a sample? See [Why You Only Need to Test with 5 Users](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/)
 [^3]: _Affordances_ are an object's properties that show the possible actions users can take with it, thereby suggesting how they may interact with that object.
