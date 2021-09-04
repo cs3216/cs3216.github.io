@@ -45,5 +45,5 @@ The current Docusaurus site uses [MDX](https://mdxjs.com/) which allows writing 
 Do the following to add photos of students for new AYs:
 
 1. Add the list of students to `students/students.json`
-1. Add images in the `static/img/students/<year>/<id of student>.jpg`
+1. Add student thumbnail images following this convention `static/img/students/<year>/<id of student>.jpg`
 1. Add a new Markdown file to `students/<year>.md` (this step would not be necessary if we wrote a Docusaurus plugin that generates each page)
