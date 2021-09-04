@@ -1,13 +1,12 @@
-CS3216 Homepage
-===========
+# CS3216 Homepage
 
 ### What it is
 
-CS3216 homepage containing coursework and student information. It is a static site built with Jekyll.
+CS3216 homepage containing coursework and student information. It is a static site built with Docusaurus.
 
 ### Installation
 
-For instructions on how to set up, refer to [Jekyll homepage](http://jekyllrb.com/).
+For instructions on how to set up, refer to [Docusaurus website](https://docusaurus.io).
 
 ### Commit Conventions
 
@@ -22,4 +21,4 @@ Prefix your commits with these identifiers for better organization of Git histor
 
 #### Looks good, who made it?
 
-Made by [Tay Yang Shun](https://github.com/yangshun) and [Xu Bili](https://github.com/xbili).
+Made by [Yangshun Tay](https://github.com/yangshun) and [Xu Bili](https://github.com/xbili).

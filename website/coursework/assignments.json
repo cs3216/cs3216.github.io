@@ -1,0 +1,31 @@
+{
+  "product_design": {
+    "issue": "16/8/2021",
+    "submission": "29/8/2021 23:59"
+  },
+  "seminar": {
+    "issue": "9/8/2021",
+    "innovation_submission": "23/8/2021 23:59",
+    "slides_submission": "5/9/2021 23:59",
+    "presentation": "6/9/2021 18:30",
+    "application_critiques": "7/9/2021 23:59",
+    "mutual_critiques": "12/9/2021 23:59",
+    "google_sheet": "https://docs.google.com/spreadsheets/d/1ETibvkytQLAsnmM06O-JiWuUHfpKstC3uHqQgNLfpHk/edit?usp=sharing"
+  },
+  "mobile": {
+    "issue": "30/8/2021",
+    "submission": "24/9/2021 23:59"
+  },
+  "project": {
+    "issue": "13/9/2021",
+    "team_formation": "20/9/2021 23:59",
+    "proposal_submission": "27/9/2021 23:59",
+    "progress_report_1_submission": "11/10/2021 23:59",
+    "progress_report_2_submission": "25/10/2021 23:59",
+    "in_class_progress_report": "1/11/2021 18:30",
+    "poster_session": "10/11/2021 23:59",
+    "is_poster_session_date_tentative": true,
+    "final_report_submission": "21/11/2021 23:59",
+    "google_sheet": "https://docs.google.com/spreadsheets/d/1J-g4Yiq-7_-og09ifzYk_KVHWBICcIs8mmuyTFt-PYQ/edit?usp=sharing"
+  }
+}
