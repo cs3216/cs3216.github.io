@@ -27,7 +27,7 @@ export default function StudentsList({year}) {
           .students.map(({name, id, faculty, blog, one_liner}) => (
             <div className="col col--4 margin-bottom--lg" key={name}>
               <div
-                className="card shadow--tl padding-top--lg text--center"
+                className="card padding-top--lg text--center"
                 style={{height: '100%'}}>
                 <div className="card__image">
                   <img
