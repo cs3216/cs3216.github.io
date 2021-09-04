@@ -202,7 +202,7 @@ Now it is time to get your hands dirty!
 
 Use any tool you want - even PowerPoint if that’s easier - or just plain paper, markers, and pencil. At this point, we value speed over quality since you will likely need to change them based on user feedback, so use whichever tool that allows you to do up wireframes the fastest.
 
-<iframe width="736" height="414" src="https://www.youtube.com/embed/JMjozqJS44M?start=124" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="736" height="414" src="https://www.youtube.com/embed/JMjozqJS44M?start=124" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
 
 Wireframes are ["low-fidelity" designs](https://www.nngroup.com/articles/ux-prototype-hi-lo-fidelity/). This means that they should _not_ contain any design-specific elements such as colours, font or unnecessary details like user-generated content and images. These distract from the aspects that are more important at this current stage of development, and slow down the speed at which they are produced. Instead, focus on the relative size and position of elements, key user interface elements, and interactions such as which elements can be clicked or tapped, dragged, and so on.
 
@@ -246,7 +246,7 @@ User flows should naturally intersect with each other. This is fine - real apps 
 
 Now it's time to put your draft design to the test! The test we are conducting is sometimes called ["Wizard of Oz"](https://www.coursera.org/lecture/human-computer-interaction/wizard-of-oz-9f0pI) - we will simulate user interactions by taking the place of the computer. This may seem silly at first, but it is an important tool to validate your design at this stage. Here is a video that shows an example of this form of testing using paper prototypes.
 
-<iframe width="736" height="414" src="https://www.youtube.com/embed/_g4GGtJ8NCY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="736" height="414" src="https://www.youtube.com/embed/_g4GGtJ8NCY" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
 
 ### Playing the Wizard of Oz
 
