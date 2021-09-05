@@ -23,6 +23,7 @@ function reverseSidebarItems(items) {
     tagline: 'Changing the world, one app at a time',
     url: 'https://cs3216.com',
     baseUrl: '/',
+    favicon: 'img/favicon.ico',
     trailingSlash: true,
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
