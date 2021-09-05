@@ -18,7 +18,3 @@ Prefix your commits with these identifiers for better organization of Git histor
 - `[FP]` - Final Project
 - `[Site]` - Non-coursework related changes, such as styling or layout of the site
 - `[Misc]` - Miscellaneous changes
-
-#### Looks good, who made it?
-
-Made by [Yangshun Tay](https://github.com/yangshun) and [Xu Bili](https://github.com/xbili).
