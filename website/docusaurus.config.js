@@ -21,8 +21,9 @@ function reverseSidebarItems(items) {
   module.exports = {
     title: 'CS3216 Software Product Engineering for Digital Markets',
     tagline: 'Changing the world, one app at a time',
-    url: 'https://www.cs3216.com',
+    url: 'https://cs3216.com',
     baseUrl: '/',
+    trailingSlash: true,
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     organizationName: 'cs3216', // Usually your GitHub org/user name.
