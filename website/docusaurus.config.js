@@ -24,7 +24,6 @@ function reverseSidebarItems(items) {
     url: 'https://cs3216.com',
     baseUrl: '/',
     favicon: 'img/favicon.ico',
-    trailingSlash: true,
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     organizationName: 'cs3216', // Usually your GitHub org/user name.

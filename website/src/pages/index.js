@@ -24,7 +24,7 @@ export default function Home() {
               <div className={clsx(styles.buttons, 'margin-top--lg')}>
                 <Link
                   className="button button--secondary button--lg"
-                  to="/coursework">
+                  to="/coursework/">
                   View Coursework&nbsp;&nbsp;→
                 </Link>
               </div>
