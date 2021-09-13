@@ -81,7 +81,7 @@ If you decide to work with external parties, we do not have any official guide o
 <p>Your team should submit a project proposal by <strong>{formatDate(assignments.project.proposal_submission)}</strong>. The proposal should be about 4 to 5 pages (maximum of 6) in length and address (at least) the following points: </p>
 
 1. Description of the application you plan to develop.
-2. Are there any existing applications out there that are similar? What makes your application special? Why did you choose your idea?
+2. Justification for choosing this project idea. Briefly mention the 3 key points: "Problem is real? Problem can be solved in CS3216? Problem has impact?"
 3. Project schedule: milestones and timeline, including an implementation plan and deployment plan.
 4. Individual contribution and roles. Contributions and/or support from external partners, if any.
 5. Long-term plan and business model (if applicable).
