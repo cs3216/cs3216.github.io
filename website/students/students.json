@@ -230,7 +230,7 @@
         "name": "Ng Yi Long Kester",
         "id": "ng-yi-long-kester",
         "faculty": "Computing",
-        "blog": "kester-ng",
+        "blog": "https://github.com/kester-ng",
         "one_liner": "An enthusiastic software engineer."
       },
       {
@@ -307,7 +307,7 @@
         "name": "Tian Fang",
         "id": "tian-fang",
         "faculty": "Computing",
-        "blog": "tfang",
+        "blog": "https://github.com/tfang",
         "one_liner": "A creative person who always wants to learn more knowledge"
       },
       {
@@ -438,7 +438,7 @@
         "name": "Daniel Wong Yong Shen",
         "id": "daniel-wong-yong-shen",
         "faculty": "",
-        "blog": "danielwo.ng",
+        "blog": "https://danielwo.ng",
         "one_liner": "Fixing phones and debugging code are but two sides of the same coin."
       },
       {
