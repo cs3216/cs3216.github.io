@@ -871,25 +871,23 @@ The grading of the assignment is divided into two components: satisfying the com
 
 The bonus milestones and the optional milestones will contribute towards the remaining 30%.
 
-<h2>Final Submission (due {formatDate(assignments.mobile.submission)})</h2>
-
-- Completion of all compulsory milestones. Submit your answers in a write-up and categorise your answers by the milestones they belong to.
-
-- Another separate write-up pitching your application to the teaching staff, i.e. convince us that your application is so good that it deserves all 30% of the coolness points. **Restrictions:** no longer than 2 A4 sides.
-
 ## Mode of Submission
 
-**For the final submission**, please make sure your Git repository contains the following:
+<p>The final submission is due <strong>{formatDate(assignments.mobile.submission)}</strong>.</p>
 
-1. Place the `README.md` file in the root directory. GitHub will automatically render it on your repository's front page. You may wish to style it using any of the supported markup languages. The file should contain the list of group members, including matriculation numbers, names and a description of the contributions of each member to the assignment. Include the URL to your application, i.e. your application must be accessible online somewhere. Make sure that your application name is clearly written in the `README.md` file.
+The following will need to be **both submitted to Coursemology (under "Assignment 3 - Mobile Cloud Application") and included in your GitHub repository**:
 
-2. A write-up, `group-<number>-milestones.pdf`, containing your answers to all compulsory milestones that require written answers. Please make sure that the URL for your application is clearly stated in the write-up for the convenience of the teaching staff.
+1. A write-up, `group-<number>-milestones.pdf`, containing your answers to all compulsory milestones that require written answers. Categorise your answers by the milestones they belong to. Please make sure that the URL for your application is clearly stated in the write-up for the convenience of the teaching staff.
 
-3. Lighthouse HTML report, `group-<number>-lighthouse.html`.
+1. A one/two-page pitch of your application, `group-<number>-pitch.pdf`, pitching your application to the teaching staff, i.e. convince us that your application is so good that it deserves all 30% of the coolness points. **Restrictions:** no longer than 2 A4 sides.
 
-4. A one/two-page pitch of your application, `group-<number>-pitch.pdf` to convince each teaching staff that your application is so good that it deserves full marks for coolness.
+The following will only need to be included in your GitHub repository:
 
-5. Proof of working application: either publish your application publicly and provide a link to the main page of your application in your `README.md` file, or add all the teaching team members as co-developers of your application.
+1. A `README.md` file in the root directory. GitHub will automatically render it on your repository's front page. You may wish to style it using any of the supported markup languages. The file should contain the list of group members, including matriculation numbers, names and a description of the contributions of each member to the assignment. Include the URL to your application, i.e. your application must be accessible online somewhere. Make sure that your application name is clearly written in the `README.md` file. It would also be good to include set-up instructions for local testing.
+
+1. The code for your application.
+
+1. Lighthouse HTML report, `group-<number>-lighthouse.html`.
 
 **Not following the submission instructions (e.g. incorrect file naming) will result in the deduction of marks.**
 
