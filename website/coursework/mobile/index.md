@@ -890,7 +890,7 @@ The following will only need to be included in your GitHub repository:
    1. The name of your application.
    1. Set-up instructions for local testing (good to have).
 
-1. The code for your application. If your group is using Git submodules, make sure these submodules are also accessible by the teaching team.
+1. The code for your application. If your group is using Git submodules, make sure these submodules are also accessible by the teaching team (and that they are updated to reference the latest commits).
 
 1. Lighthouse HTML report, `group-<number>-lighthouse.html`.
 
