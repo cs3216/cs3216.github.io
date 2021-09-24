@@ -885,7 +885,7 @@ The following will only need to be included in your GitHub repository:
 
 1. A `README.md` file in the root directory. GitHub will automatically render it on your repository's front page. You may wish to style it using any of the supported markup languages. The file should contain the list of group members, including matriculation numbers, names and a description of the contributions of each member to the assignment. Include the URL to your application, i.e. your application must be accessible online somewhere. Make sure that your application name is clearly written in the `README.md` file. It would also be good to include set-up instructions for local testing.
 
-1. The code for your application.
+1. The code for your application. If your group is using Git submodules, make sure these submodules are also accessible by the teaching team.
 
 1. Lighthouse HTML report, `group-<number>-lighthouse.html`.
 
