@@ -82,7 +82,7 @@ fs.readFile(originalFileDir, function (err, data) {
     );
     fs.writeFile(
       `students.json`,
-      JSON.stringify(newStudentsArray, null, 2),
+      `${JSON.stringify(newStudentsArray, null, 2)}\n`,
       function (err) {
         if (err) {
           return console.error(err);
@@ -95,7 +95,7 @@ fs.readFile(originalFileDir, function (err, data) {
 function processStudent(studentName, studentDirName) {
   const imageID = formImageName(studentName);
   const studentObject = {
-    name: studentName.trim(),
+    name: toTitleCase(studentName.trim()),
     id: imageID,
     faculty: processStudentFaculty(studentDirName),
     blog: processStudentLink(studentDirName),
@@ -108,7 +108,9 @@ function processStudentOneLiner(studentDirName) {
   const file = path.join(studentDirName, ONELINER_FOLDER, ANSWER_FILE);
 
   if (fs.existsSync(file)) {
-    return parseHtmlToText(fs.readFileSync(file, 'utf8')).trim();
+    return standardiseCharacters(
+      parseHtmlToText(fs.readFileSync(file, 'utf8'))
+    );
   } else {
     console.log('One-liner not found in ' + studentDirName);
     return '';
@@ -119,7 +121,7 @@ function processStudentLink(studentDirName) {
   const file = path.join(studentDirName, LINK_FOLDER, ANSWER_FILE);
 
   if (fs.existsSync(file)) {
-    return parseHtmlToText(fs.readFileSync(file, 'utf8')).trim();
+    return parseHtmlToText(fs.readFileSync(file, 'utf8'));
   } else {
     console.log('Link not found in ' + studentDirName);
     return '';
@@ -130,7 +132,7 @@ function processStudentFaculty(studentDirName) {
   const file = path.join(studentDirName, FACULTY_FOLDER, ANSWER_FILE);
 
   if (fs.existsSync(file)) {
-    return parseHtmlToText(fs.readFileSync(file, 'utf8')).trim();
+    return parseHtmlToText(fs.readFileSync(file, 'utf8'));
   } else {
     console.log('Faculty not found in ' + studentDirName);
     return '';
@@ -157,6 +159,16 @@ function copyImageWithRename(targetFolder, studentName, studentDirName) {
   });
 }
 
+function toTitleCase(words) {
+  return words
+    .split(' ')
+    .map(
+      (word) =>
+        `${word.charAt(0).toUpperCase()}${word.substring(1).toLowerCase()}`
+    )
+    .join(' ');
+}
+
 function formImageName(studentName) {
   return slugify(studentName.toLowerCase());
 }
@@ -167,5 +179,19 @@ function parseHtmlToText(htmlString) {
     wordwrap: false,
     singleNewLineParagraphs: true,
     uppercaseHeadings: false,
-  });
+  })
+    .replace(/\s/g, ' ')
+    .trim();
+}
+
+function standardiseCharacters(str) {
+  return str
+    .replace('”', '"')
+    .replace('“', '"')
+    .replace('’', "'")
+    .replace('‘', "'")
+    .replace(/[\u2018\u2019]/g, "'")
+    .replace(/[\u201C\u201D]/g, '"')
+    .replace(/[\u2013\u2014]/g, '-')
+    .replace(/[\u2026]/g, '...');
 }
