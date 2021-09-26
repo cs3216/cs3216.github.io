@@ -1,8 +1,8 @@
 {
   "name": "update-students-from-coursemology",
-  "version": "1.0.0",
-  "description": "",
-  "main": "createNewYml.js",
+  "version": "2.0.0",
+  "description": "Generates a students.json file for the website from the downloaded submissions from Coursemology.",
+  "main": "createNewJson.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
