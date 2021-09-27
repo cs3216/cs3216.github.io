@@ -486,7 +486,7 @@ The remaining 30% will be awarded based on the relative outcomes for the various
 
 Overall, the product design assignment is worth 10% of your final grade.
 
-## Mode of submission
+## Mode of Submission
 
 <p>By <strong>{formatDate(assignments.product_design.submission)}</strong>, you should upload the following to Coursemology:</p>
 
