@@ -183,7 +183,7 @@ We do not specify a required page length, though we expect that most reports wil
 
 ## Assessment Scheme
 
-The Final Project is worth 40% of the total grade for CS3216. The Final Project will be graded according to the following weightage:
+The Final Project is worth 50% of the total grade for CS3216. The Final Project will be graded according to the following weightage:
 
 - 5% Project Proposal
 - 10% Customer Contact Report
