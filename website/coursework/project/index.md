@@ -133,7 +133,7 @@ Again, you can choose how you want to present your work. You can bring along oth
 
 Traditionally, every team is required to make a 1-minute video to be submitted to the STePS organising committee. Here's a playlist of past years' videos.
 
-<iframe width="100%" height="416" src="https://www.youtube.com/embed/videoseries?list=PLLYjqEF13ESyh-Rpm_-XtJzOqm5MeEnrj" frameBorder="0" allowFullScreen />
+<div class="video-container"><iframe src="https://www.youtube.com/embed/videoseries?list=PLLYjqEF13ESyh-Rpm_-XtJzOqm5MeEnrj" frameBorder="0" allowFullScreen></iframe></div>
 
 ### Marketing Efforts
 
