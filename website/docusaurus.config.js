@@ -34,6 +34,7 @@ function reverseSidebarItems(items) {
         /** @type {import('@docusaurus/preset-classic').Options} */
         ({
           docs: {
+            breadcrumbs: false,
             path: 'coursework',
             sidebarPath: require.resolve('./sidebars.js'),
             routeBasePath: 'coursework',
@@ -42,6 +43,9 @@ function reverseSidebarItems(items) {
           },
           theme: {
             customCss: require.resolve('./src/css/custom.css'),
+          },
+          googleAnalytics: {
+            trackingID: 'UA-33503218-3',
           },
         }),
       ],
@@ -91,9 +95,6 @@ function reverseSidebarItems(items) {
         prism: {
           theme: lightCodeTheme,
           darkTheme: darkCodeTheme,
-        },
-        googleAnalytics: {
-          trackingID: 'UA-33503218-3',
         },
       }),
     plugins: [
