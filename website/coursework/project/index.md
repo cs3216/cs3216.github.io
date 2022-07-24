@@ -7,6 +7,16 @@ import assignments from '../assignments';
 
 import formatDate from '../formatDate';
 
+<> {assignments.project.show_updating_notice && <div>
+
+:::info
+
+The final project write-up is currently being updated. Details are tentative and will be finalised soon.
+
+:::
+
+</div>}</>
+
 <table>
   <tbody>
     <tr>

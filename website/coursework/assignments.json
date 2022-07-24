@@ -29,6 +29,7 @@
     "poster_session": "2021-11-10",
     "is_poster_session_date_tentative": true,
     "final_report_submission": "2021-11-21T23:59:00",
-    "google_sheet": "https://docs.google.com/spreadsheets/d/1J-g4Yiq-7_-og09ifzYk_KVHWBICcIs8mmuyTFt-PYQ/edit?usp=sharing"
+    "google_sheet": "https://docs.google.com/spreadsheets/d/1J-g4Yiq-7_-og09ifzYk_KVHWBICcIs8mmuyTFt-PYQ/edit?usp=sharing",
+    "show_updating_notice": false
   }
 }
