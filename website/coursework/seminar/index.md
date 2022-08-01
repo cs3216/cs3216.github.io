@@ -59,17 +59,18 @@ There is a French think-tank funded by UNESCO and the French Senate that looks o
 
 <p>Before you meet as a group, each member is to try their hand at identifying a recent innovation. Your group is to then meet and discuss to finally decide on the most innovative application and make a presentation about it to the rest of the class on <strong>{formatDate(assignments.seminar.presentation)}</strong>. Each team is to put up their choice of the most innovative application on the <a href={assignments.seminar.google_sheet}>Google Sheet</a> as soon as possible (latest by <strong>{formatDate(assignments.seminar.innovation_submission)}</strong>). Note that duplicates are not allowed, and it will be first-come, first-served. Please double check that another group has not taken up your team's choice before adding it to the Google Sheet.</p>
 
+You will be presenting to your fellow classmates, so a low level of technicality is allowed in the presentation (i.e you are allowed to use technical terms that you think your classmates will be able to understand). Try to impress your classmates by convincing the class that your chosen idea is the coolest!
+
 ## Grading and Admin
 
 The presentations should attempt to cover the following points about the chosen application/innovation:
 
 1. Description of the application
 2. Why we should care about the application you chose
-3. How the application can be implemented if you had to do it (Describe the program organisation by using high-level views like logic flow, identifying technologies used where possible, etc.)
-4. What is good, bad and ugly about the application
-5. Suggested improvements
-6. Commercial potential
-7. New app(s)/business models/ideas arising from studying the application
+3. What is good about the application
+4. What are the limitations of the application, and suggestions on how they can be overcome
+5. How the application can be implemented if you had to do it (Describe the program organisation by using high-level views like logic flow, identifying technologies used where possible, etc.)
+6. New app(s)/business models/ideas arising from studying the application
 
 From our past experience, students tend to ramble on and on in their presentations. To control this, we are using a format called Pecha Kucha. See <http://www.youtube.com/watch?v=9NZOt6BkhUg> for an example. It works like a charm. We will do the same this year.
 
