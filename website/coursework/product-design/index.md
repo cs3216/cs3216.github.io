@@ -217,8 +217,6 @@ Other good resources for design inspiration include [Dribbble](https://dribbble.
 
 Now it is time to get your hands dirty!
 
-Use any tool you want - even PowerPoint if that's easier - or just plain paper, markers, and pencil. At this point, we value speed over quality since you will likely need to change them based on user feedback, so use whichever tool that allows you to do up wireframes the fastest.
-
 <div class="video-container"><iframe src="https://www.youtube.com/embed/JMjozqJS44M?start=124" frameBorder="0" allowFullScreen></iframe></div>
 
 Wireframes are ["low-fidelity" designs](https://www.nngroup.com/articles/ux-prototype-hi-lo-fidelity/). This means that they should _not_ contain any design-specific elements such as colours, font or unnecessary details like user-generated content and images. These distract from the aspects that are more important at this current stage of development, and slow down the speed at which they are produced. Instead, focus on the relative size and position of elements, key user interface elements, and interactions such as which elements can be clicked or tapped, dragged, and so on.
@@ -234,7 +232,9 @@ Source: https://www.flickr.com/photos/anthonyarmendariz/4448219885/in/pool-10706
 </figcaption>
 </figure>
 
-Whichever tool you use to design your wireframes, make sure you can "transition" from different screens and states easily. If you are designing on PowerPoint, this means making each screen or state a slide, and if you are designing on paper, use a different page for each screen and sticky notes for modals, popups and other ephemeral UI elements. Tools like InVision allow for [interactive user flows](https://invis.io/VNNLOH33K25#/163621461_Inbox), which you may use for user testing but may take longer to build and are not required until Milestone 7. When you create your design, keep your user personas in mind.
+Use any tool you want - we recommend just plain paper, markers, and pencil. At this point, we value speed over quality since you will likely need to change them based on user feedback, so use whichever tool that allows you to do up wireframes the fastest.
+
+Whichever tool you use to design your wireframes, make sure you can "transition" from different screens and states easily. If you are designing on paper, this means using a different page for each screen and sticky notes for modals, popups and other ephemeral UI elements, and if you are designing on PowerPoint, make each screen or state a slide. When you create your design, keep your user personas in mind.
 
 This set of wireframes will be shown to the user during testing. As such, keep a copy without the links between buttons and screens and without more than one screen showing at once - after all, users can't do that in the actual app! (You may add annotations or comments for your own reference, but remember to hide them before starting user testing.)
 
@@ -303,7 +303,7 @@ Rinse and repeat with three to five[^2] different users.
 
 :::info Milestone
 
-**Milestone 6:** Document the results gathered from this round of testing with three to five different users. Be as detailed as possible. Things that would be good to document include your observations, the questions you asked, their responses, and the issues identified. Save these into a new "Draft 1 Testing" folder.
+**Milestone 6:** Document the results gathered from this round of testing with three to five different users. Be as detailed as possible. Things that would be good to document include user flow being tested currently, your observations, the questions you asked, their responses, and the issues identified. Save these into a new "Draft 1 Testing" folder.
 
 :::
 
@@ -502,6 +502,8 @@ Overall, the product design assignment is worth 10% of your final grade.
 
 - Your final write-up named `group-<number>-milestones.pdf`
 - Your designs and testing results - zipped together - named `group-<number>-designs.zip`
+
+For submissions that are >1GB in size (which is the maximum upload size that Coursemology currently has), upload the zip file to Google Drive and submit a pdf file containing the link to your designs and testing results. Please make sure the last modified date time of your uploaded zip file on Google Drive is before the submission deadline.
 
 :::tip
 
