@@ -115,7 +115,7 @@ Whatever tool you choose, it has to be able to produce a prototype that fulfils 
 
 <p>Every good app / platform / website / service begins with a problem they are looking to solve for a target user. As this assignment is due on <strong>{formatDate(assignments.product_design.submission)}</strong>, we recommend you pick a target user who is abundantly available around you, e.g. your fellow NUS students. This way, you can easily conduct your user testing.</p>
 
-Study your users. Think of a problem/pain point you think they are facing now. List down the problem/pain point and assumptions you have about:
+Study your users. Think of a problem/pain point you think they are facing now. List down and substantiate the problem/pain point and assumptions you have about:
 
 1. Why are they facing this problem
 2. How are they living / dealing with this problem now
@@ -143,9 +143,11 @@ Source: https://uxdesign.cc/meetup-a-usability-case-study-e909c33f1e3e
 
 You can fill in more information if you feel that that will help you better visualise your product, such as personality, brand affiliation, life goals and aspirations, level of experience with technology and more. The goal of the user persona is to allow you to think in the shoes of your user, so try to include details that make this easy.
 
+Please also list down any assumptions about your user that will help us understand what you are validating about your users in the subsequent milestones.
+
 :::info Milestone
 
-**Milestone 1:** Pick a primary user persona and list down some assumptions about the problems they're facing now.
+**Milestone 1:** Pick a primary user persona, list down and substantiate some assumptions about the problems they're facing now.
 
 :::
 
@@ -188,8 +190,19 @@ At the same time, you should not omit essentials such as authentication and sett
 
 As you are designing a product for the real world, it is also important to ensure that your ideas and business logic are sound, realistic, and executable. Answer these questions:
 
-1. How will your product acquire users? Why will users use your product over what they are currently doing to solve the problem?
-2. How will your product be executed?
+1. How will your product acquire users? Why will users use your product over what they are currently doing to solve the problem? Here are some guiding questions that might assist you in answering this question:
+
+   - What does your product bring to the table?
+   - What differentiates it over the competition?
+   - Why would someone choose your solution over another?
+
+2. How will your product be executed? Here are some guiding questions that might assist you in answering this question:
+
+   - What resources or data does your product need?
+   - What are some stakeholders that you might have to work with?
+   - Are there legal/bureaucratic restrictions and/or limitations in introducing such a product?
+   - Are there social issues or barriers to consider, that might affect the adoption of your product?
+   - What are some potential dealbreakers that could stop your product from reaching the market?
 
 :::info Milestone
 
@@ -235,6 +248,14 @@ Source: https://www.flickr.com/photos/anthonyarmendariz/4448219885/in/pool-10706
 Use any tool you want - we recommend just plain paper, markers, and pencil. At this point, we value speed over quality since you will likely need to change them based on user feedback, so use whichever tool that allows you to do up wireframes the fastest.
 
 Whichever tool you use to design your wireframes, make sure you can "transition" from different screens and states easily. If you are designing on paper, this means using a different page for each screen and sticky notes for modals, popups and other ephemeral UI elements, and if you are designing on PowerPoint, make each screen or state a slide. When you create your design, keep your user personas in mind.
+
+:::caution Wireframes should be low-fidelity
+
+It is tempting to 'skip steps' by using component kits or colourful designs that might add to the aesthetic of your wireframe. However, the point of wireframes is to be 'ugly' and bare-bones so that you can be focused on **iterating on the idea and user flows quickly**, without being distracted by the aesthetics or colours for both you and your user.
+
+Please ensure that your wireframes are **low-fidelity**.
+
+:::
 
 This set of wireframes will be shown to the user during testing. As such, keep a copy without the links between buttons and screens and without more than one screen showing at once - after all, users can't do that in the actual app! (You may add annotations or comments for your own reference, but remember to hide them before starting user testing.)
 
