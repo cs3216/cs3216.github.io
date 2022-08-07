@@ -1,5 +1,325 @@
 [
   {
+    "year": 2022,
+    "students": [
+      {
+        "name": "Azeem Vasanwala",
+        "id": "azeem-vasanwala",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/azeemvasanwala/",
+        "one_liner": "Full stack product engineer who works best under a little stress"
+      },
+      {
+        "name": "Ben Joseph Murphy",
+        "id": "ben-joseph-murphy",
+        "faculty": "Computing",
+        "blog": "https://benmurphyy.github.io/",
+        "one_liner": "I love tech"
+      },
+      {
+        "name": "Bernard Wan De Yuan",
+        "id": "bernard-wan-de-yuan",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/bernard-wan-737339226/",
+        "one_liner": "bubble tea flows through my veins"
+      },
+      {
+        "name": "Bharath Chandra Sudheer",
+        "id": "bharath-chandra-sudheer",
+        "faculty": "Computing",
+        "blog": "https://github.com/bharathcs/",
+        "one_liner": "I love sleeping, reading and coding."
+      },
+      {
+        "name": "Bryan Kwok Yan Fai",
+        "id": "bryan-kwok-yan-fai",
+        "faculty": "Computing",
+        "blog": "https://github.com/kwokieee",
+        "one_liner": "More of a cat than a dog person"
+      },
+      {
+        "name": "Bryann Yeap Kok Keong",
+        "id": "bryann-yeap-kok-keong",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/bryann-yeap/",
+        "one_liner": "A curious person that likes to try new things out"
+      },
+      {
+        "name": "Chow En Rong",
+        "id": "chow-en-rong",
+        "faculty": "Computing",
+        "blog": "https://linkedin.com/in/chowenrong",
+        "one_liner": "Stay curious"
+      },
+      {
+        "name": "Dasco Gabriel",
+        "id": "dasco-gabriel",
+        "faculty": "Computing",
+        "blog": "https://github.com/DystoriaX",
+        "one_liner": "I like adorable creatures because I'm not adorable :("
+      },
+      {
+        "name": "Didymus Ne",
+        "id": "didymus-ne",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/didymusne/",
+        "one_liner": "Trying a little of everything!"
+      },
+      {
+        "name": "Duan Yu Hang",
+        "id": "duan-yu-hang",
+        "faculty": "Engineering, Business",
+        "blog": "https://github.com/Artemis-Hunt",
+        "one_liner": "I'm fine"
+      },
+      {
+        "name": "Gan Hao Cheng Keith",
+        "id": "gan-hao-cheng-keith",
+        "faculty": "Computing",
+        "blog": "",
+        "one_liner": "I sleep in the day and code at night"
+      },
+      {
+        "name": "Gan Hong Yao",
+        "id": "gan-hong-yao",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/ganhongyao/",
+        "one_liner": "i like challenges and spicy food"
+      },
+      {
+        "name": "Han Geng Ning",
+        "id": "han-geng-ning",
+        "faculty": "Computing",
+        "blog": "https://github.com/zognin",
+        "one_liner": "heh"
+      },
+      {
+        "name": "Hoang Trong Tan",
+        "id": "hoang-trong-tan",
+        "faculty": "Computing, Engineering",
+        "blog": "https://github.com/jushg",
+        "one_liner": "debugging through life"
+      },
+      {
+        "name": "Hong Ai Ling",
+        "id": "hong-ai-ling",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/ai-ling-hong/",
+        "one_liner": "Still learning to be a better human"
+      },
+      {
+        "name": "Jeff Sieu Yong",
+        "id": "jeff-sieu-yong",
+        "faculty": "Computing",
+        "blog": "https://jeffsieu.com",
+        "one_liner": "my surname has three consecutive vowels in it"
+      },
+      {
+        "name": "Keane Chan Jun Yu",
+        "id": "keane-chan-jun-yu",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/keanecjy/",
+        "one_liner": "Hello there"
+      },
+      {
+        "name": "Koh Hong Po",
+        "id": "koh-hong-po",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/hp-koh/",
+        "one_liner": "Inquisitive team player always up for a challenge!"
+      },
+      {
+        "name": "Lim Bing Sen",
+        "id": "lim-bing-sen",
+        "faculty": "Computing",
+        "blog": "https://github.com/bingsen0806",
+        "one_liner": "When I say \"I'll sleep after I commit this easy, minor bug fix\", please don't wake me up the next morning"
+      },
+      {
+        "name": "Lee Yong Ler",
+        "id": "lee-yong-ler",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/lee-yong-ler-1087301b6/",
+        "one_liner": "Aspiring technopreneur, constantly creating impact with a strong team"
+      },
+      {
+        "name": "Lee Zen Been",
+        "id": "lee-zen-been",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/zen-been-lee-46353a221/",
+        "one_liner": "I'm Zen, rarely zen"
+      },
+      {
+        "name": "Lim Chun Yong",
+        "id": "lim-chun-yong",
+        "faculty": "Computing",
+        "blog": "https://github.com/chunyongg",
+        "one_liner": "I am a fourth year CS student, I love cooking, photography, swimming and various sports! :)"
+      },
+      {
+        "name": "Lui Kai Siang",
+        "id": "lui-kai-siang",
+        "faculty": "Computing, Business",
+        "blog": "https://www.linkedin.com/in/lui-kai-siang/",
+        "one_liner": "dreamer"
+      },
+      {
+        "name": "Lye Wen Jun",
+        "id": "lye-wen-jun",
+        "faculty": "Computing",
+        "blog": "https://github.com/xlzior",
+        "one_liner": "Secretly building a small army of Telegram bots"
+      },
+      {
+        "name": "Ng Aik Yang",
+        "id": "ng-aik-yang",
+        "faculty": "Yale-NUS College",
+        "blog": "https://www.linkedin.com/in/aik-ng",
+        "one_liner": "learning about and creating pathways for holistic learning in Southeast Asia"
+      },
+      {
+        "name": "Ng Yong Xiang",
+        "id": "ng-yong-xiang",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/ngyongxiang/",
+        "one_liner": "No thoughts, brain empty, only meows"
+      },
+      {
+        "name": "Nyamdavaa Amar",
+        "id": "nyamdavaa-amar",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/nvmdava/",
+        "one_liner": "Commit now, everything else is future you's problem"
+      },
+      {
+        "name": "Owen Yap Yuhan",
+        "id": "owen-yap-yuhan",
+        "faculty": "Computing",
+        "blog": "https://github.com/owen-yap",
+        "one_liner": "Hi, I am Owen, a Y2 CS student interested in start-ups, capital and building products."
+      },
+      {
+        "name": "Peh Kai Min, Ryan",
+        "id": "peh-kai-min-ryan",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/ryan-peh",
+        "one_liner": "code, cube, climb"
+      },
+      {
+        "name": "Rachel Lo",
+        "id": "rachel-lo",
+        "faculty": "Business",
+        "blog": "https://www.linkedin.com/in/lo-hei-ting/",
+        "one_liner": "trying my best :,)"
+      },
+      {
+        "name": "Ren Weilin",
+        "id": "ren-weilin",
+        "faculty": "Computing",
+        "blog": "https://github.com/wlren",
+        "one_liner": "Sleeping is a valid hobby"
+      },
+      {
+        "name": "Ruppa Nagarajan Sivayoga Subramanian",
+        "id": "ruppa-nagarajan-sivayoga-subramanian",
+        "faculty": "Computing",
+        "blog": "https://sivarn.com",
+        "one_liner": "Per Aspera Ad Astra"
+      },
+      {
+        "name": "Stuart Long Chay Boon",
+        "id": "stuart-long-chay-boon",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/stuart-long-b3b452221/",
+        "one_liner": "I am an enthusiastic soccer fan who loves to code."
+      },
+      {
+        "name": "Sun Jia Cheng",
+        "id": "sun-jia-cheng",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/sun-jia-cheng/",
+        "one_liner": "Infusing theory into the real world."
+      },
+      {
+        "name": "Syed Ozair Ul Hasan",
+        "id": "syed-ozair-ul-hasan",
+        "faculty": "Engineering",
+        "blog": "https://www.linkedin.com/in/ozair-hasan-10b642203/",
+        "one_liner": "I am a driven individual with a strong curiosity for most things."
+      },
+      {
+        "name": "Toh Kar Wi",
+        "id": "toh-kar-wi",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/karwi/",
+        "one_liner": "A guy passionate about web development!"
+      },
+      {
+        "name": "Tan Su Yin",
+        "id": "tan-su-yin",
+        "faculty": "Computing, Business",
+        "blog": "https://www.linkedin.com/in/tnsyn/",
+        "one_liner": "Chill, with many hobbies"
+      },
+      {
+        "name": "Tang Zhiying",
+        "id": "tang-zhiying",
+        "faculty": "Computing",
+        "blog": "https://zhing22.github.io/website/",
+        "one_liner": "Waku waku (๑•̀ ᵕ •́๑)✧"
+      },
+      {
+        "name": "Tee Weile Wayne",
+        "id": "tee-weile-wayne",
+        "faculty": "Computing",
+        "blog": "https://github.com/waynetee",
+        "one_liner": "I want ice cream"
+      },
+      {
+        "name": "Terence Ho Wei Yang",
+        "id": "terence-ho-wei-yang",
+        "faculty": "Computing",
+        "blog": "https://terenceho.netlify.app",
+        "one_liner": "urgently procrastinating"
+      },
+      {
+        "name": "Wang Ri Zhao",
+        "id": "wang-ri-zhao",
+        "faculty": "Computing",
+        "blog": "",
+        "one_liner": "I am good at being creative!"
+      },
+      {
+        "name": "Wong Man Chun",
+        "id": "wong-man-chun",
+        "faculty": "Computing",
+        "blog": "https://markmcwong.github.io",
+        "one_liner": "Hong Kong-born 3rd year CS student, a Full stack Javascript Developer and AI Enthusiast who grew up in UAE"
+      },
+      {
+        "name": "Wu Peirong",
+        "id": "wu-peirong",
+        "faculty": "Computing",
+        "blog": "https://www.reddit.com/r/maybemaybemaybe/",
+        "one_liner": "it's a feature not a bug"
+      },
+      {
+        "name": "Yao Yuan",
+        "id": "yao-yuan",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/yuan-yao-ba275a191/",
+        "one_liner": "Amateur surfer/hamster lover"
+      },
+      {
+        "name": "Zhang Ziqing",
+        "id": "zhang-ziqing",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/ziqingzhang26/",
+        "one_liner": "Member of University Sleeping Programme"
+      }
+    ]
+  },
+  {
     "year": 2021,
     "students": [
       {
