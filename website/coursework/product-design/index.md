@@ -190,7 +190,7 @@ At the same time, you should not omit essentials such as authentication and sett
 
 As you are designing a product for the real world, it is also important to ensure that your ideas and business logic are sound, realistic, and executable. Answer these questions:
 
-1. How will your product acquire users? Why will users use your product over what they are currently doing to solve the problem? Here are some guiding questions that might assist you in answering this question:
+1. How will your product acquire users? Why will users use your product over what they are currently doing to solve the problem? Here are some guiding questions that might assist you in answering these questions:
 
    - What does your product bring to the table?
    - What differentiates it over the competition?
