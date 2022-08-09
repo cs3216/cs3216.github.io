@@ -2,7 +2,7 @@
   "product_design": {
     "issue": "2022-08-15",
     "submission": "2022-08-28T23:59:00",
-    "show_updating_notice": true
+    "show_updating_notice": false
   },
   "seminar": {
     "issue": "2022-08-08",
