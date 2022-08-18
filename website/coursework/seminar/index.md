@@ -50,16 +50,22 @@ This assignment is currently being updated. Details are tentative and will be fi
 
 In order to build good and original applications, it is important to learn what other people have already done — and think critically about what is good and bad, as well as explore ways to improve and generate new ideas. In addition, it is important to learn how to articulate one's ideas clearly and succinctly, both orally and in writing. The innovation seminar is designed to help students:
 
-1. Identify innovative ideas.
-2. Gain a better understanding of existing applications.
+1. Learn how to identify and assess innovative ideas.
+2. Gain a better understanding of existing innovations.
 3. Learn how to present (or sell one's ideas).
 4. Learn how to articulate their ideas in writing.
 
 There is a French think-tank funded by UNESCO and the French Senate that looks out for digital innovations worldwide called [Netexplo](https://netexplo.com/n100/). You will form groups of up to 4 people, and each team will have to find a new innovation that has not yet been identified in the past by Netexplo.
 
-<p>Before you meet as a group, each member is to try their hand at identifying a recent innovation. Your group is to then meet and discuss to finally decide on the most innovative application and make a presentation about it to the rest of the class on <strong>{formatDate(assignments.seminar.presentation)}</strong>. Each team is to put up their choice of the most innovative application on the <a href={assignments.seminar.google_sheet}>Google Sheet</a> as soon as possible (latest by <strong>{formatDate(assignments.seminar.innovation_submission)}</strong>). Note that duplicates are not allowed, and it will be first-come, first-served. Please double check that another group has not taken up your team's choice before adding it to the Google Sheet.</p>
+<p>Before you meet as a group, each member is to try their hand at identifying a recent innovation. Your group is to then meet and discuss to finally decide on the most innovative idea and make a presentation about it to the rest of the class on <strong>{formatDate(assignments.seminar.presentation)}</strong>. Each team is to put up their choice of the most innovative idea on the <a href={assignments.seminar.google_sheet}>Google Sheet</a> as soon as possible (latest by <strong>{formatDate(assignments.seminar.innovation_submission)}</strong>). Note that duplicates are not allowed, and it will be first-come, first-served. Please double check that another group has not taken up your team's choice before adding it to the Google Sheet.</p>
 
-You will be presenting to your fellow classmates, so a low level of technicality is allowed in the presentation (i.e you are allowed to use technical terms that you think your classmates will be able to understand). Try to impress your classmates by convincing the class that your chosen idea is the coolest!
+### Nature of Chosen Innovation
+
+Your chosen innovation should be related to computing in some way. It does not have to be restricted to applications or software, as long as it is computing-related.
+
+### Target Audience & Level of Technicality
+
+You can assume the target audience to be your fellow classmates, and the whole goal of this assignment is to for you to convince your classmates that your chosen idea is the coolest! A low level of technicality is allowed in the presentation. That is, you are allowed to use technical terms that you think your classmates will be able to understand, but please don't start going through the steps of Dijkstra's algorithm line-by-line during your presdentation.
 
 ## Grading and Admin
 
