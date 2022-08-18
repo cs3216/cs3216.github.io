@@ -84,7 +84,7 @@ In particular, each presentation is limited to 20 slides, and each slide should 
 
 Perhaps it is impossible to cover all the suggested points above in 7 minutes? Well, the point here is to make a thoughtful presentation. You need to work out as a group exactly what to do if you can't fit everything into 7 minutes. Sometimes less is more. Sometimes it's not. Life is full of hard questions.
 
-You can present using PowerPoint, Keynote or whatever tools you wish to use. Surprise us (in a good way) if you can. **BEFORE submitting**, please ensure that your slides auto-advance every 20 seconds. No cheating! 😜
+You can present using PowerPoint, Keynote, Google Slides, or whatever tools you wish to use. Surprise us (in a good way) if you can. **BEFORE submitting**, please ensure that your slides auto-advance every 20 seconds. No cheating! 😜
 
 Following the presentation, there will be a short Q&A session opened to the rest of the class for a maximum of 3 minutes.
 
@@ -126,7 +126,20 @@ Overall, the innovation seminar is worth 10% of your final grade.
 
 ## Mode of Submission
 
-<p>The slides for the presentation should be named <code>{'group-<number>-seminar.{pptx|key}'}</code> and uploaded to Coursemology by <strong>{formatDate(assignments.seminar.slides_submission)}</strong>, because we will be downloading the slides to project on-screen or screen-share during class. The innovation critiques should be submitted within 24 hours of the innovation seminar, by <strong>{formatDate(assignments.seminar.innovation_critiques)}</strong>. Your comments for the mutual critique part should be made by <strong>{formatDate(assignments.seminar.mutual_critiques)}</strong>.</p>
+<p>The slides for the presentation should be named <code>{'group-<number>-seminar.{pptx|key}'}</code> and uploaded to Coursemology by <strong>{formatDate(assignments.seminar.slides_submission)}</strong>, because we will be downloading the slides to project on-screen or screen-share during class.</p>
+
+<details>
+  <summary>If you are using Google Slides</summary>
+  <p>
+    Instead of the above instructions, upload a PDF version of your slides <code>{'group-<number>-seminar.pdf'}</code> and upload a text file <code>{'group-<number>-seminar.txt'}</code> containing just the publicly-accessible view-only link to your slides to Coursemology by <strong>{formatDate(assignments.seminar.slides_submission)}</strong>.
+  </p>
+
+  <p>
+    Do not make any changes to your slides after the submission deadline, even if it is just tweaking animations. During the presentation day and right before your team presents, one of your team members should be ready with the revision history and show us that there has been no changes past the deadline. If there are any, we will ask you to rollback the presentation' revision to right before the submission deadline, before your presentation starts.
+  </p>
+</details>
+
+<p>The innovation critiques should be submitted within 24 hours of the innovation seminar, by <strong>{formatDate(assignments.seminar.innovation_critiques)}</strong>. Your comments for the mutual critique part should be made by <strong>{formatDate(assignments.seminar.mutual_critiques)}</strong>.</p>
 
 **Marks will be deducted if you fail to follow the submission instructions (e.g. incorrect file naming).**
 
@@ -134,4 +147,4 @@ Clarifications and questions related to this assignment should be posted to the 
 
 The way this assignment is structured, it might seem very stressful — but it's really not quite as bad as it seems. It's actually fun if taken in the right spirit.
 
-Good luck and have fun!
+Good luck and have fun! 🙂
