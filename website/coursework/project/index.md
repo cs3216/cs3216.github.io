@@ -123,7 +123,7 @@ Please try to keep your reports to within two pages, or a maximum of 3 pages if 
 
 ## SoC STePs
 
-<p>In the last week of class, we will be holding a 4-hour poster session in the SoC student foyer on <strong>{formatDate(assignments.project.poster_session)} {assignments.project.is_poster_session_date_tentative && <span>(TBC)</span>}</strong> from 6.30 to 10.30 pm as part of the School of Computing Term Projects Showcase (STePS).</p>
+<p>In the last week of class, we will be holding a 4-hour poster session in the SoC student foyer on <strong>{formatDate(assignments.project.poster_session)} {assignments.project.is_poster_session_date_tentative && <span>(TBC)</span>}</strong> from 3pm to 7pm as part of the School of Computing Term Projects Showcase (STePS).</p>
 
 Each team is to prepare an A1-sized poster. The judges and other members of the SoC and NUS will turn up for the "show-and-tell". You should treat this session as a trade show to sell your projects as you will get a large percentage of your grading from "other people" - NUS staff, students, alumni, guests - who turn up at your booth. So your final grade depends very much on your show-and-tell in this session. Be creative. Collaterals are encouraged but note that these will be on your own expenses.
 
@@ -137,7 +137,7 @@ Traditionally, every team is required to make a 1-minute video to be submitted t
 
 ### Marketing Efforts
 
-As part of the user acquisition process, many teams set up their own Facebook page to publicise their products and gain initial traction before the actual STePS event. Here's what the top three teams of AY2015/16 did:
+As part of the user acquisition process, many teams set up their own social media page to publicise their products and gain initial traction before the actual STePS event. Here's what the top three teams of AY2015/16 did on Facebook:
 
 - **Letterbox** went around the school on a hoverboard and handed out flyers. They also managed to launch their apps to the iOS App Store and Google Play Store before the event (a seriously impressive feat).
 - **Griddit** created an anonymous chatroom for NUSWhispers and organised an [AMA with Prof Ben Leong](http://blog.griddit.io/post/133470245990/professor-ben-leongs-ask-me-anything), which saw over 400 participants.
