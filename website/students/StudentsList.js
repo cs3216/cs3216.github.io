@@ -56,7 +56,8 @@ export default function StudentsList({year}) {
                   <div className="card__footer">
                     <a
                       className="button button--primary button--block"
-                      href={blog}>
+                      href={blog}
+                      target="_blank">
                       Profile
                     </a>
                   </div>

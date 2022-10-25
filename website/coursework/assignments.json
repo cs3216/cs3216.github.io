@@ -1,31 +1,37 @@
 {
   "product_design": {
-    "issue": "2021-08-16",
-    "submission": "2021-08-29T23:59:00"
+    "issue": "2022-08-15",
+    "submission": "2022-08-28T23:59:00",
+    "show_updating_notice": false
   },
   "seminar": {
-    "issue": "2021-08-09",
-    "innovation_submission": "2021-08-23T23:59:00",
-    "slides_submission": "2021-09-05T23:59:00",
-    "presentation": "2021-09-06T18:30:00",
-    "application_critiques": "2021-09-07T23:59:00",
-    "mutual_critiques": "2021-09-12T23:59:00",
-    "google_sheet": "https://docs.google.com/spreadsheets/d/1ETibvkytQLAsnmM06O-JiWuUHfpKstC3uHqQgNLfpHk/edit?usp=sharing"
+    "issue": "2022-08-08",
+    "innovation_submission": "2022-08-22T23:59:00",
+    "slides_submission": "2022-09-04T23:59:00",
+    "presentation": "2022-09-05T18:30:00",
+    "innovation_critiques": "2022-09-06T23:59:00",
+    "mutual_critiques": "2022-09-11T23:59:00",
+    "google_sheet": "https://docs.google.com/spreadsheets/d/1GyJCFD6t-fWIqN12LpmsLnVtzetJ9Vkj8ArbDt24QDM/edit?usp=sharing",
+    "show_updating_notice": false
   },
   "mobile": {
-    "issue": "2021-08-30",
-    "submission": "2021-09-24T23:59:00"
+    "issue": "2022-08-29",
+    "submission": "2022-09-23T23:59:00",
+    "show_updating_notice": false
   },
   "project": {
-    "issue": "2021-09-13",
-    "team_formation": "2021-09-20T23:59:00",
-    "proposal_submission": "2021-09-27T23:59:00",
-    "progress_report_1_submission": "2021-10-11T23:59:00",
-    "progress_report_2_submission": "2021-10-25T23:59:00",
-    "in_class_progress_report": "2021-11-01T18:30:00",
-    "poster_session": "2021-11-10",
+
+    "issue": "2022-09-12",
+    "team_formation": "2022-09-19T23:59:00",
+    "proposal_submission": "2022-09-26T23:59:00",
+    "progress_report_1_submission": "2022-10-10T23:59:00",
+    "progress_report_2_submission": "2022-10-24T23:59:00",
+    "in_class_progress_report": "2022-10-31T18:30:00",
+    "poster_session": "2022-11-09",
     "is_poster_session_date_tentative": false,
-    "final_report_submission": "2021-11-21T23:59:00",
-    "google_sheet": "https://docs.google.com/spreadsheets/d/1J-g4Yiq-7_-og09ifzYk_KVHWBICcIs8mmuyTFt-PYQ/edit?usp=sharing"
+    "final_report_submission": "2022-11-20T23:59:00",
+    "google_sheet": "https://docs.google.com/spreadsheets/d/1EPpsksNEMiy5ribJKmGBenWSZ7D7-F__q4t3SS9IJE8/edit?usp=sharing",
+    "show_updating_notice": false
+
   }
 }

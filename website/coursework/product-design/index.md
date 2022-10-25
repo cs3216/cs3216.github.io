@@ -7,6 +7,16 @@ import assignments from '../assignments';
 
 import formatDate from '../formatDate';
 
+<> {assignments.product_design.show_updating_notice && <div>
+
+:::info
+
+This assignment is currently being updated. Details are tentative and will be finalised soon.
+
+:::
+
+</div>}</>
+
 <table>
   <tbody>
     <tr>
@@ -105,7 +115,7 @@ Whatever tool you choose, it has to be able to produce a prototype that fulfils 
 
 <p>Every good app / platform / website / service begins with a problem they are looking to solve for a target user. As this assignment is due on <strong>{formatDate(assignments.product_design.submission)}</strong>, we recommend you pick a target user who is abundantly available around you, e.g. your fellow NUS students. This way, you can easily conduct your user testing.</p>
 
-Study your users. Think of a problem/pain point you think they are facing now. List down the problem/pain point and assumptions you have about:
+Study your users. Think of a problem/pain point you think they are facing now. List down and substantiate the problem/pain point and assumptions you have about:
 
 1. Why are they facing this problem
 2. How are they living / dealing with this problem now
@@ -133,9 +143,11 @@ Source: https://uxdesign.cc/meetup-a-usability-case-study-e909c33f1e3e
 
 You can fill in more information if you feel that that will help you better visualise your product, such as personality, brand affiliation, life goals and aspirations, level of experience with technology and more. The goal of the user persona is to allow you to think in the shoes of your user, so try to include details that make this easy.
 
+Please also list down any assumptions about your user that will help us understand what you are validating about your users in the subsequent milestones.
+
 :::info Milestone
 
-**Milestone 1:** Pick a primary user persona and list down some assumptions about the problems they're facing now.
+**Milestone 1:** Pick a primary user persona, list down and substantiate some assumptions about the problems they're facing now.
 
 :::
 
@@ -178,8 +190,19 @@ At the same time, you should not omit essentials such as authentication and sett
 
 As you are designing a product for the real world, it is also important to ensure that your ideas and business logic are sound, realistic, and executable. Answer these questions:
 
-1. How will your product acquire users? Why will users use your product over what they are currently doing to solve the problem?
-2. How will your product be executed?
+1. How will your product acquire users? Why will users use your product over what they are currently doing to solve the problem? Here are some guiding questions that might assist you in answering these questions:
+
+   - What does your product bring to the table?
+   - What differentiates it over the competition?
+   - Why would someone choose your solution over another?
+
+2. How will your product be executed? Here are some guiding questions that might assist you in answering this question:
+
+   - What resources or data does your product need?
+   - What are some stakeholders that you might have to work with?
+   - Are there legal/bureaucratic restrictions and/or limitations in introducing such a product?
+   - Are there social issues or barriers to consider, that might affect the adoption of your product?
+   - What are some potential dealbreakers that could stop your product from reaching the market?
 
 :::info Milestone
 
@@ -207,9 +230,7 @@ Other good resources for design inspiration include [Dribbble](https://dribbble.
 
 Now it is time to get your hands dirty!
 
-Use any tool you want - even PowerPoint if that's easier - or just plain paper, markers, and pencil. At this point, we value speed over quality since you will likely need to change them based on user feedback, so use whichever tool that allows you to do up wireframes the fastest.
-
-<iframe width="736" height="414" src="https://www.youtube.com/embed/JMjozqJS44M?start=124" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/JMjozqJS44M?start=124" frameBorder="0" allowFullScreen></iframe></div>
 
 Wireframes are ["low-fidelity" designs](https://www.nngroup.com/articles/ux-prototype-hi-lo-fidelity/). This means that they should _not_ contain any design-specific elements such as colours, font or unnecessary details like user-generated content and images. These distract from the aspects that are more important at this current stage of development, and slow down the speed at which they are produced. Instead, focus on the relative size and position of elements, key user interface elements, and interactions such as which elements can be clicked or tapped, dragged, and so on.
 
@@ -224,7 +245,17 @@ Source: https://www.flickr.com/photos/anthonyarmendariz/4448219885/in/pool-10706
 </figcaption>
 </figure>
 
-Whichever tool you use to design your wireframes, make sure you can "transition" from different screens and states easily. If you are designing on PowerPoint, this means making each screen or state a slide, and if you are designing on paper, use a different page for each screen and sticky notes for modals, popups and other ephemeral UI elements. Tools like InVision allow for [interactive user flows](https://invis.io/VNNLOH33K25#/163621461_Inbox), which you may use for user testing but may take longer to build and are not required until Milestone 7. When you create your design, keep your user personas in mind.
+Use any tool you want - we recommend just plain paper, markers, and pencil. At this point, we value speed over quality since you will likely need to change them based on user feedback, so use whichever tool that allows you to do up wireframes the fastest.
+
+Whichever tool you use to design your wireframes, make sure you can "transition" from different screens and states easily. If you are designing on paper, this means using a different page for each screen and sticky notes for modals, popups and other ephemeral UI elements, and if you are designing on PowerPoint, make each screen or state a slide. When you create your design, keep your user personas in mind.
+
+:::caution Wireframes should be low-fidelity
+
+It is tempting to 'skip steps' by using component kits or colourful designs that might add to the aesthetic of your wireframe. However, the point of wireframes is to be 'ugly' and bare-bones so that you can be focused on **iterating on the idea and user flows quickly**, without being distracted by the aesthetics or colours for both you and your user.
+
+Please ensure that your wireframes are **low-fidelity**.
+
+:::
 
 This set of wireframes will be shown to the user during testing. As such, keep a copy without the links between buttons and screens and without more than one screen showing at once - after all, users can't do that in the actual app! (You may add annotations or comments for your own reference, but remember to hide them before starting user testing.)
 
@@ -267,7 +298,7 @@ User flows should naturally intersect with each other. This is fine - real apps 
 
 Now it's time to put your draft design to the test! The test we are conducting is sometimes called ["Wizard of Oz"](https://www.coursera.org/lecture/human-computer-interaction/wizard-of-oz-9f0pI) - we will simulate user interactions by taking the place of the computer. This may seem silly at first, but it is an important tool to validate your design at this stage. Here is a video that shows an example of this form of testing using paper prototypes.
 
-<iframe width="736" height="414" src="https://www.youtube.com/embed/_g4GGtJ8NCY" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/_g4GGtJ8NCY" frameBorder="0" allowFullScreen></iframe></div>
 
 ### Playing the Wizard of Oz
 
@@ -293,7 +324,7 @@ Rinse and repeat with three to five[^2] different users.
 
 :::info Milestone
 
-**Milestone 6:** Document the results gathered from this round of testing with three to five different users. Be as detailed as possible. Things that would be good to document include your observations, the questions you asked, their responses, and the issues identified. Save these into a new "Draft 1 Testing" folder.
+**Milestone 6:** Document the results gathered from this round of testing with three to five different users. Be as detailed as possible. Things that would be good to document include user flow being tested currently, your observations, the questions you asked, their responses, and the issues identified. Save these into a new "Draft 1 Testing" folder.
 
 :::
 
@@ -478,18 +509,22 @@ Your submission will include a write-up that describes how your group has met al
   - Briefly recap the results and observations from your user testing results.
   - Highlight the main user flows presented in each draft / iteration submitted.
 
-## Grading Scheme
+## Assessment Scheme
 
 The grading of the assignment is divided into two components: satisfying the compulsory milestones (70%) and the coolness factor (30%). Excluding Milestone 0, there are **11 milestones** in total, along with an optional Milestone 8b. Milestones 5a and 5b are each worth 2.5%. Milestones 6, 7 and 9 are each worth 10%. The rest are worth 5% each.
 
 The remaining 30% will be awarded based on the relative outcomes for the various teams. The top team might be awarded up to 30%, while the worst performing team less than 5%. The optional Milestone 8b will also contribute to this.
 
-## Mode of submission
+Overall, the product design assignment is worth 10% of your final grade.
+
+## Mode of Submission
 
 <p>By <strong>{formatDate(assignments.product_design.submission)}</strong>, you should upload the following to Coursemology:</p>
 
 - Your final write-up named `group-<number>-milestones.pdf`
 - Your designs and testing results - zipped together - named `group-<number>-designs.zip`
+
+For submissions that are >1GB in size (which is the maximum upload size that Coursemology currently has), upload the zip file to Google Drive and submit a pdf file containing the link to your designs and testing results. Please make sure the last modified date time of your uploaded zip file on Google Drive is before the submission deadline.
 
 :::tip
 

@@ -7,6 +7,16 @@ import assignments from '../assignments';
 
 import formatDate from '../formatDate';
 
+<> {assignments.project.show_updating_notice && <div>
+
+:::info
+
+The final project write-up is currently being updated. Details are tentative and will be finalised soon.
+
+:::
+
+</div>}</>
+
 <table>
   <tbody>
     <tr>
@@ -133,7 +143,7 @@ Again, you can choose how you want to present your work. You can bring along oth
 
 Traditionally, every team is required to make a 1-minute video to be submitted to the STePS organising committee. Here's a playlist of past years' videos.
 
-<iframe width="100%" height="416" src="https://www.youtube.com/embed/videoseries?list=PLLYjqEF13ESyh-Rpm_-XtJzOqm5MeEnrj" frameBorder="0" allowFullScreen />
+<div class="video-container"><iframe src="https://www.youtube.com/embed/videoseries?list=PLLYjqEF13ESyh-Rpm_-XtJzOqm5MeEnrj" frameBorder="0" allowFullScreen></iframe></div>
 
 ### Marketing Efforts
 
@@ -183,7 +193,7 @@ We do not specify a required page length, though we expect that most reports wil
 
 ## Assessment Scheme
 
-The Final Project is worth 40% of the total grade for CS3216. The Final Project will be graded according to the following weightage:
+The Final Project is worth 50% of the total grade for CS3216. The Final Project will be graded according to the following weightage:
 
 - 5% Project Proposal
 - 10% Customer Contact Report
