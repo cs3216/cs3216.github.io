@@ -1,37 +1,37 @@
 {
   "product_design": {
-    "issue": "2022-08-15",
-    "submission": "2022-08-28T23:59:00",
+    "issue": "2023-08-21",
+    "submission": "2023-09-04T23:59:00",
     "show_updating_notice": false
   },
   "seminar": {
-    "issue": "2022-08-08",
-    "innovation_submission": "2022-08-22T23:59:00",
-    "slides_submission": "2022-09-04T23:59:00",
-    "presentation": "2022-09-05T18:30:00",
-    "innovation_critiques": "2022-09-06T23:59:00",
-    "mutual_critiques": "2022-09-11T23:59:00",
-    "google_sheet": "https://docs.google.com/spreadsheets/d/1GyJCFD6t-fWIqN12LpmsLnVtzetJ9Vkj8ArbDt24QDM/edit?usp=sharing",
+    "issue": "2023-08-14",
+    "innovation_submission": "2023-08-28T23:59:00",
+    "slides_submission": "2023-09-10T23:59:00",
+    "presentation": "2023-09-11T18:30:00",
+    "innovation_critiques": "2023-09-12T23:59:00",
+    "mutual_critiques": "2023-09-15T23:59:00",
+    "google_sheet": "https://docs.google.com/spreadsheets/",
     "show_updating_notice": false
   },
   "mobile": {
-    "issue": "2022-08-29",
-    "submission": "2022-09-23T23:59:00",
+    "issue": "2023-08-30",
+    "submission": "2023-09-29T23:59:00",
     "show_updating_notice": false
   },
   "project": {
 
-    "issue": "2022-09-12",
-    "team_formation": "2022-09-19T23:59:00",
-    "proposal_submission": "2022-09-26T23:59:00",
-    "progress_report_1_submission": "2022-10-10T23:59:00",
-    "progress_report_2_submission": "2022-10-24T23:59:00",
-    "in_class_progress_report": "2022-10-31T18:30:00",
-    "poster_session": "2022-11-09",
-    "is_poster_session_date_tentative": false,
-    "final_report_submission": "2022-11-20T23:59:00",
-    "google_sheet": "https://docs.google.com/spreadsheets/d/1EPpsksNEMiy5ribJKmGBenWSZ7D7-F__q4t3SS9IJE8/edit?usp=sharing",
-    "show_updating_notice": false
+    "issue": "2023-09-18",
+    "team_formation": "2023-09-29T23:59:00",
+    "proposal_submission": "2023-10-01T23:59:00",
+    "progress_report_1_submission": "2023-10-15T23:59:00",
+    "progress_report_2_submission": "2023-10-29T23:59:00",
+    "in_class_progress_report": "2023-11-06T18:30:00",
+    "poster_session": "2023-11-15",
+    "is_poster_session_date_tentative": true,
+    "final_report_submission": "2023-11-20T23:59:00",
+    "google_sheet": "https://docs.google.com/spreadsheets/",
+    "show_updating_notice": true
 
   }
 }
