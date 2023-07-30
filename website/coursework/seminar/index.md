@@ -61,12 +61,11 @@ You will form groups of up to 4 people, and each team will have to find a new in
 
 ### Nature of Chosen Innovation
 
-Your chosen innovation should be an application (software / hardware / mixture of the two) of <a href="https://en.wikipedia.org/wiki/Generative_artificial_intelligence">Generative Artificial Intelligence (AI)</a>. Some famous examples are ChatGPT, MidJourney, Landing.ai, TOME, etc. Note that you are expected to look for new application that are not well known (yet). 
-
+Your chosen innovation should be an application (software / hardware / mixture of the two) of <a href="https://en.wikipedia.org/wiki/Generative_artificial_intelligence">Generative Artificial Intelligence (AI)</a>. Some famous examples are ChatGPT, MidJourney, Landing.ai, TOME, etc. Note that you are expected to look for new application that are not well known (yet).
 
 ### Target Audience & Level of Technicality
 
-You can assume the target audience to be your fellow classmates, and the whole goal of this assignment is to for you to convince your classmates that your chosen idea is the coolest! A suitable level of technicality is allowed in the presentation. That is, you are allowed to use technical terms that you think your classmates will be able to understand, but please don't start going through the steps of Dijkstra's algorithm line-by-line during your presdentation.
+You can assume the target audience to be your fellow classmates, and the whole goal of this assignment is for you to convince your classmates that your chosen idea is the coolest! A suitable level of technicality is allowed in the presentation. That is, you are allowed to use technical terms that you think your classmates will be able to understand, but please don't start going through the steps of Dijkstra's algorithm line-by-line during your presdentation.
 
 ## Grading and Admin
 
