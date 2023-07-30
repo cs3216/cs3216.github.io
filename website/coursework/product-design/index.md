@@ -48,7 +48,12 @@ Please do not hesitate to approach the friendly CS3216 staff if you need further
 
 ## Objectives
 
-The objective of this assignment is to ideate and design an app that solves a real problem, and use empirical user testing to validate your idea and design. Your team will pick and target an audience to solve their problems. You will need to think critically about the features and user interactions within the product, and how each of these supports the user in solving the problem. Thereafter, you will interview users and use your user research and user testing data to iterate on the design and user interactions. The final product will be a high fidelity interactive prototype that is sufficiently detailed to be handed off to a developer and turned into a final working app.
+The objective of this assignment is to ideate and design an app that solves a real problem, and use empirical user testing to validate your idea and design.
+
+1. Your team will pick and target an audience to solve a common problem they face.
+1. You will need to think critically about the features and user interactions needed within the product, and how each of these supports the user in solving the problem.
+1. You will interview users and use your user research and user testing data to iterate on the product's UI design and user interactions.
+1. The final deliverable will be a high fidelity interactive prototype that is sufficiently detailed to be handed off to a developer and turned into a working app.
 
 :::caution
 
@@ -64,30 +69,30 @@ In this assignment, we will use the following three terms when describing the de
 - **Mockups:** High fidelity designs that are _static_. These designs may look close to the final product, but they cannot be interacted with.
 - **Prototypes:** High fidelity designs that are interactive, i.e. a user can click on a button, and the prototype will transition to the appropriate screen or state.
 
-We will also be asking for the submission of 'user flows'. In traditional user interface (UI) / user experience (UX) circles, these refer to flow chart diagrams that represent each screen as shapes. However, we will instead refer to what [NN Group](https://www.nngroup.com/) calls [_wireflows_](https://www.nngroup.com/articles/wireflows/) as user flows.
+We will also be asking for the submission of "user flows". In traditional user interface (UI) / user experience (UX) circles, these refer to flow chart diagrams that represent each screen as shapes. However, we will instead refer to what [Nielsen Norman Group](https://www.nngroup.com/) calls [_wireflows_](https://www.nngroup.com/articles/wireflows/) as user flows.
 
 More information will be shared in the relevant sections.
 
 ## Phase 0
 
-For this assignment, you will be designing and building a prototype that demonstrates your app's user flows. There are a large number of available UX design tools in the industry, but we recommend using either [Figma](https://www.figma.com/) or [Adobe XD](https://www.adobe.com/sea/products/xd.html).
+For this assignment, you will be designing and building a prototype that demonstrates your app's user flows. There are a large number of available UX design tools in the industry, but we recommend using Figma.
 
-**Figma** is a design tool that is available as a web application. Its most prominent feature is its support for real-time collaboration, allowing team members to work on the same wireframe, mockup or prototype simultaneously. Figma also has community plugins available for additional functionality, such as Iconify, which collates over 50,000 icons for use within your designs! Furthermore, students and educators can obtain a pro license from Figma for free.
+[Figma](https://www.figma.com/) is a design tool that is available as both a web and desktop application. Its most prominent feature is its support for real-time collaboration, allowing team members to work on the same wireframe, mockup or prototype simultaneously. As of 2022, Figma has been acquired by Adobe and is dominating the design tools market.
 
-- https://www.figma.com/community/plugin/all
-- https://www.figma.com/templates/
-- Export your designs out as a `.fig` file when submitting. [Instructions can be found here](https://help.figma.com/hc/en-us/articles/360040028114-Guide-to-exports-in-Figma#Export_in_bulk) at the very bottom.
+Figma also has community plugins available for additional functionality, such as [Iconify](https://www.figma.com/community/plugin/735098390272716381/Iconify), which collates over **50,000 icons** for use within your designs! Furthermore, students and educators can obtain a pro license from Figma for free. We recommend snagging your free pro license as soon as possible.
 
-**Adobe XD** is another powerful design tool that is able to convert your designs into interactive prototypes. These prototypes can be published onto an online link and can be run on mobile devices as a simulation of the real thing. However, Adobe recently stopped offering their free starter plan and switched to a 7-day free trial instead. If you're keen on trying this out and/or you have an Adobe subscription, Adobe provides a lot of free XD resources and design templates that follow the latest design trends:
+- [Figma community plugins](https://www.figma.com/community/plugins)
+- [Figma template gallery](https://www.figma.com/templates/)
 
-- https://www.adobe.com/sea/products/xd/resources.html
-- https://www.xdguru.com/
-- Save your designs locally as a `.xd` file and submit that.
+Figma variables were unveiled during [Config 2023](https://config.figma.com/) (Figma's annual user conference), and prototyping capabilities were drastically enhanced with new features that allow for more dynamic and realistic prototypes using fewer frames and interactions. It's even possible to build a [playable Flappy Bird game prototype](https://www.figma.com/community/file/1255294635761885013) using Figma variables.
 
-Apart from Figma and Adobe XD, here are some other tools you may choose from:
+Export your designs out as a `.fig` file when submitting. [Instructions can be found here](https://help.figma.com/hc/en-us/articles/360040028114-Guide-to-exports-in-Figma#Export_in_bulk) at the very bottom.
+
+Apart from Figma, here are some other tools you may choose from:
 
 - [InVision](https://www.invisionapp.com/): Their free plan allows users to have one prototype with unlimited screens and unlimited collaborators for an unlimited period of time.
 - [Sketch](https://www.sketchapp.com/): An industry standard, but it is not free and available only on macOS.
+- [Adobe XD](https://www.adobe.com/sea/products/xd.html): We used to recommend Adobe XD as an alternative but ever since Figma was acquired by Adobe, the app is discontinued.
 - PowerPoint.
 - Paper and pencil for wireframe sketches.
 
@@ -107,28 +112,28 @@ Whatever tool you choose, it has to be able to produce a prototype that fulfils 
 
 :::info Milestone
 
-**Milestone 0c (Not graded)** Read through http://albancarmet.com/portfolio/elly/. This case study helps you to understand the importance of the User-Centered Design process and why the assignment is structured in this way.
+**Milestone 0c (Not graded)** Read through [Elly: Room/roommate finder mobile application](http://albancarmet.com/portfolio/elly/). This case study helps you to understand the importance of the User-Centered Design process and why the assignment is structured in this way.
 
 :::
 
 ## Phase 1 - User Requirements Gathering
 
-<p>Every good app / platform / website / service begins with a problem they are looking to solve for a target user. As this assignment is due on <strong>{formatDate(assignments.product_design.submission)}</strong>, we recommend you pick a target user who is abundantly available around you, e.g. your fellow NUS students. This way, you can easily conduct your user testing.</p>
+<p>Every good app/platform/website/service begins with a problem they are looking to solve for a target user. As this assignment is due on <strong>{formatDate(assignments.product_design.submission)}</strong>, we recommend you pick a target user who is abundantly available around you, e.g. your fellow NUS students. This way, you can easily conduct your user testing.</p>
 
-Study your users. Think of a problem/pain point you think they are facing now. List down and substantiate the problem/pain point and assumptions you have about:
+Study your users. Think of a problem / pain point you think they are facing now. List down and substantiate the problems / pain points and assumptions you have about:
 
-1. Why are they facing this problem
-2. How are they living / dealing with this problem now
-3. How can your product / service solve this problem
-4. What platform (desktop / mobile / app) will best serve to solve this problem?
-5. Will your product / service solve this problem in a way that does not cause them more stress, effort and time?
+1. Why are they facing this problem?
+1. How are they living/dealing with this problem now?
+1. How can your product/service solve this problem?
+1. What platform (desktop/mobile/app) will best serve to solve this problem?
+1. Will your product/service solve this problem in a way that does not cause them more stress, effort and time?
 
-List the above in a _user persona_ card. A persona is a fictional representation of an ideal user of your product. You can have more than one user persona card if that helps you to better define your audience. There is no fixed format for this, but it should contain at the very least:
+List the above in a **user persona** card. A persona is a fictional representation of an ideal user of your product. You can have more than one user persona card if that helps you to better define your audience. There is no fixed format for this, but it should contain at the very least:
 
 1. A portrait (you can use a stock photo)
-2. Fictitious name for your user persona
-3. Age, gender, current occupation
-4. Answers to the problem / pain point and questions above
+1. Fictitious name for your user persona
+1. Age, gender, current occupation
+1. Answers to the problem / pain point and questions above
 
 <figure className="text--center">
 
@@ -136,7 +141,7 @@ List the above in a _user persona_ card. A persona is a fictional representation
 
 <figcaption>
 
-Source: https://uxdesign.cc/meetup-a-usability-case-study-e909c33f1e3e
+Source: [Meetup: A Usability Case Study](https://uxdesign.cc/meetup-a-usability-case-study-e909c33f1e3e)
 
 </figcaption>
 </figure>
@@ -176,7 +181,7 @@ After your interviews, list down at most three **primary user goals** your produ
 
 The features you pick should answer why they are necessary and how they reinforce your business idea. You should focus on quality and on the impact each feature will bring. Products are not successful just because of the number of features they have.
 
-In general, remember that you are building a Minimum Viable Product (MVP)[^1]. The goal is not to build a complete feature set of the product; instead, the number of features should be just enough to test out your idea and validate that it is worth executing.
+In general, remember that you are building a [Minimum Viable Product (MVP)](https://blog.ycombinator.com/minimum-viable-product-process/). The goal is not to build a complete feature set of the product; instead, the number of features should be just enough to test out your idea and validate that it is worth executing.
 
 A good example is Instagram. They hit 100k users in a week without features such as hashtags or explore. Check out their [product timeline](https://en.wikipedia.org/wiki/Timeline_of_Instagram).
 
@@ -186,7 +191,7 @@ Remember, less is more. If you come up with fifteen features, you are doing it w
 
 :::
 
-At the same time, you should not omit essentials such as authentication and settings or the lack thereof. A large part of WhatsApp's popularity was due to simply having the phone number as the user account and their focus on the core essentials of messaging!
+At the same time, you should not omit essentials such as authentication and settings or the lack thereof. A large part of WhatsApp's popularity was due to simply having the phone number as the user account and their focus on the core essentials of messaging! [Threads](https://www.threads.net/), Meta's "Twitter killer", saw over 100 million sign ups in less than five days due to the ease of onboarding. It uses Instagram login and users can easily follow the same accounts they follow on Instagram.
 
 As you are designing a product for the real world, it is also important to ensure that your ideas and business logic are sound, realistic, and executable. Answer these questions:
 
@@ -219,12 +224,16 @@ You should do some research before starting to work on the designs. Professional
 
 You might also find pattern libraries useful. A pattern library is a collection of user interface design elements, such as a login page, a news feed, a profile page, a credit card entry screen, etc. They are recurring solutions that solve common design problems.
 
-- [Mobbin](https://mobbin.design/) - A website created by fellow School of Computing student [Lim Ji Ho](http://www.jiholim.com/) that showcases the various screens found within popular mobile apps
-- [pttrns](https://pttrns.com/) - Another mobile app UI pattern library which includes Apple Watch apps
-- [Material Design Tools](https://material.io/tools/) - Customise and download Material Design icons and theme assets
-- [Apple Design Resources](https://developer.apple.com/design/resources/) - Assets and tools for designing for Apple devices
+- [Mobbin](https://mobbin.com/): A website that showcases the various screens found within popular mobile and web apps that's very popular among the design community. It is founded by School of Computing alumni [Jiho Lim](https://www.linkedin.com/in/jiho/) and [Liau Jian Jie](https://www.linkedin.com/in/liaujianjie/) (CS3216 AY2019/20).
+- [Page Flows](https://pageflows.com/): Covers user flows, screens and emails across various devices. Generous amount of free content.
+- [UI Sources](https://www.uisources.com/): Another source for UI flow inspirations focusing on mobile apps and includes recordings of end to end user journeys (paid).
 
-Other good resources for design inspiration include [Dribbble](https://dribbble.com/) and [Behance](https://www.behance.net/). They are websites used by designers to showcase their work. You could think of them as LinkedIn for designers.
+Platform-specific design resources:
+
+- [Material Design Tools](https://material.io/): Official resource hub for Material Design, Google's open source design system. Useful if you want to pursue a Material design theme.
+- [Apple Design Resources](https://developer.apple.com/design/resources/): Assets and tools for designing for Apple devices.
+
+Other good resources for design inspiration include [Behance](https://www.behance.net/) and [Dribbble](https://dribbble.com/). They are websites used by designers to showcase their portfolio/work. You could think of them as LinkedIn for designers.
 
 ---
 
@@ -251,7 +260,7 @@ Whichever tool you use to design your wireframes, make sure you can "transition"
 
 :::caution Wireframes should be low-fidelity
 
-It is tempting to 'skip steps' by using component kits or colourful designs that might add to the aesthetic of your wireframe. However, the point of wireframes is to be 'ugly' and bare-bones so that you can be focused on **iterating on the idea and user flows quickly**, without being distracted by the aesthetics or colours for both you and your user.
+It is tempting to "skip steps" by using component kits or colourful designs that might add to the aesthetic of your wireframe. However, the point of wireframes is to be "ugly" and bare-bones so that you can be focused on **iterating on the idea and user flows quickly**, without being distracted by the aesthetics or colours for both you and your user.
 
 Please ensure that your wireframes are **low-fidelity**.
 
@@ -276,7 +285,7 @@ Source: https://www.flickr.com/photos/mockupbuilder/12987528713/in/pool-ilovewir
 
 :::
 
-Now, on top of your wireframes, sketch out the user flows for each of the major features you have listed above, e.g. links between buttons and screens. You may have more than one flow for each feature, and the flow can even start from outside your app. Similar to before, keep your user personas in mind when designing the user flows. Please keep these user flows as a separate copy, and you may bring all the screens together in a single document / image to better illustrate the flows between different screens.
+Now, on top of your wireframes, sketch out the user flows for each of the major features you have listed above, e.g. links between buttons and screens. You may have more than one flow for each feature, and the flow can even start from outside your app. Similar to before, keep your user personas in mind when designing the user flows. Please keep these user flows as a separate copy, and you may bring all the screens together in a single document/image to better illustrate the flows between different screens.
 
 These are some examples of user flows you may want to sketch out. In some cases, you may also have an explicit hypothesis you may wish to test.
 
@@ -316,11 +325,11 @@ For any buttons or screens that you have not designed, you can reuse any existin
 
 Remain as neutral as possible during testing. Only ask follow-up questions **after** the user testing session is completely over. This would be your chance to ask:
 
-- Did you notice button X on this screen?
+- Did you notice "X" button on this screen?
 - Why did you click here and not there? What did you expect to happen when you clicked here?
 - You seemed lost on this page. Why were you lost? What did you expect to happen?
 
-Rinse and repeat with three to five[^2] different users.
+Rinse and repeat with three to five different users. Does this seem too small a sample? See [Why You Only Need to Test with 5 Users](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/).
 
 :::info Milestone
 
@@ -366,7 +375,7 @@ Source: https://www.nngroup.com/articles/wireflows
 </figcaption>
 </figure>
 
-You may find it useful to develop a set of shared assets such as the app's logo, colour scheme, font and common UI widget so your mockup looks coherent when it is built by different members of the team.
+You may find it useful to develop a set of shared assets such as the app's logo, colour scheme, font and common UI elements so your mockup looks coherent when it is built by different members of the team. Figma supports [Components](https://help.figma.com/hc/en-us/articles/360038662654-Guide-to-components-in-Figma), which is a way to build elements you can reuse across your designs. You can give Figma components properties and compose them together, similar to UI library components in React/Vue/Angular. [Untitled UI](https://www.untitledui.com/) and [Riddle UI](https://www.riddleui.com/) are Figma UI kits / design systems that contain a good amount of free design system components you can use in your prototype. Figma components, used with Figma variables, empower teams to build consistent designs.
 
 **If your team is feeling up to the task,** you may also choose to jump right into building a prototype, which is of higher fidelity than wireframes and is interactive. Testing with a high fidelity prototype should be the next best thing from testing with an actual working prototype. This allows for a stronger [suspension of disbelief](https://www.nngroup.com/articles/authentic-behavior-in-user-testing/), allowing the user to act more realistically. Your chosen prototyping tool should allow the user to directly click on elements, which should transition the prototype to the next screen or state. This also frees you from acting as the computer, which gives you more time to observe the user instead.
 
@@ -397,7 +406,7 @@ Similar to Milestone 6, you must now test your high fidelity mockup or prototype
 
 We strongly recommend testing at least once with an interactive prototype. Modern prototyping tools allow for precise configuration of transitions, and it would be good to test whether the transitions you plan to use between screens are intuitive to the users.
 
-As you should already be fairly confident in your information structure and basic user interaction, you can instead focus on design details, usability and user experience. For instance, you may wish to check if the chosen colour and design of your primary [call to action](https://en.wikipedia.org/wiki/Call_to_action_%28marketing%29) button is sufficiently differentiated and noticeable. In addition, because you are using "production" colours, fonts and UI elements, you can test for a wider range of issues, such as legibility, affordance[^3] and engagement.
+As you should already be fairly confident in your information structure and basic user interaction, you can instead focus on design details, usability and user experience. For instance, you may wish to check if the chosen colour and design of your primary [call to action](https://en.wikipedia.org/wiki/Call_to_action_%28marketing%29) button is sufficiently differentiated and noticeable. In addition, because you are using "production" colours, fonts and UI elements, you can test for a wider range of issues, such as legibility, engagement, and affordance (an object's properties that show the possible actions users can take with it, thereby suggesting how they may interact with that object).
 
 However, remember that the primary goal of the testing is still to observe the user interact with the app. If you need to ask specific questions about elements of the design which the user did not comment on during testing, you should only do so at the end of the test.
 
@@ -419,7 +428,7 @@ Now, it's time to demonstrate how your app should work! Come together **as a tea
 
 :::
 
-We want you to be aware that the different milestones in Assignment 1 have been structured for you to gain a good sense of what it takes to produce a Product Requirements Document (PRD), a document used in companies (Facebook, Amazon, Google, many other tech companies...) to describe the product being built. The PRD is usually produced and has to be approved before further product development can take place. Once produced, it drives the efforts of the entire product team and the company's sales, marketing and customer support efforts.
+We want you to be aware that the different milestones in Assignment 1 have been structured for you to gain a good sense of what it takes to produce a Product Requirements Document (PRD), a document used in companies (Meta, Amazon, Google, many other tech companies...) to describe the product being built. The PRD is usually produced by the Product Manager and has to be approved before further product development can take place. Once produced, it drives the efforts of the entire product team and the company's sales, marketing and customer support efforts.
 
 The broad structure of the PRD is as such:
 
@@ -458,23 +467,26 @@ A wonderful application is useless if there are no users using it! In this secti
 
 When should you launch a website for your app? If your answer is to launch only after the app has been released, you are missing out! Just like movie trailers, which are released months before the actual launch of the movie, you can launch a landing page, which is a website designed to gauge interest and convert visitors into leads/users.
 
-A landing page should:
+A landing page for an app that hasn't been launched should:
 
 - Explain what your app is about and aims to generate interest in it.
-- Contain a form that allows you to record a visitor's information. Businesses often promise some sort of deal or promo for the first X users who sign up.
+- Contain a form that allows you to record a visitor's information (e.g. email). Businesses often promise some sort of deal or promo for the first X users who sign up. Another smart marketing tactic is to allow users to claim/reserve their username on your product, which creates a sense of scarcity (e.g. [Cal.com](https://cal.com/).)
 
-Great examples of attractive landing pages can be found at:
+Here are some resources and examples for building attractive landing pages:
 
-- [19 of the Best Landing Page Design Examples You Need to See in 2018](https://blog.hubspot.com/marketing/landing-page-examples-list)
-- [12 Great Landing Page Examples You'll Want to Copy](https://blog.hubspot.com/marketing/fantastic-landing-page-examples)
+- [One Page Love](https://onepagelove.com/)
+- [SaaS landing page examples](https://saaslandingpage.com/)
+- [6 Coming Soon Landing Page Examples to Build A Waitlist For Your Next Launch](https://www.convertflow.com/campaigns/coming-soon-landing-pages)
+- [Landing Page Design Examples to Inspire Your Own in 2023](https://blog.hubspot.com/marketing/landing-page-examples-list)
+- [20 Great Landing Page Examples You'll Want to Copy in 2023](https://blog.hubspot.com/marketing/fantastic-landing-page-examples)
 
 :::info Milestone
 
-**Milestone 10:** Design and launch a landing page for your app that is publicly accessible. You should consider hosting it on [GitHub pages](https://pages.github.com), but you can host it anywhere that works and just let us have the URL. It should have a sign-up form for users to indicate interest (it doesn't have to actually save any data).
+**Milestone 10:** Design and launch a landing page for your app that is publicly accessible. You should consider hosting it on [Vercel](https://vercel.com) or [GitHub pages](https://pages.github.com), but you can host it anywhere that works and just let us have the URL. It should have a sign-up form for users to indicate interest (it doesn't have to actually save any data).
 
 :::
 
-Use a CSS framework like [Bulma](https://bulma.io) or [Bootstrap](https://getbootstrap.com) to save yourself some time. Remember that the design has to be attractive and that your message has to be succinct! You can even consider landing page creators like [MailChimp landing pages](https://mailchimp.com/features/landing-pages/) to skip all the work.
+Use a CSS library/framework like [Tailwind UI](https://tailwindui.com/) or [Bootstrap](https://getbootstrap.com) to save yourself some time. Remember that the design has to be attractive and that your message has to be succinct! You can even consider no/low code solutions like like [Framer](https://framer.com/) or [MailChimp landing pages](https://mailchimp.com/features/landing-pages/) to skip all the work.
 
 ### Marketing Strategy
 
@@ -504,7 +516,7 @@ Videos are not the only way to market an app - to obtain marks in the coveted 30
 Your submission will include a write-up that describes how your group has met all the milestones for this assignment:
 
 - It should contain answers to Milestones 1-4 and 10-11.
-- It should also sumamarise your Milestones 5-9. More specifically, it should:
+- It should also summarise your Milestones 5-9. More specifically, it should:
   - Make it clear how the designs are organised. Which ones are wireframes, mockups or prototypes?
   - Briefly recap the results and observations from your user testing results.
   - Highlight the main user flows presented in each draft / iteration submitted.
@@ -524,7 +536,7 @@ Overall, the product design assignment is worth 10% of your final grade.
 - Your final write-up named `group-<number>-milestones.pdf`
 - Your designs and testing results - zipped together - named `group-<number>-designs.zip`
 
-For submissions that are >1GB in size (which is the maximum upload size that Coursemology currently has), upload the zip file to Google Drive and submit a pdf file containing the link to your designs and testing results. Please make sure the last modified date time of your uploaded zip file on Google Drive is before the submission deadline.
+For submissions that are >1GB in size (which is the maximum upload size that Coursemology currently has), upload the zip file to Google Drive and submit a PDF file containing the link to your designs and testing results. Please make sure the last modified date time of your uploaded ZIP file on Google Drive is before the submission deadline.
 
 :::tip
 
@@ -535,7 +547,3 @@ As a final reminder, you should have written answers for <strong>six milestones<
 Clarifications and questions related to this assignment should be posted to the Coursemology forum.
 
 Good luck and have fun!
-
-[^1]: See https://blog.ycombinator.com/minimum-viable-product-process/
-[^2]: Does this seem too small a sample? See [Why You Only Need to Test with 5 Users](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/)
-[^3]: _Affordances_ are an object's properties that show the possible actions users can take with it, thereby suggesting how they may interact with that object.
