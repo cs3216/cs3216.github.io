@@ -2,6 +2,8 @@
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator based on React and MDX.
 
+Note: Node v18 is required for this specific Docusaurus version.
+
 ## Docusaurus Commands
 
 ### Installation
@@ -13,7 +15,7 @@ $ yarn
 ### Local Development
 
 ```
-$ yarn start
+$ yarn dev
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
@@ -38,7 +40,7 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 ### Writing Content
 
-The current Docusaurus site uses [MDX](https://mdxjs.com/) which allows writing JSX in Markdown. However, a block of contents in an MDX file can either be Markdown or JSX but not both. Hence you might see some places in the markdown files have quite a number of newlines which seems redundant but it is actually to indicate to the compiler to switch between Markdown and JSX parsing. **Don't remove newlines in the Markdown files unless you know what you are doing!**. It's recommended that you install the Prettier extension for your editor and let it format the files for you (turn on the "Format on Save" option).
+The current Docusaurus site uses [MDX](https://mdxjs.com/) which allows writing JSX in Markdown. However, a block of contents in an MDX file can either be Markdown or JSX but not both. Hence you might see some places in the markdown files have quite a number of newlines which seems redundant but it is actually to indicate to the compiler to switch between Markdown and JSX parsing. **Don't remove newlines in the Markdown files unless you know what you are doing!**. It's recommended that you install the Prettier extension for your editor (e.g. [Prettier for VS Code](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)) and let it format the files for you (turn on the "Format on Save" option).
 
 ### Adding Students
 
