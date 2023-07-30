@@ -39,6 +39,8 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .video-container iframe,
