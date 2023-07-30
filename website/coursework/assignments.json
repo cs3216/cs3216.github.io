@@ -17,10 +17,9 @@
   "mobile": {
     "issue": "2023-08-30",
     "submission": "2023-09-29T23:59:00",
-    "show_updating_notice": false
+    "show_updating_notice": true
   },
   "project": {
-
     "issue": "2023-09-18",
     "team_formation": "2023-09-29T23:59:00",
     "proposal_submission": "2023-10-01T23:59:00",
@@ -32,6 +31,5 @@
     "final_report_submission": "2023-11-20T23:59:00",
     "google_sheet": "https://docs.google.com/spreadsheets/",
     "show_updating_notice": true
-
   }
 }
