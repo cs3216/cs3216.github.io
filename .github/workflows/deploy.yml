@@ -17,7 +17,7 @@ jobs:
           node-version: "18.x"
       - name: Test Build
         run: |
-          cd website
+          cd website-new
           if [ -e yarn.lock ]; then
             yarn install --frozen-lockfile
           elif [ -e package-lock.json ]; then
@@ -44,7 +44,7 @@ jobs:
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "gh-actions"
-          cd website
+          cd website-new
           if [ -e yarn.lock ]; then
             yarn install --frozen-lockfile
           elif [ -e package-lock.json ]; then
