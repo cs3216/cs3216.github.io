@@ -8,7 +8,8 @@ const config: DocsThemeConfig = {
   project: {
     link: "https://github.com/cs3216/cs3216.github.io",
   },
-  docsRepositoryBase: "https://github.com/cs3216/cs3216.github.io/website",
+  docsRepositoryBase:
+    "https://github.com/cs3216/cs3216.github.io/blob/master/website",
   footer: {
     text: "CS3216 Software Product Engineering for Digital Markets",
   },

@@ -1,3 +1,4 @@
+import { Bleed } from "nextra-theme-docs";
 import { Callout } from "nextra/components";
 import assignments from "~/utils/assignments";
 import FormattedDate from "~/utils/FormattedDate";
@@ -23,7 +24,7 @@ and will be finalised soon.</Callout>}
 
 Since you have all survived the first half a semester of CS3216, you are now an expert in both product design and software product development. The Final Project is where you will showcase to the world (and the CS3216 teaching staff, since the Final Project is what will mostly determine your final grade) your creativity and talents.
 
-For the Final Project, you will work in teams of three or four (fewer is also allowed) to develop and deploy an application (mobile, web or otherwise) of your choice. You are allowed to team up with anybody you want (and mutually willing to work with you). You may also work with external parties. Please update your groupings on the <a href={assignments.project.google_sheet}> Student Grouping Google Sheet</a> by <FormattedDate date={assignments.project.team_formation} />. Each team is to submit a project proposal by <FormattedDate date={assignments.project.proposal_submission} /> (Monday immediately after Recess Week) and the teams are expected to work on the Final Projects during the second half of the semester.
+For the Final Project, you will work in teams of three or four (fewer is also allowed) to develop and deploy an application (mobile, web or otherwise) of your choice. You are allowed to team up with anybody you want (and mutually willing to work with you). You may also work with external parties. Please update your groupings on the {<a href={assignments.project.google_sheet}>Student Grouping Google Sheet</a>} by <FormattedDate date={assignments.project.team_formation} />. Each team is to submit a project proposal by <FormattedDate date={assignments.project.proposal_submission} /> (Monday immediately after Recess Week) and the teams are expected to work on the Final Projects during the second half of the semester.
 
 Your team can design the whole application, but if the scope is too large to be completed in one semester and you intend to continue to develop your application for a business venture, you can implement a prototype with some basic (or limited) functionality to satisfy the requirements for the class. Please state such intentions clearly in your proposals. The teaching staff will evaluate your proposals carefully and provide you with our feedback within a week.
 
@@ -56,12 +57,12 @@ If you decide to work with external parties, we do not have any official guide o
 Your team should submit a project proposal by <FormattedDate date={assignments.project.proposal_submission} />. The proposal should be about 4 to 5 pages (maximum of 6) in length and address (at least) the following points:
 
 1. Description of the application you plan to develop.
-2. Justification for choosing this project idea. Briefly mention the 3 key points: "Problem is real? Problem can be solved in CS3216? Problem has impact?"
-3. Project schedule: milestones and timeline, including an implementation plan and deployment plan.
-4. Individual contribution and roles. Contributions and/or support from external partners, if any.
-5. Long-term plan and business model (if applicable).
-6. Marketing and strategies to be employed.
-7. High-level design (e.g. modules, application logic flow, which technologies, i.e. HTML5, Native, Web Sockets to be used).
+1. Justification for choosing this project idea. Briefly mention the 3 key points: "Problem is real? Problem can be solved in CS3216? Problem has impact?"
+1. Project schedule: milestones and timeline, including an implementation plan and deployment plan.
+1. Individual contribution and roles. Contributions and/or support from external partners, if any.
+1. Long-term plan and business model (if applicable).
+1. Marketing and strategies to be employed.
+1. High-level design (e.g. modules, application logic flow, which technologies, i.e. HTML5, Native, Web Sockets to be used).
 
 ## Development of Final Project
 
@@ -78,11 +79,11 @@ We have told you time and again to "go out there and talk to your customers", an
 Each team will be required to submit a progress report on <FormattedDate date={assignments.project.progress_report_1_submission} />. The progress report should include <strong>minimally</strong> the following:
 
 1. Application prototype. Minimally as functional as what was achieved in Assignment 3.
-2. Is your project on schedule according to the milestones and timelines submitted in the initial project proposal? If you are on schedule, great! If not, why not? What is your team doing about the slip in your project schedule?
-3. What were the problems/difficulties your team has encountered? How have you overcome them, or what plans do you have to overcome them?
-4. Any changes to the application since the initial project proposal?
-5. Assuming that your team has already deployed a prototype of your application, how has the response been? Any other new insights, plans or strategies your team has come out with?
-6. Updated project schedule: milestones and timeline.
+1. Is your project on schedule according to the milestones and timelines submitted in the initial project proposal? If you are on schedule, great! If not, why not? What is your team doing about the slip in your project schedule?
+1. What were the problems/difficulties your team has encountered? How have you overcome them, or what plans do you have to overcome them?
+1. Any changes to the application since the initial project proposal?
+1. Assuming that your team has already deployed a prototype of your application, how has the response been? Any other new insights, plans or strategies your team has come out with?
+1. Updated project schedule: milestones and timeline.
 
 A second progress report will be due on <FormattedDate date={assignments.project.progress_report_2_submission} />. The contents of which would be similar to the first progress report.
 
@@ -96,12 +97,12 @@ On <FormattedDate date={assignments.project.in_class_progress_report} />, each t
 
 At this juncture <FormattedDate date={assignments.project.in_class_progress_report} />, you should have a preliminary website for your app up and running, even if it is not fully functional. You are expected to provide us with a URL, and the tutors will be using security tools to scan your site. You will be provided with a security report, and you are expected to address the cited issues for your final project. Clearly, if your project is very incomplete, very little will be found, but you then risk more bad things being found after your final project is submitted. We will be doing another round of security scanning after your final project is submitted.
 
-## SoC STePs
+## SoC STePS
 
-In the last week of class, we will be holding a 4-hour poster session in the SoC student foyer on <FormattedDate date={assignments.project.poster_session} /> {assignments.project.is_poster_session_date_tentative && <span>(TBC)</span>}\*\* from 3pm to 7pm as part of the School of Computing Term Projects So/>wcase
+In the last week of class, we will be holding a 4-hour poster session in the SoC student foyer on <FormattedDate date={assignments.project.poster_session} /> {assignments.project.is_poster_session_date_tentative && <span>(TBC)</span>} from 3pm to 7pm as part of the School of Computing Term Projects Showcase
 (STePS).
 
-Each team is to prepare an A1-sized poster. The judges and other members of the SoC and NUS will turn up for the "show-and-tell". You should treat this session as a trade show to sell your projects as you will get a large percentage of your grading from "other people" - NUS staff, students, alumni, guests - who turn up at your booth. So your final grade depends very much on your show-and-tell in this session. Be creative. Collaterals are encouraged but note that these will be on your own expenses.
+Each team is to prepare an A1-sized poster. The judges and other members of the SoC and NUS will turn up for the "show-and-tell". You should treat this session as a trade show to sell your projects as you will get a large percentage of your grading from "other people" — NUS staff, students, alumni, guests — who turn up at your booth. So your final grade depends very much on your show-and-tell in this session. Be creative. Collaterals are encouraged but note that these will be on your own expenses.
 
 Again, you can choose how you want to present your work. You can bring along other materials in addition to the posters, such as your iPads, or set up your laptops to do a demo also. We'll leave it up to you!
 
@@ -109,11 +110,13 @@ Again, you can choose how you want to present your work. You can bring along oth
 
 Traditionally, every team is required to make a 1-minute video to be submitted to the STePS organising committee. Here's a playlist of past years' videos.
 
-<iframe
-  src="https://www.youtube.com/embed/videoseries?list=PLLYjqEF13ESyh-Rpm_-XtJzOqm5MeEnrj"
-  frameBorder="0"
-  allowFullScreen
-></iframe>
+<Bleed>
+  <iframe
+    src="https://www.youtube.com/embed/videoseries?list=PLLYjqEF13ESyh-Rpm_-XtJzOqm5MeEnrj"
+    width="100%"
+    height="500px"
+  />
+</Bleed>
 
 ### Marketing Efforts
 
@@ -132,38 +135,42 @@ These three teams also created Facebook pages to engage users continually. Have 
 The final A1-sized project poster should (at least) include the following points:
 
 1. Description of the application you have developed.
-2. What makes your application special?
-3. Screenshots, graphics, diagrams and tables. Probably fewer words.
-4. Prepare a snappy yet catchy 1-2 minute pitch that you can use (over and over) when presenting your poster.
+1. What makes your application special?
+1. Screenshots, graphics, diagrams and tables. Probably fewer words.
+1. Prepare a snappy yet catchy 1-2 minute pitch that you can use (over and over) when presenting your poster.
 
 Remember, avoid overloading the poster with too much (small) text. This will ensure that people won't want to read what's on your poster. Add in pictures, graphics, diagrams and tables when appropriate. You are there to "sell" people your idea, to make them convinced that your application is unique and creative, and NOT to put them to sleep.
 
 Some examples of past STePS posters:
 
-<div className="text--center">
+<p>
   <a target="_blank" href="/img/posters/letterbox.pdf">
     <img alt="Letterbox Poster" src="/img/posters/letterbox-thumbnail.png" />
   </a>
+</p>
+<p>
   <a target="_blank" href="/img/posters/paperbaton.pdf">
     <img alt="Paperbaton Poster" src="/img/posters/paperbaton-thumbnail.png" />
   </a>
+</p>
+<p>
   <a target="_blank" href="/img/posters/una.pdf">
     <img alt="Una Poster" src="/img/posters/una-thumbnail.png" />
   </a>
-</div>
+</p>
 
 ## Final Project Report
 
 Like most other classes, the Final Project report is due on <FormattedDate date={assignments.project.final_report_submission} /> (to be uploaded to Coursemology by 23:59, please). The final report should (at least) include the following points:
 
 1. Description of the application you have developed.
-2. Are there any existing applications out there that are similar? What makes your application special?
-3. Review of milestones and timeline for the project (which ones did you hit, what ones did you miss?).
-4. Individual contribution and roles. Acknowledgement of resources/help provided by external parties.
-5. Application design (e.g. database schema, UML, etc., but no code please).
-6. Report on the current number of users who have installed, active users, etc. Perhaps Google Analytics data and screenshots (or similar analytics tools) to support your claims.
-7. Future plans and strategies.
-8. Insights gained from the project. What did you learn from doing the Final Project?
+1. Are there any existing applications out there that are similar? What makes your application special?
+1. Review of milestones and timeline for the project (which ones did you hit, what ones did you miss?).
+1. Individual contribution and roles. Acknowledgement of resources/help provided by external parties.
+1. Application design (e.g. database schema, UML, etc., but no code please).
+1. Report on the current number of users who have installed, active users, etc. Perhaps Google Analytics data and screenshots (or similar analytics tools) to support your claims.
+1. Future plans and strategies.
+1. Insights gained from the project. What did you learn from doing the Final Project?
 
 We do not specify a required page length, though we expect that most reports will be about 10 to 15 pages in length. The report definitely SHOULD NOT exceed 20 pages, please. Once you submit the Final Project report, you are done with CS3216! Congratulations!
 
@@ -188,9 +195,9 @@ For those of you doing external projects, your team is treated as a consultancy.
 The following is the list of deliverables to be pushed to your GitHub repository:
 
 1. Source code.
-2. You should also upload a copy of your poster to your repository.
-3. Proof of working application: You may either (a) Publish the application publicly (in the application settings, untick the Developer Mode); or (b) Add all the members of the teaching staff to the Developers part in the application settings so that we can assess your application (of course you need to add us as your friends first). In both cases, you should provide us with a link to your application's canvas page.
-4. Your Final Project report, in PDF format.
+1. You should also upload a copy of your poster to your repository.
+1. Proof of working application: You may either (a) Publish the application publicly (in the application settings, untick the Developer Mode); or (b) Add all the members of the teaching staff to the Developers part in the application settings so that we can assess your application (of course you need to add us as your friends first). In both cases, you should provide us with a link to your application's canvas page.
+1. Your Final Project report, in PDF format.
 
 Push all of the above to your GitHub repository. **Not following the submission instructions (e.g. incorrect file naming) will result in the deduction of marks.**
 

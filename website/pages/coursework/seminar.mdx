@@ -2,7 +2,7 @@ import { Callout } from "nextra/components";
 import assignments from "~/utils/assignments";
 import FormattedDate from "~/utils/FormattedDate";
 
-# Assignment 2 - Innovation Seminar
+# Assignment 2 — Innovation Seminar
 
 {assignments.seminar.show_updating_notice && <Callout type="warning" emoji="⚠️">
 The final project write-up is currently being updated. Details are tentative
@@ -22,34 +22,33 @@ and will be finalised soon.</Callout>}
 In order to build good and original innovations, it is important to learn what other people have already done — and think critically about what is good and bad, as well as explore ways to improve and generate new ideas. In addition, it is important to learn how to articulate one's ideas clearly and succinctly, both orally and in writing. The innovation seminar is designed to help students:
 
 1. Learn how to identify and assess innovative ideas.
-2. Gain a better understanding of existing innovations.
-3. Learn how to present (or sell one's ideas).
-4. Learn how to articulate their ideas in writing.
+1. Gain a better understanding of existing innovations.
+1. Learn how to present (or sell one's ideas).
+1. Learn how to articulate their ideas in writing.
 
-You will form groups of up to 4 people, and each team will have to find a new innovation and share it with the class.
+You will form teams of up to four people, and each team will have to find a new innovation and share it with the class.
 
-Before you meet as a group, each member is to try their hand at identifying a recent relevant innovation. Your group is to then meet and discuss to finally decide on the most innovative idea and make a presentation about it to the rest of the class on <FormattedDate date={assignments.seminar.presentation} />. Each team is to put up their choice of the most innovative idea on
-the <a href={assignments.seminar.google_sheet}>Google Sheet</a> as soon as possible (latest by <FormattedDate date={assignments.seminar.innovation_submission} />). Note that duplicates are not allowed, and it will be first-come, first-served. Please double check that another group has not taken up your team's choice before adding it to the Google Sheet.
+Before you meet as a team, each member is to try their hand at identifying a recent relevant innovation. Your team is to then meet and discuss to finally decide on the most innovative idea and make a presentation about it to the rest of the class on <FormattedDate date={assignments.seminar.presentation} />. Each team is to put up their choice of the most innovative idea on the {<a href={assignments.seminar.google_sheet}>Google Sheet</a>} as soon as possible (latest by <FormattedDate date={assignments.seminar.innovation_submission} />). Note that duplicates are not allowed, and it will be first-come, first-served. Please double check that another group has not taken up your team's choice before adding it to the Google Sheet.
 
 ### Nature of Chosen Innovation
 
-Your chosen innovation should be an application (software / hardware / mixture of the two) of [Generative Artificial Intelligence (AI)](https://en.wikipedia.org/wiki/Generative_artificial_intelligence). Some famous examples are ChatGPT, MidJourney, Landing.ai, TOME, etc. Note that you are expected to look for new application that are not well known (yet).
+Your chosen innovation should be an application (software / hardware / mixture of the two) of [Generative Artificial Intelligence (AI)](https://en.wikipedia.org/wiki/Generative_artificial_intelligence). Some famous examples are [ChatGPT](https://chat.openai.com/), [Midjourney](https://www.midjourney.com/), [Landing AI](https://landing.ai/), [Tome](https://tome.app/), etc. Note that you are expected to look for new applications that are not well known (yet).
 
 ### Target Audience & Level of Technicality
 
-You can assume the target audience to be your fellow classmates, and the whole goal of this assignment is for you to convince your classmates that your chosen idea is the coolest! A suitable level of technicality is allowed in the presentation. That is, you are allowed to use technical terms that you think your classmates will be able to understand, but please don't start going through the steps of Dijkstra's algorithm line-by-line during your presdentation.
+You can assume the target audience to be your fellow classmates, and the whole goal of this assignment is for you to convince your classmates that your chosen idea is the coolest! A suitable level of technicality is allowed in the presentation. That is, you are allowed to use technical terms that you think your classmates will be able to understand, but please don't start going through the steps of Dijkstra's algorithm line-by-line during your presentation.
 
 ## Grading and Admin
 
 The presentations should attempt to cover the following points about the chosen innovation:
 
-1. Description of the innovation
-2. Why we should care about the innovation you chose (i.e. the potential impact)
-3. What is good about the innovation
-4. What are the limitations of the innovation, and suggestions on how they can be overcome
-5. What are some the aspects of innovation you will design / implement differently, and why
+1. Description of the innovation.
+2. Why we should care about the innovation you chose (i.e. the potential impact).
+3. What is good about the innovation.
+4. What are the limitations of the innovation, and suggestions on how they can be overcome.
+5. What are some the aspects of innovation you will design / implement differently, and why.
 
-For engaging and excitingly quick pace presentation, we are using a format called Pecha Kucha, see http://www.youtube.com/watch?v=9NZOt6BkhUg for an example.
+For engaging and excitingly quick pace presentation, we are using a format called Pecha Kucha (see [this video](http://www.youtube.com/watch?v=9NZOt6BkhUg) for an example).
 
 In brief, each presentation is limited to 20 slides, and each slide should have exactly 20 seconds of air time. This means that each presentation should be approximately 7 minutes (6 minutes 40 seconds to be precise) long. Please stay within this time limit. You can choose to have a single person present or have more than one, but keep in mind that you have a limited time. The teaching staff WILL cut you off after the time limit.
 
@@ -63,9 +62,9 @@ Following the presentation, there will be a short Q&A session opened to the rest
 
 After listening to all the presentations, each student will be randomly assigned to write about two of the innovations that were presented (not their own presentation) and have to write about the following:
 
-1. Based on what the presenting team has shared, describe and explain what the innovation or technology is about. Please don't regurgitate the entire presentation. Summarise the points and keep them unopinionated. (5%)
-2. Was the presentation effective? Did the group show that they fully internalised the presentation techniques discussed in Lecture 3 (PUNCH->WIIFY->Plan)? (6%)
-3. What are your (original) thoughts? (9%)
+1. Based on what the presenting team has shared, describe and explain what the innovation or technology is about. Please don't regurgitate the entire presentation. Summarise the points and keep them unopinionated. **(5%)**
+2. Was the presentation effective? Did the group show that they fully internalised the presentation techniques discussed in Lecture 3 (PUNCH->WIIFY->Plan)? **(6%)**
+3. What are your (original) thoughts? **(9%)**
 
 The fun part is that the assignment of the presentations each student has to write about will be done only AFTER all the presentations are over. This means that every student will have to pay attention to every presentation 😎. Those who like Russian Roulette are welcome to skip and sleep for some presentations.
 
@@ -97,22 +96,25 @@ Overall, the innovation seminar is worth 10% of your final grade.
 
 ## Mode of Submission
 
-The slides for the presentation should be named <code>{"group-<number>-seminar.{pptx|key}"}</code> and uploaded to Coursemology by{" "} <FormattedDate date={assignments.seminar.slides_submission} />, because we will be downloading the slides to project on-screen or screen-share during class.
+The slides for the presentation should be named `group-<number>-seminar.{pptx|key}` and uploaded to Coursemology by <FormattedDate date={assignments.seminar.slides_submission} />, because we will be downloading the slides to project on-screen or screen-share during class.
 
 <details>
   <summary>If you are using Google Slides</summary>
   <p>
-    Instead of the above instructions, upload a PDF version of your slides <code>{'group-<number>-seminar.pdf'}</code> and upload a text file <code>{'group-<number>-seminar.txt'}</code> containing just the publicly-accessible view-only link to your slides to Coursemology by <FormattedDate date={assignments.seminar.slides_submission}/>.
+    Instead of the above instructions, upload a PDF version of your slides `group-<number>-seminar.pdf` and upload a text file `group-<number>-seminar.txt` containing just the publicly-accessible view-only link to your slides to Coursemology by <FormattedDate date={assignments.seminar.slides_submission}/>.
   </p>
-
+  <br />
   <p>
-    Do not make any changes to your slides after the submission deadline, even if it is just tweaking animations. During the presentation day and right before your team presents, one of your team members should be ready with the revision history and show us that there has been no changes past the deadline. If there are any, we will ask you to rollback the presentation' revision to right before the submission deadline, before your presentation starts.
+    Do not make any changes to your slides after the submission deadline, even if it is just tweaking animations. During the presentation day and right before your team presents, one of your team members should be ready with the revision history and show us that there has been no changes past the deadline. If there are any, we will ask you to rollback the presentation's version to right before the submission deadline, before your presentation starts.
   </p>
 </details>
 
 The innovation critiques should be submitted within 24 hours of the innovation seminar, by <FormattedDate date={assignments.seminar.innovation_critiques} />. Your comments for the mutual critique part should be made by <FormattedDate date={assignments.seminar.mutual_critiques} />.
 
-**Marks will be deducted if you fail to follow the submission instructions (e.g. incorrect file naming).**
+<Callout type="warning" emoji="⚠️">
+  Marks will be deducted if you fail to follow the submission instructions (e.g.
+  incorrect file naming).
+</Callout>
 
 Clarifications and questions related to this assignment should be posted to the Coursemology forum.
 
