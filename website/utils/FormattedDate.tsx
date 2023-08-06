@@ -5,7 +5,7 @@ export default function FormattedDate({
   const formattedString = new Intl.DateTimeFormat("en-SG", {
     dateStyle: "full",
     timeStyle: dateString.includes(":") ? "short" : undefined,
-    timeZone: "Australia/Sydney",
+    timeZone: "Asia/Singapore",
   }).format(new Date(dateString));
 
   const Tag = emphasize ? "strong" : "span";
