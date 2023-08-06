@@ -13,6 +13,10 @@ const config: DocsThemeConfig = {
   footer: {
     text: "CS3216 Software Product Engineering for Digital Markets",
   },
+  primaryHue: {
+    light: 132,
+    dark: 106,
+  },
 };
 
 export default config;
