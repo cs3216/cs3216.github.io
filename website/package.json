@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "deploy": "next build && touch out/.nojekyll && gh-pages -d out -m \"Deploy to GitHub Pages\" -t true"
+    "deploy": "next build && gh-pages -d out -m \"Deploy to GitHub Pages\" -t true"
   },
   "license": "MIT",
   "dependencies": {
