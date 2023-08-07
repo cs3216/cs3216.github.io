@@ -14,7 +14,7 @@ const config: DocsThemeConfig = {
     text: "CS3216 Software Product Engineering for Digital Markets",
   },
   primaryHue: {
-    light: 132,
+    light: 196,
     dark: 106,
   },
 };
