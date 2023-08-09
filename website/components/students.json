@@ -133,7 +133,7 @@
       {
         "name": "Joonghyun Eo",
         "id": "joonghyun-eo",
-        "faculty": "",
+        "faculty": "Yale-NUS College College",
         "url": "https://",
         "one_liner": ""
       },
@@ -217,14 +217,14 @@
       {
         "name": "Rinat Musin Ravshanovich",
         "id": "rinat-musin-ravshanovich",
-        "faculty": "Yale-NUS",
+        "faculty": "Yale-NUS College",
         "url": "https://rinatm01.github.io/Fresh-Portfolio/",
         "one_liner": "I am a computer science student at Yale-NUS College, aspiring to make a change in my surroundings with everything I learn."
       },
       {
         "name": "Sherwin Poh Kai Xun",
         "id": "sherwin-poh-kai-xun",
-        "faculty": "",
+        "faculty": "Computing",
         "url": "https://",
         "one_liner": ""
       },
@@ -1695,7 +1695,7 @@
       {
         "name": "Aaron Ong Chong Shi",
         "id": "aaron-ong-chong-shi",
-        "faculty": "Yale",
+        "faculty": "Yale-NUS College",
         "url": "https://aaronong.github.io/",
         "one_liner": "<script>alert(' I tried. I failed. I'm still trying. ')</script>"
       },
@@ -1953,7 +1953,7 @@
       {
         "name": "Chua Yao Hui",
         "id": "chua-yao-hui",
-        "faculty": "Yale",
+        "faculty": "Yale-NUS College",
         "url": "https://superburrito.wordpress.com/",
         "one_liner": "{name: 'Chua Yao Hui',class: '2017',school: 'Yale-NUS College',interests: ['music', 'travelling', 'exercise', 'volunteering', 'cooking', 'politics', 'social causes']}"
       },
