@@ -1,6 +1,57 @@
 [
   {
     "year": 2023,
+    "staff": [
+      {
+        "name": "Dr Soo Yuen Jien",
+        "id": "soo-yuen-jien",
+        "image": "/img/staff/sooyj.jpg",
+        "role": "Associate Professor",
+        "url": "https://www.comp.nus.edu.sg/cs/people/sooyj/"
+      },
+      {
+        "name": "Yangshun Tay",
+        "id": "yangshun-tay",
+        "image": "/img/staff/yangshun.jpg",
+        "role": "Teaching Assistant",
+        "url": "https://www.linkedin.com/in/yangshun/"
+      },
+      {
+        "name": "Phillmont Muktar",
+        "id": "phillmont-muktar",
+        "image": "/img/staff/phillmont-muktar.jpg",
+        "role": "Teaching Assistant",
+        "url": "https://phillmont.dev/"
+      },
+      {
+        "name": "Didymus Ne",
+        "id": "didymus-ne",
+        "image": "/img/staff/didymus-ne.jpg",
+        "role": "Undergraduate Tutor",
+        "url": "https://www.linkedin.com/in/didymusne/"
+      },
+      {
+        "name": "Hong Ai Ling",
+        "id": "hong-ai-ling",
+        "image": "/img/staff/hong-ai-ling.jpg",
+        "role": "Undergraduate Tutor",
+        "url": "https://www.linkedin.com/in/ai-ling-hong/"
+      },
+      {
+        "name": "Ruppa Nagarajan Sivayoga Subramanian",
+        "id": "ruppa-nagarajan-sivayoga-subramanian",
+        "image": "/img/staff/ruppa-nagarajan-sivayoga-subramanian.jpg",
+        "role": "Undergraduate Tutor",
+        "url": "https://sivarn.com"
+      },
+      {
+        "name": "Zhang Ziqing",
+        "id": "zhang-ziqing",
+        "image": "/img/staff/zhang-ziqing.jpg",
+        "role": "Undergraduate Tutor",
+        "url": "https://www.linkedin.com/in/ziqingzhang26/"
+      }
+    ],
     "students": [
       {
         "name": "Albert Ariel Widiaatmaja",
@@ -209,6 +260,7 @@
   },
   {
     "year": 2022,
+    "staff": [],
     "students": [
       {
         "name": "Azeem Vasanwala",
@@ -529,6 +581,7 @@
   },
   {
     "year": 2021,
+    "staff": [],
     "students": [
       {
         "name": "Aloysius Lim Dewen",
@@ -877,6 +930,7 @@
   },
   {
     "year": 2020,
+    "staff": [],
     "students": [
       {
         "name": "Adam Chew Yong Soon",
@@ -1113,7 +1167,7 @@
         "name": "Phillmont Muktar",
         "id": "phillmont-muktar",
         "faculty": "",
-        "url": "https://phillmontisaweso.me",
+        "url": "https://phillmont.dev",
         "one_liner": "I code fueled by glycogen."
       },
       {
@@ -1176,6 +1230,7 @@
   },
   {
     "year": 2019,
+    "staff": [],
     "students": [
       {
         "name": "Alistair Ong",
@@ -1440,6 +1495,7 @@
   },
   {
     "year": 2018,
+    "staff": [],
     "students": [
       {
         "name": "Ang Yee Chin",
@@ -1634,6 +1690,7 @@
   },
   {
     "year": 2017,
+    "staff": [],
     "students": [
       {
         "name": "Aaron Ong Chong Shi",
@@ -1884,6 +1941,7 @@
   },
   {
     "year": 2016,
+    "staff": [],
     "students": [
       {
         "name": "Bui Do Hiep",
@@ -2169,6 +2227,7 @@
   },
   {
     "year": 2015,
+    "staff": [],
     "students": [
       {
         "name": "Anand Sundaram",
