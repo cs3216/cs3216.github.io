@@ -4,9 +4,9 @@
   node createNewJson.js
 
   It will generate a new `student.json` in the current folder (where this .js file is)
-  for you to use in `website/students`.
+  for you to use in `website`.
   It will also create a <year> folder with the images of students to add to
-  `website/static/img/students`.
+  `website/public/img/students/`.
 
   Expects the Coursemology answer zip to take on the following format:
   /<dataDir>
@@ -30,9 +30,9 @@ const path = require("path");
 const { htmlToText } = require("html-to-text");
 
 // Directory containing folders of user submissions downloaded from Coursemology (expects parent directory of user folders)
-const dataDir = "data/submissions";
+const dataDir = "submissions";
 // Unless json format or dir change, there should be no need to modify this
-const originalFileDir = "../../website/students/students.json";
+const originalFileDir = "../../website/components/students.json";
 
 // Subfolders for each question
 const ONELINER_FOLDER = "Question 1 Give us a one-line description of yourself";

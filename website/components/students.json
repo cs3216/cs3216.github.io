@@ -1,5 +1,213 @@
 [
   {
+    "year": 2023,
+    "students": [
+      {
+        "name": "Albert Ariel Widiaatmaja",
+        "id": "albert-ariel-widiaatmaja",
+        "faculty": "Computing",
+        "blog": "https://github.com/albertarielw",
+        "one_liner": "In case of fire: git commit, git push, exit building!"
+      },
+      {
+        "name": "Charisma Kausar",
+        "id": "charisma-kausar",
+        "faculty": "Computing",
+        "blog": "https://ckcherry23.github.io/",
+        "one_liner": "On a quest for those little green squares on GitHub"
+      },
+      {
+        "name": "Chua Wen Xi",
+        "id": "chua-wen-xi",
+        "faculty": "Computing",
+        "blog": "https://github.com/JeremyChuaWX",
+        "one_liner": "Aspiring software developer looking to build awesome stuff."
+      },
+      {
+        "name": "Dexter Leng",
+        "id": "dexter-leng",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/dexter-leng/",
+        "one_liner": "i will never beat the computer science allegations 😭"
+      },
+      {
+        "name": "Elvis Teo Chin Hao",
+        "id": "elvis-teo-chin-hao",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/elvis-teo/",
+        "one_liner": "Rhythm gaming"
+      },
+      {
+        "name": "Eugene Tang Kangjie",
+        "id": "eugene-tang-kangjie",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/eugene-tang-kang-jie",
+        "one_liner": "A tech enthusiast leveraging technology to build aesthetic, impactful products"
+      },
+      {
+        "name": "Florentiana Yuwono",
+        "id": "florentiana-yuwono",
+        "faculty": "Computing",
+        "blog": "https://florentianayuwono.github.io/",
+        "one_liner": "I can park the bicycle for you?"
+      },
+      {
+        "name": "Hang Jia Hui, Brenda",
+        "id": "hang-jia-hui-brenda",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/brenda-hang/",
+        "one_liner": "I am a final-year Business Analytics undergraduate."
+      },
+      {
+        "name": "Izz Hafeez Bin Zek Hazley",
+        "id": "izz-hafeez-bin-zek-hazley",
+        "faculty": "Computing",
+        "blog": "https://www.izzhafeez.com/",
+        "one_liner": "Hi, my name Izz Hafeez and I like Geography, Languages and Music :)"
+      },
+      {
+        "name": "Jason Christopher",
+        "id": "jason-christopher",
+        "faculty": "Computing",
+        "blog": "https://jasonchristopher.space",
+        "one_liner": "Warning: Photo taken before CS3216, actual appearance might differ :\")"
+      },
+      {
+        "name": "Jefferson Lim",
+        "id": "jefferson-lim",
+        "faculty": "Computing",
+        "blog": "https://www.jefferson.sg",
+        "one_liner": "I'm a Computer Science student that blends technical knowledge and design creativity to create work that delights, reshapes and improves lives of people."
+      },
+      {
+        "name": "Joonghyun Eo",
+        "id": "joonghyun-eo",
+        "faculty": "",
+        "blog": "https://",
+        "one_liner": ""
+      },
+      {
+        "name": "Joshen Lim",
+        "id": "joshen-lim",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/joshenxlim/",
+        "one_liner": "I'm a full-stack developer, graphic designer, and musician specialising in Media Information Retrieval."
+      },
+      {
+        "name": "Justin Lim Yong Jie",
+        "id": "justin-lim-yong-jie",
+        "faculty": "Arts and Social Sciences",
+        "blog": "https://www.instagram.com/brooderbrass/",
+        "one_liner": "Hello! I am a ban-mian enthusiast and lover of all things graphic design"
+      },
+      {
+        "name": "Kevin Chua Kian Chun",
+        "id": "kevin-chua-kian-chun",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/kevin-chua-kc/",
+        "one_liner": "plz approve my bugs code"
+      },
+      {
+        "name": "Kleon Ang Cunrong",
+        "id": "kleon-ang-cunrong",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/kleonang/",
+        "one_liner": "Coder. Trader. Optimist."
+      },
+      {
+        "name": "Lau Zhan Ming",
+        "id": "lau-zhan-ming",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/zhan-ming-lau/",
+        "one_liner": "I am interested in learning more on how to build interesting stuff!"
+      },
+      {
+        "name": "Marcus Tang Xin Kye",
+        "id": "marcus-tang-xin-kye",
+        "faculty": "Computing",
+        "blog": "https://marcustxk.com/",
+        "one_liner": "Eager to learn the best practices in the industry to design scalable and resilient solutions and collaborate with like-minded individuals to solve problems through high-quality code."
+      },
+      {
+        "name": "Megan Yee",
+        "id": "megan-yee",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/megan-yee/",
+        "one_liner": "beep boop making things for the computer"
+      },
+      {
+        "name": "Neo Jing Xuan",
+        "id": "neo-jing-xuan",
+        "faculty": "Computing",
+        "blog": "https://github.com/neojxuan",
+        "one_liner": "Sleep, computer games, piano"
+      },
+      {
+        "name": "Neo Wei Qing",
+        "id": "neo-wei-qing",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/weiquu/",
+        "one_liner": "year 4 computer science and applied maths student, with some interest in music and philosophy"
+      },
+      {
+        "name": "Peter Jung",
+        "id": "peter-jung",
+        "faculty": "Computing",
+        "blog": "https://petermonky.github.io/",
+        "one_liner": "Monkey enthusiast, aspiring creator, and avid student of life."
+      },
+      {
+        "name": "Quan Teng Foong",
+        "id": "quan-teng-foong",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/teng-foong-quan-710883219/",
+        "one_liner": "Just another CS kid interested in AI, not ready for the sem to start :/"
+      },
+      {
+        "name": "Rinat Musin Ravshanovich",
+        "id": "rinat-musin-ravshanovich",
+        "faculty": "Yale-NUS",
+        "blog": "https://rinatm01.github.io/Fresh-Portfolio/",
+        "one_liner": "I am a computer science student at Yale-NUS College, aspiring to make a change in my surroundings with everything I learn."
+      },
+      {
+        "name": "Sherwin Poh Kai Xun",
+        "id": "sherwin-poh-kai-xun",
+        "faculty": "",
+        "blog": "https://",
+        "one_liner": ""
+      },
+      {
+        "name": "Tan Rui Quan",
+        "id": "tan-rui-quan",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/ruiquan/",
+        "one_liner": "Asking ChatCPT to give a one-line description of me, brb..."
+      },
+      {
+        "name": "Taufiq Bin Abdul Rahman",
+        "id": "taufiq-bin-abdul-rahman",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/taubar/",
+        "one_liner": "i like to eat red bean potong ice cream"
+      },
+      {
+        "name": "Ting Yi Xin",
+        "id": "ting-yi-xin",
+        "faculty": "Computing",
+        "blog": "https://github.com/tyx021",
+        "one_liner": "A third-year computer science student looking for fun stuff to do"
+      },
+      {
+        "name": "Xu Yi",
+        "id": "xu-yi",
+        "faculty": "Computing",
+        "blog": "https://www.linkedin.com/in/xu-yi/",
+        "one_liner": "Sleep 40 hours a day"
+      }
+    ]
+  },
+  {
     "year": 2022,
     "students": [
       {
