@@ -1,12 +1,12 @@
-import students from "./students.json";
-import Link from "next/link";
+import students from './students.json';
+import Link from 'next/link';
 
 type Props = Readonly<{
   hasClassPhoto?: boolean;
   year: number;
 }>;
 
-export default function StudentList({ hasClassPhoto = true, year }: Props) {
+export default function StudentList({hasClassPhoto = true, year}: Props) {
   return (
     <div className="py-4">
       <div className="mx-auto max-w-7xl flex flex-col gap-y-8">

@@ -3,24 +3,22 @@ title: Assignment 2 — Innovation Seminar
 description: In order to build good and original innovations, it is important to learn what other people have already done — and think critically about what is good and bad, as well as explore ways to improve and generate new ideas. In addition, it is important to learn how to articulate one's ideas clearly and succinctly, both orally and in writing.
 ---
 
-import { Callout } from "nextra/components";
-import assignments from "~/utils/assignments";
-import FormattedDate from "~/utils/FormattedDate";
+import {Callout} from 'nextra/components';
+import assignments from '~/utils/assignments';
+import FormattedDate from '~/utils/FormattedDate';
 
 # Assignment 2 — Innovation Seminar
 
-{assignments.seminar.show_updating_notice && <Callout type="warning" emoji="⚠️">
-The innovation seminar write-up is currently being updated. Details are tentative
-and will be finalised soon.</Callout>}
+{assignments.seminar.show_updating_notice && <Callout type="warning" emoji="⚠️"> The innovation seminar write-up is currently being updated. Details are tentative and will be finalised soon.</Callout>}
 
-| Item                  | Due                                                                                  |
-| :-------------------- | :----------------------------------------------------------------------------------- |
-| Issue date            | <FormattedDate date={assignments.seminar.issue} emphasize={false} />                 |
+| Item | Due |
+| :-- | :-- |
+| Issue date | <FormattedDate date={assignments.seminar.issue} emphasize={false} /> |
 | Innovation submission | <FormattedDate date={assignments.seminar.innovation_submission} emphasize={false} /> |
-| Slides submission     | <FormattedDate date={assignments.seminar.slides_submission} emphasize={false} />     |
-| Presentation          | <FormattedDate date={assignments.seminar.presentation} emphasize={false} />          |
-| Innovation critiques  | <FormattedDate date={assignments.seminar.innovation_critiques} emphasize={false} />  |
-| Mutual critiques      | <FormattedDate date={assignments.seminar.mutual_critiques} emphasize={false} />      |
+| Slides submission | <FormattedDate date={assignments.seminar.slides_submission} emphasize={false} /> |
+| Presentation | <FormattedDate date={assignments.seminar.presentation} emphasize={false} /> |
+| Innovation critiques | <FormattedDate date={assignments.seminar.innovation_critiques} emphasize={false} /> |
+| Mutual critiques | <FormattedDate date={assignments.seminar.mutual_critiques} emphasize={false} /> |
 
 ## General Overview
 

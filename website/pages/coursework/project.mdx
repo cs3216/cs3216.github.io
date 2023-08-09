@@ -3,27 +3,25 @@ title: Final Project
 description: Since you have all survived the first half a semester of CS3216, you are now an expert in both product design and software product development. The Final Project is where you will showcase to the world (and the CS3216 teaching staff, since the Final Project is what will mostly determine your final grade) your creativity and talents.
 ---
 
-import { Bleed } from "nextra-theme-docs";
-import { Callout } from "nextra/components";
-import assignments from "~/utils/assignments";
-import FormattedDate from "~/utils/FormattedDate";
+import {Bleed} from 'nextra-theme-docs';
+import {Callout} from 'nextra/components';
+import assignments from '~/utils/assignments';
+import FormattedDate from '~/utils/FormattedDate';
 
 # Final Project
 
-{assignments.project.show_updating_notice && <Callout type="warning" emoji="⚠️">
-The final project write-up is currently being updated. Details are tentative
-and will be finalised soon.</Callout>}
+{assignments.project.show_updating_notice && <Callout type="warning" emoji="⚠️"> The final project write-up is currently being updated. Details are tentative and will be finalised soon.</Callout>}
 
-| Item                     | Due                                                                                                                                                          |
-| :----------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Issue date               | <FormattedDate date={assignments.project.issue} emphasize={false} />                                                                                         |
-| Team formation deadline  | <FormattedDate date={assignments.project.team_formation} emphasize={false} />                                                                                |
-| Proposal                 | <FormattedDate date={assignments.project.proposal_submission} emphasize={false} />                                                                           |
-| Progress report 1        | <FormattedDate date={assignments.project.progress_report_1_submission} emphasize={false} />                                                                  |
-| Progress report 2        | <FormattedDate date={assignments.project.progress_report_2_submission} emphasize={false} />                                                                  |
-| In-Class progress report | <FormattedDate date={assignments.project.in_class_progress_report} emphasize={false} />                                                                      |
-| Poster session           | <FormattedDate date={assignments.project.poster_session} emphasize={false} />{assignments.project.is_poster_session_date_tentative && (<span> (TBC)</span>)} |
-| Final report             | <FormattedDate date={assignments.project.final_report_submission} emphasize={false} />                                                                       |
+| Item | Due |
+| :-- | :-- |
+| Issue date | <FormattedDate date={assignments.project.issue} emphasize={false} /> |
+| Team formation deadline | <FormattedDate date={assignments.project.team_formation} emphasize={false} /> |
+| Proposal | <FormattedDate date={assignments.project.proposal_submission} emphasize={false} /> |
+| Progress report 1 | <FormattedDate date={assignments.project.progress_report_1_submission} emphasize={false} /> |
+| Progress report 2 | <FormattedDate date={assignments.project.progress_report_2_submission} emphasize={false} /> |
+| In-Class progress report | <FormattedDate date={assignments.project.in_class_progress_report} emphasize={false} /> |
+| Poster session | <FormattedDate date={assignments.project.poster_session} emphasize={false} />{assignments.project.is_poster_session_date_tentative && (<span> (TBC)</span>)} |
+| Final report | <FormattedDate date={assignments.project.final_report_submission} emphasize={false} /> |
 
 ## General Overview
 
@@ -104,8 +102,7 @@ At this juncture <FormattedDate date={assignments.project.in_class_progress_repo
 
 ## SoC STePS
 
-In the last week of class, we will be holding a 4-hour poster session in the SoC student foyer on <FormattedDate date={assignments.project.poster_session} /> {assignments.project.is_poster_session_date_tentative && <span>(TBC)</span>} from 3pm to 7pm as part of the School of Computing Term Projects Showcase
-(STePS).
+In the last week of class, we will be holding a 4-hour poster session in the SoC student foyer on <FormattedDate date={assignments.project.poster_session} /> {assignments.project.is_poster_session_date_tentative && <span>(TBC)</span>} from 3pm to 7pm as part of the School of Computing Term Projects Showcase (STePS).
 
 Each team is to prepare an A1-sized poster. The judges and other members of the SoC and NUS will turn up for the "show-and-tell". You should treat this session as a trade show to sell your projects as you will get a large percentage of your grading from "other people" — NUS staff, students, alumni, guests — who turn up at your booth. So your final grade depends very much on your show-and-tell in this session. Be creative. Collaterals are encouraged but note that these will be on your own expenses.
 

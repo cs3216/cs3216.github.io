@@ -3,18 +3,17 @@ title: Assignment 3 — Mobile Cloud Application
 description: In recent years, mobile cloud computing has been one of the hottest topics regarding technological advancement. So what exactly is mobile cloud computing, and why has it gotten so much attention?
 ---
 
-import { Callout } from "nextra/components";
-import assignments from "~/utils/assignments";
-import FormattedDate from "~/utils/FormattedDate";
+import {Callout} from 'nextra/components';
+import assignments from '~/utils/assignments';
+import FormattedDate from '~/utils/FormattedDate';
 
 # Assignment 3 — Mobile Cloud Application
 
-{assignments.mobile.show_updating_notice && <Callout type="warning" emoji="⚠️">
-This assignment is currently being updated. Details are tentative and will be finalised soon.</Callout>}
+{assignments.mobile.show_updating_notice && <Callout type="warning" emoji="⚠️"> This assignment is currently being updated. Details are tentative and will be finalised soon.</Callout>}
 
-| Item             | Due                                                                      |
-| :--------------- | :----------------------------------------------------------------------- |
-| Issue date       | <FormattedDate date={assignments.mobile.issue} emphasize={false} />      |
+| Item | Due |
+| :-- | :-- |
+| Issue date | <FormattedDate date={assignments.mobile.issue} emphasize={false} /> |
 | Final submission | <FormattedDate date={assignments.mobile.submission} emphasize={false} /> |
 
 ## General Overview
@@ -442,15 +441,15 @@ To get started, we first need to register a service worker with our browser. Cre
 ```html
 <script>
   // Check if browser supports service workers
-  if ("serviceWorker" in navigator) {
+  if ('serviceWorker' in navigator) {
     // Registration of service worker
     navigator.serviceWorker
-      .register("/service-worker.js")
+      .register('/service-worker.js')
       .then(function () {
-        console.log("Registered Service Worker");
+        console.log('Registered Service Worker');
       })
       .catch(function () {
-        console.log("Unable to register");
+        console.log('Unable to register');
       });
   }
 </script>
@@ -465,15 +464,15 @@ In order for your application to work offline, the service worker will need to h
 Add the following code to `service-worker.js` to handle the install event:
 
 ```js
-self.addEventListener("install", function (event) {
+self.addEventListener('install', function (event) {
   event.waitUntil(
-    caches.open("cache_name").then(function (cache) {
+    caches.open('cache_name').then(function (cache) {
       return cache.addAll([
-        "/",
-        "/style.css",
+        '/',
+        '/style.css',
         // ...
       ]);
-    })
+    }),
   );
 });
 ```
@@ -485,7 +484,7 @@ The service worker first opens the cache with the `cache_name`, before calling `
 Now that the required files have been cached by the Service Worker, we can serve the page directly to the user without sending new network requests to retrieve these files. Similar to the **install** event when a page is first visited, a **fetch** event will be fired if the page is visited again. The service worker can then handle this event to return the cached response.
 
 ```js
-self.addEventListener("fetch", function (event) {
+self.addEventListener('fetch', function (event) {
   event.respondWith(
     caches.match(event.request).then(function (response) {
       // Response for the request is found in cache, return the response
@@ -496,7 +495,7 @@ self.addEventListener("fetch", function (event) {
       // Response is not found in cache, make a network request instead
       // You might need to polyfill `fetch` or replace with other forms of ajax calls
       return fetch(event.request);
-    })
+    }),
   );
 });
 ```
@@ -510,7 +509,7 @@ Next, we need to ensure that the service worker and cache are up to date. For th
 However, cache management, such as purging unused cached data, has to be managed by the service worker itself. This should be done in the **activate** callback to ensure that the latest script is used to manage the cache:
 
 ```js
-self.addEventListener("activate", function (event) {
+self.addEventListener('activate', function (event) {
   // Cache management. E.g. Purging unused data
 });
 ```
@@ -532,14 +531,14 @@ Service workers allow resources to be retained locally, but JavaScript variables
 
 ```html
 <script>
-  var user = localStorage.getItem("user");
+  var user = localStorage.getItem('user');
   if (user) {
     console.log(JSON.parse(user));
     // localStorage.clear();
     // localStorage.removeItem('user');
   } else {
-    var newUser = { id: "1234", name: "Bob" };
-    localStorage.setItem("user", JSON.stringify(newUser));
+    var newUser = {id: '1234', name: 'Bob'};
+    localStorage.setItem('user', JSON.stringify(newUser));
   }
 </script>
 ```
@@ -559,25 +558,25 @@ How you handle the problem depends on your application; prior to that, your appl
 ```html
 <script>
   if (navigator.onLine) {
-    alert("Online");
+    alert('Online');
   } else {
-    alert("Offline");
+    alert('Offline');
   }
 
   window.addEventListener(
-    "online",
+    'online',
     function (event) {
-      alert("Online");
+      alert('Online');
     },
-    false
+    false,
   );
 
   window.addEventListener(
-    "offline",
+    'offline',
     function (event) {
-      alert("Offline");
+      alert('Offline');
     },
-    false
+    false,
   );
 </script>
 ```
@@ -599,12 +598,12 @@ Your application needs to be able to communicate the user's actions to the serve
 ```html
 <script>
   $.ajax({
-    type: "PUT",
-    url: "products/12345",
-    contentType: "application/json",
+    type: 'PUT',
+    url: 'products/12345',
+    contentType: 'application/json',
     data: {
-      name: "Apple",
-      price: "0.5",
+      name: 'Apple',
+      price: '0.5',
     },
     success: function (response) {
       // Succeeded! Do something...
@@ -650,11 +649,11 @@ Given this header and payload, the JWT string will then be created in the follow
   const encodedHeader = base64URLencode(header);
   const encodedPayload = base64URLencode(payload);
   const encodedSignature = base64URLencode(
-    HMACSHA256(encodedHeader + "." + encodedHeader, SECRET)
+    HMACSHA256(encodedHeader + '.' + encodedHeader, SECRET),
   );
 
   const encodedJWT =
-    encodedHeader + "." + encodedPayload + "." + encodedSignature;
+    encodedHeader + '.' + encodedPayload + '.' + encodedSignature;
 </script>
 ```
 
@@ -723,13 +722,13 @@ You should be interested in the usage statistics of your application. Google Ana
 If your application's interface is predominantly built with a JavaScript MVC framework, it is very likely that you have a Single-Page Application; one HTML page with all transitions handled by JavaScript code and URLs managed by HTML5 `pushState` API. Pages can still be tracked using Virtual Pageviews by executing the following code instead. Refer to https://developers.google.com/analytics/devguides/collection/analyticsjs/single-page-applications for more information.
 
 ```js
-ga("set", "pageview", "/your_virtual_page_path");
+ga('set', 'pageview', '/your_virtual_page_path');
 ```
 
 **Event Tracking** can provide more fine-grained control over user actions. They can be used to track more events such as successful AJAX calls, buttons pressed, or even videos downloaded. The following code can be embedded in the click callback of a button that publishes a new blog post:
 
 ```js
-ga("send", "event", "button", "click", "publish");
+ga('send', 'event', 'button', 'click', 'publish');
 ```
 
 In particular, **Social Interaction Analytics** can be used to track clicks on social buttons on your application, such as Like, Share or Tweet buttons. To learn how to track social network activity, check out https://developers.google.com/analytics/devguides/collection/analyticsjs/social-interactions.
@@ -825,21 +824,21 @@ This code will continue to output the user's position as they walk about with th
         // success
         var lat = position.coords.latitude;
         var lng = position.coords.longitude;
-        console.log("Pos: [", lat, ",", lng, "]");
+        console.log('Pos: [', lat, ',', lng, ']');
       },
       function (error) {
         switch (error.code) {
           case error.PERMISSION_DENIED:
-            console.log("Permission denied");
+            console.log('Permission denied');
             break;
           case error.POSITION_UNAVAILABLE:
-            console.log("Position unavailable");
+            console.log('Position unavailable');
             break;
           case error.TIMEOUT:
-            console.log("Timeout");
+            console.log('Timeout');
             break;
         }
-      }
+      },
     );
   }
 </script>
