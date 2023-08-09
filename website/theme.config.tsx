@@ -1,5 +1,6 @@
 import React from "react";
-import { DocsThemeConfig } from "nextra-theme-docs";
+import { DocsThemeConfig, useConfig } from "nextra-theme-docs";
+import { useRouter } from "next/router";
 
 const config: DocsThemeConfig = {
   logo: (
@@ -16,6 +17,12 @@ const config: DocsThemeConfig = {
   primaryHue: {
     light: 196,
     dark: 106,
+  },
+  useNextSeoProps() {
+    return {
+      titleTemplate:
+        "%s | CS3216 Software Product Engineering for Digital Markets",
+    };
   },
 };
 
