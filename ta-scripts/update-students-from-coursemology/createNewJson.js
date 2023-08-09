@@ -98,7 +98,7 @@ function processStudent(studentName, studentDirName) {
     name: toTitleCase(studentName.trim()),
     id: imageID,
     faculty: processStudentFaculty(studentDirName),
-    blog: processStudentLink(studentDirName),
+    url: processStudentLink(studentDirName),
     one_liner: processStudentOneLiner(studentDirName),
   };
   return studentObject;

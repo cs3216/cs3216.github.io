@@ -38,7 +38,7 @@ export default function StudentList({ hasClassPhoto = true, year }: Props) {
                 />
                 <Link
                   className="hover:underline"
-                  href={student.blog}
+                  href={student.url}
                   target="_blank"
                   rel="noreferrer noopener"
                 >
