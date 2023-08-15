@@ -131,11 +131,18 @@
         "one_liner": "I'm a Computer Science student that blends technical knowledge and design creativity to create work that delights, reshapes and improves lives of people."
       },
       {
+        "name": "Jivesh Mohan",
+        "id": "jivesh-mohan",
+        "faculty": "Computing",
+        "url": "https://www.linkedin.com/in/jivesh-m/",
+        "one_liner": "year 4 computer science! i aspire to build nice-looking things that i won't hate to use"
+      },
+      {
         "name": "Joonghyun Eo",
         "id": "joonghyun-eo",
-        "faculty": "Yale-NUS College College",
-        "url": "https://",
-        "one_liner": ""
+        "faculty": "Yale-NUS College",
+        "url": "https://www.linkedin.com/in/joonghyun-eo/",
+        "one_liner": "My last name is pronounced \"awe\". That wasn't a lecture on names - I'm horrible at names."
       },
       {
         "name": "Joshen Lim",
