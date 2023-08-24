@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  counter-reset: milestone -1;
+}
+
+.milestone > p {
+  display: inline;
+}
+
+.milestone .milestone-counter:before {
+  content: counter(milestone);
+  counter-increment: milestone;
+}
