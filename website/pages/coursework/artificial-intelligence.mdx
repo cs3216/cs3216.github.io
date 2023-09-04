@@ -489,6 +489,21 @@ Beyond prompt design, most LLM models also provide the following settings to all
   Elaborate on your choice of model parameters.
 </MilestoneCallout>
 
+### Evaluation
+
+Once the LLM integrations are up and running, set up an evaluation pipeline to sanity check whether your fine-tuning or prompt engineering efforts are working across multiple test examples. There are two broad classes of Natural Language Generation Metrics:
+
+- **N-gram Based** metrics measure word or token overlap against the reference. E.g., BLEU, METEOR
+- **Model Based** metrics use a neural model to measure similarity against the reference. E.g., BLEURT, BERTScore
+
+N-gram Based metrics are more appropriate when you expect precise wording, and Model Based typically allows for more open-ended generation. Different metrics tell us about different aspects of natural language generation and there’s typically no single correct evaluation metric. However, there are metrics traditionally associated with NLP tasks. E.g., BLEU for Translation and ROUGE for Summarisation. It’s safe enough to use the default metric for your specific task as there should be available implementations in your preferred language. Note that it's possible to have multiple correct references for a single test sentence.
+
+Further Reading:
+
+- Slide 51 to 65 of this set of slides on [Neural Language Generation](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1224/slides/cs224n-2022-lecture12-generation-final.pdf), Chris Manning@Stanford
+- [A Comprehensive Assessment of Dialog Evaluation Metrics](https://arxiv.org/pdf/2106.03706.pdf)
+
+
 ### Other Resources
 
 #### Courses and Tutorials
