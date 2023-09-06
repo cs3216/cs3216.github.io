@@ -503,7 +503,9 @@ N-gram-based metrics are more appropriate when you expect precise wording, and m
 Further Reading:
 
 - [Neural Language Generation](https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1224/slides/cs224n-2022-lecture12-generation-final.pdf), Chris Manning, Stanford: Slides 51 to 65
-- [A Comprehensive Assessment of Dialog Evaluation Metrics](https://arxiv.org/pdf/2106.03706.pdf)
+- [A Comprehensive Assessment of Dialog Evaluation Metrics](https://arxiv.org/abs/2106.03706)
+- [Holistic Evaluation of Language Models](https://arxiv.org/abs/2211.09110), Percy Liang et al. (2023), Stanford NLP Group
+- [Instruction Tuning for Large Language Models: A Survey](https://arxiv.org/abs/2308.10792)
 
 </Callout>
 
@@ -528,6 +530,26 @@ The following platforms improve the experience of using LLMs in production. They
 
 - [LangSmith](https://www.langchain.com/langsmith): By the creators of LangChain, LangSmith helps you visualize, debug, and improve your LLM apps.
 - [Humanloop](https://humanloop.com/): A platform that empowers teams to build reliable and performant AI systems by providing monitoring, A/B testing, a collaborative prompt workspace, private data storage, and fine-tuning.
+
+#### Open-source LLMs
+
+Platforms like HuggingFace offer support for popular open-source language models born out of community efforts to recreate existing proprietary LLMs provided by miscellaneous companies via APIs or software. These open-source LLMs are easily [finetunable](https://cs3216.com/coursework/artificial-intelligence#fine-tuning) and 
+lightweight. While not as powerful as commercially available LLMs, they offer a free, discounted, yet surprisingly expressive experience in terms of text generation and reasoning capabilities. Here are a few popular models and associated guides to finetune them:
+
+- LLAMA 2 ([`code`](), [`finetuning guide`](https://towardsdatascience.com/fine-tune-your-own-llama-2-model-in-a-colab-notebook-df9823a04a32), [`paper`](https://scontent-xsp1-1.xx.fbcdn.net/v/t39.2365-6/10000000_662098952474184_2584067087619170692_n.pdf?_nc_cat=105&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=bGkSwJy8Xa4AX9SX9XW&_nc_ht=scontent-xsp1-1.xx&oh=00_AfC2wTMNDOi-1j5BHP7STSfurMRMQQANleVSDe7vcMVBOQ&oe=64FDAEFF))
+- Vicuna-13B ([`code`](), [`finetuning guide`](https://docs.ray.io/en/master/train/examples/lightning/vicuna_13b_lightning_deepspeed_finetune.html))
+- Alpaca ([`code`](https://github.com/tloen/alpaca-lora/tree/main), [`finetuning guide`](https://www.mlexpert.io/machine-learning/tutorials/alpaca-fine-tuning)) 
+- GPT-J ([`code`](https://github.com/kingoflolz/mesh-transformer-jax#gpt-j-6b), [`finetuning guide 1`](https://huggingface.co/docs/transformers/model_doc/gptj), [`finetuning guide 2`](https://betterprogramming.pub/fine-tuning-gpt-j-6b-on-google-colab-or-equivalent-desktop-or-server-gpu-b6dc849cb205)) 
+- MPT-7B ([`code`](https://github.com/mosaicml/llm-foundry), [`finetuning guide`](https://www.youtube.com/watch?v=3de0Utr9XnI), [`documentation`](https://huggingface.co/mosaicml/mpt-7b))
+
+
+<Callout type="warning">
+It is recommended that users interested in finetuning such models have access high performance compute clusters with available 
+GPUs (suggestions: NVIDIA RTX 3090, NVIDIA RTX4090, NVIDIA H100 Tensor Core, ...). Alternatively, you can look into online cloud 
+compute platforms like [Lambda Labs](https://lambdalabs.com/), [Paperspace](https://www.paperspace.com/), or [Google Colab Pro/Pro+](https://colab.research.google.com/signup).
+
+You can also apply for free cloud credits through Google Cloud Platform's [Research and Education program](https://cloud.google.com/edu/researchers) (however, no guarantees of definitely getting it since it's application-based, but try your luck!).
+</Callout>
 
 ## Phase 4: Design
 
