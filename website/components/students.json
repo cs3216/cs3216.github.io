@@ -103,13 +103,6 @@
         "one_liner": "I can park the bicycle for you?"
       },
       {
-        "name": "Hang Jia Hui, Brenda",
-        "id": "hang-jia-hui-brenda",
-        "faculty": "Computing",
-        "url": "https://www.linkedin.com/in/brenda-hang/",
-        "one_liner": "I am a final-year Business Analytics undergraduate."
-      },
-      {
         "name": "Izz Hafeez Bin Zek Hazley",
         "id": "izz-hafeez-bin-zek-hazley",
         "faculty": "Computing",
@@ -187,13 +180,6 @@
         "one_liner": "Eager to learn the best practices in the industry to design scalable and resilient solutions and collaborate with like-minded individuals to solve problems through high-quality code."
       },
       {
-        "name": "Megan Yee",
-        "id": "megan-yee",
-        "faculty": "Computing",
-        "url": "https://www.linkedin.com/in/megan-yee/",
-        "one_liner": "beep boop making things for the computer"
-      },
-      {
         "name": "Neo Jing Xuan",
         "id": "neo-jing-xuan",
         "faculty": "Computing",
@@ -206,13 +192,6 @@
         "faculty": "Computing",
         "url": "https://www.linkedin.com/in/weiquu/",
         "one_liner": "year 4 computer science and applied maths student, with some interest in music and philosophy"
-      },
-      {
-        "name": "Peter Jung",
-        "id": "peter-jung",
-        "faculty": "Computing",
-        "url": "https://petermonky.github.io/",
-        "one_liner": "Monkey enthusiast, aspiring creator, and avid student of life."
       },
       {
         "name": "Quan Teng Foong",
