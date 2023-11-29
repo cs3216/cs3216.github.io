@@ -1,0 +1,13 @@
+{
+  "*": {
+    "display": "hidden",
+    "theme": {
+      "toc": false,
+      "sidebar": false,
+      "pagination": false,
+      "typesetting": "article"
+    }
+  },
+  "foo": "Foo",
+  "bar": "Bar"
+}
