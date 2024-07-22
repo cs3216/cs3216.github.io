@@ -2,7 +2,7 @@
   "product_design": {
     "issue": "2023-08-21",
     "submission": "2023-09-04T23:59:00",
-    "show_updating_notice": false
+    "show_updating_notice": true
   },
   "seminar": {
     "issue": "2023-08-14",
@@ -12,12 +12,12 @@
     "innovation_critiques": "2023-09-13T11:59:00",
     "mutual_critiques": "2023-09-15T23:59:00",
     "google_sheet": "https://docs.google.com/spreadsheets/d/1PO11Fi6HQTPpsuTm7ek5OQuZ-geL-JtjQ4wMlqoTJWg/edit?usp=sharing",
-    "show_updating_notice": false
+    "show_updating_notice": true
   },
   "artificial_intelligence": {
     "issue": "2023-08-28",
     "submission": "2023-09-29T23:59:00",
-    "show_updating_notice": false
+    "show_updating_notice": true
   },
   "project": {
     "issue": "2023-09-18",
@@ -30,6 +30,6 @@
     "is_poster_session_date_tentative": true,
     "final_report_submission": "2023-11-22T23:59:00",
     "google_sheet": "https://docs.google.com/spreadsheets/d/1f-r-hNkBWVfXXPcpUbN37oF6DhT6Ap61AwsMkfvRjEA/edit?usp-sharing",
-    "show_updating_notice": false
+    "show_updating_notice": true
   }
 }
