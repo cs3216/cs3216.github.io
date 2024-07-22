@@ -9,7 +9,7 @@
         "role": "Associate Professor",
         "url": "https://www.comp.nus.edu.sg/cs/people/sooyj/"
       },
-            {
+      {
         "name": "Phillmont Muktar",
         "id": "phillmont-muktar",
         "image": "/img/staff/phillmont-muktar.jpg",
@@ -23,7 +23,7 @@
         "role": "Undergraduate Tutor",
         "url": "https://www.linkedin.com/in/didymusne/"
       },
-            {
+      {
         "name": "Ruppa Nagarajan Sivayoga Subramanian",
         "id": "ruppa-nagarajan-sivayoga-subramanian",
         "image": "/img/staff/ruppa-nagarajan-sivayoga-subramanian.jpg",
@@ -38,9 +38,8 @@
         "url": "https://www.linkedin.com/in/ziqingzhang26/"
       }
     ],
-    "students": [
-    ],
-  }, 
+    "students": []
+  },
   {
     "year": 2023,
     "staff": [
