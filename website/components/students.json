@@ -1,5 +1,47 @@
 [
   {
+    "year": 2024,
+    "staff": [
+      {
+        "name": "Dr Soo Yuen Jien",
+        "id": "soo-yuen-jien",
+        "image": "/img/staff/sooyj.jpg",
+        "role": "Associate Professor",
+        "url": "https://www.comp.nus.edu.sg/cs/people/sooyj/"
+      },
+            {
+        "name": "Phillmont Muktar",
+        "id": "phillmont-muktar",
+        "image": "/img/staff/phillmont-muktar.jpg",
+        "role": "Teaching Assistant",
+        "url": "https://phillmont.dev/"
+      },
+      {
+        "name": "Didymus Ne",
+        "id": "didymus-ne",
+        "image": "/img/staff/didymus-ne.jpg",
+        "role": "Undergraduate Tutor",
+        "url": "https://www.linkedin.com/in/didymusne/"
+      },
+            {
+        "name": "Ruppa Nagarajan Sivayoga Subramanian",
+        "id": "ruppa-nagarajan-sivayoga-subramanian",
+        "image": "/img/staff/ruppa-nagarajan-sivayoga-subramanian.jpg",
+        "role": "Undergraduate Tutor",
+        "url": "https://sivarn.com"
+      },
+      {
+        "name": "Zhang Ziqing",
+        "id": "zhang-ziqing",
+        "image": "/img/staff/zhang-ziqing.jpg",
+        "role": "Undergraduate Tutor",
+        "url": "https://www.linkedin.com/in/ziqingzhang26/"
+      }
+    ],
+    "students": [
+    ],
+  }, 
+  {
     "year": 2023,
     "staff": [
       {
