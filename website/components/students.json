@@ -17,25 +17,25 @@
         "url": "https://phillmont.dev/"
       },
       {
-        "name": "Didymus Ne",
-        "id": "didymus-ne",
-        "image": "/img/staff/didymus-ne.jpg",
-        "role": "Undergraduate Tutor",
-        "url": "https://www.linkedin.com/in/didymusne/"
-      },
-      {
         "name": "Ruppa Nagarajan Sivayoga Subramanian",
         "id": "ruppa-nagarajan-sivayoga-subramanian",
         "image": "/img/staff/ruppa-nagarajan-sivayoga-subramanian.jpg",
-        "role": "Undergraduate Tutor",
+        "role": "Teaching Assistant",
         "url": "https://sivarn.com"
       },
       {
         "name": "Zhang Ziqing",
         "id": "zhang-ziqing",
         "image": "/img/staff/zhang-ziqing.jpg",
-        "role": "Undergraduate Tutor",
+        "role": "Teaching Assistant",
         "url": "https://www.linkedin.com/in/ziqingzhang26/"
+      },
+      {
+        "name": "Didymus Ne",
+        "id": "didymus-ne",
+        "image": "/img/staff/didymus-ne.jpg",
+        "role": "Undergraduate Tutor",
+        "url": "https://www.linkedin.com/in/didymusne/"
       }
     ],
     "students": []
