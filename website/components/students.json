@@ -6,7 +6,7 @@
         "name": "Dr Soo Yuen Jien",
         "id": "soo-yuen-jien",
         "image": "/img/staff/sooyj.jpg",
-        "role": "Associate Professor",
+        "role": "Course Coordinator",
         "url": "https://www.comp.nus.edu.sg/cs/people/sooyj/"
       },
       {
@@ -20,22 +20,29 @@
         "name": "Didymus Ne",
         "id": "didymus-ne",
         "image": "/img/staff/didymus-ne.jpg",
-        "role": "Undergraduate Tutor",
+        "role": "Head Tutor",
         "url": "https://www.linkedin.com/in/didymusne/"
       },
       {
         "name": "Ruppa Nagarajan Sivayoga Subramanian",
         "id": "ruppa-nagarajan-sivayoga-subramanian",
         "image": "/img/staff/ruppa-nagarajan-sivayoga-subramanian.jpg",
-        "role": "Undergraduate Tutor",
+        "role": "Tutor",
         "url": "https://sivarn.com"
       },
       {
         "name": "Zhang Ziqing",
         "id": "zhang-ziqing",
         "image": "/img/staff/zhang-ziqing.jpg",
-        "role": "Undergraduate Tutor",
+        "role": "Tutor",
         "url": "https://www.linkedin.com/in/ziqingzhang26/"
+      },
+      {
+        "name": "Xu Yi",
+        "id": "xu-yi",
+        "image": "/img/staff/xu-yi.jpg",
+        "role": "Tutor",
+        "url": "https://www.linkedin.com/in/xu-yi/"
       }
     ],
     "students": []

@@ -1,35 +1,35 @@
 {
   "product_design": {
-    "issue": "2023-08-21",
-    "submission": "2023-09-04T23:59:00",
+    "issue": "2024-08-19",
+    "submission": "2024-09-02T23:59:00",
     "show_updating_notice": true
   },
   "seminar": {
-    "issue": "2023-08-14",
-    "innovation_submission": "2023-08-28T23:59:00",
-    "slides_submission": "2023-09-10T23:59:00",
-    "presentation": "2023-09-11T18:30:00",
-    "innovation_critiques": "2023-09-13T11:59:00",
-    "mutual_critiques": "2023-09-15T23:59:00",
-    "google_sheet": "https://docs.google.com/spreadsheets/d/1PO11Fi6HQTPpsuTm7ek5OQuZ-geL-JtjQ4wMlqoTJWg/edit?usp=sharing",
+    "issue": "2024-08-19",
+    "innovation_submission": "---",
+    "slides_submission": "2024-09-09T11:59:00",
+    "presentation": "2024-09-09T18:30:00",
+    "innovation_critiques": "2024-09-11T11:59:00",
+    "mutual_critiques": "2024-09-13T23:59:00",
+    "google_sheet": "https://docs.google.com/spreadsheets",
     "show_updating_notice": true
   },
   "artificial_intelligence": {
-    "issue": "2023-08-28",
-    "submission": "2023-09-29T23:59:00",
+    "issue": "2024-08-26",
+    "submission": "2024-09-27T23:59:00",
     "show_updating_notice": true
   },
   "project": {
-    "issue": "2023-09-18",
-    "team_formation": "2023-09-25T23:59:00",
-    "proposal_submission": "2023-10-01T23:59:00",
-    "progress_report_1_submission": "2023-10-15T23:59:00",
-    "progress_report_2_submission": "2023-10-29T23:59:00",
-    "in_class_progress_report": "2023-11-06T18:30:00",
-    "poster_session": "2023-11-15",
+    "issue": "2024-09-16",
+    "team_formation": "2024-09-23T23:59:00",
+    "proposal_submission": "2024-09-30T23:59:00",
+    "progress_report_1_submission": "2024-10-13T23:59:00",
+    "progress_report_2_submission": "2024-10-27T23:59:00",
+    "in_class_progress_report": "2024-11-04T18:30:00",
+    "poster_session": "2024-11-13",
     "is_poster_session_date_tentative": true,
-    "final_report_submission": "2023-11-22T23:59:00",
-    "google_sheet": "https://docs.google.com/spreadsheets/d/1f-r-hNkBWVfXXPcpUbN37oF6DhT6Ap61AwsMkfvRjEA/edit?usp-sharing",
+    "final_report_submission": "2024-11-20T23:59:00",
+    "google_sheet": "https://docs.google.com/spreadsheets",
     "show_updating_notice": true
   }
 }
