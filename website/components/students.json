@@ -45,7 +45,127 @@
         "url": "https://www.linkedin.com/in/xu-yi/"
       }
     ],
-    "students": []
+    "students": [
+      {
+        "name": "Chloe Lim Xinying",
+        "id": "chloe-lim-xinying",
+        "faculty": "Computing",
+        "url": "https://chloelimxinying.com",
+        "one_liner": "this is fine"
+      },
+      {
+        "name": "Daniel Kok",
+        "id": "daniel-kok",
+        "faculty": "Computing",
+        "url": "https://www.linkedin.com/in/daniel-kok-jw",
+        "one_liner": "Here are 2 truths and 1 lie about me: I'm an easy going person, scuba dive as a hobby and have been to universal studios in Singapore."
+      },
+      {
+        "name": "Gau Meng Yew",
+        "id": "gau-meng-yew",
+        "faculty": "Business, Computing",
+        "url": "https://www.linkedin.com/in/mengyewgau",
+        "one_liner": "I push now. Everyone else take care and good luck"
+      },
+      {
+        "name": "Ho Cheng En Bryan",
+        "id": "ho-cheng-en-bryan",
+        "faculty": "Computing",
+        "url": "https://bryanhce-portfolio.vercel.app/",
+        "one_liner": "Always eager to learn and experiment!"
+      },
+      {
+        "name": "Kyal Sin Min Thet",
+        "id": "kyal-sin-min-thet",
+        "faculty": "Computing",
+        "url": "https://www.linkedin.com/in/kyalsinminthet/",
+        "one_liner": "lgtm, can go prod"
+      },
+      {
+        "name": "Lam Jiu Fong",
+        "id": "lam-jiu-fong",
+        "faculty": "Computing",
+        "url": "https://www.linkedin.com/in/jiu-fong-lam/",
+        "one_liner": "I find myself getting addicted to games easily"
+      },
+      {
+        "name": "Le Huy Chau",
+        "id": "le-huy-chau",
+        "faculty": "Computing",
+        "url": "https://chauuule.github.io/portfolio/",
+        "one_liner": "People said I'm A-Train because I'm a lady-killer"
+      },
+      {
+        "name": "Leong See Leng",
+        "id": "leong-see-leng",
+        "faculty": "Computing",
+        "url": "https://seeleng.dev",
+        "one_liner": "Building cool or funny things makes me happy. I also like playing video games."
+      },
+      {
+        "name": "Lok Jian Ming",
+        "id": "lok-jian-ming",
+        "faculty": "Computing",
+        "url": "https://www.linkedin.com/in/jianminglok",
+        "one_liner": "I need more sleep :')"
+      },
+      {
+        "name": "Muhammad Reyaaz",
+        "id": "muhammad-reyaaz",
+        "faculty": "Computing",
+        "url": "https://reyaaz.netlify.app/",
+        "one_liner": "I am a passionate person who enjoys both playing and watching football."
+      },
+      {
+        "name": "Nguyen Khoi Nguyen",
+        "id": "nguyen-khoi-nguyen",
+        "faculty": "Computing",
+        "url": "https://nknguyenhc.github.io/",
+        "one_liner": "Frontend/backend/AI enthusiast 😎 with side interest in Xiangqi & music 🤔"
+      },
+      {
+        "name": "Ong Pei Cong Lester",
+        "id": "ong-pei-cong-lester",
+        "faculty": "Computing",
+        "url": "https://www.lesterong.com",
+        "one_liner": "i am a rubber duck"
+      },
+      {
+        "name": "Shirshajit Sen Gupta",
+        "id": "shirshajit-sen-gupta",
+        "faculty": "Computing",
+        "url": "https://cl.gy/XWop",
+        "one_liner": "Embracing entropy, highly opinionated, sleep 5.5 hours a day."
+      },
+      {
+        "name": "Srinivasan Aarnav",
+        "id": "srinivasan-aarnav",
+        "faculty": "Computing",
+        "url": "https://www.linkedin.com/in/aarnav-srinivasan-a2643a23b/",
+        "one_liner": "A Year 4 CS student eager to learn new stuff."
+      },
+      {
+        "name": "Tan Wee Kian, Justin",
+        "id": "tan-wee-kian-justin",
+        "faculty": "Computing",
+        "url": "https://www.linkedin.com/in/tan-wee-kian-justin/",
+        "one_liner": "I like my coffee like my code -- keeps me up at night and hopefully without bugs"
+      },
+      {
+        "name": "Vaishnav Muralidharan",
+        "id": "vaishnav-muralidharan",
+        "faculty": "Computing",
+        "url": "https://www.linkedin.com/in/vaishnav-muralidharan-73a8366a/",
+        "one_liner": "Y4 CS passionate about full-stack development, product engineering and building things that I see myself using."
+      },
+      {
+        "name": "Wang Haoyang",
+        "id": "wang-haoyang",
+        "faculty": "Computing",
+        "url": "https://haoyangw.github.io",
+        "one_liner": "I'm a meticulous person who enjoys solving problems and turning ideas into reality with my knowledge and skills."
+      }
+    ]
   },
   {
     "year": 2023,
