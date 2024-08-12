@@ -2,7 +2,7 @@
   "product_design": {
     "issue": "2024-08-19",
     "submission": "2024-09-02T23:59:00",
-    "show_updating_notice": true
+    "show_updating_notice": false
   },
   "seminar": {
     "issue": "2024-08-19",
@@ -10,7 +10,7 @@
     "presentation": "2024-09-09T18:30:00",
     "innovation_critiques": "2024-09-11T11:59:00",
     "mutual_critiques": "2024-09-13T23:59:00",
-    "show_updating_notice": true
+    "show_updating_notice": false
   },
   "artificial_intelligence": {
     "issue": "2024-08-26",
