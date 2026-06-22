@@ -1,13 +1,5 @@
 # CS3216 Homepage
 
-### What it is
-
-CS3216 homepage containing coursework and student information. It is a static site built with Docusaurus.
-
-### Installation
-
-For instructions on how to set up, refer to [Docusaurus website](https://docusaurus.io).
-
 ### Commit Conventions
 
 Prefix your commits with these identifiers for better organization of Git history - `<identifier> <commit message>`. For example: `[A1] Fix typo in friends milestone`.

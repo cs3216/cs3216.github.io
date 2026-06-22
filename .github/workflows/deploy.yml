@@ -18,13 +18,7 @@ jobs:
       - name: Test Build
         run: |
           cd website
-          if [ -e yarn.lock ]; then
-            yarn install --frozen-lockfile
-          elif [ -e package-lock.json ]; then
-            npm ci
-          else
-            npm i
-          fi
+          npm ci
           npm run build
   gh-pages-deploy:
     if: github.event_name != 'pull_request'
@@ -37,13 +31,7 @@ jobs:
       - name: Release to GitHub Pages
         run: |
           cd website
-          if [ -e yarn.lock ]; then
-            yarn install --frozen-lockfile
-          elif [ -e package-lock.json ]; then
-            npm ci
-          else
-            npm i
-          fi
+          npm ci
           git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
           npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
         env:
