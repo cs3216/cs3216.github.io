@@ -1,4 +1,32 @@
-[
+[  {
+    "year": 2026,
+    "staff": [
+      {
+        "name": "Dr Soo Yuen Jien",
+        "id": "soo-yuen-jien",
+        "image": "/img/staff/sooyj.jpg",
+        "role": "Course Coordinator",
+        "url": "https://www.comp.nus.edu.sg/cs/people/sooyj/"
+      },
+      {
+        "name": "Dr Ben Leong",
+        "id": "ben-leong",
+        "image": "/img/staff/bleong.jpg",
+        "role": "Course Instructor",
+        "url": "https://www.comp.nus.edu.sg/cs/people/bleong/"
+      },
+      {
+        "name": "Phillmont Muktar",
+        "id": "phillmont-muktar",
+        "image": "/img/staff/phillmont-muktar.jpg",
+        "role": "Head Teaching Assistant",
+        "url": "https://phillmont.dev/"
+      }
+    ],
+    "students": [
+      
+    ]
+  },
   {
     "year": 2024,
     "staff": [
