@@ -1,6 +1,6 @@
 ---
 title: Assignment 3 — Artificial Intelligence
-description: In the ever-evolving landscape of technology, a new wave of applications is emerging, characterized by their innovative use of Generative AI and LLMs. This surge has been led by entities like OpenAI (ChatGPT, DALL-E) and Stability AI (Midjourney) who have demonstrated the potential of AI-generated content and interactions.
+description: In the ever-evolving landscape of technology, a new wave of AI-powered applications is emerging, going far beyond simple prompting to leverage multi-step workflows, tool calling, retrieval, and multimodal inputs. The bar for what constitutes a meaningful AI product has never been higher.
 ---
 
 import {Callout} from 'nextra/components';
@@ -21,20 +21,19 @@ import MilestoneCallout from '~/components/MilestoneCallout';
 
 In recent times, the landscape of software development has been profoundly reshaped by the remarkable strides made in artificial intelligence (AI) and, more specifically, generative AI and large language models (LLMs). These advancements have revolutionized how applications are conceived, designed, and experienced, opening up a realm of possibilities that were once confined to the realm of science fiction.
 
-At the heart of this transformation lie LLMs, such as GPT-3.5 and Claude, which stand as towering pillars of AI ingenuity. These models possess an unprecedented ability to comprehend and generate human language with impressive fluency and nuance. As a result, a new era of app development has emerged — one characterized by applications that are not merely tools, but intelligent and empathetic companions.
+At the heart of this transformation lie LLMs, which possess an unprecedented ability to comprehend and generate human language with impressive fluency and nuance. More recently, the field has evolved beyond simple prompt-and-response interactions into a world of **agentic AI** — systems that can reason, plan, use tools, and take multi-step actions autonomously. Applications can now orchestrate complex workflows, retrieve and ground information from external sources, and interact across modalities (text, image, audio, code).
 
-The key merits of building apps that harness the power of LLMs include:
+At the same time, AI has fundamentally changed how software is built. Tools like GitHub Copilot, Cursor, and agentic coding assistants enable developers to ship faster than ever before. This means the **bar for what constitutes a meaningful product is substantially higher**. Simply wrapping an API and calling it a product is no longer sufficient — the expectation is that you build something with real engineering depth and product sophistication.
+
+The key merits of building apps that harness the power of modern AI include:
 
 1. **Natural language understanding and generation**: LLMs enable apps to not only understand user inputs with remarkable accuracy but also respond in a manner that mirrors human conversation. This grants users a level of interaction that transcends traditional interfaces, fostering more engaging and meaningful experiences.
-1. **Contextual awareness**: These models possess an inherent understanding of context, allowing apps to tailor responses and actions based on the evolving conversation. This adaptability creates a sense of fluidity and responsiveness, akin to conversing with a knowledgeable friend.
-1. **Content creation and enhancement**: Apps can leverage LLMs to generate a wide array of content, from articles and reports to creative writing and marketing copy. This capability has the potential to revolutionize content-driven industries, amplifying efficiency and creativity.
-1. **Personalization**: By tapping into the vast expanse of language data, apps can deliver personalized experiences that cater to individual preferences, needs, and emotions. This personal touch fosters a deeper sense of connection and resonance.
+1. **Agentic capabilities**: AI systems can now autonomously plan, reason, and execute multi-step tasks — from research and data gathering to code generation and workflow automation. This opens up entirely new categories of products.
+1. **Retrieval and grounding**: Through techniques like RAG (Retrieval-Augmented Generation), apps can ground their outputs in real, up-to-date data, dramatically improving accuracy and usefulness.
+1. **Multimodal interaction**: Modern AI can process and generate text, images, audio, and code — enabling richer, more capable applications.
+1. **Personalization at scale**: By leveraging user data and context, apps can deliver deeply personalized experiences that adapt to individual preferences, needs, and behaviors.
 
-Recent enhancements in AI have propelled LLMs to even greater heights. Techniques such as unsupervised fine-tuning and transfer learning have imbued these models with the ability to adapt to specific tasks and domains. Moreover, efforts to democratize AI have led to increased accessibility, empowering a broader spectrum of developers to harness the potential of these models.
-
-In this era of AI-powered app development, the boundaries of creativity are expanding. Whether it's a virtual personal assistant that understands nuanced voice commands, a language-learning app that adapts to each user's proficiency, or a content creation tool that seamlessly generates tailored content, the possibilities are limited only by imagination.
-
-The convergence of LLMs and app development is ushering in a new wave of innovation, redefining the way we interact with technology. As these models continue to evolve and mature, they will undoubtedly leave an indelible mark on the fabric of our digital experiences, enriching and enhancing our lives in ways that were once unfathomable.
+Because AI tools can now handle much of the boilerplate engineering work, we expect CS3216 students to push beyond the basics. Practices like maintaining an `AGENTS.md`, writing specs, enforcing formatting and linting, writing tests, and using structured development workflows are strongly encouraged — they help both you and your AI tools build faster and better. You should be prepared to explain how you use AI effectively to build things fast while staying on track and maintaining stability.
 
 As a CS3216 student, you do not want to miss out the opportunity of a lifetime to be at the forefront of this new AI wave!
 
@@ -48,6 +47,12 @@ This assignment is highly open-ended. We provide milestones so that we can grade
 
 With that said, you have a lot of freedom to express your creativity. You are free to develop any idea you like. However, if some of the proposed milestones do not make sense for the application you intend to build, you can petition to replace them with some other deliverables. You are to explain why we should agree to your petition and submit your petition via email at least one week before the assignment is due. **Your petition is subject to approval.**
 
+<Callout type="warning">
+
+The expectation for Assignment 3 is **much higher** than in previous years. With AI-assisted coding tools at your disposal, there is no excuse for a low-quality submission. You should use AI to code, and the bar should be substantially higher now. You will be assessed not just on the product you build, but also on **how effectively you leverage AI tools** to improve your productivity and output — e.g. what tools you use to move fast and why you chose them.
+
+</Callout>
+
 While the milestones may be easy to meet, simply meeting them will not give you full credit. We ask for quality submissions, not run-of-the-mill work.
 
 To score the coveted remaining 30%, use your creativity to develop an application that stands out from the rest. We will not limit your potential by restricting the kind of application you can build. We expect that you will surprise us (pleasantly!) with what you are capable of doing. Do note that features must fit the aim of your application; ideally, they should be seamlessly integrated.
@@ -58,13 +63,13 @@ Please do not hesitate to approach the friendly CS3216 staff if you need further
 
 ## Objectives
 
-The high-level goal of this assignment is to utilize generative AI (LLMs in particular) to build a meaningful digital product.
+The high-level goal of this assignment is to utilize AI (LLMs in particular) to **build a meaningful digital product**. We encourage you to go beyond simple prompt-and-response interactions — consider incorporating modern AI patterns such as multi-step agents or workflows, retrieval/grounding, tool calling, structured outputs, or multimodal input/output.
 
 You should approach this assignment with the mindset of an entrepreneur — you own every decision, and each decision you make (from design to engineering) will directly translate to the "success" of your product.
 
 Like all previous assignments, we designed milestones such that you can hopefully have a sense of direction on where we expect you to reach, but these milestones are broadly described so that you are not restricted on how to get there.
 
-In this assignment, your task is to demonstrate that you can design and implement a web application that utilizes the capabilities of LLMs, persist the users' data in the cloud and leverage the user's identity in a meaningful manner.
+In this assignment, your task is to demonstrate that you can design and implement a web application that utilizes the capabilities of LLMs and modern AI patterns, persist the users' data in the cloud and leverage the user's identity in a meaningful manner. We encourage you to aim for **significant engineering complexity and system design beyond CRUD operations**. For example, agentic coding tools are highly optimized for code retrieval, coordinating multiple async jobs, and managing agent memory — these require solid engineering that pure vibe coding can't really get you to.
 
 You should utilize this assignment to showcase your product sense and engineering capabilities. You should also consolidate learnings from [Assignment 1 (on Product Design)](/coursework/product-design) and [Assignment 2 (on identifying innovations, and gaps in the market)](/coursework/innovation-seminar) to build a fuller product for this assignment.
 
@@ -97,16 +102,16 @@ Within the generative AI startup landscape, there are a few common categories of
 - **Image**: Generate, modify, or enhance images. Tools for artists, designers, and photographers to generate artwork, edit photos, and visualize ideas. Examples: [Midjourney](https://www.midjourney.com/), [Runway ML](https://runwayml.com/), [Pebblely](https://pebblely.com/), Adobe Photoshop.
 - **Audio**: Compose music, generate sound effects, and even mimic specific voices.
 - **Code**: Assist in software development tasks, including generating code snippets, offering coding suggestions, and even automating parts of the coding process. Examples: [GitHub Copilot](https://github.com/features/copilot), [Sourcegraph Cody](https://about.sourcegraph.com/cody).
-- **Chatbot**: Create conversational agents powered by generative AI. These chatbots can engage in natural conversations, answer queries, and provide support based on custom data. Examples: [Mendable](https://www.mendable.ai/), [Chatbase](https://www.chatbase.co/), [Glean](https://www.glean.com/), [AskMore](https://askmore.ai/). AskMore uses AI to conduct your user research so you get more feedback, faster, and in any language; an AI can even do your Assignment 1 milestone for you!
-- **Design**: Design your brand, logo, websites, presentations, and marketing collateral with a prompt. Examples: [Framer AI](https://www.framer.com/ai), [Designs.ai](https://designs.ai/), [Uizard](https://uizard.io/), [Tome](https://tome.app/).
+- **Chatbot**: Create conversational agents powered by generative AI. These chatbots can engage in natural conversations, answer queries, and provide support based on custom data. Examples: [Mendable](https://www.mendable.ai/), [Chatbase](https://www.chatbase.co/), [Glean](https://www.glean.com/).
+- **Design**: Design your brand, logo, websites, presentations, and marketing collateral with a prompt. Examples: [Framer AI](https://www.framer.com/ai), [Designs.ai](https://designs.ai/), [Uizard](https://uizard.io/), [Gamma](https://gamma.app/).
 - **Video**: Manipulate and create video content. These tools can be used for video editing, special effects, and even automated video creation. Examples: [Synthesia](https://www.synthesia.io/), [Lumen5](https://lumen5.com/).
 - **Data and Analytics**: Analyze and generate datasets for testing and simulation purposes. Query data using natural language. Examples: [Defog](https://defog.ai/).
-- **Agents**: Create virtual agents powered by generative AI. These agents can emulate human interactions and assist with tasks like scheduling, information retrieval, and more. Examples: [Cognosys](https://www.cognosys.ai/), [Spell](https://spell.so/).
+- **Agents**: Create virtual agents powered by generative AI. These agents can emulate human interactions and assist with tasks like scheduling, information retrieval, and more. Examples: [Coze](https://www.coze.com/), [Flowise](https://flowiseai.com/).
 - **Gaming**: Create dynamic game environments, generate levels, adapt game mechanics based on player behavior, NPCs can engage in personalized conversation with players.
 
 While most companies are part of the AI "gold rush", some prefer to follow the saying "during a gold rush, sell shovels". These "shovel" companies build services around LLMs, selling API access to LLMs and platforms to make it easier to build AI products:
 
-- **APIs**: Access to the LLMs hosted on the cloud. Examples: ChatGPT & GPT-3.5 by OpenAI, Claude by Antropic, Command by Cohere.
+- **APIs**: Access to the LLMs hosted on the cloud. Examples: ChatGPT & GPT-4o by OpenAI, Claude by Anthropic, Command by Cohere.
 - **Toolchains**: Simplify common LLM-related operations. Examples: LangSmith by LangChain, Cohere platform, Humanloop.
 - **Vector databases**: Stores data in a format that enables semantic information retrieval and long-term memory for LLMs. Examples: Supabase Vector, Pinecone, Weaviate.
 
@@ -170,7 +175,7 @@ The competitive profile matrix is used commonly by strategic management to compa
 
 ![Competitive Profile Matrix](./artificial-intelligence/img/competitive-profile-matrix.png)
 
-_Source: [https://thinkinsights.net/strategy/competitive-profile-matrix/](https://thinkinsights.net/strategy/competitive-profile-matrix/)_
+_Source: thinkinsights.net_
 
 </Callout>
 
@@ -191,7 +196,7 @@ A common pitfall for engineering-focused students is their bias towards technolo
 
 <Callout type="warning">
 
-All teams should first create a post on Coursemology under the Assignment 3 topic containing the proposed product for the teaching team's approval before starting on the project!
+All teams should first create a post on Coursemology under the Assignment 3 topic containing the proposed product for the teaching team's approval before starting on the project! Unlike the pre-AI era, the teaching team will evaluate your assignment ideas more carefully to ensure they fit the objectives of the assignment and push beyond what can be trivially built with AI tools alone.
 
 </Callout>
 
@@ -204,11 +209,19 @@ All teams should first create a post on Coursemology under the Assignment 3 topi
 
 In the context of product strategy, a "moat" refers to a sustainable competitive advantage that a product possesses, which helps protect its market share and profitability from competitors. Just like a moat around a medieval castle provides protection and makes it difficult for enemies to breach the walls, a business "moat" creates barriers that deter competitors from easily entering the market or replicating the company's success.
 
+<Callout type="warning">
+
+The moat question is **even more important now** than it was in previous years. With AI-assisted coding tools, it is fairly easy to clone apps. If your competitor can replicate your product in a weekend using Cursor or similar tools, you don't have a moat. Think deeply about what makes your product defensible.
+
+</Callout>
+
 A moat can take various forms, including (but not limited to):
 
 - Brand
 - Technological Innovation
 - Economies of Scale
+- Network Effects and Data Advantages
+- Proprietary Datasets or Domain Expertise
 - Investor Confidence
 - Ethics and Responsible AI
 - Customisation and Personalisation
@@ -233,7 +246,7 @@ For startups especially in the AI sector, establishing a moat is essential to st
 
 <MilestoneCallout>
   What's your secret sauce / moat? Elaborate on your strategy to prevent
-  competitors and big players from cloning your app and its features?
+  competitors and big players from cloning your app and its features. Given how easy it is to clone apps with AI tools, what makes your product defensible?
 </MilestoneCallout>
 
 ## Phase 2: Go-To-Market
@@ -314,14 +327,20 @@ In the digital product market today, there are multitude of ways to price. Here 
 - [The Ultimate Guide To Saas Pricing Models, Strategies & Psychological Hacks](https://www.cobloom.com/blog/saas-pricing-models) considers seven of the most common way digital SaaS products are priced today.
 - [Mapping the Generative AI landscape](https://www.antler.co/blog/generative-ai)'s section on "Looking into the future—Gen-AI revenue models".
 
+<Callout type="warning">
+
+**AI products require different pricing models from traditional SaaS.** Many AI companies today are operating at negative margins, burning money to acquire users while hoping that costs will decrease over time or that they can raise prices later. Usage-based pricing (per API call, per token, per task) is increasingly common. You should think carefully about how the cost structure of AI inference affects your pricing strategy, and whether your business model is sustainable. Consider the trade-offs between flat subscription pricing, usage-based pricing, and freemium models in the context of variable AI compute costs.
+
+</Callout>
+
 **Note:** It is possible that the currency of "success" may not always be the dollar. You are not restricted to build a product that has the dollar as its currency of success. If not the dollar, what are some other metrics you can use to consider? E.g. If you build a social chat bot, then a key metric to determine success could be the volume of messages.
 
 <MilestoneCallout>
   Come up with a monetization and pricing strategy (e.g. tiers and features).
   Explain why you think this pricing strategy is suitable for your target users
   and problem space. Explain the factors that influenced your pricing decisions,
-  such as production costs, perceived value, competition, etc. It would be
-  useful here to consider possible revenue streams of your product.
+  such as production costs, perceived value, competition, and AI inference costs. It would be
+  useful here to consider possible revenue streams of your product and how your cost structure scales with usage.
 </MilestoneCallout>
 
 ## Phase 3: Artificial Intelligence Integration
@@ -412,12 +431,12 @@ Both input and output tokens make up the total number of tokens in an API call, 
 
 - How much the API costs, as LLM providers usually charge per token.
 - How long the API call takes, as more time is needed if there are more input tokens to process and output tokens to generate.
-- The functionality of the API call, since the total tokens must remain within the model's maximum threshold (e.g. 4096 tokens for `gpt-3.5-turbo`).
+- The functionality of the API call, since the total tokens must remain within the model's maximum context window threshold (e.g. 128k tokens for `gpt-4o-mini` or 1m+ tokens for `gemini-1.5-flash`).
 
 Further reading on tokens:
 
-- [GPT - OpenAI API](https://platform.openai.com/docs/guides/gpt/managing-tokens)
-- [Tokens | Cohere](https://docs.cohere.com/docs/tokens)
+- [How to count tokens with tiktoken | OpenAI Cookbook](https://cookbook.openai.com/examples/how_to_count_tokens_with_tiktoken)
+- [Tokens and Tokenizers | Cohere Docs](https://docs.cohere.com/docs/tokens-and-tokenizers)
 
 #### Fine-tuning
 
@@ -436,12 +455,11 @@ In general, fine-tuning involves the following steps:
 1. Train a new fine-tuned model.
 1. Use your fine-tuned model.
 
-Fine-tuning is specific to models and not every LLM API offers the functionality. As of Aug 2023, OpenAI allows fine-tuning for `gpt-3.5-turbo`.
+Fine-tuning is specific to models and not every LLM API offers the functionality. For example, OpenAI supports fine-tuning for models like `gpt-4o-mini` and `gpt-3.5-turbo`.
 
 Further reading on fine-tuning:
 
 - [Fine-tuning - OpenAI API](https://platform.openai.com/docs/guides/fine-tuning)
-- [GPT-3.5 Fine Tuning: Unlock the True Potential with This Comprehensive Guide](https://boldercloud.com.au/gpt-3-5-fine-tuning-unlock-the-true-potential-with-this-comprehensive-guide/)
 - [The Challenges, Costs, and Considerations of Building or Fine-Tuning an LLM](https://hackernoon.com/the-challenges-costs-and-considerations-of-building-or-fine-tuning-an-llm)
 
 <MilestoneCallout>
@@ -456,18 +474,18 @@ Not all models are built equally. Each model has its own advantages, limitations
 
 #### Popular LLMs and Providers
 
-- **[OpenAI](https://platform.openai.com/overview)**: OpenAI is one of the pioneers in the field of LLMs and needs no further introduction. They have released a number of LLMs, including GPT-3 and GPT-4. OpenAI's LLMs are known for their large size and their ability to generate realistic and creative text.
-- **[Command](https://cohere.com/models/command) by [Cohere](https://cohere.com/)**: Cohere develops an LLM called Command and their platform offers a huge range of services that can be viewed as a batteries-included version of OpenAI API.
-- **[Llama 2](https://ai.meta.com/llama/) by [Meta AI](https://ai.meta.com/)**: Open source LLM by Meta that's free to use. There's no official hosted API available so if you want to use it you will need to host it yourself. Check out [Web LLM](https://webllm.mlc.ai/) for a version that runs in the browser.
-- **[Hugging Face](https://huggingface.co/)**: Hugging Face is a community-driven platform for LLMs. They provide a number of tools and resources for developers who want to use LLMs. Hugging Face's LLMs are known for their diversity and their availability.
-- **[Bard](https://bard.google.com/) by [Google AI](https://ai.google/)**: While ChatGPT's data is only up till September 2021 (using GPT-3.5), Bard which is a chatbot by Google uses PaLM 2 and is based on real-time current events pulled from Google Search. However, Bard API access is still in beta and [requires a Google Cloud project](https://www.cloudbooklet.com/googles-bard-api-key/).
-- **[Claude](https://claude.ai/) by [Anthropic](https://www.anthropic.com/)**: Claude is an LLM developed by Anthropic, a company that is focused on developing safe and beneficial artificial intelligence. As of Aug 2023, the API is not yet generally available.
+- **[OpenAI](https://platform.openai.com/overview)**: OpenAI is one of the pioneers in the field of LLMs. They offer a range of commercial models including `GPT-4o` (for complex, multimodal tasks) and `GPT-4o-mini` (a fast, lightweight, and cost-effective model).
+- **[Command](https://cohere.com/models/command) by [Cohere](https://cohere.com/)**: Cohere develops the Command family of models (such as Command R and R+) which are optimized for retrieval-augmented generation (RAG) and tool-use use cases.
+- **[Llama 3](https://ai.meta.com/llama/) by [Meta AI](https://ai.meta.com/)**: Meta's state-of-the-art open-weights models (available in 8B, 70B, and 405B parameters). While you can host them yourself, they are also widely available via serverless hosted APIs like Groq, Together AI, and AWS Bedrock.
+- **[Hugging Face](https://huggingface.co/)**: Hugging Face is a community-driven platform for open-source AI. They host thousands of open models, datasets, and provide tools for easily running and deploying models.
+- **[Gemini](https://ai.google/) by [Google AI](https://ai.google/)**: Google's multimodal model family, including `Gemini 1.5 Pro` and `Gemini 1.5 Flash`. They feature extremely large context windows (up to 2 million tokens) and native multimodality, available through Google AI Studio or Vertex AI.
+- **[Claude](https://www.anthropic.com/) by [Anthropic](https://www.anthropic.com/)**: Claude (including Claude 3.5 Sonnet and Haiku) is Anthropic's state-of-the-art model family, widely praised for its reasoning, coding capability, and safety features.
 
 [Vercel AI Playground](https://sdk.vercel.ai/) allows you to compare output of different models by the various providers using the same prompt. Super handy!
 
 When choosing LLMs and providers, it is important to consider your specific needs and requirements. Some factors to consider include the type and size of the training data, the type of applications you want to build, context window size (maximum tokens allowed), and the price per token.
 
-Certain LLMs are more suited for certain tasks from specific domains. If your app is dealing with code like GitHub Co-pilot, you may find that [Code Llama](https://ai.meta.com/blog/code-llama-large-language-model-coding/) and [WizardCoder](https://huggingface.co/WizardLM/WizardCoder-Python-34B-V1.0) is more suited for the job. If you require real time data/knowledge for your output, GPT-3.5 might not be the best choice because the data is not updated since September 2021. It's important to select the model that is the most suitable for your product!
+Certain LLMs are more suited for certain tasks from specific domains. If your app is dealing with code like GitHub Copilot, you may find that models optimized for coding (such as Qwen 2.5 Coder or DeepSeek Coder) are more suited for the job. It's important to select the model that is the most suitable for your product's requirements!
 
 <Callout type="warning">
 
@@ -506,6 +524,98 @@ Further Reading:
 - [Holistic Evaluation of Language Models](https://arxiv.org/abs/2211.09110), Percy Liang et al. (2023), Stanford NLP Group
 - [Instruction Tuning for Large Language Models: A Survey](https://arxiv.org/abs/2308.10792)
 
+### Modern AI Engineering Patterns
+
+Building a meaningful AI product today goes far beyond sending a prompt to an LLM and displaying the response. Modern AI applications leverage a range of engineering patterns that enable more powerful, reliable, and grounded outputs. We encourage you to explore and incorporate these patterns where they add value to your product:
+
+- **Retrieval-Augmented Generation (RAG)**: Supplementing the model with relevant, up-to-date information retrieved from your own data sources before generating a response. This grounds the output in real data and reduces hallucinations.
+- **Tool calling / Function calling**: Allowing the model to invoke external tools or APIs (e.g., search engines, databases, calculators, code interpreters) as part of its reasoning process. This extends the model's capabilities beyond text generation.
+- **Structured outputs**: Constraining the model to produce output in a specific format (e.g., JSON, typed schemas) to enable reliable downstream processing and integration.
+- **Multimodal input/output**: Processing and generating content across modalities — text, images, audio, video, and code. Text-only outputs are increasingly outdated; multimodal capabilities are now easy to incorporate and should be considered.
+
+<Callout>
+
+Understanding the difference between **chat interfaces**, **agents**, and **workflows** is important. A chat interface is a stateless back-and-forth conversation. An agent is an autonomous system that can plan, reason, and take actions using tools. A workflow is a structured, multi-step process that orchestrates multiple AI operations. Consider how your product can go beyond a simple chat interface.
+
+</Callout>
+
+### Building Agentic Systems
+
+Agentic systems represent the next evolution of AI applications. An agent is an AI system that can autonomously reason, plan, and take actions to accomplish goals — going well beyond simple prompt-response interactions.
+
+Key components of agentic systems include:
+
+- **Tools**: Functions or APIs that the agent can invoke to interact with the external world (e.g., web search, database queries, file operations, API calls).
+- **Memory**: Mechanisms for the agent to maintain context across interactions — including short-term (conversation history) and long-term (persistent knowledge) memory.
+- **Planning/reasoning loop**: The core loop where the agent decides what to do next based on its goals, observations, and available tools.
+- **Orchestration**: Coordinating multiple agents or sub-tasks to accomplish complex goals.
+
+If you are building an agentic system, you are encouraged to research and compare various agent SDKs and frameworks, and explain why you chose the one you did.
+
+Resources on building agentic systems:
+
+- [12-Factor Agents — Principles for building reliable LLM applications](https://github.com/humanlayer/12-factor-agents): A set of principles for building reliable, production-grade agentic systems. **Highly recommended reading.**
+
+<MilestoneCallout>
+  Describe the AI interaction patterns you are using in your product
+  (e.g., RAG, tool calling, structured outputs, agent loops, multi-step workflows).
+  Explain why these patterns were chosen and how they contribute to your product's
+  objectives. If you evaluated multiple frameworks or SDKs, explain your selection process.
+</MilestoneCallout>
+
+### LLMOps and Evaluation
+
+Just as DevOps transformed how software is deployed and maintained, **LLMOps** (Large Language Model Operations) is an emerging discipline for managing AI systems in production. A critical part of LLMOps is **evaluation** — systematically measuring whether your AI system is performing as expected.
+
+You should:
+
+1. **Create an evaluation dataset**: Curate a set of representative inputs and expected outputs (or quality criteria) for your application's key use cases.
+1. **Implement evaluation strategies**: Design and implement eval pipelines that can automatically assess the quality of your AI system's outputs. This might include automated scoring, LLM-as-judge evaluations, or human evaluation protocols.
+1. **Iterate based on results**: Use eval results to guide prompt engineering, model selection, and system design decisions.
+
+Resources:
+
+- [Demystifying Evals for AI Agents](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents) by Anthropic. An excellent guide to understanding and implementing evaluations for agentic AI systems.
+
+<MilestoneCallout>
+  Describe the evaluation dataset and strategy you created for your AI system.
+  How do you measure whether your system is performing well? Show examples of
+  your eval results and explain how they influenced your development decisions.
+</MilestoneCallout>
+
+### Production Optimization
+
+Running AI systems in production involves unique performance and cost challenges. You should learn and apply production optimization techniques, including:
+
+- **Prompt caching**: Reusing cached responses or partial computations for repeated or similar queries to reduce latency and cost.
+- **Batch calls**: Grouping multiple requests together to improve throughput and reduce API overhead.
+- **Minimizing latency**: Techniques such as streaming responses, using faster/smaller models for simpler tasks, and parallelizing independent operations.
+- **Cost management**: Monitoring and optimizing token usage, choosing the right model size for each task, and implementing fallback strategies.
+
+<MilestoneCallout>
+  Describe the production optimization techniques you implemented. What was the
+  impact on latency, cost, or user experience? Provide concrete metrics where
+  possible.
+</MilestoneCallout>
+
+### Safety and Security
+
+AI applications introduce unique safety and security considerations that must be addressed. This is not optional — it is a graded component of your submission.
+
+Key considerations include:
+
+- **Prompt injection**: Guarding against adversarial inputs that attempt to manipulate your AI system into producing unintended outputs or taking unauthorized actions. This is especially critical for agentic systems that can take real-world actions.
+- **Output validation**: Ensuring that AI-generated outputs are safe, appropriate, and within expected bounds before presenting them to users or acting on them.
+- **Data privacy**: Protecting user data that is sent to or processed by AI models, including considerations around data retention and third-party API usage.
+- **Rate limiting and abuse prevention**: Preventing users from abusing your AI system through excessive or malicious usage.
+
+<MilestoneCallout>
+  Identify the key risks and safeguards in your AI system. Describe at least two
+  specific safety or security measures you implemented (e.g., prompt injection
+  guards, output filtering, rate limiting). Explain the threat model and how your
+  measures address it.
+</MilestoneCallout>
+
 ### Other Resources
 
 #### Courses and Tutorials
@@ -534,11 +644,10 @@ Platforms like [Hugging Face](https://huggingface.co/) offer support for popular
 
 | **Model** | **Resources** |
 | :-- | :-- |
-| Llama 2 | [GitHub](https://github.com/facebookresearch/llama), [Fine-tuning guide](https://towardsdatascience.com/fine-tune-your-own-llama-2-model-in-a-colab-notebook-df9823a04a32), [Paper](https://scontent-xsp1-1.xx.fbcdn.net/v/t39.2365-6/10000000_662098952474184_2584067087619170692_n.pdf?_nc_cat=105&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=bGkSwJy8Xa4AX9SX9XW&_nc_ht=scontent-xsp1-1.xx&oh=00_AfC2wTMNDOi-1j5BHP7STSfurMRMQQANleVSDe7vcMVBOQ&oe=64FDAEFF) |
-| Vicuna-13B | [GitHub](https://github.com/lm-sys/FastChat), [Fine-tuning guide](https://docs.ray.io/en/master/train/examples/lightning/vicuna_13b_lightning_deepspeed_fine-tune.html) |
-| Alpaca | [GitHub](https://github.com/tloen/alpaca-lora/tree/main), [Fine-tuning guide](https://www.mlexpert.io/machine-learning/tutorials/alpaca-fine-tuning) |
-| MPT-7B | [GitHub](https://github.com/mosaicml/llm-foundry), [Fine-tuning guide](https://www.youtube.com/watch?v=3de0Utr9XnI), [Documentation](https://huggingface.co/mosaicml/mpt-7b) |
-| GPT-J-6B | [GitHub](https://github.com/kingoflolz/mesh-transformer-jax#gpt-j-6b), [Fine-tuning guide 1](https://huggingface.co/docs/transformers/model_doc/gptj), [Fine-tuning guide 2](https://betterprogramming.pub/fine-tuning-gpt-j-6b-on-google-colab-or-equivalent-desktop-or-server-gpu-b6dc849cb205) |
+| Llama 3 / 3.1 / 3.2 | [GitHub](https://github.com/meta-llama/llama3), [Official Website](https://llama.meta.com/) |
+| Mistral / Mixtral | [GitHub](https://github.com/mistralai/mistral-src), [Official Website](https://mistral.ai/) |
+| Gemma 2 | [Hugging Face](https://huggingface.co/google/gemma-2-9b), [Official Website](https://ai.google.dev/gemma) |
+| Qwen 2.5 | [GitHub](https://github.com/QwenLM/Qwen2.5), [Hugging Face](https://huggingface.co/Qwen) |
 
 It is recommended that users interested in fine-tuning such models have access high performance compute clusters with available GPUs (suggestions: NVIDIA RTX 3090, NVIDIA RTX4090, NVIDIA H100 Tensor Core, etc). Alternatively, you can look into online cloud compute platforms like [Lambda Labs](https://lambdalabs.com/), [Paperspace](https://www.paperspace.com/), or [Google Colab Pro/Pro+](https://colab.research.google.com/signup).
 
@@ -562,7 +671,7 @@ These reasons are why it is important to build a good brand. Even choosing names
 
 - **Length of the name**. Will it be too hard to remember?
 - **Reproducibility of the name by spelling**. If A were to hear B say "I use Whatchamacallit to build this website," would A be able to type it and find it on search engines?
-- **Domain name availability**. Some may even get clever with [domain hacks](https://en.wikipedia.org/wiki/Domain_hack), e.g., [del.icio.us](<https://en.wikipedia.org/wiki/Delicious_(website)>), but can it be easily shared verbally?
+- **Domain name availability**. Some may even get clever with [domain hacks](https://en.wikipedia.org/wiki/Domain_hack), e.g., [del.icio.us](https://en.wikipedia.org/wiki/Delicious_(website)), but can it be easily shared verbally?
 - **Social handles availability**. Is @mynextstartup available on major social media sites, e.g., Instagram, X, Threads, TikTok, etc.? If you're not quick to claim the handle, adversaries may claim it first, and you might have to either buy it from them, or file a dispute.
 - **Similarities with other brands**. Could people think your product Zwitter is just a cheap clone of Twitter?
 - **Cultural references**. Did you know the toothpaste brand Darlie was originally known as Darkie? It was changed in 1989 due to "darky" or "darkie" being considered a racial slur.
@@ -674,6 +783,15 @@ It is implored that you can now appreciate how expensive a UX research process c
 
 ### User Interface
 
+<Callout type="warning">
+
+**Beautiful UI design is the bare minimum now.** With AI-assisted design and coding tools at your disposal, there is no excuse for a mediocre-looking application. Default component library styling (e.g., unstyled shadcn/ui defaults) is not acceptable — you must customize and thoughtfully design your interface. If you are not confident in your design abilities, use AI to help you design. Some useful resources:
+
+- [Impeccable Style](https://impeccable.style/) — A guide to writing better CSS and improving your UI aesthetics.
+- [Design Prompts](https://www.designprompts.dev/) — Prompts and patterns for using AI to improve your UI/UX design.
+
+</Callout>
+
 UI is the space where interactions between humans and computers occur to achieve their objectives. You'd probably already be familiar with some of the concepts of UI from Assignment 1. But UI design is more than just typography or color theory.
 
 Something unique in this assignment is the incorporation of AI technologies in your app. Frankly, this is a rather new development, and there are no hard and fast rules in designing interfaces for AI apps. However, there are some aspects that one should consider when incorporating intelligence in their app.
@@ -695,7 +813,7 @@ Needless to say, the basic principles of UI design still apply in this milestone
 
 ### Landing Page
 
-Similar to what you have read in Assignment 1, launching your product site only when the app is ready is often suboptimal. In this milestone, you are building a product site (a real one, this time) that showcases your product. Some decent examples include [Remix](http://remix.run/), [JetBrains Fleet](https://www.jetbrains.com/fleet/), and [GitHub Copilot](https://github.com/features/preview/copilot-x). A great product site should achieve: explaining why it exists, informing about the features, and calling for an action (a call-to-action).
+Similar to what you have read in Assignment 1, launching your product site only when the app is ready is often suboptimal. In this milestone, you are building a product site (a real one, this time) that showcases your product. Some decent examples include [Remix](http://remix.run/), [JetBrains Fleet](https://www.jetbrains.com/fleet/), and [GitHub Copilot](https://github.com/features/copilot). A great product site should achieve: explaining why it exists, informing about the features, and calling for an action (a call-to-action).
 
 Since this site relates to your product launch in a later milestone, it is also worthy to think about how your site is seen when shared. Think about what happens when you share a URL via Telegram, WhatsApp, or LinkedIn. Nowadays, people don't just see the URL, they also see a thumbnail, title of the site (truncated if it's too long), and first few sentences of the site description. This metadata is a standard known as the [Open Graph Protocol](https://ogp.me/). Optimizing this is extremely beneficial because it influences the users even before the link is clicked.
 
@@ -738,11 +856,18 @@ Google Analytics only updates the reports once a day, do not expect to see immed
 
 More information and examples can be found from the [official Google Analytics 4 documentation](https://developers.google.com/analytics/devguides/collection/ga4).
 
+<Callout>
+
+With AI-assisted coding, integrating analytics is now very straightforward. The focus of this milestone is therefore less on the integration itself and more on **what you learn from the data**. You should be able to articulate what your analytics tell you about user behavior, and how these insights inform your product decisions.
+
+</Callout>
+
 <MilestoneCallout>
   Embed Google Analytics or equivalent alternatives in your application and give
-  us a screenshot of the report. Make sure you embed the tracker at least 48
-  hours before the submission deadline as updates for Google Analytics are
-  reported once per day.
+  us a screenshot of the report. Explain what insights you derived from the
+  analytics data and how they influenced (or would influence) your product
+  decisions. Make sure you embed the tracker at least 48 hours before the
+  submission deadline as updates for Google Analytics are reported once per day.
 </MilestoneCallout>
 
 ### Launch Campaign
@@ -776,54 +901,57 @@ This section is purely optional. Completing milestone(s) described in this secti
 
 Several suggestions have been provided. We emphasize that these are merely suggestions, which means that if you find them unsuitable for your application, you may still score full points in coolness by coming up with ideas of your own. On the other hand, blindly using these suggested technologies to create redundant features will not get you any credit. It is about using them in creative ways to make your application more desirable to use.
 
-### Embeddings (Optional)
+<Callout>
 
-A recommended technique to improve the generated results is to supplement the model with high quality, relevant, and updated information about the query and instruct the model to use the information when generating the output. This is especially useful if the query is about recent events or information that the model has not been trained on.
+Note that some techniques that were previously considered "above and beyond" — such as basic embeddings/RAG and SEO/social sharing — are now increasingly standard practice in the industry (see Phase 3 for more context). The suggestions below represent genuinely advanced techniques.
 
-Embeddings refer to the method of representing words or phrases as vectors (list) of floating point numbers. These embeddings capture semantic meanings based on the context in which words appear in the text data. Words with similar meanings will have similar vector representations in the embedding space.
+</Callout>
 
-Embeddings can thus be used to implement efficient knowledge retrieval. In particular, a text corpus can be split up into chunks, and each chunk is embedded (converted into a vector of numbers) and stored. A given query can then be embedded and vector search is performed to find the embedded chunks of text from the corpus that are most similar/related to the query.
+### Advanced RAG (Optional)
 
-To quickly search across multiple vectors, it is recommended to store your vectors in vector databases which provide ways to query your collection of vectors given a query.
+While basic RAG is increasingly common in modern AI applications (see Phase 3), there are more sophisticated retrieval techniques that can significantly improve the quality of your AI system's outputs:
 
-- [Supabase Vector](https://supabase.com/vector): Supabase is an open source Firebase alternative built on PostgreSQL. With the pgvector extension, you can store vector data. This is recommended because you can use Supabase for both relational and vector data, using one database for all your application needs.
-- [Weaviate](https://weaviate.io/): Open source vector database that also offers a fully managed option.
-- [Pinecone](https://www.pinecone.io/): Fully-managed, developer-friendly, and easily scalable vector database.
-- [Chroma](https://www.trychroma.com/): AI-native open source embedding database. As of Aug 2023, it does not offer managed hosting.
-
-For example, an e-commerce website owner could embed information about the company and products to build a customer support chatbot. The chatbot answers user queries by fetching the vectors related to the query and passing both the query and necessary information to an LLM.
-
-Further reading on embeddings:
-
-- [Embeddings - OpenAI API](https://platform.openai.com/docs/guides/embeddings)
-- [Embeddings - Cohere](https://docs.cohere.com/docs/embeddings)
+- **Graph RAG**: Instead of treating your knowledge base as flat chunks of text, Graph RAG builds a knowledge graph that captures relationships between entities, enabling more nuanced and contextually-aware retrieval.
+- **Hybrid search**: Combining dense vector search with sparse keyword search (e.g., BM25) for more robust retrieval across different query types.
+- **Agentic RAG**: Using agents to dynamically decide what to retrieve, when to retrieve, and how to synthesize information from multiple sources.
 
 <MilestoneCallout labelSuffix="(Optional)">
-  Use embeddings in your app. Explain why it was useful for your product to use
-  embeddings.
+  Implement an advanced RAG technique (e.g., Graph RAG, hybrid search, agentic
+  RAG) in your application. Explain the technique, why it was chosen, and
+  demonstrate its impact compared to basic RAG.
 </MilestoneCallout>
 
-### SEO and Social Sharing (Optional)
+### Multi-Agent Systems and Agent Orchestration (Optional)
 
-Social platforms like Facebook, Instagram and Twitter receive billions of users every month, the majority of whom are on mobile devices. Where else can you find the potential to reach so many people without a single cent spent on advertising?
+For complex tasks, a single agent may not suffice. Multi-agent systems involve multiple specialized agents working together, each responsible for different aspects of a task. Agent orchestration involves coordinating these agents — managing their communication, task delegation, and result aggregation.
 
-Integrating Facebook Login can help potential users overcome the inertia of a tedious sign-up process and can potentially make them more inclined to try your application.
+Examples of multi-agent patterns include:
 
-[Facebook Social Plugins](https://developers.facebook.com/docs/plugins/) or [Twitter for Websites](https://dev.twitter.com/web/overview) creates a timeline post or tweet with a single click of the mouse, extending your reach to friends and followers of your current users. Having just one friend per user (out of hundreds) sign up would easily double your user base.
-
-Best of all, most of these features can be included by copying and pasting provided code snippets or calling a few functions in the JavaScript SDK. This is so simple that it is a waste not to do so. Without much additional effort, you can get your application seen and possibly used by many more people. Of course, your application must be good or no one would share it.
-
-Also ensure that the social sharing preview images are attractive. Vercel provides a useful tool for [dynamic OG image generation](https://vercel.com/docs/concepts/functions/edge-functions/og-image-generation).
+- A "planner" agent that decomposes tasks and delegates to specialist agents
+- Debate/consensus patterns where multiple agents cross-check each other's work
+- Pipeline architectures where agents process data in sequence, each adding value
 
 <MilestoneCallout labelSuffix="(Optional)">
-  Identify and integrate with social network(s) containing users in your target
-  audience. State the social plugins you have used. Explain your choice of
-  social network(s) and plugins.
+  Implement a multi-agent system or agent orchestration pattern in your
+  application. Describe the architecture, the role of each agent, and how they
+  coordinate to accomplish tasks.
+</MilestoneCallout>
+
+### Model Context Protocol (MCP) (Optional)
+
+[Model Context Protocol (MCP)](https://modelcontextprotocol.io/) is an open protocol that standardizes how AI applications connect to external data sources and tools. By implementing MCP, your application can expose its capabilities as tools that other AI systems can discover and use, or consume tools provided by other MCP-compatible services.
+
+This is particularly valuable for building interoperable AI systems that can work together across different platforms and services.
+
+<MilestoneCallout labelSuffix="(Optional)">
+  Implement MCP in your application — either as an MCP server (exposing your
+  app's capabilities) or an MCP client (consuming external MCP services).
+  Explain how MCP integration enhances your product's value.
 </MilestoneCallout>
 
 ## Assessment Scheme
 
-The grading of the assignment is divided into two components: satisfying the compulsory milestones (70%) and the coolness factor (30%). Excluding Milestone 0, there are **16 compulsory milestones** in total. Milestone 1, 2, 3 and 10 are worth 2.5% each. The rest are worth 5% each.
+The grading of the assignment is divided into two components: satisfying the compulsory milestones (70%) and the coolness factor (30%). Excluding Milestone 0, there are **20 compulsory milestones** in total. Milestone 1, 2, 3 and 10 are worth 2.5% each. The rest are worth approximately 3.75% each.
 
 The remaining 30% will be awarded based on the relative outcomes for the various teams. The top team might be awarded up to 30%, while the worst performing team less than 5%. The optional milestones can also contribute to this.
 
