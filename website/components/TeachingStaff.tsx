@@ -24,13 +24,17 @@ export default function TeachingStaff({hasClassPhoto = true, year}: Props) {
                   loading="lazy"
                 />
                 <h3 className="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900 dark:text-gray-100">
-                  <Link
-                    className="hover:underline"
-                    href={person.url}
-                    target="_blank"
-                    rel="noreferrer noopener">
-                    {person.name} ↗
-                  </Link>
+                  {person.url ? (
+                    <Link
+                      className="hover:underline"
+                      href={person.url}
+                      target="_blank"
+                      rel="noreferrer noopener">
+                      {person.name} ↗
+                    </Link>
+                  ) : (
+                    person.name
+                  )}
                 </h3>
                 {person.role && (
                   <p className="text-base leading-7 text-gray-600 dark:text-gray-400">
