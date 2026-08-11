@@ -6,7 +6,7 @@ Here's a quick guide on using this script.
 1. Unzip the submissions folder and copy the folders over to this directory, under `data/`. In other words, you should have something like:
 
    ```text
-     /update-students-from-coursemology/data
+     /update-students-from-coursemology
        /submissions
          /student1
            /Question 1...
