@@ -1,4 +1,5 @@
-[  {
+[
+  {
     "year": 2026,
     "staff": [
       {
@@ -21,10 +22,268 @@
         "image": "/img/staff/phillmont-muktar.jpg",
         "role": "Head Teaching Assistant",
         "url": "https://phillmont.dev/"
+      },
+      {
+        "name": "Lee Jia Wei",
+        "id": "jia-wei-lee",
+        "image": "/img/staff/jia-wei-lee.jpg",
+        "role": "Teaching Assistant",
+        "url": "https://www.linkedin.com/in/leejiawei-00/"
+      },
+      {
+        "name": "Markus Yeo Jing Yu",
+        "id": "markus-yeo",
+        "image": "/img/staff/markus-yeo.jpg",
+        "role": "Teaching Assistant",
+        "url": "https://www.linkedin.com/in/markus-yeo-93a6a6129/"
+      },
+      {
+        "name": "Rajarshi Basu",
+        "id": "rajarshi-basu",
+        "image": "/img/staff/rajarshi-basu.jpg",
+        "role": "Teaching Assistant",
+        "url": "https://www.linkedin.com/in/rajarshibasu1/"
       }
     ],
     "students": [
-      
+      {
+        "name": "Agarwal Sahej",
+        "id": "agarwal-sahej",
+        "faculty": "Design & Engineering",
+        "url": "https://www.linkedin.com/in/sahej-agarwal/",
+        "one_liner": "I might sleep in class."
+      },
+      {
+        "name": "Ang Qi Jun",
+        "id": "ang-qi-jun",
+        "faculty": "Computing",
+        "url": "https://github.com/realqijun",
+        "one_liner": "Life's not a movie, I'm not a movie star"
+      },
+      {
+        "name": "Angel Bu Tong Mei",
+        "id": "angel-bu-tong-mei",
+        "faculty": "Science",
+        "url": "https://www.linkedin.com/in/angel-bu-tong-mei-122776301/",
+        "one_liner": "An outgoing and fun person curious about this world."
+      },
+      {
+        "name": "Bhavina Sathish Kumar",
+        "id": "bhavina-sathish-kumar",
+        "faculty": "Computing",
+        "url": "https://www.linkedin.com/in/bhavina-sk",
+        "one_liner": "Curious, always exploring, and a firm believer in serendipity."
+      },
+      {
+        "name": "Brandon Lim",
+        "id": "brandon-lim",
+        "faculty": "Design & Engineering",
+        "url": "https://www.linkedin.com/in/brandon-lim-b858b5319",
+        "one_liner": "Electrical engineering student who would rather build companies than a resume."
+      },
+      {
+        "name": "Brian Sebastian Hu",
+        "id": "brian-sebastian-hu",
+        "faculty": "Computing",
+        "url": "https://www.linkedin.com/in/brian-hu9/",
+        "one_liner": "CS student surviving one day at a time"
+      },
+      {
+        "name": "Cedric Tay Shi Han",
+        "id": "cedric-tay-shi-han",
+        "faculty": "Science",
+        "url": "https://Cedric Tay",
+        "one_liner": "Hi guys. I'm cedric, a curious and driven Data Science student who combines analytical thinking, commercial awareness and initiative to solve real business problems."
+      },
+      {
+        "name": "Chen Jianxi",
+        "id": "chen-jianxi",
+        "faculty": "Computing",
+        "url": "https://www.linkedin.com/in/jianxi-chen-4189911b3/",
+        "one_liner": "Still looking at stars"
+      },
+      {
+        "name": "Damian Liew Cho Xiang",
+        "id": "damian-liew-cho-xiang",
+        "faculty": "Computing",
+        "url": "https://www.linkedin.com/in/damiancxliew",
+        "one_liner": "I enjoy building and experimenting with things, and I love to do sports."
+      },
+      {
+        "name": "Dinh Duy Linh Dan",
+        "id": "dinh-duy-linh-dan",
+        "faculty": "Computing",
+        "url": "https://dandinh.net",
+        "one_liner": "Life is short. So am I. But gliding on my skates makes me feel taller 🛼🧍🏻‍♀️"
+      },
+      {
+        "name": "Goh Rou Shuen",
+        "id": "goh-rou-shuen",
+        "faculty": "Science",
+        "url": "https://www.linkedin.com/in/rou-shuen-goh-962150331",
+        "one_liner": "I am a Life Sciences major student who is interested in learning more about software engineering skills"
+      },
+      {
+        "name": "Govindaraj Roshni Daksha",
+        "id": "govindaraj-roshni-daksha",
+        "faculty": "Computing",
+        "url": "https://www.linkedin.com/in/roshni-daksha-govindaraj/",
+        "one_liner": "A Y4 CEG explorer who loves learning and building backends, databases, and AI."
+      },
+      {
+        "name": "He Yiyang",
+        "id": "he-yiyang",
+        "faculty": "Arts & Social Sciences",
+        "url": "https://www.linkedin.com/in/he-yiyang/",
+        "one_liner": "Year 4 Sociology student curious about connecting strategy and practice to bridge business and social value in driving meaningful change."
+      },
+      {
+        "name": "Hoang Trung Hai",
+        "id": "hoang-trung-hai",
+        "faculty": "Computing",
+        "url": "https://github.com/Kubogi",
+        "one_liner": "i just lost my 50/50"
+      },
+      {
+        "name": "Hon Yi Hao",
+        "id": "hon-yi-hao",
+        "faculty": "Computing",
+        "url": "https://github.com/yihao03",
+        "one_liner": "Full time tinkerer, part time writer, most of the time daydreamer"
+      },
+      {
+        "name": "Hoo Di Heng",
+        "id": "hoo-di-heng",
+        "faculty": "Computing",
+        "url": "https://hoodiheng.com",
+        "one_liner": "A CS student finding edge cases in life!"
+      },
+      {
+        "name": "Huang Kaijuan Joulene",
+        "id": "huang-kaijuan-joulene",
+        "faculty": "Computing",
+        "url": "https://Joulene Huang | LinkedIn",
+        "one_liner": "Three things I love: building things, cute things (especially Mofusand), and good food."
+      },
+      {
+        "name": "Jain Ananya",
+        "id": "jain-ananya",
+        "faculty": "Computing",
+        "url": "https://ananyajain.netlify.app",
+        "one_liner": "I build things, overthink things, and keep way too many tabs open"
+      },
+      {
+        "name": "Kalent Chia Chang Rong",
+        "id": "kalent-chia-chang-rong",
+        "faculty": "Arts & Social Sciences",
+        "url": "https://kalent-portfolio.vercel.app/",
+        "one_liner": "I am Kalent, a student with experience across product building, analytics and AI workflows."
+      },
+      {
+        "name": "Keith",
+        "id": "keith",
+        "faculty": "Computing",
+        "url": "https://www.linkedin.com/in/keith-ong-19a813200",
+        "one_liner": "Probably reading a book or overthinking how society works."
+      },
+      {
+        "name": "Kerk Tai Heng",
+        "id": "kerk-tai-heng",
+        "faculty": "Computing",
+        "url": "http://tiny.cc/kerktaiheng",
+        "one_liner": "‎‎‎ ‎ ‎ ‎ ‎ ‎ ‎"
+      },
+      {
+        "name": "Maahir Rajesh Garg",
+        "id": "maahir-rajesh-garg",
+        "faculty": "Computing",
+        "url": "https://maahir-garg.vercel.app/",
+        "one_liner": "My degree is just a fancy way of saying I overthink my bad decisions using math."
+      },
+      {
+        "name": "Madrid Lim",
+        "id": "madrid-lim",
+        "faculty": "Science",
+        "url": "https://www.linkedin.com/in/madrid-lim-8264082a2/",
+        "one_liner": "I run straight into walls. At times, mental. Other times, concrete."
+      },
+      {
+        "name": "Ng Chen Meng",
+        "id": "ng-chen-meng",
+        "faculty": "Computing",
+        "url": "https://www.linkedin.com/in/ng-chen-meng-100abc/",
+        "one_liner": "Leaving my macbook slightly ajar so my agents work overtime"
+      },
+      {
+        "name": "Ng Yong Jin, Rooney",
+        "id": "ng-yong-jin-rooney",
+        "faculty": "Computing",
+        "url": "https://github.com/infernoxthecat",
+        "one_liner": "My name is Rooney and I'm an imaginative person that is dedicated to staying true to the vision in whatever work I do!"
+      },
+      {
+        "name": "Nguyen Anh Duc",
+        "id": "nguyen-anh-duc",
+        "faculty": "Computing",
+        "url": "https://www.linkedin.com/in/duc3110/",
+        "one_liner": "full time software/ AI enthusiast, part time pool player (or the other way around)"
+      },
+      {
+        "name": "Nguyen Dinh Nam",
+        "id": "nguyen-dinh-nam",
+        "faculty": "Computing",
+        "url": "https://www.linkedin.com/in/nam-nguyen-2b1183182/",
+        "one_liner": "Hi, I am Nam and I like to create new things from a creative ideas, so let's bring crazy ideas into real life together."
+      },
+      {
+        "name": "Qin Haichen",
+        "id": "qin-haichen",
+        "faculty": "Science",
+        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "one_liner": "To code or not to code"
+      },
+      {
+        "name": "Sanjeev",
+        "id": "sanjeev",
+        "faculty": "Science",
+        "url": "https://www.youtube.com/watch?v=-8b_ia6Gq4s",
+        "one_liner": "Product-minded builder who turns messy data and stakeholder chaos into shipped tools, and leads the team that gets them out the door."
+      },
+      {
+        "name": "Shamit Gupta",
+        "id": "shamit-gupta",
+        "faculty": "Computing",
+        "url": "https://www.linkedin.com/in/shamitgupta/",
+        "one_liner": "Curious Learner who is here to thrive"
+      },
+      {
+        "name": "Subramanian Karthikeyan",
+        "id": "subramanian-karthikeyan",
+        "faculty": "Computing",
+        "url": "https://LinkedIn - https://www.linkedin.com/in/skarthikeyan28/",
+        "one_liner": "I'm a final year CS student, specialising in software engineering, who's passionate about community initiatives and arts and I also have my own start-up which is an events discovery and ticketing platform for Indian events."
+      },
+      {
+        "name": "Tsai Chi An",
+        "id": "tsai-chi-an",
+        "faculty": "Computing!",
+        "url": "https://personal website still in progress :) will submit again next time",
+        "one_liner": "i like marmots"
+      },
+      {
+        "name": "Zhang Zi Yao",
+        "id": "zhang-zi-yao",
+        "faculty": "Design & Engineering",
+        "url": "https://www.linkedin.com/in/zhang-zi-yao-78a463323",
+        "one_liner": "I would describe myself with 5Cs--> Creative, Consistent, Curious, Confident and Collaborative."
+      },
+      {
+        "name": "Zhang Li Kevin",
+        "id": "zhang-li-kevin",
+        "faculty": "Computing",
+        "url": "https://github.com/IceyFoxes",
+        "one_liner": "I'm Kevin, a Year 3 Computer Science and Business student interested in software engineering, AI, data, and financial markets."
+      }
     ]
   },
   {
