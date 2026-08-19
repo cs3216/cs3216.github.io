@@ -15,7 +15,7 @@
   "artificial_intelligence": {
     "issue": "2026-08-24",
     "submission": "2026-09-25T23:59:00",
-    "show_updating_notice": true
+    "show_updating_notice": false
   },
   "project": {
     "issue": "2026-09-14",

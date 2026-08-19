@@ -1,3 +1,9 @@
 {
-  "mobile": "Mobile Cloud App"
+  "artificial-intelligence": "Artificial Intelligence App",
+  "mobile": "Mobile Cloud App",
+  "old": {
+    "title": "Old CS3216 Website",
+    "href": "https://www.comp.nus.edu.sg/~cs3216/",
+    "newWindow": true
+  }
 }
