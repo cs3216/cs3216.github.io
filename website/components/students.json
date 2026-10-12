@@ -117,6 +117,13 @@
         "one_liner": "Life is short. So am I. But gliding on my skates makes me feel taller 🛼🧍🏻‍♀️"
       },
       {
+        "name": "Garg Maahir Rajesh",
+        "id": "maahir-rajesh-garg",
+        "faculty": "Computing",
+        "url": "https://maahir-garg.vercel.app/",
+        "one_liner": "My degree is just a fancy way of saying I overthink my bad decisions using math."
+      },
+      {
         "name": "Goh Rou Shuen",
         "id": "goh-rou-shuen",
         "faculty": "Science",
@@ -129,13 +136,6 @@
         "faculty": "Computing",
         "url": "https://www.linkedin.com/in/roshni-daksha-govindaraj/",
         "one_liner": "A Y4 CEG explorer who loves learning and building backends, databases, and AI."
-      },
-      {
-        "name": "He Yiyang",
-        "id": "he-yiyang",
-        "faculty": "Arts & Social Sciences",
-        "url": "https://www.linkedin.com/in/he-yiyang/",
-        "one_liner": "Year 4 Sociology student curious about connecting strategy and practice to bridge business and social value in driving meaningful change."
       },
       {
         "name": "Hoang Trung Hai",
@@ -180,25 +180,11 @@
         "one_liner": "I am Kalent, a student with experience across product building, analytics and AI workflows."
       },
       {
-        "name": "Keith",
-        "id": "keith",
-        "faculty": "Computing",
-        "url": "https://www.linkedin.com/in/keith-ong-19a813200",
-        "one_liner": "Probably reading a book or overthinking how society works."
-      },
-      {
         "name": "Kerk Tai Heng",
         "id": "kerk-tai-heng",
         "faculty": "Computing",
         "url": "http://tiny.cc/kerktaiheng",
         "one_liner": "‎‎‎ ‎ ‎ ‎ ‎ ‎ ‎"
-      },
-      {
-        "name": "Maahir Rajesh Garg",
-        "id": "maahir-rajesh-garg",
-        "faculty": "Computing",
-        "url": "https://maahir-garg.vercel.app/",
-        "one_liner": "My degree is just a fancy way of saying I overthink my bad decisions using math."
       },
       {
         "name": "Madrid Lim",
@@ -236,25 +222,11 @@
         "one_liner": "Hi, I am Nam and I like to create new things from a creative ideas, so let's bring crazy ideas into real life together."
       },
       {
-        "name": "Qin Haichen",
-        "id": "qin-haichen",
-        "faculty": "Science",
-        "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-        "one_liner": "To code or not to code"
-      },
-      {
         "name": "Sanjeev",
         "id": "sanjeev",
         "faculty": "Science",
         "url": "https://www.youtube.com/watch?v=-8b_ia6Gq4s",
         "one_liner": "Product-minded builder who turns messy data and stakeholder chaos into shipped tools, and leads the team that gets them out the door."
-      },
-      {
-        "name": "Shamit Gupta",
-        "id": "shamit-gupta",
-        "faculty": "Computing",
-        "url": "https://www.linkedin.com/in/shamitgupta/",
-        "one_liner": "Curious Learner who is here to thrive"
       },
       {
         "name": "Subramanian Karthikeyan",
@@ -271,18 +243,18 @@
         "one_liner": "i like marmots"
       },
       {
-        "name": "Zhang Zi Yao",
-        "id": "zhang-zi-yao",
-        "faculty": "Design & Engineering",
-        "url": "https://www.linkedin.com/in/zhang-zi-yao-78a463323",
-        "one_liner": "I would describe myself with 5Cs--> Creative, Consistent, Curious, Confident and Collaborative."
-      },
-      {
         "name": "Zhang Li Kevin",
         "id": "zhang-li-kevin",
         "faculty": "Computing",
         "url": "https://github.com/IceyFoxes",
         "one_liner": "I'm Kevin, a Year 3 Computer Science and Business student interested in software engineering, AI, data, and financial markets."
+      },
+      {
+        "name": "Zhang Zi Yao",
+        "id": "zhang-zi-yao",
+        "faculty": "Design & Engineering",
+        "url": "https://www.linkedin.com/in/zhang-zi-yao-78a463323",
+        "one_liner": "I would describe myself with 5Cs--> Creative, Consistent, Curious, Confident and Collaborative."
       }
     ]
   },
