@@ -24,8 +24,8 @@
     "progress_report_1_submission": "2026-10-11T23:59:00",
     "progress_report_2_submission": "2026-10-25T23:59:00",
     "in_class_progress_report": "2026-11-02T18:30:00",
-    "poster_session": "2026-11-12",
-    "is_poster_session_date_tentative": true,
+    "poster_session": "2026-11-11",
+    "is_poster_session_date_tentative": false,
     "final_report_submission": "2026-11-18T23:59:00",
     "google_sheet": "https://docs.google.com/spreadsheets",
     "show_updating_notice": true
