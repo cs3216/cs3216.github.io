@@ -28,6 +28,6 @@
     "is_poster_session_date_tentative": false,
     "final_report_submission": "2026-11-18T23:59:00",
     "google_sheet": "https://docs.google.com/spreadsheets",
-    "show_updating_notice": true
+    "show_updating_notice": false
   }
 }
